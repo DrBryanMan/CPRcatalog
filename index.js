@@ -12,25 +12,21 @@ let allTeams = []
 async function loadAnimeData() {
     if (allAnimes.length === 0) {
         try {
-            const response = await fetch("AnimeTitlesDB.json")
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`)
-            }
-            const result = await response.json()
+            const result = await fetch('AnimeTitlesDB.json')
+            .then(res => res.json())
             
             allAnimes = result.map(anime => ({
                 id: anime.id,
-                cover: anime.cover?.external?.url || anime.cover?.file?.url || "https://img.notionusercontent.com/ext/https%3A%2F%2Fs4.anilist.co%2Ffile%2Fanilistcdn%2Fmedia%2Fanime%2Fbanner%2F20661-JwMKrCzeSTZ7.png/size/w=2000?exp=1726647160&sig=EgP5STWm5tSXYXsHut4fglLMAaMeVjHEfscBhXd2vwk",
+                cover: anime.cover?.file?.url || "https://www.1999.co.jp/itbig85/10852139a2_m.jpg",
                 poster: anime.properties.Постер.files[0]?.external?.url || anime.properties.Постер.files[0]?.file.url || "https://www.1999.co.jp/itbig85/10852139a2_m.jpg",
                 title: anime.properties['Назва тайтлу'].title[0]?.plain_text || "[додайте назву]",
-                romaji: anime.properties.Ромаджі.rich_text[0]?.plain_text || "",
-                type: anime.properties["Тип медіа"].multi_select[0]?.name || "",
-                format: anime.properties.Формат.select?.name || "",
+                romaji: anime.properties.Ромаджі.rich_text[0]?.plain_text || '',
+                type: anime.properties["Тип медіа"].multi_select[0]?.name || '',
+                format: anime.properties.Формат.select?.name || '',
                 year: anime.properties["Рік виходу"].rich_text[0]?.plain_text || "",
                 episodes: anime.properties["Кількість серій"].rich_text[0]?.plain_text || "",
                 releases: anime.properties['🗂️ Релізи команд'].relation || []
             }))
-            console.log(allAnimes[0].cover)
         } catch (error) {
             console.error("Error loading anime data:", error)
             throw error // перекидаємо помилку далі
@@ -42,8 +38,8 @@ async function loadAnimeData() {
 // Завантаження даних про команди
 async function loadTeamsData() {
     if (allTeams.length === 0) {
-        const response = await fetch("TeamsDB.json")
-        const result = await response.json()
+        const result = await fetch('TeamsDB.json')
+        .then(res => res.json())
         allTeams = result.map(team => ({
             id: team.id,
             logo: team.icon?.file?.url || 'path/to/default/logo.png',
@@ -56,11 +52,11 @@ async function loadTeamsData() {
 // Завантаження даних про релізи
 async function loadReleasesData() {
     if (allReleases.length === 0) {
-        const response = await fetch("AnimeReleasesDB.json")
-        const result = await response.json()
+        const result = await fetch('AnimeReleasesDB.json')
+        .then(res => res.json())
         allReleases = result.map(release => ({
             id: release.id,
-            animeId: release.properties['Тайтл'].relation[0]?.id,
+            animeId: release.properties['Тайтл']?.relation[0]?.id || "",
             // animeData: allAnimes.find(anime => anime.id === release.animeId),
             title: release.properties['Name'].title[0]?.plain_text || 'Без назви',
             cover: release.cover?.external?.url || release.cover?.file?.url || "",
@@ -134,10 +130,12 @@ async function renderReleasesSection(releases, title) {
     for (const release of releases) {
         const animeData = allAnimes.find(anime => anime.id === release.animeId)
         const teams = release.teams.map(t => `<img src="${t.logo}" style="width: 25px; height: auto; object-fit: contain;"> ${t.name}`)
+        console.log(allReleases[0].animeId)
+        // console.log(releases[0].properties['Тайтл'].relation[0].id)
         const listItem = document.createElement('div')
         listItem.classList.add('release-card')
         listItem.innerHTML = `
-            <img src="${animeData.cover}" alt="" class="release-poster">
+            <img src="${animeData?.cover || release?.cover || '' }" class="release-poster">
             <div class="release-info">
                 <h3 class="truncate">${release.title}</h3>
                 <p>${teams}</p>
