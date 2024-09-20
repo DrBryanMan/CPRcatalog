@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anime Catalog</title>
+        <link rel="stylesheet" href="css.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><button id="homeButton">На головну</button></li>
+                <li><button id="animeButton">Аніме</button></li>
+                <li><button id="releasesButton">Релізи</button></li>
+                <button id="searchButton">Пошук</button>
+            </ul>
+        </nav>
+
+        <div id="searchModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="search-type">
+                    <label><input type="radio" name="searchType" value="anime" checked>Аніме</label>
+                    <label><input type="radio" name="searchType" value="releases">Релізи</label>
+                    <label><input type="radio" name="searchType" value="teams">Команди</label>
+                </div>
+                <input type="text" id="searchInput" placeholder="Введіть запит...">
+                <div id="searchResults"></div>
+            </div>
+        </div>
+
+        <div id="app">
+            <!-- Тут буде рендеритись контент -->
+        </div>
+
+        <div id="loading-overlay">
+            <div class="loader"></div>
+        </div>
+
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
