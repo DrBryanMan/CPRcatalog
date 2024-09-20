@@ -1,0 +1,41 @@
+.random-anime-container {
+    display: flex;
+    width: 50%;
+    gap: 1em;
+    margin: auto;
+}
+.random-anime-info {
+    width: 70%;
+}
+.random-anime-poster {
+    width: 150px;
+    height: 200px;
+    border-radius: var(--radius);
+}
+#app > div h2,
+.page-block > h3 {
+/*   position: relative; */
+  border-left: .5rem solid var(--accent);
+  padding-left: 10px;
+  transition: .3s;
+}
+#app > div h2 {
+  margin: 1em 0 .5em;
+}
+
+/* == stats-container == */
+.stats-container {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 200%;
+    border: 2px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 0.5em 2em;
+}
