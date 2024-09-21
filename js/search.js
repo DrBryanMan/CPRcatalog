@@ -1,8 +1,6 @@
 export function initSearch(animesData, releasesData, teamsData, renderAnimeDetail, renderReleaseDetail) {
 
     // Відкриття модального вікна
-    // const searchButton = document.getElementById('searchButton')
-    // const searchModal = document.getElementById('searchModal')
     const closeBtn = searchModal.querySelector('.close')
 
     searchButton.onclick = () => {
@@ -31,31 +29,6 @@ export function initSearch(animesData, releasesData, teamsData, renderAnimeDetai
         searchTimeout = setTimeout(performSearch, 300)
     })
 
-    function performSearch() {
-        const query = searchInput.value.toLowerCase()
-        const searchType = document.querySelector('input[name="searchType"]:checked').value
-        
-        if (query.length < 2) {
-            searchResults.innerHTML = ''
-            return
-        }
-
-        let results
-        switch(searchType) {
-            case 'anime':
-                results = searchAnime(query)
-                break
-            case 'releases':
-                results = searchReleases(query)
-                break
-            case 'teams':
-                results = searchTeams(query)
-                break
-        }
-
-        displayResults(results, searchType)
-    }
-
     function searchAnime(query) {
         return animesData.filter(anime => 
             anime.title.toLowerCase().includes(query) || 
@@ -65,13 +38,13 @@ export function initSearch(animesData, releasesData, teamsData, renderAnimeDetai
 
     function searchReleases(query) {
         return releasesData.filter(release => 
-            release.properties.Name.title[0].plain_text.toLowerCase().includes(query)
+            release.title.toLowerCase().includes(query)
         ).slice(0, 5)
     }
 
     function searchTeams(query) {
         return teamsData.filter(team => 
-            team.properties['Назва команди'].title[0].plain_text.toLowerCase().includes(query)
+            team.name.toLowerCase().includes(query)
         ).slice(0, 5)
     }
 
@@ -98,9 +71,10 @@ export function initSearch(animesData, releasesData, teamsData, renderAnimeDetai
                     break
                 case 'releases':
                     div.innerHTML = `
+                        <img src="${result.poster}"">
                         <div>
-                            <div><label class="truncate">${result.properties.Name.title[0].plain_text}</label></div>
-                            <p>Епізоди: ${result.properties.Кількість.rich_text[0]?.plain_text || 'Невідомо'}</p>
+                            <div><label class="truncate">${result.title}</label></div>
+                            <p>Епізоди: ${result.episodes}</p>
                         </div>
                     `
                     div.onclick = () => {
@@ -110,9 +84,10 @@ export function initSearch(animesData, releasesData, teamsData, renderAnimeDetai
                     break
                 case 'teams':
                     div.innerHTML = `
+                        <img src="${result.logo}"">
                         <div>
-                            <div><label class="truncate">${result.title}</label></div>
-                            <strong>${result.properties['Назва команди'].title[0].plain_text}</strong>
+                            <strong>${result.name}</strong>
+                            <p>Релізів: ${result.releases.length}</p>
                         </div>
                     `
                     // Додайте відповідну функцію для відображення деталей команди
@@ -121,5 +96,30 @@ export function initSearch(animesData, releasesData, teamsData, renderAnimeDetai
             
             searchResults.appendChild(div)
         })
+    }
+
+    function performSearch() {
+        const query = searchInput.value.toLowerCase()
+        const searchType = document.querySelector('input[name="searchType"]:checked').value
+        
+        if (query.length < 2) {
+            searchResults.innerHTML = ''
+            return
+        }
+
+        let results
+        switch(searchType) {
+            case 'anime':
+                results = searchAnime(query)
+                break
+            case 'releases':
+                results = searchReleases(query)
+                break
+            case 'teams':
+                results = searchTeams(query)
+                break
+        }
+
+        displayResults(results, searchType)
     }
 }

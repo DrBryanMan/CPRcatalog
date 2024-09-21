@@ -17,7 +17,7 @@ async function loadAnimeData() {
             
             allAnimes = result.map(anime => ({
                 id: anime.id,
-                cover: anime.cover?.file?.url || "https://www.1999.co.jp/itbig85/10852139a2_m.jpg",
+                cover: anime.cover?.file?.url || '',
                 poster: anime.properties.Постер.files[0]?.external?.url || anime.properties.Постер.files[0]?.file.url || "https://www.1999.co.jp/itbig85/10852139a2_m.jpg",
                 title: anime.properties['Назва тайтлу'].title[0]?.plain_text || "[додайте назву]",
                 romaji: anime.properties.Ромаджі.rich_text[0]?.plain_text || '',
@@ -43,7 +43,8 @@ async function loadTeamsData() {
         allTeams = result.map(team => ({
             id: team.id,
             logo: team.icon?.file?.url || 'path/to/default/logo.png',
-            name: team.properties['Назва команди'].title[0]?.plain_text || 'Невідомо'
+            name: team.properties['Назва команди'].title[0]?.plain_text || 'Невідомо',
+            releases: team.properties['Релізи аніме'].relation || []
         }))
     }
     return allTeams
