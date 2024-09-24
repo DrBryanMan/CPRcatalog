@@ -4,16 +4,16 @@ export function initSearch(animesData, releasesData, teamsData, renderAnimeDetai
     const closeBtn = searchModal.querySelector('.close')
 
     searchButton.onclick = () => {
-        searchModal.style.display = 'block'
+        searchModal.classList.add('is-visible')
     }
 
     closeBtn.onclick = () => {
-        searchModal.style.display = 'none'
+        searchModal.classList.remove('is-visible')
     }
 
     window.onclick = (event) => {
         if (event.target == searchModal) {
-            searchModal.style.display = 'none'
+            searchModal.classList.remove('is-visible')
         }
     }
 

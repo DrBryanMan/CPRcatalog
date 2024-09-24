@@ -1,0 +1,92 @@
+/* == Навігація == */
+nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+
+/* == breadcrumbs == */
+  .breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.breadcrumbs span:before {
+    content: '/';
+    margin: 0 .5em;
+}
+.breadcrumbs:has(span+.nav-button) span:after {
+    content: '/';
+    margin: 0 .5em;
+}
+.nav-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--light-10);
+    padding: .5em 1em .6em;
+    border-radius: var(--radius);
+    transition: .3s;
+    cursor: pointer;
+}
+.breadcrumbs .has-list:hover .crumb-list {
+    visibility: visible;
+    transition: opacity .3s;
+    opacity: 1;
+}
+.crumb-list {
+    position: absolute;
+    width: max-content;
+    left: 0;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+    margin-top: 10px;
+    background: var(--dark);
+    border: 1px solid var(--light-20);
+    border-radius: var(--radius);
+    padding: .2em;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .3s .2s, opacity .3s .2s;
+    z-index: 10;
+}
+.crumb-list button {
+    background: none;
+    text-align: left;
+    padding: .5em;
+}
+.crumb-list button[disable] {
+    background: none !important;
+    cursor: default;
+    opacity: .5;
+}
+.crumb-list button:hover,
+.nav-button:hover {
+    background: var(--light-10);
+}
+nav i {
+    width: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+.breadcrumbs i[class*='chevron'] {
+    margin-left: 5px;
+    font-size: 50%;
+    transition: .3s;
+}
+.breadcrumbs .has-list:hover i[class*='chevron'] {
+    transform: rotate(180deg);
+    transform-origin: center;
+}
+
+#searchButton {
+    align-self: flex-end;
+}
+#searchButton i {
+    font-size: 80%;
+}

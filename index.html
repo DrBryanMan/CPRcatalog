@@ -5,15 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Anime Catalog</title>
         <link rel="stylesheet" href="css.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     </head>
     <body>
         <nav>
-            <ul>
-                <li><button id="homeButton">На головну</button></li>
-                <li><button id="animeButton">Аніме</button></li>
-                <li><button id="releasesButton">Релізи</button></li>
-                <button id="searchButton">Пошук</button>
-            </ul>
+            <div id='nav' class="breadcrumbs">
+                <div id="homeButton" class="nav-button">CPR</div>
+                <div id="firstCrumb" class="has-list nav-button">Головна<i class="fa-solid fa-chevron-down"></i>
+                    <div class="crumb-list">
+                        <button id="animeListButton"><i class="fa-solid fa-video"></i>Аніме</button>
+                        <button id="releasesListButton"><i class="fa-solid fa-file-video"></i>Релізи</button>
+                        <button id="teamsListButton" disable><i class="fa-solid fa-file-video"></i>Команди</button>
+                    </div>
+                </div>
+                <!-- <span id="secondCrumb">Назва тайтлу</span> -->
+                <!-- <div id="thirdCrumb" class="has-list nav-button">Розділ</div> -->
+            </div>
+            <div id="searchButton" class="nav-button"><i class="fa-solid fa-search"></i>Пошук</div>
         </nav>
 
         <div id="searchModal" class="modal">
@@ -33,7 +41,7 @@
             <!-- Тут буде рендеритись контент -->
         </div>
 
-        <div id="loading-overlay">
+        <div id="loadingОverlay">
             <div class="loader"></div>
         </div>
 

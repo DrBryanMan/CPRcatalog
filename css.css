@@ -7,6 +7,7 @@
 @import url(css/release.css);
 @import url(css/search_modal.css);
 @import url(css/main.css);
+@import url(css/breadcrumbs.css);
 
 :root {
   --nav-height: 3rem;
@@ -30,6 +31,10 @@ body {
   /* background-image: linear-gradient(to right, var(--accent-10),var(--accent-50),var(--accent-10)); */
   font-family: "Jura";
   color: var(--text);
+}
+
+#app {
+  margin: 1em;
 }
 
 button {
@@ -76,16 +81,6 @@ button:hover {
 
 .anime-detail:hover > h3:after, .choosen-title:hover h3:after {
   width: 20%;
-}
-
-/* == Навігація == */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  gap: 1em;
-  padding: 1em;
-  /* background: #000; */
 }
 
 /* == Каталог == */
@@ -155,7 +150,7 @@ nav ul {
 }
 
 /* Loader */
-#loading-overlay {
+#loadingОverlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -168,8 +163,8 @@ nav ul {
 }
 
 .loader {
-  border: 5px solid #f3f3f3;
-  border-top: 5px solid #3498db;
+  border: 5px solid var(--accent-50);
+  border-top: 5px solid var(--accent);
   border-radius: 50%;
   width: 50px;
   height: 50px;
