@@ -1,78 +1,70 @@
 import { initSearch } from './js/search.js'
 
-// let currentAnime
-// let typeofList
-// let backPage
-
 let allAnimes = []
 let allReleases = []
 let allTeams = []
+let hikkaAnimeData = []
 
-// Завантаження даних про аніме
-async function loadAnimeData() {
+async function loadData() {
     if (allAnimes.length === 0) {
         try {
-            const result = await fetch('AnimeTitlesDB.json')
-            .then(res => res.json())
-            
-            allAnimes = result.map(anime => ({
+            const [animeData, teamData, releaseData, hikkaData] = await Promise.all([
+                fetch('AnimeTitlesDB.json').then(res => res.json()),
+                fetch('TeamsDB.json').then(res => res.json()),
+                fetch('AnimeReleasesDB.json').then(res => res.json()),
+                fetch('hikkaData.json').then(res => res.json())
+            ])
+            hikkaAnimeData = hikkaData
+            allAnimes = animeData.map(anime => ({
                 id: anime.id,
-                cover: anime.cover?.file?.url || '',
-                poster: anime.properties.Постер.files[0]?.external?.url || anime.properties.Постер.files[0]?.file.url || "https://www.1999.co.jp/itbig85/10852139a2_m.jpg",
-                title: anime.properties['Назва тайтлу'].title[0]?.plain_text || "[додайте назву]",
+                hikkaUrl: anime.properties.Hikka.url,
+                cover: anime.cover?.external?.url || anime.cover?.file?.url,
+                poster: anime.properties.Постер.files[0]?.external?.url || anime.properties.Постер.files[0]?.file.url,
+                title: anime.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
                 romaji: anime.properties.Ромаджі.rich_text[0]?.plain_text || '',
                 type: anime.properties["Тип медіа"].multi_select[0]?.name || '',
                 format: anime.properties.Формат.select?.name || '',
-                year: anime.properties["Рік виходу"].rich_text[0]?.plain_text || "",
-                episodes: anime.properties["Кількість серій"].rich_text[0]?.plain_text || "",
+                year: anime.properties["Рік виходу"].rich_text[0]?.plain_text || '',
+                episodes: anime.properties["Кількість серій"].rich_text[0]?.plain_text || '',
                 releases: anime.properties['🗂️ Релізи команд'].relation || []
             }))
+            allAnimes = allAnimes.map(anime => ({
+                ...anime,
+                hikkaPoster: hikkaAnimeData.find(hikka => hikka.url === anime.hikkaUrl)?.poster
+            }))
+            allTeams = teamData.map(team => ({
+                id: team.id,
+                logo: team.icon?.file?.url,
+                name: team.properties['Назва команди'].title[0]?.plain_text || 'Невідомо',
+                releases: team.properties['Релізи аніме'].relation || []
+            }))
+            allReleases = releaseData.map(release => ({
+                id: release.id,
+                animeId: release.properties['Тайтл']?.relation[0]?.id || "",
+                title: release.properties['Name'].title[0]?.plain_text || 'Без назви',
+                cover: release.cover?.external?.url || release.cover?.file?.url || "",
+                poster: release.properties.Постер.files[0]?.external?.url || release.properties.Постер.files[0]?.file.url,
+                teams: (release.properties['Команда']?.relation || [])
+                .map(r => ({
+                    logo: allTeams.find(t => t.id === r?.id)?.logo || 'Невідома команда',
+                    name: allTeams.find(t => t.id === r?.id)?.name || 'Невідома команда'
+                })),
+                status: release.properties['Статус'].status?.name || 'Невідомо',
+                episodes: release.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
+                torrent: release.properties['Торент'].select?.name || 'Невідомо',
+                torrentLink: release.properties['Торент посилання'].rich_text[0]?.text.link?.url || '#'
+            }))
+            allReleases = allReleases.map(release => ({
+                ...release,
+                animeData: allAnimes.find(anime => anime.id === release.animeId)
+            }))
+            // console.log(allAnimes[1].hikkaPoster)
+            // console.log(hikkaAnimeData.find(hikka => hikka.url === allAnimes[2].hikkaUrl).poster)
         } catch (error) {
-            console.error("Error loading anime data:", error)
-            throw error // перекидаємо помилку далі
+            console.error("Помилка при завантаженні даних:", error)
+            throw error
         }
     }
-    return allAnimes
-}
-
-// Завантаження даних про команди
-async function loadTeamsData() {
-    if (allTeams.length === 0) {
-        const result = await fetch('TeamsDB.json')
-        .then(res => res.json())
-        allTeams = result.map(team => ({
-            id: team.id,
-            logo: team.icon?.file?.url || 'path/to/default/logo.png',
-            name: team.properties['Назва команди'].title[0]?.plain_text || 'Невідомо',
-            releases: team.properties['Релізи аніме'].relation || []
-        }))
-    }
-    return allTeams
-}
-
-// Завантаження даних про релізи
-async function loadReleasesData() {
-    if (allReleases.length === 0) {
-        const result = await fetch('AnimeReleasesDB.json')
-        .then(res => res.json())
-        allReleases = result.map(release => ({
-            id: release.id,
-            animeId: release.properties['Тайтл']?.relation[0]?.id || "",
-            // animeData: allAnimes.find(anime => anime.id === release.animeId),
-            title: release.properties['Name'].title[0]?.plain_text || 'Без назви',
-            cover: release.cover?.external?.url || release.cover?.file?.url || "",
-            teams: (release.properties['Команда']?.relation || [])
-            .map(r => ({
-                logo: allTeams.find(t => t.id === r?.id)?.logo || 'Невідома команда',
-                name: allTeams.find(t => t.id === r?.id)?.name || 'Невідома команда'
-            })),
-            status: release.properties['Статус'].status?.name || 'Невідомо',
-            episodes: release.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
-            torrent: release.properties['Торент'].select?.name || 'Невідомо',
-            torrentLink: release.properties['Торент посилання'].rich_text[0]?.text.link?.url || '#'
-        }))
-    }
-    return allReleases
 }
 
 function renderStatistics() {
@@ -105,7 +97,7 @@ function renderRandomAnime() {
     randomAnimeSection.innerHTML = `
         <h2>Випадкове аніме</h2>
         <div class="random-anime-container page-block">
-            <img src="${anime.poster}" alt="${anime.title}" class="random-anime-poster">
+            <img src="${anime.poster || anime.hikkaPoster}" alt="${anime.title}" class="random-anime-poster">
             <div class="random-anime-info">
                 <h3 class="truncate">${anime.title}</h3>
                 <p>${anime.romaji}</p>
@@ -130,16 +122,14 @@ async function renderReleasesSection(releases, title) {
 
     for (const release of releases) {
         const animeData = allAnimes.find(anime => anime.id === release.animeId)
-        const teams = release.teams.map(t => `<img src="${t.logo}" style="width: 25px; height: auto; object-fit: contain;"> ${t.name}`)
-        console.log(allReleases[0].animeId)
-        // console.log(releases[0].properties['Тайтл'].relation[0].id)
+        const teams = release.teams.map(t => `<img src="${t.logo}">${t.name}`)
         const listItem = document.createElement('div')
         listItem.classList.add('release-card')
         listItem.innerHTML = `
             <img src="${animeData?.cover || release?.cover || '' }" class="release-poster">
             <div class="release-info">
                 <h3 class="truncate">${release.title}</h3>
-                <p>${teams}</p>
+                <p class='teams-logos'>${teams}</p>
                 <p>Епізоди: ${release.episodes}</p>
             </div>
         `
@@ -161,15 +151,12 @@ async function renderAnimeReleases(releases) {
         card.classList.add('release-card')
 
         const animeData = allAnimes.find(anime => anime.id === release.animeId)
-        // const teamData = allTeams.find(team => team.id === release.teamId)
-        const teams = release.teams.map(t => `<img src="${t.logo}" style="width: 25px; height: auto; object-fit: contain;"> ${t.name}`)
-        const poster = animeData?.poster?.files?.url || 'path/to/default/logo.png'
-        // const teamName = teamData?.name
+        const teams = release.teams.map(t => `<img src="${t.logo}">${t.name}`)
 
         card.innerHTML = `
             <img src="${release.cover}" class="anime-poster">
             <h3 class="truncate">${release.title}</h3>
-            <p>${teams}</p>
+            <p class='teams-logos'>${teams}</p>
             <p>Епізоди: ${release.episodes}</p>
         `
 
@@ -191,19 +178,19 @@ async function renderReleaseDetail(release, backPage) {
         detailDiv.classList.add("release-detail")
 
         const anime = allAnimes.find(a => a.id === release.animeId)
-        const teams = release.teams.map(t => `<img src="${t.logo}" style="width: 25px; height: auto; object-fit: contain;"> ${t.name}`)
+        const teams = release.teams.map(t => `<img src="${t.logo}">${t.name}`)
 
         detailDiv.innerHTML = `
         <div class="anime-cover"><img src="${anime.cover}"></div>
         <div class="top-section">
-            <img class="anime-poster" src="${release.poster || anime.poster}">
+            <img class="anime-poster" src="${release.poster || anime.poster || anime.hikkaPoster}">
             <div class="release">
                 <div>
                     <h1>${release.title}</h1>
                 </div>
                 <div class="release-info">
                     <p>Аніме: ${anime?.title || 'Невідоме аніме'}</p>
-                    <p>Команда: ${teams}</p>
+                    <p class='teams-logos'>Команда: ${teams}</p>
                     <p>Статус: ${release.status}</p>
                     <p>Епізоди: ${release.episodes}</p>
                     <p>Торент: ${release.torrent}</p>
@@ -246,7 +233,7 @@ async function renderAnimeDetail(anime, backPage) {
         detailDiv.innerHTML = `
         <div class="anime-cover"><img src="${anime.cover}"></div>
         <div class="top-section">
-            <img class="anime-poster" src="${anime.poster}" title="${anime.title}">
+            <img class="anime-poster" src="${anime.poster || anime.hikkaPoster}" title="${anime.title}">
             <div class="title">
                 <div>
                     <h1>${anime.title}</h1>
@@ -341,20 +328,24 @@ function renderAnimeList(items, typeofList) {
             card.classList.add(typeofList === "Anime" ? "title-card" : "release-card")
             
             if (typeofList === "Anime") {
+                // const hikkaPoster = hikkaAnimeData.find(hikka => hikka.url === item.hikkaUrl)
                 card.innerHTML = `
-                    <div class="poster-box"><img src="${item.poster}" title="${item.title}"></div>
+                    <div class="poster-box">
+                        <img src="${item.poster || item.hikkaPoster}" title="${item.title}">
+                    </div>
                     <span class="truncate" title="${item.title}">${item.title}</span>
+                    <small>${item.year} / ${item.format}</small>
                 `
                 card.onclick = () => renderAnimeDetail(item, 'toAnimeList')
             } else {
                 const anime = allAnimes.find(anime => anime.id === item.animeId)
-                const teams = item.teams.map(t => `<img src="${t.logo}" style="width: 25px; height: auto; object-fit: contain;"> ${t.name}`)
+                const teams = item.teams.map(t => `<img src="${t.logo}">${t.name}`)
                 if (!anime) return
                 card.innerHTML = `
                     <img src="${anime.cover}" alt="" class="release-poster">
                     <div class="release-info">
                         <h3 class="truncate">${item.title}</h3>
-                        <p>${teams}</p>
+                        <p class='teams-logos'>${teams}</p>
                         <p>Епізоди: ${item.episodes}</p>
                     </div>
                 `
@@ -436,9 +427,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         showLoader()
         console.log('DOM loaded, initializing...')
-        await loadAnimeData()
-        await loadTeamsData()
-        await loadReleasesData()
+        await loadData()
         console.log('Data loaded')
         initSearch(allAnimes, allReleases, allTeams, renderAnimeDetail, renderReleaseDetail)
         console.log('Search initialized')

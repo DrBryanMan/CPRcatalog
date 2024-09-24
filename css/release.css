@@ -26,6 +26,14 @@
     cursor: pointer;
     transition: .3s;
 }
+
+/* Сторінка релізу */
+.release-detail .release {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
 .release-poster {
     width: 100%;
     height: auto    ;
@@ -37,7 +45,8 @@
 .release-detail .release-info {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: .2em;
+    padding: .2em .5em;
 }
 
 .release-card:hover {
@@ -56,12 +65,6 @@
 }
 
 /* Стилі для деталей релізу */
-
-
-.release-detail a:hover {
-    text-decoration: underline;
-}
-
 #backToAnimeButton {
     margin-top: 20px;
     padding: 10px 15px;
