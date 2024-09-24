@@ -92,8 +92,9 @@ nav ul {
 .anime-list {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
-  gap: 1rem .5rem;
+  gap: 1rem;
 }
 
 .title-card {
@@ -114,8 +115,8 @@ nav ul {
 }
 
 .poster-box {
-  aspect-ratio: 3 / 4;
-  /* height: 270px; */
+  /* aspect-ratio: 3 / 4; */
+  max-height: 270px;
   overflow: hidden;
   border-radius: var(--radius);
   /* background: #fff; */
@@ -125,9 +126,8 @@ nav ul {
   width: 100%;
   height: auto;
 }
-.title-card span {
+.title-card .title-info {
   margin: 4px 4px 0;
-  line-height: 1.5;
 }
 
 /* == Деталі == */
@@ -148,7 +148,7 @@ nav ul {
 /* == Інше == */
 .truncate,
 .teams-logos {
-  /* display: block; */
+  display: block;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;

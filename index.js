@@ -337,8 +337,10 @@ function renderAnimeList(items, typeofList) {
                     <div class="poster-box">
                         <img src="${item.poster || item.hikkaPoster}" title="${item.title}">
                     </div>
-                    <span class="truncate" title="${item.title}">${item.title}</span>
-                    <small>${item.year} / ${item.format}</small>
+                    <div class='title-info'>
+                        <span class="truncate" title="${item.title}">${item.title}</span>
+                        <small>${item.year} / ${item.format}</small>
+                    </div>
                 `
                 card.onclick = () => renderAnimeDetail(item, 'toAnimeList')
             } else {
