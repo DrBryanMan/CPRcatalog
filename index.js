@@ -52,14 +52,19 @@ async function loadData() {
                 status: release.properties['Статус'].status?.name || 'Невідомо',
                 episodes: release.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
                 torrent: release.properties['Торент'].select?.name || 'Невідомо',
-                torrentLink: release.properties['Торент посилання'].rich_text[0]?.text.link?.url || '#'
+                // torrentLink: release.properties['Торент посилання'].rich_text[0]?.text.link?.url || '#',
+                torrentLinks: release.properties['Торент посилання'].rich_text
+                .filter(link => link.href !== null)
+                .map(link => ({
+                    text: link.plain_text,
+                    href: link.href
+                }))
             }))
             allReleases = allReleases.map(release => ({
                 ...release,
                 animeData: allAnimes.find(anime => anime.id === release.animeId)
             }))
-            // console.log(allAnimes[1].hikkaPoster)
-            // console.log(hikkaAnimeData.find(hikka => hikka.url === allAnimes[2].hikkaUrl).poster)
+            // console.log(allReleases[108].torrentLinks)
         } catch (error) {
             console.error("Помилка при завантаженні даних:", error)
             throw error
@@ -179,6 +184,7 @@ async function renderReleaseDetail(release, backPage) {
 
         const anime = allAnimes.find(a => a.id === release.animeId)
         const teams = release.teams.map(t => `<img src="${t.logo}">${t.name}`)
+        const torrents = release.torrentLinks.map(t => `<a href="${t.url}" target="_blank">${t.text}</a>`).join('')
 
         detailDiv.innerHTML = `
         <div class="anime-cover"><img src="${anime.cover}"></div>
@@ -194,9 +200,7 @@ async function renderReleaseDetail(release, backPage) {
                     <p>Статус: ${release.status}</p>
                     <p>Епізоди: ${release.episodes}</p>
                     <p>Торент: ${release.torrent}</p>
-                    <a href="${release.torrentLink || '#'}" target="_blank">
-                        ${release.torrentLink ? 'Завантажити торрент' : 'Посилання недоступне'}
-                    </a>
+                    <p class='release-torrents'>${torrents}</p>
                 </div>
                 <button id="backToReleasesButton">До списку релізів</button>
             </div>

@@ -32,10 +32,6 @@ body {
   color: var(--text);
 }
 
-#app {
-  padding: 0 1em;
-}
-
 button {
   cursor: pointer;
   background: #fff3;
