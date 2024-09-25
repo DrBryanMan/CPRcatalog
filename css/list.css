@@ -1,0 +1,53 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 200px;
+    background: #0005;
+    border-radius: var(--radius);
+    box-shadow: 0 0 4px var(--accent);
+    outline: 2px solid var(--accent-10);
+    padding: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card:hover {
+    background: #0007;
+    outline: 2px solid var(--accent);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+}
+
+/* == Каталог == */
+/* загально для списків */
+.anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+/* Для картки тайтлу */
+/* poster in anime-card */
+.poster-box {
+    max-height: 270px;
+    overflow: hidden;
+}
+.title-card .info {
+    margin: 4px 4px 0;
+}
+
+/* Для картки релізу в тайтлі */
+.anime-release-card {
+    padding: .2em .5em;
+}
+
+/* Для картки релізу */
+
+/* Картки команд */
+.team-card {
+    
+}

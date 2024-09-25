@@ -102,7 +102,7 @@ export function initSearch(animesData, releasesData, teamsData, renderAnimeDetai
         const query = searchInput.value.toLowerCase()
         const searchType = document.querySelector('input[name="searchType"]:checked').value
         
-        if (query.length < 2) {
+        if (query.length < 3) {
             searchResults.innerHTML = ''
             return
         }

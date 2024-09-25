@@ -1,4 +1,13 @@
 /* == Релізи на головній */
+.release-list {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* == Сторінка релізу == */
 /* Стилі для контейнера карток релізів в аніме */
 .anime-releases-container {
     display: flex;
@@ -7,32 +16,7 @@
     justify-content: center;
     margin-top: .5em;
 }
-
-/* Стилі для картки релізу */
-.release-list {
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-.release-card {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    width: 300px;
-    margin: auto;
-    border: 2px solid var(--accent-50);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: .3s;
-}
-.anime-detail .release-card,
-.release-card .release-info {
-    padding: .2em .5em;
-}
-
-/* Сторінка релізу */
+/* Стилі на сторінці релізу */
 .release-detail .release {
     display: flex;
     flex-direction: column;
@@ -48,14 +32,7 @@
     flex-direction: column;
     gap: .2em;
 }
-
-.release-card:hover {
-    border-color: var(--accent);
-    background: var(--accent-10);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* == Стилі для деталей релізу == */
+/** Стилі для деталей релізу **/
 /* Посилання толоки */
 .release-torrents {
     display: flex;

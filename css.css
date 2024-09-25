@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-@import url(css/kit.css);
+@import url(css/breadcrumbs.css);
 @import url(css/colors.css);
-@import url(css/title.css);
+@import url(css/kit.css);
+@import url(css/list.css);
+@import url(css/main.css);
 @import url(css/release.css);
 @import url(css/search_modal.css);
-@import url(css/main.css);
-@import url(css/breadcrumbs.css);
+@import url(css/team.css);
+@import url(css/title.css);
 
 :root {
   --nav-height: 3rem;
@@ -28,19 +30,21 @@ body {
   margin: 0;
 	line-height: 1.2;
   background: var(--dark);
-  /* background-image: linear-gradient(to right, var(--accent-10),var(--accent-50),var(--accent-10)); */
+  background-image: linear-gradient(to right, var(--accent-10),var(--accent-50),var(--accent-10));
   font-family: "Jura";
   color: var(--text);
 }
 
 #app {
-  margin: 1em;
+  /* margin: 0 1em; */
+  padding: 4em 4em 1em;
 }
 
 button {
   cursor: pointer;
   background: #fff3;
   color: var(--text);
+  font-family: "Jura";
   border: unset;
   padding: .4em 1em;
   border-radius: var(--radius);
@@ -83,66 +87,23 @@ button:hover {
   width: 20%;
 }
 
-/* == Каталог == */
-.anime-list {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.title-card {
-  cursor: pointer;
-  width: 200px;
-  background: #0005;
-  padding: 4px;
-  border-radius: var(--radius);
-  /* filter: drop-shadow(0 0 2px black); */
-  box-shadow: 0 0 4px var(--accent);
-  outline: 2px solid var(--accent-10);
-  transition: .3s;
-}
-
-.title-card:hover {
-  background: #0007;
-  outline: 2px solid var(--accent);
-}
-
-.poster-box {
-  /* aspect-ratio: 3 / 4; */
-  max-height: 270px;
-  overflow: hidden;
-  border-radius: var(--radius);
-  /* background: #fff; */
-}
-
-.title-card img {
-  width: 100%;
-  height: auto;
-}
-.title-card .title-info {
-  margin: 4px 4px 0;
-}
-
 /* == Деталі == */
 /* teams string */
-.teams-logos {
+.teams-logos,
+.teams-logos > span {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: .5em;
 }
 .teams-logos img {
   height: 15px;
   width: auto;
   border-radius: 50%;
-  /* margin: 0 .5em; */
+  margin-right: .5em;
 }
 
 /* == Інше == */
-.truncate,
-.teams-logos {
+.truncate {
   display: block;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -178,13 +139,13 @@ button:hover {
 
 /* інпут пошуку у списках */
 input {
+  padding: .5em;
+  margin-bottom: 1em;
+  color: var(--text);
   background: none;
   border: 1px solid var(--accent-50);
   border-radius: var(--radius);
-  padding: .5em;
-  margin-bottom: 1em;
   transition: .3s;
-  color: var(--text);
 }
 input:focus {
   border-color: var(--accent);

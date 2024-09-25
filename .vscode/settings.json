@@ -1,0 +1,7 @@
+{
+    "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+        "live-server-extension": true,
+        "live-preview-extension": true
+    },
+    "console-ninja.installBinToPath": true
+}

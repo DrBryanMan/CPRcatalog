@@ -5,26 +5,7 @@ let allReleases = []
 let allTeams = []
 let hikkaAnimeData = []
 
-// function initLazyLoad() {
-//     const lazyImages = document.querySelectorAll('img[data-src]');
-
-//     const observer = new IntersectionObserver((entries, observer) => {
-//         entries.forEach(entry => {
-//             if (entry.isIntersecting) {
-//                 const img = entry.target;
-//                 const src = img.getAttribute('data-src');
-//                 img.setAttribute('src', src);
-//                 img.removeAttribute('data-src');
-//                 observer.unobserve(img);
-//             }
-//         });
-//     });
-
-//     lazyImages.forEach(img => {
-//         observer.observe(img);
-//     });
-// }
-
+// Отримуємо всі дані
 async function loadData() {
     if (allAnimes.length === 0) {
         try {
@@ -58,6 +39,7 @@ async function loadData() {
                 name: team.properties['Назва команди'].title[0]?.plain_text || 'Невідомо',
                 releases: team.properties['Релізи аніме'].relation || []
             }))
+            allTeams.sort((a, b) => a.name.localeCompare(b.name))
             allReleases = releaseData.map(release => ({
                 id: release.id,
                 animeId: release.properties['Тайтл']?.relation[0]?.id || "",
@@ -114,7 +96,6 @@ function renderStatistics() {
     `
     return statsSection
 }
-
 function renderRandomAnime() {
     const anime = allAnimes[Math.floor(Math.random() * allAnimes.length)]
     const randomAnimeSection = document.createElement('div')
@@ -135,21 +116,20 @@ function renderRandomAnime() {
     `
     return randomAnimeSection
 }
-
 // Відображення секції релізів
-async function renderReleasesSection(releases, title) {
+function renderReleasesSection(releases, title) {
     const section = document.createElement('div')
     section.classList.add('releases-section')
-    section.innerHTML = `<h2>${title}</h2>`
+    section.innerHTML = `<div class="releases-header"><h2>${title}</h2></div>`
 
     const releaseList = document.createElement('div')
     releaseList.classList.add('release-list')
 
     for (const release of releases) {
         const animeData = allAnimes.find(anime => anime.id === release.animeId)
-        const teams = release.teams.map(t => `<img src="${t.logo}">${t.name}`)
+        const teams = release.teams.map(t => `<span><img src="${t.logo}">${t.name}</span>`).join('')
         const listItem = document.createElement('div')
-        listItem.classList.add('release-card')
+        listItem.classList.add('release-card', 'card')
         listItem.innerHTML = `
             <img src="${animeData?.cover || release?.cover || '' }" class="release-poster">
             <div class="release-info">
@@ -158,12 +138,69 @@ async function renderReleasesSection(releases, title) {
                 <p>Епізоди: ${release.episodes}</p>
             </div>
         `
-        listItem.onclick = () => renderReleaseDetail(release, 'toReleaseList')
+        listItem.onclick = () => renderReleaseDetail(release, 'toReleasesList')
         releaseList.appendChild(listItem)
     }
 
     section.appendChild(releaseList)
     return section
+}
+// Оновлення навігайфї
+function updateNavigation(secondCrumbText = null) {
+    const nav = document.getElementById('nav');
+    let secondCrumb = nav.querySelector('#secondCrumb');
+    
+    if (secondCrumbText) {
+        if (!secondCrumb) {
+            secondCrumb = document.createElement('span');
+            secondCrumb.id = 'secondCrumb';
+            nav.appendChild(secondCrumb);
+        }
+        secondCrumb.textContent = secondCrumbText;
+    } else if (secondCrumb) {
+        secondCrumb.remove();
+    }
+}
+
+// Відображення сторінки команди
+async function renderTeamDetail(team, backPage) {
+    app.innerHTML = `
+    <div class='team-detail'>
+        <div class="top-section">
+            <img class="team-logo" src="${team.logo}" title="${team.name}">
+            <div class="info-section">
+                <h1>${team.name}</h1>
+                <div class="team-info">
+                    <p>Тип робіт: ${team.type}</p>
+                    <p>Статус: ${team.status}</p>
+                </div>
+                <button id="backButton">Повернутись</button>
+            </div>
+        </div>
+        <div id="releasesList" class='page-block'>Завантаження інформації про релізи...</div>
+    </div>
+    `
+    updateNavigation(team.name)
+
+    // Завантаження та відображення інформації про релізи
+    const releases = team.releases.length > 0 ? allReleases.filter(release => team.releases.some(r => r.id === release.id)) : []
+    
+    const releasesList = document.getElementById("releasesList")
+    if (releases.length > 0) {
+        const releaseCards = await renderAnimeReleases(releases)
+        releasesList.innerHTML = '<h3>Релізи:</h3>'
+        releasesList.appendChild(releaseCards)
+    } else {
+        releasesList.innerHTML = "<p>Релізи не знайдено</p>"
+    }
+
+    const backButton = document.querySelector("#backButton")
+    if (backPage === 'toTeamsList') {
+        backButton.textContent = 'До списку команд'
+        backButton.onclick = () => {
+            renderAnimeList(allTeams, "Teams")
+        }
+    }
 }
 
 // Відображення карток релізів
@@ -173,10 +210,10 @@ async function renderAnimeReleases(releases) {
 
     for (const release of releases) {
         const card = document.createElement('div')
-        card.classList.add('release-card')
+        card.classList.add('anime-release-card', 'card')
 
-        const animeData = allAnimes.find(anime => anime.id === release.animeId)
-        const teams = release.teams.map(t => `<img src="${t.logo}">${t.name}`)
+        // const animeData = allAnimes.find(anime => anime.id === release.animeId)
+        const teams = release.teams.map(t => `<span><img src="${t.logo}">${t.name}</span>`).join('')
 
         card.innerHTML = `
             <img src="${release.cover}" class="anime-poster">
@@ -194,83 +231,69 @@ async function renderAnimeReleases(releases) {
 
 // Відображення деталей релізу
 async function renderReleaseDetail(release, backPage) {
-    const app = document.getElementById("app")
-    app.innerHTML = ""
-
-    const detailDiv = document.createElement("div")
-    detailDiv.classList.add("release-detail")
-
     const anime = allAnimes.find(a => a.id === release.animeId)
-    const teams = release.teams.map(t => `<img src="${t.logo}">${t.name}`)
+    const teams = release.teams.map(t => `<span><img src="${t.logo}">${t.name}</span>`).join('')
     const torrents = release.torrentLinks.map(t => `<a href="${t.url}" target="_blank">${t.text}</a>`).join('')
 
-    detailDiv.innerHTML = `
-    <div class="anime-cover"><img src="${anime.cover}"></div>
-    <div class="top-section">
-        <img class="anime-poster" src="${release.poster || anime.poster || anime.hikkaPoster}">
-        <div class="release">
-            <div>
-                <h1>${release.title}</h1>
+    app.innerHTML = `
+    <div class="release-detail">
+        <div class="anime-cover"><img src="${anime.cover}"></div>
+        <div class="top-section">
+            <img class="anime-poster" src="${release.poster || anime.poster || anime.hikkaPoster}">
+            <div class="release">
+                <div>
+                    <h1>${release.title}</h1>
+                </div>
+                <div class="release-info">
+                    <p>Аніме: ${anime?.title || 'Невідоме аніме'}</p>
+                    <p class='teams-logos'>Команда: ${teams}</p>
+                    <p>Статус: ${release.status}</p>
+                    <p>Епізоди: ${release.episodes}</p>
+                    <p>Торент: ${release.torrent}</p>
+                    <p class='release-torrents'>${torrents}</p>
+                </div>
+                <button id="backToReleasesButton">До списку релізів</button>
             </div>
-            <div class="release-info">
-                <p>Аніме: ${anime?.title || 'Невідоме аніме'}</p>
-                <p class='teams-logos'>Команда: ${teams}</p>
-                <p>Статус: ${release.status}</p>
-                <p>Епізоди: ${release.episodes}</p>
-                <p>Торент: ${release.torrent}</p>
-                <p class='release-torrents'>${torrents}</p>
-            </div>
-            <button id="backToReleasesButton">До списку релізів</button>
         </div>
     </div>
     `
+    updateNavigation(release.title)
 
-    app.appendChild(detailDiv)
-
-    const backButton = detailDiv.querySelector('#backToReleasesButton')
-    if (backPage === 'toReleaseList') {
+    const backButton = document.querySelector('#backToReleasesButton')
+    if (backPage === 'toReleasesList') {
         backButton.textContent = 'До списку релізів'
         backButton.onclick = () => renderAnimeList(allReleases, "Releases")
     } else if (backPage === 'toTitle') {
         backButton.textContent = 'До тайтлу'
-        backButton.onclick = () => renderAnimeDetail(anime, "toAnimeList")
+        backButton.onclick = () => renderAnimeDetail(anime, "toAnimesList")
     }
 }
 
-// Рендеринг деталей аніме
+// Відображення деталей аніме
 async function renderAnimeDetail(anime, backPage) {
-    // isViewingAnimeDetail = true
-    app.innerHTML = ""
-    // currentAnime = anime
-
-    const detailDiv = document.createElement("div")
-    detailDiv.classList.add("anime-detail")
-    // Базова інформація про аніме
-    detailDiv.innerHTML = `
-    <div class="anime-cover"><img src="${anime.cover}"></div>
-    <div class="top-section">
-        <img class="anime-poster" src="${anime.poster || anime.hikkaPoster}" title="${anime.title}">
-        <div class="title">
-            <div>
-                <h1>${anime.title}</h1>
-                <span>${anime.romaji}</span>
+    app.innerHTML = `
+    <div class='anime-detail'>
+        <div class="anime-cover"><img src="${anime.cover}"></div>
+        <div class="top-section">
+            <img class="anime-poster" src="${anime.poster || anime.hikkaPoster}" title="${anime.title}">
+            <div class="title">
+                <div>
+                    <h1>${anime.title}</h1>
+                    <span>${anime.romaji}</span>
+                </div>
+                <div class="anime-info">
+                    <p>Тип: ${anime.type}</p>
+                    <p>Формат: ${anime.format}</p>
+                    <p>Рік: ${anime.year}</p>
+                    <p>Епізоди: ${anime.episodes}</p>
+                </div>
+                <button id="backButton">Повернутись</button>
             </div>
-            <div class="anime-info">
-                <p>Тип: ${anime.type}</p>
-                <p>Формат: ${anime.format}</p>
-                <p>Рік: ${anime.year}</p>
-                <p>Епізоди: ${anime.episodes}</p>
-            </div>
-            <div id="releasesList" class=''>Завантаження інформації про релізи...</div>
-            <button id="backButton">Повернутись</button>
         </div>
+        <div id="releasesList" class='page-block'>Завантаження інформації про релізи...</div>
     </div>
     `
-    
-    app.appendChild(detailDiv)
-    
-    // nav.innerHTML += `<span id="secondCrumb">${anime.title}</span>`
-
+    updateNavigation(anime.title)
     // Завантаження та відображення інформації про релізи
     const releases = anime.releases ? allReleases.filter(r => r.animeId === anime.id) : []
     const releasesList = document.getElementById("releasesList")
@@ -282,8 +305,8 @@ async function renderAnimeDetail(anime, backPage) {
         releasesList.innerHTML = "<p>Релізи не знайдено</p>"
     }
 
-    const backButton = detailDiv.querySelector("#backButton")
-    if (backPage === 'toAnimeList') {
+    const backButton = document.querySelector("#backButton")
+    if (backPage === 'toAnimesList') {
         backButton.textContent = 'До списку аніме'
         backButton.onclick = () => {
             renderAnimeList(allAnimes, "Animes")
@@ -293,32 +316,44 @@ async function renderAnimeDetail(anime, backPage) {
 
 // Рендеринг списку аніме
 function renderAnimeList(items, typeofList) {
+    console.log(items.length)
     const itemsPerPage = 50
     let currentPage = 0
     let filteredItems = [...items]
+
+    updateNavigation()
+    // const secondCrumb = document.getElementById('secondCrumb')
+    // if (secondCrumb) {secondCrumb.remove()}
+
     app.innerHTML = `
         <input type="text" id="localSearchInput" placeholder="Пошук...">
         <div class='anime-list'></div>
     `
-    
     const listDiv = document.querySelector('.anime-list')
     const searchInput = document.getElementById("localSearchInput")
     searchInput.addEventListener('input', handleSearch)
 
     function handleSearch() {
-        const searchTerm = searchInput.value.toLowerCase()
-        console.log(searchTerm)
+        const query = searchInput.value.toLowerCase()
+        if (query.length === 0) {
+            loadMoreItems()
+        } else if (query.length < 3) {
+            return
+        }
         filteredItems = items.filter(item => {
-            if (typeofList === "Anime") {
-                return item.title.toLowerCase().includes(searchTerm) || 
-                       item.romaji.toLowerCase().includes(searchTerm)
-            } else {
-                return item.title.toLowerCase().includes(searchTerm) || 
-                       (allAnimes.find(anime => anime.id === item.animeId)?.title.toLowerCase().includes(searchTerm))
+            if (typeofList === "Animes") {
+                return item.title.toLowerCase().includes(query) || 
+                       item.romaji.toLowerCase().includes(query)
+            }
+            if (typeofList === "Releases") {
+                return item.title.toLowerCase().includes(query) || 
+                       (allAnimes.find(anime => anime.id === item.animeId)?.title.toLowerCase().includes(query)) || 
+                       (allAnimes.find(anime => anime.id === item.animeId)?.romaji.toLowerCase().includes(query))
+            }
+            if (typeofList === "Teams") {
+                return item.name.toLowerCase().includes(query)
             }
         })
-        console.log(filteredItems)
-        
         currentPage = 0
         listDiv.innerHTML = ""
         loadMoreItems()
@@ -331,6 +366,7 @@ function renderAnimeList(items, typeofList) {
         
         itemsToRender.forEach((item) => {
             const card = document.createElement("div")
+            card.classList.add("card")
             
             if (typeofList === "Animes") {
                 card.classList.add("title-card")
@@ -338,42 +374,41 @@ function renderAnimeList(items, typeofList) {
                     <div class="poster-box">
                         <img src="${item.poster || item.hikkaPoster}" title="${item.title}">
                     </div>
-                    <div class='title-info'>
+                    <div class='info'>
                         <span class="truncate" title="${item.title}">${item.title}</span>
                         <small>${item.year} / ${item.format}</small>
                     </div>
                 `
-                card.onclick = () => renderAnimeDetail(item, 'toAnimeList')
+                card.onclick = () => renderAnimeDetail(item, 'toAnimesList')
             }
             if (typeofList === "Releases") {
                 card.classList.add("release-card")
                 const anime = allAnimes.find(anime => anime.id === item.animeId)
-                const teams = item.teams.map(t => `<img src="${t.logo}">${t.name}`)
-                if (!anime) return
+                const teams = item.teams.map(t => `<span><img src="${t.logo}">${t.name}</span>`).join('')
+                // if (!anime) return
                 card.innerHTML = `
-                    <img src="${anime.cover}" alt="" class="release-poster">
-                    <div class="release-info">
+                    <img src="${anime.cover}" class="release-poster" title="${item.title}">
+                    <div class="info">
                         <h3 class="truncate">${item.title}</h3>
                         <p class='teams-logos'>${teams}</p>
                         <p>Епізоди: ${item.episodes}</p>
                     </div>
                 `
-                card.onclick = () => renderReleaseDetail(item, 'toReleaseList')
+                card.onclick = () => renderReleaseDetail(item, 'toReleasesList')
             }
             if (typeofList === "Teams") {
-            card.classList.add("team-card")
-            const anime = allAnimes.find(anime => anime.id === item.animeId)
-                const teams = item.teams.map(t => `<img src="${t.logo}">${t.name}`)
-                if (!anime) return
+                card.classList.add("team-card")
+            // const anime = allTeams.find(anime => anime.id === item.animeId)
+                // const teams = item.teams.map(t => `<img src="${t.logo}">${t.name}`)
+                // if (!anime) return
                 card.innerHTML = `
-                    <img src="${anime.cover}" alt="" class="release-poster">
-                    <div class="release-info">
-                        <h3 class="truncate">${item.title}</h3>
-                        <p class='teams-logos'>${teams}</p>
-                        <p>Епізоди: ${item.episodes}</p>
+                    <img src="${item.logo}" class="team-logo" title="${item.name}">
+                    <div class="info">
+                        <h3 class="truncate">${item.name}</h3>
+                        <p>Релізи: ${item.releases.length}</p>
                     </div>
                 `
-                card.onclick = () => renderReleaseDetail(item, 'toReleaseList')
+                card.onclick = () => renderTeamDetail(item, 'toTeamsList')
             }
             
             listDiv.appendChild(card)
@@ -391,32 +426,32 @@ function renderAnimeList(items, typeofList) {
     function handleScroll() {
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
             loadMoreItems()
-            // initLazyLoad()
         }
     }
     loadMoreItems()
-    // initLazyLoad()
 }
 
-// Ініціалізація кнопок навігації
+// Ініціалізація кнопок
 animeListButton.onclick = () => renderAnimeList(allAnimes, "Animes")
 releasesListButton.onclick = () => renderAnimeList(allReleases, "Releases")
 teamsListButton.onclick = () => renderAnimeList(allTeams, "Teams")
+homeButton.onclick = renderHomePage
 
 // Функція для рендерингу головної сторінки
 async function renderHomePage() {
     app.innerHTML = "<h1>Каталог Фандабу!</h1>"
+    updateNavigation()
     const randomAnimeSection = renderRandomAnime()
 
-    // Створення блоку з останніми релізами
-    const recentReleasesSection = await renderReleasesSection(allReleases.slice(0, 8), "Останні додані релізи")
+    // Створення блоку з останніми релізами    
+    const recentReleasesSection = renderReleasesSection(allReleases.slice(0, 8), "Останні додані релізи")
     const recentReleasesButton = document.createElement('button')
     recentReleasesButton.textContent = 'Всі релізи'
     recentReleasesButton.onclick = () => renderAnimeList(allReleases, "Releases")
     recentReleasesSection.appendChild(recentReleasesButton)
     
     // Створення блоку з поточними релізами
-    const currentReleasesSection = await renderReleasesSection(allReleases.filter(release => release.status === "В процесі").slice(0, 8), "Поточні релізи")
+    const currentReleasesSection = renderReleasesSection(allReleases.filter(release => release.status === "В процесі").slice(0, 8), "Поточні релізи")
     const currentReleasesButton = document.createElement('button')
     currentReleasesButton.textContent = 'Всі поточні релізи'
     currentReleasesButton.onclick = () => renderAnimeList(allReleases.filter(r => r.status === 'В процесі'), "Releases")
@@ -430,25 +465,23 @@ async function renderHomePage() {
     app.appendChild(statsSection)
 }
 
-// Додаємо обробник для кнопки "На головну"
-// const homeButton = document.getElementById("homeButton")
-homeButton.onclick = renderHomePage
-
 // Викликаємо рендеринг головної сторінки при завантаженні сторінки
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         loadingОverlay.style.display = 'flex'
         // showLoader()
-        console.log('DOM loaded, initializing...')
+        console.log('Сторінка завантажена, отримуємо дані...')
         await loadData()
-        console.log('Data loaded')
+        console.log('Дані отримано')
         initSearch(allAnimes, allReleases, allTeams, renderAnimeDetail, renderReleaseDetail)
-        console.log('Search initialized')
         await renderHomePage()
-        console.log('Home page rendered')
+        window.onscroll = () => {
+            // const nav = document.querySelector('#nav')
+            window.scrollY > 0 ? nav.classList.add('scrolled') : nav.classList.remove('scrolled')
+        }
     } catch (error) {
-        console.error('Error during initialization:', error)
-        hideLoader()
+        console.error('Не вийшло отримати дані:', error)
+        // hideLoader()
         document.getElementById('app').innerHTML = `<p>Виникла помилка при завантаженні: ${error.message}</p>`
     } finally {
         loadingОverlay.style.display = 'none'

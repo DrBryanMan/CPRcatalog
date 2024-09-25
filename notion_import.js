@@ -117,8 +117,8 @@ async function importTeams() {
 
 async function runAllImports() {
   console.log("Початок імпорту всіх даних...")
-  await importAnimeTitles()
-  await importReleases()
+  // await importAnimeTitles()
+  // await importReleases()
   await importTeams()
   console.log("Всі імпорти завершено успішно.")
 }
