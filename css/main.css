@@ -12,15 +12,32 @@
     height: 200px;
     border-radius: var(--radius);
 }
+
+/* Заголовки */
 #app > div h2,
 .page-block > h3 {
-/*   position: relative; */
   border-left: .5rem solid var(--accent);
-  padding-left: 10px;
+  padding-left: .5em;
   transition: .3s;
 }
-#app > div h2 {
-  margin: 1em 0 .5em;
+.releases-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+.releases-header a {
+    color: var(--light);
+    text-decoration: none;
+    border: 1px solid var(--light-10);
+    border-radius: var(--radius);
+    padding: .3em;
+    background: var(--light-05);
+    aspect-ratio: 1;
+    transition: .3s;
+}
+.releases-header a:hover {
+    background: var(--light-10);
 }
 
 /* == stats-container == */
@@ -28,7 +45,6 @@
     display: flex;
     gap: 2em;
     justify-content: center;
-    margin-bottom: 1em;
 }
 .stat-item {
     display: flex;
@@ -38,4 +54,9 @@
     border: 2px solid var(--accent);
     border-radius: var(--radius);
     padding: 0.5em 2em;
+}
+
+/* == Інше == */
+#cacheButton:not(:hover) {
+    background: none;
 }

@@ -1,0 +1,42 @@
+.list-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.view-controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.view-controls button.active {
+    background-color: #e0e0e05;
+}
+
+#filterBtn {
+    background-color: #f0f0f05;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#filterOptions {
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #f0f0f05;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-btn.active {
+    background-color: #007bff;
+    color: white;
+}

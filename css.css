@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 @import url(css/breadcrumbs.css);
 @import url(css/colors.css);
-@import url(css/kit.css);
+@import url(css/footer.css);
 @import url(css/list.css);
+@import url(css/list-filter.css);
 @import url(css/main.css);
 @import url(css/release.css);
 @import url(css/search_modal.css);
@@ -24,22 +25,24 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
+  position: relative;
   min-height: 100vh;
-  margin: 0;
+  padding-bottom: 50px;
 	line-height: 1.2;
   background: var(--dark);
-  background-image: linear-gradient(to right, var(--accent-10),var(--accent-50),var(--accent-10));
+  background-image: linear-gradient(to right, var(--accent-10),var(--accent-50),var(--accent-10));  
   font-family: "Jura";
   color: var(--text);
 }
 
 #app {
-  /* margin: 0 1em; */
   padding: 4em 4em 1em;
 }
 
+h2 {
+  margin: 1em 0;
+}
 button {
   cursor: pointer;
   background: #fff3;
@@ -50,7 +53,6 @@ button {
   border-radius: var(--radius);
   transition: .3s;
 }
-
 button:hover {
   background: #fff5;
 }

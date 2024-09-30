@@ -1,11 +1,11 @@
 /* == Релізи на головній */
-.release-list {
+/* .release-list {
     display: flex;
     justify-content: center;
     gap: 1em;
     flex-wrap: wrap;
     align-items: flex-start;
-}
+} */
 
 /* == Сторінка релізу == */
 /* Стилі для контейнера карток релізів в аніме */

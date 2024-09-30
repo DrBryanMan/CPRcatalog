@@ -1,6 +1,7 @@
 :root {
     --light: hsl(0, 0%, 90%); /* #e6e6e6 */
     --light--hsl: 0, 0%, 90%;
+    --light-05: hsl(var(--light--hsl), .05);
     --light-10: hsl(var(--light--hsl), .1);
     --light-20: hsl(var(--light--hsl), .2);
     --light-50: hsl(var(--light--hsl), .5);
@@ -8,6 +9,7 @@
     --light-90: hsl(var(--light--hsl), .9);
     --dark: hsl(0, 0%, 10%); /* #1a1a1a */
     --dark--hsl: 0, 0%, 10%;
+    --dark-05: hsl(var(--dark--hsl), .05);
     --dark-10: hsl(var(--dark--hsl), .1);
     --dark-20: hsl(var(--dark--hsl), .2);
     --dark-50: hsl(var(--dark--hsl), .5);
@@ -17,6 +19,7 @@
     --accent-color: 230;
     --accent: hsl(var(--accent-color), 30%, 50%); /* #5966a6 */
     --accent--hsl: var(--accent-color), 30%, 50%;
+    --accent-05: hsl(var(--accent--hsl), .05);
     --accent-10: hsl(var(--accent--hsl), .1);
     --accent-20: hsl(var(--accent--hsl), .2);
     --accent-50: hsl(var(--accent--hsl), .5);

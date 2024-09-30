@@ -1,9 +1,24 @@
+/* == Каталог == */
+/* загально для списків */
+.items-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+    gap: 1em 2em;
+}
+.items-list.list-view {
+    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 2em), 1fr));
+}
+
+/* Картка елементу */
 .card {
     display: flex;
     flex-direction: column;
     overflow: hidden;
     width: 200px;
-    background: #0005;
+    background: var(--dark-50);
     border-radius: var(--radius);
     box-shadow: 0 0 4px var(--accent);
     outline: 2px solid var(--accent-10);
@@ -18,26 +33,38 @@
 .card img {
     width: 100%;
     height: auto;
-    border-radius: var(--radius);
 }
 
-/* == Каталог == */
-/* загально для списків */
-.anime-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
+.items-list.list-view .card {
+    position: relative;
+    flex-direction: row;
+    /* align-items: flex-end; */
+    width: 100%;
+    gap: 1em;
+    aspect-ratio: 4/1;
 }
+
+/* .items-list.list-view .info {
+} */
+
 /* Для картки тайтлу */
-/* poster in anime-card */
+/** poster in anime-card **/
 .poster-box {
     max-height: 270px;
     overflow: hidden;
+    border-radius: var(--radius);
 }
-.title-card .info {
+.items-list.list-view .poster-box {
+    max-height: 150px;
+    width: 80px;
+}
+
+.anime-card .info {
     margin: 4px 4px 0;
+}
+.items-list.list-view .card .info {
+    width: calc(100% - 100px - 1em);
+    /* width: 100%; */
 }
 
 /* Для картки релізу в тайтлі */
@@ -46,8 +73,16 @@
 }
 
 /* Для картки релізу */
+.items-list.list-view .release-card .anime-cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    mask-image: linear-gradient(transparent, #000);
+}
+
 
 /* Картки команд */
-.team-card {
+/* .team-card {
     
-}
+} */
