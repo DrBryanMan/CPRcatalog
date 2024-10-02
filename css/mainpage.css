@@ -1,0 +1,65 @@
+.random-anime-container {
+    display: flex;
+    width: 50%;
+    gap: 1em;
+    margin: auto;
+}
+.random-anime-info {
+    width: 70%;
+}
+.random-anime-poster {
+    width: 150px;
+    height: 200px;
+    border-radius: var(--radius);
+}
+
+/* Заголовки */
+#app > div h2,
+.page-block > h3 {
+  border-left: .5rem solid var(--accent);
+  padding-left: .5em;
+  transition: .3s;
+}
+.releases-header,
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+.releases-header a,
+.main-header button {
+    color: var(--light);
+    text-decoration: none;
+    border: 1px solid var(--light-10);
+    border-radius: var(--radius);
+    padding: .3em;
+    background: var(--light-05);
+    aspect-ratio: 1;
+    transition: .3s;
+}
+.releases-header a:hover,
+.main-header button:hover {
+    background: var(--light-10);
+}
+
+/* == stats-container == */
+.stats-container {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 200%;
+    border: 2px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 0.5em 2em;
+}
+
+/* == Інше == */
+#cacheButton:not(:hover) {
+    background: none;
+}

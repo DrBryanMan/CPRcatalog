@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    width: 200px;
+    width: 100%;
     background: var(--dark-50);
     border-radius: var(--radius);
     box-shadow: 0 0 4px var(--accent);
@@ -56,14 +56,14 @@
 }
 .items-list.list-view .poster-box {
     max-height: 150px;
-    width: 80px;
+    width: 20%;
 }
 
 .anime-card .info {
-    margin: 4px 4px 0;
+    padding: 4px;
 }
 .items-list.list-view .card .info {
-    width: calc(100% - 100px - 1em);
+    width: calc(80% - 1em);
     /* width: 100%; */
 }
 
@@ -73,7 +73,7 @@
 }
 
 /* Для картки релізу */
-.items-list.list-view .release-card .anime-cover {
+.items-list.list-view .anime-cover {
     position: absolute;
     left: 0;
     top: 0;

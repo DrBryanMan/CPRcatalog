@@ -1,23 +1,7 @@
 export function initSearch(animesData, releasesData, teamsData, renderAnimeDetail, renderReleaseDetail) {
+    searchModalButton.onclick = () => searchModal.classList.add('is-visible')
+    window.onclick = (event) => (event.target == searchModal || event.target == closeModal) && searchModal.classList.remove('is-visible')
 
-    // Відкриття модального вікна
-    const closeBtn = searchModal.querySelector('.close')
-
-    searchButton.onclick = () => {
-        searchModal.classList.add('is-visible')
-    }
-
-    closeBtn.onclick = () => {
-        searchModal.classList.remove('is-visible')
-    }
-
-    window.onclick = (event) => {
-        if (event.target == searchModal) {
-            searchModal.classList.remove('is-visible')
-        }
-    }
-
-    // Функціонал пошуку
     const searchInput = document.getElementById('searchInput')
     const searchResults = document.getElementById('searchResults')
     const searchTypeInputs = document.querySelectorAll('input[name="searchType"]')

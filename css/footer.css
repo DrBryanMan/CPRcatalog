@@ -1,7 +1,6 @@
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    margin-top: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,8 +8,9 @@ footer {
     background: var(--dark-80);
     backdrop-filter: blur(4px);
 }
-footer > div:first-child {
+#footerLinks {
     display: flex;
+    flex-wrap: wrap;
     gap: .5em;
 }
 footer > div:last-child {

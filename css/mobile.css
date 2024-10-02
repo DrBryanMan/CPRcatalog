@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+    #app {
+        padding: 4em 1em 1em;
+    }
+
+    .stats-container, footer {
+        flex-direction: column;
+    }
+    footer {
+        gap: .5em;
+    }
+    #footerLinks {
+        justify-content: space-evenly;
+    }
+
+    /* Списки */
+    .items-list {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+    .items-list.list-view {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+    .items-list.list-view .card {
+        aspect-ratio: 3/1;
+    }
+}

@@ -30,22 +30,16 @@ function clearCache() {
     localStorage.removeItem('hikkaAnimeData')
     localStorage.removeItem('currentView')
 }
-
-// Оновлення обробників подій для кнопок навігації
-function updateNavigationHandlers() {
-    animeListButton.onclick = () => router.navigate('/animes')
-    releasesListButton.onclick = () => router.navigate('/releases')
-    teamsListButton.onclick = () => router.navigate('/teams')
-    homeButton.onclick = () => router.navigate('/')
+function getUrlParams() {
+    const params = new URLSearchParams(window.location.hash.split('?')[1]);
+    return {
+        format: params.get('format') ? params.get('format').split(',') : [],
+        status: params.get('status') ? params.get('status').split(',') : []
+    };
 }
-
 // Налаштування маршрутів
 function setupRoutes() {
     let cleanup = null
-    const hash = window.location.hash
-    const querySearch = hash.indexOf('?')
-    const queryString = hash.slice(querySearch + 1)
-    const params = new URLSearchParams(queryString)
 
     function resetScroll() {
         window.scrollTo(0, 0)
@@ -66,20 +60,14 @@ function setupRoutes() {
     }
 
     router
+        .on('*', () => resetScroll())
         .on('/', handleRoute('/', renderHomePage))
         .on('/animes', handleRoute('/animes', renderList, allAnimes, 'Аніме'))
         .on('/anime/:id', (match) => {
             const anime = allAnimes.find(a => a.id === match.data.id)
             handleRoute('/anime/:id', renderAnimeDetail, anime)()
         })
-        // .on('/releases', handleRoute('/releases', renderList, allReleases, 'Релізи'))
-        .on('/releases', () => {
-            let initialFilters = {
-                format: params.get('format') ? params.get('format').split(',') : [],
-                status: params.get('status') ? params.get('status').split(',') : []
-            }
-            handleRoute('/releases', renderList, allReleases, 'Релізи', initialFilters)()
-        })
+        .on('/releases', handleRoute('/releases', renderList, allReleases, 'Релізи', false))
         .on('/release/:id', (match) => {
             const release = allReleases.find(r => r.id === match.data.id)
             handleRoute('/release/:id', renderReleaseDetail, release)()
@@ -90,14 +78,20 @@ function setupRoutes() {
             handleRoute('/team/:id', renderTeamDetail, team)()
         })
         .notFound(() => {
+            if (typeof cleanup === 'function') {
+                cleanup()
+            }
+            cleanup = null
             app.innerHTML = `
             <h1>404 - Сторінку не знайдено</h1>
             <img src='https://www.1999.co.jp/itbig85/10852139a2_m.jpg'>
             `
-            handleRoute('notFound')()
+            currentRoute = 'notFound'
         })
-        .on('*', () => querySearch)
-
+    
+    if (window.location.pathname === '/' && window.location.hash === '') {
+        window.location.hash = '#/'
+    }
     router.resolve()
 }
 
@@ -207,11 +201,31 @@ function renderStatistics() {
     return statsSection
 }
 function renderRandomAnime() {
-    const anime = allAnimes[Math.floor(Math.random() * allAnimes.length)]
+    let anime = allAnimes[Math.floor(Math.random() * allAnimes.length)]
     const randomAnimeSection = document.createElement('div')
     randomAnimeSection.classList.add('random-anime-section')
+    
+    function updateAnimeContent() {
+        anime = allAnimes[Math.floor(Math.random() * allAnimes.length)]
+        const container = randomAnimeSection.querySelector('.random-anime-container')
+        container.innerHTML = `
+            <img src='${anime.poster || anime.hikkaPoster}' alt='${anime.title}' class='random-anime-poster'>
+            <div class='random-anime-info'>
+                <h3 class='truncate'>${anime.title}</h3>
+                <p>${anime.romaji}</p>
+                <p>Тип: ${anime.type}</p>
+                <p>Формат: ${anime.format}</p>
+                <p>Рік: ${anime.year}</p>
+                <p>Епізоди: ${anime.episodes}</p>
+            </div>
+        `
+    }
+
     randomAnimeSection.innerHTML = `
-        <h2>Випадкове аніме</h2>
+        <div class='main-header'>
+            <h2>Випадкове аніме</h2>
+            <button id='randomizeButton' title='Оновити'><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
         <div class='random-anime-container page-block'>
             <img src='${anime.poster || anime.hikkaPoster}' alt='${anime.title}' class='random-anime-poster'>
             <div class='random-anime-info'>
@@ -224,13 +238,17 @@ function renderRandomAnime() {
             </div>
         </div>
     `
+
+    const randomButton = randomAnimeSection.querySelector('#randomizeButton')
+    randomButton.onclick = updateAnimeContent
+
     return randomAnimeSection
 }
-// Відображення секції релізів
 function renderReleasesSection(items, title, type, route) {
     const section = document.createElement('div')
     section.classList.add('releases-section')
-    section.innerHTML = `<div class='releases-header'><h2>${title}</h2><a href='${route}'><i class="fa-solid fa-angles-right"></i></a></div>`
+    route
+    section.innerHTML = `<div class='releases-header'><h2>${title}</h2><a href='${route}' data-navigo><i class="fa-solid fa-angles-right"></i></a></div>`
 
     const itemList = document.createElement('div')
     itemList.classList.add('items-list')
@@ -239,7 +257,7 @@ function renderReleasesSection(items, title, type, route) {
         const listItem = document.createElement('div')
 
         switch (type) {
-            case 'anime':
+            case 'Аніме':
                 listItem.classList.add('anime-card', 'card')
                 listItem.innerHTML = `
                     <div class='poster-box'>
@@ -253,7 +271,7 @@ function renderReleasesSection(items, title, type, route) {
                 listItem.onclick = () => router.navigate(`/anime/${item.id}`)
                 break
         
-            case 'release':
+            case 'Реліз':
                 listItem.classList.add('release-card', 'card')
                 const animeData = allAnimes.find(anime => item.animeIds.includes(anime.id))
                 const teams = item.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
@@ -277,27 +295,26 @@ function renderReleasesSection(items, title, type, route) {
     section.appendChild(itemList)
     return section
 }
+
 // Оновлення навігації
-function updateNavigation(firstCrumbText, secondCrumbText = null) {
-    firstCrumb.textContent = firstCrumbText
-    const nav = document.getElementById('nav')
+function updateNavigation(type, secondCrumbText = null) {
+    firstCrumb.textContent = type
     let secondCrumb = nav.querySelector('#secondCrumb')
     
-    if (secondCrumbText) {
-        if (!secondCrumb) {
-            secondCrumb = document.createElement('span')
-            secondCrumb.id = 'secondCrumb'
-            nav.appendChild(secondCrumb)
-        }
-        secondCrumb.textContent = secondCrumbText
-    } else if (secondCrumb) {
-        secondCrumb.remove()
-    }
+    secondCrumbText
+        ? (secondCrumb = secondCrumb || (() => {
+                secondCrumb = document.createElement('span')
+                secondCrumb.id = 'secondCrumb'
+                nav.appendChild(secondCrumb)
+                return secondCrumb
+            })(),
+            secondCrumb.textContent = secondCrumbText)
+        : secondCrumb && secondCrumb.remove()
 }
 
 // Відображення сторінки команди
 async function renderTeamDetail(team) {
-    firstCrumb.textContent = 'Команди'
+    updateNavigation('Команди', team.name)
     app.innerHTML = `
     <div class='team-detail'>
         <div class='top-section'>
@@ -313,7 +330,6 @@ async function renderTeamDetail(team) {
         <div id='releasesList' class='page-block'>Завантаження інформації про релізи...</div>
     </div>
     `
-    updateNavigation(team.name)
 
     // Завантаження та відображення інформації про релізи
     const releases = team.releases.length > 0 ? allReleases.filter(release => team.releases.some(r => r.id === release.id)) : []
@@ -356,7 +372,7 @@ async function renderAnimeReleases(releases) {
 
 // Відображення деталей релізу
 async function renderReleaseDetail(release) {
-    firstCrumb.textContent = 'Релізи'
+    updateNavigation('Релізи', release.title)
     const anime = allAnimes.find(anime => release.animeIds.includes(anime.id))
     const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
     const torrents = release.torrentLinks.map(t => `<a href='${t.url}' target='_blank'>${t.text}</a>`).join('')
@@ -382,12 +398,11 @@ async function renderReleaseDetail(release) {
         </div>
     </div>
     `
-    updateNavigation(release.title)
 }
 
 // Відображення деталей аніме
 async function renderAnimeDetail(anime) {
-    firstCrumb.textContent = 'Аніме'
+    updateNavigation('Аніме', anime.title)
     app.innerHTML = `
     <div class='anime-detail'>
         <div class='anime-cover'><img src='${anime.cover}'></div>
@@ -409,7 +424,6 @@ async function renderAnimeDetail(anime) {
         <div id='releasesList' class='page-block'>Завантаження інформації про релізи...</div>
     </div>
     `
-    updateNavigation(anime.title)
     // Завантаження та відображення інформації про релізи
     const releases = anime.releases ? allReleases.filter(r => r.animeIds.includes(anime.id)) : []
     const releasesList = document.getElementById('releasesList')
@@ -423,16 +437,16 @@ async function renderAnimeDetail(anime) {
 }
 
 // Рендеринг списку аніме
-function renderList(items, type, initialFilters = {}) {
+function renderList(items, type, shouldUpdateUrl = false) {
     console.log(currentRoute)
-    console.log(allAnimes.length)
+    console.log(`Завантажено ${items.length} ${type}`)
     updateNavigation(type)
     const itemsPerPage = 20
     let currentPage = 0
     let isLoading = false
     let allItemsLoaded = false
     let filteredItems = [...items]
-    let activeFilters = initialFilters
+    let activeFilters = {}  // Додайте цей рядок
     let currentView
     app.innerHTML = `
         <div class="list-controls">
@@ -514,6 +528,11 @@ function renderList(items, type, initialFilters = {}) {
         filterOptions.style.display = filterOptions.style.display === 'none' ? 'block' : 'none'
     }
 
+    activeFilters = getUrlParams()
+    initializeFilters(type)
+    applyFilters(shouldUpdateUrl)
+    console.log('initialFilters = ', activeFilters)
+
     function initializeFilters(type) {
         const filterOptions = document.getElementById('filterOptions')
         let filterHTML = ''
@@ -558,8 +577,7 @@ function renderList(items, type, initialFilters = {}) {
                     activeFilters[filterType].push(filterValue)
                     button.classList.add('active')
                 }
-                
-                applyFilters()
+                applyFilters(true)
             })
         })
 
@@ -571,8 +589,9 @@ function renderList(items, type, initialFilters = {}) {
             })
         })
     }
+    applyFilters(false)
 
-    function applyFilters() {
+    function applyFilters(shouldUpdateUrl = false) {
         filteredItems = items.filter(item => {
             let formatMatch = true
             let statusMatch = true
@@ -593,17 +612,19 @@ function renderList(items, type, initialFilters = {}) {
         })
 
         resetList()
-        updateURL()
+        if (shouldUpdateUrl) {
+          updateURL()
+        }
     }
     function updateURL() {
         const params = new URLSearchParams()
-        Object.entries(activeFilters).forEach(([key, values]) => {
-            if (values && values.length > 0) {
-                params.append(key, values.join(','))
-            }
-        })
-        const newURL = `#/releases?${params.toString()}`
-        history.pushState(null, '', newURL)
+        Object.entries(activeFilters).forEach(([key, values]) => values && values.length > 0 && params.append(key, values.join(',')))
+        const newUrl = `#${currentRoute}?${params.toString()}`
+        const currentUrl = window.location.hash
+        
+        if (newUrl !== currentUrl) {
+            history.pushState(null, '', newUrl)
+        }
     }
 
     function resetList() {
@@ -656,7 +677,6 @@ function renderList(items, type, initialFilters = {}) {
                                 <small>${item.year} / ${item.format}</small>
                             </div>
                         `
-                        card.onclick = () => router.navigate(`/anime/${item.id}`)
                         break
                     case 'list':
                         card.innerHTML = `
@@ -664,14 +684,14 @@ function renderList(items, type, initialFilters = {}) {
                                 <img src='${item.poster || item.hikkaPoster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
-                                <img src='${item?.cover}' class='anime-cover' title='${item.title}' loading="lazy">
+                                <div class='anime-cover'><img src='${item?.cover}' title='${item.title}' loading="lazy"></div>
                                 <h3 class='truncate' title='${item.title}'>${item.title}</h3>
                                 <small>${item.year} / ${item.format}</small>
                             </div>
                         `
-                        card.onclick = () => router.navigate(`/anime/${item.id}`)
                         break
                 }
+                card.onclick = () => router.navigate(`/anime/${item.id}`)
                 break
             case 'Релізи':
                 const anime = allAnimes.find(anime => item.animeIds.includes(anime.id))
@@ -680,31 +700,31 @@ function renderList(items, type, initialFilters = {}) {
                 switch (currentView) {
                     case 'grid':
                         card.innerHTML = `
-                            <img src='${anime?.cover}' class='release-poster' title='${item.title}' loading="lazy">
+                            <div class='poster-box'>
+                                <img src='${item.poster || anime?.hikkaPoster}' title='${item.title}' loading="lazy">
+                            </div>
                             <div class='info'>
                                 <h3 class='truncate'>${item.title}</h3>
                                 <p class='teams-logos'>${teams}</p>
                                 <p>Епізоди: ${item.episodes}</p>
                             </div>
                         `
-                        card.onclick = () => router.navigate(`/release/${item.id}`)
                         break
-                
-                        case 'list':
+                    case 'list':
                         card.innerHTML = `
                             <div class='poster-box'>
-                                <img src='${anime.hikkaPoster}' title='${item.title}' loading="lazy">
+                                <img src='${item.poster || anime.hikkaPoster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
-                                <img src='${anime?.cover}' class='anime-cover' title='${item.title}' loading="lazy">
+                                <div class='anime-cover'><img src='${anime.cover}' title='${item.title}' loading="lazy"></div>
                                 <h3 class='truncate'>${item.title}</h3>
                                 <p class='teams-logos'>${teams}</p>
                                 <p>Епізоди: ${item.episodes}</p>
                             </div>
                         `
-                        card.onclick = () => router.navigate(`/release/${item.id}`)
-                        break
+                    break
                 }
+                card.onclick = () => router.navigate(`/release/${item.id}`)
                 break
             case 'Команди':
                 card.classList.add('team-card')
@@ -731,54 +751,48 @@ function renderList(items, type, initialFilters = {}) {
     window.addEventListener('scroll', handleScroll)
     initializeFilters(type)
     loadMoreItems()
-    return () => window.removeEventListener('scroll', handleScroll)
-}
-
-function createCacheButton() {
-    const cacheButton = document.createElement('button')
-    cacheButton.textContent = 'Оновити кеш'
-    cacheButton.setAttribute('id', 'cacheButton')
-    cacheButton.onclick = () => {
-        clearCache()
-        location.reload()
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+        window.removeEventListener('scroll', handleScroll)
     }
-    footerLinks.append(cacheButton)
 }
 
 // Функція для рендерингу головної сторінки
 async function renderHomePage() {
     updateNavigation('Головна')
-    // app.innerHTML = '<h1>Каталог Фандабу!</h1>'
+    app.innerHTML = ''
     const randomAnimeSection = renderRandomAnime()
     const statsSection = renderStatistics()
-    const recentAnimesSection = renderReleasesSection(allAnimes.slice(0, 5), 'Останні додані аніме', 'anime', '#/animes')
-    const recentReleasesSection = renderReleasesSection(allReleases.slice(0, 10), 'Останні додані релізи', 'release', '#/releases')
-    const currentReleasesSection = renderReleasesSection(allReleases.slice(0, 10), 'Поточні релізи', 'release', '#/releases?status=В процесі')
+    const recentAnimesSection = renderReleasesSection(allAnimes.slice(0, 5), 'Останні додані аніме', 'Аніме', '/animes')
+    const recentReleasesSection = renderReleasesSection(allReleases.slice(0, 5), 'Останні додані релізи', 'Реліз', '/releases')
+    const currentReleasesSection = renderReleasesSection(allReleases.slice(0, 5), 'Поточні релізи', 'Реліз', '/releases?status=В процесі')
 
     app.appendChild(randomAnimeSection)
     app.appendChild(recentAnimesSection)
     app.appendChild(recentReleasesSection)
     app.appendChild(currentReleasesSection)
     app.appendChild(statsSection)
-    createCacheButton()
+    router.updatePageLinks()
 }
 
 // Викликаємо рендеринг головної сторінки при завантаженні сторінки
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         loadingОverlay.style.display = 'flex'
-        console.log('Сторінка завантажена, отримуємо дані...')
         await loadData()
-        console.log('Дані отримано')
         initSearch(allAnimes, allReleases, allTeams, 
             (anime) => router.navigate(`/anime/${anime.id}`),
             (release) => router.navigate(`/release/${release.id}`)
         )
         setupRoutes()
-        updateNavigationHandlers()
+        // updateNavigationHandlers()
+        cacheButton.onclick = () => {
+            clearCache()
+            location.reload()
+        }
         window.onscroll = () => {
             window.scrollY > 0 ? nav.classList.add('scrolled') : nav.classList.remove('scrolled')
-        }
+        }   
     } catch (error) {
         console.error('Не вийшло отримати дані:', error)
         app.innerHTML = `<p>Виникла помилка при завантаженні: ${error.message}</p>`

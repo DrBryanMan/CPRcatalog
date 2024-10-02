@@ -14,9 +14,13 @@ nav {
     background: var(--dark-80);
     /* backdrop-filter: blur(4px); */
   }
+  nav a {
+    text-decoration: none;
+    color: var(--light);
+}
 
 /* == breadcrumbs == */
-  .breadcrumbs {
+.breadcrumbs {
     display: flex;
     align-items: center;
     gap: .5em;
@@ -62,18 +66,18 @@ nav {
     opacity: 0;
     transition: visibility .3s .2s, opacity .3s .2s;
 }
-.crumb-list button {
+.crumb-list a {
     background: none;
     padding: .5em;
     text-align: left;
     font-size: 1rem;
 }
-.crumb-list button[disable] {
+/* .crumb-list button[disable] {
     background: none !important;
     cursor: default;
     opacity: .5;
-}
-.crumb-list button:hover,
+} */
+.crumb-list a:hover,
 .nav-button:hover {
     background: var(--light-10);
 }
