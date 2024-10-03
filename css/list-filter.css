@@ -1,42 +1,88 @@
+.filters-section {
+    position: relative;
+    margin-bottom: 20px;
+}
+
 .list-controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    margin-bottom: 20px;
+    gap: 1em;
+}
+
+.view-controls {
+    display: flex;
+    align-items: center;    
+    border: 1px solid var(--light-10);
+    border-radius: var(--radius);
+    overflow: hidden;
 }
 
 .view-controls button {
+    display: flex;
+    align-items: center;
     background: none;
-    border: none;
     cursor: pointer;
     padding: 5px 10px;
+    border-radius: unset;
+}
+#listViewBtn {
+    transform: rotate(180deg);
 }
 
+.view-controls button:hover {
+    background-color: var(--light-10);
+}
 .view-controls button.active {
-    background-color: #e0e0e05;
+    background-color: var(--light-20);
 }
 
 #filterBtn {
-    background-color: #f0f0f05;
-    border: none;
-    padding: 5px 10px;
+    background-color: var(--light-05);
+    border: 1px solid var(--light-10);
     cursor: pointer;
+}
+#filterBtn:hover {
+    background-color: var(--light-10);
+}
+#filterBtn.active {
+    background-color: var(--light-20);
 }
 
 #filterOptions {
-    margin-bottom: 20px;
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    gap: 1em;
+    right: 0;
+    background: var(--dark-90);
+    backdrop-filter: blur(4px);
+    border: 1px solid var(--light-20);
+    border-radius: var(--radius);
+    padding: .5em;
+    margin-top: 10px;
+    z-index: 10;
+    /* transition: visibility .3s .2s, opacity .3s .2s, position .3s .3s; */
+}
+#filterOptions.active {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .3s;
+}
+#filterOptions h4 {
+    margin-bottom: .4em;
 }
 
 .filter-btn {
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 5px 10px;
-    background-color: #f0f0f05;
-    border: none;
-    cursor: pointer;
+    background-color: var(--light-05);
+    border: 1px solid var(--light-10);
+    
 }
 
 .filter-btn.active {
-    background-color: #007bff;
-    color: white;
+    background-color: var(--accent);
 }
+
+/* #filterOptions {display: block !important;} */

@@ -1,16 +1,16 @@
-.random-anime-container {
+.random-anime-section .items-list {
     display: flex;
-    width: 50%;
-    gap: 1em;
-    margin: auto;
+    /* width: 50%; */
+    /* gap: 1em; */
+    /* margin: auto; */
 }
-.random-anime-info {
-    width: 70%;
+.random-anime-section .items-list.list-view .card {
+    align-items: center;
+    max-width: 50%;
 }
-.random-anime-poster {
-    width: 150px;
-    height: 200px;
-    border-radius: var(--radius);
+.random-anime-section .poster-box {
+    display: flex;
+    width: 20%;
 }
 
 /* Заголовки */
@@ -20,15 +20,14 @@
   padding-left: .5em;
   transition: .3s;
 }
-.releases-header,
 .main-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 1em    ;
     margin: 1em 0;
 }
-.releases-header a,
-.main-header button {
+.main-header a,
+.random-anime-section button {
     color: var(--light);
     text-decoration: none;
     border: 1px solid var(--light-10);
@@ -38,8 +37,7 @@
     aspect-ratio: 1;
     transition: .3s;
 }
-.releases-header a:hover,
-.main-header button:hover {
+.main-header a:hover {
     background: var(--light-10);
 }
 

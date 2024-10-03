@@ -3,6 +3,11 @@
         padding: 4em 1em 1em;
     }
 
+    /* random section */
+    .random-anime-section .items-list.list-view .card {
+        max-width: 100%;
+    }
+
     .stats-container, footer {
         flex-direction: column;
     }

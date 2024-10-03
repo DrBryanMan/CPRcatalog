@@ -8,20 +8,11 @@ const router = new Navigo('/', { hash: true })
 let currentRoute
 
 function saveToCache(key, data) {
-    try {
-        localStorage.setItem(key, JSON.stringify(data))
-    } catch (error) {
-        console.error('Error saving to cache:', error)
-    }
+    localStorage.setItem(key, JSON.stringify(data))
 }
 function getFromCache(key) {
-    try {
-        const data = localStorage.getItem(key)
-        return data ? JSON.parse(data) : null
-    } catch (error) {
-        console.error('Error getting from cache:', error)
-        return null
-    }
+    const data = localStorage.getItem(key)
+    return data ? JSON.parse(data) : null
 }
 function clearCache() {
     localStorage.removeItem('allAnimes')
@@ -30,32 +21,24 @@ function clearCache() {
     localStorage.removeItem('hikkaAnimeData')
     localStorage.removeItem('currentView')
 }
-// Налаштування маршрутів
+
 function setupRoutes() {
     let cleanup = null
 
-    function resetScroll() {
-        window.scrollTo(0, 0)
-    }
-
     function cleanupAndRender(renderFunction, ...args) {
-        if (typeof cleanup === 'function') {
-            cleanup()
-        }
+        typeof cleanup === 'function' && cleanup()
         cleanup = renderFunction(...args) || null
     }
 
     function handleRoute(route, renderFunction, ...args) {
         return () => {
             currentRoute = route
-            // router.updatePageLinks()
-            // console.log('123:', initialFilters)
             cleanupAndRender(renderFunction, ...args)
         }
     }
 
     router
-        .on('*', () => resetScroll())
+        .on('*', () => window.scrollTo(0, 0))
         .on('/', handleRoute('/', renderHomePage))
         .on('/animes', handleRoute('/animes', renderList, allAnimes, 'Аніме'))
         .on('/anime/:id', (match) => {
@@ -63,11 +46,10 @@ function setupRoutes() {
             handleRoute('/anime/:id', renderAnimeDetail, anime)()
         })
         .on('/releases', (match) => {
-            const urlParams = match.params
             const initialFilters = {}
-            for (let key in urlParams) {
-                if (urlParams.hasOwnProperty(key)) {
-                    initialFilters[key] = urlParams[key].split(',');
+            for (let key in match.params) {
+                if (match.params.hasOwnProperty(key)) {
+                    initialFilters[key] = match.params[key].split(',');
                 }
             }
             handleRoute('/releases', renderList, allReleases, 'Релізи', initialFilters)()
@@ -187,7 +169,9 @@ function renderStatistics() {
     const statsSection = document.createElement('div')
     statsSection.classList.add('statistics-section')
     statsSection.innerHTML = `
-        <h2>Статистика каталогу</h2>
+        <div class='main-header'>
+            <h2>Статистика каталогу</h2>
+        </div>
         <div class='stats-container'>
             <div class='stat-item'>
                 <span class='stat-value'>${allAnimes.length}</span>
@@ -206,16 +190,17 @@ function renderStatistics() {
     return statsSection
 }
 function renderRandomAnime() {
-    let anime = allAnimes[Math.floor(Math.random() * allAnimes.length)]
     const randomAnimeSection = document.createElement('div')
     randomAnimeSection.classList.add('random-anime-section')
     
     function updateAnimeContent() {
-        anime = allAnimes[Math.floor(Math.random() * allAnimes.length)]
-        const container = randomAnimeSection.querySelector('.random-anime-container')
+        const anime = allAnimes[Math.floor(Math.random() * allAnimes.length)]
+        const container = randomAnimeSection.querySelector('#randomAnime')
         container.innerHTML = `
-            <img src='${anime.poster || anime.hikkaPoster}' alt='${anime.title}' class='random-anime-poster'>
-            <div class='random-anime-info'>
+            <div class='poster-box'>
+                <img src='${anime.poster || anime.hikkaPoster}' title='${anime.title}' loading="lazy">
+            </div>
+            <div class='info'>
                 <h3 class='truncate'>${anime.title}</h3>
                 <p>${anime.romaji}</p>
                 <p>Тип: ${anime.type}</p>
@@ -231,18 +216,12 @@ function renderRandomAnime() {
             <h2>Випадкове аніме</h2>
             <button id='randomizeButton' title='Оновити'><i class="fa-solid fa-rotate-right"></i></button>
         </div>
-        <div class='random-anime-container page-block'>
-            <img src='${anime.poster || anime.hikkaPoster}' alt='${anime.title}' class='random-anime-poster'>
-            <div class='random-anime-info'>
-                <h3 class='truncate'>${anime.title}</h3>
-                <p>${anime.romaji}</p>
-                <p>Тип: ${anime.type}</p>
-                <p>Формат: ${anime.format}</p>
-                <p>Рік: ${anime.year}</p>
-                <p>Епізоди: ${anime.episodes}</p>
+        <div class='items-list list-view'>
+            <div id='randomAnime' class='random-anime-container card'>
             </div>
         </div>
     `
+    updateAnimeContent()
 
     const randomButton = randomAnimeSection.querySelector('#randomizeButton')
     randomButton.onclick = updateAnimeContent
@@ -252,8 +231,7 @@ function renderRandomAnime() {
 function renderReleasesSection(items, title, type, route) {
     const section = document.createElement('div')
     section.classList.add('releases-section')
-    console.log(route)
-    section.innerHTML = `<div class='releases-header'><h2>${title}</h2><a href='${route}' data-navigo><i class="fa-solid fa-angles-right"></i></a></div>`
+    section.innerHTML = `<div class='releases-header main-header'><h2>${title}</h2><a href='${route}' data-navigo><i class="fa-solid fa-angles-right"></i></a></div>`
 
     const itemList = document.createElement('div')
     itemList.classList.add('items-list')
@@ -443,7 +421,6 @@ async function renderAnimeDetail(anime) {
 
 // Рендеринг списку аніме
 function renderList(items, type, initialFilters) {
-    alert("Releases " + JSON.stringify(initialFilters))
     console.log(`Завантажено ${items.length} ${type}`)
     updateNavigation(type)
     const itemsPerPage = 20
@@ -454,18 +431,19 @@ function renderList(items, type, initialFilters) {
     let activeFilters = initialFilters || {}
     let currentView
 
-    alert("Releases " + JSON.stringify(activeFilters))
     app.innerHTML = `
-        <div class="list-controls">
-            <input type="text" id="localSearchInput" placeholder="Пошук...">
-            <div class="view-controls">
-                <button id="gridViewBtn" class="active"><i class="fas fa-th"></i></button>
-                <button id="listViewBtn"><i class="fas fa-list"></i></button>
+        <div class="filters-section">
+            <div class="list-controls">
+                <input type="text" id="localSearchInput" placeholder="Пошук...">
+                <div class="view-controls">
+                <button id="gridViewBtn"><svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><path fill="currentColor" d="M5 11h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m0 10h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m8-16v4c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2m2 16h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2"></path></svg></button>
+                <button id="listViewBtn" class="active"><svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><path fill="currentColor" d="M16 21q-.825 0-1.412-.587T14 19v-4q0-.825.588-1.412T16 13h4q.825 0 1.413.588T22 15v4q0 .825-.587 1.413T20 21zM2 18v-2h9v2zm14-7q-.825 0-1.412-.587T14 9V5q0-.825.588-1.412T16 3h4q.825 0 1.413.588T22 5v4q0 .825-.587 1.413T20 11zM2 8V6h9v2z"></path></svg></button>
+                </div>
+                <button id="filterBtn"><i class="fas fa-filter"></i> Фільтри</button>
             </div>
-            <button id="filterBtn"><i class="fas fa-filter"></i> Фільтр</button>
-        </div>
-        <div id="filterOptions" style="display: none">
-            <!-- Фільтри будуть додані тут динамічно -->
+            <div id="filterOptions">
+                <!-- Фільтри будуть додані тут динамічно -->
+            </div>
         </div>
         <div class="items-list grid-view"></div>
         <div id="loading" style="display: none">Завантаження...</div>
@@ -479,12 +457,12 @@ function renderList(items, type, initialFilters) {
     const filterOptions = document.getElementById('filterOptions')
     const loadingDiv = document.getElementById('loading')
 
-    initializeView()
-
     searchInput.addEventListener('input', handleSearch)
     gridViewBtn.addEventListener('click', () => changeView('grid'))
     listViewBtn.addEventListener('click', () => changeView('list'))
     filterBtn.addEventListener('click', toggleFilterOptions)
+    
+    initializeView()
 
     function handleSearch() {
         const query = searchInput.value.toLowerCase()
@@ -532,7 +510,9 @@ function renderList(items, type, initialFilters) {
     }
 
     function toggleFilterOptions() {
-        filterOptions.style.display = filterOptions.style.display === 'none' ? 'block' : 'none'
+        // filterOptions.style.display = filterOptions.style.display === 'none' ? 'flex' : 'none'
+        filterBtn.classList.toggle('active')
+        filterOptions.classList.toggle('active')
     }
 
 

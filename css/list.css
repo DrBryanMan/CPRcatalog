@@ -18,6 +18,7 @@
     flex-direction: column;
     overflow: hidden;
     width: 100%;
+    max-width: 200px;   
     background: var(--dark-50);
     border-radius: var(--radius);
     box-shadow: 0 0 4px var(--accent);
@@ -38,10 +39,11 @@
 .items-list.list-view .card {
     position: relative;
     flex-direction: row;
-    /* align-items: flex-end; */
     width: 100%;
+    max-width: 100%;
+    max-height: 158px;
     gap: 1em;
-    aspect-ratio: 4/1;
+    /* aspect-ratio: 4/1;   */
 }
 
 /* .items-list.list-view .info {

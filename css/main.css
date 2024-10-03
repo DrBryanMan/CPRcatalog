@@ -10,9 +10,8 @@
   
   * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-  }
-  html {
   }
   body {
     position: relative;
@@ -22,24 +21,24 @@
       /* line-height: 1.2; */
     background: var(--dark);
     background-image: linear-gradient(to right, var(--accent-10),var(--accent-50),var(--accent-10));  
-    font-family: "Jura";
+    font-family: 'Montserrat', sans-serif;
     color: var(--text);
   }
   
   #app {
     padding: 4em 4em 1em;
   }
-  
-  h2 {
-    margin: 1em 0;
+  h2, h3, h4 {
+    font-weight: 500;
   }
   button {
     cursor: pointer;
     background: #fff3;
     color: var(--text);
-    font-family: "Jura";
+    font-family: inherit;
+    line-height: 1;
     border: unset;
-    padding: .4em 1em;
+    padding: .5em;
     border-radius: var(--radius);
     transition: .3s;
   }
@@ -132,7 +131,7 @@
   /* інпут пошуку у списках */
   input {
     padding: .5em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     color: var(--text);
     background: none;
     border: 1px solid var(--accent-50);
