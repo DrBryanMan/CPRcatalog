@@ -30,13 +30,6 @@ function clearCache() {
     localStorage.removeItem('hikkaAnimeData')
     localStorage.removeItem('currentView')
 }
-function getUrlParams() {
-    const params = new URLSearchParams(window.location.hash.split('?')[1]);
-    return {
-        format: params.get('format') ? params.get('format').split(',') : [],
-        status: params.get('status') ? params.get('status').split(',') : []
-    };
-}
 // Налаштування маршрутів
 function setupRoutes() {
     let cleanup = null
@@ -55,6 +48,8 @@ function setupRoutes() {
     function handleRoute(route, renderFunction, ...args) {
         return () => {
             currentRoute = route
+            // router.updatePageLinks()
+            // console.log('123:', initialFilters)
             cleanupAndRender(renderFunction, ...args)
         }
     }
@@ -67,7 +62,16 @@ function setupRoutes() {
             const anime = allAnimes.find(a => a.id === match.data.id)
             handleRoute('/anime/:id', renderAnimeDetail, anime)()
         })
-        .on('/releases', handleRoute('/releases', renderList, allReleases, 'Релізи', false))
+        .on('/releases', (match) => {
+            const urlParams = match.params
+            const initialFilters = {}
+            for (let key in urlParams) {
+                if (urlParams.hasOwnProperty(key)) {
+                    initialFilters[key] = urlParams[key].split(',');
+                }
+            }
+            handleRoute('/releases', renderList, allReleases, 'Релізи', initialFilters)()
+        })
         .on('/release/:id', (match) => {
             const release = allReleases.find(r => r.id === match.data.id)
             handleRoute('/release/:id', renderReleaseDetail, release)()
@@ -92,6 +96,7 @@ function setupRoutes() {
     if (window.location.pathname === '/' && window.location.hash === '') {
         window.location.hash = '#/'
     }
+    
     router.resolve()
 }
 
@@ -247,7 +252,7 @@ function renderRandomAnime() {
 function renderReleasesSection(items, title, type, route) {
     const section = document.createElement('div')
     section.classList.add('releases-section')
-    route
+    console.log(route)
     section.innerHTML = `<div class='releases-header'><h2>${title}</h2><a href='${route}' data-navigo><i class="fa-solid fa-angles-right"></i></a></div>`
 
     const itemList = document.createElement('div')
@@ -437,8 +442,8 @@ async function renderAnimeDetail(anime) {
 }
 
 // Рендеринг списку аніме
-function renderList(items, type, shouldUpdateUrl = false) {
-    console.log(currentRoute)
+function renderList(items, type, initialFilters) {
+    alert("Releases " + JSON.stringify(initialFilters))
     console.log(`Завантажено ${items.length} ${type}`)
     updateNavigation(type)
     const itemsPerPage = 20
@@ -446,8 +451,10 @@ function renderList(items, type, shouldUpdateUrl = false) {
     let isLoading = false
     let allItemsLoaded = false
     let filteredItems = [...items]
-    let activeFilters = {}  // Додайте цей рядок
+    let activeFilters = initialFilters || {}
     let currentView
+
+    alert("Releases " + JSON.stringify(activeFilters))
     app.innerHTML = `
         <div class="list-controls">
             <input type="text" id="localSearchInput" placeholder="Пошук...">
@@ -528,10 +535,6 @@ function renderList(items, type, shouldUpdateUrl = false) {
         filterOptions.style.display = filterOptions.style.display === 'none' ? 'block' : 'none'
     }
 
-    activeFilters = getUrlParams()
-    initializeFilters(type)
-    applyFilters(shouldUpdateUrl)
-    console.log('initialFilters = ', activeFilters)
 
     function initializeFilters(type) {
         const filterOptions = document.getElementById('filterOptions')
@@ -585,11 +588,12 @@ function renderList(items, type, shouldUpdateUrl = false) {
         Object.entries(activeFilters).forEach(([filterType, values]) => {
             values.forEach(value => {
                 const button = document.querySelector(`.filter-btn[data-filter="${filterType}"][data-value="${value}"]`)
-                button && button.classList.add('active')
+                if (button) {
+                    button.classList.add('active')
+                }
             })
         })
     }
-    applyFilters(false)
 
     function applyFilters(shouldUpdateUrl = false) {
         filteredItems = items.filter(item => {
@@ -748,9 +752,10 @@ function renderList(items, type, shouldUpdateUrl = false) {
         }
     }
 
-    window.addEventListener('scroll', handleScroll)
     initializeFilters(type)
+    applyFilters()
     loadMoreItems()
+
     window.addEventListener('scroll', handleScroll)
     return () => {
         window.removeEventListener('scroll', handleScroll)
@@ -772,7 +777,6 @@ async function renderHomePage() {
     app.appendChild(recentReleasesSection)
     app.appendChild(currentReleasesSection)
     app.appendChild(statsSection)
-    router.updatePageLinks()
 }
 
 // Викликаємо рендеринг головної сторінки при завантаженні сторінки
