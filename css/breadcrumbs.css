@@ -2,16 +2,20 @@
 nav {
     position: fixed;
     left: 0;
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 1em;
+    height: var(--nav-height);
     backdrop-filter: blur(4px);
-    padding: .5em 1em;
+    border-bottom: 1px solid transparent;
     transition: .3s;
     z-index: 100;
   }
   nav:has(.scrolled) {
     background: var(--dark-80);
+    border-color: var(--light-20);
     /* backdrop-filter: blur(4px); */
   }
   nav a {
@@ -37,6 +41,7 @@ nav {
     position: relative;
     display: flex;
     align-items: center;
+    gap: .5em;
     background: var(--light-05);
     border: 1px solid var(--light-10);
     padding: .5em 1em .6em;
@@ -67,12 +72,12 @@ nav {
     transition: visibility .3s .2s, opacity .3s .2s;
 }
 .crumb-list a {
-    background: none;
     padding: .5em;
     text-align: left;
-    font-size: 1rem;
+    border-radius: var(--radius);
+    background: none;
 }
-/* .crumb-list button[disable] {
+/* .crumb-list a[disable] {
     background: none !important;
     cursor: default;
     opacity: .5;
@@ -81,14 +86,13 @@ nav {
 .nav-button:hover {
     background: var(--light-10);
 }
-nav i {
-    width: 15px;
+.crumb-list a i {
+    margin: 0 auto;
+    width: 2em;
     text-align: center;
-    margin-right: 10px;
 }
 .breadcrumbs i[class*='chevron'] {
-    margin-left: 5px;
-    font-size: 50%;
+    font-size: 70%;
     transition: .3s;
 }
 .breadcrumbs .has-list:hover i[class*='chevron'] {

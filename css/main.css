@@ -1,6 +1,6 @@
 :root {
-    --nav-height: 50px;
-    --footer-height: 50px;
+    --nav-height: 4em;
+    --footer-height: 4em;
     --border-color: 1px solid gray;
     --radius: 8px;
     --text: var(--light);
@@ -22,11 +22,12 @@
     background: var(--dark);
     background-image: linear-gradient(to right, var(--accent-10),var(--accent-50),var(--accent-10));  
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     color: var(--text);
   }
   
   #app {
-    padding: 4em 4em 1em;
+    padding: var(--nav-height) 4em 1em;
   }
   h2, h3, h4 {
     font-weight: 500;

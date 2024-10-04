@@ -49,7 +49,7 @@ function setupRoutes() {
             const initialFilters = {}
             for (let key in match.params) {
                 if (match.params.hasOwnProperty(key)) {
-                    initialFilters[key] = match.params[key].split(',');
+                    initialFilters[key] = match.params[key].split(',')
                 }
             }
             handleRoute('/releases', renderList, allReleases, 'Релізи', initialFilters)()
@@ -79,18 +79,19 @@ function setupRoutes() {
 
 // Отримуємо всі дані
 async function loadData() {
-    const cachedAnimes = getFromCache('allAnimes')
-    const cachedReleases = getFromCache('allReleases')
-    const cachedTeams = getFromCache('allTeams')
-    const cachedHikkaData = getFromCache('hikkaAnimeData')
+    if (allAnimes.length === 0) {
+    // const cachedAnimes = getFromCache('allAnimes')
+    // const cachedReleases = getFromCache('allReleases')
+    // const cachedTeams = getFromCache('allTeams')
+    // const cachedHikkaData = getFromCache('hikkaAnimeData')
 
-    if (cachedAnimes && cachedReleases && cachedTeams && cachedHikkaData) {
-        allAnimes = cachedAnimes
-        allReleases = cachedReleases
-        allTeams = cachedTeams
-        hikkaAnimeData = cachedHikkaData
-        console.log('Дані з кешу отримано')
-    } else {
+    // if (cachedAnimes && cachedReleases && cachedTeams && cachedHikkaData) {
+    //     allAnimes = cachedAnimes
+    //     allReleases = cachedReleases
+    //     allTeams = cachedTeams
+    //     hikkaAnimeData = cachedHikkaData
+    //     console.log('Дані з кешу отримано')
+    // } else {
         try {
             const [animeData, teamData, releaseData, hikkaData] = await Promise.all([
                 fetch('AnimeTitlesDB.json').then(res => res.json()),
@@ -99,23 +100,7 @@ async function loadData() {
                 fetch('hikkaData.json').then(res => res.json())
             ])
             hikkaAnimeData = hikkaData
-            allAnimes = animeData.map(anime => ({
-                id: anime.id,
-                hikkaUrl: anime.properties.Hikka.url,
-                cover: anime.cover?.external?.url || anime.cover?.file?.url,
-                poster: anime.properties.Постер.files[0]?.external?.url || anime.properties.Постер.files[0]?.file.url,
-                title: anime.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
-                romaji: anime.properties.Ромаджі.rich_text[0]?.plain_text || '',
-                type: anime.properties['Тип медіа'].multi_select[0]?.name || '',
-                format: anime.properties.Формат.select?.name || '',
-                year: anime.properties['Рік виходу'].rich_text[0]?.plain_text || '',
-                episodes: anime.properties['Кількість серій'].rich_text[0]?.plain_text || '',
-                releases: anime.properties['🗂️ Релізи команд'].relation || []
-            }))
-            allAnimes = allAnimes.map(anime => ({
-                ...anime,
-                hikkaPoster: hikkaAnimeData.find(hikka => hikka.url === anime.hikkaUrl)?.poster
-            })).filter(anime => anime.releases.length > 0)
+            
             allTeams = teamData.map(team => ({
                 id: team.id,
                 logo: team.icon?.file?.url,
@@ -123,6 +108,7 @@ async function loadData() {
                 releases: team.properties['Релізи аніме'].relation || []
             }))
             allTeams.sort((a, b) => a.name.localeCompare(b.name))
+
             allReleases = releaseData.map(release => ({
                 id: release.id,
                 animeIds: release.properties['Тайтл']?.relation.map(r => r.id) || [],
@@ -144,15 +130,45 @@ async function loadData() {
                     href: link.href
                 }))
             }))
+
+            allAnimes = animeData.map(anime => ({
+                id: anime.id,
+                hikkaUrl: anime.properties.Hikka.url,
+                cover: anime.cover?.external?.url || anime.cover?.file?.url,
+                poster: anime.properties.Постер.files[0]?.external?.url || anime.properties.Постер.files[0]?.file.url,
+                hikkaPoster: hikkaAnimeData.find(hikka => hikka.url === anime.properties.Hikka.url)?.poster,
+                title: anime.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
+                romaji: anime.properties.Ромаджі.rich_text[0]?.plain_text || '',
+                type: anime.properties['Тип медіа'].multi_select[0]?.name || '',
+                format: anime.properties.Формат.select?.name || '',
+                year: anime.properties['Рік виходу'].rich_text[0]?.plain_text || '',
+                episodes: anime.properties['Кількість серій'].rich_text[0]?.plain_text || '',
+                releases: anime.properties['🗂️ Релізи команд'].relation
+                    .map(rel => allReleases.find(release => release.id === rel.id))
+                    .filter(Boolean)
+            })).filter(anime => anime.releases.length > 0)
+
+            // Додаємо унікальні команди до аніме
+            allAnimes = allAnimes.map(anime => {
+                const teams = new Set()
+                anime.releases.forEach(release => {
+                    release.teams.forEach(team => {
+                        teams.add(JSON.stringify(team))
+                    })
+                })
+                return {...anime, teams: Array.from(teams).map(JSON.parse)}
+            })
+
+            // Додаткові дані до релізів
             allReleases = allReleases.map(release => ({
                 ...release,
                 animeData: allAnimes.find(anime => release.animeIds.includes(anime.id))
             }))
 
-            saveToCache('allAnimes', allAnimes)
-            saveToCache('allReleases', allReleases)
-            saveToCache('allTeams', allTeams)
-            saveToCache('hikkaAnimeData', hikkaAnimeData)
+            // saveToCache('allAnimes', allAnimes)
+            // saveToCache('allReleases', allReleases)
+            // saveToCache('allTeams', allTeams)
+            // saveToCache('hikkaAnimeData', hikkaAnimeData)
         } catch (error) {
             console.error('Помилка при завантаженні даних:', error)
             throw error
@@ -204,6 +220,8 @@ function renderRandomAnime() {
                 <p>Епізоди: ${anime.episodes}</p>
             </div>
         `
+    // const card = randomAnimeSection.querySelector('.card')
+    container.onclick = () => router.navigate(`/anime/${anime.id}`)
     }
 
     randomAnimeSection.innerHTML = `
@@ -381,7 +399,7 @@ async function renderReleaseDetail(release) {
 // Відображення деталей аніме
 async function renderAnimeDetail(anime) {
     updateNavigation('Аніме', anime.title)
-    const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
+    const teams = anime.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
 
     app.innerHTML = `
     <div class='anime-detail'>
@@ -437,7 +455,7 @@ function renderList(items, type, initialFilters) {
                 <button id="gridViewBtn"><svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><path fill="currentColor" d="M5 11h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m0 10h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m8-16v4c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2m2 16h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2"></path></svg></button>
                 <button id="listViewBtn" class="active"><svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><path fill="currentColor" d="M16 21q-.825 0-1.412-.587T14 19v-4q0-.825.588-1.412T16 13h4q.825 0 1.413.588T22 15v4q0 .825-.587 1.413T20 21zM2 18v-2h9v2zm14-7q-.825 0-1.412-.587T14 9V5q0-.825.588-1.412T16 3h4q.825 0 1.413.588T22 5v4q0 .825-.587 1.413T20 11zM2 8V6h9v2z"></path></svg></button>
                 </div>
-                <button id="filterBtn"><i class="fas fa-filter"></i> Фільтри</button>
+                <button id="filterBtn"><i class="fas fa-filter"></i></button>
             </div>
             <div id="filterOptions">
                 <!-- Фільтри будуть додані тут динамічно -->
@@ -760,11 +778,10 @@ async function renderHomePage() {
 // Викликаємо рендеринг головної сторінки при завантаженні сторінки
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        if (window.location.pathname === '/' && window.location.hash === '') {
-            router.navigate('/#/')
-        }
+        (window.location.pathname === '/CPRcatalog/' || window.location.pathname === '/') && window.location.hash === '' ? router.navigate('/') : null
         loadingОverlay.style.display = 'flex'
         await loadData()
+        console.log(allAnimes[22])
         initSearch(allAnimes, allReleases, allTeams, 
             (anime) => router.navigate(`/anime/${anime.id}`),
             (release) => router.navigate(`/release/${release.id}`)
