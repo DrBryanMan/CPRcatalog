@@ -74,11 +74,6 @@ function setupRoutes() {
             `
             currentRoute = 'notFound'
         })
-    
-    if (window.location.pathname === '/' && window.location.hash === '') {
-        window.location.hash = '#/'
-    }
-    
     router.resolve()
 }
 
@@ -257,7 +252,7 @@ function renderReleasesSection(items, title, type, route) {
             case 'Реліз':
                 listItem.classList.add('release-card', 'card')
                 const animeData = allAnimes.find(anime => item.animeIds.includes(anime.id))
-                const teams = item.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
+                const teams = item.teams.map(t => `<span class='truncate'><img src='${t.logo}'>${t.name}</span>`).join('')
                 // <img src='${animeData?.cover || item?.cover || '' }' class='release-poster'>
                 listItem.innerHTML = `
                     <div class='poster-box'>
@@ -337,7 +332,7 @@ async function renderAnimeReleases(releases) {
         card.classList.add('anime-release-card', 'card')
 
         // const animeData = allAnimes.find(anime => anime.id === release.animeId)
-        const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
+        const teams = release.teams.map(t => `<span class='truncate'><img src='${t.logo}'>${t.name}</span>`).join('')
 
         card.innerHTML = `
             <img src='${release.cover}' class='anime-poster'>
@@ -386,6 +381,8 @@ async function renderReleaseDetail(release) {
 // Відображення деталей аніме
 async function renderAnimeDetail(anime) {
     updateNavigation('Аніме', anime.title)
+    const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
+
     app.innerHTML = `
     <div class='anime-detail'>
         <div class='anime-cover'><img src='${anime.cover}'></div>
@@ -401,6 +398,7 @@ async function renderAnimeDetail(anime) {
                     <p>Формат: ${anime.format}</p>
                     <p>Рік: ${anime.year}</p>
                     <p>Епізоди: ${anime.episodes}</p>
+                    <p class='teams-logos'>Команда: ${teams}</p>
                 </div>
             </div>
         </div>
@@ -679,7 +677,7 @@ function renderList(items, type, initialFilters) {
                 break
             case 'Релізи':
                 const anime = allAnimes.find(anime => item.animeIds.includes(anime.id))
-                const teams = item.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
+                const teams = item.teams.map(t => `<span class='truncate'><img src='${t.logo}'>${t.name}</span>`).join('')
                 card.classList.add('release-card')
                 switch (currentView) {
                     case 'grid':
@@ -762,6 +760,9 @@ async function renderHomePage() {
 // Викликаємо рендеринг головної сторінки при завантаженні сторінки
 document.addEventListener('DOMContentLoaded', async () => {
     try {
+        if (window.location.pathname === '/' && window.location.hash === '') {
+            router.navigate('/#/')
+        }
         loadingОverlay.style.display = 'flex'
         await loadData()
         initSearch(allAnimes, allReleases, allTeams, 

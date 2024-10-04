@@ -1,5 +1,5 @@
 /* == Каталог == */
-/* загально для списків */
+/* Загально для списків */
 .items-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -8,6 +8,7 @@
     align-items: flex-start;
     gap: 1em 2em;
 }
+/** У вигляді списку **/
 .items-list.list-view {
     grid-template-columns: repeat(auto-fill, minmax(calc(50% - 2em), 1fr));
 }
@@ -31,11 +32,16 @@
     background: #0007;
     outline: 2px solid var(--accent);
 }
-.card img {
+.poster-box {
+    max-height: 270px;
+    overflow: hidden;
+    border-radius: var(--radius);
+}
+.poster-box img {
     width: 100%;
     height: auto;
 }
-
+/** У вигляді списку **/
 .items-list.list-view .card {
     position: relative;
     flex-direction: row;
@@ -45,28 +51,18 @@
     gap: 1em;
     /* aspect-ratio: 4/1;   */
 }
-
-/* .items-list.list-view .info {
-} */
-
-/* Для картки тайтлу */
-/** poster in anime-card **/
-.poster-box {
-    max-height: 270px;
-    overflow: hidden;
-    border-radius: var(--radius);
-}
 .items-list.list-view .poster-box {
     max-height: 150px;
     width: 20%;
 }
-
-.anime-card .info {
-    padding: 4px;
-}
 .items-list.list-view .card .info {
     width: calc(80% - 1em);
     /* width: 100%; */
+}
+
+/* Для картки аніме */
+.anime-card .info {
+    /* padding: 4px; */
 }
 
 /* Для картки релізу в тайтлі */
@@ -75,6 +71,8 @@
 }
 
 /* Для картки релізу */
+
+/** У вигляді списку **/
 .items-list.list-view .anime-cover {
     position: absolute;
     left: 0;

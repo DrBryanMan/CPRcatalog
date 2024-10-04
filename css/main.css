@@ -79,18 +79,11 @@
   }
   
   /* == Деталі == */
-  /* teams string */
-  .teams-logos,
-  .teams-logos > span {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
   .teams-logos img {
     height: 15px;
     width: auto;
     border-radius: 50%;
-    margin-right: .5em;
+    margin-right: .3em;
   }
   
   /* == Інше == */
@@ -98,7 +91,6 @@
     display: block;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
   }
   
   /* Loader */
