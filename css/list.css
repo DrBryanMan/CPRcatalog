@@ -1,9 +1,10 @@
 /* == Каталог == */
 /* Загально для списків */
 .items-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    justify-content: space-between;
     justify-items: center;
     align-items: flex-start;
     gap: 1em 2em;
@@ -19,7 +20,7 @@
     flex-direction: column;
     overflow: hidden;
     width: 100%;
-    max-width: 200px;   
+    max-width: 170px;
     background: var(--dark-50);
     border-radius: var(--radius);
     box-shadow: 0 0 4px var(--accent);
@@ -27,6 +28,7 @@
     padding: 4px;
     transition: 0.3s;
     cursor: pointer;
+    aspect-ratio: 2/3;
 }
 .card:hover {
     background: #0007;

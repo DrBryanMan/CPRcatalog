@@ -86,18 +86,27 @@ async function importData(databaseId, outputFileName, propertiesToExpand = []) {
   let previousData = {}
   const outputFile = path.join(__dirname, outputFileName)
   if (fs.existsSync(outputFile)) {
-    const previousContent = fs.readFileSync(outputFile, 'utf8')
-    const previousPages = JSON.parse(previousContent)
-    previousData = previousPages.reduce((acc, page) => {
-      acc[page.id] = hashObject(page)
-      return acc
-    }, {})
+    try {
+      const previousContent = fs.readFileSync(outputFile, 'utf8')
+      const previousPages = JSON.parse(previousContent)
+      previousData = previousPages.reduce((acc, page) => {
+        acc[page.id] = hashObject(page)
+        return acc
+      }, {})
+    } catch (error) {
+      console.error(`Помилка при читанні попередніх даних: ${error.message}`)
+      // Продовжуємо з пустим previousData
+    }
   }
 
   const pages = await getAllPages(databaseId, propertiesToExpand, previousData)
 
-  fs.writeFileSync(outputFile, JSON.stringify(pages, null, 2))
-  console.log(`Імпорт завершено. Записано ${pages.length} сторінок до файлу ${outputFile}`)
+  try {
+    fs.writeFileSync(outputFile, JSON.stringify(pages, null, 2))
+    console.log(`Імпорт завершено. Записано ${pages.length} сторінок до файлу ${outputFile}`)
+  } catch (error) {
+    console.error(`Помилка при записі даних: ${error.message}`)
+  }
 }
 
 async function importAnimeTitles() {
@@ -117,10 +126,12 @@ async function importTeams() {
 
 async function runAllImports() {
   console.log("Початок імпорту всіх даних...")
-  // await importAnimeTitles()
-  // await importReleases()
+  await importAnimeTitles()
+  await importReleases()
   await importTeams()
   console.log("Всі імпорти завершено успішно.")
 }
 
-runAllImports()
+runAllImports().catch(error => {
+  console.error("Виникла помилка під час виконання імпорту:", error)
+})

@@ -452,10 +452,10 @@ function renderList(items, type, initialFilters) {
             <div class="list-controls">
                 <input type="text" id="localSearchInput" placeholder="Пошук...">
                 <div class="view-controls">
-                <button id="gridViewBtn"><svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><path fill="currentColor" d="M5 11h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m0 10h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m8-16v4c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2m2 16h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2"></path></svg></button>
-                <button id="listViewBtn" class="active"><svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><path fill="currentColor" d="M16 21q-.825 0-1.412-.587T14 19v-4q0-.825.588-1.412T16 13h4q.825 0 1.413.588T22 15v4q0 .825-.587 1.413T20 21zM2 18v-2h9v2zm14-7q-.825 0-1.412-.587T14 9V5q0-.825.588-1.412T16 3h4q.825 0 1.413.588T22 5v4q0 .825-.587 1.413T20 11zM2 8V6h9v2z"></path></svg></button>
+                <button id="gridViewBtn"><i class="material-symbols-rounded">grid_view</i></button>
+                <button id="listViewBtn"><i class="material-symbols-rounded">event_list</i></button>
                 </div>
-                <button id="filterBtn"><i class="fas fa-filter"></i></button>
+                <button id="filterBtn"><i class="material-symbols-rounded">tune</i></button>
             </div>
             <div id="filterOptions">
                 <!-- Фільтри будуть додані тут динамічно -->

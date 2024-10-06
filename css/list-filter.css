@@ -6,28 +6,25 @@
 .list-controls {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    /* align-items: center; */
     gap: 1em;
 }
 
 .view-controls {
     display: flex;
-    align-items: center;    
     border: 1px solid var(--light-10);
     border-radius: var(--radius);
     overflow: hidden;
 }
 
 .view-controls button {
-    display: flex;
-    align-items: center;
     background: none;
-    cursor: pointer;
     padding: 5px 10px;
     border-radius: unset;
 }
 #listViewBtn {
     transform: rotate(180deg);
+    margin-top: -1px;
 }
 
 .view-controls button:hover {

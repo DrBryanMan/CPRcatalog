@@ -60,20 +60,20 @@ nav {
     left: 0;
     top: 100%;
     display: flex;
-    flex-direction: column;
-    gap: .2em;
-    margin-top: 10px;
+    margin-top: 1em;
     background: var(--dark-90);
     border: 1px solid var(--light-20);
     border-radius: var(--radius);
-    padding: .2em;
+    padding: .5em;
     visibility: hidden;
     opacity: 0;
     transition: visibility .3s .2s, opacity .3s .2s;
 }
 .crumb-list a {
-    padding: .5em;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .2em .5em;
     border-radius: var(--radius);
     background: none;
 }
@@ -85,11 +85,6 @@ nav {
 .crumb-list a:hover,
 .nav-button:hover {
     background: var(--light-10);
-}
-.crumb-list a i {
-    margin: 0 auto;
-    width: 2em;
-    text-align: center;
 }
 .breadcrumbs i[class*='chevron'] {
     font-size: 70%;

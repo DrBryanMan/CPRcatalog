@@ -18,13 +18,18 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-      /* line-height: 1.2; */
     background: var(--dark);
     background-image: linear-gradient(to right, var(--accent-10),var(--accent-50),var(--accent-10));  
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: var(--text);
   }
+  .material-symbols-rounded {
+    vertical-align: middle;
+    font-variation-settings:
+    'wght' 200,
+    'opsz' 2
+}
   
   #app {
     padding: var(--nav-height) 4em 1em;
@@ -128,9 +133,12 @@
     /* margin-bottom: 1em; */
     color: var(--text);
     background: none;
-    border: 1px solid var(--accent-50);
+    border: 1px solid var(--light-20);
     border-radius: var(--radius);
     transition: .3s;
+  }
+  input:hover {
+    border: 1px solid var(--accent);
   }
   input:focus {
     border-color: var(--accent);
