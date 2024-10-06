@@ -3,13 +3,11 @@ node_modules/
 
 # Локальні середовищні файли
 .env
-# .gitignore
-# *.json
 
 # Локальні файли
-AnimeReleasesDB.json
-AnimeTitlesDB.json
-TeamsDB.json
+# AnimeReleasesDB.json
+# AnimeTitlesDB.json
+# TeamsDB.json
 
 # Логи
 
