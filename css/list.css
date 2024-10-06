@@ -4,8 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-    justify-content: space-between;
-    justify-items: center;
+    justify-content: center;
+    /* justify-items: center; */
     align-items: flex-start;
     gap: 1em 2em;
 }
@@ -28,7 +28,7 @@
     padding: 4px;
     transition: 0.3s;
     cursor: pointer;
-    aspect-ratio: 2/3;
+    /* aspect-ratio: 2/3; */
 }
 .card:hover {
     background: #0007;
@@ -85,6 +85,6 @@
 
 
 /* Картки команд */
-/* .team-card {
-    
-} */
+.team-logo {
+    border-radius: var(--radius);
+}
