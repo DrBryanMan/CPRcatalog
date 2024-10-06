@@ -1,8 +1,6 @@
 .random-anime-section .items-list {
     display: flex;
-    /* width: 50%; */
-    /* gap: 1em; */
-    /* margin: auto; */
+    justify-content: center;
 }
 .random-anime-section .items-list.list-view .card {
     align-items: center;

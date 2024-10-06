@@ -5,9 +5,9 @@ node_modules/
 .env
 
 # Локальні файли
-# AnimeReleasesDB.json
-# AnimeTitlesDB.json
-# TeamsDB.json
+AnimeReleasesDB.json
+AnimeTitlesDB.json
+TeamsDB.json
 
 # Логи
 

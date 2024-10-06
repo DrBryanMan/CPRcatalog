@@ -274,7 +274,7 @@ function renderReleasesSection(items, title, type, route) {
                 // <img src='${animeData?.cover || item?.cover || '' }' class='release-poster'>
                 listItem.innerHTML = `
                     <div class='poster-box'>
-                        <img src='${animeData.hikkaPoster}' title='${item.title}'>
+                        <img src='${item.poster || animeData?.poster || animeData?.hikkaPoster || ''}' title='${item.title}'>
                     </div>
                     <div class='release-info'>
                         <h3 class='truncate'>${item.title}</h3>
@@ -781,7 +781,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         (window.location.pathname === '/CPRcatalog/' || window.location.pathname === '/') && window.location.hash === '' ? router.navigate('/') : null
         loadingОverlay.style.display = 'flex'
         await loadData()
-        console.log(allAnimes[22])
         initSearch(allAnimes, allReleases, allTeams, 
             (anime) => router.navigate(`/anime/${anime.id}`),
             (release) => router.navigate(`/release/${release.id}`)
