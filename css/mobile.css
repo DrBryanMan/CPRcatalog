@@ -1,11 +1,7 @@
 @media only screen and (max-width: 600px) {
+    /* == Головне == */
     #app {
         padding: 4em 1em 1em;
-    }
-
-    /* Navigation */
-    #filterBtn:after {
-        content: none;
     }
 
     /* random section */
@@ -23,14 +19,23 @@
         justify-content: space-evenly;
     }
 
-    /* Списки */
+    /* == Списки == */
     .items-list {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        /* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
+        gap: 1em;
     }
     .items-list.list-view {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
     .items-list.list-view .card {
         aspect-ratio: 3/1;
+    }
+
+    /* Фільтр */
+    #localSearchInput {
+        flex: 1;
+    }
+    #filterBtn:after {
+        content: none;
     }
 }

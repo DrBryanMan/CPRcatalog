@@ -11,7 +11,24 @@
 }
 /** У вигляді списку **/
 .items-list.list-view {
-    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 2em), 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.3% - 4em), 1fr));
+}
+.items-list.list-view .anime-cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.items-list.list-view .anime-cover img {
+/*     width: auto; */
+    height: 100%;
+/*     object-fit: contain; */
+    margin: auto;
 }
 
 /* Картка елементу */
@@ -21,10 +38,9 @@
     overflow: hidden;
     width: 100%;
     max-width: 170px;
-    background: var(--dark-50);
+    background: var(--dark-80);
     border-radius: var(--radius);
-    box-shadow: 0 0 4px var(--accent);
-    outline: 2px solid var(--accent-10);
+    outline: 1px solid var(--light-20);
     padding: 4px;
     transition: 0.3s;
     cursor: pointer;
@@ -32,10 +48,11 @@
 }
 .card:hover {
     background: #0007;
-    outline: 2px solid var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+    outline: 1px solid var(--accent);
 }
 .poster-box {
-    max-height: 270px;
+    max-height: 230px;
     overflow: hidden;
     border-radius: var(--radius);
 }
@@ -47,18 +64,20 @@
 .items-list.list-view .card {
     position: relative;
     flex-direction: row;
+    align-items: center;
     width: 100%;
-    max-width: 100%;
-    max-height: 158px;
+    max-width: 400px;
+    height: 158px;
     gap: 1em;
+    padding: 1em;
     /* aspect-ratio: 4/1;   */
 }
 .items-list.list-view .poster-box {
     max-height: 150px;
-    width: 20%;
+    width: 25%;
 }
 .items-list.list-view .card .info {
-    width: calc(80% - 1em);
+    width: calc(75% - 1em);
     /* width: 100%; */
 }
 
@@ -75,16 +94,20 @@
 /* Для картки релізу */
 
 /** У вигляді списку **/
-.items-list.list-view .anime-cover {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    mask-image: linear-gradient(transparent, #000);
-}
 
 
 /* Картки команд */
 .team-logo {
     border-radius: var(--radius);
+}
+/** У вигляді списку **/
+.items-list.list-view .team-card .info {
+    text-align: center;
+    width: 100%;
+}
+.items-list.list-view .team-card img + .info {
+    width: calc(100% - 130px - 1em);
+}
+.items-list.list-view .team-card img {
+    height: 100%;
 }

@@ -4,7 +4,7 @@
 }
 .random-anime-section .items-list.list-view .card {
     align-items: center;
-    max-width: 50%;
+    max-width: 400px;
 }
 .random-anime-section .poster-box {
     display: flex;

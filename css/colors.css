@@ -22,7 +22,11 @@
     --accent-05: hsl(var(--accent--hsl), .05);
     --accent-10: hsl(var(--accent--hsl), .1);
     --accent-20: hsl(var(--accent--hsl), .2);
+    --accent-30: hsl(var(--accent--hsl), .3);
+    --accent-40: hsl(var(--accent--hsl), .4);
     --accent-50: hsl(var(--accent--hsl), .5);
+    --accent-60: hsl(var(--accent--hsl), .6);
+    --accent-70: hsl(var(--accent--hsl), .7);
     --accent-80: hsl(var(--accent--hsl), .8);
     --accent-90: hsl(var(--accent--hsl), .9);
     --accent-light: hsl(var(--accent-color), 100%, 80%); /* #99b9ff */

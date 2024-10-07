@@ -374,7 +374,7 @@ async function renderReleaseDetail(release) {
     const torrents = release.torrentLinks.map(t => `<a href='${t.url}' target='_blank'>${t.text}</a>`).join('')
 
     app.innerHTML = `
-    <div class='release-detail'>
+    <div class='title-detail'>
         <div class='anime-cover'><img src='${anime.cover}'></div>
         <div class='top-section'>
             <img class='anime-poster' src='${release.poster || anime.poster || anime.hikkaPoster}'>
@@ -402,7 +402,7 @@ async function renderAnimeDetail(anime) {
     const teams = anime.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
 
     app.innerHTML = `
-    <div class='anime-detail'>
+    <div class='title-detail'>
         <div class='anime-cover'><img src='${anime.cover}'></div>
         <div class='top-section'>
             <img class='anime-poster' src='${anime.poster || anime.hikkaPoster}' title='${anime.title}'>
@@ -679,12 +679,13 @@ function renderList(items, type, initialFilters) {
                         `
                         break
                     case 'list':
+                        const cover = item.cover ? `<div class='anime-cover'><img src='${item.cover}' loading="lazy"></div>` : ''
                         card.innerHTML = `
+                            ${cover}
                             <div class='poster-box'>
                                 <img src='${item.poster || item.hikkaPoster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
-                                <div class='anime-cover'><img src='${item?.cover}' title='${item.title}' loading="lazy"></div>
                                 <h3 class='truncate' title='${item.title}'>${item.title}</h3>
                                 <small>${item.year} / ${item.format}</small>
                             </div>
@@ -711,12 +712,13 @@ function renderList(items, type, initialFilters) {
                         `
                         break
                     case 'list':
+                        const cover = anime?.cover ? `<div class='anime-cover'><img src='${anime.cover}' loading="lazy"></div>` : ''
                         card.innerHTML = `
+                            ${cover}
                             <div class='poster-box'>
-                                <img src='${item.poster || anime.hikkaPoster}' title='${item.title}' loading="lazy">
+                                <img src='${item.poster || anime?.hikkaPoster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
-                                <div class='anime-cover'><img src='${anime.cover}' title='${item.title}' loading="lazy"></div>
                                 <h3 class='truncate'>${item.title}</h3>
                                 <p class='teams-logos'>${teams}</p>
                                 <p>Епізоди: ${item.episodes}</p>
@@ -727,16 +729,29 @@ function renderList(items, type, initialFilters) {
                 card.onclick = () => router.navigate(`/release/${item.id}`)
                 break
             case 'Команди':
+                const logo = item.logo ? `<img src='${item.logo}' class='team-logo' title='${item.name}'></img>` : ''
                 card.classList.add('team-card')
-                card.innerHTML = `
-                    <img src='${item.logo}' class='team-logo' title='${item.name}'>
-                    <div class='info'>
-                        <h3 class='truncate'>${item.name}</h3>
-                        <p>Релізи: ${item.releases.length}</p>
-                    </div>
-                `
+                switch (currentView) {
+                    case 'grid':
+                        card.innerHTML = `
+                            ${logo}
+                            <div class='info'>
+                                <h3 class='truncate'>${item.name}</h3>
+                                <p>Релізи: ${item.releases.length}</p>
+                            </div>
+                        `
+                        break
+                    case 'list':
+                        card.innerHTML = `
+                            ${logo}
+                            <div class='info'>
+                                <h3>${item.name}</h3>
+                                <p>Релізи: ${item.releases.length}</p>
+                            </div>
+                        `
+                        break
+                }
                 card.onclick = () => router.navigate(`/team/${item.id}`)
-                break
         }
 
         return card
@@ -764,9 +779,9 @@ async function renderHomePage() {
     app.innerHTML = ''
     const randomAnimeSection = renderRandomAnime()
     const statsSection = renderStatistics()
-    const recentAnimesSection = renderReleasesSection(allAnimes.slice(0, 5), 'Останні додані аніме', 'Аніме', '/animes')
-    const recentReleasesSection = renderReleasesSection(allReleases.slice(0, 5), 'Останні додані релізи', 'Реліз', '/releases')
-    const currentReleasesSection = renderReleasesSection(allReleases.slice(0, 5), 'Поточні релізи', 'Реліз', '/releases?status=В процесі')
+    const recentAnimesSection = renderReleasesSection(allAnimes.slice(0, 6), 'Останні додані аніме', 'Аніме', '/animes')
+    const recentReleasesSection = renderReleasesSection(allReleases.slice(0, 6), 'Останні додані релізи', 'Реліз', '/releases')
+    const currentReleasesSection = renderReleasesSection(allReleases.slice(0, 6), 'Поточні релізи', 'Реліз', '/releases?status=В процесі')
 
     app.appendChild(randomAnimeSection)
     app.appendChild(recentAnimesSection)
@@ -778,7 +793,7 @@ async function renderHomePage() {
 // Викликаємо рендеринг головної сторінки при завантаженні сторінки
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        (window.location.pathname === '/CPRcatalog/' || window.location.pathname === '/') && window.location.hash === '' ? router.navigate('/') : null
+        (window.location.pathname === '/CPRcatalog/' || window.location.pathname === '/' || window.location.pathname === '/index.html') && window.location.hash === '' ? router.navigate('/') : null
         loadingОverlay.style.display = 'flex'
         await loadData()
         initSearch(allAnimes, allReleases, allTeams, 

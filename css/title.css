@@ -1,15 +1,15 @@
-.anime-poster {
+.title-detail .anime-poster {
   width: 200px;
   height: auto;
   border-radius: var(--radius);
 }
-.anime-cover {
+.title-detail .anime-cover {
   position: relative;
   margin: -4em -4em 0;
   z-index: -2;
   mask-image: linear-gradient(#fff 60%, transparent);
 }
-.anime-cover:before {
+.title-detail .anime-cover:before {
   content: '';
   position: absolute;
   width: 100%;
@@ -17,12 +17,12 @@
   bottom: 0;
   background: var(--dark-50);
 }
-.anime-cover img {
+.title-detail .anime-cover img {
   width: 100%;
   aspect-ratio: 9 / 1;
   object-fit: cover;
 }
-.anime-info {
+.title-detail .anime-info {
   display: flex;
   gap: 1em;
 }
