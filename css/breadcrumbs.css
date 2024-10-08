@@ -24,6 +24,13 @@ nav {
 }
 
 /* == breadcrumbs == */
+.site-logo:after {
+    content: 'БЕТА';
+    position: absolute;
+    color: salmon;
+    font-weight: bold;
+    transform: translate(-25px, -10px) rotate(-30deg);
+}
 .breadcrumbs {
     display: flex;
     align-items: center;
