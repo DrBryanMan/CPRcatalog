@@ -124,7 +124,7 @@ async function loadData() {
                 episodes: release.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
                 torrent: release.properties['Торент'].select?.name || 'Невідомо',
                 torrentLinks: release.properties['Торент посилання'].rich_text
-                .filter(link => link.href !== null)
+                .filter(link => link !== null)
                 .map(link => ({
                     text: link.plain_text,
                     href: link.href
@@ -371,7 +371,7 @@ async function renderReleaseDetail(release) {
     updateNavigation('Релізи', release.title)
     const anime = allAnimes.find(anime => release.animeIds.includes(anime.id))
     const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
-    const torrents = release.torrentLinks.map(t => `<a href='${t.url}' target='_blank'>${t.text}</a>`).join('')
+    const torrents = release.torrentLinks.map(t => `<a href='${t.href}' class='external-link'>${t.text}</a>`).join('')
     const cover = anime?.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
 
     app.innerHTML = `
@@ -395,6 +395,15 @@ async function renderReleaseDetail(release) {
         </div>
     </div>
     `
+    // Add this event listener
+    const externalLinks = app.querySelectorAll('.external-link')
+    externalLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault()
+            const href = e.currentTarget.getAttribute('href')
+            window.open(href, '_blank')
+        })
+    })
 }
 
 // Відображення деталей аніме
@@ -803,7 +812,23 @@ document.addEventListener('DOMContentLoaded', async () => {
             (release) => router.navigate(`/release/${release.id}`)
         )
         setupRoutes()
-        // updateNavigationHandlers()
+
+        document.body.addEventListener('click', function(event) {
+            if (event.target.tagName === 'a') {
+              const href = event.target.getAttribute('href')
+              
+              // Перевіряємо, чи є посилання зовнішнім
+              if (href.startsWith('http') || href.startsWith('https') || event.target.hasAttribute('data-external')) {
+                // Дозволяємо стандартну поведінку для зовнішніх посилань
+                return
+              }
+              
+              // Для внутрішніх посилань застосовуємо клієнтський роутинг
+              event.preventDefault()
+              router.navigate(href)
+            }
+        })
+
         cacheButton.onclick = () => {
             clearCache()
             location.reload()
