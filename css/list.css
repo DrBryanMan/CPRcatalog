@@ -18,17 +18,17 @@
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -1;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
+    z-index: -1;
+    opacity: .2;
+    transition: .3s;
 }
 .items-list.list-view .anime-cover img {
-/*     width: auto; */
+    width: 100%;
     height: 100%;
-/*     object-fit: contain; */
-    margin: auto;
+    object-fit: cover;
+    /* margin: auto; */
 }
 
 /* Картка елементу */
@@ -42,14 +42,18 @@
     border-radius: var(--radius);
     outline: 1px solid var(--light-20);
     padding: 4px;
-    transition: 0.3s;
+    transition: .3s;
     cursor: pointer;
     /* aspect-ratio: 2/3; */
+    z-index: 0;
 }
 .card:hover {
     background: #0007;
     box-shadow: 0 0 8px var(--accent);
     outline: 1px solid var(--accent);
+}
+.card:hover .anime-cover {
+    opacity: .4;
 }
 .poster-box {
     max-height: 230px;

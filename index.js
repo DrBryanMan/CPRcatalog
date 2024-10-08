@@ -372,10 +372,11 @@ async function renderReleaseDetail(release) {
     const anime = allAnimes.find(anime => release.animeIds.includes(anime.id))
     const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
     const torrents = release.torrentLinks.map(t => `<a href='${t.url}' target='_blank'>${t.text}</a>`).join('')
+    const cover = anime?.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
 
     app.innerHTML = `
     <div class='title-detail'>
-        <div class='anime-cover'><img src='${anime.cover}'></div>
+        ${cover}
         <div class='top-section'>
             <img class='anime-poster' src='${release.poster || anime.poster || anime.hikkaPoster}'>
             <div class='release'>
@@ -698,6 +699,7 @@ function renderList(items, type, initialFilters) {
                 const anime = allAnimes.find(anime => item.animeIds.includes(anime.id))
                 const teams = item.teams.map(t => `<span class='truncate'><img src='${t.logo}'>${t.name}</span>`).join('')
                 card.classList.add('release-card')
+                
                 switch (currentView) {
                     case 'grid':
                         card.innerHTML = `

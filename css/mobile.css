@@ -3,7 +3,8 @@
     #app {
         padding: 4em 1em 1em;
     }
-
+    
+/*  */
     /* random section */
     .random-anime-section .items-list.list-view .card {
         max-width: 100%;
@@ -37,5 +38,21 @@
     }
     #filterBtn:after {
         content: none;
+    }
+
+    /* == Title page== */
+    #secondCrumb {display: none;}
+    .title-detail .anime-cover {
+        position: relative;
+        margin: calc(var(--nav-height) * -1) -1em 0;
+    }
+    .title-detail .anime-cover img {
+        aspect-ratio: 3 / 1;
+    }
+    .title-detail .top-section {
+        flex-direction: column;
+    }
+    .title-detail .anime-poster {
+        align-self: center;
     }
 }
