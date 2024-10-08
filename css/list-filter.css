@@ -63,10 +63,8 @@
     padding: .5em;
     margin-top: 10px;
     z-index: 10;
-    /* transition: visibility .3s .2s, opacity .3s .2s, position .3s .3s; */
 }
 #filterOptions.active {
-    position: relative;
     visibility: visible;
     opacity: 1;
     transition: opacity .3s;
