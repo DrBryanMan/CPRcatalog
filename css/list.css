@@ -104,11 +104,15 @@
 .team-logo {
     border-radius: var(--radius);
 }
-/** У вигляді списку **/
-.items-list.list-view .team-card .info {
+.items-list .team-card .info {
     text-align: center;
     width: 100%;
 }
+.items-list .team-card:not(:has(img + .info)) {
+    aspect-ratio: 1/1;
+    justify-content: center;
+}
+/** У вигляді списку **/
 .items-list.list-view .team-card img + .info {
     width: calc(100% - 130px - 1em);
 }
