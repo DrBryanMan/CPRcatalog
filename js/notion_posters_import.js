@@ -11,14 +11,14 @@ function hashObject(obj) {
   return crypto.createHash('md5').update(JSON.stringify(obj)).digest('hex')
 }
 
-async function getAllPages(databaseId, propertiesToExpand = [], previousData = null) {
+async function getAllPages(databaseId, dbTitle, propertiesToExpand = [], previousData = null) {
   let pages = []
   let hasMore = true
   let nextCursor = null
   let pageCount = 0
   let updatedCount = 0
 
-  console.log(`Початок імпорту сторінок з бази даних ${databaseId}`)
+  console.log(`Початок імпорту сторінок з бази даних ${dbTitle}`)
 
   while (hasMore) {
     const response = await notion.databases.query({
@@ -42,19 +42,13 @@ async function getAllPages(databaseId, propertiesToExpand = [], previousData = n
       if (!previousData || !previousData[page.id] || previousData[page.id] !== newHash) {
         pageUpdated = true
         updatedCount++
-        console.log(`Сторінка ${pageCount} (${page.id}) оновлена або додана`)
       }
-
       pages.push(page)
-      if (pageUpdated) {
-        console.log(`Сторінка ${pageCount} оброблена успішно`)
-      }
     }
 
     hasMore = response.has_more
     nextCursor = response.next_cursor
   }
-
   console.log(`Оброблено ${pageCount} сторінок. Оновлено або додано ${updatedCount} сторінок.`)
   return pages
 }
@@ -80,11 +74,32 @@ async function getAllRelatedIds(pageId, propertyId) {
   return allIds
 }
 
-async function importData(databaseId, outputFileName, propertiesToExpand = []) {
+function processAnimeData(pages) {
+  return pages
+  .filter(page => page.properties.Постер.files.length > 0)
+  .map(page => ({
+    id: page.id,
+    hikkaUrl: page.properties.Hikka.url,
+    title: page.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
+    poster: page.properties.Постер.files[0]?.external?.url || page.properties.Постер.files[0]?.file.url || []
+  }))
+}
+
+function processReleaseData(pages) {
+  return pages
+  .filter(page => page.properties.Постер.files.length > 0)
+  .map(page => ({
+    id: page.id,
+    title: page.properties['Name'].title[0]?.plain_text || 'Без назви',
+    poster: page.properties.Постер.files[0]?.external?.url || page.properties.Постер.files[0]?.file.url || []
+  }))
+}
+
+async function importData(databaseId, dbTitle, outputFileName, propertiesToExpand = [], processFunction) {
   console.log(`Початок імпорту даних для ${outputFileName}...`)
 
   let previousData = {}
-  const outputFile = path.join(__dirname, outputFileName)
+  const outputFile = path.join(__dirname, '../json', outputFileName)
   if (fs.existsSync(outputFile)) {
     try {
       const previousContent = fs.readFileSync(outputFile, 'utf8')
@@ -95,15 +110,15 @@ async function importData(databaseId, outputFileName, propertiesToExpand = []) {
       }, {})
     } catch (error) {
       console.error(`Помилка при читанні попередніх даних: ${error.message}`)
-      // Продовжуємо з пустим previousData
     }
   }
 
-  const pages = await getAllPages(databaseId, propertiesToExpand, previousData)
+  const pages = await getAllPages(databaseId, dbTitle, propertiesToExpand, previousData)
+  const processedData = processFunction(pages)
 
   try {
-    fs.writeFileSync(outputFile, JSON.stringify(pages, null, 2))
-    console.log(`Імпорт завершено. Записано ${pages.length} сторінок до файлу ${outputFile}`)
+    fs.writeFileSync(outputFile, JSON.stringify(processedData, null, 2))
+    console.log(`Імпорт завершено. Записано ${processedData.length} елементів до файлу ${outputFile}`)
   } catch (error) {
     console.error(`Помилка при записі даних: ${error.message}`)
   }
@@ -111,24 +126,17 @@ async function importData(databaseId, outputFileName, propertiesToExpand = []) {
 
 async function importAnimeTitles() {
   const databaseId = process.env.NOTION_ANIME_TITLES_DB
-  await importData(databaseId, "AnimeTitlesDB.json")
+  await importData(databaseId, "Аніме тайтли", "AnimeTitlesDB.json", [], processAnimeData)
 }
 
 async function importReleases() {
   const databaseId = process.env.NOTION_ANIME_RELEASES_DB
-  await importData(databaseId, "AnimeReleasesDB.json")
-}
-
-async function importTeams() {
-  const databaseId = process.env.NOTION_TEAMS_DB
-  await importData(databaseId, "TeamsDB.json", ["Релізи аніме"])
+  await importData(databaseId, "Аніме релізи", "AnimeReleasesDB.json", [], processReleaseData)
 }
 
 async function runAllImports() {
-  console.log("Початок імпорту всіх даних...")
   await importAnimeTitles()
   await importReleases()
-  await importTeams()
   console.log("Всі імпорти завершено успішно.")
 }
 
