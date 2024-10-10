@@ -100,15 +100,8 @@ async function loadData() {
                 fetch('hikkaData.json').then(res => res.json())
             ])
             hikkaAnimeData = hikkaData
-            
-            allTeams = teamData.map(team => ({
-                id: team.id,
-                logo: team.icon?.file?.url,
-                name: team.properties['Назва команди'].title[0]?.plain_text || 'Невідомо',
-                releases: team.properties['Релізи аніме'].relation || []
-            }))
-            allTeams.sort((a, b) => a.name.localeCompare(b.name))
-
+            allTeams = teamData.sort((a, b) => a.name.localeCompare(b.name))
+                
             allReleases = releaseData.map(release => ({
                 id: release.id,
                 animeIds: release.properties['Тайтл']?.relation.map(r => r.id) || [],
@@ -748,7 +741,7 @@ function renderList(items, type, initialFilters) {
                             ${logo}
                             <div class='info'>
                                 <h3 class='truncate'>${item.name}</h3>
-                                <p>Релізи: ${item.releases.length}</p>
+                                <p>Релізи: ${item.anime_releases.length}</p>
                             </div>
                         `
                         break
@@ -757,7 +750,7 @@ function renderList(items, type, initialFilters) {
                             ${logo}
                             <div class='info'>
                                 <h3>${item.name}</h3>
-                                <p>Релізи: ${item.releases.length}</p>
+                                <p>Релізи: ${item.anime_releases.length}</p>
                             </div>
                         `
                         break
@@ -833,9 +826,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             clearCache()
             location.reload()
         }
-        window.onscroll = () => {
-            window.scrollY > 0 ? nav.classList.add('scrolled') : nav.classList.remove('scrolled')
-        }   
+        window.onscroll = () => window.scrollY > 0 ? nav.classList.add('scrolled') : nav.classList.remove('scrolled') 
     } catch (error) {
         console.error('Не вийшло отримати дані:', error)
         app.innerHTML = `<p>Виникла помилка при завантаженні: ${error.message}</p>`
