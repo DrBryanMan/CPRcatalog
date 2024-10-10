@@ -1,9 +1,8 @@
-name: Notion Data Import
+name: Notion Posters Import
 
 on:
   schedule:
     - cron: '0 * * * *'  # Запускається кожну годину
-    # - cron: '0 0 * * 1'  # Запускається кожного понеділка о 00:00
   workflow_dispatch:  # Дозволяє запускати вручну
 
 jobs:
@@ -26,7 +25,7 @@ jobs:
         NOTION_ANIME_TITLES_DB: ${{ vars.NOTION_ANIME_TITLES_DB }}
         NOTION_ANIME_RELEASES_DB: ${{ vars.NOTION_ANIME_RELEASES_DB }}
         NOTION_TEAMS_DB: ${{ vars.NOTION_TEAMS_DB }}
-      run: node notion_import.js
+      run: node notion_posters_import.js
     
     - name: Commit and push if changed
       run: |

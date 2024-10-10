@@ -11,6 +11,25 @@ function hashObject(obj) {
   return crypto.createHash('md5').update(JSON.stringify(obj)).digest('hex')
 }
 
+async function getFirstPage(databaseId) {
+  try {
+    const response = await notion.databases.query({
+      database_id: databaseId,
+      // page_size: 1, // Запитуємо лише одну сторінку
+    })
+
+    if (response.results.length > 0) {
+      const page = response.results[0]
+      console.log('Дані першої сторінки:')
+      console.log(JSON.stringify(page, null, 2))
+    } else {
+      console.log('База даних порожня')
+    }
+  } catch (error) {
+    console.error('Помилка при отриманні даних:', error)
+  }
+}
+
 async function getAllPages(databaseId, dbTitle, propertiesToExpand = [], previousData = null) {
   let pages = []
   let hasMore = true
@@ -136,7 +155,7 @@ async function importData(databaseId, dbTitle, outputFileName, propertiesToExpan
   console.log(`Початок імпорту даних для ${outputFileName}...`)
 
   let previousData = {}
-  const outputFile = path.join(__dirname, outputFileName)
+  const outputFile = path.join(__dirname, '../json', outputFileName)
   if (fs.existsSync(outputFile)) {
     try {
       const previousContent = fs.readFileSync(outputFile, 'utf8')
@@ -181,6 +200,9 @@ async function runAllImports() {
   await importAnimeTitles()
   await importReleases()
   await importTeams()
+  // getFirstPage(process.env.NOTION_ANIME_TITLES_DB)
+  // getFirstPage(process.env.NOTION_ANIME_RELEASES_DB)
+  // getFirstPage(process.env.NOTION_TEAMS_DB)
   console.log("Всі імпорти завершено успішно.")
 }
 

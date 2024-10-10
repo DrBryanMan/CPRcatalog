@@ -321,7 +321,7 @@ async function renderTeamDetail(team) {
     `
 
     // Завантаження та відображення інформації про релізи
-    const releases = team.releases.length > 0 ? allReleases.filter(release => team.releases.some(r => r.id === release.id)) : []
+    const releases = team.anime_releases.length > 0 ? allReleases.filter(release => team.anime_releases.some(r => r.id === release.id)) : []
     
     const releasesList = document.getElementById('releasesList')
     if (releases.length > 0) {

@@ -1,0 +1,35 @@
+name: Notion Data Import
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Запускається кожного понеділка о 00:00
+  workflow_dispatch:  # Дозволяє запускати вручну
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # або версія, яку ви використовуєте
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Run import script
+      env:
+        NOTION_TOKEN: ${{ secrets.NOTION_SECRET }}
+        NOTION_ANIME_TITLES_DB: ${{ vars.NOTION_ANIME_TITLES_DB }}
+        NOTION_ANIME_RELEASES_DB: ${{ vars.NOTION_ANIME_RELEASES_DB }}
+        NOTION_TEAMS_DB: ${{ vars.NOTION_TEAMS_DB }}
+      run: node notion_data_import.js
+    
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "btdrbryan@gmail.com"
+        git config --global user.name "DrBryanMan"
+        git add -A
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Автоматичне оновлення JSON з Notion" && git push)
