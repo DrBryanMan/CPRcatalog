@@ -11,24 +11,24 @@ function hashObject(obj) {
   return crypto.createHash('md5').update(JSON.stringify(obj)).digest('hex')
 }
 
-async function getFirstPage(databaseId) {
-  try {
-    const response = await notion.databases.query({
-      database_id: databaseId,
-      // page_size: 1, // Запитуємо лише одну сторінку
-    })
+// async function getFirstPage(databaseId) {
+//   try {
+//     const response = await notion.databases.query({
+//       database_id: databaseId,
+//       // page_size: 1, // Запитуємо лише одну сторінку
+//     })
 
-    if (response.results.length > 0) {
-      const page = response.results[0]
-      console.log('Дані першої сторінки:')
-      console.log(JSON.stringify(page, null, 2))
-    } else {
-      console.log('База даних порожня')
-    }
-  } catch (error) {
-    console.error('Помилка при отриманні даних:', error)
-  }
-}
+//     if (response.results.length > 0) {
+//       const page = response.results[0]
+//       console.log('Дані першої сторінки:')
+//       console.log(JSON.stringify(page, null, 2))
+//     } else {
+//       console.log('База даних порожня')
+//     }
+//   } catch (error) {
+//     console.error('Помилка при отриманні даних:', error)
+//   }
+// }
 
 async function getAllPages(databaseId, dbTitle, propertiesToExpand = [], previousData = null) {
   let pages = []
@@ -63,6 +63,7 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = [], previou
         updatedCount++
       }
       pages.push(page)
+      console.log(`Сторінка ${pageCount} оброблена`)
     }
 
     hasMore = response.has_more
@@ -99,6 +100,7 @@ function processAnimeData(pages) {
     id: page.id,
     hikkaUrl: page.properties.Hikka.url,
     cover: page.cover?.external?.url || page.cover?.file?.url,
+    // poster:
     title: page.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
     romaji: page.properties.Ромаджі.rich_text[0]?.plain_text || '',
     type: page.properties['Тип медіа'].multi_select[0]?.name || '',
@@ -115,6 +117,7 @@ function processReleaseData(pages) {
     animeIds: page.properties['Тайтл']?.relation.map(r => r.id) || [],
     title: page.properties['Name'].title[0]?.plain_text || 'Без назви',
     cover: page.cover?.external?.url || page.cover?.file?.url || '',
+    // poster:
     teams: page.properties['Команда']?.relation || [],
     status: page.properties['Статус'].status?.name || 'Невідомо',
     episodes: page.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
@@ -134,7 +137,6 @@ function processTeamData(pages) {
     id: page.id,
     last_edited: page.last_edited_time,
     cover: page.cover,
-    logo: page.icon?.file?.url || null,
     name: page.properties['Назва команди'].title[0]?.plain_text || 'Невідомо',
     // second info
     status: page.properties.Статус.select?.name || 'Невідомо',

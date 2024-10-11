@@ -1,9 +1,6 @@
 import { initSearch } from './js/search.js'
 
-let allAnimes = []
-let allReleases = []
-let allTeams = []
-let hikkaAnimeData = []
+let [allAnimes, allReleases, allTeams, hikkaAnimeData, allAnimesPosters, allReleasesPosters, allTeamsLogos] = [[], [], [], [], [], [], []]
 const router = new Navigo('/', { hash: true })
 let currentRoute
 
@@ -93,53 +90,48 @@ async function loadData() {
     //     console.log('Дані з кешу отримано')
     // } else {
         try {
-            const [animeData, teamData, releaseData, hikkaData] = await Promise.all([
-                fetch('AnimeTitlesDB.json').then(res => res.json()),
-                fetch('TeamsDB.json').then(res => res.json()),
-                fetch('AnimeReleasesDB.json').then(res => res.json()),
-                fetch('hikkaData.json').then(res => res.json())
+            const [animeData, teamData, releaseData, animePostersData, releasePostersData, teamLogosData, hikkaData] = await Promise.all([
+                fetch('json/AnimeTitlesDB.json').then(res => res.json()),
+                fetch('json/TeamsDB.json').then(res => res.json()),
+                fetch('json/AnimeReleasesDB.json').then(res => res.json()),
+                fetch('json/AnimeTitlesPostersDB.json').then(res => res.json()),
+                fetch('json/AnimeReleasesPostersDB.json').then(res => res.json()),
+                fetch('json/TeamsLogosDB.json').then(res => res.json()),
+                fetch('json/hikkaData.json').then(res => res.json()),
             ])
+            allAnimesPosters = animePostersData
+            allReleasesPosters = releasePostersData
+            allTeamsLogos = teamLogosData
+
             hikkaAnimeData = hikkaData
-            allTeams = teamData.sort((a, b) => a.name.localeCompare(b.name))
-                
-            allReleases = releaseData.map(release => ({
-                id: release.id,
-                animeIds: release.properties['Тайтл']?.relation.map(r => r.id) || [],
-                title: release.properties['Name'].title[0]?.plain_text || 'Без назви',
-                cover: release.cover?.external?.url || release.cover?.file?.url || '',
-                poster: release.properties.Постер.files[0]?.external?.url || release.properties.Постер.files[0]?.file.url,
-                teams: (release.properties['Команда']?.relation || [])
-                .map(r => ({
-                    logo: allTeams.find(t => t.id === r?.id)?.logo || 'Невідома команда',
-                    name: allTeams.find(t => t.id === r?.id)?.name || 'Невідома команда'
-                })),
-                status: release.properties['Статус'].status?.name || 'Невідомо',
-                episodes: release.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
-                torrent: release.properties['Торент'].select?.name || 'Невідомо',
-                torrentLinks: release.properties['Торент посилання'].rich_text
-                .filter(link => link !== null)
-                .map(link => ({
-                    text: link.plain_text,
-                    href: link.href
+            allTeams = teamData.map(team => ({
+                ...team,
+                logo: allTeamsLogos.find(i => team.id === i.id)?.logo,
                 }))
+                .sort((a, b) => a.name.localeCompare(b.name))
+
+            allReleases = releaseData.map(release => ({
+                ...release,
+                teams: release.teams.map(team => {
+                    const foundTeam = allTeams.find(t => t.id === team.id)
+                    const foundLogo = allTeamsLogos.find(t => t.id === team.id)
+                    return {
+                        id: team.id,
+                        logo: foundLogo?.logo || '',
+                        name: foundTeam?.name || 'Невідома команда'
+                    }
+                })
             }))
+            // console.log(allReleases[23])
 
             allAnimes = animeData.map(anime => ({
-                id: anime.id,
-                hikkaUrl: anime.properties.Hikka.url,
-                cover: anime.cover?.external?.url || anime.cover?.file?.url,
-                poster: anime.properties.Постер.files[0]?.external?.url || anime.properties.Постер.files[0]?.file.url,
-                hikkaPoster: hikkaAnimeData.find(hikka => hikka.url === anime.properties.Hikka.url)?.poster,
-                title: anime.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
-                romaji: anime.properties.Ромаджі.rich_text[0]?.plain_text || '',
-                type: anime.properties['Тип медіа'].multi_select[0]?.name || '',
-                format: anime.properties.Формат.select?.name || '',
-                year: anime.properties['Рік виходу'].rich_text[0]?.plain_text || '',
-                episodes: anime.properties['Кількість серій'].rich_text[0]?.plain_text || '',
-                releases: anime.properties['🗂️ Релізи команд'].relation
-                    .map(rel => allReleases.find(release => release.id === rel.id))
-                    .filter(Boolean)
-            })).filter(anime => anime.releases.length > 0)
+                ...anime,
+                poster: allAnimesPosters.find(i => anime.id === i.id)?.poster,
+                hikkaPoster: hikkaAnimeData.find(i => anime.hikkaUrl === i.url)?.poster,
+                releases: anime.releases.map(rel => allReleases.find(release => release.id === rel.id))
+                }))
+                .filter(anime => anime.releases.length > 0)
+                // console.log(allAnimes[0])
 
             // Додаємо унікальні команди до аніме
             allAnimes = allAnimes.map(anime => {
@@ -155,8 +147,10 @@ async function loadData() {
             // Додаткові дані до релізів
             allReleases = allReleases.map(release => ({
                 ...release,
+                poster: allReleasesPosters.find(i => release.id === i.id)?.poster,
                 animeData: allAnimes.find(anime => release.animeIds.includes(anime.id))
             }))
+            // console.log(allReleases[41])
 
             // saveToCache('allAnimes', allAnimes)
             // saveToCache('allReleases', allReleases)
@@ -202,7 +196,7 @@ function renderRandomAnime() {
         const container = randomAnimeSection.querySelector('#randomAnime')
         container.innerHTML = `
             <div class='poster-box'>
-                <img src='${anime.poster || anime.hikkaPoster}' title='${anime.title}' loading="lazy">
+                <img src='${anime.poster || anime.hikkaPoster}' loading="lazy">
             </div>
             <div class='info'>
                 <h3 class='truncate'>${anime.title}</h3>
@@ -250,7 +244,7 @@ function renderReleasesSection(items, title, type, route) {
                 listItem.classList.add('anime-card', 'card')
                 listItem.innerHTML = `
                     <div class='poster-box'>
-                        <img src='${item.poster || item.hikkaPoster}' title='${item.title}'>
+                        <img src='${item.poster || item.hikkaPoster}' loading="lazy">
                     </div>
                     <div class='info'>
                         <span class='truncate' title='${item.title}'>${item.title}</span>
@@ -267,7 +261,7 @@ function renderReleasesSection(items, title, type, route) {
                 // <img src='${animeData?.cover || item?.cover || '' }' class='release-poster'>
                 listItem.innerHTML = `
                     <div class='poster-box'>
-                        <img src='${item.poster || animeData?.poster || animeData?.hikkaPoster || ''}' title='${item.title}'>
+                        <img src='${item.poster || animeData?.poster || animeData?.hikkaPoster || ''}'>
                     </div>
                     <div class='release-info'>
                         <h3 class='truncate'>${item.title}</h3>
@@ -706,7 +700,7 @@ function renderList(items, type, initialFilters) {
                     case 'grid':
                         card.innerHTML = `
                             <div class='poster-box'>
-                                <img src='${item.poster || anime?.hikkaPoster}' title='${item.title}' loading="lazy">
+                                <img src='${item.poster || anime?.poster || anime?.hikkaPoster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate'>${item.title}</h3>
@@ -720,7 +714,7 @@ function renderList(items, type, initialFilters) {
                         card.innerHTML = `
                             ${cover}
                             <div class='poster-box'>
-                                <img src='${item.poster || anime?.hikkaPoster}' title='${item.title}' loading="lazy">
+                                <img src='${item.poster || anime?.poster || anime?.hikkaPoster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate'>${item.title}</h3>
@@ -772,9 +766,7 @@ function renderList(items, type, initialFilters) {
     loadMoreItems()
 
     window.addEventListener('scroll', handleScroll)
-    return () => {
-        window.removeEventListener('scroll', handleScroll)
-    }
+    return () => window.removeEventListener('scroll', handleScroll)
 }
 
 // Функція для рендерингу головної сторінки
@@ -804,22 +796,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             (anime) => router.navigate(`/anime/${anime.id}`),
             (release) => router.navigate(`/release/${release.id}`)
         )
-        // document.addEventListener('click', function(event) {
-        //     if (event.target.tagName === 'A') {
-        //       const href = event.target.getAttribute('href')
-        //       console.log(href)
-        //       // Якщо це клік середньою кнопкою миші або з затиснутою клавішею Ctrl/Cmd
-        //     //   if (event.button === 1 || event.ctrlKey || event.metaKey) {
-        //     //     event.preventDefault()
-        //     //     window.open(href)
-        //     //   } else {
-        //     //     // Для звичайних кліків використовуємо Navigo
-        //     //     event.preventDefault()
-        //     //     // history.pushState(null, '', href.replace('#/', ''))
-        //     //     router.navigate(href.replace('#/', ''))
-        //     //   }
-        //     }
-        // })
         setupRoutes()
             
         const navLinks = document.querySelectorAll('a')
@@ -837,17 +813,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 })
             }
         })
-        // if (event.target.tagName === 'A' && event.target.hasAttribute('navigo')) {
-        //     navLinks.forEach(link => {
-        //         link.addEventListener('click', (e) => {
-        //             e.preventDefault()
-        //             const href = e.currentTarget.getAttribute('href')
-        //             // window.open(href, '_blank')
-        //             // console.log(href)
-        //             router.navigate(href.replace('#/', ''))
-        //         })
-        //     })
-        // }
 
         cacheButton.onclick = () => {
             clearCache()

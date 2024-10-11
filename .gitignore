@@ -8,12 +8,6 @@ node_modules/
 *.sass
 sass.css
 sass.css.map
-json/
-# !json/AnimeTitlesPostersDB.json
-# !json/AnimeReleasesPostersDB.json
-
-# js/
-# !js/search.js
 
 # Логи
 

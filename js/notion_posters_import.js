@@ -44,6 +44,7 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = [], previou
         updatedCount++
       }
       pages.push(page)
+      console.log(`Сторінка ${pageCount} оброблена`)
     }
 
     hasMore = response.has_more
@@ -95,6 +96,16 @@ function processReleaseData(pages) {
   }))
 }
 
+function processTeamData(pages) {
+  return pages.map(page => ({
+    // main info
+    id: page.id,
+    cover: page.cover,
+    logo: page.icon?.file?.url || null,
+    // second info
+  }))
+}
+
 async function importData(databaseId, dbTitle, outputFileName, propertiesToExpand = [], processFunction) {
   console.log(`Початок імпорту даних для ${outputFileName}...`)
 
@@ -134,9 +145,15 @@ async function importReleases() {
   await importData(databaseId, "Аніме релізи", "AnimeReleasesPostersDB.json", [], processReleaseData)
 }
 
+async function importTeams() {
+  const databaseId = process.env.NOTION_TEAMS_DB
+  await importData(databaseId, "Команди фандабу", "TeamsLogosDB.json", ["Релізи аніме"], processTeamData)
+}
+
 async function runAllImports() {
   await importAnimeTitles()
   await importReleases()
+  await importTeams()
   console.log("Всі імпорти завершено успішно.")
 }
 
