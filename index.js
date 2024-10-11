@@ -804,23 +804,50 @@ document.addEventListener('DOMContentLoaded', async () => {
             (anime) => router.navigate(`/anime/${anime.id}`),
             (release) => router.navigate(`/release/${release.id}`)
         )
+        // document.addEventListener('click', function(event) {
+        //     if (event.target.tagName === 'A') {
+        //       const href = event.target.getAttribute('href')
+        //       console.log(href)
+        //       // Якщо це клік середньою кнопкою миші або з затиснутою клавішею Ctrl/Cmd
+        //     //   if (event.button === 1 || event.ctrlKey || event.metaKey) {
+        //     //     event.preventDefault()
+        //     //     window.open(href)
+        //     //   } else {
+        //     //     // Для звичайних кліків використовуємо Navigo
+        //     //     event.preventDefault()
+        //     //     // history.pushState(null, '', href.replace('#/', ''))
+        //     //     router.navigate(href.replace('#/', ''))
+        //     //   }
+        //     }
+        // })
         setupRoutes()
-
-        document.body.addEventListener('click', function(event) {
-            if (event.target.tagName === 'a') {
-              const href = event.target.getAttribute('href')
-              
-              // Перевіряємо, чи є посилання зовнішнім
-              if (href.startsWith('http') || href.startsWith('https') || event.target.hasAttribute('data-external')) {
-                // Дозволяємо стандартну поведінку для зовнішніх посилань
-                return
-              }
-              
-              // Для внутрішніх посилань застосовуємо клієнтський роутинг
-              event.preventDefault()
-              router.navigate(href)
+            
+        const navLinks = document.querySelectorAll('a')
+        navLinks.forEach(link => {
+            if (link.hasAttribute('blank-navigate')) {
+                link.addEventListener('click', (e) => {
+                const href = e.currentTarget.getAttribute('href')
+                if (e.button === 1 || e.ctrlKey || e.metaKey) {
+                    // e.preventDefault()
+                    window.open(href, '_blank')
+                } else {
+                    // e.preventDefault()
+                    router.navigate(href.replace('#', ''))
+                }
+                })
             }
         })
+        // if (event.target.tagName === 'A' && event.target.hasAttribute('navigo')) {
+        //     navLinks.forEach(link => {
+        //         link.addEventListener('click', (e) => {
+        //             e.preventDefault()
+        //             const href = e.currentTarget.getAttribute('href')
+        //             // window.open(href, '_blank')
+        //             // console.log(href)
+        //             router.navigate(href.replace('#/', ''))
+        //         })
+        //     })
+        // }
 
         cacheButton.onclick = () => {
             clearCache()

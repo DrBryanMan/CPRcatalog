@@ -8,11 +8,12 @@ node_modules/
 *.sass
 sass.css
 sass.css.map
-js/notion_data_import.js
-js/notion_posters_import.js
-AnimeReleasesDB.json
-AnimeTitlesDB.json
-TeamsDB.json
+json/
+# !json/AnimeTitlesPostersDB.json
+# !json/AnimeReleasesPostersDB.json
+
+# js/
+# !js/search.js
 
 # Логи
 
