@@ -358,7 +358,7 @@ async function renderReleaseDetail(release) {
     updateNavigation('Релізи', release.title)
     const anime = allAnimes.find(anime => release.animeIds.includes(anime.id))
     const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
-    const torrents = release.torrentLinks.map(t => `<a href='${t.href}' class='external-link'>${t.text}</a>`).join('')
+    const torrents = release.torrentLinks.map(t => `<a href='${t.href}' external-link>${t.text}</a>`).join('')
     const cover = anime?.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
 
     app.innerHTML = `
@@ -382,15 +382,6 @@ async function renderReleaseDetail(release) {
         </div>
     </div>
     `
-    // Add this event listener
-    const externalLinks = app.querySelectorAll('.external-link')
-    externalLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault()
-            const href = e.currentTarget.getAttribute('href')
-            window.open(href, '_blank')
-        })
-    })
 }
 
 // Відображення деталей аніме
@@ -786,6 +777,28 @@ async function renderHomePage() {
     app.appendChild(statsSection)
 }
 
+function addExternalLinkEvent() {
+    const navLinks = document.querySelectorAll('a')
+    navLinks.forEach(link => {
+        if (link.hasAttribute('blank-navigate')) {
+            link.addEventListener('click', (e) => {
+                const href = e.currentTarget.getAttribute('href')
+                if (e.button === 1 || e.ctrlKey || e.metaKey) {
+                    window.open(href, '_blank')
+                } else {
+                    router.navigate(href.replace('#', ''))
+                }
+            })
+            return
+        } else if (link.hasAttribute('external-link')) {
+            link.addEventListener('click', (e) => {
+                const href = e.currentTarget.getAttribute('href')
+                window.open(href, '_blank')
+            })
+        }
+    })
+}
+
 // Викликаємо рендеринг головної сторінки при завантаженні сторінки
 document.addEventListener('DOMContentLoaded', async () => {
     try {
@@ -797,22 +810,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             (release) => router.navigate(`/release/${release.id}`)
         )
         setupRoutes()
-            
-        const navLinks = document.querySelectorAll('a')
-        navLinks.forEach(link => {
-            if (link.hasAttribute('blank-navigate')) {
-                link.addEventListener('click', (e) => {
-                const href = e.currentTarget.getAttribute('href')
-                if (e.button === 1 || e.ctrlKey || e.metaKey) {
-                    // e.preventDefault()
-                    window.open(href, '_blank')
-                } else {
-                    // e.preventDefault()
-                    router.navigate(href.replace('#', ''))
-                }
-                })
-            }
-        })
+        addExternalLinkEvent()
 
         cacheButton.onclick = () => {
             clearCache()
