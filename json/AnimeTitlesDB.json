@@ -1,5 +1,577 @@
 [
   {
+    "id": "1227667f-790e-8099-aeee-f6c1703654c1",
+    "hikkaUrl": "https://hikka.io/anime/isshun-de-chiryou-shiteita-noni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-573d26",
+    "title": "Геніальний цілитель, який зцілював в одну мить, але був вигнаний за свою марність, тепер насолоджується життям в якості темного цілителя",
+    "romaji": "Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80fa-988a-dcd4555bf7b7",
+    "hikkaUrl": "https://hikka.io/anime/jigokuraku-2nd-season-50d31d",
+    "title": "Пекельний рай 2",
+    "romaji": "Jigokuraku 2",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80b1-945c-f00dcd73816a",
+    "hikkaUrl": "https://hikka.io/anime/bye-bye-earth-632d28",
+    "title": "Бувай, Земле",
+    "romaji": "Bye-Bye, Earth",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "10",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8058-9773-d7972611a2d7",
+    "hikkaUrl": "https://hikka.io/anime/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii-d51272",
+    "title": "Вишнева Магія! 30-тиліття незайманості зробить з вас чарівника?!",
+    "romaji": "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-806b-9bc7-cf25d957002e",
+    "hikkaUrl": "https://hikka.io/anime/sand-land-0b8444",
+    "title": "Країна піску Фільм",
+    "romaji": "Sand Land",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2023",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80a5-8cf0-e3597d1861ad",
+    "hikkaUrl": "https://hikka.io/anime/medalist-5ce028",
+    "title": "Медалістка",
+    "romaji": "Medalist",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8040-81d9-efd3bbada2e0",
+    "hikkaUrl": "https://hikka.io/anime/yuzuki-san-chi-no-yonkyoudai-ee2093",
+    "title": "Четверо братів Юдзукі",
+    "romaji": "Yuzuki-san Chi no Yonkyoudai.",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2023",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8043-a028-c432789358d9",
+    "hikkaUrl": "https://hikka.io/anime/fuguushoku-kanteishi-ga-jitsu-wa-saikyou-datta-f532b2",
+    "title": "Навіть з нікчемним класом \"Оцінювач\", я насправді найсильніший",
+    "romaji": "Fuguushoku \"Kanteishi\" ga Jitsu wa Saikyou Datta",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80a1-9a56-ef26a8ec70ee",
+    "hikkaUrl": "https://hikka.io/anime/kitarou-tanjou-gegege-no-nazo-b38b2d",
+    "title": "Народження Кітаро: Таємниця Ґеґеґе",
+    "romaji": "Kitarou Tanjou: Gegege no Nazo",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2023",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8056-82fa-f3ff01d060b6",
+    "hikkaUrl": "https://hikka.io/anime/senpai-wa-otokonoko-17a34d",
+    "title": "Моя любов до переодягання",
+    "romaji": "Senpai wa Otokonoko",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80c7-950d-e6fc1975e592",
+    "hikkaUrl": "https://hikka.io/anime/ojou-to-banken-kun-ae7e50",
+    "title": "Дівчина та її охоронець",
+    "romaji": "Ojou to Banken-kun",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2023",
+    "episodes": "13",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80e1-a214-f7e49f96e3fe",
+    "hikkaUrl": "https://hikka.io/anime/kawagoe-boys-sing-caacea",
+    "title": "Хлопчики-співунці із Каваґое",
+    "romaji": "Kawagoe Boys Sing",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2023",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80a2-8052-c82fe566265d",
+    "hikkaUrl": "https://hikka.io/anime/boukyaku-battery-tv-fcd46b",
+    "title": "Забуття беттері",
+    "romaji": "Boukyaku Battery",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-804c-abd3-de01f886762c",
+    "hikkaUrl": "https://hikka.io/anime/kono-sekai-wa-fukanzen-sugiru-863e06",
+    "title": "Контроль якості у іншому світі",
+    "romaji": "Kono Sekai wa Fukanzen Sugiru",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "13",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8039-a13b-e529ac4752df",
+    "hikkaUrl": "https://hikka.io/anime/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu-5d69b1",
+    "title": "Подорож в інший світ: Виховування дітей під час пригод",
+    "romaji": "Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80d4-bfd0-ef75478659a8",
+    "hikkaUrl": "https://hikka.io/anime/ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai-cbe862",
+    "title": "Я парирую все, щоб стати найсильнішим авантюристом",
+    "romaji": "Ore wa Subete wo \"Parry\" suru: Gyaku Kanchigai no Sekai Saikyou wa Boukensha ni Naritai",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80c9-a7aa-c84de2a86a44",
+    "hikkaUrl": "https://hikka.io/anime/oomuro-ke-dear-friends-911f31",
+    "title": "Сім'я Оомуро: Дорогі друзі",
+    "romaji": "Oomuro-ke: Dear Friends",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2024",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8065-bad8-f29329a5d181",
+    "hikkaUrl": "https://hikka.io/anime/kurayukaba-38350f",
+    "title": "Кураюкаба",
+    "romaji": "Kurayukaba",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2024",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-806c-9eff-cc50a7bea06c",
+    "hikkaUrl": "https://hikka.io/anime/kuramerukagari-510a48",
+    "title": "Темний Каґарі",
+    "romaji": "Kuramerukagari",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2024",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-807c-9cf5-e31603fa7435",
+    "hikkaUrl": "https://hikka.io/anime/kimi-no-iro-bd9eaf",
+    "title": "Твій колір",
+    "romaji": "Kimi no Iro",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2024",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8099-aafb-f77ff9802ec5",
+    "hikkaUrl": "https://hikka.io/anime/shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru-06809f",
+    "title": "Новоспечений шукач пригод, натренований до смерті найсильнішою групою, стає непереможним",
+    "romaji": "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru.",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-805d-9f01-c7796dcdf9b5",
+    "hikkaUrl": "https://hikka.io/anime/honey-lemon-soda-90c2b7",
+    "title": "Солодкий лимонад",
+    "romaji": "Honey Lemon Soda",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8043-ad5a-c2d63fef1f2f",
+    "hikkaUrl": "https://hikka.io/anime/goukon-ni-ittara-onna-ga-inakatta-hanashi-cdce02",
+    "title": "Історія про те, як я пішов на вечірку, а там не було жінок",
+    "romaji": "Goukon ni Ittara Onna ga Inakatta Hanashi",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8009-bdf6-fa3ea349300d",
+    "hikkaUrl": "https://hikka.io/anime/momentary-lily-ffc490",
+    "title": "Швидкоплинна Лілі",
+    "romaji": "Momentary Lily",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8025-9979-e2e0a0c345a7",
+    "hikkaUrl": "https://hikka.io/anime/kimi-ni-todoke-3rd-season-b04f93",
+    "title": "Дотягнутися до тебе 3",
+    "romaji": "Kimi ni Todoke 3",
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2024",
+    "episodes": "5",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80a7-9e9e-f9944775e17d",
+    "hikkaUrl": "https://hikka.io/anime/sayounara-ryuusei-konnichiwa-jinsei-d188a9",
+    "title": "Прощавай, життя дракона. Привіт, людське життя",
+    "romaji": "Sayounara Ryuusei, Konnichiwa Jinsei",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8078-80a4-d83f21bbc192",
+    "hikkaUrl": "https://hikka.io/anime/sakamoto-days-e435f4",
+    "title": "Дні Сакамото",
+    "romaji": "SAKAMOTO DAYS",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-801a-b9b4-edd15b191e29",
+    "hikkaUrl": "https://hikka.io/anime/rekishi-ni-nokoru-akujo-ni-naru-zo-akuyaku-reijou-ni-naru-hodo-ouji-no-dekiai-wa-kasoku-suru-you-desu-1695d2",
+    "title": "Я стану лиходійкою, що увійде в історію",
+    "romaji": "Rekishi ni Nokoru Akujo ni Naru zo: Akuyaku Reijou ni Naru hodo Ouji no Dekiai wa Kasoku suru you desu!",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "13",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-809a-8d09-cb64b77d011b",
+    "hikkaUrl": "https://hikka.io/anime/haigakura-35f589",
+    "title": "Хайґакура",
+    "romaji": "Haigakura",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80be-a671-c23642c85503",
+    "hikkaUrl": "https://hikka.io/anime/ephemere-df695b",
+    "title": "Ефемер",
+    "romaji": "Ephemere",
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2024",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8094-8945-fe321d04bdf9",
+    "hikkaUrl": "https://hikka.io/anime/kicks-and-punk-c9ff98",
+    "title": "Стусани і панки",
+    "romaji": "Kicks And Punk",
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2024",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8011-87c3-f4f00a01dfe1",
+    "hikkaUrl": "https://hikka.io/anime/look-back-968446",
+    "title": "Озирнись",
+    "romaji": "Look Back",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2024",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8056-b357-e53f4a0a2cc0",
+    "hikkaUrl": "https://hikka.io/anime/sand-land-the-series-52aa9e",
+    "title": "Країна піску",
+    "romaji": "Sand Land: The Series",
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2024",
+    "episodes": "13",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8007-a823-e6cb14b2d861",
+    "hikkaUrl": "https://hikka.io/anime/teogonia-fb7def",
+    "title": "Теогонія",
+    "romaji": "Teogonia",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-800c-bb09-cca51978df06",
+    "hikkaUrl": "https://hikka.io/anime/baki-029db9",
+    "title": "Боєць Бакі",
+    "romaji": "Baki",
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2018",
+    "episodes": "26",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8002-a2b5-c70ced2a37ad",
+    "hikkaUrl": "https://hikka.io/anime/bang-dream-ave-mujica-749747",
+    "title": "Шалена мрія! Ave Mujica",
+    "romaji": "BanG Dream! Ave Mujica",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-804f-911c-c71f9f63984d",
+    "hikkaUrl": "https://hikka.io/anime/sword-art-online-alicization-war-of-underworld-2nd-season-19752d",
+    "title": "Мистецтво Меча Онлайн: Алісізація - Війна за Підсвіт. Частина 2",
+    "romaji": "Sword Art Online: Alicization - War of Underworld 2nd Season",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2020",
+    "episodes": "11",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-803f-be2f-e82166dd7fbe",
+    "hikkaUrl": "https://hikka.io/anime/sword-art-online-extra-edition-a50f7e",
+    "title": "Мистецтво Меча Онлайн: Екстра видання",
+    "romaji": "Sword Art Online: Extra Edition",
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2013",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-804c-bb26-c15191ef278f",
+    "hikkaUrl": "https://hikka.io/anime/trinity-seven-movie-2-heavens-library-to-crimson-lord-a4db48",
+    "title": "Семеро святих Фільм 2",
+    "romaji": "Trinity Seven Movie 2: Heavens Library to Crimson Lord",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2019",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-805e-923e-e46aef746d65",
+    "hikkaUrl": "https://hikka.io/anime/trinity-seven-movie-1-eternity-library-to-alchemic-girl-3ab97f",
+    "title": "Семеро святих Фільм",
+    "romaji": "Trinity Seven Movie 1: Eternity Library to Alchemic Girl",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2017",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-80ae-ae60-d3733a61dd1f",
+    "hikkaUrl": "https://hikka.io/anime/trinity-seven-nanatsu-no-taizai-to-nana-madoushi-663882",
+    "title": "Семеро святих ОВА",
+    "romaji": "Trinity Seven: Nanatsu no Taizai to Nana Madoushi",
+    "type": "Аніме",
+    "format": "ОВА",
+    "year": "2015",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8083-b00c-f1d2c2584f1c",
+    "hikkaUrl": "https://hikka.io/anime/trinity-seven-4498a3",
+    "title": "Семеро святих",
+    "romaji": "Trinity Seven",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2014",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-800d-a811-cb23505b825e",
+    "hikkaUrl": "https://hikka.io/anime/kage-no-jitsuryokusha-ni-naritakute-movie-zankyou-hen-f831b2",
+    "title": "Сходження в тіні: Загублене відлуння",
+    "romaji": "Kage no Jitsuryokusha ni Naritakute! Movie: Zankyou-hen",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "",
+    "episodes": "1",
+    "releases": []
+  },
+  {
+    "id": "1227667f-790e-8048-97b2-c190c1ec6786",
+    "hikkaUrl": "https://hikka.io/anime/jaku-chara-tomozaki-kun-237d68",
+    "title": "Низькорівневий персонаж Томодзакі",
+    "romaji": "Jaku-Chara Tomozaki-kun / Bottom-Tier Character Tomozaki",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2021",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "1217667f-790e-8053-ac9e-e96cd512f94f",
+    "hikkaUrl": "https://hikka.io/anime/yuragi-sou-no-yuuna-san-ova-56a254",
+    "title": "Юна з маєтку Юраґі ОВА",
+    "romaji": "Yuragi-sou no Yuuna-san OVA",
+    "type": "Аніме",
+    "format": "ОВА",
+    "year": "2018",
+    "episodes": "4",
+    "releases": []
+  },
+  {
+    "id": "1207667f-790e-801b-b3cd-cdea81b40f0d",
+    "hikkaUrl": "https://hikka.io/anime/tate-no-yuusha-no-nariagari-season-4-76f372",
+    "title": "Сходження Героя щита 4",
+    "romaji": "Tate no Yuusha no Nariagari 4",
+    "type": "Аніме",
+    "format": "",
+    "year": "",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1207667f-790e-800e-8644-d0bcb065c5ea",
+    "hikkaUrl": "https://hikka.io/anime/tate-no-yuusha-no-nariagari-season-2-27acb7",
+    "title": "Сходження Героя щита 2",
+    "romaji": "Tate no Yuusha no Nariagari Season 2",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2022",
+    "episodes": "13",
+    "releases": []
+  },
+  {
+    "id": "1207667f-790e-80dd-ae74-c64a4cbfba1e",
+    "hikkaUrl": "https://hikka.io/anime/spy-kyoushitsu-e2e99b",
+    "title": "Шпигунський клас",
+    "romaji": "Spy Kyoushitsu",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2023",
+    "episodes": "12",
+    "releases": []
+  },
+  {
+    "id": "11f7667f-790e-809e-942c-c9359066418d",
+    "hikkaUrl": "https://hikka.io/anime/sorairo-utility-tv-9ad968",
+    "title": "Небесно-блакитний гібрид",
+    "romaji": "Sorairo Utility",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "11f7667f-790e-804b-aa85-f5e31ca1fc4b",
+    "hikkaUrl": "https://hikka.io/anime/izure-saikyou-no-renkinjutsushi-b62971",
+    "title": "Чи стану я колись наймогутнішим алхіміком?",
+    "romaji": "Izure Saikyou no Renkinjutsushi?",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "11f7667f-790e-80fa-845b-e0f19ba64133",
+    "hikkaUrl": "https://hikka.io/anime/class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta-7cca64",
+    "title": "Я одружився з однокласницею, яку найбільше ненавидів",
+    "romaji": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "11f7667f-790e-801b-ba04-d095e6d2a88e",
+    "hikkaUrl": "https://hikka.io/anime/bishoujo-senshi-sailor-moon-cosmos-movie-39e880",
+    "title": "Красуня-воїн Сейлор Мун Космос. Фільм",
+    "romaji": "Bishoujo Senshi Sailor Moon Cosmos Movie",
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2023",
+    "episodes": "2",
+    "releases": []
+  },
+  {
     "id": "11b7667f-790e-8078-b550-fa000d3b5575",
     "hikkaUrl": "https://hikka.io/anime/synduality-noir-part-2-0d843a",
     "title": "Синдальнсть: Нуар ч.2",
@@ -1414,7 +1986,7 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "2024",
-    "episodes": "",
+    "episodes": "12",
     "releases": []
   },
   {
@@ -4346,9 +4918,6 @@
     "releases": [
       {
         "id": "cdc6da6c-aebc-40d8-8717-0748196e4b7e"
-      },
-      {
-        "id": "10c7667f-790e-80b6-95df-eea51972b0f0"
       }
     ]
   },
@@ -4399,7 +4968,7 @@
     "id": "d6a6584b-1f46-4142-9f13-5b446a33640f",
     "hikkaUrl": "https://hikka.io/anime/mushoku-tensei-isekai-ittara-honki-dasu-part-2-250c31",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127720-oBpHiMWQhFVN.jpg",
-    "title": "Реінкарнація безробітного: В інший світ на повному серйозі - 1 сезон, 2 частина",
+    "title": "Реінкарнація безробітного: В інший світ на повному серйозі ч.2",
     "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
     "type": "Аніме",
     "format": "ТБ",
@@ -4506,17 +5075,6 @@
     "format": "ОВА",
     "year": "2013",
     "episodes": "4",
-    "releases": []
-  },
-  {
-    "id": "4e477d15-3f07-4307-bd06-cf715250d791",
-    "hikkaUrl": null,
-    "title": "Дядько з іншого світу",
-    "romaji": "Isekai Ojisan",
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2022",
-    "episodes": "13",
     "releases": []
   },
   {
@@ -4876,7 +5434,7 @@
   {
     "id": "01c1360a-5e5c-492a-8b63-b94aa921fe01",
     "hikkaUrl": "https://hikka.io/anime/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-2nd-season-af8c13",
-    "title": "Ласкаво просимо до класу еліти - 2 сезон",
+    "title": "Ласкаво просимо до класу еліти 2",
     "romaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (Season 2)",
     "type": "Аніме",
     "format": "ТБ",
@@ -7312,7 +7870,7 @@
   {
     "id": "5cb51338-ca6f-4555-a813-a29573db15a0",
     "hikkaUrl": "https://hikka.io/anime/tate-no-yuusha-no-nariagari-season-3-4fe7d1",
-    "title": "Сходження Героя щита - 3 сезон",
+    "title": "Сходження Героя щита 3",
     "romaji": "Tate no Yuusha no Nariagari (Season 3)",
     "type": "Аніме",
     "format": "ТБ",
@@ -7806,7 +8364,7 @@
     "title": "Брама;Штейна: Область перезавантаження дежавю",
     "romaji": "Steins;Gate: Fuka Ryouiki no Déjà vu / Steins;Gate the Movie: Burdened Domain of Deja vu",
     "type": "Аніме",
-    "format": "ТБ",
+    "format": "Фільм",
     "year": "2013",
     "episodes": "1",
     "releases": [
@@ -7938,7 +8496,7 @@
   {
     "id": "a747aec8-42f0-49b6-958e-615834f80003",
     "hikkaUrl": "https://hikka.io/anime/spy-kyoushitsu-2nd-season-df2f2e",
-    "title": "Шпигунський клас - 2 сезон",
+    "title": "Шпигунський клас 2",
     "romaji": "Spy Kyoushitsu 2",
     "type": "Аніме",
     "format": "ТБ",
@@ -8728,17 +9286,6 @@
     "releases": []
   },
   {
-    "id": "380897df-968a-4039-bf6e-0c775181fdbe",
-    "hikkaUrl": "https://hikka.io/anime/shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-b2924f",
-    "title": "Поганий соратник для групи героя обрав спокійне життя в селі",
-    "romaji": "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita (Season 2)",
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2021",
-    "episodes": "13",
-    "releases": []
-  },
-  {
     "id": "93668bab-a959-4879-954f-061c821da6e0",
     "hikkaUrl": "https://hikka.io/anime/shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-b2924f",
     "title": "Поганий соратник для групи героя обрав спокійне життя в селі",
@@ -9403,7 +9950,7 @@
   {
     "id": "0cd09da3-cbb0-465d-96ec-3513bedf3ff3",
     "hikkaUrl": "https://hikka.io/anime/seija-musou-salaryman-isekai-de-ikinokoru-tame-ni-ayumu-michi-8cef28",
-    "title": "Великий Клірик",
+    "title": "Великий клірик",
     "romaji": "Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi",
     "type": "Аніме",
     "format": "ТБ",
@@ -9489,21 +10036,20 @@
     "title": "Сасакі та Міяно: Випускний",
     "romaji": "Sasaki to Miyano Movie: Sotsugyou-hen",
     "type": "Аніме",
-    "format": "ТБ",
+    "format": "Фільм",
     "year": "2023",
     "episodes": "1",
     "releases": []
   },
   {
     "id": "01b8e0d5-3f25-43dd-8d59-e70ed3482326",
-    "hikkaUrl": "https://hikka.io/anime/sasaki-to-miyano-30651e",
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126288-RvV1HCMwGjLI.jpg",
-    "title": "Сасакі та Міяно",
-    "romaji": "Sasaki to Miyano",
+    "hikkaUrl": "https://hikka.io/anime/hirano-to-kagiura-9ac9bc",
+    "title": "Хірано і Каґіура",
+    "romaji": "Hirano to Kagiura",
     "type": "Аніме",
-    "format": "ТБ",
-    "year": "2022",
-    "episodes": "12",
+    "format": "Спешл",
+    "year": "2023",
+    "episodes": "1",
     "releases": []
   },
   {
@@ -11089,7 +11635,7 @@
     "id": "2bf704ee-2200-4005-b3c0-9f9cd7799b40",
     "hikkaUrl": "https://hikka.io/anime/paprika-de053e",
     "title": "Паприка",
-    "romaji": "Paprika / Papurika",
+    "romaji": "Papurika",
     "type": "Аніме",
     "format": "Фільм",
     "year": "2006",
@@ -15084,7 +15630,7 @@
   {
     "id": "eb038c12-c099-4a15-89e5-25a352afb2fe",
     "hikkaUrl": "https://hikka.io/anime/kono-subarashii-sekai-ni-shukufuku-wo-3-71e0fa",
-    "title": "Цей прекрасний світ, благословенний Богом! - 3 сезон",
+    "title": "Цей прекрасний світ, благословенний Богом! 3",
     "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 3",
     "type": "Аніме",
     "format": "ТБ",
@@ -16909,7 +17455,7 @@
   {
     "id": "12f1cda7-c22e-4f6e-9b3e-248b5236e2fc",
     "hikkaUrl": "https://hikka.io/anime/jojo-no-kimyou-na-bouken-part-5-ougon-no-kaze-4f8a77",
-    "title": "Химерні пригоди ДжоДжо: Золотий вітер",
+    "title": "Химерні пригоди ДжоДжо 5: Золотий вітер",
     "romaji": "JoJo's Bizarre Adventure - Golden Wind",
     "type": "Аніме",
     "format": "ТБ",
@@ -16920,7 +17466,7 @@
   {
     "id": "b74eb0c2-d532-40f7-a0ef-7a54bf7faab8",
     "hikkaUrl": "https://hikka.io/anime/jojo-no-kimyou-na-bouken-part-3-stardust-crusaders-2nd-season-d7f0f9",
-    "title": "Химерні пригоди ДжоДжо: Хрестоносці зоряного пилу - 2 частина",
+    "title": "Химерні пригоди ДжоДжо 3: Хрестоносці зоряного пилу - 2 частина",
     "romaji": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders 2nd Season",
     "type": "Аніме",
     "format": "ТБ",
@@ -16932,7 +17478,7 @@
     "id": "af9307f1-039c-4e34-a721-c3bdba2ae3f2",
     "hikkaUrl": "https://hikka.io/anime/jojo-no-kimyou-na-bouken-part-3-stardust-crusaders-05f5b6",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20474-peBLuUVAzNC3.jpg",
-    "title": "Химерні пригоди ДжоДжо: Хрестоносці зоряного пилу",
+    "title": "Химерні пригоди ДжоДжо 3: Хрестоносці зоряного пилу",
     "romaji": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
     "type": "Аніме",
     "format": "ТБ",
@@ -16943,7 +17489,7 @@
   {
     "id": "e6a4edb8-ee34-4ca7-9d24-6649a171b2e1",
     "hikkaUrl": "https://hikka.io/anime/jojo-no-kimyou-na-bouken-part-4-diamond-wa-kudakenai-6d5edb",
-    "title": "Химерні пригоди ДжоДжо: Незламний діамант",
+    "title": "Химерні пригоди ДжоДжо 4: Незламний діамант",
     "romaji": "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
     "type": "Аніме",
     "format": "ТБ",
@@ -17047,8 +17593,8 @@
   {
     "id": "27e1adeb-a5c8-46d8-9447-0b6d9052acd5",
     "hikkaUrl": "https://hikka.io/anime/jaku-chara-tomozaki-kun-2nd-stage-08b844",
-    "title": "Низькорівневий персонаж Томодзакі - 2 сезон",
-    "romaji": "Jaku-Chara Tomozaki-kun / Bottom-Tier Character Tomozaki",
+    "title": "Низькорівневий персонаж Томодзакі 2",
+    "romaji": "Jaku-Chara Tomozaki-kun 2 / Bottom-Tier Character Tomozaki 2",
     "type": "Аніме",
     "format": "ТБ",
     "year": "2024",
@@ -23012,7 +23558,7 @@
     "hikkaUrl": "https://hikka.io/anime/bungou-stray-dogs-5th-season-72b213",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163263-h3BwSskB0qvB.jpg",
     "title": "Літературні генії Бродячі Пси - 5 сезон",
-    "romaji": "Bungou Stray Dogs (Season 5)",
+    "romaji": "Bungou Stray Dogs 5",
     "type": "Аніме",
     "format": "ТБ",
     "year": "2023",
@@ -26134,7 +26680,7 @@
   {
     "id": "14144244-f35e-4559-b233-4b63c6b4d97f",
     "hikkaUrl": "https://hikka.io/anime/sono-bisque-doll-wa-koi-wo-suru-0a2f14",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c3255add-959f-4235-9c05-dec6fa54a36a/IMG_20240502_181050_558.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241014%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241014T012136Z&X-Amz-Expires=3600&X-Amz-Signature=7a40b6f6953a18e6c178fd032478d9e6997a98fa2b2c7da4ecf0a3a9026c8d31&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c3255add-959f-4235-9c05-dec6fa54a36a/IMG_20240502_181050_558.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T012225Z&X-Amz-Expires=3600&X-Amz-Signature=8e73f4b5b7bb8230af5253e89c6dc30d13f678ec3102cb221c86d671fd0ca036&X-Amz-SignedHeaders=host&x-id=GetObject",
     "title": "Ця порцелянова лялечка закохалася",
     "romaji": "Sono Bisque Doll wa Koi wo Suru",
     "type": "Аніме",
@@ -26356,7 +26902,7 @@
   {
     "id": "9d55dfe5-aec4-4141-af16-b0290497ec13",
     "hikkaUrl": "https://hikka.io/anime/death-note-e967c4",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0c9cd049-7ae8-42bb-8d0f-895179574a76/IMG_20240502_180551_620.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241014%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241014T012136Z&X-Amz-Expires=3600&X-Amz-Signature=0bb4794587f13cffaf4f289361f5b7bd17eb778339be863c180420c2c8341b06&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0c9cd049-7ae8-42bb-8d0f-895179574a76/IMG_20240502_180551_620.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T012225Z&X-Amz-Expires=3600&X-Amz-Signature=1976f6b349283ccef2c1cfd26f7bbea8a29dbdb42433f3b384448bd475b4f2ab&X-Amz-SignedHeaders=host&x-id=GetObject",
     "title": "Зошит смерті",
     "romaji": "Death Note",
     "type": "Аніме",
@@ -27172,7 +27718,7 @@
   {
     "id": "668a6964-b440-4841-a579-81795c979ecc",
     "hikkaUrl": "https://hikka.io/anime/jujutsu-kaisen-3c90f8",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/d873b1ef-4dcc-493b-a5ab-d45460c6bd9e/IMG_20240511_085353_005.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241014%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241014T012139Z&X-Amz-Expires=3600&X-Amz-Signature=4f7db016100607da4524f95bd67e1065797f822d47a21468c7f49555ce1789a0&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/d873b1ef-4dcc-493b-a5ab-d45460c6bd9e/IMG_20240511_085353_005.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T012226Z&X-Amz-Expires=3600&X-Amz-Signature=fd7b3ded3990eb5d63104c972118f62fcc8d775686097f8a73f2f33c3e635301&X-Amz-SignedHeaders=host&x-id=GetObject",
     "title": "Магічна битва",
     "romaji": "Jujutsu Kaisen",
     "type": "Аніме",
