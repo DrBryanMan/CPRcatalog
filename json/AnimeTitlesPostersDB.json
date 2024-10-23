@@ -1,5 +1,35 @@
 [
   {
+    "id": "1287667f-790e-80c1-9f5b-ec818fc0762e",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-6th-season-5cb08a",
+    "title": "Моя геройська академія 6",
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163359/моя_геройська_академія_6.1_ytyq7t.jpg"
+  },
+  {
+    "id": "1287667f-790e-8040-ab5c-f0a1793dfbcb",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-5th-season-b8f569",
+    "title": "Моя геройська академія 5",
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163423/моя_геройська_академія_5.1_payh7o.jpg"
+  },
+  {
+    "id": "1287667f-790e-8070-9eb4-def23eb5d43a",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-4th-season-0ca745",
+    "title": "Моя геройська академія 4",
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729682932/моя_геройська_академія_4.1_gbvncl.jpg"
+  },
+  {
+    "id": "1287667f-790e-80eb-883c-da32e7bd352a",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-3rd-season-819c2d",
+    "title": "Моя геройська академія 3",
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163335/моя_геройська_академія_3.1_rh6izr.jpg"
+  },
+  {
+    "id": "1287667f-790e-8001-83f3-c9d27bb83f8e",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-2nd-season-514776",
+    "title": "Моя геройська академія 2",
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163360/моя_геройська_академія_2.1_esewkg.jpg"
+  },
+  {
     "id": "1277667f-790e-802d-9ed3-cff3ac066c4d",
     "hikkaUrl": "https://hikka.io/anime/kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai-587008",
     "title": "Куроїва Медака не розуміє моєї привабливості",
@@ -237,25 +267,25 @@
     "id": "1227667f-790e-804c-bb26-c15191ef278f",
     "hikkaUrl": "https://hikka.io/anime/trinity-seven-movie-2-heavens-library-to-crimson-lord-a4db48",
     "title": "Семеро святих Фільм 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ae8f28ce-c879-48d3-8184-a4815fc3a468/%D1%81%D1%96%D0%BC%D0%BA%D0%B0_%D1%82%D1%80%D1%96%D0%BD%D1%96%D1%82%D1%96_%D1%84%D1%96%D0%BB%D1%8C%D0%BC_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111719Z&X-Amz-Expires=3600&X-Amz-Signature=9beff18f4df965c33d22ea5fd323304a3804cbef2367f3e831360676a4503464&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ae8f28ce-c879-48d3-8184-a4815fc3a468/%D1%81%D1%96%D0%BC%D0%BA%D0%B0_%D1%82%D1%80%D1%96%D0%BD%D1%96%D1%82%D1%96_%D1%84%D1%96%D0%BB%D1%8C%D0%BC_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124102Z&X-Amz-Expires=3600&X-Amz-Signature=a25553157da11c1c13f65eb651f8b51809bf5508ded18f1dee9246ea24cbc5d7&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1227667f-790e-805e-923e-e46aef746d65",
     "hikkaUrl": "https://hikka.io/anime/trinity-seven-movie-1-eternity-library-to-alchemic-girl-3ab97f",
     "title": "Семеро святих Фільм",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0b4b7e15-4958-423c-9565-ab04f92b2bf7/%D1%81%D1%96%D0%BC%D0%BA%D0%B0_%D1%82%D1%80%D1%96%D0%BD%D1%96%D1%82%D1%96_%D1%84%D1%96%D0%BB%D1%8C%D0%BC_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111719Z&X-Amz-Expires=3600&X-Amz-Signature=a94b70c5525e385928ac9b36251e362916b895de81496a855253986bcad6ec82&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0b4b7e15-4958-423c-9565-ab04f92b2bf7/%D1%81%D1%96%D0%BC%D0%BA%D0%B0_%D1%82%D1%80%D1%96%D0%BD%D1%96%D1%82%D1%96_%D1%84%D1%96%D0%BB%D1%8C%D0%BC_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124102Z&X-Amz-Expires=3600&X-Amz-Signature=83f9bbfba58ea08af088f991a9d7fd23798c1b26606e66ad5323bf5a1aa3f4ee&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1227667f-790e-8083-b00c-f1d2c2584f1c",
     "hikkaUrl": "https://hikka.io/anime/trinity-seven-4498a3",
     "title": "Семеро святих",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ce39f522-6096-43f3-a76e-e51762c958c7/%D1%81%D1%96%D0%BC%D0%BA%D0%B0_%D1%82%D1%80%D1%96%D0%BD%D1%96%D1%82%D1%96_1.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111719Z&X-Amz-Expires=3600&X-Amz-Signature=ed8761ad22916afc20683068127c5ea0a806f206c4263d08c36548345cebad49&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ce39f522-6096-43f3-a76e-e51762c958c7/%D1%81%D1%96%D0%BC%D0%BA%D0%B0_%D1%82%D1%80%D1%96%D0%BD%D1%96%D1%82%D1%96_1.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124103Z&X-Amz-Expires=3600&X-Amz-Signature=5b1fdb1f8e5a7723b005c45b3a6956847e9f8c660d80cbcbe22f350b865a2a47&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1227667f-790e-800d-a811-cb23505b825e",
     "hikkaUrl": "https://hikka.io/anime/kage-no-jitsuryokusha-ni-naritakute-movie-zankyou-hen-f831b2",
     "title": "Сходження в тіні: Загублене відлуння",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/56df68e1-7511-45d8-ba10-09364bed2513/%D1%81%D1%85%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D1%82%D1%96%D0%BD%D1%96_%D1%84%D1%96%D0%BB%D1%8C%D0%BC_1.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111719Z&X-Amz-Expires=3600&X-Amz-Signature=88c6c40a688904a9846b48c1bb9e785ecca800d1e7d391efa98f9c7fa5a5b268&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/56df68e1-7511-45d8-ba10-09364bed2513/%D1%81%D1%85%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D1%82%D1%96%D0%BD%D1%96_%D1%84%D1%96%D0%BB%D1%8C%D0%BC_1.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124103Z&X-Amz-Expires=3600&X-Amz-Signature=753a65896b88937eecb6fc99b6c659ae5f9db7fc8b10a4bccecd0a6f733c480d&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1227667f-790e-8048-97b2-c190c1ec6786",
@@ -273,19 +303,19 @@
     "id": "1207667f-790e-800e-8644-d0bcb065c5ea",
     "hikkaUrl": "https://hikka.io/anime/tate-no-yuusha-no-nariagari-season-2-27acb7",
     "title": "Сходження Героя щита 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a2ff72ce-e53a-4311-ada6-2a1cf84889c2/IMG_20241015_170804_566.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111722Z&X-Amz-Expires=3600&X-Amz-Signature=d287e04ae80ebbf627b62d6f13df05d8ad31854e5a7ae31191e70f56f1ed4b08&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a2ff72ce-e53a-4311-ada6-2a1cf84889c2/IMG_20241015_170804_566.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124103Z&X-Amz-Expires=3600&X-Amz-Signature=0edcc0352c3241051ad50376677591bc8ed7558da670e1b3598bb898bae337dc&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1207667f-790e-80dd-ae74-c64a4cbfba1e",
     "hikkaUrl": "https://hikka.io/anime/spy-kyoushitsu-e2e99b",
     "title": "Шпигунський клас",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/9a49db74-c331-4469-a262-7295c29db6c4/IMG_20241015_164110_340.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111722Z&X-Amz-Expires=3600&X-Amz-Signature=1ffd4b80c44f884a4200d6f934ca00fe2b658e309ca0f76bc74393dd2392f2fd&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/9a49db74-c331-4469-a262-7295c29db6c4/IMG_20241015_164110_340.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124103Z&X-Amz-Expires=3600&X-Amz-Signature=8b4327abfca9e6af0ac764cd855f28794a17b409f036ee401748f5e61afcc50b&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "11f7667f-790e-809e-942c-c9359066418d",
     "hikkaUrl": "https://hikka.io/anime/sorairo-utility-tv-9ad968",
     "title": "Небесно-блакитний гібрид",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/bada623c-fb03-4daf-bce0-bad69d653886/IMG_20241014_205210_488.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111722Z&X-Amz-Expires=3600&X-Amz-Signature=601739a7b0266a326a62c3b69816d1ebfafb91fa7fcbb40edea55b2bb514f47c&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171394/Небесно-блакитна_користь_hqod4v.png"
   },
   {
     "id": "11f7667f-790e-804b-aa85-f5e31ca1fc4b",
@@ -315,13 +345,13 @@
     "id": "11b7667f-790e-80c5-8cf7-e28fd964029a",
     "hikkaUrl": "https://hikka.io/anime/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season-6f7885",
     "title": "Переродження в аристократа з унікальною навичкою оцінки 2",
-    "poster": "https://cdn4.cdn-telegram.org/file/JJ60ZZszf0V9rxypaHenHSD0wG8sVRf3LfB-cUxwJkhCll-tL94CbqjRR0lmKQ2-7lE4pwFNoeNxjao-yaf0cZE_SpKwpffUC3aMbB8aqXTTpyHF8lTK6twzG8yQitAMn4BZ-QKh4nDOvq-40tgifynaKKhkoFC-t2xiUZHIf0MFBzXIHkbFNb0lHxqmZA3XKLDvrjl336Jrpp2K0Qo6QMb1tbWEA1iauMeG48ePhi-KKRGUkd-5lmO4vSkYatzQ4ONMTkjpBuzKjcLE5kBxcvYWKZtyJa9IeNlXFgKEkbk1aUNZ1-KvJb5SsiH_Tcj0XxK_TXE6GZ8Rz3fAs2QxmQ.jpg"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171163/Переродження_аристократа_з_навиком_оцінки_2_im1eeb.png"
   },
   {
     "id": "11b7667f-790e-8071-b773-d9b7fa04ad18",
     "hikkaUrl": "https://hikka.io/anime/tensei-kizoku-kantei-skill-de-nariagaru-e4891b",
     "title": "Переродження в аристократа з унікальною навичкою оцінки",
-    "poster": "https://cdn4.cdn-telegram.org/file/QJn8zUQOrtk1xPgyl65wouer0PDZ1Kw4C9sldDwuhFeyawB_A_6SylTZpEPi7-JLOmTe2jlJ5Hu6jAJtEWaZwFODfL6SQfjtz0sTwz71gXB4qFVk3NEGR2RZtv_IRHJeGoDGR-TdaIDGb5JLgg-bDYRLUsVvQduRrYtvYhwsAD3gyV-Kp-oAgq0CE6aZFzm17jR5G0lbQniyr8p35U2hG_IqpPmnzVmke9rosMydRwZTEE41HPgQEkBn_wbG9Wo8emdYak9d_fDY4LlijiXUKxgkXRtrwmBYt36bT6a3IG3aY1NXZCpXYEhFgL86hIqbZ81PmrbVGIYUXLhjySfzWQ.jpg"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170898/Переродження_аристократа_з_навиком_оцінки_wbwtsi.png"
   },
   {
     "id": "1177667f-790e-80c3-8c16-e5560fcca6a6",
@@ -333,19 +363,19 @@
     "id": "1177667f-790e-80d5-ab08-fa349cd63a76",
     "hikkaUrl": "https://hikka.io/anime/ishura-2nd-season-814399",
     "title": "Ішюра 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/8ad78144-6e88-4fb8-9f52-aada211bc316/IMG_20241006_174605_090.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111722Z&X-Amz-Expires=3600&X-Amz-Signature=ee9d9117d3b70c1b6df335775620ea4a195c51b3c3f74f7f7229588f77063946&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/8ad78144-6e88-4fb8-9f52-aada211bc316/IMG_20241006_174605_090.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124103Z&X-Amz-Expires=3600&X-Amz-Signature=b143b52ecae6c9aa8b2839c38f75a14594436139eac3c28b7fc88ab74bc60e55&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1177667f-790e-80d1-a01b-c72a83cb7960",
     "hikkaUrl": "https://hikka.io/anime/akuma-no-riddle-857ef5",
     "title": "Завдання диявола",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a841ea12-9dc6-4443-a089-5ec2f36f8c81/IMG_20241006_171312_820.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111722Z&X-Amz-Expires=3600&X-Amz-Signature=c0e6dff6445230d78195670454226b3e1680479096b6a6287441ab1f1b1e1d72&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a841ea12-9dc6-4443-a089-5ec2f36f8c81/IMG_20241006_171312_820.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124103Z&X-Amz-Expires=3600&X-Amz-Signature=3ee4fd8f9c944bd32b03a8de2bb44871adbac8719face37d6d175dd3812e3ad7&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1177667f-790e-8094-81f0-c6d2968fd7e7",
     "hikkaUrl": "https://hikka.io/anime/mahoutsukai-ni-narenakatta-onnanoko-no-hanashi-fdea0b",
     "title": "Історія дівчини, яка не змогла стати чарівницею",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/50d86af2-f2b0-48da-b9c1-f032883d46bc/IMG_20241006_171257_649.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111722Z&X-Amz-Expires=3600&X-Amz-Signature=271331f7912eeb93737ec7a6e2a88ad17d24d59164513fff83147c2203b5f983&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/50d86af2-f2b0-48da-b9c1-f032883d46bc/IMG_20241006_171257_649.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124103Z&X-Amz-Expires=3600&X-Amz-Signature=f077b064c0ffe9ea556d7c63a5771b4f3b7dd93da4235bf77fcaaa9bd274b72b&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1167667f-790e-80c7-ba2e-f315126c5b53",
@@ -885,7 +915,7 @@
     "id": "1137667f-790e-805a-864a-dee315e55b9a",
     "hikkaUrl": "https://hikka.io/anime/tsuma-shougakusei-ni-naru-42c837",
     "title": "Моя дружина стала молодшокласницею",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a6d8a3e4-9c6e-4f30-9818-2cba0f5004f1/IMG_20241002_000707_765.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111724Z&X-Amz-Expires=3600&X-Amz-Signature=32e0c74178b38f9b8f1022a157a3b7437efa1231000a38be7c4443cbd986f4c3&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171343/Моя_дружина_учениця_початкової_школи_xue3p7.png"
   },
   {
     "id": "1127667f-790e-80af-a691-fceafd0f6ddb",
@@ -903,7 +933,7 @@
     "id": "1107667f-790e-8013-a3e7-e3fb0c00dfa9",
     "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-the-movie-d08685",
     "title": "Моя геройська академія: Ти наступний",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/45b6dbd1-a9a1-4cb5-9c2a-2d3d611ee6e2/IMG_20240929_122355_633.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111724Z&X-Amz-Expires=3600&X-Amz-Signature=80b8416029bf9a7ab75c020e7cfc85315ea3a956b3943538d7d6886dc15b898a&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/45b6dbd1-a9a1-4cb5-9c2a-2d3d611ee6e2/IMG_20240929_122355_633.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124110Z&X-Amz-Expires=3600&X-Amz-Signature=f8b2a766a65946af150aa480abb85d981bd882ba62668e1bc4de1c1a95fd24e3&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "10f7667f-790e-804f-99a2-d50c9b2eee5c",
@@ -981,7 +1011,7 @@
     "id": "10c7667f-790e-8023-be89-c8fd4088e33d",
     "hikkaUrl": "https://hikka.io/anime/rezero-kara-hajimeru-isekai-seikatsu-3rd-season-6f8668",
     "title": "Переродження: Життя з нуля в іншому світі 3",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a35dd89a-da1f-4eb0-b094-bc18335407e8/IMG_20240925_185035_322.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111724Z&X-Amz-Expires=3600&X-Amz-Signature=5cd4a99a6d4e283bfffafaeda42978719769364cf97e8ec9274d8dc0dcd5eebc&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171312/Переродження_3_сезон_1_версія_p1rk0s.png"
   },
   {
     "id": "10c7667f-790e-8057-ac04-e51edec74bf0",
@@ -999,7 +1029,7 @@
     "id": "10c7667f-790e-801a-b4d4-fab8270cc695",
     "hikkaUrl": "https://hikka.io/anime/nageki-no-bourei-wa-intai-shitai-299935",
     "title": "Скорботний привид прагне у відставку. Як найслабший мисливець створив найсильнішу команду",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/b3c820e5-10d4-4304-85a3-1330161fd036/IMG_20240925_183420_134.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111724Z&X-Amz-Expires=3600&X-Amz-Signature=a4ebd3287f190fe272925691c9e325e91bac20a1f0644fe18970df1e7f4e0b06&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171311/Нехай_ця_скорботна_душа_відійде_у_відставку_2_версія_wkvbrv.png"
   },
   {
     "id": "10c7667f-790e-8067-8a81-f197fb4a6dd3",
@@ -1011,7 +1041,7 @@
     "id": "10c7667f-790e-801d-9316-f26d773c3bb8",
     "hikkaUrl": "https://hikka.io/anime/ooi-tonbo-2nd-season-7fa2ef",
     "title": "Агов, Томбо! 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5be423c1-a53c-4e31-8e73-4550a8329a2a/IMG_20240925_182019_750.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111724Z&X-Amz-Expires=3600&X-Amz-Signature=c3038d74643ee8005a730dc62f1b660a19ba1a2831074cba03a27bed2465aae5&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5be423c1-a53c-4e31-8e73-4550a8329a2a/IMG_20240925_182019_750.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124110Z&X-Amz-Expires=3600&X-Amz-Signature=9d626f4e463e29dbde44489dba8e6cfa9afc11680bed2784b8be9edc4b41fbc3&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "10c7667f-790e-80ae-861a-dcdc262a38ba",
@@ -1023,19 +1053,19 @@
     "id": "10c7667f-790e-8030-8c4e-f761708b882c",
     "hikkaUrl": "https://hikka.io/anime/chi-chikyuu-no-undou-ni-tsuite-efd0b5",
     "title": "Орбіта: Про рух Землі",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/25b19412-861f-4ea6-aa76-db5be28743ae/IMG_20240925_180225_992.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111724Z&X-Amz-Expires=3600&X-Amz-Signature=ac60d0f7368627bf8166a01bf0ed52209fc0137b7f2ac6fa2cd6f8e9c40d485c&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171368/Орбіта_2_версія_isuxig.png"
   },
   {
     "id": "10c7667f-790e-80f2-b2fe-ea7d992ae687",
     "hikkaUrl": "https://hikka.io/anime/overlord-movie-3-sei-oukoku-hen-ef1601",
     "title": "Повелитель: Священне королівство",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ae891175-0d27-447d-b7fb-169df8ee95c6/IMG_20240925_175350_746.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111724Z&X-Amz-Expires=3600&X-Amz-Signature=268700790afa0f2f567231b5b41d21eac42c8b0b7898df8e3bc0f8965afcd71c&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ae891175-0d27-447d-b7fb-169df8ee95c6/IMG_20240925_175350_746.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124110Z&X-Amz-Expires=3600&X-Amz-Signature=185789629d1f7f48a99a35cdedd629bec0b8e04de39ee5df3cccea1b64c39633&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "10c7667f-790e-80c9-a009-f4f8a18b4088",
     "hikkaUrl": "https://hikka.io/anime/mf-ghost-2nd-season-0aeca0",
     "title": "MF Привид 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/9fbd3814-118c-47d8-b760-474d9df547ec/IMG_20240925_175044_480.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111724Z&X-Amz-Expires=3600&X-Amz-Signature=a043ab33fd806626d1e76392e955a5904ec0da2c0cc61eb969ea36a88a41b8c9&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171262/МФ_Привид_2_2_версія_xdylcs.png"
   },
   {
     "id": "10c7667f-790e-803a-b8b0-e30d18a18ef1",
@@ -1134,6 +1164,12 @@
     "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164785/photo_2024-10-17_10-47-54_xdbwwo.jpg"
   },
   {
+    "id": "a2500cd1-c0c2-4478-85a5-669770b39670",
+    "hikkaUrl": "https://hikka.io/anime/watashi-no-shiawase-na-kekkon-watashi-no-shiawase-na-katachi-73dd8a",
+    "title": "Мій щасливий шлюб OVA",
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165743/Мій_щасливий_шлюб_1_версія_homadg.jpg"
+  },
+  {
     "id": "0174badc-b524-444c-b0bd-3fd04dd30c6d",
     "hikkaUrl": "https://hikka.io/anime/kekkon-suru-tte-hontou-desu-ka-40c9ca",
     "title": "Чи правда, що ви одружуєтесь?",
@@ -1161,7 +1197,7 @@
     "id": "bbf02c93-0486-4b73-b1d6-cf7e1630da43",
     "hikkaUrl": "https://hikka.io/anime/garden-of-remembrance-80c91d",
     "title": "Сад спогадів",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e771ace0-676d-472b-afce-d276492df671/%D0%A1%D0%B0%D0%B4_%D1%81%D0%BF%D0%BE%D0%B3%D0%B0%D0%B4%D1%96%D0%B2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111727Z&X-Amz-Expires=3600&X-Amz-Signature=85a6f3eeddb77d60cbc15b2a5a3973593f7e4f9db2380ad07fda7b754db1340b&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e771ace0-676d-472b-afce-d276492df671/%D0%A1%D0%B0%D0%B4_%D1%81%D0%BF%D0%BE%D0%B3%D0%B0%D0%B4%D1%96%D0%B2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124113Z&X-Amz-Expires=3600&X-Amz-Signature=d61e45685115ed0ecfecd8b314412c9b686159a4f99948850292907172e2f4d8&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "2cbbb305-d85f-4326-a5ec-9307a3e058ec",
@@ -1263,7 +1299,7 @@
     "id": "d3ad3594-4f88-49f9-b720-5338dbc75159",
     "hikkaUrl": "https://hikka.io/anime/saikyou-no-shienshoku-wajutsushi-de-aru-ore-wa-sekai-saikyou-clan-wo-shitagaeru-74b1ae",
     "title": "Найвідоміший \"Оратор\" керує найбільшим кланом у світі",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4782f79a-b90e-4f5b-bd07-de959a4edc92/%D0%9D%D0%B0%D0%B9%D0%B2%D1%96%D0%B4%D0%BE%D0%BC%D1%96%D1%88%D0%B8%D0%B9_%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111729Z&X-Amz-Expires=3600&X-Amz-Signature=d801d4d4c365ec0b237b6886138a23e6d9da63eebdef6268b1416d569e8ca10f&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171264/Найвідоміший_оратор_2_версія_ydcwuc.png"
   },
   {
     "id": "a58fa76e-5d47-4037-881f-bf7591defb76",
@@ -1293,7 +1329,7 @@
     "id": "c94e8f0f-5ab3-4588-a273-e872770d0474",
     "hikkaUrl": "https://hikka.io/anime/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su-2nd-season-3ec3dc",
     "title": "Рубіж Шангрі-Ла 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2bb1899b-e11a-4da1-aec1-418e83bc84cf/%D0%A0%D1%83%D0%B1%D1%96%D0%B6_%D0%A8%D0%B0%D0%BD%D0%B3%D1%80%D1%96-%D0%9B%D0%B0._2_%D1%81%D0%B5%D0%B7%D0%BE%D0%BD.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111729Z&X-Amz-Expires=3600&X-Amz-Signature=b172b4285d1384a5da5e5be82cdc5e120f0b18952658e498f54783c1caa4ceab&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2bb1899b-e11a-4da1-aec1-418e83bc84cf/%D0%A0%D1%83%D0%B1%D1%96%D0%B6_%D0%A8%D0%B0%D0%BD%D0%B3%D1%80%D1%96-%D0%9B%D0%B0._2_%D1%81%D0%B5%D0%B7%D0%BE%D0%BD.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124119Z&X-Amz-Expires=3600&X-Amz-Signature=94ff937d1142862bcadf4cdd9547e3174c72fb3104ebecd71e5ed5c69af3ea52&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "b83f8203-5a76-427a-b037-251464ab2943",
@@ -1323,7 +1359,7 @@
     "id": "d91ec594-19c5-49a3-9ad3-241fdb504a5e",
     "hikkaUrl": "https://hikka.io/anime/bocchi-the-rock-movie-159fa5",
     "title": "Самітниця-рокерка! Фільм",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/886a7f14-22d9-4216-8382-7fffa82ed489/%D0%A1%D0%B0%D0%BC%D1%96%D1%82%D0%BD%D0%B8%D1%86%D1%8F-%D1%80%D0%BE%D0%BA%D0%B5%D1%80%D0%BA%D0%B0%21.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111729Z&X-Amz-Expires=3600&X-Amz-Signature=255a66d49674727ecd3ddcf550ad2de63fada6d36952a564f6bac4cf745727e5&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/886a7f14-22d9-4216-8382-7fffa82ed489/%D0%A1%D0%B0%D0%BC%D1%96%D1%82%D0%BD%D0%B8%D1%86%D1%8F-%D1%80%D0%BE%D0%BA%D0%B5%D1%80%D0%BA%D0%B0%21.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124119Z&X-Amz-Expires=3600&X-Amz-Signature=be81e0fbe36417a46e058caba28d2d4e4cfef8456a40b8a4dc66cb3f686bb2ef&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "c8b78999-1f2e-471d-8bb4-e1f5b9ee88dc",
@@ -1347,13 +1383,13 @@
     "id": "61e8bfc6-ba2f-4750-a8d1-dc3c5f9e4e73",
     "hikkaUrl": "https://hikka.io/anime/maougun-saikyou-no-majutsushi-wa-ningen-datta-93ede7",
     "title": "Наймогутніший маг в армії Володаря демонів виявися людиною",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c881c6bd-6c9c-4886-a227-167945861e11/%D0%9D%D0%B0%D0%B9%D1%81%D0%B8%D0%BB%D1%8C%D0%BD%D1%96%D1%88%D0%B8%D0%BC_%D0%BC%D0%B0%D0%B3%D0%BE%D0%BC_%D0%B2_%D0%B0%D1%80%D0%BC%D1%96%D1%97_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0%D1%80%D1%8F_%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D1%96%D0%B2_%D0%B1%D1%83%D0%BB%D0%B0_%D0%BB%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111729Z&X-Amz-Expires=3600&X-Amz-Signature=20a9aa7d1312c35af98eccbee6328569d5471322a66982678cd9238cc8bcf3fd&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171057/Найсильнішим_магом_в_армії_Володаря_демонів_була_людина_up7hbg.png"
   },
   {
     "id": "d9e5fadc-e1ab-4e82-a041-cbb8bc70d53f",
     "hikkaUrl": "https://hikka.io/anime/mahouka-koukou-no-rettousei-zoku-hen-29db29",
     "title": "Непутящий учень школи магії 3",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/07887967-5804-4805-9ed8-e2a03890e191/%D0%9D%D0%B5%D0%BF%D1%83%D1%82%D1%8F%D1%89%D0%B8%D0%B9_%D1%83%D1%87%D0%B5%D0%BD%D1%8C_%D1%88%D0%BA%D0%BE%D0%BB%D0%B8_%D0%BC%D0%B0%D0%B3%D1%96%D1%97_2_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111729Z&X-Amz-Expires=3600&X-Amz-Signature=3cbbb214a51f00be72706a5f6bdab49bfdcd93510916c9b90f82e5bef87b9568&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171072/Непутящий_учень_школи_магії_2_версія_ca8aqm.png"
   },
   {
     "id": "ccddf41d-096a-44ed-90d4-ea45fdb4bf1e",
@@ -1431,13 +1467,13 @@
     "id": "c015ff0f-922d-4d7d-a881-4d2cfb3252b4",
     "hikkaUrl": "https://hikka.io/anime/henjin-no-salad-bowl-3de62a",
     "title": "Салатник диваків",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/f7d8a65b-0b61-4bb2-9f16-bcdc209c6e35/IMG_20240828_191403_335.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111729Z&X-Amz-Expires=3600&X-Amz-Signature=b62d85f0cf77cb8de12542d36344c26a09b566fecd3cc9bace09469632546cdb&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/f7d8a65b-0b61-4bb2-9f16-bcdc209c6e35/IMG_20240828_191403_335.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124119Z&X-Amz-Expires=3600&X-Amz-Signature=93a0cf4bb110c364c6e1ef31002f3edec6075e9f2355bd93e769c12f3bd001be&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "db19b8d6-1383-4279-9590-bd49f83b56f2",
     "hikkaUrl": "https://hikka.io/anime/date-a-live-v-d09c3c",
     "title": "Побачення з життям 5",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/6a5cfa17-d79c-47e9-bed9-67f70a438236/%D0%9F%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B7_%D0%B6%D0%B8%D1%82%D1%82%D1%8F%D0%BC_5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111729Z&X-Amz-Expires=3600&X-Amz-Signature=fb6077dfadd154bb4b3e6099379881de445c0cfe0c0a297757c1da15728db659&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164970/photo_2024-10-16_11-34-10_zrjr5y.jpg"
   },
   {
     "id": "35b105d3-d77f-4d2e-81ac-4cc9fc64affa",
@@ -1473,7 +1509,7 @@
     "id": "f8a76f7d-d608-4e19-9d30-4ae750c33a48",
     "hikkaUrl": "https://hikka.io/anime/momochi-san-chi-no-ayakashi-ouji-f4419c",
     "title": "Принц-демон з дому Момочі",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/dc80a9c8-3448-4232-9d12-464ed9a971ec/%D0%9F%D1%80%D0%B8%D0%BD%D1%86-%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD_%D0%9C%D0%BE%D0%BC%D0%BE%D1%87%D1%96.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111729Z&X-Amz-Expires=3600&X-Amz-Signature=cfa2fc3fdcb5e43b4126a6e4d913248b8658ac590af7358142401f7415cca5b8&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170814/Принц-демон_Момочі_pvjbhr.png"
   },
   {
     "id": "e9757192-0a77-440d-8b60-f057de1d2579",
@@ -1557,7 +1593,7 @@
     "id": "805ba528-10d3-440f-9615-d667ef00251d",
     "hikkaUrl": "https://hikka.io/anime/sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga-354190",
     "title": "Моя здібність миттєвої смерті настільки сильна, що ніхто в іншому світі не має шансу проти мене!",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7098825f-a1e9-459c-8599-2601935ea588/%D0%9C%D0%BE%D1%8F_%D0%B7%D0%B4%D1%96%D0%B1%D0%BD%D1%96%D1%81%D1%82%D1%8C_%D0%BC%D0%B8%D1%82%D1%82%D1%94%D0%B2%D0%BE%D1%97_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=553d021e2bc21f80d3d529e2fe8ab9952ce0a9aeac04cfafb287f99bf0bee24e&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170380/Моя_здібність_миттєвої_смерті_2_версія_ndbzup.png"
   },
   {
     "id": "b955d85d-cd29-460a-93a7-f40e65bcc115",
@@ -1575,7 +1611,7 @@
     "id": "326062a4-ef8c-4567-8921-749dd64d2260",
     "hikkaUrl": "https://hikka.io/anime/ishura-9e1cf5",
     "title": "Ішюра",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e1b8aa41-f2a2-4dca-aead-23249f1499d0/%D0%86%D1%88%D1%8E%D1%80%D0%B0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=b65f4d56d4db700674e332248ef26830d091a50a10d904e0b035f7db972d93bd&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e1b8aa41-f2a2-4dca-aead-23249f1499d0/%D0%86%D1%88%D1%8E%D1%80%D0%B0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124127Z&X-Amz-Expires=3600&X-Amz-Signature=eda17333598afce7c180effe663f5c20ff148d366216af9d2127d3825f65f1bb&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "87beb794-6976-48d2-aefe-e3fb74132b40",
@@ -1593,7 +1629,7 @@
     "id": "7d2be531-adf4-4e93-92d0-b1de7b4a4882",
     "hikkaUrl": "https://hikka.io/anime/mf-ghost-e5d405",
     "title": "MF Привид",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c3d6c496-1ac6-4141-afd1-0eace0e00ffa/%D0%9C%D0%A4_%D0%9F%D1%80%D0%B8%D0%B2%D0%B8%D0%B4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=494b6e979f4592ea5e88658d81f8a422288ffb1caa2a4c817002c3f54126c10f&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171134/МФ_Привид_f0jnvj.png"
   },
   {
     "id": "6620f36a-f9ea-4f31-b201-6f0708b6ed39",
@@ -1626,16 +1662,10 @@
     "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165005/photo_2024-10-16_11-35-31_vb0cw8.jpg"
   },
   {
-    "id": "957737f4-1825-4823-b11a-1cdecbe95dee",
-    "hikkaUrl": "https://hikka.io/anime/bokura-no-ameiro-protocol-00ace4",
-    "title": "Наш дощовий протокол",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5a11f800-289c-4058-91f8-c2dee891df9d/%D0%9D%D0%B0%D1%88_%D0%B4%D0%BE%D1%89%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=f85d7415b670c4b795ac216b038a5363223a800d660682cc30e826dad42f41a6&X-Amz-SignedHeaders=host&x-id=GetObject"
-  },
-  {
     "id": "4ee2c501-3897-4cbc-8856-a5a4e55269a4",
     "hikkaUrl": "https://hikka.io/anime/buta-no-liver-wa-kanetsu-shiro-9032ee",
     "title": "Не їж сиру печінку, бо перетворишся на свинку",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/67fc47ec-6c3d-49bf-a3a9-af78a6542605/%D0%A1%D0%B2%D0%B8%D0%BD%D0%B8%D0%BD%D0%B0_%282_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=2881d0b85505cc4d71ea7b6fe967a62305278027c4f497f83780d12848de4ae2&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/67fc47ec-6c3d-49bf-a3a9-af78a6542605/%D0%A1%D0%B2%D0%B8%D0%BD%D0%B8%D0%BD%D0%B0_%282_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124127Z&X-Amz-Expires=3600&X-Amz-Signature=0c62e7cafe69f9b92d97d3450c9f705243cd5543b6f8a9682793fb5ac29962c8&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "0bc1a4c9-15e7-4d56-9943-cbde8b8b6267",
@@ -1665,25 +1695,25 @@
     "id": "153740a2-34cc-4185-b5a4-4ae545bf2d83",
     "hikkaUrl": "https://hikka.io/anime/biohazard-death-island-482f1a",
     "title": "Оселя зла: Острів смерті",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/edea8dfb-9c80-4a61-a067-948965c3acfd/%D0%9E%D1%81%D0%B5%D0%BB%D1%8F_%D0%B7%D0%BB%D0%B0_%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96_1_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=6ef8aaecdf5c76cc1eedd25ed02191d30ab1b1d6d75dfe4c14e9523392ad1a1f&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729168430/Оселя_зла_Острів_смерті_1_версія_fi2fr8.jpg"
   },
   {
     "id": "e6ed4369-8af1-431d-bbc5-fe8311aeda48",
     "hikkaUrl": "https://hikka.io/anime/under-ninja-2892c3",
     "title": "Нінджя під прикриттям",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/d4dc07df-4ab1-4122-aadc-26bde30e5ec4/%D0%9D%D0%B5%D0%BF%D0%BE%D0%B2%D0%BD%D0%BE%D1%86%D1%96%D0%BD%D0%BD%D0%B8%D0%B9_%D0%BD%D1%96%D0%BD%D0%B4%D0%B6%D1%8F.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=25e51f4057e2d8b7bf7cb84ce44a5bd0989cd60a47e7f2b89c802d0cfc518704&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170335/Неповноцінний_нінджя_vmtmki.png"
   },
   {
     "id": "dd3d3fcf-4419-4eeb-a2bd-152bdc89d68b",
     "hikkaUrl": "https://hikka.io/anime/kibou-no-chikara-otona-precure-23-f52eef",
     "title": "Гарненькі ліки: Зрілі - Сила надії",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ebea9c7d-87cb-448b-9fa0-133e27e202f0/%D0%A1%D0%B8%D0%BB%D0%B0_%D0%BD%D0%B0%D0%B4%D1%96%D1%97_%283_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=a5ac8b3dd9f74ee78ffc143da188502306bb44cdb72d6c79e9524420f15250d8&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ebea9c7d-87cb-448b-9fa0-133e27e202f0/%D0%A1%D0%B8%D0%BB%D0%B0_%D0%BD%D0%B0%D0%B4%D1%96%D1%97_%283_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124127Z&X-Amz-Expires=3600&X-Amz-Signature=fed1a9ce5e79b29d7ba62d1442824c9b6327fe4ac9312adb4dbbbe0c7e08531b&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "e15029d2-8d6c-4e43-b930-dd423d93c39e",
     "hikkaUrl": "https://hikka.io/anime/city-hunter-movie-tenshi-no-namida-15b7a9",
     "title": "Міський мисливець: Ангельський пил",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/71595ae2-662e-471a-80b9-2a2308e3b0ef/%D0%9C%D1%96%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D0%B5%D1%86%D1%8C.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=2b45b16c654cc1a773f20327b6f5600232654fb282e3f9636509bd48cb0f78c5&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729167762/Міський_мисливець_powah9.jpg"
   },
   {
     "id": "aedbc928-5aba-4e00-8baf-5fdd311a7f0f",
@@ -1701,13 +1731,13 @@
     "id": "97b4ff17-b097-45e6-ab74-33f8414e27e5",
     "hikkaUrl": "https://hikka.io/anime/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii-part-2-4a3253",
     "title": "Невизнаний в академії Короля Демонів 2 ч.2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/93c8080c-3ba9-46c7-8c47-640385b9e782/%D0%9D%D0%B5%D0%B2%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%94%D1%8E%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C%D0%94%D0%B5%D0%BC%D0%BE%D0%BD%D1%96%D0%B2_2%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=d9fa90e3c465a005abeda37b1809fed445311afd6eeb1efd1ef2aad9cbc65bc7&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170943/НевизнанийАкадемієюКорольДемонів_2Сезон_версія3_f6tihz.png"
   },
   {
     "id": "b30004d2-fb20-4f22-a014-988975743d90",
     "hikkaUrl": "https://hikka.io/anime/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii-e14876",
     "title": "Невизнаний в академії Короля Демонів 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2c0c7bef-f9dd-408b-9fcd-81e4a7260189/%D0%9D%D0%B5%D0%B2%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%94%D1%8E%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C%D0%94%D0%B5%D0%BC%D0%BE%D0%BD%D1%96%D0%B2_2%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=9cf617f84ecbb7c4dd524b233292b6a9e2f67ca12ccefb3a23665229db2027b6&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729167129/НевизнанийАкадемієюКорольДемонів_2Сезон_1_xsiu55.jpg"
   },
   {
     "id": "a7a67ca7-37dc-451f-a929-17f415338aa8",
@@ -1731,7 +1761,7 @@
     "id": "1a0799ee-529f-42a5-b1b8-a5835fbd89ad",
     "hikkaUrl": "https://hikka.io/anime/the-idolmster-million-live-7994c5",
     "title": "Ідолмайстер: Концерт на мільйон!",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/81a308a2-e11c-4ccd-9ad3-8a0814fff1b6/%D1%96%D0%94%D0%BE%D0%BB%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80_%282_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=9cc19d05f1a7009b57cbd104b042e0b08198a0bf26768c2d2898e8f8269afa93&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/81a308a2-e11c-4ccd-9ad3-8a0814fff1b6/%D1%96%D0%94%D0%BE%D0%BB%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80_%282_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124127Z&X-Amz-Expires=3600&X-Amz-Signature=a798245dc011d7b5010bc99b1d1285766a4172d2a6fda870f645034cb7d3191b&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "00942897-f4f9-4104-8391-5804196069b7",
@@ -1749,7 +1779,7 @@
     "id": "d4dca83c-fd38-4958-9cec-f7770e65530e",
     "hikkaUrl": "https://hikka.io/anime/masamune-kun-no-revenge-r-c7e4d0",
     "title": "Помста Масамуне 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5cfada1c-3871-4508-858f-e103a5c68655/%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0_%D0%9C%D0%B0%D1%81%D0%B0%D0%BC%D1%83%D0%BD%D0%B5_R_%282_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=5764e2159767172cc96e9cf4c80efd7c3d015ffcf539795f5a892257cd9ba220&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164929/photo_2024-10-16_11-33-16_fkl2kz.jpg"
   },
   {
     "id": "ce35c4a4-8967-46f4-9a85-0c7bdd4218cb",
@@ -1761,7 +1791,7 @@
     "id": "2fee6be3-027d-4af5-a59a-2fa527f11bd3",
     "hikkaUrl": "https://hikka.io/anime/synduality-noir-8d84e8",
     "title": "Синдуальність: Нуар",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4b66f081-18ee-4a4b-a855-165c46cb9598/%D0%A1%D0%B8%D0%BD%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C%D0%9D%D1%83%D0%B0%D1%80.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111730Z&X-Amz-Expires=3600&X-Amz-Signature=319fe83fe37c09cc442eba5ba5dd685181637827c24c0d39e3f15bc0bb1233b6&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4b66f081-18ee-4a4b-a855-165c46cb9598/%D0%A1%D0%B8%D0%BD%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C%D0%9D%D1%83%D0%B0%D1%80.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124127Z&X-Amz-Expires=3600&X-Amz-Signature=259095746bcd6923b7ad78755f06ce82d2a1f29664ac9cfcd71e8346b7e88891&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1bf07f9e-7944-47d1-9f55-d9e68d8613fe",
@@ -1803,7 +1833,7 @@
     "id": "d6a6584b-1f46-4142-9f13-5b446a33640f",
     "hikkaUrl": "https://hikka.io/anime/mushoku-tensei-isekai-ittara-honki-dasu-part-2-250c31",
     "title": "Реінкарнація безробітного: В інший світ на повному серйозі ч.2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0dce628f-f744-4a57-b052-d259f4100dfe/%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B5%D0%B7%D1%80%D0%BE%D0%B1%D1%96%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_1.4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111733Z&X-Amz-Expires=3600&X-Amz-Signature=c03d9554c85da00d0b271c0b57909f80bdf644ec01cff0e25b93e39f34a2e84d&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0dce628f-f744-4a57-b052-d259f4100dfe/%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B5%D0%B7%D1%80%D0%BE%D0%B1%D1%96%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_1.4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124130Z&X-Amz-Expires=3600&X-Amz-Signature=8c4b57fd0888315ba61bc0869f246338578b66638fe16301ba6c779ce2b78ad3&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "224d1747-1c70-451a-a4bf-49cc734b218a",
@@ -1857,7 +1887,7 @@
     "id": "1e1e77a9-cf54-4987-bee1-168598471373",
     "hikkaUrl": "https://hikka.io/anime/yumemiru-danshi-wa-genjitsushugisha-4ec7e4",
     "title": "Мрійливий хлопець - реаліст",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a339bc53-90d8-4201-b826-eb4977be331d/%D0%9C%D1%80%D1%96%D0%B9%D0%BD%D0%B8%D0%BA-%D1%80%D0%B5%D0%B0%D0%BB%D1%96%D1%81%D1%82.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111733Z&X-Amz-Expires=3600&X-Amz-Signature=bb6027d2d971f29f54fbe2a4a0c7f7346cf7ecce476e7b5108b711d5eab376cf&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164987/photo_2024-10-16_11-34-27_brnf67.jpg"
   },
   {
     "id": "dcf016e8-6c09-4028-8b5e-ca05b40657ef",
@@ -1905,7 +1935,7 @@
     "id": "ac5e325c-740a-4e47-b8e0-94f06402158f",
     "hikkaUrl": "https://hikka.io/anime/yamada-kun-to-lv999-no-koi-wo-suru-5955d4",
     "title": "Моя любов 999 рівня до Ямади-куна",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/98fc7dcd-ac18-4ec3-b565-a28a87afcdcf/%D0%86%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%BC%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%85%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B4%D0%BE_%D0%AF%D0%BC%D0%B0%D0%B4%D0%B8_%D0%BD%D0%B0_999_%D1%80%D1%96%D0%B2%D0%BD%D1%96.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111734Z&X-Amz-Expires=3600&X-Amz-Signature=2e35eb23f5b916148017dd1f9f15a83590d6a82bc55c8fafb10d0a13b693cb53&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/98fc7dcd-ac18-4ec3-b565-a28a87afcdcf/%D0%86%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%BC%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%85%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B4%D0%BE_%D0%AF%D0%BC%D0%B0%D0%B4%D0%B8_%D0%BD%D0%B0_999_%D1%80%D1%96%D0%B2%D0%BD%D1%96.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124133Z&X-Amz-Expires=3600&X-Amz-Signature=015b11e21bef86a79205e29ca27a13130303c292dad45bc1a60b699ec4a58bfe&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "8812f3a5-ef80-4f28-a861-46d8beb36526",
@@ -2151,7 +2181,7 @@
     "id": "1c4a6bcc-9da8-46e9-8b35-43a29b79b8b3",
     "hikkaUrl": "https://hikka.io/anime/the-animatrix-e9a83e",
     "title": "Аніматриця",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/d7059b9e-1bd4-4ab0-bbd2-5dcb2e9dc03b/IMG_20240925_200532.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111737Z&X-Amz-Expires=3600&X-Amz-Signature=37e60ddce32a45a86dc30f17a0bf0463d7e5d905e3c13ba0492103c7aa3e03d8&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/d7059b9e-1bd4-4ab0-bbd2-5dcb2e9dc03b/IMG_20240925_200532.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124141Z&X-Amz-Expires=3600&X-Amz-Signature=1f10a600a1d65245efffdc2491ef0cfdf78ba35233b96ed284b5347727dd4e14&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "bc650e0b-0aca-49b6-bc65-6dc5c0c961e3",
@@ -2193,7 +2223,7 @@
     "id": "640f94de-611e-4111-a05b-3a7b32d5d650",
     "hikkaUrl": "https://hikka.io/anime/tensei-kizoku-no-isekai-boukenroku-jichou-wo-shiranai-kamigami-no-shito-6f9b9d",
     "title": "Пригоди аристократа в іншому світі",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/67b167a1-e49d-4108-ab6f-8f58145f98fc/%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B8_%D1%88%D0%BB%D1%8F%D1%85%D0%B5%D1%82%D0%BD%D0%BE%D0%B3%D0%BE.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111737Z&X-Amz-Expires=3600&X-Amz-Signature=e4abdf3362744dcfafa34f55adc7af0dd2b9b1832c2100852ae5ee0bd08ceb57&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165717/Пригоди_шляхетного_fxnfr2.jpg"
   },
   {
     "id": "5bdc2e00-fbf7-4133-8b56-fd92125e6d4c",
@@ -2217,7 +2247,7 @@
     "id": "31d2f8fc-baa9-4874-9316-c6f132f031f5",
     "hikkaUrl": "https://hikka.io/anime/tate-no-yuusha-no-nariagari-f4fd3c",
     "title": "Сходження Героя щита",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e7140e8a-622f-4c32-b070-ccaf5807bba2/IMG_20241015_170755_962.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111737Z&X-Amz-Expires=3600&X-Amz-Signature=a50642d70e1ec4f59baae1e8bc1c7b96661e8f325872e5e392f855c979919c43&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e7140e8a-622f-4c32-b070-ccaf5807bba2/IMG_20241015_170755_962.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124141Z&X-Amz-Expires=3600&X-Amz-Signature=6a27bd9ba4c5042acf9f6e117c5ed34c62e685b1353115410bf8c92846cbe4a5&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "58098d40-d219-459d-bfe1-2e9786ecc098",
@@ -2247,7 +2277,7 @@
     "id": "66729afc-56c3-40d6-8e43-bfc84202c7e1",
     "hikkaUrl": "https://hikka.io/anime/ged-senki-ce2a0f",
     "title": "Хроніки Геда",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/06742ccb-fb2a-460b-b8b4-7f06de7687c9/IMG_20241005_213034.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111737Z&X-Amz-Expires=3600&X-Amz-Signature=5ace3003bc396219e45a92687d64355af7cbc7f1cfa6a89bf6a9863203b16858&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/06742ccb-fb2a-460b-b8b4-7f06de7687c9/IMG_20241005_213034.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124141Z&X-Amz-Expires=3600&X-Amz-Signature=5c7a9ad280c1390c7ac9ce4d421b3cc070f77933b79844042287e6c86cf440ec&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "45a3c89b-326e-483c-bc4b-c20710f96cd9",
@@ -2265,7 +2295,7 @@
     "id": "3af79d57-727a-4cee-953b-fb0cefad395a",
     "hikkaUrl": "https://hikka.io/anime/sword-art-online-alicization-war-of-underworld-abaccd",
     "title": "Мистецтво Меча Онлайн: Алісізація - Війна за Підсвіт",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7e7d2b3a-5ff7-4dbb-b9aa-437b6d53366b/%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BC%D0%B5%D1%87%D0%B0_%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD_4.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111737Z&X-Amz-Expires=3600&X-Amz-Signature=c13e29d326f3fb28b64351c69fdf02994a9ee6b2c4db4427f1ea1c630bb726a3&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7e7d2b3a-5ff7-4dbb-b9aa-437b6d53366b/%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BC%D0%B5%D1%87%D0%B0_%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD_4.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124142Z&X-Amz-Expires=3600&X-Amz-Signature=9666a5d4746bbe26409809dfb01ad496af96c2aefe523a3e30c71a378218a624&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "3cbdf8e2-85ba-4e75-91f2-3b061580c7a0",
@@ -2283,7 +2313,7 @@
     "id": "248c40a0-f21c-468e-ad91-d6254ef4d7c0",
     "hikkaUrl": "https://hikka.io/anime/sword-art-online-456975",
     "title": "Мистецтво Меча Онлайн",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/62687163-5759-4f3a-8d34-753ed91bd4f9/%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BC%D0%B5%D1%87%D0%B0_%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111737Z&X-Amz-Expires=3600&X-Amz-Signature=0cf57f146b4c632239aa856c36e8927f975c66faa2391b776fc05fbf3d66261b&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/62687163-5759-4f3a-8d34-753ed91bd4f9/%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BC%D0%B5%D1%87%D0%B0_%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124142Z&X-Amz-Expires=3600&X-Amz-Signature=0d21b03d2149c21a94aa2bbe3bd0d8d0451703e62b92b9a8fefbbe03612cdb61&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "274e708c-b7cd-4cdd-982b-94e9b5df01cb",
@@ -2343,13 +2373,13 @@
     "id": "6bd876f4-238d-47cc-9a73-ba41a2bc12c3",
     "hikkaUrl": "https://hikka.io/anime/spy-x-family-movie-code-white-6805e5",
     "title": "Сім'я шпигуна: Код Білий",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/74c8b0f2-47f1-4108-b2c3-f8d67fab324a/%D0%A1%D1%96%D0%BC%D1%8F_%D1%88%D0%BF%D0%B8%D0%B3%D1%83%D0%BD%D0%B0._%D0%9A%D0%BE%D0%B4_-_%D0%91%D1%96%D0%BB%D0%B8%D0%B9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111737Z&X-Amz-Expires=3600&X-Amz-Signature=bfda65b3e4c9434a5446062a1f358905a5172d28e69f991a3797aad90d1964e9&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/74c8b0f2-47f1-4108-b2c3-f8d67fab324a/%D0%A1%D1%96%D0%BC%D1%8F_%D1%88%D0%BF%D0%B8%D0%B3%D1%83%D0%BD%D0%B0._%D0%9A%D0%BE%D0%B4_-_%D0%91%D1%96%D0%BB%D0%B8%D0%B9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124142Z&X-Amz-Expires=3600&X-Amz-Signature=eb1411d4aa7208cb992dfb8f01172e4b9f52efe22e45017f8454a7ceeac6b7c0&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "a747aec8-42f0-49b6-958e-615834f80003",
     "hikkaUrl": "https://hikka.io/anime/spy-kyoushitsu-2nd-season-df2f2e",
     "title": "Шпигунський клас 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5083aae0-b32e-4a7b-8b47-d4c972f88986/IMG_20241017_183528_338.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111737Z&X-Amz-Expires=3600&X-Amz-Signature=ed6ef8d298df186570216d8aeb3fb4f27a04182bb408c5a4e599f2a8f38a4026&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5083aae0-b32e-4a7b-8b47-d4c972f88986/IMG_20241017_183528_338.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124142Z&X-Amz-Expires=3600&X-Amz-Signature=11d32c4a90ea8952d72d6fdfb041f6ab4c372cfc69ed93b4b084872524a2f06d&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "30b0a9a2-83bd-47b3-b09c-f7d10481feb3",
@@ -2517,7 +2547,7 @@
     "id": "9dfa9e0e-04e3-4a29-8fca-d552be4c4715",
     "hikkaUrl": "https://hikka.io/anime/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru-c5c87c",
     "title": "Найкращий у світі вбивця перероджується в іншому світі як аристократ",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/ad55a7c0-aede-4ba9-8cad-c4386e762498/%D0%9D%D0%B0%D0%B9%D0%BA%D1%80%D0%B0%D1%89%D0%B8%D0%B9_%D0%B2%D0%B1%D0%B8%D0%B2%D1%86%D1%8F_%D0%B2_%D1%81%D0%B2%D1%96%D1%82%D1%96.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111740Z&X-Amz-Expires=3600&X-Amz-Signature=219518625485e389d4b87de8db2abad83b0a1d539900ab4848586a361e37f670&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170378/Найкращий_вбивця_в_світі_bnzdel.png"
   },
   {
     "id": "4680031d-65b9-4026-ae59-334c8de32d21",
@@ -2565,7 +2595,7 @@
     "id": "b6f0f374-0870-4a53-b7ab-55f55149a37c",
     "hikkaUrl": "https://hikka.io/anime/sasaki-to-miyano-movie-sotsugyou-hen-03acde",
     "title": "Сасакі та Міяно: Випускний",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a648d54e-544f-4ad3-9e35-617330a82bab/%D1%81%D0%B0%D1%81%D0%B0%D0%BA%D1%96_%D1%82%D0%B0_%D0%BC%D1%96%D1%8F%D0%BD%D0%BE_%D1%84%D1%96%D0%BB%D1%8C%D0%BC_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111741Z&X-Amz-Expires=3600&X-Amz-Signature=ce6475362dce2471c0655f5aa739cf1409cce40b0e9db3d2e9c4151fd9846511&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a648d54e-544f-4ad3-9e35-617330a82bab/%D1%81%D0%B0%D1%81%D0%B0%D0%BA%D1%96_%D1%82%D0%B0_%D0%BC%D1%96%D1%8F%D0%BD%D0%BE_%D1%84%D1%96%D0%BB%D1%8C%D0%BC_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124148Z&X-Amz-Expires=3600&X-Amz-Signature=85320e662d484c23ab7d2c71bac152bd1b6197aaf3e57cc95062c9392ffe27ca&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "816c21d0-af8f-4355-975e-67219832d585",
@@ -2643,13 +2673,13 @@
     "id": "ccf3a751-c7b1-45cf-a6a0-deda3118b9b1",
     "hikkaUrl": "https://hikka.io/anime/saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita-e6e072",
     "title": "Найслабша приборкувачка вирушила в подорож збирання сміття",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69647b11-be78-4440-89e8-142d1def5155/%D0%9D%D0%B0%D0%B9%D1%81%D0%BB%D0%B0%D0%B1%D1%88%D0%B0_%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%BA%D1%83%D0%B2%D0%B0%D1%87%D0%BA%D0%B0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111741Z&X-Amz-Expires=3600&X-Amz-Signature=82c4b626ec7b0b49b294ce3169d78e3560226f1eb906f285b1f585673e3f7e18&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170171/Найслабша_приборкувачка_kmtolw.jpg"
   },
   {
     "id": "2644a3aa-60fb-4b81-8afc-dbb470828d5e",
     "hikkaUrl": "https://hikka.io/anime/saihate-no-paladin-tetsusabi-no-yama-no-ou-419c90",
     "title": "Паладин з далекого краю: Король іржавих гір",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4c5700a0-9bcf-4eb9-a09d-cb79e4d36b07/%D0%9F%D0%B0%D0%BB%D0%B0%D0%B4%D0%B8%D0%BD_%D0%B7_%D0%B4%D0%B0%D0%BB%D0%B5%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%B0%D1%8E_2_%D1%81%D0%B5%D0%B7%D0%BE%D0%BD_2_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111741Z&X-Amz-Expires=3600&X-Amz-Signature=e756206b3fad429bc0b2b3f842b87785de6b9f5d80c0492652472fe72baa822b&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729168520/Паладин_з_далекого_краю_2_сезон_2_версія_nsle9m.jpg"
   },
   {
     "id": "20f9e218-e8b4-4dbd-b279-fe4576b062e0",
@@ -2721,13 +2751,13 @@
     "id": "8063391d-a329-4cb3-8e12-984872dfa177",
     "hikkaUrl": "https://hikka.io/anime/relife-kanketsu-hen-88be4c",
     "title": "Рілайф: Фінальний розділ",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4e4b0802-9a7d-46ef-b4b8-59e1d70276f1/%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%BD%D0%B5_%D0%B6%D0%B8%D1%82%D1%82%D1%8F_1.2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111742Z&X-Amz-Expires=3600&X-Amz-Signature=548eca8b62894c7776d3e6b04ff7d6f826efde32f987e244d4bb2c1bd8751d92&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163321/повторне_життя_1.2_hlakkf.jpg"
   },
   {
     "id": "a70c330c-18db-42aa-bd3d-1e3f9315560a",
     "hikkaUrl": "https://hikka.io/anime/relife-b2a3c8",
     "title": "Рілайф",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/694cb955-7797-4317-b415-c13212986c64/%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%BD%D0%B5_%D0%B6%D0%B8%D1%82%D1%82%D1%8F_1.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111742Z&X-Amz-Expires=3600&X-Amz-Signature=40b51ed34d2e27ec7b0d6fc0c8de3fedb71b3d0d4656c65435e7238ca8cfc4c5&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://posters.hurtom.com/albums/anime/r-laif.jpg"
   },
   {
     "id": "04db2eac-ae6b-47d6-842f-bbf9777a6552",
@@ -2835,7 +2865,7 @@
     "id": "8e2f7a01-6805-4a7b-a076-a9424fe129a8",
     "hikkaUrl": "https://hikka.io/anime/paradox-live-the-animation-fc1a3a",
     "title": "Вітаємо у Paradox Live",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e75f3a7b-0afa-47fc-b599-549038df52ab/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%BE%D0%BA%D1%81_%D0%9D%D0%B0%D0%B6%D0%B8%D0%B2%D0%BE_%281_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111745Z&X-Amz-Expires=3600&X-Amz-Signature=71391903138410439304ce7eec5694096648ce7b75ea1792cc09dc3a7293ef61&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729167128/Парадокс_Наживо_1_версія_csiwff.jpg"
   },
   {
     "id": "2bf704ee-2200-4005-b3c0-9f9cd7799b40",
@@ -2865,13 +2895,13 @@
     "id": "c4728914-5220-493d-bc69-cc7b732bd337",
     "hikkaUrl": "https://hikka.io/anime/overtake-0ce9bf",
     "title": "Обганяй!",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/03ce1e8a-9857-44b8-8381-62adfc428718/%D0%9E%D0%B1%D0%B3%D1%96%D0%BD%21_%283_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111745Z&X-Amz-Expires=3600&X-Amz-Signature=4347ed2f26fd25ef1865265d7a4c4ae81981415997b784bd6cd6fed3a3daa51d&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165078/photo_2024-10-16_11-35-22_qh5x6s.jpg"
   },
   {
     "id": "9b109738-3db9-487e-85ae-90f44b6dccce",
     "hikkaUrl": "https://hikka.io/anime/overlord-iv-da2006",
     "title": "Повелитель 4",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0ef3daa8-3b0b-4ddb-97d7-d718e8481092/%D0%BF%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_4.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111745Z&X-Amz-Expires=3600&X-Amz-Signature=92242f7685507be29b881fae5c414f27d5a6dd975a25d7bfb360bdfa3a775ad6&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0ef3daa8-3b0b-4ddb-97d7-d718e8481092/%D0%BF%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_4.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124153Z&X-Amz-Expires=3600&X-Amz-Signature=528dcd93706e786e1c82dc474e481a8497784ba32c1f93d3320fd7641363f39b&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "3f3d7101-08ce-442e-862f-9061a62244a8",
@@ -2889,7 +2919,7 @@
     "id": "e96b6866-c11c-4405-93b7-95478c19014f",
     "hikkaUrl": "https://hikka.io/anime/overlord-8c889a",
     "title": "Повелитель",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/416fffe4-e1b1-44d6-90d3-d9b6c7f3d5b5/%D0%BF%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111746Z&X-Amz-Expires=3600&X-Amz-Signature=67ac77a7ba8fd2c2e82e3a6d2650b208ea0d3183d045c4f6b4b25d37b8ae3542&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/416fffe4-e1b1-44d6-90d3-d9b6c7f3d5b5/%D0%BF%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124153Z&X-Amz-Expires=3600&X-Amz-Signature=a58f242e154f29521162bfb72b754f34f25357c9c18e91b8d1405780692790b3&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1da85c0e-2d6f-4616-b218-b82e91dc5966",
@@ -2991,7 +3021,7 @@
     "id": "970fa3cd-c50b-41f0-9051-2e1b7fca3251",
     "hikkaUrl": "https://hikka.io/anime/nozomanu-fushi-no-boukensha-7c5e16",
     "title": "Небажано немертвий шукач пригод",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/97bc7b71-2049-406b-9d87-035ad3707a52/%D0%9D%D0%B5%D0%B1%D0%B0%D0%B6%D0%B0%D0%BD%D0%BE_%D0%B1%D0%B5%D0%B7%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%BD%D0%B8%D0%B9_%D0%B0%D0%B2%D0%B0%D0%BD%D1%82%D1%8E%D1%80%D0%B8%D1%81%D1%82.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111749Z&X-Amz-Expires=3600&X-Amz-Signature=82dae421bf3ba4f7207ca78cd4b1e69969d5a1848233b2f2c1d8969010ec9ad1&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170793/Небажано_безсмертний_авантюрист_2_версія_hkvvc7.png"
   },
   {
     "id": "b615098b-7857-4ddd-bd6a-cd315530c387",
@@ -3015,7 +3045,7 @@
     "id": "ef69310f-db03-4487-aebe-ec0f11b74abe",
     "hikkaUrl": "https://hikka.io/anime/no-game-no-life-90530e",
     "title": "Без гри нема життя",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/dd2140a0-62d1-4dc4-8cde-1507e2187be5/%D0%BD%D0%B5%D0%BC%D0%B0_%D0%B3%D1%80%D0%B8_%D0%BD%D0%B5%D0%BC%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111749Z&X-Amz-Expires=3600&X-Amz-Signature=05e8d853e04c4d47d9ea3a09fb41901c6485fd7767d0ca06080925076f0905e6&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729632731/NoGameNoLife_uhhi64.png"
   },
   {
     "id": "227624b9-4a17-463f-873a-b7f3a992dfc2",
@@ -3105,7 +3135,7 @@
     "id": "15f424dd-055f-4742-b6da-d1c05493a7fc",
     "hikkaUrl": "https://hikka.io/anime/nanatsu-no-maken-ga-shihai-suru-ca0a00",
     "title": "Панування семи магічних мечів",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/d613f9eb-f9b2-4abd-88f6-b8f671aa5e9c/%D0%9F%D1%80%D0%B0%D0%B2%D0%BB%D1%96%D0%BD%D0%BD%D1%8F_%D1%81%D0%B5%D0%BC%D0%B8_%D0%BC%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B8%D1%85_%D0%BA%D0%BB%D0%B8%D0%BD%D0%BA%D1%96%D0%B2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111752Z&X-Amz-Expires=3600&X-Amz-Signature=9b5d34d14f5c2fd4bf63eb25d2bfc0d90b54070f5e05f7cb9e6f42723e3b1b6d&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729166240/Правління_семи_магічних_клинків_2_версія_hkher3.jpg"
   },
   {
     "id": "f42b94cf-10bd-4a09-a57e-71e814988b1f",
@@ -3141,13 +3171,13 @@
     "id": "2f626ed0-2dc1-4378-bb5b-341a275b445d",
     "hikkaUrl": "https://hikka.io/anime/mushoku-tensei-isekai-ittara-honki-dasu-f59186",
     "title": "Реінкарнація безробітного: В інший світ на повному серйозі",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0f995ead-7211-4082-90c3-8e4d9cf2419a/%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B5%D0%B7%D1%80%D0%BE%D0%B1%D1%96%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_1.3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111752Z&X-Amz-Expires=3600&X-Amz-Signature=e89a13900576dfedf17003cb5098ef9e45d58cb0f888cdc38b9c3934451da4b6&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0f995ead-7211-4082-90c3-8e4d9cf2419a/%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B5%D0%B7%D1%80%D0%BE%D0%B1%D1%96%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_1.3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124156Z&X-Amz-Expires=3600&X-Amz-Signature=2f83cf2f714e6d44a4bdd22f391d2d5212e417d8b8597954fff87960ed9dfc02&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "551f1de4-1b5e-48f0-9f77-dab7307df072",
     "hikkaUrl": "https://hikka.io/anime/mushoku-tensei-ii-isekai-ittara-honki-dasu-part-2-caaf77",
     "title": "Реінкарнація безробітного: В інший світ на повному серйозі - 2 сезон, 2 частина",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/36ce9843-5f72-4912-a6b9-4e20bc6fe0af/IMG_20241008_235450_900.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111752Z&X-Amz-Expires=3600&X-Amz-Signature=ade681242fc67a27d4b597ffdeab59f9437a4beb2941afd749beb596dac52d7c&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/36ce9843-5f72-4912-a6b9-4e20bc6fe0af/IMG_20241008_235450_900.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124156Z&X-Amz-Expires=3600&X-Amz-Signature=6aec746b241b8fc91cd3f63f70462abaee3fa83fe82c5a4acf29387bb78db7ba&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "4e9fceb7-db41-4d2f-8277-faf863387458",
@@ -3237,7 +3267,7 @@
     "id": "c96f5129-0d87-45aa-ad25-eb853f28c58a",
     "hikkaUrl": "https://hikka.io/anime/megumi-no-daigo-kyuukoku-no-orange-a18bc2",
     "title": "Пожежник Дайґо - Помаранчевий рятувальник",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/648918ab-d4cc-4396-96d9-04f19d1299b8/%D0%9F%D0%BE%D0%B6%D0%B5%D0%B6%D0%BD%D0%B8%D0%B9_%D0%94%D0%B0%D0%B9%D0%B3%D0%BE_%282_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111753Z&X-Amz-Expires=3600&X-Amz-Signature=e4b300503b11334d13c1a409286e31c21c2b2df65ae1545ea067cce2adbc043f&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729168490/Пожежний_Дайго_2_версія_qwg6wb.jpg"
   },
   {
     "id": "c70dbecc-0353-4c7f-a723-517005cec297",
@@ -3711,7 +3741,7 @@
     "id": "f42a0f53-8e1d-4ee5-92f3-00732d02e46c",
     "hikkaUrl": "https://hikka.io/anime/kaifuku-jutsushi-no-yarinaoshi-913896",
     "title": "Повтор цілителя",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0b93d690-a7bd-4411-97fb-892981f0e7ff/%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80_%D1%86%D1%96%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_1.2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111758Z&X-Amz-Expires=3600&X-Amz-Signature=ee2e2da5b309759609be1cc3ad7e339e61f847e832b898f0b4e5975a5d0891eb&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163690/повтор_цілителя_1.1_dkwedn.jpg"
   },
   {
     "id": "3030b63c-b86e-44e0-8fd4-93d91a5f5676",
@@ -3735,7 +3765,7 @@
     "id": "450f0d59-412c-4d1d-b11c-66e598a9c81f",
     "hikkaUrl": "https://hikka.io/anime/kagami-no-kojou-47f7ad",
     "title": "Самотній замок у дзеркалі",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/153b956b-5d44-46a8-b6eb-35e17d6aea37/%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA_%D1%83_%D0%B4%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D1%96.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111758Z&X-Amz-Expires=3600&X-Amz-Signature=dae51909c22d147459b72b0b44dc3dd345cc61bff312dda74b4e9c2143fc01cc&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/153b956b-5d44-46a8-b6eb-35e17d6aea37/%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA_%D1%83_%D0%B4%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D1%96.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124204Z&X-Amz-Expires=3600&X-Amz-Signature=402cf559b38464ef6f0e8c4aa0a22ec0cf5cac4d022b21b3e739ed9603660bc9&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "c46819fb-b35a-4b77-a894-f7a7f500962d",
@@ -3801,7 +3831,7 @@
     "id": "5fd4584c-ee18-41f1-8c40-d7dbfaba7e99",
     "hikkaUrl": "https://hikka.io/anime/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-fed494",
     "title": "Я переродився в торговий автомат і тепер блукаю підземеллям",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/22d16860-5a8e-4089-b52d-3cece47755ac/%D0%9F%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B4%D0%B8%D0%B2%D1%81%D1%8F_%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B8%D0%BC_%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BC_2_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111806Z&X-Amz-Expires=3600&X-Amz-Signature=ec2a4727fae537a1e16a03b7658991cdb084ca306369029c7a4e6429f3984dbe&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165904/Переродився_торговим_автоматом_2_версія_u5xou3.jpg"
   },
   {
     "id": "27e1adeb-a5c8-46d8-9447-0b6d9052acd5",
@@ -3837,7 +3867,7 @@
     "id": "83819eb1-238a-4ef0-9eae-2dd4941d58e8",
     "hikkaUrl": "https://hikka.io/anime/isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu-0cb4f2",
     "title": "В іншому світі є пухнастий рай",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/53b1e6be-3034-47cf-a0b5-4fb5ab527452/%D0%9F%D1%83%D1%85%D0%BD%D0%B0%D1%81%D1%82%D0%B5_%D0%B6%D0%B8%D1%82%D1%82%D1%8F_%D0%B2_%D1%96%D0%BD%D1%88%D0%BE%D0%BC%D1%83_%D1%81%D0%B2%D1%96%D1%82%D1%96.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111806Z&X-Amz-Expires=3600&X-Amz-Signature=a800b81426c3ad35f54075fb591e4f6fa9d9c4b13b7727f845b37cbfc9c25a7f&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170829/Пухнасте_життя_в_іншому_світі_2_версія_ed9sfq.png"
   },
   {
     "id": "f485bd28-1879-4ce3-8029-88d7010bed60",
@@ -4395,7 +4425,7 @@
     "id": "b79f38bf-daa5-48cc-8d3a-1dab16c1c1b6",
     "hikkaUrl": "https://hikka.io/anime/dekoboko-majo-no-oyako-jijou-dc5c3c",
     "title": "Сімейне життя легковажної відьми",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c8b6d079-1bbb-43b0-b43c-a2bf72208fed/%D0%A1%D1%96%D0%BC%D0%B5%D0%B9%D0%BD%D0%B5_%D0%B6%D0%B8%D1%82%D1%82%D1%8F_%D0%B2%D1%96%D0%B4%D1%8C%D0%BC%D0%B8_%284_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111821Z&X-Amz-Expires=3600&X-Amz-Signature=c7604bbff93401d9ff09294562ced1e512e68ff9ac49ed88e1fe4cd5fb90a71e&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c8b6d079-1bbb-43b0-b43c-a2bf72208fed/%D0%A1%D1%96%D0%BC%D0%B5%D0%B9%D0%BD%D0%B5_%D0%B6%D0%B8%D1%82%D1%82%D1%8F_%D0%B2%D1%96%D0%B4%D1%8C%D0%BC%D0%B8_%284_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124222Z&X-Amz-Expires=3600&X-Amz-Signature=13aa3cc42529d9ee3d1b2db06bbc58cfa1da1e00f224dac44b233fd1620a0b9a&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "7ea268b8-1536-4ee5-8249-56b1b73f6710",
@@ -4626,6 +4656,12 @@
     "poster": "https://posters.hurtom.com/albums/anime/vbivche-yangolyatko-dokuro.jpg"
   },
   {
+    "id": "de475760-13c9-4a19-8bde-b0950b063ec2",
+    "hikkaUrl": "https://hikka.io/anime/bokura-no-ameiro-protocol-00ace4",
+    "title": "Наш дощовий протокол",
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729168615/Наш_дощовий_протокол_ciffvw.jpg"
+  },
+  {
     "id": "c3e17f2c-6b13-4180-9637-4451673da786",
     "hikkaUrl": "https://hikka.io/anime/boku-wa-tomodachi-ga-sukunai-388fba",
     "title": "У мене мало друзів",
@@ -4641,7 +4677,7 @@
     "id": "51c81c1d-6a64-4184-86e6-1f105a9cf0fc",
     "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-77b5a8",
     "title": "Моя геройська академія",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/59db0a2d-1a4e-4624-9f7a-643df9562681/%D0%BC%D0%BE%D1%8F_%D0%B3%D0%B5%D1%80%D0%BE%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%8F_1.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111827Z&X-Amz-Expires=3600&X-Amz-Signature=110d7d49d7223ea76c208b022b54d9117124dd13cefcfb2978a3ab70cccf3372&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://posters.hurtom.com/albums/anime/moya-akadem-ya-gero-v.jpg"
   },
   {
     "id": "ce51c506-72fe-4d8c-ada3-4dfb33bca8c3",
@@ -4659,7 +4695,7 @@
     "id": "a3f55890-36bd-44ff-b171-8f9838e2921b",
     "hikkaUrl": "https://hikka.io/anime/bocchi-the-rock-9e172d",
     "title": "Самітниця-рокерка!",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2d98bd6f-791a-4d81-8e91-906a4390328e/IMG_20241015_164037_535.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111827Z&X-Amz-Expires=3600&X-Amz-Signature=29c368b4be7d3b34ed7c8910d98a275550970b82b93116257962c3a579b5bf68&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2d98bd6f-791a-4d81-8e91-906a4390328e/IMG_20241015_164037_535.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124226Z&X-Amz-Expires=3600&X-Amz-Signature=e8376ba87fd1631edfdfaa355886be76f70990f4c587439797cfd048ff5e1b4f&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "0097477d-7cf6-4d57-9464-89eb89f6eac0",
@@ -5013,25 +5049,25 @@
     "id": "5cabf147-677d-4968-94d7-45c77cfea2b2",
     "hikkaUrl": "https://hikka.io/anime/fruits-basket-prelude-322b93",
     "title": "Кошик фруктів: Прелюдія",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4b80cf43-9368-45bb-970e-74c5ce013800/96709f31e22043dca265040b0a2710.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111841Z&X-Amz-Expires=3600&X-Amz-Signature=80f88a19714655468e26c6e965a69021dabf6d79cf749f9fac29bc3af787b660&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4b80cf43-9368-45bb-970e-74c5ce013800/96709f31e22043dca265040b0a2710.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124233Z&X-Amz-Expires=3600&X-Amz-Signature=f9b9e61d18ec91df388f7499755b6b31a8a985bf9b86eacca3cbc53d02f0d411&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "6d059081-6c3b-4dd9-9278-cdb2db298059",
     "hikkaUrl": "https://hikka.io/anime/fruits-basket-the-final-171740",
     "title": "Кошик фруктів 3: Фінал",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/fec41b6c-e4e9-49ca-9f54-7aa5f8d35bbb/photo_2022-09-17_13-27-50.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111841Z&X-Amz-Expires=3600&X-Amz-Signature=5fe15de13df769be34926f5f0917680eb140b26525f242550043bae9b572f634&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/fec41b6c-e4e9-49ca-9f54-7aa5f8d35bbb/photo_2022-09-17_13-27-50.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124233Z&X-Amz-Expires=3600&X-Amz-Signature=f8e8c02e336de58a217267778082bc05cb0e17ff61a41711478d9911987bdeba&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "bb5f6557-b8c6-44bf-8046-f8e5ca416ccf",
     "hikkaUrl": "https://hikka.io/anime/fruits-basket-2nd-season-cc2931",
     "title": "Кошик фруктів 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/66e9d696-5773-41ae-9154-a673418a3b99/photo_2022-09-17_13-26-54.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111841Z&X-Amz-Expires=3600&X-Amz-Signature=ef9f93b979f54fc825ff142408685a1c93c91a59aee60c7b82e0ba36e6706a01&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/66e9d696-5773-41ae-9154-a673418a3b99/photo_2022-09-17_13-26-54.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124233Z&X-Amz-Expires=3600&X-Amz-Signature=06c8a266e9411212828f0ec3caa3e25c9d5246d36a7bd0ebb03df84032cf8a6d&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "ba072f2e-a2e4-45a9-a65b-62e430aa7acd",
     "hikkaUrl": "https://hikka.io/anime/fruits-basket-1st-season-bc7fd3",
     "title": "Кошик  фруктів",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e8c54257-fe57-4798-a5a7-c6816435f085/ec830f5977d6691ba01a059440354f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111841Z&X-Amz-Expires=3600&X-Amz-Signature=1eb3d69efc079be02e76d1da1aee6b8f4ec266fa77cfb50fedec02c0a28b2447&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/e8c54257-fe57-4798-a5a7-c6816435f085/ec830f5977d6691ba01a059440354f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124233Z&X-Amz-Expires=3600&X-Amz-Signature=7c18ddb80255c6612e16bad11af79ff00c52c1815379a8d19bd5ef90cae7f8ef&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "ef5d4590-9376-4271-869a-dad4e924c8d8",
@@ -5055,7 +5091,7 @@
     "id": "a06a7c96-e5d8-41ba-9894-80a85575fa47",
     "hikkaUrl": "https://hikka.io/anime/ookami-to-koushinryou-shinsaku-anime-350e01",
     "title": "Вовчиця та спеції: Торговець зустрічає мудру вовчицю",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/45a9e9cb-7cc5-4021-8dc3-8c3dbac812d9/IMG_20241008_235500_176.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111841Z&X-Amz-Expires=3600&X-Amz-Signature=4287a294fdd87ded693dde56f270c644d27e2501fd40eb0901f41495ff77ea34&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/45a9e9cb-7cc5-4021-8dc3-8c3dbac812d9/IMG_20241008_235500_176.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124233Z&X-Amz-Expires=3600&X-Amz-Signature=3dd04a9ff5c7145c4c3c30833ac521192d1504a310ad90d12715dcc123b82bbc&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "1c69b89e-d941-4892-ba9b-e3888f011cce",
@@ -5127,7 +5163,7 @@
     "id": "e9c4159f-abcd-415f-8968-3dd75840abeb",
     "hikkaUrl": "https://hikka.io/anime/naruto-d8ec41",
     "title": "Наруто",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7973caf6-8571-4d8e-a7c7-ef53eacee5ee/%D0%BD%D0%B0%D1%80%D1%83%D1%82%D0%BE_1.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111843Z&X-Amz-Expires=3600&X-Amz-Signature=a9afc8a85e7129a191e441bcbd00e5759f0af5f744a2e76c017450dbcf0585e8&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163384/наруто_1.1_cmh3fn.jpg"
   },
   {
     "id": "0b5d756a-bd29-4b5b-8ce0-e6f874e0f0fa",
@@ -5223,19 +5259,19 @@
     "id": "eb6081ba-a06d-46be-8c98-d2f83121b944",
     "hikkaUrl": "https://hikka.io/anime/dungeon-meshi-fa86ef",
     "title": "Смаколики з підземелля",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/f3154ff9-c58b-4fb5-941a-3cdb5154c774/%D1%81%D0%BC%D0%B0%D0%BA%D0%BE%D0%BB%D0%B8%D0%BA%D0%B8_%D0%B2_%D0%BF%D1%96%D0%B4%D0%B7%D0%B5%D0%BC%D0%B5%D0%BB%D0%BB%D1%96_1.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111844Z&X-Amz-Expires=3600&X-Amz-Signature=2bfcfb327ec081a8ed73aa5d182906176846cd33389c16fb0d7a8a37cfb6be15&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170796/Підземелля_смаколиків_2_версія_icvrks.png"
   },
   {
     "id": "d71ce940-3f40-4245-a661-41e54ffd55c7",
     "hikkaUrl": "https://hikka.io/anime/mato-seihei-no-slave-fe9d7d",
     "title": "Раб спеціального призначення +суб",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/05e0e1ba-326d-4434-8b56-89031ae64940/%D0%A0%D0%B0%D0%B1_%D1%81%D0%BF%D0%B5%D1%86%D0%B7%D0%B0%D0%B3%D0%BE%D0%BD%D1%83_%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BC%D1%96%D1%81%D1%82%D0%B0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111844Z&X-Amz-Expires=3600&X-Amz-Signature=79cebb0f3780f6655439f19831914fa0edddb391a86d6911eb234c5ee5776d53&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/05e0e1ba-326d-4434-8b56-89031ae64940/%D0%A0%D0%B0%D0%B1_%D1%81%D0%BF%D0%B5%D1%86%D0%B7%D0%B0%D0%B3%D0%BE%D0%BD%D1%83_%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BC%D1%96%D1%81%D1%82%D0%B0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124234Z&X-Amz-Expires=3600&X-Amz-Signature=249ee8bc0a160d905f81911bb7a1d772e5cefd11b09b96f25885a6fe2b699670&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "aa949b05-0020-4f28-a7ea-090c8eab647f",
     "hikkaUrl": "https://hikka.io/anime/spy-x-family-season-2-eef58c",
     "title": "Сім'я шпигуна 2",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/df57c26d-6f89-407b-b08f-91ea4b668db7/%D0%A1%D1%96%D0%BC%D1%8F_%D1%88%D0%BF%D0%B8%D0%B3%D1%83%D0%BD%D0%B0_2_%281_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111844Z&X-Amz-Expires=3600&X-Amz-Signature=b54d476a1db39da5bb864b537e9523a23eb5e141831fd4af19479f34f58135ea&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/df57c26d-6f89-407b-b08f-91ea4b668db7/%D0%A1%D1%96%D0%BC%D1%8F_%D1%88%D0%BF%D0%B8%D0%B3%D1%83%D0%BD%D0%B0_2_%281_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124234Z&X-Amz-Expires=3600&X-Amz-Signature=7d6d761cb6e9afda3163b617c72ebffddf20bb5127ceca91079049f6b37df4b8&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "a4de5493-6efa-477f-b0dd-42635c6957a1",
@@ -5253,7 +5289,7 @@
     "id": "e611f4ae-7b8c-42ea-a8a8-79618145f544",
     "hikkaUrl": "https://hikka.io/anime/kage-no-jitsuryokusha-ni-naritakute-2nd-season-f15230",
     "title": "Сходження в тіні 2 +суб",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4e62056b-5eca-4f74-95e7-dd6374d9ac7d/%D0%A1%D1%85%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D1%82%D1%96%D0%BD%D1%96_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111845Z&X-Amz-Expires=3600&X-Amz-Signature=949919e79aaa42a87af4df8e38f21434ce7ad6422daafd5d216dc9be2b5067bc&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/4e62056b-5eca-4f74-95e7-dd6374d9ac7d/%D0%A1%D1%85%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D1%82%D1%96%D0%BD%D1%96_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124238Z&X-Amz-Expires=3600&X-Amz-Signature=805b27acc23cb6d440cd23ceffffcfed5d5a2aabde3004fb676d069fadbe9b5a&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "68c3fb59-bcbf-4cfa-b705-d4ffddcbd10f",
@@ -5265,7 +5301,7 @@
     "id": "25decbdd-10ec-437e-b937-6ea28694a7ed",
     "hikkaUrl": "https://hikka.io/anime/watashi-no-shiawase-na-kekkon-b9c4e8",
     "title": "Мій щасливий шлюб",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/b42aecc2-2afa-40d3-8d03-2c2760a4e8aa/%D0%9C%D1%96%D0%B9_%D1%89%D0%B0%D1%81%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9_%D1%88%D0%BB%D1%8E%D0%B1_%281_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111845Z&X-Amz-Expires=3600&X-Amz-Signature=0c728e7d94402f10d61640af9a3b007a71b482e0191be23c594e67446549d74d&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164987/photo_2024-10-16_11-34-30_tuhofi.jpg"
   },
   {
     "id": "62543d1a-32f9-4b74-a43f-f1234d33ae5d",
@@ -5313,13 +5349,13 @@
     "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a",
     "hikkaUrl": "https://hikka.io/anime/shingeki-no-kyojin-0cf69a",
     "title": "Атака Титанів",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5e1c807a-6834-4693-adad-4706078210f7/photo_2023-03-05_17-56-55.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111849Z&X-Amz-Expires=3600&X-Amz-Signature=508ca0afd235826641094a33b7c2fee695718cee420eb3f289f87f40e9c98c40&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5e1c807a-6834-4693-adad-4706078210f7/photo_2023-03-05_17-56-55.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124244Z&X-Amz-Expires=3600&X-Amz-Signature=15bde18b8038e20bb5a821fe6d09a1903b1b54035220bf93a16921cc4b12207d&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "535b8583-d2cc-4647-b468-ce0a895d1b14",
     "hikkaUrl": "https://hikka.io/anime/tengoku-daimakyou-b5fee8",
     "title": "Ілюзія раю +суб",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c7223283-a294-4db6-b54e-70293c761481/%D1%96%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D1%80%D0%B0%D1%8E_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111849Z&X-Amz-Expires=3600&X-Amz-Signature=07ddc00eb29a132e89d26fd921036f29b174fe3f56aba34c1a5928aaebc67d68&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c7223283-a294-4db6-b54e-70293c761481/%D1%96%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D1%80%D0%B0%D1%8E_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124244Z&X-Amz-Expires=3600&X-Amz-Signature=45580fbcf85e04d7135ed7afa120065d0faea07fe40208fe3eca76d6a9727983&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "8cf06233-dab6-41ab-9971-ce857a23575d",
@@ -5337,19 +5373,19 @@
     "id": "5d3020bf-8552-4313-9b86-f29b8415d006",
     "hikkaUrl": "https://hikka.io/anime/mushoku-tensei-ii-isekai-ittara-honki-dasu-40825f",
     "title": "Реінкарнація безробітного: В інший світ на повному серйозі - 2 сезон",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69181766-ae6d-487d-9df2-68e500508fb9/%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B5%D0%B7%D1%80%D0%BE%D0%B1%D1%96%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_2.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111849Z&X-Amz-Expires=3600&X-Amz-Signature=5358cf5011fc0d493bfd789b1cfcfaf8acf0943759ed5b29e02a8c8d71fbe90b&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69181766-ae6d-487d-9df2-68e500508fb9/%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B5%D0%B7%D1%80%D0%BE%D0%B1%D1%96%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_2.1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124244Z&X-Amz-Expires=3600&X-Amz-Signature=64ba5d1f32cd4369b48bab9f8d9c4e782478feb05ffbb8a9f6027d52f141526b&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "a26fd01e-fab6-4eaa-bc39-e3a1bfb40f07",
     "hikkaUrl": "https://hikka.io/anime/undead-unluck-eb128c",
     "title": "Мрець і Невдача",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/b824f1c3-9d7f-41de-9565-cfe5a4e15850/%D0%9D%D0%B5%D0%B2%D0%BC%D0%B8%D1%80%D1%83%D1%89%D0%B8%D0%B9_%D1%82%D0%B0_%D0%BD%D0%B5%D0%B2%D0%B4%D0%B0%D1%85%D0%B0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111849Z&X-Amz-Expires=3600&X-Amz-Signature=9fb68fa46181680daf5d55a9263f3eccb5f4876b6a7d406c0f575f3820a950c0&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163418/невмирущий_неталанна_1.1_xbmjyu.jpg"
   },
   {
     "id": "f44a956b-7f8d-41be-8fed-70925f022a66",
     "hikkaUrl": "https://hikka.io/anime/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su-e32b85",
     "title": "Рубіж Шангрі-Ла",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0be1fb63-e088-43f4-aa6b-757a23399660/%D0%A0%D1%83%D0%B1%D1%96%D0%B6_%D0%A8%D0%B0%D0%BD%D0%B3%D1%80%D1%96-%D0%9B%D0%B0_%283_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111849Z&X-Amz-Expires=3600&X-Amz-Signature=529692e2e8fab6f1655b197ef5380d09f8506aab6519418186b642487ec4c70f&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0be1fb63-e088-43f4-aa6b-757a23399660/%D0%A0%D1%83%D0%B1%D1%96%D0%B6_%D0%A8%D0%B0%D0%BD%D0%B3%D1%80%D1%96-%D0%9B%D0%B0_%283_%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T124244Z&X-Amz-Expires=3600&X-Amz-Signature=9b47b9e9b60078f3488ae2f404507dacce686c9255a4889d6a8c4ef48003abdb&X-Amz-SignedHeaders=host&x-id=GetObject"
   },
   {
     "id": "aef43902-dd9f-4e64-b08f-8bb3ab3432fb",
@@ -5397,7 +5433,7 @@
     "id": "08e3372e-55be-4c2d-8c71-72d928f95ff6",
     "hikkaUrl": "https://hikka.io/anime/kusuriya-no-hitorigoto-f35f5f",
     "title": "Монолог травниці",
-    "poster": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/50e60ed7-29bb-47c2-a7c8-f1aa5c63b402/photo_2024-08-14_00-48-50.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T111849Z&X-Amz-Expires=3600&X-Amz-Signature=e698c0fe67cf49d3a66cadffaf412378acd379233073d2fd59e221fabdc6d7a5&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "poster": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170113/Монолог_травниці_usz5e7.jpg"
   },
   {
     "id": "380365f5-0322-4a27-a4f7-d2b63f97f75e",
