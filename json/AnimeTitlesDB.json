@@ -1,5 +1,108 @@
 [
   {
+    "id": "1287667f-790e-80c1-9f5b-ec818fc0762e",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-6th-season-5cb08a",
+    "title": "Моя геройська академія 6",
+    "romaji": "Boku no Hero Academia 6",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2022",
+    "episodes": "25",
+    "releases": []
+  },
+  {
+    "id": "1287667f-790e-8040-ab5c-f0a1793dfbcb",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-5th-season-b8f569",
+    "title": "Моя геройська академія 5",
+    "romaji": "Boku no Hero Academia 5",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2021",
+    "episodes": "25",
+    "releases": []
+  },
+  {
+    "id": "1287667f-790e-8070-9eb4-def23eb5d43a",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-4th-season-0ca745",
+    "title": "Моя геройська академія 4",
+    "romaji": "Boku no Hero Academia 4",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2019",
+    "episodes": "25",
+    "releases": []
+  },
+  {
+    "id": "1287667f-790e-80eb-883c-da32e7bd352a",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-3rd-season-819c2d",
+    "title": "Моя геройська академія 3",
+    "romaji": "Boku no Hero Academia 3",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2018",
+    "episodes": "25",
+    "releases": []
+  },
+  {
+    "id": "1287667f-790e-8001-83f3-c9d27bb83f8e",
+    "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-2nd-season-514776",
+    "title": "Моя геройська академія 2",
+    "romaji": "Boku no Hero Academia 2",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2017",
+    "episodes": "25",
+    "releases": []
+  },
+  {
+    "id": "1287667f-790e-8039-ba7f-fe220e59abac",
+    "hikkaUrl": "https://hikka.io/anime/mecha-ude-2b7e59",
+    "title": "Механічні руки ОМА",
+    "romaji": "Mecha-ude ONA",
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2018",
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "80627ec5-552a-4e9a-96f4-8cd2e88080b1"
+      }
+    ]
+  },
+  {
+    "id": "1277667f-790e-802d-9ed3-cff3ac066c4d",
+    "hikkaUrl": "https://hikka.io/anime/kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai-587008",
+    "title": "Куроїва Медака не розуміє моєї привабливості",
+    "romaji": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai",
+    "type": "Анонс",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1277667f-790e-8035-9010-f45b5117067a",
+    "hikkaUrl": "https://hikka.io/anime/dr-stone-science-future-54a9f9",
+    "title": "Доктор Стоун 4: Наука майбутнього",
+    "romaji": "Dr. Stone: Science Future",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2025",
+    "episodes": "",
+    "releases": []
+  },
+  {
+    "id": "1277667f-790e-805d-ba96-d3eb743e68e8",
+    "hikkaUrl": "https://hikka.io/anime/zenshu-31068c",
+    "title": "Переробити",
+    "romaji": "Zenshu.",
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "",
+    "episodes": "",
+    "releases": []
+  },
+  {
     "id": "1227667f-790e-8099-aeee-f6c1703654c1",
     "hikkaUrl": "https://hikka.io/anime/isshun-de-chiryou-shiteita-noni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-573d26",
     "title": "Геніальний цілитель, який зцілював в одну мить, але був вигнаний за свою марність, тепер насолоджується життям в якості темного цілителя",
@@ -387,7 +490,7 @@
   {
     "id": "1227667f-790e-8002-a2b5-c70ced2a37ad",
     "hikkaUrl": "https://hikka.io/anime/bang-dream-ave-mujica-749747",
-    "title": "Шалена мрія! Ave Mujica",
+    "title": "Вибухова мрія! Ave Mujica",
     "romaji": "BanG Dream! Ave Mujica",
     "type": "Аніме",
     "format": "ТБ",
@@ -3715,7 +3818,7 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "2024",
-    "episodes": "",
+    "episodes": "12",
     "releases": []
   },
   {
@@ -3803,18 +3906,6 @@
     "hikkaUrl": "https://hikka.io/anime/kamonohashi-ron-no-kindan-suiri-2nd-season-9cd870",
     "title": "Заборонена дедукція детектива Рона 2",
     "romaji": "Kamonohashi Ron no Kindan Suiri 2",
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2024",
-    "episodes": "",
-    "releases": []
-  },
-  {
-    "id": "2f69d9ac-4c29-48bd-9e2a-3cbd55c58434",
-    "hikkaUrl": "https://hikka.io/anime/ao-no-exorcist-shin-series-b5a652",
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176311-faAPK9m0QCjP.jpg",
-    "title": "Cиній екзорцист: Арка снігових фруктів",
-    "romaji": "Ao no Exorcist: Yuki no Hate-hen",
     "type": "Аніме",
     "format": "ТБ",
     "year": "2024",
@@ -4512,18 +4603,6 @@
     "hikkaUrl": "https://hikka.io/anime/boushoku-no-berserk-708b71",
     "title": "Берсерк ненажерливості",
     "romaji": "Boushoku no Berserk",
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2023",
-    "episodes": "12",
-    "releases": []
-  },
-  {
-    "id": "957737f4-1825-4823-b11a-1cdecbe95dee",
-    "hikkaUrl": "https://hikka.io/anime/bokura-no-ameiro-protocol-00ace4",
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166896-IFRRBmvoqHkG.jpg",
-    "title": "Наш дощовий протокол",
-    "romaji": "Bokura no Ameiro Protocol",
     "type": "Аніме",
     "format": "ТБ",
     "year": "2023",
@@ -8731,17 +8810,6 @@
     "releases": []
   },
   {
-    "id": "4b5de88a-6305-4b9e-82dc-7daa4fcdce68",
-    "hikkaUrl": "https://hikka.io/anime/sono-bisque-doll-wa-koi-wo-suru-0a2f14",
-    "title": "Ця порцелянова лялечка закохалася",
-    "romaji": "Sono Bisque Doll wa Koi wo Suru",
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2022",
-    "episodes": "12",
-    "releases": []
-  },
-  {
     "id": "b4567545-c80d-4988-9080-1bb6f4897a8a",
     "hikkaUrl": "https://hikka.io/anime/sonny-boy-99d03c",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132126-urIgfuSxmxza.jpg",
@@ -9197,7 +9265,7 @@
   {
     "id": "68938edd-7bd0-425c-849e-53d27c380c5e",
     "hikkaUrl": "https://hikka.io/anime/shingeki-no-kyojin-the-final-season-part-2-8d3fc3",
-    "title": "Атака титанів: Фінальний сезон - 2 частина",
+    "title": "Атака титанів: Фінальний сезон ч.2",
     "romaji": "Shingeki no Kyojin: The Final Season 4-2",
     "type": "Аніме",
     "format": "ТБ",
@@ -9219,7 +9287,7 @@
   {
     "id": "ca3d6956-0f4f-455d-8314-cd45a9b32e5d",
     "hikkaUrl": "https://hikka.io/anime/shingeki-no-kyojin-season-3-part-2-91a350",
-    "title": "Атака титанів - 3 сезон, 2 частина",
+    "title": "Атака титанів 3, ч.2",
     "romaji": "Shingeki no Kyojin 3-2",
     "type": "Аніме",
     "format": "ТБ",
@@ -9231,7 +9299,7 @@
     "id": "c918eb15-cdf0-4e06-ba36-99af29c4d261",
     "hikkaUrl": "https://hikka.io/anime/shingeki-no-kyojin-season-3-b22bb3",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99147-HACsFVrynFf5.jpg",
-    "title": "Атака титанів - 3 сезон",
+    "title": "Атака титанів 3",
     "romaji": "Shingeki no Kyojin Season 3",
     "type": "Аніме",
     "format": "ТБ",
@@ -9243,7 +9311,7 @@
     "id": "797cbbfb-7092-4a9f-95a6-2cb562ffc5ef",
     "hikkaUrl": "https://hikka.io/anime/shingeki-no-kyojin-season-2-b88bf4",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20958-Y7eQdz9VENBD.jpg",
-    "title": "Атака титанів - 2 сезон",
+    "title": "Атака титанів 2",
     "romaji": "Shingeki no Kyojin 2",
     "type": "Аніме",
     "format": "ТБ",
@@ -14112,18 +14180,14 @@
   },
   {
     "id": "c70dbecc-0353-4c7f-a723-517005cec297",
-    "hikkaUrl": "https://hikka.io/anime/mecha-ude-2b7e59",
+    "hikkaUrl": "https://hikka.io/anime/mecha-ude-tv-5a823b",
     "title": "Механічні руки",
-    "romaji": "Mecha-ude ONA",
+    "romaji": "Mecha-ude",
     "type": "Аніме",
-    "format": "ОМА",
-    "year": "2018",
-    "episodes": "1",
-    "releases": [
-      {
-        "id": "80627ec5-552a-4e9a-96f4-8cd2e88080b1"
-      }
-    ]
+    "format": "ТБ",
+    "year": "2024",
+    "episodes": "12",
+    "releases": []
   },
   {
     "id": "084090eb-657c-4bda-ad11-3db83ccc5962",
@@ -15086,7 +15150,7 @@
   {
     "id": "3528688b-d075-4e41-9512-72be549e9852",
     "hikkaUrl": "https://hikka.io/anime/kyuuketsuki-sugu-shinu-2-bb2b8a",
-    "title": "Вампір миттєвого вмирання - 2 сезон",
+    "title": "Вампір миттєвого вмирання 2",
     "romaji": "Kyuuketsuki Sugu Shinu / The Vampire dies in no time",
     "type": "Аніме",
     "format": "ТБ",
@@ -17015,7 +17079,7 @@
   {
     "id": "5e1aef8a-5e75-40fa-bc92-9b4a15488f6d",
     "hikkaUrl": "https://hikka.io/anime/kami-no-tou-2nd-season-f2cced",
-    "title": "Вежа Бога - 2 сезон",
+    "title": "Вежа Бога 2",
     "romaji": "Kami no Tou: Tower of God 2",
     "type": "Аніме",
     "format": "ТБ",
@@ -23813,17 +23877,6 @@
     "releases": []
   },
   {
-    "id": "4f9fd66d-23b6-408d-9828-61e297fcb79c",
-    "hikkaUrl": "https://hikka.io/anime/boku-no-kokoro-no-yabai-yatsu-season-2-4782ff",
-    "title": "Пітьма всередині мене - 2 сезон",
-    "romaji": "Boku no Kokoro no Yabai Yatsu Season 2",
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2024",
-    "episodes": "13",
-    "releases": []
-  },
-  {
     "id": "de475760-13c9-4a19-8bde-b0950b063ec2",
     "hikkaUrl": "https://hikka.io/anime/bokura-no-ameiro-protocol-00ace4",
     "title": "Наш дощовий протокол",
@@ -23930,7 +23983,7 @@
   {
     "id": "0b129e55-5c1b-4a76-b527-4cae4a728821",
     "hikkaUrl": "https://hikka.io/anime/boku-no-hero-academia-7th-season-35ca97",
-    "title": "Моя геройська академія - 7 сезон",
+    "title": "Моя геройська академія 7",
     "romaji": "Boku no Hero Academia 7",
     "type": "Аніме",
     "format": "ТБ",
@@ -25395,7 +25448,7 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "2024",
-    "episodes": "None",
+    "episodes": "12",
     "releases": []
   },
   {
@@ -26256,7 +26309,7 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "2024",
-    "episodes": "6 / 13",
+    "episodes": "13",
     "releases": [
       {
         "id": "655d5776-438c-48cc-b8c1-f7058124d5c3"
@@ -26453,7 +26506,7 @@
     "title": "Магічна битва: 0",
     "romaji": "Jujutsu Kaisen 0",
     "type": "Аніме",
-    "format": "",
+    "format": "Фільм",
     "year": "2021",
     "episodes": "1",
     "releases": [
@@ -26680,7 +26733,7 @@
   {
     "id": "14144244-f35e-4559-b233-4b63c6b4d97f",
     "hikkaUrl": "https://hikka.io/anime/sono-bisque-doll-wa-koi-wo-suru-0a2f14",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/c3255add-959f-4235-9c05-dec6fa54a36a/IMG_20240502_181050_558.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T012225Z&X-Amz-Expires=3600&X-Amz-Signature=8e73f4b5b7bb8230af5253e89c6dc30d13f678ec3102cb221c86d671fd0ca036&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://media.kitsu.app/anime/44382/cover_image/ee63290838bcd2fe3acd5eaa2e4f7df4.jpg",
     "title": "Ця порцелянова лялечка закохалася",
     "romaji": "Sono Bisque Doll wa Koi wo Suru",
     "type": "Аніме",
@@ -26902,7 +26955,7 @@
   {
     "id": "9d55dfe5-aec4-4141-af16-b0290497ec13",
     "hikkaUrl": "https://hikka.io/anime/death-note-e967c4",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/0c9cd049-7ae8-42bb-8d0f-895179574a76/IMG_20240502_180551_620.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T012225Z&X-Amz-Expires=3600&X-Amz-Signature=1976f6b349283ccef2c1cfd26f7bbea8a29dbdb42433f3b384448bd475b4f2ab&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://media.kitsu.app/anime/cover_images/1376/original.jpg",
     "title": "Зошит смерті",
     "romaji": "Death Note",
     "type": "Аніме",
@@ -27718,7 +27771,7 @@
   {
     "id": "668a6964-b440-4841-a579-81795c979ecc",
     "hikkaUrl": "https://hikka.io/anime/jujutsu-kaisen-3c90f8",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/d873b1ef-4dcc-493b-a5ab-d45460c6bd9e/IMG_20240511_085353_005.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T012226Z&X-Amz-Expires=3600&X-Amz-Signature=fd7b3ded3990eb5d63104c972118f62fcc8d775686097f8a73f2f33c3e635301&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://media.kitsu.app/anime/cover_images/42765/original.jpeg",
     "title": "Магічна битва",
     "romaji": "Jujutsu Kaisen",
     "type": "Аніме",
@@ -30029,8 +30082,8 @@
     "id": "99d8118a-0432-45e8-ae5c-669fd44d8adb",
     "hikkaUrl": "https://hikka.io/anime/shingeki-no-kyojin-the-final-season-kanketsu-hen-833be1",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146984-yAkTtW2AExVj.jpg",
-    "title": "Атака Титанів: Фінал (3-4)",
-    "romaji": "Attack on Titan: The Final Season 4 (ч.3-4)",
+    "title": "Атака титанів: Фінальний сезон ч.3-4",
+    "romaji": "Shingeki no Kyojin: The Final Season 4 / Attack on Titan: The Final Season 4 (Part 3-4)",
     "type": "Аніме",
     "format": "ОВА",
     "year": "2023",
