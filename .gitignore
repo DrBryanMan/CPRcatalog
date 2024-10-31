@@ -9,10 +9,11 @@ node_modules/
 sass.css
 sass.css.map
 # json/
-TitlesNotHavePosters.json
+json/TitlesNotHavePosters.json
+js/notion_posters_import.js
+js/hikka_and_posters_import.js
+js/hikka_import.js
 notion_not_posters_import.js
-hikka_and_posters_import.js
-hikka_import.js
 
 # Логи
 
