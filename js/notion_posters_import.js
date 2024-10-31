@@ -1,3 +1,5 @@
+// Імпорт всіх постерів з Ноушена у 
+
 const { Client } = require("@notionhq/client")
 const fs = require("fs")
 const path = require("path")
@@ -24,6 +26,7 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = [], previou
     const response = await notion.databases.query({
       database_id: databaseId,
       start_cursor: nextCursor || undefined,
+      page_size: 10
     })
 
     for (const page of response.results) {
@@ -47,10 +50,10 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = [], previou
       console.log(`Сторінка ${pageCount} оброблена`)
     }
 
-    hasMore = response.has_more
+    hasMore = false
     nextCursor = response.next_cursor
   }
-  console.log(`Оброблено ${pageCount} сторінок. Оновлено або додано ${updatedCount} сторінок.`)
+  console.log(`Оброблено ${pageCount} сторінок.`)
   return pages
 }
 
@@ -82,7 +85,8 @@ function processAnimeData(pages) {
     id: page.id,
     hikkaUrl: page.properties.Hikka.url,
     title: page.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
-    poster: page.properties.Постер.files[0]?.external?.url || page.properties.Постер.files[0]?.file.url || []
+    synonyms: page.properties.Синоніми.rich_text?.flatMap(i => i.plain_text.split('\n')),
+    poster: page.properties.Постер.files
   }))
 }
 
@@ -101,7 +105,7 @@ function processTeamData(pages) {
     // main info
     id: page.id,
     cover: page.cover,
-    logo: page.icon?.file?.url || null,
+    logo: page.icon?.file.url,
     // second info
   }))
 }
@@ -129,7 +133,7 @@ async function importData(databaseId, dbTitle, outputFileName, propertiesToExpan
 
   try {
     fs.writeFileSync(outputFile, JSON.stringify(processedData, null, 2))
-    console.log(`Імпорт завершено. Записано ${processedData.length} елементів до файлу ${outputFile}`)
+    console.log(`Імпорт завершено. Записано ${processedData.length} елементів до файлу ${dbTitle}`)
   } catch (error) {
     console.error(`Помилка при записі даних: ${error.message}`)
   }
@@ -152,8 +156,8 @@ async function importTeams() {
 
 async function runAllImports() {
   await importAnimeTitles()
-  await importReleases()
-  await importTeams()
+  // await importReleases()
+  // await importTeams()
   console.log("Всі імпорти завершено успішно.")
 }
 

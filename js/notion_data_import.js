@@ -1,76 +1,99 @@
 const { Client } = require("@notionhq/client")
-const fs = require("fs")
+const axios = require('axios')
+const fs = require("fs").promises
 const path = require("path")
-const crypto = require('crypto')
-
 require("dotenv").config()
 
-const notion = new Client({ auth: process.env.NOTION_TOKEN })
+const HIKKA_API_URL = 'https://api.hikka.io/anime'
+const Notion = new Client({ 
+  auth: process.env.NOTION_TOKEN,
+  timeoutMs: 60000  // Збільшуємо timeout до 60 секунд
+ })
 
-function hashObject(obj) {
-  return crypto.createHash('md5').update(JSON.stringify(obj)).digest('hex')
+async function getPageById(pageId) {
+  try {
+    const response = await Notion.pages.retrieve({
+      page_id: pageId,
+    })
+    return response
+  } catch (error) {
+    console.error('Помилка при отриманні даних:', error)
+    throw error
+  }
 }
 
-// async function getFirstPage(databaseId) {
-//   try {
-//     const response = await notion.databases.query({
-//       database_id: databaseId,
-//       // page_size: 1, // Запитуємо лише одну сторінку
-//     })
-
-//     if (response.results.length > 0) {
-//       const page = response.results[0]
-//       console.log('Дані першої сторінки:')
-//       console.log(JSON.stringify(page, null, 2))
-//     } else {
-//       console.log('База даних порожня')
-//     }
-//   } catch (error) {
-//     console.error('Помилка при отриманні даних:', error)
-//   }
-// }
-
-async function getAllPages(databaseId, dbTitle, propertiesToExpand = [], previousData = null) {
+async function getAllPages(databaseId, dbTitle, propertiesToExpand = []) {
   let pages = []
   let hasMore = true
   let nextCursor = null
   let pageCount = 0
-  let updatedCount = 0
-
+  
   console.log(`Початок імпорту сторінок з бази даних ${dbTitle}`)
 
+  // Отримуємо всі сторінки спочатку
   while (hasMore) {
-    const response = await notion.databases.query({
+    const response = await Notion.databases.query({
       database_id: databaseId,
       start_cursor: nextCursor || undefined,
+      // page_size: 100
     })
 
-    for (const page of response.results) {
-      pageCount++
-      let pageUpdated = false
-
-      for (const propertyName of propertiesToExpand) {
-        if (page.properties[propertyName] && page.properties[propertyName].type === 'relation') {
-          const expandedRelations = await getAllRelatedIds(page.id, page.properties[propertyName].id)
-          page.properties[propertyName].relation = expandedRelations.map(id => ({ id }))
-          page.properties[propertyName].has_more = false
-        }
-      }
-
-      const newHash = hashObject(page)
-      if (!previousData || !previousData[page.id] || previousData[page.id] !== newHash) {
-        pageUpdated = true
-        updatedCount++
-      }
-      pages.push(page)
-      console.log(`Сторінка ${pageCount} оброблена`)
-    }
-
+    pages = pages.concat(response.results)
     hasMore = response.has_more
     nextCursor = response.next_cursor
   }
 
-  console.log(`Оброблено ${pageCount} сторінок. Оновлено або додано ${updatedCount} сторінок.`)
+  // Якщо потрібно розширити властивості, обробляємо кожну сторінку послідовно
+  if (propertiesToExpand.length > 0) {
+    const processedPages = []
+    
+    for (const page of pages) {
+      pageCount++
+      
+      try {
+        // Створюємо копію сторінки для обробки
+        const processedPage = { ...page }
+        
+        for (const propertyName of propertiesToExpand) {
+          if (processedPage.properties[propertyName]?.type === 'relation') {
+            // Додаємо невелику затримку перед кожним запитом
+            await new Promise(resolve => setTimeout(resolve, 100))
+            
+            try {
+              const expandedRelations = await getAllRelatedIds(processedPage.id, processedPage.properties[propertyName].id)
+              processedPage.properties[propertyName].relation = expandedRelations.map(id => ({ id }))
+              processedPage.properties[propertyName].has_more = false
+            } catch (error) {
+              console.error(`Помилка при отриманні зв'язків для сторінки ${processedPage.id}:`, error.message)
+              processedPage.properties[propertyName].relation = []
+              processedPage.properties[propertyName].has_more = false
+            }
+          }
+        }
+        
+        processedPages.push(processedPage)
+        console.log(`${pageCount} ${processedPage.properties['Назва тайтлу']?.title[0]?.plain_text || 
+                                  processedPage.properties['Name']?.title[0]?.plain_text || 
+                                  processedPage.properties['Назва команди']?.title[0]?.plain_text || 
+                                  processedPage.id}`)
+      } catch (error) {
+        console.error(`Помилка при обробці сторінки ${page.id}:`, error.message)
+        processedPages.push(page) // Додаємо необроблену сторінку, щоб не втратити дані
+      }
+    }
+    
+    return processedPages
+  }
+
+  // Якщо розширення не потрібне, просто виводимо прогрес
+  pages.forEach(page => {
+    pageCount++
+    console.log(`${pageCount} ${page.properties['Назва тайтлу']?.title[0]?.plain_text || 
+                              page.properties['Name']?.title[0]?.plain_text || 
+                              page.properties['Назва команди']?.title[0]?.plain_text || 
+                              page.id}`)
+  })
+
   return pages
 }
 
@@ -78,47 +101,116 @@ async function getAllRelatedIds(pageId, propertyId) {
   let allIds = []
   let hasMore = true
   let startCursor = undefined
+  let retryCount = 0
+  const MAX_RETRIES = 3
 
-  while (hasMore) {
-    const response = await notion.pages.properties.retrieve({
-      page_id: pageId,
-      property_id: propertyId,
-      start_cursor: startCursor,
-    })
+  while (hasMore && retryCount < MAX_RETRIES) {
+    try {
+      const response = await Notion.pages.properties.retrieve({
+        page_id: pageId,
+        property_id: propertyId,
+        start_cursor: startCursor,
+      })
 
-    allIds = allIds.concat(response.results.map(item => item.relation.id))
-
-    hasMore = response.has_more
-    startCursor = response.next_cursor
+      allIds = allIds.concat(response.results.map(item => item.relation.id))
+      hasMore = response.has_more
+      startCursor = response.next_cursor
+      retryCount = 0 // Скидаємо лічильник спроб після успішного запиту
+      
+      // Якщо є ще сторінки, додаємо невелику затримку
+      if (hasMore) {
+        await new Promise(resolve => setTimeout(resolve, 100))
+      }
+    } catch (error) {
+      retryCount++
+      console.error(`Спроба ${retryCount} отримати зв'язки не вдалася:`, error.message)
+      
+      if (retryCount < MAX_RETRIES) {
+        // Чекаємо перед повторною спробою
+        await new Promise(resolve => setTimeout(resolve, 1000 * retryCount))
+      } else {
+        console.error(`Досягнуто максимальну кількість спроб для pageId: ${pageId}`)
+        hasMore = false
+      }
+    }
   }
 
   return allIds
 }
 
-function processAnimeData(pages) {
-  return pages.map(page => ({
-    id: page.id,
-    hikkaUrl: page.properties.Hikka.url,
-    cover: page.cover?.external?.url || page.cover?.file?.url,
-    // poster:
-    title: page.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
-    romaji: page.properties.Ромаджі.rich_text[0]?.plain_text || '',
-    type: page.properties['Тип медіа'].multi_select[0]?.name || '',
-    format: page.properties.Формат.select?.name || '',
-    year: page.properties['Рік виходу'].rich_text[0]?.plain_text || '',
-    episodes: page.properties['Кількість серій'].rich_text[0]?.plain_text || '',
-    releases: page.properties['🗂️ Релізи команд'].relation || []
-  }))
+async function fetchHikkaData(urls) {
+  const animeData = []
+  let count = 0
+  
+  for (const url of urls) {
+    try {
+      const slug = url.split('/').pop()
+      const response = await axios.get(`${HIKKA_API_URL}/${slug}`)
+      const anime = response.data
+
+      animeData.push({
+        url,
+        poster: anime.poster,
+        synonyms: anime.synonyms,
+        score: anime.score,
+        scored_by: anime.scored_by
+      })
+      
+      count++
+      console.log(`${count} ${anime.title_ua || anime.title_jp}`)
+    } catch (error) {
+      console.error(`Помилка отримання даних ${url}:`, error.message)
+      continue
+    }
+  }
+
+  return animeData
+}
+
+async function processAnimeData(pages) {
+  const hikkaUrls = pages
+    .filter(page => page.properties.Hikka?.url)
+    .map(page => page.properties.Hikka.url)
+
+  const hikkaData = await fetchHikkaData(hikkaUrls)
+
+  return pages.map(page => {
+    const hikka_url = page.properties.Hikka?.url
+    const hikkaInfo = hikkaData.find(item => item.url === hikka_url)
+    
+    return {
+      id: page.id,
+      last_edited: page.last_edited_time,
+      hikka_url,
+      cover: page.cover?.external?.url || page.cover?.file?.url,
+      poster: hikkaInfo?.poster,
+      title: page.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
+      romaji: page.properties.Ромаджі.rich_text[0]?.plain_text,
+      synonyms: page.properties.Синоніми.rich_text?.flatMap(i => i.plain_text.split('\n')),
+      hikkaSynonyms: hikkaInfo?.synonyms,
+      type: page.properties['Тип медіа'].multi_select[0]?.name,
+      format: page.properties.Формат.select?.name,
+      year: page.properties['Рік виходу'].rich_text[0]?.plain_text,
+      scoreMAL: hikkaInfo?.score,
+      scoredbyMAL: hikkaInfo?.scored_by,
+      episodes: page.properties['Кількість серій'].rich_text[0]?.plain_text,
+      releases: page.properties['🗂️ Релізи команд']?.relation,
+      posters: page.properties.Постер?.files.map(i => ({
+        name: i.name,
+        url: i.external?.url || i.file.url
+      })),
+    }
+  })
 }
 
 function processReleaseData(pages) {
   return pages.map(page => ({
     id: page.id,
+    last_edited: page.last_edited_time,
     animeIds: page.properties['Тайтл']?.relation.map(r => r.id) || [],
     title: page.properties['Name'].title[0]?.plain_text || 'Без назви',
-    cover: page.cover?.external?.url || page.cover?.file?.url || '',
-    // poster:
-    teams: page.properties['Команда']?.relation || [],
+    cover: page.cover?.external?.url || page.cover?.file.url,
+    teams: page.properties['Команда']?.relation,
     status: page.properties['Статус'].status?.name || 'Невідомо',
     episodes: page.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
     torrent: page.properties['Торент'].select?.name || 'Невідомо',
@@ -127,7 +219,11 @@ function processReleaseData(pages) {
       .map(link => ({
         text: link.plain_text,
         href: link.href
-      }))
+      })),
+    posters: page.properties.Постер?.files.map(i => ({
+      name: i.name,
+      url: i.external?.url || i.file.url
+    })),
   }))
 }
 
@@ -137,49 +233,31 @@ function processTeamData(pages) {
     id: page.id,
     last_edited: page.last_edited_time,
     cover: page.cover,
+    logo: page.icon?.external?.url || page.icon?.file?.url,
     name: page.properties['Назва команди'].title[0]?.plain_text || 'Невідомо',
     // second info
     status: page.properties.Статус.select?.name || 'Невідомо',
     type_activity: page.properties['Тип робіт'].multi_select.map(item => item.name) || 'Невідомо',
-    members: page.properties['Склад команди'].relation || [],
-    anime_releases: page.properties['Релізи аніме'].relation || [],
+    members: page.properties['Склад команди'].relation,
+    anime_releases: page.properties['Релізи аніме'].relation,
     // social info
-    site: page.properties.Сайт.url,
-    anitube: page.properties.AniTube.url,
-    youtube: page.properties.YouTube.url,
-    insta: page.properties.Instagram.url,
-    tg: page.properties.Telegram.url,
-    tg_video: page.properties['ТҐ релізи'].url
+    site: page.properties.Сайт?.url,
+    anitube: page.properties.AniTube?.url,
+    youtube: page.properties.YouTube?.url,
+    insta: page.properties.Instagram?.url,
+    tg: page.properties.Telegram?.url,
+    tg_video: page.properties['ТҐ релізи']?.url
   }))
 }
 
 async function importData(databaseId, dbTitle, outputFileName, propertiesToExpand = [], processFunction) {
   console.log(`Початок імпорту даних для ${outputFileName}...`)
-
-  let previousData = {}
-  const outputFile = path.join(__dirname, '../json', outputFileName)
-  if (fs.existsSync(outputFile)) {
-    try {
-      const previousContent = fs.readFileSync(outputFile, 'utf8')
-      const previousPages = JSON.parse(previousContent)
-      previousData = previousPages.reduce((acc, page) => {
-        acc[page.id] = hashObject(page)
-        return acc
-      }, {})
-    } catch (error) {
-      console.error(`Помилка при читанні попередніх даних: ${error.message}`)
-    }
-  }
-
-  const pages = await getAllPages(databaseId, dbTitle, propertiesToExpand, previousData)
-  const processedData = processFunction(pages)
-
-  try {
-    fs.writeFileSync(outputFile, JSON.stringify(processedData, null, 2))
-    console.log(`Імпорт завершено. Записано ${processedData.length} елементів до файлу ${outputFile}`)
-  } catch (error) {
-    console.error(`Помилка при записі даних: ${error.message}`)
-  }
+  const pages = await getAllPages(databaseId, dbTitle, propertiesToExpand)
+  await fs.writeFile(
+    path.join(__dirname, '../json', outputFileName),
+    JSON.stringify(await processFunction(pages), null, 2)
+  )
+  console.log('Імпорт завершено.')
 }
 
 async function importAnimeTitles() {
@@ -198,16 +276,13 @@ async function importTeams() {
 }
 
 async function runAllImports() {
-  console.log("Початок імпорту всіх даних...")
-  await importAnimeTitles()
-  await importReleases()
+  // await importAnimeTitles()
+  // await importReleases()
   await importTeams()
-  // getFirstPage(process.env.NOTION_ANIME_TITLES_DB)
-  // getFirstPage(process.env.NOTION_ANIME_RELEASES_DB)
-  // getFirstPage(process.env.NOTION_TEAMS_DB)
-  console.log("Всі імпорти завершено успішно.")
+  // getPageById('11db3f56-453c-4de7-97f3-3e2296abc4a9')
+  // .then(page => {
+  //   console.log('URL:', JSON.stringify(page, null, 2))
+  // })
 }
 
-runAllImports().catch(error => {
-  console.error("Виникла помилка під час виконання імпорту:", error)
-})
+runAllImports()
