@@ -1,13 +1,15 @@
 /* == Навігація == */
 nav {
     position: fixed;
-    left: 0;
+    /* left: 0; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
+    /* align-items: center; */
     width: 100%;
-    padding: 0 1em;
     height: var(--nav-height);
+    padding: var(--nav-padding-y) var(--main-padding-x);
+    /* height: var(--nav-height); */
     backdrop-filter: blur(4px);
     border-bottom: 1px solid transparent;
     transition: .3s;
@@ -16,7 +18,6 @@ nav {
   nav:has(.scrolled) {
     background: var(--dark-80);
     border-color: var(--light-20);
-    /* backdrop-filter: blur(4px); */
   }
   nav a {
     text-decoration: none;
@@ -33,7 +34,7 @@ nav {
 }
 .breadcrumbs {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: .5em;
 }
 .breadcrumbs span:before {
@@ -51,7 +52,7 @@ nav {
     gap: .5em;
     background: var(--light-05);
     border: 1px solid var(--light-10);
-    padding: .5em 1em .6em;
+    padding: 0 1em;
     border-radius: var(--radius);
     transition: .3s;
     cursor: pointer;

@@ -1,10 +1,10 @@
 footer {
-    width: 100%;
-    margin-top: auto;
+    /* width: 100%; */
+    /* margin-top: auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .5em 1em;
+    padding: .5em 2em;
     background: var(--dark-80);
     backdrop-filter: blur(4px);
 }

@@ -1,23 +1,26 @@
 .modal {
+    display: block;
+    position: fixed;
+    /* z-index: 1000; */
+    /* left: 0; */
+    /* top: 0; */
+    width: 100%;
+    /* height: 100%; */
+    color: inherit;
+    background-color: rgba(0,0,0,0.4);
     visibility: hidden;
     opacity: 0;
     transition: visibility .3s 1s, opacity .3s;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.4);
-    backdrop-filter: blur(4px);
-    transition: backdrop-filter 1s;
 }
-.modal.is-visible {
+.modal::backdrop {
+    backdrop-filter: blur(4px);
+
+}
+.modal[open] {
     visibility: visible;
     opacity: 1;
-    transition: visibility .3s , opacity .3s;
 }
-.modal-content {
+#searchModal {
     /* width: 80%; */
     max-width: 600px;
     margin: 5% auto;
@@ -28,7 +31,7 @@
     backdrop-filter: blur(8px);
 }
 
-.modal-content .close {
+#searchModal .modal-close {
     position: absolute;
     right: 0;
     top: 12px;
@@ -40,28 +43,32 @@
     cursor: pointer;
 }
 
-
-.modal-content > input {
+#searchInput {
     width: 100%;
+    margin: 1em 0;
 }
-.modal-content .search-type [type="radio"] {
+#searchModal [type="radio"] {
     display: none;
 }
-.modal-content .search-type label {
-    padding: .1em 1em .2em;
+#searchModal .search-types label {
+    padding: .5em 1em;
     border-radius: var(--radius);
     cursor: pointer;
 }
-.modal-content .search-type label:has(input:checked) {
+#searchModal .search-types label:has(input:checked) {
     background: var(--light-20);
 }
 
 #searchResults {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
     overflow-y: auto;
     max-height: 60vh;
+}
+#searchResults > p {
+    text-align: center;
 }
 .search-result {
     display: flex;
@@ -86,8 +93,4 @@
     object-fit: cover;
     margin-right: 10px;
     border-radius: var(--radius);
-}
-
-.search-type {
-    margin-bottom: 10px;
 }

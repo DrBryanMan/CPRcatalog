@@ -7,7 +7,8 @@
   position: absolute;
   left: 0;
   top: 0;
-  /* margin: -4em -4em 0; */
+  max-height: 100vh;
+  overflow: hidden;
   z-index: -1;
   mask-image: linear-gradient(#fff, transparent);
   opacity: .4;

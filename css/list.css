@@ -1,9 +1,9 @@
 /* == Каталог == */
 /* Загально для списків */
 .items-list {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     justify-content: center;
     /* justify-items: center; */
     align-items: flex-start;
@@ -35,16 +35,18 @@
 .card {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     overflow: hidden;
-    width: 100%;
-    max-width: 170px;
+    /* width: 100%; */
+    /* gap: .3em; */
+    /* max-width: 170px; */
     background: var(--dark-80);
     border-radius: var(--radius);
     outline: 1px solid var(--light-20);
     padding: 4px;
     transition: .3s;
     cursor: pointer;
-    /* aspect-ratio: 2/3; */
+    /* aspect-ratio: 1/2; */
     z-index: 0;
 }
 .card:hover {
@@ -56,7 +58,7 @@
     opacity: .4;
 }
 .poster-box {
-    max-height: 230px;
+    max-height: 300px;
     overflow: hidden;
     border-radius: var(--radius);
 }
@@ -86,8 +88,10 @@
 }
 
 /* Для картки аніме */
-.anime-card .info {
-    /* padding: 4px; */
+.card .info {
+    padding: 4px;
+    text-align: center;
+    width: 100%;
 }
 
 /* Для картки релізу в тайтлі */

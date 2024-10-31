@@ -1,164 +1,168 @@
 :root {
-    --nav-height: 4em;
-    --footer-height: 4em;
-    --border-color: 1px solid gray;
-    --radius: 8px;
-    --text: var(--light);
-    --link: #C39BD3;
-    --link-hover: #9B59B6;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background: var(--dark);
-    background-image: linear-gradient(to bottom,
-      var(--accent-30),
-      var(--accent-10),
-      var(--accent-10));
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: var(--text);
-  }
-  .material-symbols-rounded {
-    vertical-align: middle;
-    font-variation-settings:
-    'wght' 200,
-    'opsz' 2
+  --nav-main-height: 2.5em;
+  --nav-padding-y: .5em;
+  --nav-height: calc(var(--nav-main-height) + var(--nav-padding-y) * 2);
+  --main-padding-x: 2em;
+  --footer-height: 4em;
+  --border-color: 1px solid gray;
+  --radius: 8px;
+  --text: var(--light);
+  --link: #C39BD3;
+  --link-hover: #9B59B6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--dark);
+  background-image: linear-gradient(to bottom,
+    var(--accent-30),
+    var(--accent-10),
+    var(--accent-10));
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: var(--text);
+}
+.material-symbols-rounded {
+  vertical-align: middle;
+  font-variation-settings:
+  'wght' 200,
+  'opsz' 2
 }
   
-  #app {
-    padding: var(--nav-height) 4em 1em;
-  }
-  h2, h3, h4 {
-    font-weight: 500;
-  }
-  button {
-    cursor: pointer;
-    background: #fff3;
-    color: var(--text);
-    font-family: inherit;
-    line-height: 1;
-    border: unset;
-    padding: .5em;
-    border-radius: var(--radius);
-    transition: .3s;
-  }
-  button:hover {
-    background: #fff5;
-  }
-  
-  .page-block {
-    padding: 10px;
-    border: 1px solid var(--accent-50);
-    border-radius: var(--radius);
-    color: var(--text);
-    background: var(--light-10);
-    backdrop-filter: blur(4px);
-    box-shadow: 0 0 4px 2px var(--dark-50);
-    transition: .3s;
-  }
-  .page-block > h3 {
-    position: relative;
-    border-left: .5rem solid var(--accent);
-    padding-left: 10px;
-    margin-bottom: 10px;
-    transition: .3s;
-  }
-  
-  .anime-detail > h3:after {
-    content: "";
-    position: absolute;
-    background: linear-gradient(to right, var(--accent-20), transparent);
-    left: 0;
-    height: 100%;
-    width: 0%;
-    transition: 0.3s;
-  }
-  
-  .anime-detail:hover > h3:after, .choosen-title:hover h3:after {
-    width: 20%;
-  }
-  
-  /* == Деталі == */
-  .teams-logos img {
-    height: 15px;
-    width: auto;
-    border-radius: 50%;
-    margin-right: .3em;
-  }
-  
-  /* == Інше == */
-  .truncate {
-    display: block;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  
-  /* Loader */
-  #loadingОverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  }
-  
-  .loader {
-    border: 5px solid var(--accent-50);
-    border-top: 5px solid var(--accent);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  /* інпут пошуку у списках */
-  input {
-    padding: .5em;
-    /* margin-bottom: 1em; */
-    color: var(--text);
-    background: none;
-    border: 1px solid var(--light-20);
-    border-radius: var(--radius);
-    transition: .3s;
-  }
-  input:hover {
-    border: 1px solid var(--accent);
-  }
-  input:focus {
-    border-color: var(--accent);
-    outline: none;
-    box-shadow: 0 0 4px var(--accent);
-  }
-  
-  /* Scroll */
-  ::-webkit-scrollbar {
-    width: 12px;
-    transition: all .3s;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--accent);
-  }
-  ::-webkit-scrollbar-thumb {
-    background: var(--accent-50);
-    border-radius: 4px;
-  }
+#app {
+  padding: var(--nav-height) var(--main-padding-x) 1em;
+  flex-grow: 1;
+}
+h2, h3, h4 {
+  font-weight: 500;
+}
+button {
+  cursor: pointer;
+  background: #fff3;
+  color: var(--text);
+  font-family: inherit;
+  line-height: 1;
+  border: unset;
+  padding: 0 .5em;
+  border-radius: var(--radius);
+  transition: .3s;
+}
+button:hover {
+  background: #fff5;
+}
+
+.page-block {
+  padding: 10px;
+  border: 1px solid var(--accent-50);
+  border-radius: var(--radius);
+  color: var(--text);
+  background: var(--light-10);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 4px 2px var(--dark-50);
+  transition: .3s;
+}
+.page-block > h3 {
+  position: relative;
+  border-left: .5rem solid var(--accent);
+  padding-left: 10px;
+  margin-bottom: 10px;
+  transition: .3s;
+}
+
+.anime-detail > h3:after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to right, var(--accent-20), transparent);
+  left: 0;
+  height: 100%;
+  width: 0%;
+  transition: 0.3s;
+}
+
+.anime-detail:hover > h3:after, .choosen-title:hover h3:after {
+  width: 20%;
+}
+
+/* == Деталі == */
+.teams-logos img {
+  height: 15px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: .3em;
+}
+
+/* == Інше == */
+.truncate {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Loader */
+#loadingОverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 5px solid var(--accent-50);
+  border-top: 5px solid var(--accent);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* інпут пошуку у списках */
+input {
+  padding: .5em;
+  /* margin-bottom: 1em; */
+  color: var(--text);
+  background: none;
+  border: 1px solid var(--light-20);
+  border-radius: var(--radius);
+  transition: .3s;
+}
+input:hover {
+  border: 1px solid var(--accent);
+}
+input:focus {
+  border-color: var(--accent);
+  outline: none;
+  box-shadow: 0 0 4px var(--accent);
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+  width: 12px;
+  transition: all .3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-50);
+  border-radius: 4px;
+}
