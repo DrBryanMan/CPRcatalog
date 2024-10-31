@@ -168,15 +168,37 @@ async function fetchHikkaData(urls) {
 }
 
 async function processAnimeData(pages) {
-  const hikkaUrls = pages
-    .filter(page => page.properties.Hikka?.url)
-    .map(page => page.properties.Hikka.url)
+  let previousHikkaData = []
+  const existingDataPath = path.join(__dirname, '../json/AnimeTitlesDB.json')
+  previousHikkaData = JSON.parse(await fs.readFile(existingDataPath, 'utf8'))
 
-  const hikkaData = await fetchHikkaData(hikkaUrls)
+  const hikkaUrls = pages
+  .filter(page => 
+    page.properties.Hikka?.url && 
+    (!previousHikkaData.some(item => item.hikka_url === page.properties.Hikka.url) || 
+     !previousHikkaData.some(item => item.poster))
+  )
+  // .filter(page => page.properties.Hikka?.url)
+  .map(page => page.properties.Hikka.url)
+
+  console.log(`Знайдено нових URL для завантаження: ${hikkaUrls.length}`)
+
+  const newHikkaData = hikkaUrls.length === 0 
+    ? (console.log("Не знайдено нових записів."), [])
+    : await fetchHikkaData(hikkaUrls)
+    .then(data => {
+        console.log(`Успішно завантажено ${data.length} записів`)
+        return data
+    })
+
+  const combinedHikkaData = [
+    ...previousHikkaData.filter(item => item.poster), // Фільтруємо старі записи з постером
+    ...newHikkaData
+  ]
 
   return pages.map(page => {
     const hikka_url = page.properties.Hikka?.url
-    const hikkaInfo = hikkaData.find(item => item.url === hikka_url)
+    const hikkaInfo = combinedHikkaData.find(item => item.url === hikka_url)
     
     return {
       id: page.id,
