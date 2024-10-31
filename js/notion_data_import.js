@@ -276,8 +276,8 @@ async function importTeams() {
 }
 
 async function runAllImports() {
-  // await importAnimeTitles()
-  // await importReleases()
+  await importAnimeTitles()
+  await importReleases()
   await importTeams()
   // getPageById('11db3f56-453c-4de7-97f3-3e2296abc4a9')
   // .then(page => {
