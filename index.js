@@ -1,6 +1,6 @@
 import * as Functions from './js/functions.js'
 import { initSearch } from './js/search.js'
-import { loadData, allAnimes, allReleases, allTeams } from './js/loadData.js'
+import { loadData } from './js/loadData.js'
 import { router, setupRoutes } from './js/router.js'
 
 

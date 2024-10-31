@@ -9,9 +9,9 @@ export async function renderHomePage() {
     app.innerHTML = ''
     const randomAnimeSection = renderRandomAnime()
     const statsSection = renderStatistics()
-    const recentAnimesSection = renderReleasesSection(allAnimes.slice(0, 6), 'Останні додані аніме', 'Аніме', '/animes')
-    const recentReleasesSection = renderReleasesSection(allReleases.slice(0, 6), 'Останні додані релізи', 'Реліз', '/releases')
-    const currentReleasesSection = renderReleasesSection(allReleases.slice(0, 6), 'Поточні релізи', 'Реліз', '/releases?status=В процесі')
+    const recentAnimesSection = renderReleasesSection(allAnimes.slice(0, 5), 'Останні додані аніме', 'Аніме', '/animes')
+    const recentReleasesSection = renderReleasesSection(allReleases.slice(0, 5), 'Останні додані релізи', 'Реліз', '/releases')
+    const currentReleasesSection = renderReleasesSection(allReleases.slice(0, 5), 'Поточні релізи', 'Реліз', '/releases?status=В процесі')
 
     app.appendChild(randomAnimeSection)
     app.appendChild(recentAnimesSection)
@@ -53,7 +53,7 @@ function renderRandomAnime() {
         const container = randomAnimeSection.querySelector('#randomAnime')
         container.innerHTML = `
             <div class='poster-box'>
-                <img src='${anime.posters[0] || anime.poster}' loading="lazy">
+                <img src='${anime.posters[0]?.url || anime.poster}' loading="lazy">
             </div>
             <div class='info'>
                 <h3 class='truncate'>${anime.title}</h3>
@@ -95,17 +95,18 @@ function renderReleasesSection(items, title, type, route) {
 
     for (const item of items) {
         const listItem = document.createElement('div')
+        const divider = ' • '
 
         switch (type) {
             case 'Аніме':
                 listItem.classList.add('anime-card', 'card')
                 listItem.innerHTML = `
                     <div class='poster-box'>
-                        <img src='${item.posters[0] || item.poster}' loading="lazy">
+                        <img src='${item.posters[0]?.url || item.poster}' loading="lazy">
                     </div>
                     <div class='info'>
-                        <span class='truncate' title='${item.title}'>${item.title}</span>
-                        <small>${item.year} / ${item.format}</small>
+                        <h3 class='truncate' title='${item.title}'>${item.title}</h3>
+                        <small>${item.year}${item.year ? divider : ''}${item.format}</small>
                     </div>
                 `
                 listItem.onclick = () => router.navigate(`/anime/${item.id}`)
@@ -118,7 +119,7 @@ function renderReleasesSection(items, title, type, route) {
                 // <img src='${animeData?.cover || item?.cover || '' }' class='release-poster'>
                 listItem.innerHTML = `
                     <div class='poster-box'>
-                        <img src='${item.poster || animeData?.posters[0] || animeData?.poster || ''}'>
+                        <img src='${item.poster || animeData?.posters[0]?.url || animeData?.poster || ''}'>
                     </div>
                     <div class='release-info'>
                         <h3 class='truncate'>${item.title}</h3>
