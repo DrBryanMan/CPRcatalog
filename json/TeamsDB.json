@@ -1,8 +1,456 @@
 [
   {
-    "id": "ac440ca1-8e44-488d-ad9d-e640956f59e3",
-    "last_edited": "2024-09-04T09:57:00.000Z",
+    "id": "12d7667f-790e-80c8-b0bc-e27491ae6ace",
+    "last_edited": "2024-10-28T12:31:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730118686/Koliedo_voice_iz7ppe.jpg",
+    "name": "Koliedo VoiceUa",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/koliedovoice",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80f1-a0e5-f7024c40c953",
+    "last_edited": "2024-10-28T12:29:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730118543/Wonder_team_b30ca6.jpg",
+    "name": "Wonder Team",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/wonder_team_rezerv",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80cb-80cc-fe8d183cf651",
+    "last_edited": "2024-10-28T12:24:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730118229/RedPanda_roytyy.jpg",
+    "name": "RedPanda Studio",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/redpandaStudio",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80d9-bb23-d31008a04a47",
+    "last_edited": "2024-10-28T12:04:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730117017/Onima_bxam6c.jpg",
+    "name": "ONIMA",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/onima_ua",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80f2-adbf-c23c2d4ba5ce",
+    "last_edited": "2024-10-28T12:01:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730116835/Vberezhna_mwq9eg.jpg",
+    "name": "Vberezhna",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/VberezhnaDub",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80f7-b344-d7924ade260e",
+    "last_edited": "2024-10-28T11:59:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730116716/Zetsuko_iovcqx.jpg",
+    "name": "Zetsuko продакшн",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/zetsuko_pro",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80b1-b5ad-ce471ed8bac4",
+    "last_edited": "2024-10-28T11:42:00.000Z",
+    "cover": null,
+    "name": "KoiDub",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-807d-a93e-e412137f207d",
+    "last_edited": "2024-10-28T11:10:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730113743/%D0%92%D1%83%D0%B9%D0%BA%D0%BE%D0%94%D0%B0%D0%B1_jaoi1y.jpg",
+    "name": "ВуйкоДаб",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/vyikodub",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-8092-b529-c2e6b74d939c",
+    "last_edited": "2024-10-28T11:09:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730113743/Beysub_studio_raumd5.jpg",
+    "name": "BeySub Studio",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/beysub_studio",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-8032-84d0-da7790d7a47d",
+    "last_edited": "2024-10-28T10:44:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730112230/Volfin_studio_juo7kb.jpg",
+    "name": "Volfin Studio🐺",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/volfin_studio_ukrdub1",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-8095-a60c-cdace47c102a",
+    "last_edited": "2024-10-28T10:41:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730112044/Yanichishi_b8kq9j.jpg",
+    "name": "Yanichishi",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-809b-a4e7-d5847c8da930",
+    "last_edited": "2024-10-28T10:36:00.000Z",
+    "cover": null,
+    "name": "Кухонний продакшн",
+    "status": "Припинено",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80c6-a559-d29adc6bf98a",
+    "last_edited": "2024-10-28T10:28:00.000Z",
+    "cover": null,
+    "name": "SunDragon",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/SunDragonStudio",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-8065-99df-f5d4ea095a13",
+    "last_edited": "2024-10-28T10:26:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730111122/%D0%9F%D1%96%D0%B4_%D0%BA%D0%BE%D1%86%D0%B8%D0%BA%D0%BE%D0%BC_j8jmv9.jpg",
+    "name": "Під коциком",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/underblanket_public",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-801a-94dd-e39f3ea189c7",
+    "last_edited": "2024-10-28T10:26:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730111113/Inel_wcxg6g.jpg",
+    "name": "INEL",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/inelvoice",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-804e-976f-cb98143fbcee",
+    "last_edited": "2024-10-28T09:09:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B5_%D1%87%D0%B0%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_yelier.jpg",
+    "name": "Шалене чаювання",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80b9-a9bd-e22694401905",
+    "last_edited": "2024-10-28T09:11:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097987/Майстерня_слів_tmxigb.jpg",
+    "name": "Майстерня слів",
+    "status": "Невідомо",
+    "type_activity": [
+      "Аніме"
+    ],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/maisterniasliv",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-8021-838e-d578e7a12628",
+    "last_edited": "2024-10-28T09:08:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098031/InariOkami_unfosv.jpg",
+    "name": "InariOkami",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80af-8a86-d406fe87c3e8",
+    "last_edited": "2024-10-28T09:12:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098035/Kawaii_sound_h6pgit.jpg",
+    "name": "Kawaii Sound",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/blindsvoice",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80c7-a579-cf7086e96f5e",
+    "last_edited": "2024-10-28T09:08:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099885/Urmanga_hz5pdg.jpg",
+    "name": "Urmanga",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80f4-9b0d-cb29a7f34249",
+    "last_edited": "2024-10-28T09:14:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098030/Hajime_ej3gux.jpg",
+    "name": "HajimeDub",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/hajime_dub",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80e3-847b-d7ac3cd18f21",
+    "last_edited": "2024-10-28T11:14:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730105775/TeaSound_njrbao.jpg",
+    "name": "TeaSound (Anisin)",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-802b-b49d-e26a92793ef0",
+    "last_edited": "2024-10-28T09:14:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098027/Futashine_aa4mra.jpg",
+    "name": "Futashine",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/futashine_ua",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-8063-9f77-cbd78e2498cd",
+    "last_edited": "2024-10-28T09:04:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730106091/Loliconsdub_epqnlh.jpg",
+    "name": "LoliconSDub",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80d2-a82d-e1e4cdce383b",
+    "last_edited": "2024-10-28T09:14:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098020/Family_Voice_ggla17.jpg",
+    "name": "Familly Voice",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/FamilLyVoiceUA",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-8093-811a-ca7b7ba04a68",
+    "last_edited": "2024-10-28T09:12:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098008/Animesh_le7gpu.jpg",
+    "name": "Animesh",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/AnimeshStudio",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-80fa-9215-eb8347e2047f",
+    "last_edited": "2024-10-28T09:12:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098008/Anicoin_xfaicz.jpg",
+    "name": "Anicoin",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": "https://t.me/AniCoin_official",
+    "tg_video": null
+  },
+  {
+    "id": "12d7667f-790e-8087-9c3a-ef44c2b51e91",
+    "last_edited": "2024-10-28T07:29:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097984/Корчма_лелеки_smsieh.jpg",
+    "name": "Корчма лелеки",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "ac440ca1-8e44-488d-ad9d-e640956f59e3",
+    "last_edited": "2024-10-28T08:57:00.000Z",
+    "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730105778/SubAutumn_rycm5q.jpg",
     "name": "SubAutumn",
     "status": "Невідомо",
     "type_activity": [],
@@ -39,8 +487,9 @@
   },
   {
     "id": "e0e6d489-9d38-4279-999d-c827005d570c",
-    "last_edited": "2024-09-02T10:42:00.000Z",
+    "last_edited": "2024-10-28T08:08:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102911/Aniua_syjgze.jpg",
     "name": "AniUA",
     "status": "Невідомо",
     "type_activity": [],
@@ -94,8 +543,9 @@
   },
   {
     "id": "5ed4b7c4-90e7-4414-9971-0665014babc7",
-    "last_edited": "2024-09-09T07:09:00.000Z",
+    "last_edited": "2024-10-28T08:10:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098014/CloverDUB_qu4gri.jpg",
     "name": "CloverDUB",
     "status": "Невідомо",
     "type_activity": [
@@ -134,8 +584,9 @@
   },
   {
     "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb",
-    "last_edited": "2024-05-03T15:03:00.000Z",
+    "last_edited": "2024-10-28T08:04:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098003/Anifun_comvwh.jpg",
     "name": "AniFunUa",
     "status": "Невідомо",
     "type_activity": [
@@ -176,8 +627,9 @@
   },
   {
     "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94",
-    "last_edited": "2024-05-28T12:04:00.000Z",
+    "last_edited": "2024-10-28T08:16:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730103346/Slobozhanec_pqlhxt.jpg",
     "name": "ES",
     "status": "Невідомо",
     "type_activity": [
@@ -213,13 +665,14 @@
     "site": null,
     "anitube": "https://anitube.in.ua/tags/ES/",
     "insta": null,
-    "tg": "https://t.me/enleeslobozhanec",
+    "tg": "https://t.me/eserasedspace",
     "tg_video": "https://t.me/esarhiw"
   },
   {
     "id": "244620f8-bcff-4260-9fbb-52e806d77f0b",
-    "last_edited": "2024-09-03T09:12:00.000Z",
+    "last_edited": "2024-10-28T08:15:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730103033/Baibako_blribg.jpg",
     "name": "Baibako",
     "status": "Невідомо",
     "type_activity": [],
@@ -255,8 +708,9 @@
   },
   {
     "id": "f212e94e-5cea-4100-8cdc-c172283a8cca",
-    "last_edited": "2024-08-29T20:15:00.000Z",
+    "last_edited": "2024-10-28T07:34:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730100817/Legat_fvbx2z.jpg",
     "name": "Леґат аніме переклади",
     "status": "Невідомо",
     "type_activity": [
@@ -276,8 +730,9 @@
   },
   {
     "id": "05058cce-1d77-4dde-93d3-4a35bbc09187",
-    "last_edited": "2024-08-13T11:10:00.000Z",
+    "last_edited": "2024-10-28T08:58:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099902/Salovpalo_zcdiag.jpg",
     "name": "SaloVpalo",
     "status": "Невідомо",
     "type_activity": [
@@ -293,8 +748,9 @@
   },
   {
     "id": "cd91a3da-d4fa-4082-9496-d685558eca2c",
-    "last_edited": "2024-08-29T21:57:00.000Z",
+    "last_edited": "2024-10-28T09:03:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102308/Loldub_rxeivs.jpg",
     "name": "LOLDubbUA",
     "status": "Невідомо",
     "type_activity": [],
@@ -308,8 +764,9 @@
   },
   {
     "id": "3bae60e3-cc81-40c9-96b0-c4f735f50a8f",
-    "last_edited": "2024-02-23T08:46:00.000Z",
+    "last_edited": "2024-10-28T08:00:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102305/Цікава_ідея_zibg7g.jpg",
     "name": "Цікава Ідея",
     "status": "Невідомо",
     "type_activity": [
@@ -325,8 +782,9 @@
   },
   {
     "id": "4b564b91-f56e-4096-8329-bad003b4f6d1",
-    "last_edited": "2024-08-29T19:54:00.000Z",
+    "last_edited": "2024-10-28T08:01:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102302/ТВІЙ_v8sa1i.jpg",
     "name": "ТВій production (Studio Sengoku)",
     "status": "Невідомо",
     "type_activity": [
@@ -342,8 +800,9 @@
   },
   {
     "id": "36c7a61b-6c94-4fa4-bbf8-23b26ab4b3af",
-    "last_edited": "2024-08-29T21:50:00.000Z",
+    "last_edited": "2024-10-28T09:02:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102304/Project_ua_lines_yovil4.jpg",
     "name": "Project U&A Lines",
     "status": "Невідомо",
     "type_activity": [
@@ -359,8 +818,9 @@
   },
   {
     "id": "2fc7d863-3401-4aad-b728-b5c89570348d",
-    "last_edited": "2024-08-29T20:10:00.000Z",
+    "last_edited": "2024-10-28T08:01:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102301/Раш_тейлз_focosp.jpg",
     "name": "Раш Тейлз",
     "status": "Невідомо",
     "type_activity": [
@@ -376,8 +836,9 @@
   },
   {
     "id": "3f706283-ef2c-47a2-b776-8ee092a97e53",
-    "last_edited": "2024-08-29T20:18:00.000Z",
+    "last_edited": "2024-10-28T07:34:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730100390/В_одне_рило_gzbmxn.jpg",
     "name": "В одне рило",
     "status": "Невідомо",
     "type_activity": [
@@ -427,8 +888,9 @@
   },
   {
     "id": "94116cd0-a6cc-4cf8-9a25-592ae3d8dc30",
-    "last_edited": "2024-08-29T20:19:00.000Z",
+    "last_edited": "2024-10-28T08:32:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099883/Wakamania_qfjr1b.jpg",
     "name": "Wakamania",
     "status": "Невідомо",
     "type_activity": [
@@ -445,8 +907,9 @@
   },
   {
     "id": "ca36f154-d4eb-4c32-9c6d-87568200c974",
-    "last_edited": "2024-08-29T20:20:00.000Z",
+    "last_edited": "2024-10-28T08:32:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099883/Vrdub_vc3s5o.jpg",
     "name": "VRDub",
     "status": "Невідомо",
     "type_activity": [
@@ -466,8 +929,9 @@
   },
   {
     "id": "4ff4317c-83be-46ca-840a-d7c746b416a0",
-    "last_edited": "2024-08-29T20:21:00.000Z",
+    "last_edited": "2024-10-28T08:33:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099883/Voiceband_ovlhgc.jpg",
     "name": "Voices Band",
     "status": "Невідомо",
     "type_activity": [
@@ -500,8 +964,9 @@
   },
   {
     "id": "9e5493a1-c48d-4153-a339-6656c658a05d",
-    "last_edited": "2024-08-29T20:22:00.000Z",
+    "last_edited": "2024-10-28T08:33:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099884/Uture_vutqyc.jpg",
     "name": "UTure Studio",
     "status": "Невідомо",
     "type_activity": [
@@ -517,8 +982,9 @@
   },
   {
     "id": "cbbb61c2-fbdd-4884-a935-bc39c4152851",
-    "last_edited": "2024-08-11T09:52:00.000Z",
+    "last_edited": "2024-10-28T08:34:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099888/Unimay_ebn4wq.jpg",
     "name": "Unimay Media",
     "status": "Невідомо",
     "type_activity": [
@@ -559,8 +1025,9 @@
   },
   {
     "id": "53ee3f45-7dfc-4ed6-9859-f3928bc9201d",
-    "last_edited": "2024-08-29T20:30:00.000Z",
+    "last_edited": "2024-10-28T08:35:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099891/Ufdub_lwpwtc.jpg",
     "name": "UFDUB",
     "status": "Активна",
     "type_activity": [
@@ -576,8 +1043,9 @@
   },
   {
     "id": "869018c1-bfc3-43c5-b489-b4cb4468078c",
-    "last_edited": "2024-02-24T09:00:00.000Z",
+    "last_edited": "2024-10-28T11:46:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730115880/Uatyan_xt7egm.jpg",
     "name": "UAtyan",
     "status": "Невідомо",
     "type_activity": [
@@ -593,8 +1061,9 @@
   },
   {
     "id": "57a1c09f-b63b-46bb-8c3b-2d1995aceddb",
-    "last_edited": "2024-08-29T20:46:00.000Z",
+    "last_edited": "2024-10-28T08:35:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099889/Uaspf_dtjqgz.jpg",
     "name": "UASPF Studio / УКРОФОН",
     "status": "Невідомо",
     "type_activity": [
@@ -617,8 +1086,9 @@
   },
   {
     "id": "981b42c4-c174-4171-a775-bf16d2ec945e",
-    "last_edited": "2024-08-29T20:47:00.000Z",
+    "last_edited": "2024-10-28T08:35:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099889/Uamax_h65adg.jpg",
     "name": "UAMAX",
     "status": "Невідомо",
     "type_activity": [
@@ -641,8 +1111,9 @@
   },
   {
     "id": "9a8d5f14-1e2e-4944-b608-ced7beb11f4c",
-    "last_edited": "2024-08-29T20:52:00.000Z",
+    "last_edited": "2024-10-28T08:35:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099894/Trivial_v8lbbp.jpg",
     "name": "TrivialSound",
     "status": "Невідомо",
     "type_activity": [
@@ -658,8 +1129,9 @@
   },
   {
     "id": "342c38c9-7bb4-431f-95bb-9a6bdbca0ec6",
-    "last_edited": "2024-08-29T20:53:00.000Z",
+    "last_edited": "2024-10-28T08:36:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099895/Togarashi_agqbpd.jpg",
     "name": "Togarashi",
     "status": "Невідомо",
     "type_activity": [
@@ -675,8 +1147,9 @@
   },
   {
     "id": "6a7d6088-8ff1-4574-9660-cef9396617f2",
-    "last_edited": "2024-08-29T20:54:00.000Z",
+    "last_edited": "2024-10-28T08:36:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099896/Vop_m7w9su.jpg",
     "name": "The VOP",
     "status": "Невідомо",
     "type_activity": [
@@ -692,7 +1165,7 @@
   },
   {
     "id": "b9a9d450-f4d2-46f7-943d-891a5f004fab",
-    "last_edited": "2024-08-29T20:57:00.000Z",
+    "last_edited": "2024-10-28T11:13:00.000Z",
     "cover": null,
     "name": "Studio Sengoku",
     "status": "Невідомо",
@@ -709,8 +1182,9 @@
   },
   {
     "id": "589fabe4-4aab-4ddc-981a-e2fcd0a5a08e",
-    "last_edited": "2024-09-25T16:46:00.000Z",
+    "last_edited": "2024-10-28T08:54:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099897/Starfall_fr740v.jpg",
     "name": "Starfall",
     "status": "Невідомо",
     "type_activity": [
@@ -756,9 +1230,6 @@
       },
       {
         "id": "10c7667f-790e-8003-b6d3-e0c5af8826fc"
-      },
-      {
-        "id": "10c7667f-790e-80b6-95df-eea51972b0f0"
       }
     ],
     "site": null,
@@ -769,8 +1240,9 @@
   },
   {
     "id": "e31460bd-e66f-4bf5-941d-1d2bd3c12226",
-    "last_edited": "2024-08-29T21:45:00.000Z",
+    "last_edited": "2024-10-28T08:57:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099899/Skidub_nykm7n.jpg",
     "name": "SkiDUB",
     "status": "Невідомо",
     "type_activity": [
@@ -786,8 +1258,9 @@
   },
   {
     "id": "4a05a4c9-10be-45e3-8c7e-33caaeafea4a",
-    "last_edited": "2024-08-29T21:45:00.000Z",
+    "last_edited": "2024-10-28T08:58:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099900/Shirifugen_ecf33k.jpg",
     "name": "Shirifugen",
     "status": "Невідомо",
     "type_activity": [
@@ -820,8 +1293,9 @@
   },
   {
     "id": "7b7e41ce-a371-4932-886a-10008fa46faf",
-    "last_edited": "2024-08-29T21:46:00.000Z",
+    "last_edited": "2024-10-28T08:58:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099901/Saturnunion_ph2i6o.jpg",
     "name": "Saturn Union",
     "status": "Невідомо",
     "type_activity": [
@@ -837,8 +1311,9 @@
   },
   {
     "id": "0fd63a81-897a-44ba-b74d-221f9c0317eb",
-    "last_edited": "2024-08-29T21:47:00.000Z",
+    "last_edited": "2024-10-28T08:58:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099905/Sagita_v5nk9r.jpg",
     "name": "Sagita",
     "status": "Невідомо",
     "type_activity": [
@@ -854,8 +1329,9 @@
   },
   {
     "id": "3968c55c-3dbb-4c3f-9019-1b0c3766e995",
-    "last_edited": "2024-08-29T21:48:00.000Z",
+    "last_edited": "2024-10-28T08:58:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099905/Ryanha_vsbq85.jpg",
     "name": "RyanhaVoice (Рянха)",
     "status": "Невідомо",
     "type_activity": [
@@ -888,8 +1364,9 @@
   },
   {
     "id": "9e4b5486-f45a-44e0-8b50-7894ca5d9003",
-    "last_edited": "2024-08-29T21:49:00.000Z",
+    "last_edited": "2024-10-28T08:59:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099906/Quam_nl4a67.jpg",
     "name": "QUAM Project",
     "status": "Невідомо",
     "type_activity": [
@@ -932,8 +1409,9 @@
   },
   {
     "id": "0ba14e29-7324-4877-a036-ca165ef83e3b",
-    "last_edited": "2024-08-29T21:52:00.000Z",
+    "last_edited": "2024-10-28T09:07:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730106438/Philosoph_ua_lxr1tc.jpg",
     "name": "Philosoph UA",
     "status": "Невідомо",
     "type_activity": [
@@ -970,8 +1448,9 @@
   },
   {
     "id": "2a287562-da59-40bf-9665-c67d95cf5210",
-    "last_edited": "2024-08-29T21:54:00.000Z",
+    "last_edited": "2024-10-28T08:59:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099909/Otakunosekai_mcdjch.jpg",
     "name": "Otaku no Sekai",
     "status": "Невідомо",
     "type_activity": [
@@ -1011,8 +1490,9 @@
   },
   {
     "id": "2b778920-c925-4ac3-bcd2-419eecebb42f",
-    "last_edited": "2024-08-29T21:55:00.000Z",
+    "last_edited": "2024-10-28T09:04:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730106015/Midori_e7ipw4.jpg",
     "name": "Midori Studio",
     "status": "Невідомо",
     "type_activity": [
@@ -1028,8 +1508,9 @@
   },
   {
     "id": "ac0028f4-37e9-4414-a990-a7da79f0b757",
-    "last_edited": "2024-09-13T08:20:00.000Z",
+    "last_edited": "2024-10-28T09:00:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099910/Mvs_yepziv.jpg",
     "name": "MelVoiceStudio (MVS)",
     "status": "Активна",
     "type_activity": [
@@ -1208,8 +1689,9 @@
   },
   {
     "id": "f7d4f3ac-6823-4b8a-8f51-393b08ce7af1",
-    "last_edited": "2024-08-27T08:04:00.000Z",
+    "last_edited": "2024-10-28T09:00:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099910/Meguro_herohd.jpg",
     "name": "Meguro",
     "status": "Неактивна",
     "type_activity": [
@@ -1229,8 +1711,9 @@
   },
   {
     "id": "224da2e7-b282-4e3b-a7c4-c4d606faa262",
-    "last_edited": "2024-08-29T21:56:00.000Z",
+    "last_edited": "2024-10-28T09:01:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099913/Lunidub_m0rqbt.jpg",
     "name": "LuniDUB",
     "status": "Невідомо",
     "type_activity": [
@@ -1246,8 +1729,9 @@
   },
   {
     "id": "e3e581d9-fd22-4230-b4bb-316e78ed7beb",
-    "last_edited": "2024-08-11T09:51:00.000Z",
+    "last_edited": "2024-10-28T09:02:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099914/Lifecycle_jcmxns.jpg",
     "name": "LifeCycle",
     "status": "Невідомо",
     "type_activity": [
@@ -1263,8 +1747,9 @@
   },
   {
     "id": "2dc21108-aab7-45b2-a849-db25717bacdd",
-    "last_edited": "2024-09-03T09:00:00.000Z",
+    "last_edited": "2024-10-28T09:02:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099914/Lvp_q5lsrn.jpg",
     "name": "Lemonka Voice Project",
     "status": "Невідомо",
     "type_activity": [
@@ -1280,8 +1765,9 @@
   },
   {
     "id": "8bc8dbef-7139-413b-b24d-bdf7cbd5647d",
-    "last_edited": "2024-09-03T07:45:00.000Z",
+    "last_edited": "2024-10-28T09:03:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099914/Lilting_uf9bib.jpg",
     "name": "LiltingLingo",
     "status": "Невідомо",
     "type_activity": [
@@ -1297,8 +1783,9 @@
   },
   {
     "id": "c8aaa528-3300-49d5-b2f7-ffe80dbabc64",
-    "last_edited": "2024-09-03T09:01:00.000Z",
+    "last_edited": "2024-10-28T08:31:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098038/Kiotoanime_powmib.jpg",
     "name": "Kioto Anime",
     "status": "Невідомо",
     "type_activity": [
@@ -1336,8 +1823,9 @@
   },
   {
     "id": "9fe2f9b2-5c45-4253-a7f0-77799db63b55",
-    "last_edited": "2024-09-03T09:01:00.000Z",
+    "last_edited": "2024-10-28T08:31:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098035/Kdub_zchxw5.jpg",
     "name": "KDub studio",
     "status": "Невідомо",
     "type_activity": [
@@ -1353,8 +1841,9 @@
   },
   {
     "id": "b07d81ee-4b91-4cbf-bad3-4e1fa85f2c4c",
-    "last_edited": "2024-09-03T09:02:00.000Z",
+    "last_edited": "2024-10-28T08:31:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098035/Kafori_tuh5bw.jpg",
     "name": "kafori",
     "status": "Невідомо",
     "type_activity": [
@@ -1370,8 +1859,9 @@
   },
   {
     "id": "2aac14b2-881f-4398-a21f-ecca9695b744",
-    "last_edited": "2024-09-03T09:06:00.000Z",
+    "last_edited": "2024-10-28T08:31:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098034/Ineligible_sht_emlrct.jpg",
     "name": "Inelisht",
     "status": "Невідомо",
     "type_activity": [
@@ -1389,8 +1879,9 @@
   },
   {
     "id": "7f606576-a426-4611-adbf-fdb177dc5a09",
-    "last_edited": "2024-08-11T09:55:00.000Z",
+    "last_edited": "2024-10-28T08:30:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098031/Inari_whhfbs.jpg",
     "name": "InariTV (Dzuski / Inari)",
     "status": "Невідомо",
     "type_activity": [
@@ -1410,8 +1901,9 @@
   },
   {
     "id": "1269af3b-ab01-4988-b622-8fc905e18ff3",
-    "last_edited": "2024-08-11T09:51:00.000Z",
+    "last_edited": "2024-10-28T08:29:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098030/Haroshi_i6wrzk.jpg",
     "name": "HATOSHI",
     "status": "Невідомо",
     "type_activity": [
@@ -1446,8 +1938,9 @@
   },
   {
     "id": "5db7b6f5-d34d-4715-89ab-2d8ca5c27dae",
-    "last_edited": "2024-08-30T06:45:00.000Z",
+    "last_edited": "2024-10-28T08:28:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098028/GM_tjed6y.jpg",
     "name": "Glass Moon",
     "status": "Активна",
     "type_activity": [
@@ -2847,8 +3340,9 @@
   },
   {
     "id": "63d78473-f9e1-436f-9e5b-f0384b90350c",
-    "last_edited": "2024-09-03T09:08:00.000Z",
+    "last_edited": "2024-10-28T08:19:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098026/Fukoro_cz7nre.jpg",
     "name": "FukuroNachi",
     "status": "Невідомо",
     "type_activity": [
@@ -2881,8 +3375,9 @@
   },
   {
     "id": "70c3ca06-889e-4816-a5cd-a2cb867b1f79",
-    "last_edited": "2024-09-03T09:08:00.000Z",
+    "last_edited": "2024-10-28T08:19:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098026/Fomalhaut_vgfkop.jpg",
     "name": "Folmalhaut Dub",
     "status": "Невідомо",
     "type_activity": [
@@ -2898,8 +3393,9 @@
   },
   {
     "id": "91bf37eb-0908-4ab4-b0ea-6b65f282aa61",
-    "last_edited": "2024-09-03T09:09:00.000Z",
+    "last_edited": "2024-10-28T08:19:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098023/Flost_crja2v.jpg",
     "name": "Flost Studio",
     "status": "Невідомо",
     "type_activity": [
@@ -2915,8 +3411,9 @@
   },
   {
     "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff",
-    "last_edited": "2024-08-11T09:53:00.000Z",
+    "last_edited": "2024-10-28T08:19:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098023/Flame_gbelxl.jpg",
     "name": "Flame Studio UA",
     "status": "Невідомо",
     "type_activity": [
@@ -2932,8 +3429,9 @@
   },
   {
     "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549",
-    "last_edited": "2024-08-11T09:48:00.000Z",
+    "last_edited": "2024-10-28T08:16:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098022/FanVox_utovp0.jpg",
     "name": "FanVoxUA",
     "status": "Невідомо",
     "type_activity": [
@@ -2974,8 +3472,9 @@
   },
   {
     "id": "2ee764b5-3fb5-4bad-97c2-31572caf90b4",
-    "last_edited": "2024-09-03T07:42:00.000Z",
+    "last_edited": "2024-10-28T08:16:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098019/Fairy_tec55a.jpg",
     "name": "FairyDub",
     "status": "Невідомо",
     "type_activity": [
@@ -2998,8 +3497,9 @@
   },
   {
     "id": "b5b98085-ac5a-4d24-8025-7a36223c8269",
-    "last_edited": "2024-08-11T09:51:00.000Z",
+    "last_edited": "2024-10-28T08:16:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098019/Espada_usxpli.jpg",
     "name": "Espada Studio",
     "status": "Невідомо",
     "type_activity": [
@@ -3015,8 +3515,9 @@
   },
   {
     "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12",
-    "last_edited": "2024-08-11T09:50:00.000Z",
+    "last_edited": "2024-10-28T08:11:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098018/Dzuski_kvconm.jpg",
     "name": "Dzuski",
     "status": "Розформована",
     "type_activity": [
@@ -3036,8 +3537,9 @@
   },
   {
     "id": "d3f1986f-4802-4217-8d5f-fe9ea6515b4b",
-    "last_edited": "2024-08-13T10:55:00.000Z",
+    "last_edited": "2024-10-28T08:11:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098016/Didko_qwmtsz.jpg",
     "name": "Didko Studio",
     "status": "Невідомо",
     "type_activity": [
@@ -3070,8 +3572,9 @@
   },
   {
     "id": "04399237-b6e2-4859-97bc-844bafa0ab4b",
-    "last_edited": "2024-09-03T09:10:00.000Z",
+    "last_edited": "2024-10-28T08:11:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098015/Crystal_voices_g38muf.jpg",
     "name": "Crystal Voices",
     "status": "Невідомо",
     "type_activity": [
@@ -3087,7 +3590,7 @@
   },
   {
     "id": "5fe808b9-b044-46a1-b630-c83e8ef52f4d",
-    "last_edited": "2024-02-23T13:53:00.000Z",
+    "last_edited": "2024-10-25T18:53:00.000Z",
     "cover": null,
     "name": "CreativUAstudio",
     "status": "Невідомо",
@@ -3104,8 +3607,9 @@
   },
   {
     "id": "544d5a26-0350-493b-80b2-492c9859a089",
-    "last_edited": "2024-08-29T21:57:00.000Z",
+    "last_edited": "2024-10-28T08:10:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098014/Clan_Kaizoku_rrvm8d.jpg",
     "name": "Clan Kaizoku",
     "status": "Невідомо",
     "type_activity": [
@@ -3130,8 +3634,9 @@
   },
   {
     "id": "8221bfb5-11c2-4558-8449-0be5fd94d913",
-    "last_edited": "2024-09-03T09:11:00.000Z",
+    "last_edited": "2024-10-28T08:09:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098012/Bulbul_media_uxmxxm.jpg",
     "name": "Bulbul Media",
     "status": "Невідомо",
     "type_activity": [
@@ -3147,9 +3652,10 @@
   },
   {
     "id": "894afd06-6d45-4dd6-ac45-30c8007ecd3f",
-    "last_edited": "2024-08-13T10:53:00.000Z",
+    "last_edited": "2024-10-28T08:09:00.000Z",
     "cover": null,
-    "name": "Bamboo Anime",
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098011/Bambooua_s4jmtp.jpg",
+    "name": "Bamboo UA",
     "status": "Невідомо",
     "type_activity": [
       "Аніме"
@@ -3164,8 +3670,9 @@
   },
   {
     "id": "c9403c15-af0b-4b8f-b60e-a1c1d7e3726e",
-    "last_edited": "2024-09-03T09:11:00.000Z",
+    "last_edited": "2024-10-28T08:09:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098011/Argonavis_efvyf2.jpg",
     "name": "Argonavis",
     "status": "Невідомо",
     "type_activity": [
@@ -3181,8 +3688,9 @@
   },
   {
     "id": "63d070c0-1178-4449-b190-79a0994b6111",
-    "last_edited": "2024-08-29T13:26:00.000Z",
+    "last_edited": "2024-10-28T08:06:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098008/Aniunion_yxhxdt.jpg",
     "name": "AniUnion",
     "status": "Невідомо",
     "type_activity": [
@@ -3239,8 +3747,9 @@
   },
   {
     "id": "ff4c5896-276f-41fb-b126-0bf4b0afe13a",
-    "last_edited": "2024-09-03T09:13:00.000Z",
+    "last_edited": "2024-10-28T08:04:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098005/Anikoe_jj7f1e.jpg",
     "name": "AniKoe",
     "status": "Малоактивна",
     "type_activity": [
@@ -3275,8 +3784,9 @@
   },
   {
     "id": "3c35f84b-15e2-48fa-907f-6a0194782a85",
-    "last_edited": "2024-08-23T11:17:00.000Z",
+    "last_edited": "2024-10-28T08:04:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098004/Amanogawa_kyo6sf.jpg",
     "name": "Amanogawa",
     "status": "Активна",
     "type_activity": [
@@ -3700,8 +4210,9 @@
   },
   {
     "id": "d4624684-dedc-41b7-b3a4-bf8f6780ea46",
-    "last_edited": "2024-05-08T20:17:00.000Z",
+    "last_edited": "2024-10-28T08:03:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098002/AID_sub_studio_w3q3hj.jpg",
     "name": "AID Sub Studio",
     "status": "Невідомо",
     "type_activity": [
@@ -3761,8 +4272,9 @@
   },
   {
     "id": "88ab498a-f5d0-456d-8772-c9921e6f482d",
-    "last_edited": "2024-08-30T11:06:00.000Z",
+    "last_edited": "2024-10-28T08:03:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098002/48_volts_jfzepk.jpg",
     "name": "48 Volts",
     "status": "Невідомо",
     "type_activity": [
@@ -3824,8 +4336,9 @@
   },
   {
     "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad",
-    "last_edited": "2024-08-29T19:51:00.000Z",
+    "last_edited": "2024-10-28T08:02:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097999/Юіґень_gxnx7q.jpg",
     "name": "Юіґень",
     "status": "Невідомо",
     "type_activity": [
@@ -3845,8 +4358,9 @@
   },
   {
     "id": "b35c0ca3-7744-46c8-af3c-7f0f69b851fd",
-    "last_edited": "2024-02-27T09:04:00.000Z",
+    "last_edited": "2024-10-28T08:02:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098000/Шкереберть_zld3k4.jpg",
     "name": "Шкереберть",
     "status": "Невідомо",
     "type_activity": [
@@ -3862,8 +4376,9 @@
   },
   {
     "id": "cc101264-170e-4ef8-9337-83932ac8a7b3",
-    "last_edited": "2024-08-29T19:53:00.000Z",
+    "last_edited": "2024-10-28T08:00:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102391/Хатина_дабера_molcg7.jpg",
     "name": "Хатина Дабера",
     "status": "Невідомо",
     "type_activity": [
@@ -3879,8 +4394,9 @@
   },
   {
     "id": "9b04a260-e732-419d-b6ab-4aa5e7fce6b0",
-    "last_edited": "2024-08-29T19:53:00.000Z",
+    "last_edited": "2024-10-28T07:58:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097998/Файний_вулик_efaieh.jpg",
     "name": "Файник вулик",
     "status": "Невідомо",
     "type_activity": [
@@ -3896,8 +4412,9 @@
   },
   {
     "id": "11ebf486-fdcc-474f-8638-981f69bb53d9",
-    "last_edited": "2024-08-11T09:54:00.000Z",
+    "last_edited": "2024-10-28T07:58:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097997/%D0%A3_%D0%BA%D1%83%D1%82%D0%BE%D1%87%D0%BA%D1%83_%D1%83_%D1%82%D0%B0%D0%B2%D0%B5%D1%80%D0%BD%D1%96_rgon2z.jpg",
     "name": "У куточку в таверні",
     "status": "Невідомо",
     "type_activity": [
@@ -3913,8 +4430,9 @@
   },
   {
     "id": "bdcc926c-788f-4c43-b273-f2d1c93d2348",
-    "last_edited": "2024-08-29T20:00:00.000Z",
+    "last_edited": "2024-10-28T07:54:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/Студія_СВ_джавеліни_umdnsh.jpg",
     "name": "Студія СВ Джавеліни",
     "status": "Невідомо",
     "type_activity": [
@@ -3930,8 +4448,9 @@
   },
   {
     "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d",
-    "last_edited": "2024-08-29T20:48:00.000Z",
+    "last_edited": "2024-10-28T08:35:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099892/Tutazasho_nu6glp.jpg",
     "name": "Tu Ta3aSho Studio dub",
     "status": "Невідомо",
     "type_activity": [
@@ -3947,8 +4466,9 @@
   },
   {
     "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2",
-    "last_edited": "2024-08-29T19:59:00.000Z",
+    "last_edited": "2024-10-28T07:54:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097995/Студія_сокира_vh8ffp.jpg",
     "name": "Студія Сокира",
     "status": "Невідомо",
     "type_activity": [
@@ -3964,8 +4484,9 @@
   },
   {
     "id": "a59bc033-9766-4735-a1b9-0de5bcc3aa54",
-    "last_edited": "2024-08-29T20:00:00.000Z",
+    "last_edited": "2024-10-28T07:53:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/Студія_Сакура_jdzota.jpg",
     "name": "Студія Сакура",
     "status": "Невідомо",
     "type_activity": [
@@ -3981,8 +4502,9 @@
   },
   {
     "id": "e7d0d618-97fb-4029-b4be-fd5f8ccd30d5",
-    "last_edited": "2024-08-13T10:56:00.000Z",
+    "last_edited": "2024-10-28T07:53:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/Студія_Качур_nze6id.jpg",
     "name": "Студія Качур",
     "status": "Невідомо",
     "type_activity": [
@@ -3998,8 +4520,9 @@
   },
   {
     "id": "51bcf49e-8366-456b-9fae-bcdfccc11576",
-    "last_edited": "2024-08-29T20:07:00.000Z",
+    "last_edited": "2024-10-28T07:51:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/СКО_tpon6w.jpg",
     "name": "Справжня Козацька Озвучка (СПО)",
     "status": "Невідомо",
     "type_activity": [
@@ -4015,8 +4538,9 @@
   },
   {
     "id": "7880cc0f-ab3d-4990-b028-e3fb50a73351",
-    "last_edited": "2024-08-29T20:08:00.000Z",
+    "last_edited": "2024-10-28T07:51:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097990/САД_edkwye.jpg",
     "name": "Світовий аніме двіж САД",
     "status": "Невідомо",
     "type_activity": [
@@ -4032,8 +4556,9 @@
   },
   {
     "id": "07a270c5-75e5-4718-ae51-6173577acf05",
-    "last_edited": "2024-08-29T20:09:00.000Z",
+    "last_edited": "2024-10-28T07:53:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730101964/Робота_голосом_oga8vf.jpg",
     "name": "Робота голосом",
     "status": "Невідомо",
     "type_activity": [
@@ -4062,8 +4587,9 @@
   },
   {
     "id": "0b4a0630-70ae-4687-869a-c70785ed8ca6",
-    "last_edited": "2024-08-11T09:52:00.000Z",
+    "last_edited": "2024-10-28T08:57:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730105776/SpiralTeam_umaz2v.jpg",
     "name": "Spiral Team",
     "status": "Невідомо",
     "type_activity": [
@@ -4083,8 +4609,9 @@
   },
   {
     "id": "c86d1732-eca0-47f9-a221-e1493b020836",
-    "last_edited": "2024-08-29T20:11:00.000Z",
+    "last_edited": "2024-10-28T07:50:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097989/Повість_сучасних_літ_brfgvc.jpg",
     "name": "Повість сучасних літ",
     "status": "Невідомо",
     "type_activity": [
@@ -4100,8 +4627,9 @@
   },
   {
     "id": "1faef501-8488-449b-a5fb-27fb56103200",
-    "last_edited": "2024-08-29T20:17:00.000Z",
+    "last_edited": "2024-10-28T07:27:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097984/КізукіДаб_ibotqq.jpg",
     "name": "КізукіDUB",
     "status": "Невідомо",
     "type_activity": [
@@ -4133,8 +4661,9 @@
   },
   {
     "id": "e1edf949-61a6-4b1f-b013-1148b626a419",
-    "last_edited": "2024-08-29T20:14:00.000Z",
+    "last_edited": "2024-10-28T07:35:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097985/Лісовий_вітер_wuxirg.jpg",
     "name": "Лісовий вітер",
     "status": "Невідомо",
     "type_activity": [
@@ -4150,8 +4679,9 @@
   },
   {
     "id": "6ad28501-37a9-43dc-8282-891c49decbfa",
-    "last_edited": "2024-08-28T08:59:00.000Z",
+    "last_edited": "2024-10-28T10:35:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730100761/Крафтова_nie19i.jpg",
     "name": "Крафтова аудіостудія",
     "status": "Активна",
     "type_activity": [
@@ -4177,8 +4707,9 @@
   },
   {
     "id": "3f62f49e-2cf7-4e02-a783-4028bb96acb3",
-    "last_edited": "2024-07-12T11:43:00.000Z",
+    "last_edited": "2024-10-28T08:28:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097801/Kitsune_jt8iop.jpg",
     "name": "Kitsune",
     "status": "Невідомо",
     "type_activity": [
@@ -4194,8 +4725,9 @@
   },
   {
     "id": "d3d26b34-76cc-40b9-8383-b25ba5ac9111",
-    "last_edited": "2024-08-29T20:12:00.000Z",
+    "last_edited": "2024-10-28T07:35:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097988/Майже_студія_lineo_shogfc.jpg",
     "name": "Майже студія lineo",
     "status": "Невідомо",
     "type_activity": [
@@ -4211,8 +4743,9 @@
   },
   {
     "id": "3967700b-acbd-46fb-ad49-31067e5f0121",
-    "last_edited": "2024-08-29T20:12:00.000Z",
+    "last_edited": "2024-10-28T07:50:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097988/Отакої_ysovoj.jpg",
     "name": "Отакої",
     "status": "Невідомо",
     "type_activity": [
@@ -4228,8 +4761,9 @@
   },
   {
     "id": "5e62d9ef-b9de-4f3c-93f4-cea04754a5f4",
-    "last_edited": "2024-08-14T15:20:00.000Z",
+    "last_edited": "2024-10-28T07:27:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097983/%D0%94%D0%B8%D0%B2%D0%BD%D0%B0_%D0%B4%D0%B5%D1%81%D1%96%D1%8F_oi3j5u.jpg",
     "name": "Дивна Десія",
     "status": "Невідомо",
     "type_activity": [
@@ -4249,8 +4783,9 @@
   },
   {
     "id": "22cc5209-7aa3-4162-a8dd-fd9620e77036",
-    "last_edited": "2024-02-19T10:44:00.000Z",
+    "last_edited": "2024-10-28T07:23:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/Анімрія_exbrfx.jpg",
     "name": "АніМрія",
     "status": "Невідомо",
     "type_activity": [
@@ -4282,8 +4817,9 @@
   },
   {
     "id": "2cddc217-a294-4768-a5ce-188d16aec743",
-    "last_edited": "2024-08-14T10:28:00.000Z",
+    "last_edited": "2024-10-28T07:21:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/4ua_r3nere.jpg",
     "name": "4UA",
     "status": "Невідомо",
     "type_activity": [
@@ -4336,8 +4872,9 @@
   },
   {
     "id": "6813c059-18bf-4a13-b55e-b73080b04366",
-    "last_edited": "2024-08-13T19:36:00.000Z",
+    "last_edited": "2024-10-28T07:22:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097980/10gu_yyshow.jpg",
     "name": "10GU",
     "status": "Активна",
     "type_activity": [
@@ -4381,8 +4918,9 @@
   },
   {
     "id": "ba158892-6189-426d-8f51-d52fc7289e66",
-    "last_edited": "2024-08-14T09:51:00.000Z",
+    "last_edited": "2024-10-28T07:23:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097982/Ватаґа_мудраґеля_ztteob.jpg",
     "name": "Ватага Мудрагеля",
     "status": "Малоактивна",
     "type_activity": [
