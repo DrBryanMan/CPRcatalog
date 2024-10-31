@@ -1101,6 +1101,9 @@
       },
       {
         "id": "785c4a32-b729-49d5-ba51-5a24a7051409"
+      },
+      {
+        "id": "1307667f-790e-80e9-b68c-dbc5942ea1e0"
       }
     ],
     "site": null,
@@ -1182,7 +1185,7 @@
   },
   {
     "id": "589fabe4-4aab-4ddc-981a-e2fcd0a5a08e",
-    "last_edited": "2024-10-28T08:54:00.000Z",
+    "last_edited": "2024-10-31T06:57:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099897/Starfall_fr740v.jpg",
     "name": "Starfall",
@@ -1230,6 +1233,9 @@
       },
       {
         "id": "10c7667f-790e-8003-b6d3-e0c5af8826fc"
+      },
+      {
+        "id": "1307667f-790e-80d7-8f70-fb08b14a6515"
       }
     ],
     "site": null,
@@ -3527,6 +3533,9 @@
     "anime_releases": [
       {
         "id": "d13e4ff0-ed0a-407d-a02f-ba3b67a954eb"
+      },
+      {
+        "id": "1307667f-790e-80e9-b68c-dbc5942ea1e0"
       }
     ],
     "site": "https://dzuski.com/",
