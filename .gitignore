@@ -8,9 +8,11 @@ node_modules/
 *.sass
 sass.css
 sass.css.map
-json/
-js/
+# json/
+TitlesNotHavePosters.json
 notion_not_posters_import.js
+hikka_and_posters_import.js
+hikka_import.js
 
 # Логи
 
