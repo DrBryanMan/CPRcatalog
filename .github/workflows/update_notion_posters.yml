@@ -2,7 +2,7 @@ name: Notion Posters Import
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Запускається кожну годину
+    - cron: '0 0 * * 1'  # Запускається кожен тиждень в 00:00
   workflow_dispatch:  # Дозволяє запускати вручну
 
 jobs:
