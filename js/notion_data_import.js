@@ -210,13 +210,20 @@ async function processAnimeData(pages) {
       romaji: page.properties.Ромаджі.rich_text[0]?.plain_text,
       synonyms: page.properties.Синоніми.rich_text?.flatMap(i => i.plain_text.split('\n')),
       hikkaSynonyms: hikkaInfo?.synonyms,
+      // 
       type: page.properties['Тип медіа'].multi_select[0]?.name,
       format: page.properties.Формат.select?.name,
       year: page.properties['Рік виходу'].rich_text[0]?.plain_text,
       scoreMAL: hikkaInfo?.score,
       scoredbyMAL: hikkaInfo?.scored_by,
+      // 
+      Анітюб: page.properties.АніТюб.url,
+      Юакіно: page.properties.Uakino.url,
+      тґ_канал: page.properties['Tg канал'].url,
       episodes: page.properties['Кількість серій'].rich_text[0]?.plain_text,
-      releases: page.properties['🗂️ Релізи команд']?.relation,
+      releases: page.properties['🗂️ Релізи команд'].relation,
+      relations: page.properties["Пов'язані частини"].relation,
+      Франшиза: page.properties.Франшиза.relation,
       posters: page.properties.Постер?.files.map(i => ({
         name: i.name,
         url: i.external?.url || i.file.url
@@ -301,7 +308,7 @@ async function runAllImports() {
   await importAnimeTitles()
   await importReleases()
   await importTeams()
-  // getPageById('11db3f56-453c-4de7-97f3-3e2296abc4a9')
+  // getPageById('1287667f-790e-8039-ba7f-fe220e59abac')
   // .then(page => {
   //   console.log('URL:', JSON.stringify(page, null, 2))
   // })

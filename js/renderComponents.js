@@ -220,7 +220,19 @@ export async function renderAnimeDetail(anime) {
     Functions.updateNavigation('Аніме', anime.title)
     const teams = anime.teams.map(t => `<a href="/teams/${t.id}" class='data-nav-link' data-navigo><span><img src='${t.logo}'>${t.name}</span></a>`).join('')
     const cover = anime.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
-
+    const ХіккаЛінк = anime.hikka_url 
+        ? `<a href="${anime.hikka_url}" target="_blank" class='badges' data-navigo>
+                <img src='https://rosset-nocpes.github.io/ua-badges/src/hikka-dark.svg'>
+           </a>` : ''
+    const ЮакіноЛінк = anime.Юакіно 
+        ? `<a href="${anime.Юакіно}" target="_blank" class='badges' data-navigo>
+                <img src='https://rosset-nocpes.github.io/ua-badges/src/uakino-dark.svg'>
+           </a>` : ''
+    const АнітюбЛінк = anime.Анітюб 
+        ? `<a href="${anime.Анітюб}" target="_blank" class='badges' data-navigo>
+                <img src='https://rosset-nocpes.github.io/ua-badges/src/anitube-dark.svg'>
+           </a>` : ''
+        
     app.innerHTML = `
     <div class='title-detail'>
         ${cover}
@@ -237,6 +249,7 @@ export async function renderAnimeDetail(anime) {
                     <span><i class="material-symbols-rounded" title="Рік">event_available</i> ${anime.year}</span>
                     <span><i class="material-symbols-rounded" title="Епізодів">format_list_numbered</i> ${anime.episodes}</span>
                 </div>
+                <div class='watch-info'>${ХіккаЛінк}${ЮакіноЛінк}${АнітюбЛінк}</div>
             </div>
             <div class='dub-info page-block'>
                 <h3>Від команд</h3>
