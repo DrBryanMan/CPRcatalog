@@ -47,23 +47,48 @@ export function renderList(items, type, initialFilters) {
 
     function handleSearch() {
         const query = searchInput.value.toLowerCase()
-        if (query.length === 0 || query.length >= 3) {
-            filteredItems = items.filter(item => {
-                switch (type) {
-                    case 'Аніме':
-                        return  item.title.toLowerCase().includes(query) || 
-                                item.romaji.toLowerCase().includes(query)
-                    case 'Релізи':
-                        const anime = allAnimes.find(anime => item.animeIds.includes(anime.id))
-                        return  item.title.toLowerCase().includes(query) || 
-                                (anime?.title.toLowerCase().includes(query)) || 
-                                (anime?.romaji.toLowerCase().includes(query))
-                    case 'Команди':
-                        return item.name.toLowerCase().includes(query)
-                }
-            })
-            resetList()
+        const noResults = document.createElement('p')
+        noResults.classList.add('no-results')
+        
+        const existingNoResults = document.querySelector('.no-results')
+        if (existingNoResults) {
+            existingNoResults.remove()
         }
+        if (query.length === 0) {
+            filteredItems = [...items]
+            resetList()
+            return
+        }
+        if (query.length < 3) {
+            filteredItems = []
+            noResults.innerHTML = '<i class="material-symbols-rounded">error</i><span>Введіть більше двох символів.</span>'
+            listDiv.after(noResults)
+            resetList()
+            return
+        }
+        filteredItems = items.filter(item => {
+            switch (type) {
+                case 'Аніме':
+                    return  item.title?.toLowerCase().includes(query) || 
+                            item.romaji?.toLowerCase().includes(query)
+                case 'Релізи':
+                    const anime = allAnimes.find(anime => item.animeIds.includes(anime.id))
+                    return  item.title.toLowerCase().includes(query) || 
+                            anime?.title.toLowerCase().includes(query) || 
+                            anime?.romaji?.toLowerCase().includes(query)
+                case 'Команди':
+                    return item.name.toLowerCase().includes(query)
+            }
+            return false
+        })
+        if (filteredItems.length === 0) {
+            noResults.innerHTML = `
+                <i class="material-symbols-rounded">data_alert</i>
+                <span>За вашим запитом нічого не знайдено :(</span>
+            `
+            listDiv.after(noResults)
+        }
+        resetList()
     }
 
     function initializeView() {

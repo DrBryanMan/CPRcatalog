@@ -23,7 +23,15 @@ export function setupRoutes() {
     router
         .on('*', () => window.scrollTo(0, 0))
         .on('/', handleRoute('/', renderComponents.renderHomePage))
-        .on('/animes', handleRoute('/animes', renderList, allAnimes, 'Аніме'))
+        .on('/animes', (match) => {
+            const initialFilters = {}
+            for (let key in match.params) {
+                if (match.params.hasOwnProperty(key)) {
+                    initialFilters[key] = match.params[key].split(',')
+                }
+            }
+            handleRoute('/animes', renderList, allAnimes, 'Аніме', initialFilters)()
+        })
         .on('/anime/:id', (match) => {
             const anime = allAnimes.find(a => a.id === match.data.id)
             handleRoute('/anime/:id', renderComponents.renderAnimeDetail, anime)()

@@ -1,4 +1,4 @@
-import { allAnimes, allTeams, allReleases } from './loadData.js' // Змінні з даними
+import { allAnimes, allTeams, allReleases } from './loadData.js'
 import { renderTeamDetail } from './renderComponents.js';
 
 export function initSearch(renderAnimeDetail, renderReleaseDetail) {
@@ -23,15 +23,18 @@ export function initSearch(renderAnimeDetail, renderReleaseDetail) {
 
     function searchAnime(query) {
         return allAnimes.filter(anime => 
-            anime.title.toLowerCase().includes(query) || 
-            anime.romaji.toLowerCase().includes(query)
+            anime.title?.toLowerCase().includes(query) || 
+            anime.romaji?.toLowerCase().includes(query)
         ).slice(0, 5)
     }
 
     function searchReleases(query) {
-        return allReleases.filter(release => 
-            release.title.toLowerCase().includes(query)
-        ).slice(0, 5)
+        return allReleases.filter(release => {
+            const anime = allAnimes.find(anime => release.animeIds.includes(anime.id))
+            return release.title.toLowerCase().includes(query) ||
+                anime?.title?.toLowerCase().includes(query) || 
+                anime?.romaji?.toLowerCase().includes(query)
+        }).slice(0, 5)
     }
 
     function searchTeams(query) {
@@ -49,7 +52,7 @@ export function initSearch(renderAnimeDetail, renderReleaseDetail) {
             switch(type) {
                 case 'anime':
                     div.innerHTML = `
-                        <img src="${result.poster}" alt="${result.title}">
+                        <img src="${result.posters[0]?.url || result.poster}" alt="${result.title}">
                         <div>
                             <div><label class="truncate">${result.title}</label></div>
                             <p>${result.year}</p>
@@ -58,8 +61,10 @@ export function initSearch(renderAnimeDetail, renderReleaseDetail) {
                     div.onclick = () => (renderAnimeDetail(result), searchModal.close())
                     break
                 case 'releases':
+                    const anime = allAnimes.find(anime => result.animeIds.includes(anime.id))
+                    // console.log(anime)
                     div.innerHTML = `
-                        <img src="${result.poster}"">
+                        <img src="${result.poster || anime?.posters[0]?.url || anime?.poster}"">
                         <div>
                             <div><label class="truncate">${result.title}</label></div>
                             <p>Епізоди: ${result.episodes}</p>

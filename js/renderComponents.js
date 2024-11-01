@@ -116,7 +116,6 @@ function renderReleasesSection(items, title, type, route) {
                 listItem.classList.add('release-card', 'card')
                 const animeData = allAnimes.find(anime => item.animeIds.includes(anime.id))
                 const teams = item.teams.map(t => `<span class='truncate'><img src='${t.logo}'>${t.name}</span>`).join('')
-                // <img src='${animeData?.cover || item?.cover || '' }' class='release-poster'>
                 listItem.innerHTML = `
                     <div class='poster-box'>
                         <img src='${item.poster || animeData?.posters[0]?.url || animeData?.poster || ''}'>
@@ -141,8 +140,6 @@ function renderReleasesSection(items, title, type, route) {
 export async function renderTeamDetail(team) {
     Functions.updateNavigation('Команди', team.name)
     const releases = allReleases.filter(release => team.anime_releases.some(r => r.id === release.id))
-
-    // const releasesList = document.getElementById('releasesList')
     const releasesList = document.querySelector('.items-list')
     if (releases.length > 0) {
         renderList(releases, 'Релізи')
@@ -175,20 +172,15 @@ export async function renderAnimeReleases(releases) {
     for (const release of releases) {
         const card = document.createElement('div')
         card.classList.add('anime-release-card', 'card')
-
-        // const animeData = allAnimes.find(anime => release.animeIds.includes(anime.id))
         const teams = release.teams.map(t => `<span class='truncate'><img src='${t.logo}'>${t.name}</span>`).join('')
-
         card.innerHTML = `
             <h3 class='truncate'>${release.title}</h3>
             <p class='teams-logos'>${teams}</p>
             <p>Епізоди: ${release.episodes}</p>
         `
-
         card.onclick = () => router.navigate(`/release/${release.id}`)
         cardsContainer.appendChild(card)
     }
-
     return cardsContainer
 }
 
@@ -199,7 +191,7 @@ export async function renderReleaseDetail(release) {
     const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
     const torrents = release.torrentLinks.map(t => `<a href='${t.href}' external-link>${t.text}</a>`).join('')
     const cover = anime?.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
-    // console.log(anime.posters[0].url)
+
     app.innerHTML = `
     <div class='title-detail'>
         ${cover}
@@ -226,7 +218,7 @@ export async function renderReleaseDetail(release) {
 // Відображення деталей аніме
 export async function renderAnimeDetail(anime) {
     Functions.updateNavigation('Аніме', anime.title)
-    const teams = anime.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
+    const teams = anime.teams.map(t => `<a href="/teams/${t.id}" class='data-nav-link' data-navigo><span><img src='${t.logo}'>${t.name}</span></a>`).join('')
     const cover = anime.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
 
     app.innerHTML = `
@@ -240,18 +232,20 @@ export async function renderAnimeDetail(anime) {
                     <span>${anime.romaji}</span>
                 </div>
                 <div class='anime-info'>
-                    <p>Тип: ${anime.type}</p>
-                    <p>Формат: ${anime.format}</p>
-                    <p>Рік: ${anime.year}</p>
-                    <p>Епізоди: ${anime.episodes}</p>
-                    <p class='teams-logos'>Команда: ${teams}</p>
+                    <a href="/animes" class='data-nav-link' data-navigo><span><i class="material-symbols-rounded" title="Тип">category</i> ${anime.type}</span></a>
+                    <a href="/animes?format=${anime.format}" class='data-nav-link' data-navigo><span><i class="material-symbols-rounded" title="Формат">spoke</i> ${anime.format}</span></a>
+                    <span><i class="material-symbols-rounded" title="Рік">event_available</i> ${anime.year}</span>
+                    <span><i class="material-symbols-rounded" title="Епізодів">format_list_numbered</i> ${anime.episodes}</span>
                 </div>
+            </div>
+            <div class='dub-info page-block'>
+                <h3>Від команд</h3>
+                <div class='teams-logos'>${teams}</div>
             </div>
         </div>
         <div id='releasesList' class='page-block'>Завантаження інформації про релізи...</div>
     </div>
     `
-    // Завантаження та відображення інформації про релізи
     const releases = anime.releases ? allReleases.filter(r => r.animeIds.includes(anime.id)) : []
     const releasesList = document.getElementById('releasesList')
     if (releases.length > 0) {
