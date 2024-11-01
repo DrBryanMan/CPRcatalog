@@ -26,10 +26,65 @@
   /* aspect-ratio: 3 / 2; */
   object-fit: cover;
 }
+
+/* = Інфо секція = */
+.anime-info .data-nav-link {
+  text-decoration: none;
+  color: inherit;
+  outline: var(--border);
+  border-radius: var(--radius);
+}
+.anime-info .data-nav-link:hover span {
+  background: var(--light-20);
+}
+
+/* Інформація про тайтл */
 .title-detail .anime-info {
   display: flex;
   gap: 1em;
 }
+.anime-info span {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  background: var(--light-10);
+  border-radius: var(--radius);
+  padding: .2em 1em .2em .5em;
+  transition: .3s;
+}
+/*  */
+/*  */
+
+/* = Даб секція = */
+.dub-info {
+  width: 300px;
+}
+.title-detail .dub-info .teams-logos {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+.title-detail .dub-info .teams-logos span {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  border-radius: var(--radius);
+  transition: .3s;
+}
+.dub-info .data-nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+.dub-info .data-nav-link:hover span {
+  background: var(--light-10);
+}
+.title-detail .dub-info .teams-logos img {
+  height: 40px;
+  width: auto;
+  border-radius: var(--radius);
+  margin-right: .3em;
+}
+/*  */
 
 .title h1 {
   font-size: 2em;

@@ -1,9 +1,10 @@
 :root {
   --nav-main-height: 2.5em;
-  --nav-padding-y: .5em;
+  --nav-padding-y: 1em;
   --nav-height: calc(var(--nav-main-height) + var(--nav-padding-y) * 2);
   --main-padding-x: 2em;
   --footer-height: 4em;
+  --border: 1px solid var(--light-20);
   --border-color: 1px solid gray;
   --radius: 8px;
   --text: var(--light);

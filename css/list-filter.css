@@ -52,6 +52,7 @@
 #filterOptions {
     position: absolute;
     display: flex;
+    flex-direction: column;
     visibility: hidden;
     opacity: 0;
     gap: 1em;
@@ -60,7 +61,7 @@
     backdrop-filter: blur(4px);
     border: 1px solid var(--light-20);
     border-radius: var(--radius);
-    padding: .5em;
+    padding: .5em 1em;
     margin-top: 10px;
     z-index: 10;
 }
@@ -72,15 +73,11 @@
 #filterOptions h4 {
     margin-bottom: .4em;
 }
-
-.filter-btn {
+#filterOptions .filter-btn {
     background-color: var(--light-05);
     border: 1px solid var(--light-10);
-    
+    padding: .5em 1em;
 }
-
-.filter-btn.active {
+#filterOptions .filter-btn.active {
     background-color: var(--accent);
 }
-
-/* #filterOptions {display: block !important;} */

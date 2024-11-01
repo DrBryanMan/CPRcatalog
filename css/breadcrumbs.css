@@ -103,6 +103,11 @@ nav {
     transform-origin: center;
 }
 
+#secondCrumb {
+    display: flex;
+    align-items: center;
+}
+
 #searchButton {
     align-self: flex-end;
 }

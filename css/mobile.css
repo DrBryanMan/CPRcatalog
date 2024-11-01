@@ -1,7 +1,11 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
+    /* == Пошук == */
+    .modal {
+        width: calc(100% - 2em);
+    }
     /* == Головне == */
     #app {
-        padding: 4em 1em 1em;
+        --main-padding-x: .5em;
     }
     
 /*  */
@@ -22,7 +26,7 @@
 
     /* == Списки == */
     .items-list {
-        /* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 1em;
     }
     .items-list.list-view {

@@ -1,13 +1,29 @@
+/* == Пошук == */
+
+
 /* == Каталог == */
 /* Загально для списків */
 .items-list {
     display: grid;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    justify-content: center;
-    /* justify-items: center; */
+    /* justify-content: center; */
+    justify-items: center;
     align-items: flex-start;
     gap: 1em 2em;
+}
+.no-results {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+.no-results i {
+    font-size: 2em;
+    color: #dc4c64;
+    font-weight: bold;
 }
 /** У вигляді списку **/
 .items-list.list-view {
@@ -37,9 +53,9 @@
     flex-direction: column;
     /* align-items: center; */
     overflow: hidden;
-    /* width: 100%; */
+    width: 100%;
     /* gap: .3em; */
-    /* max-width: 170px; */
+    max-width: 250px;
     background: var(--dark-80);
     border-radius: var(--radius);
     outline: 1px solid var(--light-20);
