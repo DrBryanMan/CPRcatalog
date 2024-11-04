@@ -1789,7 +1789,7 @@
   },
   {
     "id": "c8aaa528-3300-49d5-b2f7-ffe80dbabc64",
-    "last_edited": "2024-10-28T08:31:00.000Z",
+    "last_edited": "2024-11-02T13:02:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098038/Kiotoanime_powmib.jpg",
     "name": "Kioto Anime",
@@ -1819,13 +1819,19 @@
       },
       {
         "id": "35391dc9-e1c1-44a6-a536-1a22208c7cf4"
+      },
+      {
+        "id": "1327667f-790e-808b-8bd6-ee0f83e758e2"
+      },
+      {
+        "id": "1327667f-790e-80e2-81db-ca088682547f"
       }
     ],
     "site": null,
     "anitube": null,
     "insta": null,
     "tg": "https://t.me/pan_kioto",
-    "tg_video": null
+    "tg_video": "https://t.me/kiotobase"
   },
   {
     "id": "9fe2f9b2-5c45-4253-a7f0-77799db63b55",
