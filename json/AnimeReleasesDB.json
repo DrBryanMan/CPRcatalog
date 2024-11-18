@@ -1,5 +1,41 @@
 [
   {
+    "id": "1327667f-790e-80e2-81db-ca088682547f",
+    "last_edited": "2024-11-02T13:02:00.000Z",
+    "animeIds": [
+      "1327667f-790e-8060-bcbf-d785a5e951d0"
+    ],
+    "title": "Долина п'яти стихій",
+    "teams": [
+      {
+        "id": "c8aaa528-3300-49d5-b2f7-ffe80dbabc64"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "Невідомо",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1327667f-790e-808b-8bd6-ee0f83e758e2",
+    "last_edited": "2024-11-02T12:19:00.000Z",
+    "animeIds": [
+      "590cd394-e01c-4566-ac01-9997739a0cc0"
+    ],
+    "title": "Кіберпанк, ті що біжать по краю",
+    "teams": [
+      {
+        "id": "c8aaa528-3300-49d5-b2f7-ffe80dbabc64"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "3",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
     "id": "1307667f-790e-80e9-b68c-dbc5942ea1e0",
     "last_edited": "2024-10-31T10:22:00.000Z",
     "animeIds": [
@@ -13898,7 +13934,7 @@
       "ba072f2e-a2e4-45a9-a65b-62e430aa7acd"
     ],
     "title": "Кошик фруктів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/694acfd3-8bba-445c-9212-242a756f111e/photo_2023-04-03_19-11-40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114721Z&X-Amz-Expires=3600&X-Amz-Signature=dfcbdae4f20a9c22d74f381c9ead19d1f87b0076e6bdbc022f20348b5fad1023&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/694acfd3-8bba-445c-9212-242a756f111e/photo_2023-04-03_19-11-40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012302Z&X-Amz-Expires=3600&X-Amz-Signature=bc4ff1b49ad6ac818fbb643e855e7c720801024b00516cee79adbbb69e054a57&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "5db7b6f5-d34d-4715-89ab-2d8ca5c27dae"
@@ -14045,7 +14081,7 @@
       "e3c44073-59d0-4a21-8ee0-e1ee1b42df7e"
     ],
     "title": "Мій Деймон",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/396a519d-a0e8-460c-bd4e-1d15ae359b71/IMG_20240503_175739_093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114721Z&X-Amz-Expires=3600&X-Amz-Signature=db26c486e25e05cd6ea9f538e8500a3096a058a3147fb60f3acb2364048a7705&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/396a519d-a0e8-460c-bd4e-1d15ae359b71/IMG_20240503_175739_093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012302Z&X-Amz-Expires=3600&X-Amz-Signature=a130ac5bda48fe732c73e8c878e7a859747dae06995e314c58f6817665c8fc24&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -14064,7 +14100,7 @@
       "ef5d4590-9376-4271-869a-dad4e924c8d8"
     ],
     "title": "Діяльність звичайного чоловіка у віртуальному світі VRMMO",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/82df6438-87ba-497c-be06-159b3d5000aa/IMG_20240503_175440_984.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114721Z&X-Amz-Expires=3600&X-Amz-Signature=0cfe4feb7b82ed75c86deac0d92f87e933c01037d8163587476a2198d32d8a28&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/82df6438-87ba-497c-be06-159b3d5000aa/IMG_20240503_175440_984.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012302Z&X-Amz-Expires=3600&X-Amz-Signature=7fdc8c54cc0a36dc0ea74e538bd3adf6050b5075233fe4512b78c1e8f8746bb4&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -14083,7 +14119,7 @@
       "93d9a8d3-6e57-4d81-85ae-020510803908"
     ],
     "title": "З милості Богів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/09bb52cf-7e83-4906-805d-ec716bec934c/IMG_20240503_175329_798.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114721Z&X-Amz-Expires=3600&X-Amz-Signature=1017cdf51e19f85ed6ab83a50f874659125db7a1142eaf3c452cb84e6951599a&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/09bb52cf-7e83-4906-805d-ec716bec934c/IMG_20240503_175329_798.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012302Z&X-Amz-Expires=3600&X-Amz-Signature=242ded04ac41ff1585c11553544c9a5bb97b53c2cb3156454046a64794515d32&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -14138,7 +14174,7 @@
       "83ad3404-374b-4fe7-9d26-2a0deaa42c59"
     ],
     "title": "Переродження в монстра",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a9714aab-1e43-447a-8aab-359f86233f0c/IMG_20240503_171643_623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114721Z&X-Amz-Expires=3600&X-Amz-Signature=dc98668cfe2f8c03a9884e4dab7275a93052616325df3d6b38ed47e5a74ee667&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a9714aab-1e43-447a-8aab-359f86233f0c/IMG_20240503_171643_623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012302Z&X-Amz-Expires=3600&X-Amz-Signature=ff617e88f3e81477cbd15a656f51bbb2140ba25c54043dc5c8438c7fec86bc42&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "88ab498a-f5d0-456d-8772-c9921e6f482d"
@@ -14157,7 +14193,7 @@
       "a06a7c96-e5d8-41ba-9894-80a85575fa47"
     ],
     "title": "Вовчиця та спеції: Торговець зустрічає мудру вовчицю",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/1848a051-e68e-4cd3-8358-16c906bcb696/IMG_20240503_171632_327.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114721Z&X-Amz-Expires=3600&X-Amz-Signature=5e8ebca0dc5f2f3cfb3e8d94cf73384d48379d60108dca00b41dbc710c31c0f7&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/1848a051-e68e-4cd3-8358-16c906bcb696/IMG_20240503_171632_327.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012302Z&X-Amz-Expires=3600&X-Amz-Signature=39a83438279dbe726bef823d1c46e090d96c33275cec1902407c1f19182710a5&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "88ab498a-f5d0-456d-8772-c9921e6f482d"
@@ -18128,7 +18164,7 @@
       "5d7ced72-ec85-4ff4-9f68-1464999c2a12"
     ],
     "title": "Розколота битвою синьова небес",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7b0bf4e5-fe4c-42cd-aa08-7123609900b6/Battle-Through-the-Heavens_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=2bfcbb8e5ae86f1f583fab7112a5b16f9e8b76f99ee64962e8145feef7bd54a6&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7b0bf4e5-fe4c-42cd-aa08-7123609900b6/Battle-Through-the-Heavens_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=679f6d1ad9209380ecc5b82e0c27ad1fe38ac88b493317b1b9abec973eef4f2d&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -18147,7 +18183,7 @@
       "7b972da2-3f36-4667-bd1b-1e1b331960ff"
     ],
     "title": "Трон печатки",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/775eac6d-2fd2-427f-b1b4-7f6b2286cdba/IMG_20240502_184605_841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=6357cd38dfa35358b87204e6f558c6023c53dfa8b6ea63cd4da35ca0ac5557ab&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/775eac6d-2fd2-427f-b1b4-7f6b2286cdba/IMG_20240502_184605_841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=5a5e7cb0fdb17e89839d84e6257f3a7f099aa3cb5a245e15c8ee5bc8d489ee27&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -18166,7 +18202,7 @@
       "6a2de34f-5182-4438-a060-7c64264d1e64"
     ],
     "title": "Прокачка в Соло / Сололевелінг",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/691abbb4-2447-441e-ab7f-d1bd2dc6914c/IMG_20240502_184804_211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=13b51a82c4a5beb5aefcff525c76a857a48105de531a04157a8fbc9341129a92&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/691abbb4-2447-441e-ab7f-d1bd2dc6914c/IMG_20240502_184804_211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=44495e4c9a9f8e53945b83f174c4fc2742661c98d6fea75544985a4140c86110&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -18190,7 +18226,7 @@
       "08e3372e-55be-4c2d-8c71-72d928f95ff6"
     ],
     "title": "Монолог травниці",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/cae22595-b142-41af-ba73-4d36bdedef04/IMG_20240502_184911_371.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=5e57606ea6f2fb5700615ec4a24b49140ffbd6c74ca15a2923c0057915f45cba&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/cae22595-b142-41af-ba73-4d36bdedef04/IMG_20240502_184911_371.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=681e57d3dbde99d3d9c022650f0397830179ce1198982c6e29e841049fa8aa72&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -18214,7 +18250,7 @@
       "380365f5-0322-4a27-a4f7-d2b63f97f75e"
     ],
     "title": "Фрірен: супровід в останню путь",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5f262935-3c40-4c5e-ab76-fbc9c6a29d79/IMG_20240502_185047_490.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=ad9fb68610dfd35febd956b1eef67c1e4ffe0906ebd5fc94c125a07f5c102c68&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5f262935-3c40-4c5e-ab76-fbc9c6a29d79/IMG_20240502_185047_490.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=b8881591b9708d07223c6e84fe59f7b55bdcbc817371dc3a6be94e5fdbd4cc2d&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -18238,7 +18274,7 @@
       "dfe689ad-5ab9-4794-a598-70cafece3459"
     ],
     "title": "Леза хранителів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69a8541c-83ef-4283-b925-596178746af8/botg_banner_4ua-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=3c4d6277497b4953286ccf250b538f78973cb1ec2e2edc3e392950361b2f49cf&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69a8541c-83ef-4283-b925-596178746af8/botg_banner_4ua-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=bc03aaf029c0aabf26cee3980b7299fa33c08eb027a2962839bdf49658cbd654&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -18257,7 +18293,7 @@
       "370c53ff-4699-46b7-83e9-1bd3dd5ec25f"
     ],
     "title": "Вічна воля 2",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/95aa82d8-0f9d-4a92-8eb6-b7546819510d/IMG_20240502_185420_224.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=cd3313c4d97525bac967800104ca68f3b95b7750e92dab2b826bab56f2efc660&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/95aa82d8-0f9d-4a92-8eb6-b7546819510d/IMG_20240502_185420_224.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=61d9ca85b72c250be213b40f5334e5dd6364e3cabf6b3659c9a7457bcb5c3dfa&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -18281,7 +18317,7 @@
       "2d10eab7-56cf-4dfe-811c-e54b2679c5e5"
     ],
     "title": "Вічна воля",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2c0fe918-9974-4d7a-a4d5-2e6a0c8d9b64/IMG_20240502_183055_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=ac71785e91e8cff645103a6f95005dc467139bda494327a311eebbeb1a1505d0&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2c0fe918-9974-4d7a-a4d5-2e6a0c8d9b64/IMG_20240502_183055_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=0acab5b0ce0f2009c964a078f1a993a45306c1ad51d1eec02cbf7f050a180c0e&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -18326,7 +18362,7 @@
       "99d8118a-0432-45e8-ae5c-669fd44d8adb"
     ],
     "title": "Атака Титанів: Фінал",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/13be87a7-702c-4bda-9abb-5a5be00887e4/aot_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T114734Z&X-Amz-Expires=3600&X-Amz-Signature=815f45d09f9d1899ba8f6848a2280e94edd49b9a70da1681ce628e8e568334cd&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/13be87a7-702c-4bda-9abb-5a5be00887e4/aot_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241104T012309Z&X-Amz-Expires=3600&X-Amz-Signature=88ad261cd01de1bb16a13a37f8eb32d59b994a2520db846586a2f6878c61fe14&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
