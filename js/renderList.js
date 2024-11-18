@@ -6,7 +6,7 @@ import { router } from './router.js'
 export function renderList(items, type, initialFilters) {
     console.log(`Завантажено ${items.length} ${type}`)
     Functions.updateNavigation(type)
-    const itemsPerPage = 20
+    const itemsPerPage = 5
     let currentPage = 0
     let isLoading = false
     let allItemsLoaded = false
@@ -261,7 +261,7 @@ export function renderList(items, type, initialFilters) {
                     case 'grid':
                         card.innerHTML = `
                             <div class='poster-box'>
-                                <img src='${item.posters[0]?.url || item.poster || ''}' title='${item.title}' loading="lazy">
+                                <img src='${item.posters[0]?.url.replace("/upload/", "/upload/q_70/") || item.poster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate' title='${item.title}'>${item.title}</h3>
@@ -294,7 +294,7 @@ export function renderList(items, type, initialFilters) {
                     case 'grid':
                         card.innerHTML = `
                             <div class='poster-box'>
-                                <img src='${item.poster || anime?.posters[0]?.url || anime?.poster}' title='${item.title}' loading="lazy">
+                                <img src='${item.poster || anime?.posters[0]?.url.replace("/upload/", "/upload/q_70/") || anime?.poster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate'>${item.title}</h3>

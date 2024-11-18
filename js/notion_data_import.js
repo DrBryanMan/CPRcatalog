@@ -242,7 +242,7 @@ function processReleaseData(pages) {
     teams: page.properties['Команда']?.relation,
     status: page.properties['Статус'].status?.name || 'Невідомо',
     episodes: page.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
-    torrent: page.properties['Торент'].select?.name || 'Невідомо',
+    torrent: page.properties['Торент']?.select?.name || 'Невідомо',
     torrentLinks: page.properties['Торент посилання'].rich_text
       .filter(link => link !== null)
       .map(link => ({
@@ -308,7 +308,7 @@ async function runAllImports() {
   await importAnimeTitles()
   await importReleases()
   await importTeams()
-  // getPageById('1287667f-790e-8039-ba7f-fe220e59abac')
+  // getPageById('1427667f-790e-8058-b8ce-fe6be3e789e2')
   // .then(page => {
   //   console.log('URL:', JSON.stringify(page, null, 2))
   // })
