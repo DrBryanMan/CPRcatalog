@@ -183,9 +183,9 @@ async function fetchHikkaData(urls) {
         scored_by: anime.scored_by
       })
       count++
-      colorLog(`Обробка: ${count}/${urls.length}. ${anime.title_ua || anime.title_jp || 'Невідомо для' + anime.id}`, 'green', OUTPUT_MODES.PROGRESS)
+      colorLog(`Обробка: ${count}/${urls.length}. ${anime?.title_ua || anime?.title_jp || 'Невідомо для' + anime.id}`, 'green', OUTPUT_MODES.PROGRESS)
     } catch (error) {
-      console.error(`Помилка отримання даних ${anime.title_ua || anime.title_jp || 'Невідомо для' + anime.id}:`, error.message)
+      console.error(`Помилка отримання даних ${url}:`, error.message)
       continue
     }
   }
@@ -202,7 +202,7 @@ const processAnimeData = async (pages) => {
       const hikkaUrl = page.properties.Hikka?.url
       if (!hikkaUrl) return false
       const existingData = previousHikkaData.find(item => item.url === hikkaUrl)
-      return !existingData?.poster
+      return existingData === undefined || existingData.poster === undefined || existingData.poster === null
     })
     .map(page => page.properties.Hikka.url)
 
