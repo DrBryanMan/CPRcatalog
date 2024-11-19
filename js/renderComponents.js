@@ -218,7 +218,7 @@ export async function renderReleaseDetail(release) {
 // Відображення деталей аніме
 export async function renderAnimeDetail(anime) {
     Functions.updateNavigation('Аніме', anime.title)
-    const teams = anime.teams.map(t => `<a href="/teams/${t.id}" class='data-nav-link' data-navigo><span><img src='${t.logo}'>${t.name}</span></a>`).join('')
+    const teams = anime.teams.map(t => `<a href="/team/${t.id}" class='data-nav-link' data-navigo><span><img src='${t.logo}'>${t.name}</span></a>`).join('')
     const cover = anime.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
     const ХіккаЛінк = anime.hikka_url 
         ? `<a href="${anime.hikka_url}" target="_blank" class='badges' data-navigo>

@@ -16,6 +16,7 @@ export function renderList(items, type, initialFilters) {
 
     app.innerHTML = `
         <div class="filters-section">
+            <span>Загальна кількість результатів: ${filteredItems.length}</span>
             <div class="list-controls">
                 <input type="text" id="localSearchInput" placeholder="Пошук...">
                 <div class="view-controls">
@@ -294,7 +295,7 @@ export function renderList(items, type, initialFilters) {
                     case 'grid':
                         card.innerHTML = `
                             <div class='poster-box'>
-                                <img src='${item.poster || anime?.posters[0]?.url.replace("/upload/", "/upload/q_70/") || anime?.poster}' title='${item.title}' loading="lazy">
+                                <img src='${item.posters[0]?.url || anime?.posters[0]?.url.replace("/upload/", "/upload/q_70/") || anime?.poster}' title='${item.title}' loading="lazy">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate'>${item.title}</h3>

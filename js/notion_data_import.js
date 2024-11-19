@@ -10,6 +10,41 @@ const Notion = new Client({
   timeoutMs: 60000  // Збільшуємо timeout до 60 секунд
  })
 
+// Додаємо константи для кольорів
+const colors = {
+  reset: "\x1b[0m",
+  red: "\x1b[31m",
+  green: "\x1b[32m",
+  yellow: "\x1b[33m",
+  blue: "\x1b[34m"
+}
+const OUTPUT_MODES = {
+  NEWLINE: 'newline',    // Звичайний вивід з новим рядком
+  SAMELINE: 'sameline',  // Вивід в той самий рядок
+  PROGRESS: 'progress'   // Вивід прогресу з очищенням
+}
+
+process.stdout.setEncoding('utf8')
+if (process.stdout.isTTY) {
+  process.stdout.setNoDelay(true)
+}
+
+function colorLog(message, color = 'reset', mode = OUTPUT_MODES.NEWLINE) {
+  const coloredMessage = `${colors[color]}${message}${colors.reset}`
+  
+  switch(mode) {
+    case OUTPUT_MODES.SAMELINE:
+      process.stdout.write(`\r${coloredMessage}`)
+      break
+    case OUTPUT_MODES.PROGRESS:
+      process.stdout.write(`${coloredMessage}\n`)
+      break
+    case OUTPUT_MODES.NEWLINE:
+    default:
+      process.stdout.write(`${coloredMessage}\n`)
+  }
+}
+
 async function getPageById(pageId) {
   try {
     const response = await Notion.pages.retrieve({
@@ -27,10 +62,10 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = []) {
   let hasMore = true
   let nextCursor = null
   let pageCount = 0
+  let totalProcessed = 0
   
   console.log(`Початок імпорту сторінок з бази даних ${dbTitle}`)
 
-  // Отримуємо всі сторінки спочатку
   while (hasMore) {
     const response = await Notion.databases.query({
       database_id: databaseId,
@@ -38,27 +73,26 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = []) {
       // page_size: 100
     })
 
+    const newPages = response.results
+    totalProcessed += newPages.length
+    colorLog(`Отримано ${totalProcessed} сторінок...`, 'reset', OUTPUT_MODES.PROGRESS)
+    
     pages = pages.concat(response.results)
+    // hasMore = false
     hasMore = response.has_more
     nextCursor = response.next_cursor
   }
+  colorLog(`\nЗавершено отримання сторінок. Всього: ${totalProcessed}`, 'reset')
 
-  // Якщо потрібно розширити властивості, обробляємо кожну сторінку послідовно
   if (propertiesToExpand.length > 0) {
+    colorLog(`Початок розширення властивостей: ${propertiesToExpand.join(', ')}`, 'reset')
     const processedPages = []
-    
     for (const page of pages) {
-      pageCount++
-      
       try {
-        // Створюємо копію сторінки для обробки
         const processedPage = { ...page }
-        
         for (const propertyName of propertiesToExpand) {
           if (processedPage.properties[propertyName]?.type === 'relation') {
-            // Додаємо невелику затримку перед кожним запитом
             await new Promise(resolve => setTimeout(resolve, 100))
-            
             try {
               const expandedRelations = await getAllRelatedIds(processedPage.id, processedPage.properties[propertyName].id)
               processedPage.properties[propertyName].relation = expandedRelations.map(id => ({ id }))
@@ -70,30 +104,23 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = []) {
             }
           }
         }
-        
         processedPages.push(processedPage)
-        console.log(`${pageCount} ${processedPage.properties['Назва тайтлу']?.title[0]?.plain_text || 
-                                  processedPage.properties['Name']?.title[0]?.plain_text || 
-                                  processedPage.properties['Назва команди']?.title[0]?.plain_text || 
-                                  processedPage.id}`)
+        pageCount++
+        colorLog(`Обробка ${pageCount}/${pages.length}: ${processedPage.properties['Назва команди']?.title[0]?.plain_text || 
+          processedPage.id}`, 'yellow', OUTPUT_MODES.PROGRESS)
       } catch (error) {
-        console.error(`Помилка при обробці сторінки ${page.id}:`, error.message)
-        processedPages.push(page) // Додаємо необроблену сторінку, щоб не втратити дані
+        colorLog(`Помилка при обробці сторінки ${page.id}: ${error.message}`, 'red')
+        processedPages.push(page)
       }
     }
-    
     return processedPages
   }
 
-  // Якщо розширення не потрібне, просто виводимо прогрес
-  pages.forEach(page => {
+  for (const page of pages) {
     pageCount++
-    console.log(`${pageCount} ${page.properties['Назва тайтлу']?.title[0]?.plain_text || 
-                              page.properties['Name']?.title[0]?.plain_text || 
-                              page.properties['Назва команди']?.title[0]?.plain_text || 
-                              page.id}`)
-  })
-
+    colorLog(`Обробка ${pageCount}/${pages.length}: ${page.properties['Назва команди']?.title[0]?.plain_text || 
+      page.id}`, 'yellow', OUTPUT_MODES.PROGRESS)
+  }
   return pages
 }
 
@@ -155,52 +182,50 @@ async function fetchHikkaData(urls) {
         score: anime.score,
         scored_by: anime.scored_by
       })
-      
       count++
-      console.log(`${count} ${anime.title_ua || anime.title_jp}`)
+      colorLog(`Обробка: ${count}/${urls.length}. ${anime.title_ua || anime.title_jp || 'Невідомо для' + anime.id}`, 'green', OUTPUT_MODES.PROGRESS)
     } catch (error) {
-      console.error(`Помилка отримання даних ${url}:`, error.message)
+      console.error(`Помилка отримання даних ${anime.title_ua || anime.title_jp || 'Невідомо для' + anime.id}:`, error.message)
       continue
     }
   }
-
   return animeData
 }
 
-async function processAnimeData(pages) {
+const processAnimeData = async (pages) => {
   let previousHikkaData = []
-  const existingDataPath = path.join(__dirname, '../json/AnimeTitlesDB.json')
-  previousHikkaData = JSON.parse(await fs.readFile(existingDataPath, 'utf8'))
+  const existingDataPath = path.join(__dirname, "../json/AnimeTitlesDB.json")
+  previousHikkaData = JSON.parse(await fs.readFile(existingDataPath, "utf8"))
 
   const hikkaUrls = pages
-  .filter(page => 
-    page.properties.Hikka?.url && 
-    (!previousHikkaData.some(item => item.hikka_url === page.properties.Hikka.url) || 
-     !previousHikkaData.some(item => item.poster))
-  )
-  // .filter(page => page.properties.Hikka?.url)
-  .map(page => page.properties.Hikka.url)
+    .filter(page => {
+      const hikkaUrl = page.properties.Hikka?.url
+      if (!hikkaUrl) return false
+      const existingData = previousHikkaData.find(item => item.url === hikkaUrl)
+      return !existingData?.poster
+    })
+    .map(page => page.properties.Hikka.url)
 
-  console.log(`Знайдено нових URL для завантаження: ${hikkaUrls.length}`)
+    console.log(`Знайдено нових URL для завантаження: ${hikkaUrls.length}`)
 
   const newHikkaData = hikkaUrls.length === 0 
     ? (console.log("Не знайдено нових записів."), [])
-    : await fetchHikkaData(hikkaUrls)
-    .then(data => {
-        console.log(`Успішно завантажено ${data.length} записів`)
-        return data
-    })
+    : (console.log("Завантаження нових записів..."), await fetchHikkaData(hikkaUrls))
+  console.log(`Успішно завантажено ${newHikkaData.length} записів`)
 
   const combinedHikkaData = [
-    ...previousHikkaData.filter(item => item.poster), // Фільтруємо старі записи з постером
+    ...previousHikkaData.filter(item => item.poster),
     ...newHikkaData
   ]
 
-  return pages.map(page => {
+  const results = []
+  let count = 0
+  for (const page of pages) {
     const hikka_url = page.properties.Hikka?.url
     const hikkaInfo = combinedHikkaData.find(item => item.url === hikka_url)
-    
-    return {
+    count++
+    colorLog(`Обробка: ${count}/${pages.length}. ${page.properties['Назва тайтлу'].title[0]?.plain_text || 'Невідомо для' + page.id}`, 'green', OUTPUT_MODES.PROGRESS)
+    results.push({
       id: page.id,
       last_edited: page.last_edited_time,
       hikka_url,
@@ -228,55 +253,69 @@ async function processAnimeData(pages) {
         name: i.name,
         url: i.external?.url || i.file.url
       })),
-    }
-  })
+    })
+  }
+  return results
 }
 
 function processReleaseData(pages) {
-  return pages.map(page => ({
-    id: page.id,
-    last_edited: page.last_edited_time,
-    animeIds: page.properties['Тайтл']?.relation.map(r => r.id) || [],
-    title: page.properties['Name'].title[0]?.plain_text || 'Без назви',
-    cover: page.cover?.external?.url || page.cover?.file.url,
-    teams: page.properties['Команда']?.relation,
-    status: page.properties['Статус'].status?.name || 'Невідомо',
-    episodes: page.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
-    torrent: page.properties['Торент']?.select?.name || 'Невідомо',
-    torrentLinks: page.properties['Торент посилання'].rich_text
-      .filter(link => link !== null)
-      .map(link => ({
-        text: link.plain_text,
-        href: link.href
+  const results = []
+  let count = 0
+  for (const page of pages) {
+    count++
+    colorLog(`Обробка: ${count}/${pages.length}. ${page.properties['Назва релізу'].title[0]?.plain_text || 'Невідомо для' + page.id}`, 'blue', OUTPUT_MODES.PROGRESS)
+    results.push({
+      id: page.id,
+      last_edited: page.last_edited_time,
+      animeIds: page.properties['Тайтл']?.relation.map(r => r.id) || [],
+      title: page.properties['Назва релізу'].title[0]?.plain_text || 'Без назви',
+      cover: page.cover?.external?.url || page.cover?.file.url,
+      teams: page.properties['Команда']?.relation,
+      status: page.properties['Статус'].status?.name || 'Невідомо',
+      episodes: page.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
+      torrent: page.properties['Торент']?.select?.name || 'Невідомо',
+      torrentLinks: page.properties['Торент посилання'].rich_text
+        .filter(link => link !== null)
+        .map(link => ({
+          text: link.plain_text,
+          href: link.href
+        })),
+      posters: page.properties.Постер?.files.map(i => ({
+        name: i.name,
+        url: i.external?.url || i.file.url
       })),
-    posters: page.properties.Постер?.files.map(i => ({
-      name: i.name,
-      url: i.external?.url || i.file.url
-    })),
-  }))
+    })
+  }
+  return results
 }
 
 function processTeamData(pages) {
-  return pages.map(page => ({
-    // main info
-    id: page.id,
-    last_edited: page.last_edited_time,
-    cover: page.cover,
-    logo: page.icon?.external?.url || page.icon?.file?.url,
-    name: page.properties['Назва команди'].title[0]?.plain_text || 'Невідомо',
-    // second info
-    status: page.properties.Статус.select?.name || 'Невідомо',
-    type_activity: page.properties['Тип робіт'].multi_select.map(item => item.name) || 'Невідомо',
-    members: page.properties['Склад команди'].relation,
-    anime_releases: page.properties['Релізи аніме'].relation,
-    // social info
-    site: page.properties.Сайт?.url,
-    anitube: page.properties.AniTube?.url,
-    youtube: page.properties.YouTube?.url,
-    insta: page.properties.Instagram?.url,
-    tg: page.properties.Telegram?.url,
-    tg_video: page.properties['ТҐ релізи']?.url
-  }))
+  const results = []
+  for (const page of pages) {
+    results.push({
+      // Основна інформація
+      id: page.id,
+      last_edited: page.last_edited_time,
+      cover: page.cover,
+      logo: page.icon?.external?.url || page.icon?.file?.url,
+      name: page.properties['Назва команди']?.title[0]?.plain_text || 'Невідомо',
+
+      // Додаткова інформація
+      status: page.properties.Статус.select?.name || 'Невідомо',
+      type_activity: page.properties['Тип робіт'].multi_select.map(item => item.name) || 'Невідомо',
+      members: page.properties['Склад команди'].relation,
+      anime_releases: page.properties['Релізи аніме'].relation,
+
+      // Соціальні посилання
+      site: page.properties.Сайт?.url,
+      anitube: page.properties.AniTube?.url,
+      youtube: page.properties.YouTube?.url,
+      insta: page.properties.Instagram?.url,
+      tg: page.properties.Telegram?.url,
+      tg_video: page.properties['ТҐ релізи']?.url,
+    })
+  }
+  return results
 }
 
 async function importData(databaseId, dbTitle, outputFileName, propertiesToExpand = [], processFunction) {
@@ -308,7 +347,7 @@ async function runAllImports() {
   await importAnimeTitles()
   await importReleases()
   await importTeams()
-  // getPageById('1427667f-790e-8058-b8ce-fe6be3e789e2')
+  // getPageById('1427667f-790e-8093-bdf8-fbf745c32f44')
   // .then(page => {
   //   console.log('URL:', JSON.stringify(page, null, 2))
   // })

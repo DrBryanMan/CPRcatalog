@@ -4,16 +4,16 @@ export let [allAnimes, allReleases, allTeams] = [[], [], []]
 
 // Отримуємо всі дані
 export async function loadData() {
-    const cachedAnimes = Functions.getFromCache('allAnimes')
-    const cachedReleases = Functions.getFromCache('allReleases')
-    const cachedTeams = Functions.getFromCache('allTeams')
+    // const cachedAnimes = Functions.getFromCache('allAnimes')
+    // const cachedReleases = Functions.getFromCache('allReleases')
+    // const cachedTeams = Functions.getFromCache('allTeams')
 
-    if (cachedAnimes && cachedReleases && cachedTeams) {
-        allAnimes = cachedAnimes
-        allReleases = cachedReleases
-        allTeams = cachedTeams
-        console.log('Дані з кешу отримано')
-    } else {
+    // if (cachedAnimes && cachedReleases && cachedTeams) {
+    //     allAnimes = cachedAnimes
+    //     allReleases = cachedReleases
+    //     allTeams = cachedTeams
+    //     console.log('Дані з кешу отримано')
+    // } else {
         const [animeData, teamData, releaseData] = await Promise.all([
             fetch('json/AnimeTitlesDB.json').then(res => res.json()),
             fetch('json/TeamsDB.json').then(res => res.json()),
@@ -60,8 +60,8 @@ export async function loadData() {
             animeData: allAnimes.find(anime => release.animeIds.includes(anime.id))
         }))
 
-        Functions.saveToCache('allAnimes', allAnimes)
-        Functions.saveToCache('allReleases', allReleases)
-        Functions.saveToCache('allTeams', allTeams)
-    }
+        // Functions.saveToCache('allAnimes', allAnimes)
+        // Functions.saveToCache('allReleases', allReleases)
+        // Functions.saveToCache('allTeams', allTeams)
+    // }
 }
