@@ -10,6 +10,8 @@ const Notion = new Client({
   timeoutMs: 60000  // Збільшуємо timeout до 60 секунд
  })
 
+const UPDATE_ALL_HIKKA = false
+
 // Додаємо константи для кольорів
 const colors = {
   reset: "\x1b[0m",
@@ -106,8 +108,11 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = []) {
         }
         processedPages.push(processedPage)
         pageCount++
-        colorLog(`Обробка ${pageCount}/${pages.length}: ${processedPage.properties['Назва команди']?.title[0]?.plain_text || 
-          processedPage.id}`, 'yellow', OUTPUT_MODES.PROGRESS)
+        const title = processedPage.properties['Назва тайтлу']?.title[0]?.plain_text || 
+                      processedPage.properties['Name']?.title[0]?.plain_text || 
+                      processedPage.properties['Назва команди']?.title[0]?.plain_text || 
+                      processedPage.id
+        colorLog(`Обробка ${pageCount}/${pages.length}: ${title}`, 'yellow', OUTPUT_MODES.PROGRESS)
       } catch (error) {
         colorLog(`Помилка при обробці сторінки ${page.id}: ${error.message}`, 'red')
         processedPages.push(page)
@@ -118,8 +123,11 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = []) {
 
   for (const page of pages) {
     pageCount++
-    colorLog(`Обробка ${pageCount}/${pages.length}: ${page.properties['Назва команди']?.title[0]?.plain_text || 
-      page.id}`, 'yellow', OUTPUT_MODES.PROGRESS)
+    const title = page.properties['Назва тайтлу']?.title[0]?.plain_text || 
+                  page.properties['Name']?.title[0]?.plain_text || 
+                  page.properties['Назва команди']?.title[0]?.plain_text || 
+                  page.id
+    colorLog(`Обробка ${pageCount}/${pages.length}: ${title}`, 'yellow', OUTPUT_MODES.PROGRESS)
   }
   return pages
 }
@@ -193,36 +201,49 @@ async function fetchHikkaData(urls) {
 }
 
 const processAnimeData = async (pages) => {
-  let previousHikkaData = []
+  let previousData = []
   const existingDataPath = path.join(__dirname, "../json/AnimeTitlesDB.json")
-  previousHikkaData = JSON.parse(await fs.readFile(existingDataPath, "utf8"))
+  previousData = JSON.parse(await fs.readFile(existingDataPath, "utf8"))
 
   const hikkaUrls = pages
     .filter(page => {
       const hikkaUrl = page.properties.Hikka?.url
-      if (!hikkaUrl) return false
-      const existingData = previousHikkaData.find(item => item.url === hikkaUrl)
-      return existingData === undefined || existingData.poster === undefined || existingData.poster === null
+      
+      if (UPDATE_ALL_HIKKA) {
+        return true
+      }
+      return hikkaUrl && !previousData.some(existingData => existingData.hikka_url === hikkaUrl && existingData.poster)
     })
     .map(page => page.properties.Hikka.url)
 
-    console.log(`Знайдено нових URL для завантаження: ${hikkaUrls.length}`)
+  console.log(`Знайдено нових URL для завантаження: ${hikkaUrls.length}`)
 
   const newHikkaData = hikkaUrls.length === 0 
     ? (console.log("Не знайдено нових записів."), [])
     : (console.log("Завантаження нових записів..."), await fetchHikkaData(hikkaUrls))
   console.log(`Успішно завантажено ${newHikkaData.length} записів`)
 
-  const combinedHikkaData = [
-    ...previousHikkaData.filter(item => item.poster),
-    ...newHikkaData
-  ]
+  const existingData = new Map(
+    previousData
+      .filter(item => item.hikka_url && (item.poster || item.hikkaSynonyms || item.scoreMAL || item.scoredbyMAL))
+      .map(item => [item.hikka_url, {
+        poster: item.poster,
+        synonyms: item.hikkaSynonyms,
+        score: item.scoreMAL,
+        scored_by: item.scoredbyMAL
+      }])
+  )
+
+  // Додаємо нові дані до мапи
+  newHikkaData.forEach(item => {
+    existingData.set(item.url, item)
+  })
 
   const results = []
   let count = 0
   for (const page of pages) {
     const hikka_url = page.properties.Hikka?.url
-    const hikkaInfo = combinedHikkaData.find(item => item.url === hikka_url)
+    const hikkaInfo = hikka_url ? existingData.get(hikka_url) : null
     count++
     colorLog(`Обробка: ${count}/${pages.length}. ${page.properties['Назва тайтлу'].title[0]?.plain_text || 'Невідомо для' + page.id}`, 'green', OUTPUT_MODES.PROGRESS)
     results.push({
