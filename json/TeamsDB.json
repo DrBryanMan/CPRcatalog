@@ -1,5 +1,71 @@
 [
   {
+    "id": "1457667f-790e-80bd-aa85-cd79e137cdfb",
+    "last_edited": "2024-11-21T11:13:00.000Z",
+    "cover": null,
+    "name": "3VUKOV14OK",
+    "status": "Неактивна",
+    "type_activity": [
+      "Аніме"
+    ],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "1457667f-790e-80f1-812f-c990313a41e6"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "1457667f-790e-8039-8eba-c3c40fc00e1f",
+    "last_edited": "2024-11-21T09:36:00.000Z",
+    "cover": null,
+    "name": "COOL STORY BRO STUDIO",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "1457667f-790e-8028-9c21-e08776dd18d9",
+    "last_edited": "2024-11-21T08:43:00.000Z",
+    "cover": null,
+    "name": "Ukrop_Bob",
+    "status": "Неактивна",
+    "type_activity": [
+      "Аніме"
+    ],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "1457667f-790e-80a9-bbcf-ee4aecdfc9e5"
+      },
+      {
+        "id": "1457667f-790e-8056-bfab-ece354861d30"
+      },
+      {
+        "id": "1457667f-790e-803a-9d15-ea17eea34026"
+      },
+      {
+        "id": "1457667f-790e-8008-9d99-fd6527782297"
+      }
+    ],
+    "site": null,
+    "anitube": "https://anitube.in.ua/tags/Ukrop_Bob/",
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
     "id": "13b7667f-790e-80bf-86e7-f5b794b83b7e",
     "last_edited": "2024-11-12T14:19:00.000Z",
     "cover": null,
@@ -111,7 +177,7 @@
   },
   {
     "id": "1357667f-790e-8019-82fe-c6148e7a4368",
-    "last_edited": "2024-11-05T20:51:00.000Z",
+    "last_edited": "2024-11-21T10:13:00.000Z",
     "cover": null,
     "name": "AniJap",
     "status": "Розформована",
@@ -375,19 +441,25 @@
   },
   {
     "id": "12d7667f-790e-8095-a60c-cdace47c102a",
-    "last_edited": "2024-10-28T10:41:00.000Z",
+    "last_edited": "2024-11-21T09:54:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730112044/Yanichishi_b8kq9j.jpg",
     "name": "Yanichishi",
-    "status": "Невідомо",
-    "type_activity": [],
+    "status": "Малоактивна",
+    "type_activity": [
+      "Аніме"
+    ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1457667f-790e-80c6-8fe9-ebc7e7b9e29d"
+      }
+    ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/tags/Yanichishi/",
     "insta": null,
-    "tg": null,
-    "tg_video": null
+    "tg": "https://t.me/yanichishi",
+    "tg_video": "https://t.me/yanichishi_rel"
   },
   {
     "id": "12d7667f-790e-809b-a4e7-d5847c8da930",
@@ -421,7 +493,7 @@
   },
   {
     "id": "12d7667f-790e-8065-99df-f5d4ea095a13",
-    "last_edited": "2024-11-06T11:57:00.000Z",
+    "last_edited": "2024-11-21T09:42:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730111122/%D0%9F%D1%96%D0%B4_%D0%BA%D0%BE%D1%86%D0%B8%D0%BA%D0%BE%D0%BC_j8jmv9.jpg",
     "name": "Під коциком",
@@ -638,16 +710,20 @@
   },
   {
     "id": "12d7667f-790e-80fa-9215-eb8347e2047f",
-    "last_edited": "2024-11-04T11:50:00.000Z",
+    "last_edited": "2024-11-21T10:15:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098008/Anicoin_xfaicz.jpg",
     "name": "Anicoin",
-    "status": "Невідомо",
+    "status": "Припинено",
     "type_activity": [
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1447667f-790e-8055-bbaa-ff227bc7e206"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -817,7 +893,7 @@
   },
   {
     "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb",
-    "last_edited": "2024-11-07T08:34:00.000Z",
+    "last_edited": "2024-11-21T10:15:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098003/Anifun_comvwh.jpg",
     "name": "AniFunUa",
@@ -896,7 +972,7 @@
   },
   {
     "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94",
-    "last_edited": "2024-10-28T08:16:00.000Z",
+    "last_edited": "2024-11-21T11:03:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730103346/Slobozhanec_pqlhxt.jpg",
     "name": "ES",
@@ -1478,7 +1554,7 @@
   },
   {
     "id": "589fabe4-4aab-4ddc-981a-e2fcd0a5a08e",
-    "last_edited": "2024-11-06T15:17:00.000Z",
+    "last_edited": "2024-11-21T11:03:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099897/Starfall_fr740v.jpg",
     "name": "Starfall",
@@ -1542,21 +1618,28 @@
   },
   {
     "id": "e31460bd-e66f-4bf5-941d-1d2bd3c12226",
-    "last_edited": "2024-10-28T08:57:00.000Z",
+    "last_edited": "2024-11-21T10:05:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099899/Skidub_nykm7n.jpg",
     "name": "SkiDUB",
-    "status": "Невідомо",
+    "status": "Неактивна",
     "type_activity": [
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1457667f-790e-806d-9386-ced6eefda842"
+      },
+      {
+        "id": "1457667f-790e-8058-b495-e6a7d11e7fb2"
+      }
+    ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/tags/SkiDUB/",
     "insta": null,
     "tg": "https://t.me/skidub_anime",
-    "tg_video": null
+    "tg_video": "https://t.me/skidub_series"
   },
   {
     "id": "4a05a4c9-10be-45e3-8c7e-33caaeafea4a",
@@ -1684,6 +1767,9 @@
       },
       {
         "id": "4173c58d-0bf8-4362-9b4f-0a311737fdf6"
+      },
+      {
+        "id": "1467667f-790e-8016-896f-e2e085e5c6f9"
       }
     ],
     "site": null,
@@ -2074,7 +2160,7 @@
   },
   {
     "id": "8bc8dbef-7139-413b-b24d-bdf7cbd5647d",
-    "last_edited": "2024-10-28T09:03:00.000Z",
+    "last_edited": "2024-11-21T09:39:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099914/Lilting_uf9bib.jpg",
     "name": "LiltingLingo",
@@ -2083,9 +2169,13 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1457667f-790e-805c-a32a-d0fc5b6c66be"
+      }
+    ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/tags/LiltingLingo/",
     "insta": null,
     "tg": "https://t.me/LiltingLingoUa",
     "tg_video": null
@@ -2128,6 +2218,9 @@
       },
       {
         "id": "1327667f-790e-80e2-81db-ca088682547f"
+      },
+      {
+        "id": "1467667f-790e-807c-b502-f42727b5da8a"
       }
     ],
     "site": null,
@@ -2462,9 +2555,6 @@
       },
       {
         "id": "cfb58886-c45c-48db-a30c-c02fbdfcbcee"
-      },
-      {
-        "id": "12a95314-ef82-4bf0-b3e5-45eea664f676"
       },
       {
         "id": "cb2d9922-733a-4f2e-92a9-30a54bfc29d9"
@@ -3783,7 +3873,7 @@
   },
   {
     "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549",
-    "last_edited": "2024-11-15T08:44:00.000Z",
+    "last_edited": "2024-11-21T06:56:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098022/FanVox_utovp0.jpg",
     "name": "FanVoxUA",
@@ -5376,6 +5466,9 @@
       },
       {
         "id": "1427667f-790e-8003-961d-ec47a9d98138"
+      },
+      {
+        "id": "1457667f-790e-8098-b8f9-c1573e92ace4"
       }
     ],
     "site": null,
@@ -5457,6 +5550,9 @@
       },
       {
         "id": "1307667f-790e-80e9-b68c-dbc5942ea1e0"
+      },
+      {
+        "id": "1457667f-790e-8062-8d8c-d5530a9d8320"
       }
     ],
     "site": "https://dzuski.com/",
@@ -5476,7 +5572,11 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1467667f-790e-807c-b502-f42727b5da8a"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -6366,7 +6466,7 @@
   },
   {
     "id": "bbb7d700-234b-46b6-a2d4-e72faaeb9890",
-    "last_edited": "2024-11-07T13:38:00.000Z",
+    "last_edited": "2024-11-21T10:14:00.000Z",
     "cover": null,
     "name": "Aniteka",
     "status": "Припинено",
@@ -6390,7 +6490,7 @@
   },
   {
     "id": "3617cc67-f3bd-414b-8be1-25d75d735b4f",
-    "last_edited": "2024-11-07T11:13:00.000Z",
+    "last_edited": "2024-11-21T10:14:00.000Z",
     "cover": null,
     "name": "AniMur",
     "status": "Припинено",
@@ -6417,7 +6517,7 @@
   },
   {
     "id": "ff4c5896-276f-41fb-b126-0bf4b0afe13a",
-    "last_edited": "2024-11-07T10:01:00.000Z",
+    "last_edited": "2024-11-21T10:13:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098005/Anikoe_jj7f1e.jpg",
     "name": "AniKoe",
@@ -6867,7 +6967,7 @@
   },
   {
     "id": "c586e28e-4f97-4a19-bf07-0b1f1722b773",
-    "last_edited": "2024-02-28T12:25:00.000Z",
+    "last_edited": "2024-11-21T10:15:00.000Z",
     "cover": null,
     "name": "Akito.tv",
     "status": "Невідомо",
@@ -6884,7 +6984,7 @@
   },
   {
     "id": "d4624684-dedc-41b7-b3a4-bf8f6780ea46",
-    "last_edited": "2024-11-06T15:32:00.000Z",
+    "last_edited": "2024-11-21T11:03:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098002/AID_sub_studio_w3q3hj.jpg",
     "name": "AID Sub Studio",
@@ -6946,7 +7046,7 @@
   },
   {
     "id": "88ab498a-f5d0-456d-8772-c9921e6f482d",
-    "last_edited": "2024-11-06T15:29:00.000Z",
+    "last_edited": "2024-11-21T10:17:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098002/48_volts_jfzepk.jpg",
     "name": "48 Volts",
@@ -7230,11 +7330,11 @@
   },
   {
     "id": "07a270c5-75e5-4718-ae51-6173577acf05",
-    "last_edited": "2024-10-28T07:53:00.000Z",
+    "last_edited": "2024-11-22T13:27:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730101964/Робота_голосом_oga8vf.jpg",
     "name": "Робота голосом",
-    "status": "Невідомо",
+    "status": "Активна",
     "type_activity": [
       "Аніме"
     ],
@@ -7254,6 +7354,165 @@
       },
       {
         "id": "13f7667f-790e-8015-a0e5-eae104e1670f"
+      },
+      {
+        "id": "1457667f-790e-80bb-8d5e-f2631f036ae4"
+      },
+      {
+        "id": "1457667f-790e-80d5-bab3-dda8b23cc861"
+      },
+      {
+        "id": "1457667f-790e-8029-b5fc-d2578b9fb887"
+      },
+      {
+        "id": "1457667f-790e-8012-bee1-fcb2b96413ee"
+      },
+      {
+        "id": "1457667f-790e-8092-9450-cd52967d4073"
+      },
+      {
+        "id": "1457667f-790e-80ee-8a4d-d8662d20f969"
+      },
+      {
+        "id": "1347667f-790e-8007-a75c-ffbae6e794d8"
+      },
+      {
+        "id": "1457667f-790e-809f-91cd-f04e8f7aa91b"
+      },
+      {
+        "id": "1457667f-790e-8062-8d8c-d5530a9d8320"
+      },
+      {
+        "id": "1457667f-790e-80e4-a523-e1d4198049f1"
+      },
+      {
+        "id": "1457667f-790e-801a-a0d5-ef6bfad20fd7"
+      },
+      {
+        "id": "1457667f-790e-80e2-96d9-ef27a2adc045"
+      },
+      {
+        "id": "1457667f-790e-802b-94c4-fbf1deca18af"
+      },
+      {
+        "id": "1457667f-790e-808d-957a-e7f8753508ea"
+      },
+      {
+        "id": "1457667f-790e-8004-a5f0-c833e1204a21"
+      },
+      {
+        "id": "1457667f-790e-80bb-8fc0-c1dd2c28f2b9"
+      },
+      {
+        "id": "1457667f-790e-809f-9295-e230249c0fd2"
+      },
+      {
+        "id": "12a95314-ef82-4bf0-b3e5-45eea664f676"
+      },
+      {
+        "id": "1457667f-790e-8096-b99b-e4a7bed1d666"
+      },
+      {
+        "id": "1457667f-790e-80fb-a7e5-f65bf7765a19"
+      },
+      {
+        "id": "1457667f-790e-80ec-b5d1-ea4e006fdd8b"
+      },
+      {
+        "id": "1457667f-790e-8083-8581-d9b43ace60a8"
+      },
+      {
+        "id": "1457667f-790e-8043-988f-d991fb885e66"
+      },
+      {
+        "id": "1467667f-790e-8016-896f-e2e085e5c6f9"
+      },
+      {
+        "id": "1467667f-790e-80cb-a996-dd2e697308e1"
+      },
+      {
+        "id": "1467667f-790e-80d6-a44b-c3c29e3f0d56"
+      },
+      {
+        "id": "1467667f-790e-80f1-bcc2-c0bc139eb0f5"
+      },
+      {
+        "id": "1467667f-790e-80d6-a5de-d30f9d754e0f"
+      },
+      {
+        "id": "1467667f-790e-807e-91f3-c3eeda7ac4cd"
+      },
+      {
+        "id": "1467667f-790e-803f-9efa-fdaa57e0dbaf"
+      },
+      {
+        "id": "1467667f-790e-808a-b60e-eac07ddcf954"
+      },
+      {
+        "id": "1467667f-790e-804a-ab65-ea8d492f7bd4"
+      },
+      {
+        "id": "1467667f-790e-8022-854f-d1e2616fc558"
+      },
+      {
+        "id": "1467667f-790e-80b5-85c2-fa6969d0d2ba"
+      },
+      {
+        "id": "1467667f-790e-803e-a720-e8abac8bab4c"
+      },
+      {
+        "id": "1467667f-790e-807c-b502-f42727b5da8a"
+      },
+      {
+        "id": "1467667f-790e-805c-bbae-f217ba98645c"
+      },
+      {
+        "id": "1467667f-790e-80f7-8bcb-de2a8963eaff"
+      },
+      {
+        "id": "1467667f-790e-809b-81da-cfde73751244"
+      },
+      {
+        "id": "1467667f-790e-805d-ac09-f9b349960dde"
+      },
+      {
+        "id": "1467667f-790e-8055-9b93-fef7ada61977"
+      },
+      {
+        "id": "1467667f-790e-80be-bd07-efc3cbc78f82"
+      },
+      {
+        "id": "1467667f-790e-80b2-9453-e53e8940e356"
+      },
+      {
+        "id": "1467667f-790e-803b-bf25-dee09c8187a5"
+      },
+      {
+        "id": "1467667f-790e-80ce-a6aa-f9dada612887"
+      },
+      {
+        "id": "1467667f-790e-8057-992c-e8a9889c3e27"
+      },
+      {
+        "id": "1467667f-790e-8000-ad11-ea7495390d2b"
+      },
+      {
+        "id": "1467667f-790e-8086-ad0d-d5740bdb5552"
+      },
+      {
+        "id": "1467667f-790e-80e9-999f-c8d486f87e2c"
+      },
+      {
+        "id": "1467667f-790e-803a-b47c-f4c1891b66db"
+      },
+      {
+        "id": "1467667f-790e-8030-a40c-da31a13c7807"
+      },
+      {
+        "id": "1467667f-790e-80a4-83a0-c6fd27f8f37d"
+      },
+      {
+        "id": "1467667f-790e-804b-82b5-cdb15a4e47e8"
       }
     ],
     "site": null,
@@ -7304,7 +7563,7 @@
   },
   {
     "id": "1faef501-8488-449b-a5fb-27fb56103200",
-    "last_edited": "2024-11-05T19:52:00.000Z",
+    "last_edited": "2024-11-21T11:00:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097984/КізукіДаб_ibotqq.jpg",
     "name": "КізукіDUB",
@@ -7423,25 +7682,29 @@
   },
   {
     "id": "3967700b-acbd-46fb-ad49-31067e5f0121",
-    "last_edited": "2024-10-28T07:50:00.000Z",
+    "last_edited": "2024-11-21T09:10:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097988/Отакої_ysovoj.jpg",
     "name": "Отакої",
-    "status": "Невідомо",
+    "status": "Активна",
     "type_activity": [
       "Різне"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1457667f-790e-8064-8ede-d2d315c9d039"
+      }
+    ],
     "site": null,
-    "anitube": null,
-    "insta": null,
+    "anitube": "https://anitube.in.ua/tags/Otakoi%20Studio/",
+    "insta": "https://instagram.com/otakoi_studio",
     "tg": "https://t.me/otakoi_studio",
     "tg_video": null
   },
   {
     "id": "5e62d9ef-b9de-4f3c-93f4-cea04754a5f4",
-    "last_edited": "2024-10-28T07:27:00.000Z",
+    "last_edited": "2024-11-21T11:00:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097983/%D0%94%D0%B8%D0%B2%D0%BD%D0%B0_%D0%B4%D0%B5%D1%81%D1%96%D1%8F_oi3j5u.jpg",
     "name": "Дивна Десія",
@@ -7497,7 +7760,7 @@
   },
   {
     "id": "2cddc217-a294-4768-a5ce-188d16aec743",
-    "last_edited": "2024-10-28T07:21:00.000Z",
+    "last_edited": "2024-11-21T09:26:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/4ua_r3nere.jpg",
     "name": "4UA",
@@ -7552,7 +7815,7 @@
   },
   {
     "id": "6813c059-18bf-4a13-b55e-b73080b04366",
-    "last_edited": "2024-11-04T12:15:00.000Z",
+    "last_edited": "2024-11-24T10:43:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097980/10gu_yyshow.jpg",
     "name": "10GU",
@@ -7594,6 +7857,9 @@
       },
       {
         "id": "1347667f-790e-8056-9549-e689e0f1454a"
+      },
+      {
+        "id": "1487667f-790e-8099-94a5-c25c7b54c0e9"
       }
     ],
     "site": null,
@@ -7604,7 +7870,7 @@
   },
   {
     "id": "ba158892-6189-426d-8f51-d52fc7289e66",
-    "last_edited": "2024-11-04T12:31:00.000Z",
+    "last_edited": "2024-11-21T11:00:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097982/Ватаґа_мудраґеля_ztteob.jpg",
     "name": "Ватага Мудрагеля",
