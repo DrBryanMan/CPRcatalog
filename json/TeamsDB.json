@@ -1,5 +1,84 @@
 [
   {
+    "id": "14c7667f-790e-8088-8365-c4f490c88828",
+    "last_edited": "2024-11-28T14:56:00.000Z",
+    "cover": null,
+    "name": "Morys",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "14c7667f-790e-80f7-a074-c3d7d9ac3fdb"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "14c7667f-790e-8051-970a-eaeb404d3810",
+    "last_edited": "2024-11-28T09:44:00.000Z",
+    "cover": null,
+    "name": "Legat",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "1497667f-790e-802c-83c4-e5f7b96aa748",
+    "last_edited": "2024-11-25T10:35:00.000Z",
+    "cover": null,
+    "name": "—",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "1497667f-790e-8003-ac00-e09329f15b0d",
+    "last_edited": "2024-11-25T08:45:00.000Z",
+    "cover": null,
+    "name": "З ранку до ночі",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "1497667f-790e-806d-b40c-d9a1298eb174",
+    "last_edited": "2024-11-25T08:36:00.000Z",
+    "cover": null,
+    "name": "Anime Pro",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
     "id": "1457667f-790e-80bd-aa85-cd79e137cdfb",
     "last_edited": "2024-11-21T11:13:00.000Z",
     "cover": null,
@@ -463,10 +542,10 @@
   },
   {
     "id": "12d7667f-790e-809b-a4e7-d5847c8da930",
-    "last_edited": "2024-10-28T10:36:00.000Z",
+    "last_edited": "2024-11-27T12:58:00.000Z",
     "cover": null,
-    "name": "Кухонний продакшн",
-    "status": "Припинено",
+    "name": "—",
+    "status": "Невідомо",
     "type_activity": [],
     "members": [],
     "anime_releases": [],
@@ -732,18 +811,39 @@
   },
   {
     "id": "12d7667f-790e-8087-9c3a-ef44c2b51e91",
-    "last_edited": "2024-10-28T07:29:00.000Z",
+    "last_edited": "2024-11-27T12:40:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097984/Корчма_лелеки_smsieh.jpg",
     "name": "Корчма лелеки",
-    "status": "Невідомо",
-    "type_activity": [],
+    "status": "Активна",
+    "type_activity": [
+      "Аніме"
+    ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "14b7667f-790e-800e-be8d-eb357815d82c"
+      },
+      {
+        "id": "14b7667f-790e-807c-a74b-c41bc7a80298"
+      },
+      {
+        "id": "14b7667f-790e-80ef-a1a6-eb57d1eb0e50"
+      },
+      {
+        "id": "14b7667f-790e-80d2-be0a-ee8696379fa8"
+      },
+      {
+        "id": "14b7667f-790e-80b1-843a-f16093f7f45e"
+      },
+      {
+        "id": "14b7667f-790e-8058-a16e-f8c5f64a9ffe"
+      }
+    ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/tags/Корчма%20Лелеки/",
     "insta": null,
-    "tg": null,
+    "tg": "https://t.me/korchma_leleku",
     "tg_video": null
   },
   {
@@ -1049,6 +1149,9 @@
       },
       {
         "id": "13f7667f-790e-80fc-98c8-e9134bd45e1f"
+      },
+      {
+        "id": "1497667f-790e-80dc-8573-f4830f977929"
       }
     ],
     "site": null,
@@ -1403,7 +1506,11 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1497667f-790e-803a-8ebf-c1a110203945"
+      }
+    ],
     "site": "https://ufdub.com/",
     "anitube": null,
     "insta": null,
@@ -1430,13 +1537,14 @@
   },
   {
     "id": "57a1c09f-b63b-46bb-8c3b-2d1995aceddb",
-    "last_edited": "2024-10-28T08:35:00.000Z",
+    "last_edited": "2024-11-25T14:33:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099889/Uaspf_dtjqgz.jpg",
     "name": "UASPF Studio / УКРОФОН",
     "status": "Невідомо",
     "type_activity": [
-      "Аніме"
+      "Аніме",
+      "Мульти"
     ],
     "members": [],
     "anime_releases": [
@@ -1451,7 +1559,7 @@
     "anitube": null,
     "insta": null,
     "tg": "https://t.me/uaspeedfilmsdub",
-    "tg_video": null
+    "tg_video": "https://t.me/uspfprojects"
   },
   {
     "id": "981b42c4-c174-4171-a775-bf16d2ec945e",
@@ -1519,7 +1627,7 @@
   },
   {
     "id": "6a7d6088-8ff1-4574-9660-cef9396617f2",
-    "last_edited": "2024-10-28T08:36:00.000Z",
+    "last_edited": "2024-11-26T14:58:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099896/Vop_m7w9su.jpg",
     "name": "The VOP",
@@ -1528,7 +1636,59 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "14a7667f-790e-80cd-9634-c6969bde71a2"
+      },
+      {
+        "id": "14a7667f-790e-80e8-a40d-c25644528b0a"
+      },
+      {
+        "id": "14a7667f-790e-8090-b972-cb0981719f90"
+      },
+      {
+        "id": "14a7667f-790e-8041-97a9-dfbcb6dc8b03"
+      },
+      {
+        "id": "14a7667f-790e-804b-a979-cfa6770a7504"
+      },
+      {
+        "id": "14a7667f-790e-8067-8b73-c64b75c65b12"
+      },
+      {
+        "id": "14a7667f-790e-804d-9055-c45938d37f58"
+      },
+      {
+        "id": "14a7667f-790e-80a3-8b94-f3d7095cb825"
+      },
+      {
+        "id": "14a7667f-790e-8026-b16c-f2868285e798"
+      },
+      {
+        "id": "14a7667f-790e-80db-ad5e-cfb5a0fc6aa9"
+      },
+      {
+        "id": "14a7667f-790e-800b-9d54-d79ad38672be"
+      },
+      {
+        "id": "14a7667f-790e-803f-89f0-e9209dfca679"
+      },
+      {
+        "id": "14a7667f-790e-8011-a50e-c22449414211"
+      },
+      {
+        "id": "14a7667f-790e-805c-a26a-e0a5d39122d5"
+      },
+      {
+        "id": "14a7667f-790e-8056-929d-e55d846b3dc4"
+      },
+      {
+        "id": "14a7667f-790e-8096-aff8-d3da87bf802a"
+      },
+      {
+        "id": "14a7667f-790e-803e-a7ca-d26411dc7578"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -5553,6 +5713,12 @@
       },
       {
         "id": "1457667f-790e-8062-8d8c-d5530a9d8320"
+      },
+      {
+        "id": "14a7667f-790e-806c-9fef-ca59486af8e8"
+      },
+      {
+        "id": "14a7667f-790e-806a-a182-f3e9a8e4df06"
       }
     ],
     "site": "https://dzuski.com/",
@@ -5575,6 +5741,9 @@
     "anime_releases": [
       {
         "id": "1467667f-790e-807c-b502-f42727b5da8a"
+      },
+      {
+        "id": "14c7667f-790e-80ce-b3d0-ee9ddc78b396"
       }
     ],
     "site": null,
@@ -6380,6 +6549,9 @@
       },
       {
         "id": "1357667f-790e-80bd-835f-fa596eb8b980"
+      },
+      {
+        "id": "14a7667f-790e-80b5-91b4-d663ce3bde25"
       }
     ],
     "site": null,
@@ -7330,13 +7502,14 @@
   },
   {
     "id": "07a270c5-75e5-4718-ae51-6173577acf05",
-    "last_edited": "2024-11-22T13:27:00.000Z",
+    "last_edited": "2024-11-28T09:38:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730101964/Робота_голосом_oga8vf.jpg",
     "name": "Робота голосом",
     "status": "Активна",
     "type_activity": [
-      "Аніме"
+      "Аніме",
+      "Серіали"
     ],
     "members": [],
     "anime_releases": [
@@ -7345,9 +7518,6 @@
       },
       {
         "id": "5956e556-7b71-4ece-a357-09e0a0dbc48e"
-      },
-      {
-        "id": "3d247873-29c5-43a1-8e1e-5a60b9a55b7c"
       },
       {
         "id": "1d43db15-f791-40d6-9da0-865845d4eb1d"
@@ -7513,10 +7683,607 @@
       },
       {
         "id": "1467667f-790e-804b-82b5-cdb15a4e47e8"
+      },
+      {
+        "id": "1497667f-790e-80ae-b865-c270edd74654"
+      },
+      {
+        "id": "1497667f-790e-80c0-9c80-c0fbf2622411"
+      },
+      {
+        "id": "1497667f-790e-8035-8b2b-f18ea5f4c65a"
+      },
+      {
+        "id": "1497667f-790e-805a-aff2-e7ff84ad9b60"
+      },
+      {
+        "id": "1497667f-790e-80c9-b56b-c0a39494060e"
+      },
+      {
+        "id": "1497667f-790e-8028-9f6b-ec9736c2b540"
+      },
+      {
+        "id": "1497667f-790e-8088-b705-c6a52edce098"
+      },
+      {
+        "id": "1497667f-790e-80bb-99ea-c818bdb17110"
+      },
+      {
+        "id": "1497667f-790e-80a7-82d7-dca114fa789e"
+      },
+      {
+        "id": "1497667f-790e-8007-863b-fc6c64c505df"
+      },
+      {
+        "id": "1497667f-790e-80b7-a734-fb7fe7865ac6"
+      },
+      {
+        "id": "1497667f-790e-8082-88a5-dbfaff909672"
+      },
+      {
+        "id": "1497667f-790e-809f-b438-ce5a138a35e5"
+      },
+      {
+        "id": "1497667f-790e-803c-ace1-ebc85f2d2efa"
+      },
+      {
+        "id": "1497667f-790e-80f3-ae38-fde34b2db1dc"
+      },
+      {
+        "id": "1497667f-790e-80c3-b800-f121f74237db"
+      },
+      {
+        "id": "1497667f-790e-80b3-987a-cb2963de3033"
+      },
+      {
+        "id": "1497667f-790e-807d-a519-fb4cb40f6b8f"
+      },
+      {
+        "id": "1497667f-790e-80fd-984c-e79f02dc595c"
+      },
+      {
+        "id": "1497667f-790e-8024-b172-d8221dbc9128"
+      },
+      {
+        "id": "1497667f-790e-803a-8ebf-c1a110203945"
+      },
+      {
+        "id": "1497667f-790e-802b-8c65-d137c30842dc"
+      },
+      {
+        "id": "1497667f-790e-80d5-ab9e-cd9f04d12d86"
+      },
+      {
+        "id": "1497667f-790e-8070-ad88-c2bdf689ae45"
+      },
+      {
+        "id": "1497667f-790e-8087-93e7-d24d801635e2"
+      },
+      {
+        "id": "1497667f-790e-80db-a611-fac84b20e291"
+      },
+      {
+        "id": "1497667f-790e-80f2-a63a-c0d13237e35f"
+      },
+      {
+        "id": "1497667f-790e-80c0-ab85-ee8c65dd3c51"
+      },
+      {
+        "id": "1497667f-790e-80e4-8fff-cad0aa93fab8"
+      },
+      {
+        "id": "1497667f-790e-8000-8cec-eedb39a27be8"
+      },
+      {
+        "id": "1497667f-790e-807f-9e5d-e9e0974c5a75"
+      },
+      {
+        "id": "1497667f-790e-80e7-97d2-d77176291233"
+      },
+      {
+        "id": "1497667f-790e-8006-8905-c918db2513ed"
+      },
+      {
+        "id": "1497667f-790e-801e-9814-e3d2d40b2e13"
+      },
+      {
+        "id": "1497667f-790e-808a-b303-fbf097f0e7c2"
+      },
+      {
+        "id": "1497667f-790e-80a4-ab7b-efdd8f44e0e6"
+      },
+      {
+        "id": "1497667f-790e-8072-9c82-df72b49a24dc"
+      },
+      {
+        "id": "1497667f-790e-802e-a715-c16697c8b2b8"
+      },
+      {
+        "id": "1497667f-790e-808c-ba82-d457a3e49788"
+      },
+      {
+        "id": "1497667f-790e-8015-a6cd-f569d9ee78b4"
+      },
+      {
+        "id": "1497667f-790e-803c-8ab8-f02337b15606"
+      },
+      {
+        "id": "1497667f-790e-8057-8b19-e572ae43a057"
+      },
+      {
+        "id": "1497667f-790e-8039-8a83-fdcb90f3a85a"
+      },
+      {
+        "id": "1497667f-790e-8077-9c5f-d1d4aac68bc5"
+      },
+      {
+        "id": "1497667f-790e-8086-bc00-c61114b5ec22"
+      },
+      {
+        "id": "1497667f-790e-8029-9464-f56c9474832c"
+      },
+      {
+        "id": "1497667f-790e-8056-a022-db27da2c9fb6"
+      },
+      {
+        "id": "1497667f-790e-8084-b288-e3bc08c61d4f"
+      },
+      {
+        "id": "1497667f-790e-80ab-9482-d02f46508eb1"
+      },
+      {
+        "id": "1497667f-790e-80dc-8573-f4830f977929"
+      },
+      {
+        "id": "1497667f-790e-800e-bbf3-f14a8d381955"
+      },
+      {
+        "id": "1497667f-790e-8096-8f80-eb9e8107b576"
+      },
+      {
+        "id": "1497667f-790e-8078-84d7-df06803bce17"
+      },
+      {
+        "id": "14a7667f-790e-80a5-bfdb-fca23e4638d3"
+      },
+      {
+        "id": "14a7667f-790e-8026-a47d-f4691d89581a"
+      },
+      {
+        "id": "14a7667f-790e-80b5-91b4-d663ce3bde25"
+      },
+      {
+        "id": "14a7667f-790e-80e1-aae2-fb0d40a718db"
+      },
+      {
+        "id": "14b7667f-790e-801c-b1ab-f0a7fb50847a"
+      },
+      {
+        "id": "14b7667f-790e-807a-bb10-d341cad7e9bc"
+      },
+      {
+        "id": "14b7667f-790e-80c7-9c33-d0fedb3672e1"
+      },
+      {
+        "id": "14b7667f-790e-8058-8509-ea141e6d12a6"
+      },
+      {
+        "id": "14b7667f-790e-80ac-a508-e6ec8b6d3f7e"
+      },
+      {
+        "id": "14b7667f-790e-80d4-a7a0-f621fc8d0d93"
+      },
+      {
+        "id": "14b7667f-790e-80a8-804e-f8032067723e"
+      },
+      {
+        "id": "14b7667f-790e-8056-9b8a-db3e9e69badb"
+      },
+      {
+        "id": "14b7667f-790e-80d1-b21a-c47d8434e224"
+      },
+      {
+        "id": "14b7667f-790e-8095-b21d-f8a7936dad05"
+      },
+      {
+        "id": "14b7667f-790e-808f-9751-cfcdf1f4c387"
+      },
+      {
+        "id": "14b7667f-790e-80fa-b20c-e093f48161e2"
+      },
+      {
+        "id": "14b7667f-790e-8028-bbd1-dca0216fb696"
+      },
+      {
+        "id": "14c7667f-790e-80e0-90c9-d08bdb90973b"
+      },
+      {
+        "id": "14c7667f-790e-80e6-9ac6-fd96ceec0996"
+      },
+      {
+        "id": "14c7667f-790e-800e-b4ef-e2ca2a6a96d8"
+      },
+      {
+        "id": "14c7667f-790e-8023-8fdd-c052235e7823"
+      },
+      {
+        "id": "14c7667f-790e-80e0-bf0f-db87d5eda147"
+      },
+      {
+        "id": "14c7667f-790e-808f-9514-f9504e7737a6"
+      },
+      {
+        "id": "14c7667f-790e-805c-a215-c9d8ed83b5f7"
+      },
+      {
+        "id": "14c7667f-790e-8066-8986-d8beb87fbb85"
+      },
+      {
+        "id": "14c7667f-790e-80c9-839e-de28e225becb"
+      },
+      {
+        "id": "14c7667f-790e-806e-9514-c4ddef17b8f7"
+      },
+      {
+        "id": "14c7667f-790e-8043-b944-dd6c73f0bdef"
+      },
+      {
+        "id": "14c7667f-790e-807b-a3ed-f07279f11bb4"
+      },
+      {
+        "id": "14c7667f-790e-80d4-8c88-ccf539d93440"
+      },
+      {
+        "id": "14c7667f-790e-808c-9126-d5a8765b3941"
+      },
+      {
+        "id": "14c7667f-790e-804c-91d7-f656a1d189c7"
+      },
+      {
+        "id": "14c7667f-790e-80fa-9c07-f4b9b7bf7d61"
+      },
+      {
+        "id": "14c7667f-790e-8003-9312-e4dbe8f7f0da"
+      },
+      {
+        "id": "14c7667f-790e-8061-8808-d87ab2239024"
+      },
+      {
+        "id": "14c7667f-790e-80ba-9ee4-e080fa9d5de2"
+      },
+      {
+        "id": "14c7667f-790e-8004-bc61-c2e069efdaf3"
+      },
+      {
+        "id": "14c7667f-790e-80ed-a9fa-c52b74d46b27"
+      },
+      {
+        "id": "14c7667f-790e-8088-a096-d7470e684bc4"
+      },
+      {
+        "id": "14c7667f-790e-804b-88ac-c85991fdfcc1"
+      },
+      {
+        "id": "14c7667f-790e-80d7-823c-dcbe2e48a78a"
+      },
+      {
+        "id": "14c7667f-790e-80e6-a5a7-c3dbc5f994cb"
+      },
+      {
+        "id": "14c7667f-790e-8066-8bf8-c9e134b17916"
+      },
+      {
+        "id": "14c7667f-790e-80f1-a73e-e9ce0765017c"
+      },
+      {
+        "id": "14c7667f-790e-80f9-805f-ffb7ae8d6266"
+      },
+      {
+        "id": "14c7667f-790e-805f-862a-c859b48cf76e"
+      },
+      {
+        "id": "14c7667f-790e-80fa-a709-e489550b8e77"
+      },
+      {
+        "id": "14c7667f-790e-8060-863c-dc8ed2bd2fd9"
+      },
+      {
+        "id": "14c7667f-790e-8002-b316-e35116acd45f"
+      },
+      {
+        "id": "14c7667f-790e-8080-8555-fbcdc4846655"
+      },
+      {
+        "id": "14c7667f-790e-807c-8dea-ed758514cbe5"
+      },
+      {
+        "id": "14c7667f-790e-80f8-b996-d72fb7d4bc1b"
+      },
+      {
+        "id": "14c7667f-790e-80cc-b13b-f6b897a62186"
+      },
+      {
+        "id": "14c7667f-790e-8080-8730-f692565b37f1"
+      },
+      {
+        "id": "14c7667f-790e-80c1-8a84-fd6da3279b73"
+      },
+      {
+        "id": "14c7667f-790e-806f-bf22-f40cf77ac464"
+      },
+      {
+        "id": "14c7667f-790e-8000-bbca-d336aa87d8c8"
+      },
+      {
+        "id": "14c7667f-790e-808a-b31b-f76fe67dd3fc"
+      },
+      {
+        "id": "14c7667f-790e-8012-8c08-f08474df0dd2"
+      },
+      {
+        "id": "14c7667f-790e-80e8-9fa9-e00ce86bb71b"
+      },
+      {
+        "id": "14c7667f-790e-809f-9892-caeeabe97f8b"
+      },
+      {
+        "id": "14c7667f-790e-8071-a64a-c8c24c564dd1"
+      },
+      {
+        "id": "14c7667f-790e-80d3-adcf-e890057f536e"
+      },
+      {
+        "id": "14c7667f-790e-8030-9190-c46fa9fe8bb8"
+      },
+      {
+        "id": "14c7667f-790e-8067-bf4d-eb6ac30b0e94"
+      },
+      {
+        "id": "14c7667f-790e-80d6-9858-fc986e900e75"
+      },
+      {
+        "id": "14c7667f-790e-8093-a927-cf10e5fc997b"
+      },
+      {
+        "id": "14c7667f-790e-8026-8b64-c1a590d46c25"
+      },
+      {
+        "id": "14c7667f-790e-8030-b4cd-cc6ca6b1c5d0"
+      },
+      {
+        "id": "14c7667f-790e-80e0-8728-ee145a64ea42"
+      },
+      {
+        "id": "14c7667f-790e-80d7-b099-ce9669e2f231"
+      },
+      {
+        "id": "14c7667f-790e-8033-bc3a-d2b02adefbec"
+      },
+      {
+        "id": "14c7667f-790e-804e-86a4-ddc0e642cb75"
+      },
+      {
+        "id": "14c7667f-790e-80a3-bca3-eed79397a6d6"
+      },
+      {
+        "id": "14c7667f-790e-800b-96fd-da64d2b6ce55"
+      },
+      {
+        "id": "14c7667f-790e-80a2-aaf8-d417322232f1"
+      },
+      {
+        "id": "14c7667f-790e-8088-aa22-c72e93919b88"
+      },
+      {
+        "id": "14c7667f-790e-80e5-b728-dc6609aa28de"
+      },
+      {
+        "id": "14c7667f-790e-80ac-b5e7-fd6673af61dd"
+      },
+      {
+        "id": "14c7667f-790e-803d-8e13-ecd9c0c6d47f"
+      },
+      {
+        "id": "14c7667f-790e-800a-bc07-ec32d9279645"
+      },
+      {
+        "id": "14c7667f-790e-80b3-9e2f-e9fd3be380e5"
+      },
+      {
+        "id": "14c7667f-790e-800a-aa9e-c0543df0de9f"
+      },
+      {
+        "id": "14c7667f-790e-8092-8f44-ca3b69fe784d"
+      },
+      {
+        "id": "14c7667f-790e-800d-9499-e920fe8f868d"
+      },
+      {
+        "id": "14c7667f-790e-80b4-b17c-cf23019b7894"
+      },
+      {
+        "id": "14c7667f-790e-8044-9db4-cad4098059f2"
+      },
+      {
+        "id": "14c7667f-790e-80f0-aecb-d437649cf713"
+      },
+      {
+        "id": "14c7667f-790e-8000-9178-cb06f575c48d"
+      },
+      {
+        "id": "14c7667f-790e-8073-ab56-d828f1711aa6"
+      },
+      {
+        "id": "14c7667f-790e-806d-a7b3-daffd62a8647"
+      },
+      {
+        "id": "14c7667f-790e-80e9-b6c7-e67d9896603f"
+      },
+      {
+        "id": "14c7667f-790e-804c-b55c-cd6126059377"
+      },
+      {
+        "id": "14c7667f-790e-8007-be53-d7f33c4e2dcc"
+      },
+      {
+        "id": "14c7667f-790e-8084-993b-d0c3e5c9bee0"
+      },
+      {
+        "id": "14c7667f-790e-80e6-a4dc-c7b8a1322f59"
+      },
+      {
+        "id": "14c7667f-790e-8080-bd2b-d0bd6ca65dbe"
+      },
+      {
+        "id": "14c7667f-790e-801f-9f2e-d1280c8d8eac"
+      },
+      {
+        "id": "14c7667f-790e-804d-b0c2-c64374e3992a"
+      },
+      {
+        "id": "14c7667f-790e-8063-9a11-cae00e336b7e"
+      },
+      {
+        "id": "14c7667f-790e-80bf-b09f-d87e3de71824"
+      },
+      {
+        "id": "14c7667f-790e-805d-857c-e77584fee387"
+      },
+      {
+        "id": "14c7667f-790e-80d1-8d20-c16f6d53c59f"
+      },
+      {
+        "id": "14c7667f-790e-80bf-a1cc-d0ceedf952cf"
+      },
+      {
+        "id": "14c7667f-790e-80eb-8ad8-f57cdd45d296"
+      },
+      {
+        "id": "14c7667f-790e-8063-b698-d9b8e22812a6"
+      },
+      {
+        "id": "14c7667f-790e-80cb-b0ba-fd0d1305d8b5"
+      },
+      {
+        "id": "14c7667f-790e-80f0-be62-f9a8dab26a53"
+      },
+      {
+        "id": "14c7667f-790e-8011-a471-dd8d3eead6cf"
+      },
+      {
+        "id": "14c7667f-790e-80cb-978a-ffc5eccdb87f"
+      },
+      {
+        "id": "14c7667f-790e-80ee-9400-d2d7e92fb4ed"
+      },
+      {
+        "id": "14c7667f-790e-80d5-9387-c49cc72c1c80"
+      },
+      {
+        "id": "14c7667f-790e-801b-ba35-c63c96f056b5"
+      },
+      {
+        "id": "14c7667f-790e-803d-8feb-f77c420cde9c"
+      },
+      {
+        "id": "14c7667f-790e-8003-b4e6-f505aaa7b5f9"
+      },
+      {
+        "id": "14c7667f-790e-8048-adba-dea278803445"
+      },
+      {
+        "id": "14c7667f-790e-8056-aa7e-d9c005798b45"
+      },
+      {
+        "id": "14c7667f-790e-8026-973f-ed1913fa8f11"
+      },
+      {
+        "id": "14c7667f-790e-80d3-aa5d-c4a0e9734b16"
+      },
+      {
+        "id": "14c7667f-790e-804e-9e0f-e5f047e42882"
+      },
+      {
+        "id": "14c7667f-790e-80ae-a69e-e9f2113f2b4b"
+      },
+      {
+        "id": "14c7667f-790e-802b-97b4-df04719705d9"
+      },
+      {
+        "id": "14c7667f-790e-80a6-b601-f87efcc57d8a"
+      },
+      {
+        "id": "14c7667f-790e-802c-b2e1-fdd08189fb00"
+      },
+      {
+        "id": "14c7667f-790e-80cf-a645-e07f69227ad3"
+      },
+      {
+        "id": "14c7667f-790e-8059-be89-f6f3ed856de1"
+      },
+      {
+        "id": "14c7667f-790e-8083-b36e-e86d48accaa2"
+      },
+      {
+        "id": "14c7667f-790e-8052-bb77-cd6a41352963"
+      },
+      {
+        "id": "14c7667f-790e-8052-9b07-cf5720a9846a"
+      },
+      {
+        "id": "14c7667f-790e-80a1-8ac9-f25f3d277701"
+      },
+      {
+        "id": "14c7667f-790e-8049-b75e-e25239fdd913"
+      },
+      {
+        "id": "14c7667f-790e-80ce-b3d0-ee9ddc78b396"
+      },
+      {
+        "id": "14c7667f-790e-8032-a55e-db678f7fffb5"
+      },
+      {
+        "id": "14c7667f-790e-803e-9b57-d59a3d3d1e3b"
+      },
+      {
+        "id": "14c7667f-790e-8070-b593-edfa928033ac"
+      },
+      {
+        "id": "14c7667f-790e-80a1-a5fa-d9024f9b981d"
+      },
+      {
+        "id": "14c7667f-790e-8080-9a10-d28e8b9ec9bc"
+      },
+      {
+        "id": "14c7667f-790e-8068-bdb2-d8318d923e19"
+      },
+      {
+        "id": "14c7667f-790e-8071-823f-e38a7a173a6d"
+      },
+      {
+        "id": "14c7667f-790e-802e-ba45-f0f22b0f6b93"
+      },
+      {
+        "id": "14c7667f-790e-8080-b309-f8d2df0eb7e7"
+      },
+      {
+        "id": "14c7667f-790e-80ac-bc46-e83b64e422a6"
+      },
+      {
+        "id": "14c7667f-790e-8075-9dc6-f083fea28c34"
+      },
+      {
+        "id": "14c7667f-790e-8098-a109-e69f959c06d2"
+      },
+      {
+        "id": "14c7667f-790e-800f-a64f-f9e104d694a6"
+      },
+      {
+        "id": "14c7667f-790e-8084-86d3-ca477189e64f"
       }
     ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/tags/Робота%20Голосом/",
     "insta": null,
     "tg": "https://t.me/robotaholosom",
     "tg_video": null
@@ -7618,7 +8385,7 @@
   },
   {
     "id": "6ad28501-37a9-43dc-8282-891c49decbfa",
-    "last_edited": "2024-10-28T10:35:00.000Z",
+    "last_edited": "2024-11-27T13:13:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730100761/Крафтова_nie19i.jpg",
     "name": "Крафтова аудіостудія",
@@ -7636,6 +8403,9 @@
       },
       {
         "id": "76849681-a805-440e-945d-c010ddd8d871"
+      },
+      {
+        "id": "14b7667f-790e-8006-81cf-cf42d411e39c"
       }
     ],
     "site": null,
@@ -7646,7 +8416,7 @@
   },
   {
     "id": "3f62f49e-2cf7-4e02-a783-4028bb96acb3",
-    "last_edited": "2024-10-28T08:28:00.000Z",
+    "last_edited": "2024-11-27T11:45:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097801/Kitsune_jt8iop.jpg",
     "name": "Kitsune",
@@ -7655,7 +8425,11 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "14c7667f-790e-808f-9514-f9504e7737a6"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
