@@ -6,7 +6,7 @@ import { router } from './router.js'
 export function renderList(items, type, initialFilters) {
     console.log(`Завантажено ${items.length} ${type}`)
     Functions.updateNavigation(type)
-    const itemsPerPage = 5
+    const itemsPerPage = 10
     let currentPage = 0
     let isLoading = false
     let allItemsLoaded = false
