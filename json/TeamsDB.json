@@ -1,5 +1,58 @@
 [
   {
+    "id": "1597667f-790e-8092-bacc-c02a8fff3ed4",
+    "last_edited": "2024-12-11T11:31:00.000Z",
+    "cover": null,
+    "name": "Evolution Studio",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "1597667f-790e-80db-b3d3-d6f46b52255b"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "1587667f-790e-8055-8a26-dd3fa0fd0884",
+    "last_edited": "2024-12-10T17:32:00.000Z",
+    "cover": null,
+    "name": "MEGOGO",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "1587667f-790e-80fe-a225-ef8ea23ed03c"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "1587667f-790e-80d8-83cf-fca5a30adebc",
+    "last_edited": "2024-12-10T13:40:00.000Z",
+    "cover": null,
+    "name": "Вояка Schweik",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
     "id": "1557667f-790e-80b1-87d0-c415151bbabb",
     "last_edited": "2024-12-07T09:07:00.000Z",
     "cover": null,
@@ -72,36 +125,6 @@
         "id": "14c7667f-790e-80f7-a074-c3d7d9ac3fdb"
       }
     ],
-    "site": null,
-    "anitube": null,
-    "insta": null,
-    "tg": null,
-    "tg_video": null
-  },
-  {
-    "id": "14c7667f-790e-8051-970a-eaeb404d3810",
-    "last_edited": "2024-11-28T09:44:00.000Z",
-    "cover": null,
-    "name": "Legat",
-    "status": "Невідомо",
-    "type_activity": [],
-    "members": [],
-    "anime_releases": [],
-    "site": null,
-    "anitube": null,
-    "insta": null,
-    "tg": null,
-    "tg_video": null
-  },
-  {
-    "id": "1497667f-790e-802c-83c4-e5f7b96aa748",
-    "last_edited": "2024-11-25T10:35:00.000Z",
-    "cover": null,
-    "name": "—",
-    "status": "Невідомо",
-    "type_activity": [],
-    "members": [],
-    "anime_releases": [],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -316,7 +339,7 @@
   },
   {
     "id": "1357667f-790e-8019-82fe-c6148e7a4368",
-    "last_edited": "2024-11-21T10:13:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "name": "AniJap",
     "status": "Розформована",
@@ -378,7 +401,7 @@
   },
   {
     "id": "1347667f-790e-80e0-91cc-e6302b8c1716",
-    "last_edited": "2024-12-04T09:01:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730720989/Shiwa_mmunbl.jpg",
     "name": "Shiwa",
@@ -422,7 +445,7 @@
   },
   {
     "id": "12d7667f-790e-80f1-a0e5-f7024c40c953",
-    "last_edited": "2024-12-03T20:16:00.000Z",
+    "last_edited": "2024-12-10T15:18:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730118543/Wonder_team_b30ca6.jpg",
     "name": "Wonder Team",
@@ -596,7 +619,7 @@
   },
   {
     "id": "12d7667f-790e-8095-a60c-cdace47c102a",
-    "last_edited": "2024-11-21T09:54:00.000Z",
+    "last_edited": "2024-12-10T15:18:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730112044/Yanichishi_b8kq9j.jpg",
     "name": "Yanichishi",
@@ -617,21 +640,6 @@
     "tg_video": "https://t.me/yanichishi_rel"
   },
   {
-    "id": "12d7667f-790e-809b-a4e7-d5847c8da930",
-    "last_edited": "2024-11-27T12:58:00.000Z",
-    "cover": null,
-    "name": "—",
-    "status": "Невідомо",
-    "type_activity": [],
-    "members": [],
-    "anime_releases": [],
-    "site": null,
-    "anitube": null,
-    "insta": null,
-    "tg": null,
-    "tg_video": null
-  },
-  {
     "id": "12d7667f-790e-80c6-a559-d29adc6bf98a",
     "last_edited": "2024-12-05T12:51:00.000Z",
     "cover": null,
@@ -648,7 +656,7 @@
   },
   {
     "id": "12d7667f-790e-8065-99df-f5d4ea095a13",
-    "last_edited": "2024-11-21T09:42:00.000Z",
+    "last_edited": "2024-12-10T15:19:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730111122/%D0%9F%D1%96%D0%B4_%D0%BA%D0%BE%D1%86%D0%B8%D0%BA%D0%BE%D0%BC_j8jmv9.jpg",
     "name": "Під коциком",
@@ -687,12 +695,14 @@
   },
   {
     "id": "12d7667f-790e-804e-976f-cb98143fbcee",
-    "last_edited": "2024-12-05T12:59:00.000Z",
+    "last_edited": "2024-12-12T16:42:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B5_%D1%87%D0%B0%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_yelier.jpg",
     "name": "Шалене чаювання",
-    "status": "Невідомо",
-    "type_activity": [],
+    "status": "Малоактивна",
+    "type_activity": [
+      "Аніме"
+    ],
     "members": [],
     "anime_releases": [
       {
@@ -907,7 +917,7 @@
   },
   {
     "id": "12d7667f-790e-802b-b49d-e26a92793ef0",
-    "last_edited": "2024-12-03T22:07:00.000Z",
+    "last_edited": "2024-12-12T16:32:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098027/Futashine_aa4mra.jpg",
     "name": "Futashine",
@@ -931,6 +941,12 @@
       },
       {
         "id": "1517667f-790e-8094-ac4c-de5e91c71c82"
+      },
+      {
+        "id": "15a7667f-790e-800e-be34-dfbfe999f715"
+      },
+      {
+        "id": "15a7667f-790e-8089-8747-d790af552ead"
       }
     ],
     "site": null,
@@ -989,7 +1005,7 @@
   },
   {
     "id": "12d7667f-790e-80fa-9215-eb8347e2047f",
-    "last_edited": "2024-12-05T12:37:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098008/Anicoin_xfaicz.jpg",
     "name": "Anicoin",
@@ -1011,7 +1027,7 @@
   },
   {
     "id": "12d7667f-790e-8087-9c3a-ef44c2b51e91",
-    "last_edited": "2024-11-27T12:40:00.000Z",
+    "last_edited": "2024-12-10T15:19:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097984/Корчма_лелеки_smsieh.jpg",
     "name": "Корчма лелеки",
@@ -1090,7 +1106,7 @@
   },
   {
     "id": "e0e6d489-9d38-4279-999d-c827005d570c",
-    "last_edited": "2024-12-05T12:39:00.000Z",
+    "last_edited": "2024-12-10T18:02:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102911/Aniua_syjgze.jpg",
     "name": "AniUA",
@@ -1139,6 +1155,483 @@
       },
       {
         "id": "13f7667f-790e-8015-a0e5-eae104e1670f"
+      },
+      {
+        "id": "1587667f-790e-805d-926b-ca3f09808d7a"
+      },
+      {
+        "id": "1587667f-790e-8059-98e8-dea37653f64b"
+      },
+      {
+        "id": "1587667f-790e-80de-9659-de53d813ecf1"
+      },
+      {
+        "id": "1587667f-790e-805e-a62a-e0d561a10d4e"
+      },
+      {
+        "id": "1587667f-790e-8085-882b-eec819ee5e6e"
+      },
+      {
+        "id": "1587667f-790e-80ab-8f35-cb29c2bdc160"
+      },
+      {
+        "id": "1587667f-790e-805d-a2e9-fc05a1c4f15e"
+      },
+      {
+        "id": "1587667f-790e-8072-b555-f18439d74022"
+      },
+      {
+        "id": "1587667f-790e-8002-9918-cc6f846b4e6c"
+      },
+      {
+        "id": "1587667f-790e-8018-9f05-f3091a09cb90"
+      },
+      {
+        "id": "1587667f-790e-8072-9440-f2f9623cecfd"
+      },
+      {
+        "id": "387cd0c2-18c5-463a-bc2f-ddcd980e40fe"
+      },
+      {
+        "id": "3d247873-29c5-43a1-8e1e-5a60b9a55b7c"
+      },
+      {
+        "id": "834c2055-6163-4372-8b6b-7a9a180d6753"
+      },
+      {
+        "id": "1587667f-790e-80c5-a125-ce0a6f1933c0"
+      },
+      {
+        "id": "1587667f-790e-80a8-88cd-f476bf103acd"
+      },
+      {
+        "id": "1587667f-790e-802d-a7fc-ea2fa15e6b84"
+      },
+      {
+        "id": "1f6ef8a5-1e43-4469-aed7-c0342943ab5d"
+      },
+      {
+        "id": "1587667f-790e-80a3-b404-d72005747134"
+      },
+      {
+        "id": "80b84a80-bfcc-46cc-9add-11981201a663"
+      },
+      {
+        "id": "1587667f-790e-80b9-a6a0-c58c1592d064"
+      },
+      {
+        "id": "1587667f-790e-805a-8905-dc3d79bbd9e2"
+      },
+      {
+        "id": "1587667f-790e-8098-844d-c77b7f4fbc1f"
+      },
+      {
+        "id": "1587667f-790e-8095-be85-fd9162a318d1"
+      },
+      {
+        "id": "1587667f-790e-8037-9f9f-d0883bf7ed9a"
+      },
+      {
+        "id": "1587667f-790e-8097-b007-d19d37df89e2"
+      },
+      {
+        "id": "1587667f-790e-809a-92cc-cafc4e2f1857"
+      },
+      {
+        "id": "0342f23e-79a3-45b7-9957-6f9ce993de49"
+      },
+      {
+        "id": "1587667f-790e-803c-9b18-e3f57cfd1b05"
+      },
+      {
+        "id": "4ce4de5a-0242-40b1-b041-b745933dd9e5"
+      },
+      {
+        "id": "a0eb6dc9-a25a-4ca5-b9f7-95ab44fe3bb1"
+      },
+      {
+        "id": "1587667f-790e-8087-8be9-c646ce557ee8"
+      },
+      {
+        "id": "1587667f-790e-803a-aba7-f255b8206e4a"
+      },
+      {
+        "id": "1587667f-790e-809d-8e52-f50212bdba37"
+      },
+      {
+        "id": "1587667f-790e-8040-8b61-cc8b7caf7e1a"
+      },
+      {
+        "id": "1587667f-790e-80e0-b832-d8963695e5a7"
+      },
+      {
+        "id": "1587667f-790e-80fb-83e0-c626192bf4b6"
+      },
+      {
+        "id": "e731e49a-542e-4001-b06d-0f953c0c57fc"
+      },
+      {
+        "id": "1587667f-790e-802f-a5e3-d6aa83183860"
+      },
+      {
+        "id": "1587667f-790e-801a-82a6-d818a372b192"
+      },
+      {
+        "id": "1587667f-790e-80ed-b7aa-e7906da0942b"
+      },
+      {
+        "id": "1587667f-790e-80b5-a195-ff173b94fcb1"
+      },
+      {
+        "id": "1587667f-790e-8057-9dcc-e72c2066152b"
+      },
+      {
+        "id": "0681e805-ecc2-4604-922f-3d88d8958398"
+      },
+      {
+        "id": "1587667f-790e-8008-991d-ce7a0238dd95"
+      },
+      {
+        "id": "1597667f-790e-808c-b890-dd57fa4eef4b"
+      },
+      {
+        "id": "1597667f-790e-807f-bc8b-ce086a0d111d"
+      },
+      {
+        "id": "1597667f-790e-80f6-ac45-cd60c9b01ac9"
+      },
+      {
+        "id": "1597667f-790e-808e-b2c4-fcd16aea52fc"
+      },
+      {
+        "id": "1597667f-790e-8063-9ceb-fdc11a5283ff"
+      },
+      {
+        "id": "1597667f-790e-8020-975a-dd431aca0247"
+      },
+      {
+        "id": "1597667f-790e-8027-b5ad-cea2a2ff6fbe"
+      },
+      {
+        "id": "1597667f-790e-8088-bb73-e4252596cb89"
+      },
+      {
+        "id": "1597667f-790e-80f8-9e66-e6dee1b897e2"
+      },
+      {
+        "id": "1597667f-790e-8030-b879-e93010dbf0ff"
+      },
+      {
+        "id": "1597667f-790e-80de-849a-ef7d61bcc2ef"
+      },
+      {
+        "id": "1597667f-790e-805d-af9a-c156fe06477e"
+      },
+      {
+        "id": "1597667f-790e-8092-957c-dc3f3cc019ee"
+      },
+      {
+        "id": "1597667f-790e-807b-bc65-ce6a5a5cfd8b"
+      },
+      {
+        "id": "1597667f-790e-800f-bd2c-fd249f449811"
+      },
+      {
+        "id": "1597667f-790e-808c-a366-cbd6496b15d6"
+      },
+      {
+        "id": "e092005a-debc-4646-8401-e81b23bd3df7"
+      },
+      {
+        "id": "1597667f-790e-80da-9999-fcfa2eb1d567"
+      },
+      {
+        "id": "1597667f-790e-804a-a1c8-dadae377adbf"
+      },
+      {
+        "id": "1597667f-790e-80a6-ac14-cf96ab30b3f6"
+      },
+      {
+        "id": "1597667f-790e-8008-998a-f322ee2d0067"
+      },
+      {
+        "id": "1597667f-790e-8099-be5c-d90fb7afb965"
+      },
+      {
+        "id": "1597667f-790e-808b-a67b-e68cc433eae3"
+      },
+      {
+        "id": "1597667f-790e-80dd-ae64-e13e8e460189"
+      },
+      {
+        "id": "1597667f-790e-8073-aef1-d895f9a17256"
+      },
+      {
+        "id": "1597667f-790e-80db-b3d3-d6f46b52255b"
+      },
+      {
+        "id": "1597667f-790e-80b6-80be-d5471197ad91"
+      },
+      {
+        "id": "1597667f-790e-802d-af37-e76e7721465d"
+      },
+      {
+        "id": "1597667f-790e-80fb-9eb2-dfd5eb53d5db"
+      },
+      {
+        "id": "1597667f-790e-8072-83a6-f6c6338be8cf"
+      },
+      {
+        "id": "1597667f-790e-80b6-819f-c0393e14e6aa"
+      },
+      {
+        "id": "1597667f-790e-80ec-b148-e2f62181e2ed"
+      },
+      {
+        "id": "1587667f-790e-808c-b7eb-da8da2a79f82"
+      },
+      {
+        "id": "1597667f-790e-8037-97cc-e4668648d6aa"
+      },
+      {
+        "id": "1597667f-790e-80c4-96d7-c98c09024860"
+      },
+      {
+        "id": "1597667f-790e-804b-807b-d282bfdd0397"
+      },
+      {
+        "id": "1597667f-790e-80d5-becf-e7861f6734e4"
+      },
+      {
+        "id": "1597667f-790e-8027-ace7-dda98029e867"
+      },
+      {
+        "id": "97061b15-541c-4802-89ee-83dad6fd4320"
+      },
+      {
+        "id": "1597667f-790e-80a2-8a20-d6fd00247f4f"
+      },
+      {
+        "id": "1597667f-790e-808c-a9ff-c0943d903f64"
+      },
+      {
+        "id": "1597667f-790e-80c6-9ed9-ed08873fc5fe"
+      },
+      {
+        "id": "1597667f-790e-80d5-8c95-c06e06b3b2a9"
+      },
+      {
+        "id": "1597667f-790e-806f-b704-dab2c319100f"
+      },
+      {
+        "id": "1597667f-790e-8011-8aa0-f657ade1fc30"
+      },
+      {
+        "id": "1597667f-790e-8054-8c73-d32f0acdad4e"
+      },
+      {
+        "id": "1597667f-790e-807f-ba63-d7186130dc59"
+      },
+      {
+        "id": "1597667f-790e-80cf-a10b-ee209890d544"
+      },
+      {
+        "id": "1597667f-790e-8001-82f7-dfbe563fb35c"
+      },
+      {
+        "id": "1597667f-790e-80fe-ac23-dd0457f2d6ed"
+      },
+      {
+        "id": "1597667f-790e-802a-ab61-eafe4bb55770"
+      },
+      {
+        "id": "1597667f-790e-8052-b3f9-ca94dd0e2688"
+      },
+      {
+        "id": "1597667f-790e-80d9-b8a0-fbb636d9b4fa"
+      },
+      {
+        "id": "1597667f-790e-80a4-8ebd-d357349d9c6d"
+      },
+      {
+        "id": "1597667f-790e-8055-9379-f0630fd6725e"
+      },
+      {
+        "id": "1597667f-790e-80db-8ef9-e7cf93bc5116"
+      },
+      {
+        "id": "1597667f-790e-8011-93c2-f7269f42bdca"
+      },
+      {
+        "id": "1597667f-790e-80e9-af96-e48a22decf9d"
+      },
+      {
+        "id": "2d4670e4-d26e-4a0d-81d2-8e011af2ece9"
+      },
+      {
+        "id": "1597667f-790e-80f8-8139-fb2f4512a736"
+      },
+      {
+        "id": "1597667f-790e-8093-9bb0-d500b277266a"
+      },
+      {
+        "id": "1597667f-790e-80b7-94a9-f367f47fe739"
+      },
+      {
+        "id": "1597667f-790e-80f4-a2ee-c11f97e9d0f6"
+      },
+      {
+        "id": "1597667f-790e-805d-a6c4-d56a8e19e9e0"
+      },
+      {
+        "id": "1597667f-790e-805d-9fda-ce22f604b0b3"
+      },
+      {
+        "id": "1597667f-790e-8057-9896-e4b4aec56223"
+      },
+      {
+        "id": "1597667f-790e-80ef-8853-c7ad1f1d79b4"
+      },
+      {
+        "id": "1597667f-790e-8019-ba02-e6d9a8e1f49d"
+      },
+      {
+        "id": "1597667f-790e-80b5-9903-d0ecb8239615"
+      },
+      {
+        "id": "1597667f-790e-80ea-9c48-f3e5a5ab8bb7"
+      },
+      {
+        "id": "1597667f-790e-80c0-807c-d0fec1fde101"
+      },
+      {
+        "id": "1597667f-790e-80bf-a112-e304137c4678"
+      },
+      {
+        "id": "1597667f-790e-80ce-96a8-daebefbbe80f"
+      },
+      {
+        "id": "1597667f-790e-80a7-b39b-ca905a08b55d"
+      },
+      {
+        "id": "1597667f-790e-807c-86e3-db5fff2e9e94"
+      },
+      {
+        "id": "1597667f-790e-807a-b4a0-e735166d85e2"
+      },
+      {
+        "id": "1597667f-790e-80cf-86bc-df9c044758ad"
+      },
+      {
+        "id": "1597667f-790e-8037-a8a1-e6411a36e86a"
+      },
+      {
+        "id": "1597667f-790e-80e1-8a12-ed33324fa907"
+      },
+      {
+        "id": "1597667f-790e-80c7-ac83-fb72e03f0f5c"
+      },
+      {
+        "id": "1597667f-790e-80df-9b0c-d33a0fc50a7e"
+      },
+      {
+        "id": "1597667f-790e-802b-b08c-f7121a6861d0"
+      },
+      {
+        "id": "1597667f-790e-8026-a3db-f88ca65ea5ad"
+      },
+      {
+        "id": "1597667f-790e-8099-ac2a-de3def5c3474"
+      },
+      {
+        "id": "1597667f-790e-8035-b850-f4d705c6ee59"
+      },
+      {
+        "id": "1597667f-790e-80cb-ae5b-f736f14b4873"
+      },
+      {
+        "id": "1597667f-790e-8073-a310-c3c265a0814d"
+      },
+      {
+        "id": "1597667f-790e-8057-b1d4-d470f537e901"
+      },
+      {
+        "id": "1597667f-790e-8071-bd32-e0808a2417bc"
+      },
+      {
+        "id": "1597667f-790e-8036-8422-fd3996ea7135"
+      },
+      {
+        "id": "1597667f-790e-80de-ba8f-d77a15e55788"
+      },
+      {
+        "id": "1597667f-790e-809e-af00-f38456feca5b"
+      },
+      {
+        "id": "1597667f-790e-8077-8af3-f6a4b2735359"
+      },
+      {
+        "id": "1597667f-790e-808c-8544-c2d02fa63a5b"
+      },
+      {
+        "id": "1597667f-790e-804e-a5d6-ca8a2f1c3052"
+      },
+      {
+        "id": "1597667f-790e-8071-80e0-d42358b29637"
+      },
+      {
+        "id": "1597667f-790e-80ce-a494-c96c18d60a7d"
+      },
+      {
+        "id": "1597667f-790e-8017-b94c-f22b4e382df4"
+      },
+      {
+        "id": "1597667f-790e-804a-8f56-e9aea4373feb"
+      },
+      {
+        "id": "1597667f-790e-8059-a934-e518a9439ff0"
+      },
+      {
+        "id": "1597667f-790e-8025-987e-ed31e44aba6e"
+      },
+      {
+        "id": "1597667f-790e-8067-9b89-d5a9f5a073f7"
+      },
+      {
+        "id": "1597667f-790e-8056-8d45-f8a776133b98"
+      },
+      {
+        "id": "746ed2f1-4c84-4984-894b-d367fe98822f"
+      },
+      {
+        "id": "53801ed8-044a-47e8-8225-8184f91cb53f"
+      },
+      {
+        "id": "3fd34a03-bd2f-4e23-9cf6-2aee4f0fe299"
+      },
+      {
+        "id": "f53ba685-3c44-4e23-b476-f416d2e67225"
+      },
+      {
+        "id": "74d355dd-cc90-469c-aac7-ab600a588737"
+      },
+      {
+        "id": "439a219f-a7f3-471e-ad9f-07fc6a3d7d27"
+      },
+      {
+        "id": "ec1a608d-277d-4b05-b8fd-f5369d4cebe3"
+      },
+      {
+        "id": "a80da20b-b048-4511-891d-f16a641ec441"
+      },
+      {
+        "id": "05b4315e-896f-4a48-b78c-529d29fff0bd"
+      },
+      {
+        "id": "b901bbe8-3386-4ac2-b518-3bfc8cba6706"
+      },
+      {
+        "id": "1597667f-790e-806e-bd82-ea6fbb6abb55"
       }
     ],
     "site": null,
@@ -1193,7 +1686,7 @@
   },
   {
     "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb",
-    "last_edited": "2024-11-21T10:15:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098003/Anifun_comvwh.jpg",
     "name": "AniFunUa",
@@ -1272,7 +1765,7 @@
   },
   {
     "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94",
-    "last_edited": "2024-11-21T11:03:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730103346/Slobozhanec_pqlhxt.jpg",
     "name": "ES",
@@ -1362,13 +1855,14 @@
   },
   {
     "id": "f212e94e-5cea-4100-8cdc-c172283a8cca",
-    "last_edited": "2024-10-28T07:34:00.000Z",
+    "last_edited": "2024-12-10T14:52:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730100817/Legat_fvbx2z.jpg",
     "name": "Леґат аніме переклади",
-    "status": "Невідомо",
+    "status": "Активна",
     "type_activity": [
-      "Переклад"
+      "Переклад",
+      "Субтитри"
     ],
     "members": [],
     "anime_releases": [
@@ -1542,7 +2036,7 @@
   },
   {
     "id": "94116cd0-a6cc-4cf8-9a25-592ae3d8dc30",
-    "last_edited": "2024-12-03T20:37:00.000Z",
+    "last_edited": "2024-12-10T15:18:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099883/Wakamania_qfjr1b.jpg",
     "name": "Wakamania",
@@ -1580,7 +2074,7 @@
   },
   {
     "id": "ca36f154-d4eb-4c32-9c6d-87568200c974",
-    "last_edited": "2024-12-04T15:28:00.000Z",
+    "last_edited": "2024-12-10T15:18:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099883/Vrdub_vc3s5o.jpg",
     "name": "VRDub",
@@ -1951,6 +2445,12 @@
       },
       {
         "id": "1347667f-790e-8033-8596-ea6f4dea9bb3"
+      },
+      {
+        "id": "1597667f-790e-80d5-9fd8-f8586cb5df7e"
+      },
+      {
+        "id": "2be0908d-3786-4ac8-826e-0061bb2cb7fd"
       }
     ],
     "site": "https://ufdub.com/",
@@ -2069,7 +2569,7 @@
   },
   {
     "id": "6a7d6088-8ff1-4574-9660-cef9396617f2",
-    "last_edited": "2024-12-05T12:51:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099896/Vop_m7w9su.jpg",
     "name": "The VOP",
@@ -2156,7 +2656,7 @@
   },
   {
     "id": "589fabe4-4aab-4ddc-981a-e2fcd0a5a08e",
-    "last_edited": "2024-11-21T11:03:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099897/Starfall_fr740v.jpg",
     "name": "Starfall",
@@ -2210,6 +2710,9 @@
       },
       {
         "id": "13f7667f-790e-800c-a854-f822bff2a049"
+      },
+      {
+        "id": "15a7667f-790e-8093-8d0d-c851cb5b58f5"
       }
     ],
     "site": null,
@@ -2220,7 +2723,7 @@
   },
   {
     "id": "e31460bd-e66f-4bf5-941d-1d2bd3c12226",
-    "last_edited": "2024-12-04T08:31:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099899/Skidub_nykm7n.jpg",
     "name": "SkiDUB",
@@ -2351,7 +2854,7 @@
   },
   {
     "id": "9e4b5486-f45a-44e0-8b50-7894ca5d9003",
-    "last_edited": "2024-12-05T12:49:00.000Z",
+    "last_edited": "2024-12-10T15:17:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099906/Quam_nl4a67.jpg",
     "name": "QUAM Project",
@@ -2372,6 +2875,129 @@
       },
       {
         "id": "1467667f-790e-8016-896f-e2e085e5c6f9"
+      },
+      {
+        "id": "1577667f-790e-8076-9985-f2803585a60a"
+      },
+      {
+        "id": "1577667f-790e-8056-b143-c6621b452462"
+      },
+      {
+        "id": "1577667f-790e-800c-9767-fb446bea277b"
+      },
+      {
+        "id": "1577667f-790e-80ff-a545-f1b3ca90c4e2"
+      },
+      {
+        "id": "1577667f-790e-8020-888b-f8b3817542af"
+      },
+      {
+        "id": "1577667f-790e-80b5-88fb-e874be064b48"
+      },
+      {
+        "id": "1577667f-790e-80a3-a749-c055d4494f58"
+      },
+      {
+        "id": "1577667f-790e-8021-be22-ff4cd5e3e1d0"
+      },
+      {
+        "id": "1577667f-790e-804b-8b44-cd28e6a9463e"
+      },
+      {
+        "id": "1577667f-790e-80ba-8417-cfca9a023ea5"
+      },
+      {
+        "id": "1587667f-790e-80fa-91a7-d8b86276f7cf"
+      },
+      {
+        "id": "1587667f-790e-8030-a17d-f88734a4fbac"
+      },
+      {
+        "id": "1587667f-790e-8017-b333-e23fe5b2d7fa"
+      },
+      {
+        "id": "1587667f-790e-801b-912c-c947477d7a95"
+      },
+      {
+        "id": "1587667f-790e-80b0-b908-df319b1942fd"
+      },
+      {
+        "id": "1587667f-790e-80a6-9c94-d1bc83770dfe"
+      },
+      {
+        "id": "1587667f-790e-804a-85ea-f8de9e52c5da"
+      },
+      {
+        "id": "160ab9e3-561d-4c7d-b759-ab5321db6ab6"
+      },
+      {
+        "id": "1467667f-790e-803b-bf25-dee09c8187a5"
+      },
+      {
+        "id": "1587667f-790e-80e0-b489-c9d3700df99d"
+      },
+      {
+        "id": "1587667f-790e-8046-adbc-f1d9e045e0d9"
+      },
+      {
+        "id": "1587667f-790e-809f-9a0f-c11a94dcfcfc"
+      },
+      {
+        "id": "1587667f-790e-805d-926b-ca3f09808d7a"
+      },
+      {
+        "id": "1587667f-790e-80f3-938a-cf841a3e773c"
+      },
+      {
+        "id": "1587667f-790e-80ec-b97b-cadea4ecaf96"
+      },
+      {
+        "id": "1537667f-790e-809c-8e87-dcf2d2050ea9"
+      },
+      {
+        "id": "1497667f-790e-80bb-99ea-c818bdb17110"
+      },
+      {
+        "id": "1587667f-790e-8029-8d4a-ca6ebcf4fb4d"
+      },
+      {
+        "id": "1587667f-790e-80fb-9f56-d55ece1b7708"
+      },
+      {
+        "id": "1587667f-790e-8059-98e8-dea37653f64b"
+      },
+      {
+        "id": "1587667f-790e-8004-ae29-d82746ce50be"
+      },
+      {
+        "id": "1587667f-790e-8053-b534-edeedaf17ea1"
+      },
+      {
+        "id": "1587667f-790e-80f9-b374-ef47d3e87d33"
+      },
+      {
+        "id": "1587667f-790e-800a-8ea3-d1e11541494c"
+      },
+      {
+        "id": "1497667f-790e-80ab-9482-d02f46508eb1"
+      },
+      {
+        "id": "1537667f-790e-8016-b276-ebb5c592080c"
+      },
+      {
+        "id": "1587667f-790e-8059-84a0-c34d5f696afa"
+      },
+      {
+        "id": "1587667f-790e-80f6-bc6f-e85a3d604556"
+      },
+      {
+        "id": "1587667f-790e-8024-8263-df43d84c7023"
+      },
+      {
+        "id": "64b12816-9c9b-4944-9aec-2a44016d68e9"
+      },
+      {
+        "id": "1587667f-790e-8010-90ae-f8698c2ea4a6"
       }
     ],
     "site": null,
@@ -2466,10 +3092,7 @@
     "members": [],
     "anime_releases": [
       {
-        "id": "7cbe1088-2aa9-4c12-b80d-48f10a10a3e7"
-      },
-      {
-        "id": "390e0976-3ebc-4bec-a689-95282da9c0c7"
+        "id": "27a11d70-aa9b-44ad-a389-34f216927b46"
       }
     ],
     "site": null,
@@ -2762,7 +3385,7 @@
   },
   {
     "id": "8bc8dbef-7139-413b-b24d-bdf7cbd5647d",
-    "last_edited": "2024-11-21T09:39:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099914/Lilting_uf9bib.jpg",
     "name": "LiltingLingo",
@@ -3508,9 +4131,6 @@
       },
       {
         "id": "e158ae83-19e4-4bc6-9e4b-aff2affd744a"
-      },
-      {
-        "id": "793d1a75-b982-47fe-a78e-4bff4a0b4a8a"
       },
       {
         "id": "07e5471d-93b4-49f4-8b4b-1a4ddff9fa7a"
@@ -4378,6 +4998,90 @@
       },
       {
         "id": "13f7667f-790e-8015-a0e5-eae104e1670f"
+      },
+      {
+        "id": "64b12816-9c9b-4944-9aec-2a44016d68e9"
+      },
+      {
+        "id": "1587667f-790e-80c5-a125-ce0a6f1933c0"
+      },
+      {
+        "id": "1587667f-790e-80a8-88cd-f476bf103acd"
+      },
+      {
+        "id": "1587667f-790e-8002-9918-cc6f846b4e6c"
+      },
+      {
+        "id": "1587667f-790e-8072-9440-f2f9623cecfd"
+      },
+      {
+        "id": "1587667f-790e-8087-8be9-c646ce557ee8"
+      },
+      {
+        "id": "1587667f-790e-80b5-a195-ff173b94fcb1"
+      },
+      {
+        "id": "1597667f-790e-80f6-ac45-cd60c9b01ac9"
+      },
+      {
+        "id": "1587667f-790e-808c-b7eb-da8da2a79f82"
+      },
+      {
+        "id": "1597667f-790e-8056-8d45-f8a776133b98"
+      },
+      {
+        "id": "15a7667f-790e-80a5-9344-c6eb0cb22a2d"
+      },
+      {
+        "id": "15a7667f-790e-80e7-97fd-d2d1e4da38c1"
+      },
+      {
+        "id": "15a7667f-790e-802f-b00b-ed785376170f"
+      },
+      {
+        "id": "15a7667f-790e-8016-afef-fd51e1a47f35"
+      },
+      {
+        "id": "15a7667f-790e-8025-9672-c7ee9258e068"
+      },
+      {
+        "id": "15a7667f-790e-803f-8cda-c74f18d14751"
+      },
+      {
+        "id": "15a7667f-790e-802f-8677-fe9b0ba46bbe"
+      },
+      {
+        "id": "15a7667f-790e-8089-ae1c-c259bf07b81e"
+      },
+      {
+        "id": "15a7667f-790e-80f9-8d60-fc87860b4498"
+      },
+      {
+        "id": "15a7667f-790e-80a9-b1e0-dc588ef4259e"
+      },
+      {
+        "id": "15a7667f-790e-80cd-9036-cc67dc2e38d9"
+      },
+      {
+        "id": "15a7667f-790e-80b6-a314-d63639dc0090"
+      },
+      {
+        "id": "15a7667f-790e-80a7-b456-d8fda86dede2"
+      },
+      {
+        "id": "15a7667f-790e-80e3-a685-c74b21e0c07a"
+      },
+      {
+        "id": "15a7667f-790e-80f8-a5ab-c4675cc30648"
+      },
+      {
+        "id": "15a7667f-790e-809c-94c4-eb52b43f2b9b"
+      },
+      {
+        "id": "15a7667f-790e-801d-893d-e89609a0d806"
+      },
+      {
+        "id": "15a7667f-790e-80db-8e92-c29836c16757"
       }
     ],
     "site": null,
@@ -4441,7 +5145,7 @@
   },
   {
     "id": "91bf37eb-0908-4ab4-b0ea-6b65f282aa61",
-    "last_edited": "2024-12-05T12:42:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098023/Flost_crja2v.jpg",
     "name": "Flost Studio",
@@ -6293,6 +6997,27 @@
       },
       {
         "id": "14a7667f-790e-806a-a182-f3e9a8e4df06"
+      },
+      {
+        "id": "1577667f-790e-80b5-88fb-e874be064b48"
+      },
+      {
+        "id": "1577667f-790e-80a3-a749-c055d4494f58"
+      },
+      {
+        "id": "1577667f-790e-804b-8b44-cd28e6a9463e"
+      },
+      {
+        "id": "1587667f-790e-80a6-9c94-d1bc83770dfe"
+      },
+      {
+        "id": "1587667f-790e-80ec-b97b-cadea4ecaf96"
+      },
+      {
+        "id": "1587667f-790e-8004-ae29-d82746ce50be"
+      },
+      {
+        "id": "1587667f-790e-8053-b534-edeedaf17ea1"
       }
     ],
     "site": "https://dzuski.com/",
@@ -7136,6 +7861,15 @@
       },
       {
         "id": "646efa5e-e15b-412f-be31-8127fb2b78ff"
+      },
+      {
+        "id": "1587667f-790e-8054-9fd4-d1dce81ab1bf"
+      },
+      {
+        "id": "2be0908d-3786-4ac8-826e-0061bb2cb7fd"
+      },
+      {
+        "id": "15a7667f-790e-8091-997d-e8d837815738"
       }
     ],
     "site": null,
@@ -7225,7 +7959,7 @@
   },
   {
     "id": "bbb7d700-234b-46b6-a2d4-e72faaeb9890",
-    "last_edited": "2024-11-21T10:14:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "name": "Aniteka",
     "status": "Припинено",
@@ -7249,7 +7983,7 @@
   },
   {
     "id": "3617cc67-f3bd-414b-8be1-25d75d735b4f",
-    "last_edited": "2024-11-21T10:14:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "name": "AniMur",
     "status": "Припинено",
@@ -7276,7 +8010,7 @@
   },
   {
     "id": "ff4c5896-276f-41fb-b126-0bf4b0afe13a",
-    "last_edited": "2024-12-03T07:31:00.000Z",
+    "last_edited": "2024-12-13T13:35:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098005/Anikoe_jj7f1e.jpg",
     "name": "AniKoe",
@@ -7356,9 +8090,6 @@
       },
       {
         "id": "6cdef12a-b38c-4a48-958c-6456c07df841"
-      },
-      {
-        "id": "6bb437b2-36ca-4d02-93bb-c3de4cb44a02"
       },
       {
         "id": "09180dd6-42c9-4610-930c-7b7d86d9d2e1"
@@ -7482,9 +8213,6 @@
       },
       {
         "id": "8af96791-5fe2-4ced-bb9b-3f26845f8e3c"
-      },
-      {
-        "id": "df602ef1-b82f-45c9-bde8-5d5d69e48887"
       },
       {
         "id": "598d0dbe-cd89-44da-8c59-2e380eaaea85"
@@ -7622,16 +8350,10 @@
         "id": "278eca64-db14-4e4f-9732-4cb068be5b27"
       },
       {
-        "id": "9192941a-296e-4c75-80bf-4fe36ede6049"
-      },
-      {
         "id": "7924f461-536b-4072-b977-9b84fde635e7"
       },
       {
         "id": "baec5e4c-1a23-45de-9dcd-78173082e74e"
-      },
-      {
-        "id": "27a11d70-aa9b-44ad-a389-34f216927b46"
       },
       {
         "id": "f4d9ebc9-f24d-409d-9cff-242a604a496c"
@@ -7644,9 +8366,6 @@
       },
       {
         "id": "850f71f2-e54d-4fe1-9897-bc3ffa18e69d"
-      },
-      {
-        "id": "2be0908d-3786-4ac8-826e-0061bb2cb7fd"
       },
       {
         "id": "4ce23afe-4893-40ae-88fd-d47b3cccc312"
@@ -7665,9 +8384,6 @@
       },
       {
         "id": "1d49ff38-0d62-4c1a-8ab2-c5ab225c81af"
-      },
-      {
-        "id": "cbf4f4f9-edb1-4d1e-9315-3ff63e679ba5"
       },
       {
         "id": "9173da79-696d-4c3f-8c78-7ee75c565961"
@@ -7719,6 +8435,63 @@
       },
       {
         "id": "0d633f17-e6c7-4093-b79c-c3260c6073a1"
+      },
+      {
+        "id": "390e0976-3ebc-4bec-a689-95282da9c0c7"
+      },
+      {
+        "id": "1597667f-790e-8013-9309-f6d9f091e786"
+      },
+      {
+        "id": "1597667f-790e-80cc-bae5-cf19e5219a3d"
+      },
+      {
+        "id": "1597667f-790e-80bb-a392-caff19d16625"
+      },
+      {
+        "id": "1597667f-790e-8011-9053-d8b11328aeff"
+      },
+      {
+        "id": "15a7667f-790e-8014-8575-f3a754c7f615"
+      },
+      {
+        "id": "15a7667f-790e-80e1-ad2e-e7f84fd8f3b7"
+      },
+      {
+        "id": "15a7667f-790e-80d1-b71d-eda4fdafd9e5"
+      },
+      {
+        "id": "15a7667f-790e-80d6-a551-fa7fc0b277cb"
+      },
+      {
+        "id": "15a7667f-790e-8011-8322-fb23ade969a3"
+      },
+      {
+        "id": "15a7667f-790e-8089-aded-e7fded50bccc"
+      },
+      {
+        "id": "15a7667f-790e-80ba-b673-fff9905ae721"
+      },
+      {
+        "id": "15a7667f-790e-80d7-ad6a-c140ed057ec5"
+      },
+      {
+        "id": "15a7667f-790e-8099-9bda-ec32883f3c5c"
+      },
+      {
+        "id": "15a7667f-790e-80ea-aba9-dcfd910b6a32"
+      },
+      {
+        "id": "15a7667f-790e-8044-8c2e-dc25b9317f18"
+      },
+      {
+        "id": "15a7667f-790e-801c-9380-e1e2bf7ac22a"
+      },
+      {
+        "id": "15a7667f-790e-80da-9cac-f766ab158e5a"
+      },
+      {
+        "id": "15a7667f-790e-80bf-a631-e2f0c7bed72c"
       }
     ],
     "site": "https://amanogawa.space/",
@@ -7746,7 +8519,7 @@
   },
   {
     "id": "d4624684-dedc-41b7-b3a4-bf8f6780ea46",
-    "last_edited": "2024-12-05T12:37:00.000Z",
+    "last_edited": "2024-12-13T13:34:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098002/AID_sub_studio_w3q3hj.jpg",
     "name": "AID Sub Studio",
@@ -7808,7 +8581,7 @@
   },
   {
     "id": "88ab498a-f5d0-456d-8772-c9921e6f482d",
-    "last_edited": "2024-11-21T10:17:00.000Z",
+    "last_edited": "2024-12-13T13:34:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098002/48_volts_jfzepk.jpg",
     "name": "48 Volts",
@@ -7859,9 +8632,6 @@
       },
       {
         "id": "35391dc9-e1c1-44a6-a536-1a22208c7cf4"
-      },
-      {
-        "id": "df602ef1-b82f-45c9-bde8-5d5d69e48887"
       }
     ],
     "site": null,
@@ -8047,7 +8817,11 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1587667f-790e-8009-ae65-f8f82f7f412b"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/Студія%20%26quot%3BКачур%26quot%3B/",
     "insta": null,
@@ -8056,7 +8830,7 @@
   },
   {
     "id": "51bcf49e-8366-456b-9fae-bcdfccc11576",
-    "last_edited": "2024-12-05T12:57:00.000Z",
+    "last_edited": "2024-12-10T15:19:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/СКО_tpon6w.jpg",
     "name": "Справжня Козацька Озвучка (СКО)",
@@ -8189,7 +8963,7 @@
   },
   {
     "id": "07a270c5-75e5-4718-ae51-6173577acf05",
-    "last_edited": "2024-11-28T09:38:00.000Z",
+    "last_edited": "2024-12-10T15:19:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730101964/Робота_голосом_oga8vf.jpg",
     "name": "Робота голосом",
@@ -8988,6 +9762,30 @@
       },
       {
         "id": "1537667f-790e-8031-8548-d2a028471503"
+      },
+      {
+        "id": "1587667f-790e-8031-83c4-cdbb8075004f"
+      },
+      {
+        "id": "1587667f-790e-8043-9d4c-d3ec079ec230"
+      },
+      {
+        "id": "1587667f-790e-8063-a349-cf193cd841a9"
+      },
+      {
+        "id": "1587667f-790e-8024-8cc6-c2ce0a2ec46e"
+      },
+      {
+        "id": "1587667f-790e-80b5-9aca-f0a4edaa3d2a"
+      },
+      {
+        "id": "1587667f-790e-807e-9a37-c48ce329a77f"
+      },
+      {
+        "id": "1587667f-790e-804d-a217-c11f45105a9f"
+      },
+      {
+        "id": "1587667f-790e-8058-9f9b-ca9e34a4adbb"
       }
     ],
     "site": null,
@@ -9038,7 +9836,7 @@
   },
   {
     "id": "1faef501-8488-449b-a5fb-27fb56103200",
-    "last_edited": "2024-11-21T11:00:00.000Z",
+    "last_edited": "2024-12-10T15:19:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097984/КізукіДаб_ibotqq.jpg",
     "name": "КізукіDUB",
@@ -9093,7 +9891,7 @@
   },
   {
     "id": "6ad28501-37a9-43dc-8282-891c49decbfa",
-    "last_edited": "2024-11-27T13:13:00.000Z",
+    "last_edited": "2024-12-10T15:19:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730100761/Крафтова_nie19i.jpg",
     "name": "Крафтова аудіостудія",
@@ -9124,13 +9922,14 @@
   },
   {
     "id": "3f62f49e-2cf7-4e02-a783-4028bb96acb3",
-    "last_edited": "2024-12-05T12:45:00.000Z",
+    "last_edited": "2024-12-10T14:55:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097801/Kitsune_jt8iop.jpg",
     "name": "Kitsune",
     "status": "Невідомо",
     "type_activity": [
-      "Аніме"
+      "Аніме",
+      "Манхва"
     ],
     "members": [],
     "anime_releases": [
@@ -9189,7 +9988,7 @@
   },
   {
     "id": "5e62d9ef-b9de-4f3c-93f4-cea04754a5f4",
-    "last_edited": "2024-11-21T11:00:00.000Z",
+    "last_edited": "2024-12-10T15:18:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097983/%D0%94%D0%B8%D0%B2%D0%BD%D0%B0_%D0%B4%D0%B5%D1%81%D1%96%D1%8F_oi3j5u.jpg",
     "name": "Дивна Десія",
@@ -9245,7 +10044,7 @@
   },
   {
     "id": "2cddc217-a294-4768-a5ce-188d16aec743",
-    "last_edited": "2024-11-21T09:26:00.000Z",
+    "last_edited": "2024-12-13T13:34:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/4ua_r3nere.jpg",
     "name": "4UA",
@@ -9300,7 +10099,7 @@
   },
   {
     "id": "6813c059-18bf-4a13-b55e-b73080b04366",
-    "last_edited": "2024-12-03T22:33:00.000Z",
+    "last_edited": "2024-12-13T13:34:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097980/10gu_yyshow.jpg",
     "name": "10GU",
