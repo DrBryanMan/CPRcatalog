@@ -167,11 +167,11 @@ export async function renderTeamDetail(team) {
 // Відображення карток релізів
 export async function renderAnimeReleases(releases) {
     const cardsContainer = document.createElement('div')
-    cardsContainer.classList.add('anime-releases-container')
+    cardsContainer.classList.add('releases-container')
 
     for (const release of releases) {
         const card = document.createElement('div')
-        card.classList.add('anime-release-card', 'card')
+        card.classList.add('release-card', 'card')
         const teams = release.teams.map(t => `<span class='truncate'><img src='${t.logo}'>${t.name}</span>`).join('')
         card.innerHTML = `
             <h3 class='truncate'>${release.title}</h3>
@@ -188,48 +188,80 @@ export async function renderAnimeReleases(releases) {
 export async function renderReleaseDetail(release) {
     Functions.updateNavigation('Релізи', release.title)
     const anime = allAnimes.find(anime => release.animeIds.includes(anime.id))
-    const teams = release.teams.map(t => `<span><img src='${t.logo}'>${t.name}</span>`).join('')
-    const torrents = release.torrentLinks.map(t => `<a href='${t.href}' external-link>${t.text}</a>`).join('')
-    const cover = anime?.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
-
+    const teams = release.teams.map(t => `<a href="/team/${t.id}" class='data-nav-link' data-navigo><span><img src='${t.logo}'>${t.name}</span></a>`).join('')
+    const torrents = release.torrentLinks.filter(t => t.href).map(t => `<a href='${t.href}' external-link>${t.text}</a>`).join('')
+    const cover = anime?.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
+    const status = () => {
+        switch (release.status) {
+            case 'В процесі':
+                return `<span style="color: var(--ongoing);"><i class="material-symbols-rounded" title="Статус">calendar_month</i> ${release.status}</span>`;
+            case 'Завершено':
+                return `<span style="color: var(--finished);"><i class="material-symbols-rounded" title="Статус">task_alt</i> ${release.status}</span>`;
+            case 'Закинуто':
+                return `<span style="color: var(--droped);"><i class="material-symbols-rounded" title="Статус">delete</i> ${release.status}</span>`;
+            case 'Відкладено':
+                return `<span style="color: var(--paused);"><i class="material-symbols-rounded" title="Статус">pause</i> ${release.status}</span>`;
+            default:
+                return `<span><i class="material-symbols-rounded" title="Статус">help</i> На перевірці</span>`;
+        }
+    }
+    
     app.innerHTML = `
-    <div class='title-detail'>
+    <div class='title-detail release-page'>
         ${cover}
         <div class='top-section'>
-            <img class='anime-poster' src='${release.posters[0]?.url || anime.posters[0]?.url || anime.poster}'>
-            <div class='release'>
+            <img class='title-poster' src='${release.posters[0]?.url || anime.posters[0]?.url || anime.poster}'>
+            <div class='center-column'>
                 <div>
                     <h1>${release.title}</h1>
                 </div>
-                <div class='release-info'>
-                    <p>Аніме: ${anime?.title || 'Невідоме аніме'}</p>
-                    <p class='teams-logos'>Команда: ${teams}</p>
-                    <p>Статус: ${release.status}</p>
-                    <p>Епізоди: ${release.episodes}</p>
-                    <p>Торент: ${release.torrent}</p>
-                    <p class='release-torrents'>${torrents}</p>
+                <div class='title-info'>
+                    ${status()}
+                    <span><i class="material-symbols-rounded" title="Епізодів">format_list_numbered</i> ${release.episodes}</span>
                 </div>
+                <div class='title-info'>
+                    ${release.animeIds.map(aID => {
+                            const anime = allAnimes.find(anime => anime.id == aID)
+                            return `<a href="/anime/${anime.id}" class='data-nav-link' data-navigo><span><i class="material-symbols-rounded" title="Тайтл">movie</i>${anime.title} (${anime.year})</span></a>`
+                        }).join('')
+                    }
+                </div>
+                ${torrents ? `
+                    <h2>Торенти</h2>
+                    <p class='release-torrents'>${torrents}</p>
+                ` : ''
+                }
+            </div>
+            <div class='dub-info page-block'>
+                <h3>Від ${release.teams.length == 1 ? 'команди' : 'команд'}</h3>
+                <div class='teams-logos'>${teams}</div>
             </div>
         </div>
     </div>
     `
+                // <h3>Озвучували</h3>
+                // <div>Дабери</div>
+                // <h3>Перекладали</h3>
+                // <div>Перекладачі</div>
+                // <h3>Також працювали</h3>
+                // <div>Інші корисні люди</div>
 }
 
 // Відображення деталей аніме
 export async function renderAnimeDetail(anime) {
     Functions.updateNavigation('Аніме', anime.title)
     const teams = anime.teams.map(t => `<a href="/team/${t.id}" class='data-nav-link' data-navigo><span><img src='${t.logo}'>${t.name}</span></a>`).join('')
-    const cover = anime.cover ? `<div class='anime-cover'><img src='${anime.cover}'></div>` : ''
-    const ХіккаЛінк = anime.hikka_url 
-        ? `<a href="${anime.hikka_url}" target="_blank" class='badges' data-navigo>
+    const cover = anime.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
+    const HikkaLink = anime.hikka_url 
+        ? `<a href="${anime.hikka_url}" target="_blank" class='badge' data-navigo>
                 <img src='https://rosset-nocpes.github.io/ua-badges/src/hikka-dark.svg'>
            </a>` : ''
-    const ЮакіноЛінк = anime.Юакіно 
-        ? `<a href="${anime.Юакіно}" target="_blank" class='badges' data-navigo>
+    const UaKinoLink = anime.Юакіно 
+        ? `<a href="${anime.Юакіно}" target="_blank" class='badge' data-navigo>
                 <img src='https://rosset-nocpes.github.io/ua-badges/src/uakino-dark.svg'>
            </a>` : ''
-    const АнітюбЛінк = anime.Анітюб 
-        ? `<a href="${anime.Анітюб}" target="_blank" class='badges' data-navigo>
+    const AnitubeLink = anime.Анітюб 
+        ? `<a href="${anime.Анітюб}" target="_blank" class='badge' data-navigo>
                 <img src='https://rosset-nocpes.github.io/ua-badges/src/anitube-dark.svg'>
            </a>` : ''
         
@@ -237,35 +269,57 @@ export async function renderAnimeDetail(anime) {
     <div class='title-detail'>
         ${cover}
         <div class='top-section'>
-            <img class='anime-poster' src='${anime.posters[0]?.url || anime.poster}' title='${anime.title}'>
-            <div class='title'>
+            <img class='title-poster' src='${anime.posters[0]?.url || anime.poster}' title='${anime.title}'>
+            <div class='center-column'>
                 <div>
                     <h1>${anime.title}</h1>
-                    <span>${anime.romaji}</span>
+                    ${anime.hikkaSynonyms.length !== 0 ? `
+                        <button id="altNamesModalBtn" onclick='altNamesModal.showModal()'>•••</button> <span> ${anime.romaji}</span>
+                        <dialog id="altNamesModal" class="alternative-names modal">
+                            <span id="altNamesModalClose" class="modal-close">&times;</span>
+                            <h2>Альтернативні назви</h2>
+                            <div id="altNamesContent">${anime.hikkaSynonyms.map(title => `<span>${title}</span>`).join('')}</div>
+                        </dialog>
+                    ` : `<span> ${anime.romaji}</span>`}
                 </div>
-                <div class='anime-info'>
+                <div class='title-info'>
                     <a href="/animes" class='data-nav-link' data-navigo><span><i class="material-symbols-rounded" title="Тип">category</i> ${anime.type}</span></a>
                     <a href="/animes?format=${anime.format}" class='data-nav-link' data-navigo><span><i class="material-symbols-rounded" title="Формат">spoke</i> ${anime.format}</span></a>
                     <span><i class="material-symbols-rounded" title="Рік">event_available</i> ${anime.year}</span>
                     <span><i class="material-symbols-rounded" title="Епізодів">format_list_numbered</i> ${anime.episodes}</span>
                 </div>
-                <div class='watch-info'>${ХіккаЛінк}${ЮакіноЛінк}${АнітюбЛінк}</div>
+                <div class='watch-info'>${HikkaLink}${UaKinoLink}${AnitubeLink}</div>
+                <div id='releasesList'>Завантаження інформації про релізи...</div>
             </div>
             <div class='dub-info page-block'>
-                <h3>Від команд</h3>
+                <h3>Від ${anime.teams.length == 1 ? 'команди' : 'команд'}</h3>
                 <div class='teams-logos'>${teams}</div>
             </div>
         </div>
-        <div id='releasesList' class='page-block'>Завантаження інформації про релізи...</div>
     </div>
     `
     const releases = anime.releases ? allReleases.filter(r => r.animeIds.includes(anime.id)) : []
     const releasesList = document.getElementById('releasesList')
     if (releases.length > 0) {
         const releaseCards = await renderAnimeReleases(releases)
-        releasesList.innerHTML = '<h3>Релізи:</h3>'
+        releasesList.innerHTML = '<h2>Релізи:</h2>'
         releasesList.appendChild(releaseCards)
     } else {
         releasesList.innerHTML = '<p>Релізи не знайдено</p>'
     }
+
+    const altNamesModal = document.getElementById('altNamesModal')
+    altNamesModal.onclick = (e) => {
+        const {left, right, top, bottom} = altNamesModal.getBoundingClientRect();
+        (!((left <= e.clientX && e.clientX <= right && top <= e.clientY && e.clientY <= bottom)) || 
+           e.target === altNamesModalClose) && altNamesModal.close();
+    }
 }
+
+// function showAlternativeNamesModal(anime) {
+//     const altNamesModalBtn = document.getElementById('altNamesModalBtn')
+//     const altNamesModal = document.getElementById('altNamesModal')
+//     const altNamesContent = document.getElementById('altNamesContent')
+
+//     altNamesContent.innerHTML = ``
+// }

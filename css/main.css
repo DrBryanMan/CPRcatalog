@@ -39,7 +39,7 @@ body {
 }
   
 #app {
-  padding: var(--nav-height) var(--main-padding-x) 1em;
+  padding: calc(var(--nav-height) + 1em) var(--main-padding-x) 1em;
   flex-grow: 1;
 }
 h2, h3, h4 {

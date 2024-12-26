@@ -19,7 +19,8 @@ export async function loadData() {
             fetch('json/TeamsDB.json').then(res => res.json()),
             fetch('json/AnimeReleasesDB.json').then(res => res.json()),
         ])
-        allTeams = teamData.sort((a, b) => a.name.localeCompare(b.name))
+        allTeams = teamData.sort((a, b) => b.anime_releases.length - a.anime_releases.length)
+        // allTeams = teamData.sort((a, b) => a.name.localeCompare(b.name))
         allReleases = releaseData.map(release => ({
             ...release,
             teams: release.teams.map(team => {

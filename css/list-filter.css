@@ -3,6 +3,13 @@
     margin-bottom: 20px;
 }
 
+#itemsCounter {
+    margin-right: auto;
+    display: grid;
+    place-self: center;
+    font-size: 1.5em;
+}
+
 .list-controls {
     display: flex;
     justify-content: flex-end;

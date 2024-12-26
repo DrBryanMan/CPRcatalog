@@ -25,13 +25,6 @@ nav {
 }
 
 /* == breadcrumbs == */
-.site-logo:after {
-    content: 'БЕТА';
-    position: absolute;
-    color: salmon;
-    font-weight: bold;
-    transform: translate(-25px, -10px) rotate(-30deg);
-}
 .breadcrumbs {
     display: flex;
     /* align-items: center; */
@@ -113,4 +106,20 @@ nav {
 }
 #searchButton i {
     font-size: 80%;
+}
+
+/* Лого */
+.site-logo img {
+    height: 100%;
+    border-radius: var(--radius);
+}
+.site-logo {
+    padding-left: 0;
+}
+.site-logo:after {
+    content: 'БЕТА';
+    position: absolute;
+    color: salmon;
+    font-weight: bold;
+    transform: translate(-10px, -10px) rotate(-30deg);
 }

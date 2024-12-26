@@ -6,26 +6,34 @@ import { router } from './router.js'
 export function renderList(items, type, initialFilters) {
     console.log(`Завантажено ${items.length} ${type}`)
     Functions.updateNavigation(type)
-    const itemsPerPage = 5
+    const itemsPerPage = 10
     let currentPage = 0
     let isLoading = false
     let allItemsLoaded = false
     let filteredItems = [...items]
     let activeFilters = initialFilters || {}
     let currentView
+    let currentSort
 
     app.innerHTML = `
         <div class="filters-section">
-            <span>Загальна кількість результатів: ${filteredItems.length}</span>
             <div class="list-controls">
+                <span id="itemsCounter"></span>
                 <input type="text" id="localSearchInput" placeholder="Пошук...">
                 <div class="view-controls">
-                <button id="gridViewBtn"><i class="material-symbols-rounded">grid_view</i></button>
-                <button id="listViewBtn"><i class="material-symbols-rounded">event_list</i></button>
+                    <button id="gridViewBtn"><i class="material-symbols-rounded">grid_view</i></button>
+                    <button id="listViewBtn"><i class="material-symbols-rounded">event_list</i></button>
                 </div>
+                ${type === 'Команди' ? `
+                    <button id="sortBtn"><i class="material-symbols-rounded">sort</i></button>
+                    <div id="sortOptions" class="sort-options">
+                        <button data-sort="name">За алфавітом</button>
+                        <button data-sort="releases">За кількістю релізів</button>
+                    </div>
+                ` : ''}
                 <button id="filterBtn"><i class="material-symbols-rounded">tune</i></button>
+                <div id="filterOptions"></div>
             </div>
-            <div id="filterOptions"></div>
         </div>
         <div class="items-list grid-view"></div>
         <div id="loading" style="display: none">Завантаження...</div>
@@ -38,6 +46,7 @@ export function renderList(items, type, initialFilters) {
     const filterBtn = document.getElementById('filterBtn')
     const filterOptions = document.getElementById('filterOptions')
     const loadingDiv = document.getElementById('loading')
+    // const itemsCounter = document.getElementById('itemsCounter')
 
     searchInput.addEventListener('input', handleSearch)
     gridViewBtn.addEventListener('click', () => changeView('grid'))
@@ -57,14 +66,14 @@ export function renderList(items, type, initialFilters) {
         }
         if (query.length === 0) {
             filteredItems = [...items]
-            resetList()
+            resetList(filteredItems.length)
             return
         }
         if (query.length < 3) {
             filteredItems = []
             noResults.innerHTML = '<i class="material-symbols-rounded">error</i><span>Введіть більше двох символів.</span>'
             listDiv.after(noResults)
-            resetList()
+            resetList(0)
             return
         }
         filteredItems = items.filter(item => {
@@ -89,7 +98,7 @@ export function renderList(items, type, initialFilters) {
             `
             listDiv.after(noResults)
         }
-        resetList()
+        resetList(filteredItems.length)
     }
 
     function initializeView() {
@@ -112,8 +121,41 @@ export function renderList(items, type, initialFilters) {
             Functions.saveToCache('currentView', view)
             updateViewButtons()
             listDiv.className = `items-list ${view}-view`
-            resetList()
+            resetList(filteredItems.length)
         }
+    }
+
+    function sortItems() {
+        if (type === 'Команди') {
+            switch (currentSort) {
+                case 'name':
+                    filteredItems.sort((a, b) => a.name.localeCompare(b.name))
+                    break
+                case 'releases':
+                    filteredItems.sort((a, b) => b.anime_releases.length - a.anime_releases.length)
+                    break
+            }
+        }
+    }
+    if (type === 'Команди') {
+        const sortBtn = document.getElementById('sortBtn')
+        const sortOptions = document.getElementById('sortOptions')
+        
+        sortBtn.addEventListener('click', () => {
+            sortBtn.classList.toggle('active')
+            sortOptions.classList.toggle('active')
+        })
+
+        sortOptions.addEventListener('click', (e) => {
+            if (e.target.tagName === 'BUTTON') {
+                const sortType = e.target.dataset.sort
+                currentSort = sortType
+                sortItems()
+                resetList(filteredItems.length)
+                sortBtn.classList.remove('active')
+                sortOptions.classList.remove('active')
+            }
+        })
     }
 
     function toggleFilterOptions() {
@@ -121,7 +163,6 @@ export function renderList(items, type, initialFilters) {
         filterBtn.classList.toggle('active')
         filterOptions.classList.toggle('active')
     }
-
 
     function initializeFilters(type) {
         const filterOptions = document.getElementById('filterOptions')
@@ -201,8 +242,7 @@ export function renderList(items, type, initialFilters) {
 
             return formatMatch && statusMatch
         })
-
-        resetList()
+        resetList(filteredItems.length)
         if (shouldUpdateUrl) {
           updateURL()
         }
@@ -218,10 +258,11 @@ export function renderList(items, type, initialFilters) {
         }
     }
 
-    function resetList() {
+    function resetList(count) {
         listDiv.innerHTML = ''
         currentPage = 0
         allItemsLoaded = false
+        itemsCounter.textContent = `Результатів: ${count}`
         loadMoreItems()
     }
 

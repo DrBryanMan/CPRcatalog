@@ -1,4 +1,9 @@
 :root {
+    --finished: hsl(120, 50%, 50%); /* #00b300 */
+    --droped: hsl(0, 50%, 50%); /* #b30000 */
+    --paused: hsl(30, 50%, 50%); /* #b37700 */
+    --ongoing: hsl(190, 50%, 50%); /* #b37700 */
+
     --light: hsl(0, 0%, 90%); /* #e6e6e6 */
     --light--hsl: 0, 0%, 90%;
     --light-05: hsl(var(--light--hsl), .05);

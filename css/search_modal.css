@@ -23,7 +23,7 @@
     opacity: 1;
 }
 
-#searchModal .modal-close {
+.modal-close {
     position: absolute;
     right: 0;
     top: 12px;

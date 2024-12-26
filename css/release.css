@@ -12,7 +12,7 @@
 .anime-releases-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: .5em;
     justify-content: center;
     margin-top: .5em;
 }
