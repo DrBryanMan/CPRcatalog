@@ -5,11 +5,11 @@ node_modules/
 .env
 
 # Локальні файли
-*.sass
-sass.css
-sass.css.map
+# *.sass
+# sass.css
+# sass.css.map
 json/
-sass/
+# sass/
 json/TitlesNotHavePosters.json
 js/notion_posters_import.js
 js/hikka_and_posters_import.js

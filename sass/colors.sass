@@ -1,0 +1,99 @@
+:root
+    /* #00b300 */
+    $finished: hsl(120, 50%, 50%)
+    /* #b30000 */
+    $droped: hsl(0, 50%, 50%)
+    /* #b37700 */
+    $paused: hsl(30, 50%, 50%)
+    /* #b37700 */
+    $ongoing: hsl(190, 50%, 50%)
+
+    /* #e6e6e6 */
+    $light: hsl(0, 0%, 90%)
+    $light--hsl: 0, 0%, 90%
+    $light-05: hsl($light--hsl)
+    $light-10: hsl($light--hsl, .1)
+    $light-20: hsl($light--hsl, .2)
+    $light-50: hsl($light--hsl, .5)
+    $light-80: hsl($light--hsl, .8)
+    $light-90: hsl($light--hsl, .9)
+    /* #1a1a1a */
+    $dark: hsl(0, 0%, 10%)
+    $dark--hsl: 0, 0%, 10%
+    $dark-05: hsl($dark--hsl, .05)
+    $dark-10: hsl($dark--hsl, .1)
+    $dark-20: hsl($dark--hsl, .2)
+    $dark-50: hsl($dark--hsl, .5)
+    $dark-80: hsl($dark--hsl, .8)
+    $dark-90: hsl($dark--hsl, .9)
+
+    $accent-color: 230
+    /* #5966a6 */
+    $accent: hsl($accent-color, 30%, 50%)
+    $accent--hsl: $accent-color, 30%, 50%
+    $accent-05: hsl($accent--hsl, .05)
+    $accent-10: hsl($accent--hsl, .1)
+    $accent-20: hsl($accent--hsl, .2)
+    $accent-30: hsl($accent--hsl, .3)
+    $accent-40: hsl($accent--hsl, .4)
+    $accent-50: hsl($accent--hsl, .5)
+    $accent-60: hsl($accent--hsl, .6)
+    $accent-70: hsl($accent--hsl, .7)
+    $accent-80: hsl($accent--hsl, .8)
+    $accent-90: hsl($accent--hsl, .9)
+    /* #99b9ff */
+    $accent-light: hsl($accent-color, 100%, 80%)
+    $accent-light--hsl: $accent-color, 100%, 80%
+    $accent-light-10: hsl($accent-light--hsl, .1)
+    $accent-light-20: hsl($accent-light--hsl, .2)
+    $accent-light-50: hsl($accent-light--hsl, .5)
+    $accent-light-80: hsl($accent-light--hsl, .8)
+    $accent-light-90: hsl($accent-light--hsl, .9)
+    /* #99b9ff */
+    $accent-dark: hsl($accent-color, 100%, 20%)
+    $accent-dark--hsl: $accent-color, 100%, 20%
+    $accent-dark-10: hsl($accent-dark--hsl, .1)
+    $accent-dark-20: hsl($accent-dark--hsl, .2)
+    $accent-dark-50: hsl($accent-dark--hsl, .5)
+    $accent-dark-80: hsl($accent-dark--hsl, .8)
+    $accent-dark-90: hsl($accent-dark--hsl, .9)
+
+    /* $accent-hsl1: 230 */
+
+    $accent-hsl2: 30%
+    $accent-hsl3: 50%
+    $accent: hsl($accent-hsl1,$accent-hsl2,$accent-hsl3)
+    $accent--hsl: ($accent-hsl1,$accent-hsl2,$accent-hsl3)
+    $accent-light: hsl($accent-hsl1, 80%, 80%)
+
+
+.bg-dark
+    background: hsl($dark--hsl)
+
+.bg-gradient
+    background-image: linear-gradient(180deg, hsl(0, 0%, 100%, $gradient--rgb, .2), transparent)
+
+
+.accent
+    background: $accent
+
+.accent-80
+    background: $accent-80
+
+.accent-50
+    background: $accent-50
+
+.accent-20
+    background: $accent-20
+
+.accent-light
+    background: $accent-light
+
+.accent-light-80
+    background: $accent-light-80
+
+.accent-light-50
+    background: $accent-light-50
+
+.accent-light-20
+    background: $accent-light-20

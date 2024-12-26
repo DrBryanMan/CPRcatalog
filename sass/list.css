@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* == Каталог == */
+/* Загально для списків */
+.items-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+  align-items: flex-start;
+  gap: 1em 2em;
+  /** У вигляді списку **/
+}
+.items-list .team-card .info {
+  text-align: center;
+  width: 100%;
+}
+.items-list .team-card:not(:has(img + .info)) {
+  aspect-ratio: 1/1;
+  justify-content: center;
+}
+.items-list.list-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(33.3% - 4em), 1fr));
+}
+.items-list.list-view .anime-cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+  transition: 0.3s;
+}
+.items-list.list-view .anime-cover img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.items-list.list-view .card {
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: 158px;
+  gap: 1em;
+  padding: 1em;
+}
+.items-list.list-view .card .info {
+  width: calc(75% - 1em);
+}
+.items-list.list-view .poster-box {
+  max-height: 150px;
+  width: 25%;
+}
+.items-list.list-view .team-card img {
+  height: 100%;
+}
+.items-list.list-view .team-card img + .info {
+  width: calc(100% - 130px - 1em);
+}
+
+.no-results {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5em;
+}
+.no-results i {
+  font-size: 2em;
+  color: #dc4c64;
+  font-weight: bold;
+}
+
+/* Картка елементу */
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  max-width: 250px;
+  background: var(--dark-80);
+  border-radius: var(--radius);
+  outline: 1px solid var(--light-20);
+  padding: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+  z-index: 0;
+}
+.card:hover {
+  background: rgba(0, 0, 0, 0.4666666667);
+  box-shadow: 0 0 8px var(--accent);
+  outline: 1px solid var(--accent);
+}
+.card:hover .anime-cover {
+  opacity: 0.4;
+}
+.card .info {
+  padding: 4px;
+  text-align: center;
+  width: 100%;
+}
+
+.poster-box {
+  max-height: 300px;
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+.poster-box img {
+  width: 100%;
+  height: auto;
+}
+
+/* Для картки релізу в тайтлі */
+.anime-release-card {
+  padding: 0.2em 0.5em;
+}
+
+/* Картки команд */
+.team-logo {
+  border-radius: var(--radius);
+}/*# sourceMappingURL=list.css.map */

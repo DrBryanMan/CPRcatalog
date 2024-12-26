@@ -1,0 +1,104 @@
+%filter-dropdown-list
+    position: absolute
+    top: 100%
+    margin-top: 10px
+    display: flex
+    flex-direction: column
+    visibility: hidden
+    opacity: 0
+    transition: opacity .3s
+    
+    background: var(--dark-90)
+    backdrop-filter: blur(4px)
+    border: 1px solid var(--light-20)
+    border-radius: var(--radius)
+    padding: .5em 1em
+    z-index: 10
+
+%filter-btns
+    background-color: var(--light-05)
+    border: 1px solid var(--light-10)
+    &:hover
+        background-color: var(--light-10)
+    &.active
+        background-color: var(--light-20)
+    
+.filters-section
+    position: relative
+    margin-bottom: 20px
+
+
+#itemsCounter
+    margin-right: auto
+    display: grid
+    place-self: center
+    font-size: 1.5em
+
+
+.list-controls
+    display: flex
+    justify-content: flex-end
+    /* align-items: center */
+    gap: 1em
+
+
+.view-controls
+    display: flex
+    border: 1px solid var(--light-10)
+    border-radius: var(--radius)
+    overflow: hidden
+    button
+        background: none
+        padding: 0 .5em
+        border-radius: unset
+        &:hover
+            background-color: var(--light-10)
+        &.active
+            background-color: var(--light-20)
+
+#listViewBtn
+    transform: rotate(180deg)
+
+
+#filterBtn
+    @extend %filter-btns
+    &:after
+        content: ' Фільтри'
+    &:focus + #filterOptions
+        visibility: visible
+        opacity: 1
+        transition: opacity .3s
+
+#filterOptions
+    @extend %filter-dropdown-list
+    gap: 1em
+    right: 0
+    h4
+        margin-bottom: .4em
+    .filter-btn
+        background-color: var(--light-05)
+        border: 1px solid var(--light-10)
+        padding: .5em 1em
+        &.active
+            background-color: var(--accent)
+
+#sortBtn
+    @extend %filter-btns
+    &:after
+        content: ' Сортування'
+    &:focus + .sort-options
+        visibility: visible
+        opacity: 1
+        transition: opacity .3s
+
+.sort-options
+    @extend %filter-dropdown-list
+    // left: 0
+    button
+        padding: .5em
+        text-align: left
+        border: none
+        background: none
+        cursor: pointer
+        &:hover
+            background-color: var(--light-10)

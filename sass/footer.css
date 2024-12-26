@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 2em;
+  background: var(--dark-80);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+footer > div:last-child {
+  color: lightgray;
+}
+footer a {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  padding: 0.5em;
+  border-radius: var(--radius);
+  color: var(--light);
+  fill: var(--light);
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer a:hover {
+  background: var(--light-10);
+}
+
+#footerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.sort-options, #filterOptions {
+  position: absolute;
+  top: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background: var(--dark-90);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border: 1px solid var(--light-20);
+  border-radius: var(--radius);
+  padding: 0.5em 1em;
+  z-index: 10;
+}
+
+#sortBtn, #filterBtn {
+  background-color: var(--light-05);
+  border: 1px solid var(--light-10);
+}
+#sortBtn:hover, #filterBtn:hover {
+  background-color: var(--light-10);
+}
+.active#sortBtn, .active#filterBtn {
+  background-color: var(--light-20);
+}
+
+.filters-section {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#itemsCounter {
+  margin-right: auto;
+  display: grid;
+  place-self: center;
+  font-size: 1.5em;
+}
+
+.list-controls {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center */
+  gap: 1em;
+}
+
+.view-controls {
+  display: flex;
+  border: 1px solid var(--light-10);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.view-controls button {
+  background: none;
+  padding: 0 0.5em;
+  border-radius: unset;
+}
+.view-controls button:hover {
+  background-color: var(--light-10);
+}
+.view-controls button.active {
+  background-color: var(--light-20);
+}
+
+#listViewBtn {
+  transform: rotate(180deg);
+}
+
+#filterBtn:after {
+  content: " Фільтри";
+}
+#filterBtn:focus + #filterOptions {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+#filterOptions {
+  gap: 1em;
+  right: 0;
+}
+#filterOptions h4 {
+  margin-bottom: 0.4em;
+}
+#filterOptions .filter-btn {
+  background-color: var(--light-05);
+  border: 1px solid var(--light-10);
+  padding: 0.5em 1em;
+}
+#filterOptions .filter-btn.active {
+  background-color: var(--accent);
+}
+
+#sortBtn:after {
+  content: " Сортування";
+}
+#sortBtn:focus + .sort-options {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.sort-options button {
+  padding: 0.5em;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.sort-options button:hover {
+  background-color: var(--light-10);
+}/*# sourceMappingURL=list-filter.css.map */

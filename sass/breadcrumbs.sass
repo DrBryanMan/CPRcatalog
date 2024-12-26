@@ -1,0 +1,113 @@
+/* == Навігація == */
+nav
+    position: fixed
+    display: flex
+    justify-content: space-between
+    align-items: stretch
+    width: 100%
+    height: var(--nav-height)
+    padding: var(--nav-padding-y) var(--main-padding-x)
+    backdrop-filter: blur(4px)
+    border-bottom: 1px solid transparent
+    transition: .3s
+    z-index: 100
+    &:has(.scrolled)
+        background: var(--dark-80)
+        border-color: var(--light-20)
+    a
+        text-decoration: none
+        color: var(--light)
+
+
+/* == breadcrumbs == */
+.breadcrumbs
+    display: flex
+    gap: .5em
+    span:before
+        content: '/'
+        margin: 0 .5em
+    &:has(span+.nav-button) span:after
+        content: '/'
+        margin: 0 .5em
+    
+    .has-list:hover
+        .crumb-list
+            visibility: visible
+            transition: opacity .3s
+            opacity: 1
+
+.nav-button
+    position: relative
+    display: flex
+    align-items: center
+    gap: .5em
+    background: var(--light-05)
+    border: 1px solid var(--light-10)
+    padding: 0 1em
+    border-radius: var(--radius)
+    transition: .3s
+    cursor: pointer
+
+.crumb-list
+    position: absolute
+    width: max-content
+    left: 0
+    top: 100%
+    display: flex
+    margin-top: 1em
+    background: var(--dark-90)
+    border: 1px solid var(--light-20)
+    border-radius: var(--radius)
+    padding: .5em
+    visibility: hidden
+    opacity: 0
+    transition: visibility .3s .2s, opacity .3s .2s
+    a
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: .2em .5em
+        border-radius: var(--radius)
+        background: none
+
+/* .crumb-list a[disable]
+    background: none !important
+    cursor: default
+    opacity: .5
+ */
+.crumb-list a:hover,
+.nav-button:hover
+    background: var(--light-10)
+
+.breadcrumbs i[class*='chevron']
+    font-size: 70%
+    transition: .3s
+
+.breadcrumbs .has-list:hover i[class*='chevron']
+    transform: rotate(180deg)
+    transform-origin: center
+
+
+#secondCrumb
+    display: flex
+    align-items: center
+
+
+#searchButton
+    align-self: flex-end
+    i
+        font-size: 80%
+
+
+/* Лого */
+.site-logo
+    padding-left: 0
+    img
+        height: 100%
+        border-radius: var(--radius)
+    &:after
+        content: 'БЕТА'
+        position: absolute
+        color: salmon
+        font-weight: bold
+        transform: translate(-10px, -10px) rotate(-30deg)

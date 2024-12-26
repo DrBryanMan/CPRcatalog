@@ -1,0 +1,78 @@
+.modal
+    display: block
+    position: fixed
+    margin: 5% auto
+    padding: 1em
+    width: 100%
+    max-width: 600px
+    border: 1px solid var(--accent-50)
+    border-radius: var(--radius)
+    color: inherit
+    background: var(--dark-80)
+    backdrop-filter: blur(8px)
+    visibility: hidden
+    opacity: 0
+    transition: visibility .3s 1s, opacity .3s
+    &::backdrop
+        backdrop-filter: blur(4px)
+    &[open]
+        visibility: visible
+        opacity: 1
+
+.modal-close
+    position: absolute
+    right: 0
+    top: 12px
+    line-height: 0
+    font-size: 3em
+    color: #aaa
+    float: right
+    font-weight: bold
+    cursor: pointer
+
+#searchInput
+    width: 100%
+    margin: 1em 0
+
+#searchModal
+    [type="radio"]
+        display: none
+    .search-types
+        label
+            padding: .5em 1em
+            border-radius: var(--radius)
+            cursor: pointer
+            &:has(input:checked)
+                background: var(--light-20)
+
+#searchResults
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 10px
+    overflow-y: auto
+    max-height: 60vh
+    & > p
+        text-align: center
+
+.search-result
+    display: flex
+    max-height: 110px
+    padding: .2em
+    border-radius: var(--radius)
+    /* align-items: center */
+    /* margin-bottom: 10px */
+    cursor: pointer
+    transition: .3s
+    &:hover
+        background: var(--light-20)
+        
+    div:has(label)
+        overflow: hidden
+
+    img
+        width: 80px
+        height: auto
+        object-fit: cover
+        margin-right: 10px
+        border-radius: var(--radius)

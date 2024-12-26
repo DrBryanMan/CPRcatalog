@@ -1,0 +1,161 @@
+.title-detail
+    // Обкладинка
+    .title-cover
+        position: absolute
+        left: 0
+        top: 0
+        max-height: 100vh
+        overflow: hidden
+        z-index: -1
+        mask-image: linear-gradient(#fff, transparent)
+        opacity: .4
+
+        &:before
+            position: absolute
+            width: 100%
+            height: 100%
+            bottom: 0
+            background: var(--dark-50)
+    
+        img
+            width: 100%
+            object-fit: cover
+
+    // Верхня частина
+    .top-section
+        display: flex
+        align-items: flex-start
+        /* margin: 0 5vw */
+        margin-bottom: 1em
+        gap: 1rem
+
+        .center-column
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            width: 100%
+            gap: 1rem
+
+            h1
+                font-size: 2em
+            h1 + span
+                font-size: 1.2em
+
+    // Постер
+    .title-poster
+        width: 250px
+        height: auto
+        border-radius: var(--radius)
+
+    // Альтернативні назви
+    .alternative-names
+        top: 0
+        left: 0
+        right: 0
+        margin-top: 10%
+
+    #altNamesContent
+        display: flex
+        flex-direction: column
+        gap: .5em
+
+        span
+            display: block
+            border: var(--border)
+            border-radius: var(--radius)
+            padding: .5em
+            text-align: center
+
+    /* Інформація про тайтл */
+    .title-info
+        display: flex
+        gap: 1em
+
+        span
+            display: flex
+            align-items: center
+            gap: .5em
+            background: var(--light-10)
+            border-radius: var(--radius)
+            padding: .2em 1em .2em .5em
+            transition: .3s
+
+        .data-nav-link
+            &:hover span
+                background: var(--light-20)
+            text-decoration: none
+            color: inherit
+            outline: var(--border)
+            border-radius: var(--radius)
+
+    // Бейджи
+    .watch-info
+        display: flex
+        gap: .3em
+
+        a
+            color: transparent  
+
+    /* = Даб секція = */
+    .dub-info
+        width: 300px
+        display: flex
+        flex-direction: column
+        gap: .5em
+
+        .teams-logos
+            display: flex
+            flex-direction: column
+            gap: .5em
+
+            span
+                display: flex
+                align-items: center
+                gap: .5em
+                border-radius: var(--radius)
+                transition: .3s
+
+            img
+                height: 40px
+                width: auto
+                border-radius: var(--radius)
+                margin-right: .3em
+
+        .data-nav-link
+            &:hover span
+                background: var(--light-10)
+            text-decoration: none
+            color: inherit
+
+    #releasesList
+        width: 100%
+    .releases-container
+        display: flex
+        flex-wrap: wrap
+        gap: 1em
+        justify-content: center
+        margin-top: .5em
+
+// Для сторінки релізу 
+.release-page
+    .release-info
+        display: flex
+        flex-direction: column
+        gap: .2em
+
+    .release-torrents
+        display: flex
+        gap: 1em
+        margin-top: .5em
+
+        a
+            &:hover
+                background: var(--accent-20)
+                box-shadow: 0 0 8px rgba(0,0,0,0.5)
+            border: 2px solid green
+            border-radius: 8px
+            padding: .2em .5em
+            color: lightgreen
+            text-decoration: none
+            cursor: pointer
+            transition: .3s

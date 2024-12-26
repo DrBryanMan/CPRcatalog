@@ -1,0 +1,113 @@
+/* == Каталог == */
+/* Загально для списків */
+.items-list
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+    justify-items: center
+    align-items: flex-start
+    gap: 1em 2em
+    
+    .team-card
+        .info
+            text-align: center
+            width: 100%
+        &:not(:has(img + .info))
+            aspect-ratio: 1/1
+            justify-content: center
+
+    /** У вигляді списку **/
+    &.list-view
+        display: grid
+        grid-template-columns: repeat(auto-fill, minmax(calc(33.3% - 4em), 1fr))
+
+        .anime-cover
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 100%
+            z-index: -1
+            opacity: .2
+            transition: .3s
+
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+
+        .card
+            position: relative
+            flex-direction: row
+            align-items: center
+            width: 100%
+            max-width: 400px
+            height: 158px
+            gap: 1em
+            padding: 1em
+            .info
+                width: calc(75% - 1em)
+
+        .poster-box
+            max-height: 150px
+            width: 25%
+        
+        .team-card
+            img
+                height: 100%
+            img + .info
+                width: calc(100% - 130px - 1em)
+
+.no-results
+    display: flex
+    gap: 1em
+    justify-content: center
+    align-items: center
+    text-align: center
+    font-size: 1.5em
+
+    i
+        font-size: 2em
+        color: #dc4c64
+        font-weight: bold
+
+/* Картка елементу */
+.card
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    width: 100%
+    max-width: 250px
+    background: var(--dark-80)
+    border-radius: var(--radius)
+    outline: 1px solid var(--light-20)
+    padding: 4px
+    transition: .3s
+    cursor: pointer
+    z-index: 0
+    &:hover
+        background: #0007
+        box-shadow: 0 0 8px var(--accent)
+        outline: 1px solid var(--accent)
+        .anime-cover
+            opacity: .4
+
+    .info
+        padding: 4px
+        text-align: center
+        width: 100%
+
+.poster-box
+    max-height: 300px
+    overflow: hidden
+    border-radius: var(--radius)
+    img
+        width: 100%
+        height: auto
+
+/* Для картки релізу в тайтлі */
+.anime-release-card
+    padding: .2em .5em
+
+/* Картки команд */
+.team-logo
+    border-radius: var(--radius)
