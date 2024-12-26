@@ -11,7 +11,7 @@ export async function renderHomePage() {
     const statsSection = renderStatistics()
     const recentAnimesSection = renderReleasesSection(allAnimes.slice(0, 5), 'Останні додані аніме', 'Аніме', '/animes')
     const recentReleasesSection = renderReleasesSection(allReleases.slice(0, 5), 'Останні додані релізи', 'Реліз', '/releases')
-    const currentReleasesSection = renderReleasesSection(allReleases.slice(0, 5), 'Поточні релізи', 'Реліз', '/releases?status=В процесі')
+    const currentReleasesSection = renderReleasesSection(allReleases.filter(rel => rel.status == 'В процесі').slice(0, 5), 'Поточні релізи', 'Реліз', '/releases?status=В процесі')
 
     app.appendChild(randomAnimeSection)
     app.appendChild(recentAnimesSection)
