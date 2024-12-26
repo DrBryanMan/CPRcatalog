@@ -1,5 +1,26 @@
 [
   {
+    "id": "1687667f-790e-808b-ac36-eeec42924644",
+    "last_edited": "2024-12-26T08:53:00.000Z",
+    "cover": null,
+    "name": "AniVersionist",
+    "status": "Припинено",
+    "type_activity": [
+      "Аніме"
+    ],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "1687667f-790e-80d8-9a7d-d128222941cf"
+      }
+    ],
+    "site": null,
+    "anitube": "https://anitube.in.ua/tags/AniVersionist/",
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
     "id": "1627667f-790e-8024-9c99-f7ccfd8868c5",
     "last_edited": "2024-12-20T13:58:00.000Z",
     "cover": null,
@@ -3034,9 +3055,6 @@
       },
       {
         "id": "1627667f-790e-80b3-8c61-deef2edb4b59"
-      },
-      {
-        "id": "1627667f-790e-80e0-8a21-f6dc57b25091"
       },
       {
         "id": "1627667f-790e-808d-b19a-f51fedb83a50"
@@ -8233,6 +8251,9 @@
       },
       {
         "id": "15f7667f-790e-80a9-8e3d-fe4f981792ed"
+      },
+      {
+        "id": "1657667f-790e-80ff-b20b-d941d058505c"
       }
     ],
     "site": null,
