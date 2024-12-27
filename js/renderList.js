@@ -43,7 +43,7 @@ export function renderList(items, type, initialFilters) {
     const searchInput = document.getElementById('localSearchInput')
     const gridViewBtn = document.getElementById('gridViewBtn')
     const listViewBtn = document.getElementById('listViewBtn')
-    const filterBtn = document.getElementById('filterBtn')
+    // const filterBtn = document.getElementById('filterBtn')
     const filterOptions = document.getElementById('filterOptions')
     const loadingDiv = document.getElementById('loading')
     // const itemsCounter = document.getElementById('itemsCounter')
@@ -51,7 +51,7 @@ export function renderList(items, type, initialFilters) {
     searchInput.addEventListener('input', handleSearch)
     gridViewBtn.addEventListener('click', () => changeView('grid'))
     listViewBtn.addEventListener('click', () => changeView('list'))
-    filterBtn.addEventListener('click', toggleFilterOptions)
+    // filterBtn.addEventListener('click', toggleFilterOptions)
     
     initializeView()
 
@@ -138,13 +138,13 @@ export function renderList(items, type, initialFilters) {
         }
     }
     if (type === 'Команди') {
-        const sortBtn = document.getElementById('sortBtn')
-        const sortOptions = document.getElementById('sortOptions')
+        // const sortBtn = document.getElementById('sortBtn')
+        // const sortOptions = document.getElementById('sortOptions')
         
-        sortBtn.addEventListener('click', () => {
-            sortBtn.classList.toggle('active')
-            sortOptions.classList.toggle('active')
-        })
+        // sortBtn.addEventListener('click', () => {
+        //     sortBtn.classList.toggle('active')
+        //     sortOptions.classList.toggle('active')
+        // })
 
         sortOptions.addEventListener('click', (e) => {
             if (e.target.tagName === 'BUTTON') {
@@ -152,17 +152,17 @@ export function renderList(items, type, initialFilters) {
                 currentSort = sortType
                 sortItems()
                 resetList(filteredItems.length)
-                sortBtn.classList.remove('active')
-                sortOptions.classList.remove('active')
+                // sortBtn.classList.remove('active')
+                // sortOptions.classList.remove('active')
             }
         })
     }
 
-    function toggleFilterOptions() {
-        // filterOptions.style.display = filterOptions.style.display === 'none' ? 'flex' : 'none'
-        filterBtn.classList.toggle('active')
-        filterOptions.classList.toggle('active')
-    }
+    // function toggleFilterOptions() {
+    //     // filterOptions.style.display = filterOptions.style.display === 'none' ? 'flex' : 'none'
+    //     filterBtn.classList.toggle('active')
+    //     filterOptions.classList.toggle('active')
+    // }
 
     function initializeFilters(type) {
         const filterOptions = document.getElementById('filterOptions')

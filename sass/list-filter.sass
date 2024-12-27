@@ -20,8 +20,19 @@
     border: 1px solid var(--light-10)
     &:hover
         background-color: var(--light-10)
-    &.active
+
+#sortBtn:focus, #filterBtn:focus,
+.list-controls:has(.sort-options *:focus) #sortBtn,
+.list-controls:has(#filterOptions *.active) #filterBtn
         background-color: var(--light-20)
+        
+#sortBtn:focus + .sort-options,
+.sort-options:has(*:focus),
+#filterBtn:focus + #filterOptions,
+#filterOptions:has(*:focus)
+    visibility: visible
+    opacity: 1
+    transition: opacity 0.3s
     
 .filters-section
     position: relative
@@ -64,10 +75,6 @@
     @extend %filter-btns
     &:after
         content: ' Фільтри'
-    &:focus + #filterOptions
-        visibility: visible
-        opacity: 1
-        transition: opacity .3s
 
 #filterOptions
     @extend %filter-dropdown-list
@@ -86,10 +93,6 @@
     @extend %filter-btns
     &:after
         content: ' Сортування'
-    &:focus + .sort-options
-        visibility: visible
-        opacity: 1
-        transition: opacity .3s
 
 .sort-options
     @extend %filter-dropdown-list
