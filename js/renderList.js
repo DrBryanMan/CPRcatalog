@@ -303,7 +303,7 @@ export function renderList(items, type, initialFilters) {
                     case 'grid':
                         card.innerHTML = `
                             <div class='poster-box'>
-                                <img src='${item.posters[0]?.url.replace("/upload/", "/upload/q_70/") || item.poster}' title='${item.title}' loading="lazy">
+                                <img src='${item.posters[0]?.url.replace("/upload/", "/upload/q_70/") || item.poster}' title='${item.title}'">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate' title='${item.title}'>${item.title}</h3>
@@ -312,11 +312,11 @@ export function renderList(items, type, initialFilters) {
                         `
                         break
                     case 'list':
-                        const cover = item.cover ? `<div class='anime-cover'><img src='${item.cover}' loading="lazy"></div>` : ''
+                        const cover = item.cover ? `<div class='anime-cover'><img src='${item.cover}'"></div>` : ''
                         card.innerHTML = `
                             ${cover}
                             <div class='poster-box'>
-                                <img src='${item.posters[0]?.url || item.poster}' title='${item.title}' loading="lazy">
+                                <img src='${item.posters[0]?.url || item.poster}' title='${item.title}'">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate' title='${item.title}'>${item.title}</h3>
@@ -334,9 +334,10 @@ export function renderList(items, type, initialFilters) {
                 
                 switch (currentView) {
                     case 'grid':
+                        // item.posters[0]?.url || 
                         card.innerHTML = `
                             <div class='poster-box'>
-                                <img src='${item.posters[0]?.url || anime?.posters[0]?.url.replace("/upload/", "/upload/q_70/") || anime?.poster}' title='${item.title}' loading="lazy">
+                                <img src='${anime?.posters[0]?.url.replace("/upload/", "/upload/q_70/") || anime?.poster}' title='${item.title}'">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate'>${item.title}</h3>
@@ -346,11 +347,12 @@ export function renderList(items, type, initialFilters) {
                         `
                         break
                     case 'list':
-                        const cover = anime?.cover ? `<div class='anime-cover'><img src='${anime.cover}' loading="lazy"></div>` : ''
+                        const cover = anime?.cover ? `<div class='anime-cover'><img src='${anime.cover}'"></div>` : ''
+                        // item.posters[0]?.url || 
                         card.innerHTML = `
                             ${cover}
                             <div class='poster-box'>
-                                <img src='${item.poster || anime?.posters[0]?.url || anime?.poster}' title='${item.title}' loading="lazy">
+                                <img src='${anime?.posters[0]?.url || anime?.poster}' title='${item.title}'">
                             </div>
                             <div class='info'>
                                 <h3 class='truncate'>${item.title}</h3>

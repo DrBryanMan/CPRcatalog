@@ -29,7 +29,6 @@
 .title-detail .top-section {
   display: flex;
   align-items: flex-start;
-  /* margin: 0 5vw */
   margin-bottom: 1em;
   gap: 1rem;
 }

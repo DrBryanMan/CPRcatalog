@@ -205,12 +205,12 @@ export async function renderReleaseDetail(release) {
                 return `<span><i class="material-symbols-rounded" title="Статус">help</i> На перевірці</span>`;
         }
     }
-    
+    // release.posters[0]?.url || Коли розберусь з постерами, поверну постери команд.
     app.innerHTML = `
     <div class='title-detail release-page'>
         ${cover}
         <div class='top-section'>
-            <img class='title-poster' src='${release.posters[0]?.url || anime.posters[0]?.url || anime.poster}'>
+            <img class='title-poster' src='${anime.posters[0]?.url || anime.poster}'>
             <div class='center-column'>
                 <div>
                     <h1>${release.title}</h1>

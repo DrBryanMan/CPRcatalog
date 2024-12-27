@@ -1,3 +1,9 @@
+.team-detail .top-section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  gap: 1rem;
+}
 .team-detail .team-logo {
   width: 200px;
   height: auto;
