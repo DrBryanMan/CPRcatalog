@@ -1,5 +1,95 @@
 [
   {
+    "id": "16b7667f-790e-80fb-80e1-e733ab5ee25f",
+    "last_edited": "2024-12-29T10:02:00.000Z",
+    "hikka_url": null,
+    "title": "Маг на повну ставку 2",
+    "synonyms": [],
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [],
+    "relations": [
+      {
+        "id": "16b7667f-790e-80f0-9e17-fcf4df7af6da"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16b7667f-790e-80f0-9e17-fcf4df7af6da",
+    "last_edited": "2024-12-29T10:03:00.000Z",
+    "hikka_url": null,
+    "title": "Маг на повну ставку 2",
+    "romaji": "Quanzhi Fashi 2",
+    "synonyms": [],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2017",
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "16b7667f-790e-80af-a90a-c5faa2c6476b"
+      }
+    ],
+    "relations": [
+      {
+        "id": "16b7667f-790e-80fb-80e1-e733ab5ee25f"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16a7667f-790e-806f-84b4-f0454f2d8bdc",
+    "last_edited": "2024-12-28T08:38:00.000Z",
+    "hikka_url": "https://hikka.io/anime/cang-yuan-tu-dongning-fu-fanwai-pian-bd726e",
+    "poster": "https://cdn.hikka.io/content/anime/cang-yuan-tu-dongning-fu-fanwai-pian-bd726e/1W8yoM7IIvgQlgKrq9O86Q.jpg",
+    "title": "Мисливець на демонів: Володіння Доннін",
+    "romaji": "Cang Yuan Tu: Dongning Fu Fanwai Pian",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2024",
+    "scoreMAL": 7.56,
+    "scoredbyMAL": 317,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "4",
+    "releases": [
+      {
+        "id": "16a7667f-790e-801c-897e-e155a1e0394b"
+      }
+    ],
+    "relations": [
+      {
+        "id": "1377667f-790e-8017-92df-e67636492253"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1687667f-790e-8013-ab83-f7b83a0c6c35",
+    "last_edited": "2024-12-26T21:53:00.000Z",
+    "hikka_url": null,
+    "title": "Без назви",
+    "synonyms": [],
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
     "id": "1687667f-790e-80ae-aa4f-d1ea79dd9cb5",
     "last_edited": "2024-12-26T08:31:00.000Z",
     "hikka_url": null,
@@ -2231,11 +2321,11 @@
     "posters": [
       {
         "name": "Магічна битва - нищівна міграція.jpg",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241226T151122Z&X-Amz-Expires=3600&X-Amz-Signature=218a0d8d972ef10ced525454aad51e4a1cf3ca7cb781aabc04a824d8de312895&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012101Z&X-Amz-Expires=3600&X-Amz-Signature=af1c07f175a6de235e69bd42937543e164db944413df875c8f4f1fe6afcaf828&X-Amz-SignedHeaders=host&x-id=GetObject"
       },
       {
         "name": "Магічна битва - гра на вибування-min.png",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241226T151122Z&X-Amz-Expires=3600&X-Amz-Signature=953247300e34dd88f30ec0620ccc4e0db0c6a47e7ee06c44efaab6136e4c2d24&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012101Z&X-Amz-Expires=3600&X-Amz-Signature=45d33e30a996262f472dad51a411cb2f7da8a4de94bb5f1b7a2965940f168135&X-Amz-SignedHeaders=host&x-id=GetObject"
       }
     ]
   },
@@ -11007,6 +11097,9 @@
     "releases": [
       {
         "id": "1427667f-790e-80f3-811a-c083dc3ce1c2"
+      },
+      {
+        "id": "725525c1-01e6-47ac-9c33-30a5c7a3080e"
       }
     ],
     "relations": [],
@@ -15318,7 +15411,7 @@
   },
   {
     "id": "1377667f-790e-8017-92df-e67636492253",
-    "last_edited": "2024-11-07T07:59:00.000Z",
+    "last_edited": "2024-12-28T08:37:00.000Z",
     "hikka_url": "https://hikka.io/anime/cang-yuan-tu-605296",
     "poster": "https://cdn.hikka.io/content/anime/cang-yuan-tu-605296/XOkT-593c_8y1Bq3YUvZlQ.jpg",
     "title": "Мисливець на демонів",
@@ -15345,7 +15438,11 @@
         "id": "1377667f-790e-8064-8981-ff7e56cfd96a"
       }
     ],
-    "relations": [],
+    "relations": [
+      {
+        "id": "16a7667f-790e-806f-84b4-f0454f2d8bdc"
+      }
+    ],
     "Франшиза": [],
     "posters": []
   },
@@ -18780,7 +18877,7 @@
   },
   {
     "id": "1167667f-790e-80a5-8b1f-ec0f24bb96f1",
-    "last_edited": "2024-12-12T14:14:00.000Z",
+    "last_edited": "2024-12-26T21:53:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-gaoshou-e9d542",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98861-vDeVlvjXHh0g.jpg",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-gaoshou-e9d542/7tKM9-T5-46IPFabZG4Puw.jpg",
@@ -46668,7 +46765,7 @@
   },
   {
     "id": "040115bf-fd3d-4abe-984e-12bac13fe66c",
-    "last_edited": "2024-08-22T17:25:00.000Z",
+    "last_edited": "2024-12-29T10:01:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-fashi-37b8ec",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-fashi-37b8ec/tgZh_44sRQy9nGmHxoCQhw.jpg",
     "title": "Маг на повну ставку",
@@ -79348,6 +79445,9 @@
     "releases": [
       {
         "id": "13f7667f-790e-8063-ab9c-d829c4ae66a2"
+      },
+      {
+        "id": "1697667f-790e-80d9-bc05-dc1b5477de6f"
       }
     ],
     "relations": [],
