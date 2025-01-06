@@ -1,5 +1,3256 @@
 [
   {
+    "id": "1707667f-790e-80c4-986f-fbf624ac03d1",
+    "last_edited": "2025-01-03T13:13:00.000Z",
+    "animeIds": [
+      "1707667f-790e-8028-8a6b-f07ca58bc7bb",
+      "1707667f-790e-80a9-8b5a-d238e19f8fcd"
+    ],
+    "title": "Моя Богиня: У кожного є крила",
+    "teams": [
+      {
+        "id": "1357667f-790e-8019-82fe-c6148e7a4368"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "22 + 2",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-803c-bbf3-c72c7542f845",
+    "last_edited": "2025-01-03T12:44:00.000Z",
+    "animeIds": [
+      "1707667f-790e-8010-bc5f-dd40b147c39b"
+    ],
+    "title": "Райдужні дні",
+    "teams": [
+      {
+        "id": "1357667f-790e-8019-82fe-c6148e7a4368"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "6 / 24",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80ae-b8b2-c9ce01d16163",
+    "last_edited": "2025-01-03T12:20:00.000Z",
+    "animeIds": [
+      "88332c57-f1cb-4103-a280-ea7aea7b9cc4"
+    ],
+    "title": "Неосяжна блакить",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80af-8a86-d406fe87c3e8"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "3 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80f0-be7c-e0f42ab5f8e3",
+    "last_edited": "2025-01-03T12:18:00.000Z",
+    "animeIds": [
+      "af7e3dbe-7dc2-427d-9132-4b698f1e85fa"
+    ],
+    "title": "Мертві",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80af-8a86-d406fe87c3e8"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "3 / 22",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80f5-8e7e-c79a28aaf780",
+    "last_edited": "2025-01-03T12:12:00.000Z",
+    "animeIds": [
+      "1707667f-790e-80a2-a450-c04533cbe33a"
+    ],
+    "title": "Завтрашній Джо",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80f4-9b0d-cb29a7f34249"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "22 / 79",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-806a-9618-cd556eefcb01",
+    "last_edited": "2025-01-03T12:12:00.000Z",
+    "animeIds": [
+      "a9a62eb9-33b7-4cb0-815e-fc0229a6410d"
+    ],
+    "title": "ДжоДжо: ФК/БТ",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80f4-9b0d-cb29a7f34249"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "21 / 26",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-804d-8e1a-d3e9e5c66259",
+    "last_edited": "2025-01-03T12:00:00.000Z",
+    "animeIds": [
+      "590cd394-e01c-4566-ac01-9997739a0cc0"
+    ],
+    "title": "Кіберпанк: Ті, що біжать по краю",
+    "teams": [
+      {
+        "id": "cbbb61c2-fbdd-4884-a935-bc39c4152851"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "10",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip 1080p\n",
+        "href": "https://toloka.to/t668277"
+      },
+      {
+        "text": "WEB-DLRip 1080p H.265 60fps",
+        "href": "https://toloka.to/t682939"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80d7-8a4a-e431c3a3a1c5",
+    "last_edited": "2025-01-03T11:59:00.000Z",
+    "animeIds": [
+      "590cd394-e01c-4566-ac01-9997739a0cc0"
+    ],
+    "title": "Кіберпанк: Ті, що біжать по краю",
+    "teams": [
+      {
+        "id": "1527667f-790e-805a-920b-e5d8bff00b78"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "10",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip 1080p\n",
+        "href": "https://toloka.to/t668277"
+      },
+      {
+        "text": "WEB-DLRip 1080p H.265 60fps",
+        "href": "https://toloka.to/t682939"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8056-84c3-daa573f32bd6",
+    "last_edited": "2025-01-03T11:59:00.000Z",
+    "animeIds": [
+      "590cd394-e01c-4566-ac01-9997739a0cc0"
+    ],
+    "title": "Кіберпанк: Ті, що біжать по краю",
+    "teams": [
+      {
+        "id": "e7d0d618-97fb-4029-b4be-fd5f8ccd30d5"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "10",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip 1080p\n",
+        "href": "https://toloka.to/t668277"
+      },
+      {
+        "text": "WEB-DLRip 1080p H.265 60fps",
+        "href": "https://toloka.to/t682939"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8015-8679-c9f8d54f1385",
+    "last_edited": "2025-01-03T11:56:00.000Z",
+    "animeIds": [
+      "2b44c211-5e06-4e0e-8108-e785670ac7f1"
+    ],
+    "title": "Хорімія: Фрагменти",
+    "teams": [
+      {
+        "id": "63d78473-f9e1-436f-9e5b-f0384b90350c"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80a0-a6c3-f5d34cdbf978",
+    "last_edited": "2025-01-03T11:54:00.000Z",
+    "animeIds": [
+      "a57979c7-895c-42df-85ca-5c12b427adb3"
+    ],
+    "title": "Сходження мерця Смертельна гра",
+    "teams": [
+      {
+        "id": "63d78473-f9e1-436f-9e5b-f0384b90350c"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "2 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8006-93e4-dea87318d5bb",
+    "last_edited": "2025-01-03T11:46:00.000Z",
+    "animeIds": [
+      "b2154095-1f69-4b18-b64d-e15c50917cf9"
+    ],
+    "title": "Клинок, який винищує демонів: Селище ковалів",
+    "teams": [
+      {
+        "id": "63d78473-f9e1-436f-9e5b-f0384b90350c"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "8 / 11",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-806e-b1e4-efd6438c74a9",
+    "last_edited": "2025-01-03T11:46:00.000Z",
+    "animeIds": [
+      "a9b00c3e-0168-4069-9b33-470f9eefdce7"
+    ],
+    "title": "Наречена герцога за контрактом",
+    "teams": [
+      {
+        "id": "63d78473-f9e1-436f-9e5b-f0384b90350c"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8023-bb51-d4ef27f4d488",
+    "last_edited": "2025-01-03T11:46:00.000Z",
+    "animeIds": [
+      "ec296045-351b-4885-afb4-28793b6acbf4"
+    ],
+    "title": "Небезпека в серці",
+    "teams": [
+      {
+        "id": "63d78473-f9e1-436f-9e5b-f0384b90350c"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "2 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80bf-8b78-fab8ce9498b1",
+    "last_edited": "2025-01-03T11:46:00.000Z",
+    "animeIds": [
+      "1707667f-790e-8049-95d2-c9d323553a7b"
+    ],
+    "title": "Солодкі сліди укусів",
+    "teams": [
+      {
+        "id": "63d78473-f9e1-436f-9e5b-f0384b90350c"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "2 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80ef-9dbb-fe217f4ff36e",
+    "last_edited": "2025-01-03T11:36:00.000Z",
+    "animeIds": [
+      "590cd394-e01c-4566-ac01-9997739a0cc0"
+    ],
+    "title": "Кіберпанк",
+    "teams": [
+      {
+        "id": "63d78473-f9e1-436f-9e5b-f0384b90350c"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "10",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip 1080p\n",
+        "href": "https://toloka.to/t668277"
+      },
+      {
+        "text": "WEB-DLRip 1080p H.265 60fps",
+        "href": "https://toloka.to/t682939"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80b1-bd71-fab3d58bac50",
+    "last_edited": "2025-01-03T10:31:00.000Z",
+    "animeIds": [
+      "1707667f-790e-8029-8c81-c961ef48702c"
+    ],
+    "title": "Наруто проти Конохомару",
+    "teams": [
+      {
+        "id": "57a1c09f-b63b-46bb-8c3b-2d1995aceddb"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8026-a2a7-c2e468a29453",
+    "last_edited": "2025-01-03T10:28:00.000Z",
+    "animeIds": [
+      "1707667f-790e-8007-9c32-e03fe0209b13"
+    ],
+    "title": "Наруто ОВА 1",
+    "teams": [
+      {
+        "id": "57a1c09f-b63b-46bb-8c3b-2d1995aceddb"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-801b-985d-e9e24f743c9b",
+    "last_edited": "2025-01-03T10:32:00.000Z",
+    "animeIds": [
+      "339c7aa9-7e7d-47d1-add7-3ac45ced8656"
+    ],
+    "title": "Берсерк: Золота ера",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8033-b9ef-f3e14626218a",
+    "last_edited": "2025-01-03T10:32:00.000Z",
+    "animeIds": [
+      "2775ed54-5fdf-47bc-b10d-e8b7ad743b8c"
+    ],
+    "title": "Джюнджі Іто: Маніяк",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "4 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80c4-aa87-fca849eb1be2",
+    "last_edited": "2025-01-03T10:32:00.000Z",
+    "animeIds": [
+      "00eb6869-d3e4-4557-9d98-e9a88d245022"
+    ],
+    "title": "Сім’я шпигуна ч.2",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "7 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8037-a4fb-c6b7f77b8cc6",
+    "last_edited": "2025-01-03T10:32:00.000Z",
+    "animeIds": [
+      "1707667f-790e-8034-b5f6-fa6d48f1f2ae"
+    ],
+    "title": "Час для шінобі",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "6 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8079-b84b-fc4e4cf7b03b",
+    "last_edited": "2025-01-03T10:32:00.000Z",
+    "animeIds": [
+      "6843db63-21c6-438e-ab5b-a3fa57518cd4"
+    ],
+    "title": "Токійські месники",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "2 / 24",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80a7-8498-f2947fc098e6",
+    "last_edited": "2025-01-03T10:32:00.000Z",
+    "animeIds": [
+      "524658c6-e9c3-4744-9409-2901f02c7128"
+    ],
+    "title": "Дракон Раджа",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "5 / 16",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-803e-b9ec-ea9aa78f7aca",
+    "last_edited": "2025-01-03T10:32:00.000Z",
+    "animeIds": [
+      "bc1aedbd-aa0f-47cb-9068-f0a343daff70"
+    ],
+    "title": "Детективи Футо",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "4 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-804b-afb3-dd18c56b72db",
+    "last_edited": "2025-01-03T09:33:00.000Z",
+    "animeIds": [
+      "1707667f-790e-80e6-9e16-e8de82fbda53"
+    ],
+    "title": "Слабкий п’ятитисячорічний дракон",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8014-a599-ed4f7cc7f4e9",
+    "last_edited": "2025-01-03T09:33:00.000Z",
+    "animeIds": [
+      "a4de5493-6efa-477f-b0dd-42635c6957a1"
+    ],
+    "title": "Сім’я шпигуна",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8062-8628-fdc4215904f1",
+    "last_edited": "2025-01-03T09:45:00.000Z",
+    "animeIds": [
+      "0b0ea85d-84fc-48f1-b129-cadaea121001"
+    ],
+    "title": "Донька боса та її нянька",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80d5-acd1-e7afe6c3752d",
+    "last_edited": "2025-01-03T10:32:00.000Z",
+    "animeIds": [
+      "dd2b8703-7962-4ae9-b230-8e0ad92dfdb2"
+    ],
+    "title": "Реінкарнація дядька",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "7 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8005-81ab-c3868881128e",
+    "last_edited": "2025-01-03T08:58:00.000Z",
+    "animeIds": [
+      "8a892ec2-649b-4ccd-82a4-25e4cf9a85ed"
+    ],
+    "title": "Про моє переродження в меч",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p х3",
+        "href": "https://toloka.to/t669709"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8054-8ad5-fd31516a80fe",
+    "last_edited": "2025-01-03T08:54:00.000Z",
+    "animeIds": [
+      "5089f5c1-fe40-41f1-a630-1a5fdeeb1015"
+    ],
+    "title": "Коли Аюму зробить свій крок?",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEB-DLRip х2",
+        "href": "https://toloka.to/t663723"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80eb-9a89-c8210ad60110",
+    "last_edited": "2025-01-03T08:52:00.000Z",
+    "animeIds": [
+      "88332c57-f1cb-4103-a280-ea7aea7b9cc4"
+    ],
+    "title": "Неосяжна блакить",
+    "teams": [
+      {
+        "id": "15e7667f-790e-8086-875c-e7853f1a26a2"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p (добірка)",
+        "href": "https://toloka.to/t669796"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "HDTVRip 1080p",
+        "href": "https://toloka.to/t107029"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80a7-9cc4-ec5fd4bfdc7b",
+    "last_edited": "2025-01-03T08:52:00.000Z",
+    "animeIds": [
+      "88332c57-f1cb-4103-a280-ea7aea7b9cc4"
+    ],
+    "title": "Неосяжна блакить",
+    "teams": [
+      {
+        "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "5 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p (добірка)",
+        "href": "https://toloka.to/t669796"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80ce-a7cf-d8c759beec85",
+    "last_edited": "2025-01-03T08:52:00.000Z",
+    "animeIds": [
+      "88332c57-f1cb-4103-a280-ea7aea7b9cc4"
+    ],
+    "title": "Неосяжна блакить",
+    "teams": [
+      {
+        "id": "342c38c9-7bb4-431f-95bb-9a6bdbca0ec6"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p (добірка)",
+        "href": "https://toloka.to/t669796"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8083-973c-fcbfef413b90",
+    "last_edited": "2025-01-03T08:53:00.000Z",
+    "animeIds": [
+      "88332c57-f1cb-4103-a280-ea7aea7b9cc4"
+    ],
+    "title": "Неосяжна блакить",
+    "teams": [
+      {
+        "id": "cbbb61c2-fbdd-4884-a935-bc39c4152851"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p (добірка)",
+        "href": "https://toloka.to/t669796"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "HDTVRip 1080p",
+        "href": "https://toloka.to/t662038"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80f8-a212-d98953d531e1",
+    "last_edited": "2025-01-03T08:32:00.000Z",
+    "animeIds": [
+      "882888b4-0987-43b3-be9c-2a8a1cb02052"
+    ],
+    "title": "Синя в’язниця",
+    "teams": [
+      {
+        "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "3 / 24",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80d5-b3a1-cfd0dd07cc8c",
+    "last_edited": "2025-01-03T08:37:00.000Z",
+    "animeIds": [
+      "1707667f-790e-8034-b5f6-fa6d48f1f2ae"
+    ],
+    "title": "Час ніндзя",
+    "teams": [
+      {
+        "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "8 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8028-9396-da032cf12023",
+    "last_edited": "2025-01-03T08:32:00.000Z",
+    "animeIds": [
+      "eec2a19c-e50e-4b39-8cdb-e1931160a384"
+    ],
+    "title": "Дороро",
+    "teams": [
+      {
+        "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "7 / 24",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-802d-a7e4-f4e33ebebb1f",
+    "last_edited": "2025-01-03T08:53:00.000Z",
+    "animeIds": [
+      "5089f5c1-fe40-41f1-a630-1a5fdeeb1015"
+    ],
+    "title": "Коли Аюму зробить свій крок?",
+    "teams": [
+      {
+        "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEB-DLRip х2",
+        "href": "https://toloka.to/t663723"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8022-a591-cef95021580b",
+    "last_edited": "2025-01-03T08:27:00.000Z",
+    "animeIds": [
+      "10d692fd-1431-4d8b-abbd-d5783e923542"
+    ],
+    "title": "Вона та її кіт. Вічний плин часу",
+    "teams": [
+      {
+        "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "4",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8044-af5d-c94be0592c8d",
+    "last_edited": "2025-01-03T08:27:00.000Z",
+    "animeIds": [
+      "10c7667f-790e-8009-aa0e-cbe19e1c4b4d"
+    ],
+    "title": "Вана та її кіт",
+    "teams": [
+      {
+        "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-801a-8ff2-c574d116c7fb",
+    "last_edited": "2025-01-03T08:42:00.000Z",
+    "animeIds": [
+      "88332c57-f1cb-4103-a280-ea7aea7b9cc4"
+    ],
+    "title": "Неосяжний океан",
+    "teams": [
+      {
+        "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p",
+        "href": "https://toloka.to/t669796"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-805c-b290-d3780cb0ba30",
+    "last_edited": "2025-01-03T08:00:00.000Z",
+    "animeIds": [
+      "37417203-d10e-4c0b-be5a-52e4f07d2c50"
+    ],
+    "title": "Я не розумію, що говорить мій чоловік (суб)",
+    "teams": [
+      {
+        "id": "bdcc926c-788f-4c43-b273-f2d1c93d2348"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8067-a117-ccb994e2f098",
+    "last_edited": "2025-01-03T07:58:00.000Z",
+    "animeIds": [
+      "eec2a19c-e50e-4b39-8cdb-e1931160a384"
+    ],
+    "title": "Дороро (суб)",
+    "teams": [
+      {
+        "id": "bdcc926c-788f-4c43-b273-f2d1c93d2348"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "11 / 24",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-805b-bf0c-ebd25f07402c",
+    "last_edited": "2025-01-03T07:58:00.000Z",
+    "animeIds": [
+      "eec2a19c-e50e-4b39-8cdb-e1931160a384"
+    ],
+    "title": "Дороро",
+    "teams": [
+      {
+        "id": "bdcc926c-788f-4c43-b273-f2d1c93d2348"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "8 / 24",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80c5-bc12-d06fcc82b176",
+    "last_edited": "2025-01-03T07:52:00.000Z",
+    "animeIds": [
+      "13cae071-16a7-44e0-986d-79e211ca07aa"
+    ],
+    "title": "Інша",
+    "teams": [
+      {
+        "id": "a59bc033-9766-4735-a1b9-0de5bcc3aa54"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "2 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8097-a2a1-fb1a8a600c69",
+    "last_edited": "2025-01-03T07:12:00.000Z",
+    "animeIds": [
+      "99d8118a-0432-45e8-ae5c-669fd44d8adb"
+    ],
+    "title": "Атака титанів: Фінальний сезон (ТБ-4) ч.3-4",
+    "teams": [
+      {
+        "id": "e3e581d9-fd22-4230-b4bb-316e78ed7beb"
+      },
+      {
+        "id": "e7d0d618-97fb-4029-b4be-fd5f8ccd30d5"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "2",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBDL 1080р",
+        "href": "https://toloka.to/t666868"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80e7-9957-e279e58a0aa6",
+    "last_edited": "2025-01-03T07:09:00.000Z",
+    "animeIds": [
+      "8cf06233-dab6-41ab-9971-ce857a23575d"
+    ],
+    "title": "Магічна битва 2",
+    "teams": [
+      {
+        "id": "e3e581d9-fd22-4230-b4bb-316e78ed7beb"
+      },
+      {
+        "id": "e7d0d618-97fb-4029-b4be-fd5f8ccd30d5"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "23",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEB-DLRip 1080p",
+        "href": "https://toloka.to/t670465"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-800d-a079-c1ec85d91902",
+    "last_edited": "2025-01-03T06:56:00.000Z",
+    "animeIds": [
+      "05e2354e-ede3-41c4-bf7a-fb0ec293f5fa"
+    ],
+    "title": "Хай буде благословенний цей прекрасний світ! Багрова легенда",
+    "teams": [
+      {
+        "id": "e3e581d9-fd22-4230-b4bb-316e78ed7beb"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p",
+        "href": "https://toloka.to/t111147"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip 720р-mini х2",
+        "href": "https://toloka.to/t668366"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip 1080p H.265 х3",
+        "href": "https://toloka.to/t683220"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80c8-b481-cb38e59bc46e",
+    "last_edited": "2025-01-02T14:38:00.000Z",
+    "animeIds": [
+      "5c78352e-2494-4152-b772-2218ba8def1e"
+    ],
+    "title": "Баскетбол Куроко (суб)",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80f7-b344-d7924ade260e"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "25",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-801c-9c9f-d8661af9434e",
+    "last_edited": "2025-01-02T14:37:00.000Z",
+    "animeIds": [
+      "5c78352e-2494-4152-b772-2218ba8def1e"
+    ],
+    "title": "Баскетбол Куроко 2",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80f7-b344-d7924ade260e"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "2 / 25",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80aa-9878-fbaa0f5fc932",
+    "last_edited": "2025-01-02T13:48:00.000Z",
+    "animeIds": [
+      "1167667f-790e-80a5-8b1f-ec0f24bb96f1"
+    ],
+    "title": "Аватар Короля",
+    "teams": [
+      {
+        "id": "1347667f-790e-80e0-91cc-e6302b8c1716"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80ca-9e5d-c4024df4df0e",
+    "last_edited": "2025-01-02T13:49:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-80e9-affa-d1e2f3618820"
+    ],
+    "title": "Пітер Ґрілл та час філософа",
+    "teams": [
+      {
+        "id": "1347667f-790e-80e0-91cc-e6302b8c1716"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBDLRip 1080p",
+        "href": "https://toloka.to/t684115"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80ba-a295-c6f26f691bd7",
+    "last_edited": "2025-01-02T13:23:00.000Z",
+    "animeIds": [
+      "ffa0e47e-fc04-4c8c-a190-a85f0f074c84"
+    ],
+    "title": "Нумо чвакнемось (суб)",
+    "teams": [
+      {
+        "id": "2ee764b5-3fb5-4bad-97c2-31572caf90b4"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "11 / 16",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8043-8dc2-dec844353c89",
+    "last_edited": "2025-01-02T13:04:00.000Z",
+    "animeIds": [
+      "1227667f-790e-8056-82fa-f3ff01d060b6"
+    ],
+    "title": "Моя наставниця насправді хлопець (суб)",
+    "teams": [
+      {
+        "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8058-be93-e17d2ef95e13",
+    "last_edited": "2025-01-02T13:02:00.000Z",
+    "animeIds": [
+      "f09e3230-1d05-4ab8-bcc7-e6aecefe6704"
+    ],
+    "title": "Моя дружина не має емоцій (суб)",
+    "teams": [
+      {
+        "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "2 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-801e-989c-f3fd9fcd759d",
+    "last_edited": "2025-01-02T12:56:00.000Z",
+    "animeIds": [
+      "1a9bf23b-618b-4dff-aefc-b2f1403a17f5"
+    ],
+    "title": "Гніздо Деліко (суб)",
+    "teams": [
+      {
+        "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80f8-8e1c-ca8c55d8da7a",
+    "last_edited": "2025-01-02T12:55:00.000Z",
+    "animeIds": [
+      "0a0402c4-3256-4bdb-b9c4-9ae16c0f907e"
+    ],
+    "title": "Лейтенант Зло та дівчинка-чарівниця, дійсно вороги? (суб)",
+    "teams": [
+      {
+        "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8039-aade-c78a0f80a548",
+    "last_edited": "2025-01-02T12:55:00.000Z",
+    "animeIds": [
+      "0a0402c4-3256-4bdb-b9c4-9ae16c0f907e"
+    ],
+    "title": "Лейтенант Зло та дівчинка-чарівниця, дійсно вороги?",
+    "teams": [
+      {
+        "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "10 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8026-a5e7-d732d280d2af",
+    "last_edited": "2025-01-02T12:56:00.000Z",
+    "animeIds": [
+      "dd4fb273-c1e5-406e-9bc5-fdf735d7e178"
+    ],
+    "title": "Юність: як стати звичайним (суб)",
+    "teams": [
+      {
+        "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 10",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8057-a623-c4a6cdfc2741",
+    "last_edited": "2025-01-02T12:41:00.000Z",
+    "animeIds": [
+      "15f7667f-790e-80f6-b5d2-e51aa9512219"
+    ],
+    "title": "Пожирач зірок 4",
+    "teams": [
+      {
+        "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 71",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8003-b8a4-faa3ba13d800",
+    "last_edited": "2025-01-02T12:43:00.000Z",
+    "animeIds": [
+      "fb25c055-ecc3-4872-963b-dcbab41457f5"
+    ],
+    "title": "Ти - покоївка (суб)",
+    "teams": [
+      {
+        "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8050-abd2-ea0e7f45688d",
+    "last_edited": "2025-01-02T12:44:00.000Z",
+    "animeIds": [
+      "bb1addc3-13f5-459f-9f5a-3191c68b9013"
+    ],
+    "title": "Бліч: Тисячолітня кривава війна - Протистояння ч.3 (суб)",
+    "teams": [
+      {
+        "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "14",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-800d-bca6-c1b92a62a39f",
+    "last_edited": "2025-01-02T12:46:00.000Z",
+    "animeIds": [
+      "10c7667f-790e-8057-ac04-e51edec74bf0"
+    ],
+    "title": "Негативний позитивний рибалка (суб)",
+    "teams": [
+      {
+        "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8098-9b9f-e3d0ccbd0ad9",
+    "last_edited": "2025-01-02T12:45:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-8041-a1d4-c8616aacbd5d"
+    ],
+    "title": "Горизонт між порожнечі",
+    "teams": [
+      {
+        "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "5 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80c5-98fe-de9a1b303735",
+    "last_edited": "2025-01-02T12:33:00.000Z",
+    "animeIds": [
+      "e874ba00-dfdf-42ff-8ad7-f88d4911bd32"
+    ],
+    "title": "Кулінарні поєдинки Соми (суб)",
+    "teams": [
+      {
+        "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "24",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8025-a458-e8524a7a2451",
+    "last_edited": "2025-01-02T12:26:00.000Z",
+    "animeIds": [
+      "1507667f-790e-8094-93b9-f3bea0d943f2"
+    ],
+    "title": "Зоряні лицарі з Зірки Самовольців (суб)",
+    "teams": [
+      {
+        "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "26",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80fd-823b-c945dd72faa9",
+    "last_edited": "2025-01-02T12:19:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-801b-b45e-e77f621fc743"
+    ],
+    "title": "Блюз машини часу про чотири з половиною татамі",
+    "teams": [
+      {
+        "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "6",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80c5-8d73-e9a414275a95",
+    "last_edited": "2025-01-02T11:51:00.000Z",
+    "animeIds": [
+      "6a310e0a-0e56-4983-b2f1-2119fa300279"
+    ],
+    "title": "Дурне янголятко в танці з демоном",
+    "teams": [
+      {
+        "id": "04399237-b6e2-4859-97bc-844bafa0ab4b"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80d5-ae89-fdfa99ba3073",
+    "last_edited": "2025-01-02T11:33:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-803a-8334-e81f15b4244b"
+    ],
+    "title": "Мій миленький тиран",
+    "teams": [
+      {
+        "id": "fb9e4c07-7446-4b14-9400-a2718a1b63cd"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "5 / 25",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8092-90b7-fe4c6d33a9f6",
+    "last_edited": "2025-01-02T10:58:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-8071-985c-eebd65ee8daa"
+    ],
+    "title": "Аніме історії (суб)",
+    "teams": [],
+    "status": "В процесі",
+    "episodes": "8 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-805a-835d-ec1a498f4ce0",
+    "last_edited": "2025-01-02T10:58:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-8071-985c-eebd65ee8daa"
+    ],
+    "title": "Аніме історії",
+    "teams": [
+      {
+        "id": "c9403c15-af0b-4b8f-b60e-a1c1d7e3726e"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "8 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8062-9fee-ffebc4fc9609",
+    "last_edited": "2025-01-02T10:56:00.000Z",
+    "animeIds": [
+      "559fadb0-4d02-4a76-970e-7bf931e25d1b"
+    ],
+    "title": "Знак Тесли (суб)",
+    "teams": [],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80ba-a023-dc05986d376f",
+    "last_edited": "2025-01-02T10:55:00.000Z",
+    "animeIds": [
+      "559fadb0-4d02-4a76-970e-7bf931e25d1b"
+    ],
+    "title": "Знак Тесли",
+    "teams": [
+      {
+        "id": "c9403c15-af0b-4b8f-b60e-a1c1d7e3726e"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80bb-af50-f04dcab2103a",
+    "last_edited": "2025-01-02T10:54:00.000Z",
+    "animeIds": [
+      "0a018c42-f3a0-4d3b-8183-76da152de653",
+      "16f7667f-790e-8043-8136-e6fbc1264576"
+    ],
+    "title": "Спалах мрійників (суб)",
+    "teams": [],
+    "status": "Завершено",
+    "episodes": "11 + 1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80b3-842f-ed439d1ded02",
+    "last_edited": "2025-01-02T10:50:00.000Z",
+    "animeIds": [
+      "0a018c42-f3a0-4d3b-8183-76da152de653",
+      "16f7667f-790e-8043-8136-e6fbc1264576"
+    ],
+    "title": "Спалах мрійників",
+    "teams": [
+      {
+        "id": "c9403c15-af0b-4b8f-b60e-a1c1d7e3726e"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "11 + 1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80cf-af7e-c4bfa475a75d",
+    "last_edited": "2025-01-03T10:10:00.000Z",
+    "animeIds": [
+      "1597667f-790e-8089-a650-f95490e8dcff",
+      "1597667f-790e-80d2-bb58-ebada225377f",
+      "1597667f-790e-80f8-a6fb-eb9d4dd79430",
+      "1597667f-790e-8092-9219-d7eeac35f94d",
+      "1597667f-790e-80c0-a98a-fd9e210cf0d3",
+      "1597667f-790e-807d-a778-d6684a5c3f96"
+    ],
+    "title": "Зламаний меч",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "6",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80bd-86dc-eaead94cf3fc",
+    "last_edited": "2025-01-02T09:38:00.000Z",
+    "animeIds": [],
+    "title": "Скляний океан",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80e7-b3c2-d7dc4fbd0ae5",
+    "last_edited": "2025-01-02T10:32:00.000Z",
+    "animeIds": [
+      "af8c3770-55d6-4ecb-86e0-97bff0a40420",
+      "16f7667f-790e-80c0-b017-e79fc4f56423"
+    ],
+    "title": "Употте",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 11",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-806f-b234-c4ca81f4afde",
+    "last_edited": "2025-01-02T10:28:00.000Z",
+    "animeIds": [
+      "7045d4bf-c2d9-4995-9547-35fa14b63ac5"
+    ],
+    "title": "Зом 100",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "5",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80de-9698-f5165d72dcf0",
+    "last_edited": "2025-01-02T10:34:00.000Z",
+    "animeIds": [],
+    "title": "Бакі",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "17",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8075-abdd-edd0ba7be2c3",
+    "last_edited": "2025-01-02T10:34:00.000Z",
+    "animeIds": [],
+    "title": "Ванґан Міднайт",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "9",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-804a-8f14-fe5d6beae83d",
+    "last_edited": "2025-01-02T09:51:00.000Z",
+    "animeIds": [
+      "cf220602-e234-49d9-b7f1-fc0c245dd7ed"
+    ],
+    "title": "Мистецтво меча онлайн: Прогресія",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      },
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8000-ae7b-d7599f1e808c",
+    "last_edited": "2025-01-02T10:32:00.000Z",
+    "animeIds": [],
+    "title": "Ініціал Д: Додатковий етап",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 2",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80e7-8056-ea58fdf46cbc",
+    "last_edited": "2025-01-02T09:52:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-8072-9d79-f924ed256bd6"
+    ],
+    "title": "Ініціал Д: Другий етап",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80f9-b25d-dd7e85f5125a",
+    "last_edited": "2025-01-02T10:26:00.000Z",
+    "animeIds": [
+      "b6ba2a11-f677-4432-a0bd-2f83b22090a3"
+    ],
+    "title": "Актори міста Мекаку",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "8",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8010-a1d0-f2a8258e229a",
+    "last_edited": "2025-01-02T10:33:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-8075-a189-e4b94523b676"
+    ],
+    "title": "(Не)Люди",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "Відкладено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8033-96eb-e98e95d2cb80",
+    "last_edited": "2025-01-02T09:30:00.000Z",
+    "animeIds": [
+      "b15e5c7c-701d-4a49-b467-745d10e2ff50"
+    ],
+    "title": "Данганронпа",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip 1080p",
+        "href": "https://toloka.to/t660501"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80ae-952e-c5b445a3e77a",
+    "last_edited": "2025-01-02T09:33:00.000Z",
+    "animeIds": [
+      "47d26046-42e7-4dba-8f5f-69377156914e"
+    ],
+    "title": "Ініціал Д: Перший етап",
+    "teams": [
+      {
+        "id": "63d070c0-1178-4449-b190-79a0994b6111"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "26",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-808b-a812-d1b7a8773c9f",
+    "last_edited": "2025-01-02T08:52:00.000Z",
+    "animeIds": [
+      "1227667f-790e-8078-80a4-d83f21bbc192"
+    ],
+    "title": "Дні Сакамото",
+    "teams": [
+      {
+        "id": "12d7667f-790e-8093-811a-ca7b7ba04a68"
+      }
+    ],
+    "status": "Анонс",
+    "episodes": "Невідомо",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80f3-a547-e4d66894e429",
+    "last_edited": "2025-01-02T08:52:00.000Z",
+    "animeIds": [
+      "e96b6866-c11c-4405-93b7-95478c19014f"
+    ],
+    "title": "Володар",
+    "teams": [
+      {
+        "id": "12d7667f-790e-8093-811a-ca7b7ba04a68"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "6 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80ea-99a5-d0a2117fd367",
+    "last_edited": "2025-01-02T08:52:00.000Z",
+    "animeIds": [
+      "6d2c0866-ddcd-44c1-a397-05f97d7b0a0c"
+    ],
+    "title": "Синій екзорцист: За снігом",
+    "teams": [
+      {
+        "id": "12d7667f-790e-8093-811a-ca7b7ba04a68"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80a1-8136-d17a28194965",
+    "last_edited": "2025-01-02T08:48:00.000Z",
+    "animeIds": [
+      "a84998f6-4751-4e51-97a6-bf2bee851c0c"
+    ],
+    "title": "В інший світ більше не пускають",
+    "teams": [
+      {
+        "id": "12d7667f-790e-8093-811a-ca7b7ba04a68"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8073-912a-f0d43a0b0768",
+    "last_edited": "2025-01-02T08:49:00.000Z",
+    "animeIds": [
+      "a06a7c96-e5d8-41ba-9894-80a85575fa47"
+    ],
+    "title": "Вовчиця та прянощі",
+    "teams": [
+      {
+        "id": "12d7667f-790e-8093-811a-ca7b7ba04a68"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "25",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-805c-a6ae-c37e781c6b92",
+    "last_edited": "2025-01-02T08:35:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-8093-9027-ce2a3a67cf3e"
+    ],
+    "title": "Монстр який сидить поруч (ОВА)",
+    "teams": [
+      {
+        "id": "1357667f-790e-8019-82fe-c6148e7a4368"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "DVDRip",
+        "href": "https://toloka.to/t77917"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-802c-afad-faba79d69175",
+    "last_edited": "2025-01-02T08:36:00.000Z",
+    "animeIds": [
+      "24cfcdb2-42aa-4403-818d-528951cf2987"
+    ],
+    "title": "Монстр який сидить поруч",
+    "teams": [
+      {
+        "id": "1357667f-790e-8019-82fe-c6148e7a4368"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "HDTVRip 720p",
+        "href": "https://toloka.to/t77925"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-808d-b013-e7d55f75dc7f",
+    "last_edited": "2025-01-02T08:29:00.000Z",
+    "animeIds": [
+      "7476fea7-dbec-41f6-8014-846493b99d47",
+      "16f7667f-790e-803d-a291-cf2c70539179"
+    ],
+    "title": "Моя Богиня + спешли",
+    "teams": [
+      {
+        "id": "1357667f-790e-8019-82fe-c6148e7a4368"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "24 + 3",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 720p",
+        "href": "https://toloka.to/t77901"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8015-baea-eaf42437ca40",
+    "last_edited": "2025-01-02T08:09:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-80df-99cc-f4d1281c1317"
+    ],
+    "title": "Мисливець на демонів 2",
+    "teams": [
+      {
+        "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "2 / 27",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8012-bd19-db4632f8d77b",
+    "last_edited": "2025-01-02T07:44:00.000Z",
+    "animeIds": [
+      "6cf77beb-7302-48fd-acae-8c37d3a9b719"
+    ],
+    "title": "Пригоди дігімонів 2",
+    "teams": [
+      {
+        "id": "c586e28e-4f97-4a19-bf07-0b1f1722b773"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "15 / 50",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-807e-91ae-c16a9b3bcb48",
+    "last_edited": "2025-01-02T07:21:00.000Z",
+    "animeIds": [
+      "2d4708db-84bb-4b26-96c8-497d37f4d2f6"
+    ],
+    "title": "Пройдисвіти",
+    "teams": [
+      {
+        "id": "d3d26b34-76cc-40b9-8383-b25ba5ac9111"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "9 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16d7667f-790e-8071-bd74-e1174e654990",
+    "last_edited": "2024-12-31T08:31:00.000Z",
+    "animeIds": [
+      "a54345ad-3e41-4b5f-aa61-814738870790"
+    ],
+    "title": "Зіркові діти 2",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16d7667f-790e-8067-8b33-e9d47664d14e",
+    "last_edited": "2024-12-31T08:29:00.000Z",
+    "animeIds": [
+      "ac446c49-c559-42b1-9e2f-f7ee6779ea83"
+    ],
+    "title": "Відьма та Чудовисько (суб)",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16d7667f-790e-80b0-8b9d-fbbdfbb0fc64",
+    "last_edited": "2024-12-31T08:29:00.000Z",
+    "animeIds": [
+      "ac446c49-c559-42b1-9e2f-f7ee6779ea83"
+    ],
+    "title": "Відьма та Чудовисько",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16d7667f-790e-80eb-92df-ee5d58297896",
+    "last_edited": "2024-12-31T08:33:00.000Z",
+    "animeIds": [
+      "08e3372e-55be-4c2d-8c71-72d928f95ff6"
+    ],
+    "title": "Монолог травниці (суб)",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "4 / 24",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16d7667f-790e-80e7-a160-ff84f8ed9aad",
+    "last_edited": "2024-12-31T08:22:00.000Z",
+    "animeIds": [
+      "08e3372e-55be-4c2d-8c71-72d928f95ff6"
+    ],
+    "title": "Монолог травниці",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "На перевірку",
+    "episodes": "Невідомо",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16d7667f-790e-807b-922c-f69a3cd38ba8",
+    "last_edited": "2024-12-31T08:29:00.000Z",
+    "animeIds": [
+      "a67afbd4-86f5-4b5c-8da1-bfe8d0d234ac"
+    ],
+    "title": "Берсерк ненажерливості",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16d7667f-790e-80e7-8430-f8ba103f2ddc",
+    "last_edited": "2024-12-31T08:21:00.000Z",
+    "animeIds": [
+      "1093e82d-4c06-4ff5-8b5f-f58bb667dc67"
+    ],
+    "title": "Безжальна королева на шляху до виправлення (суб)",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16d7667f-790e-8085-b7bb-eef52de662d5",
+    "last_edited": "2024-12-31T08:27:00.000Z",
+    "animeIds": [
+      "a67afbd4-86f5-4b5c-8da1-bfe8d0d234ac"
+    ],
+    "title": "Берсерк ненажерливості (суб)",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-802f-953f-de04e24c1230",
+    "last_edited": "2024-12-30T15:14:00.000Z",
+    "animeIds": [
+      "a7a67ca7-37dc-451f-a929-17f415338aa8"
+    ],
+    "title": "Храм: Ніхто не може жити на самоті (суб)",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-800c-a19a-c86223d91840",
+    "last_edited": "2024-12-31T08:34:00.000Z",
+    "animeIds": [
+      "1093e82d-4c06-4ff5-8b5f-f58bb667dc67"
+    ],
+    "title": "Безжальна королева на шляху до виправлення",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "6 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80c3-9c97-de5575c498ca",
+    "last_edited": "2024-12-31T08:30:00.000Z",
+    "animeIds": [
+      "f9919491-831c-45ec-af67-6602a4c98f60"
+    ],
+    "title": "Духовні хроніки",
+    "teams": [
+      {
+        "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "10 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8030-b318-fa4421e27499",
+    "last_edited": "2024-12-30T14:57:00.000Z",
+    "animeIds": [
+      "6970bc96-d753-44e8-81ee-30c3e09cf588"
+    ],
+    "title": "Кохання схоже на коктейль",
+    "teams": [
+      {
+        "id": "b35c0ca3-7744-46c8-af3c-7f0f69b851fd"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "3",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8039-b20e-dc2b0a41cbc2",
+    "last_edited": "2024-12-30T14:54:00.000Z",
+    "animeIds": [
+      "326062a4-ef8c-4567-8921-749dd64d2260"
+    ],
+    "title": "Ішюра",
+    "teams": [
+      {
+        "id": "b35c0ca3-7744-46c8-af3c-7f0f69b851fd"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80dc-bb28-f7f7520a2cbe",
+    "last_edited": "2024-12-30T14:53:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-8010-ab08-c68d054fb453"
+    ],
+    "title": "ДжоДжо",
+    "teams": [
+      {
+        "id": "b35c0ca3-7744-46c8-af3c-7f0f69b851fd"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1 (3-я)",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-805e-ad28-c3723aa5793e",
+    "last_edited": "2024-12-30T14:44:00.000Z",
+    "animeIds": [
+      "c3801aac-0384-4794-b443-525276fc481d"
+    ],
+    "title": "Дівчата з Хоккайдо дуже милі",
+    "teams": [
+      {
+        "id": "cc101264-170e-4ef8-9337-83932ac8a7b3"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "5 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-802e-9a22-dc6eefe8c40b",
+    "last_edited": "2024-12-30T14:33:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-8023-af4d-f9ac200e6c60"
+    ],
+    "title": "RWBY",
+    "teams": [
+      {
+        "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-806e-9e02-f574976ac101",
+    "last_edited": "2024-12-30T14:30:00.000Z",
+    "animeIds": [
+      "7607f1d5-28f2-4347-8dad-16d9a4b7fd22"
+    ],
+    "title": "Бродячий дворецький і я, курча!",
+    "teams": [
+      {
+        "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "2 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8081-aa3b-c3df200f26b1",
+    "last_edited": "2024-12-30T14:27:00.000Z",
+    "animeIds": [
+      "12438c6c-09d6-40d5-9366-8c420c86ecd1"
+    ],
+    "title": "Віві: Пісня флюоритового ока",
+    "teams": [
+      {
+        "id": "9b04a260-e732-419d-b6ab-4aa5e7fce6b0"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "3",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80a8-a6d8-f8ba79a829d8",
+    "last_edited": "2024-12-30T14:06:00.000Z",
+    "animeIds": [
+      "29cb4f4f-3cae-4871-9eaf-f24953008074"
+    ],
+    "title": "Як складно кохати отаку",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80fb-b413-e1b6c57bb9ef",
+    "last_edited": "2024-12-30T14:10:00.000Z",
+    "animeIds": [
+      "2b933e76-49f2-4ae6-985a-ba659b30fc70"
+    ],
+    "title": "Вбивця Акаме",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "2",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-802a-b652-d4a7128aada5",
+    "last_edited": "2024-12-30T14:11:00.000Z",
+    "animeIds": [
+      "d6a6584b-1f46-4142-9f13-5b446a33640f"
+    ],
+    "title": "Реінкарнація безробітного ч.2",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "7 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80db-aa48-c7baf296b7fb",
+    "last_edited": "2024-12-30T13:32:00.000Z",
+    "animeIds": [
+      "b2154095-1f69-4b18-b64d-e15c50917cf9"
+    ],
+    "title": "Клинок, що винищує демонів 3",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "11",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-806b-932c-cc486e5410be",
+    "last_edited": "2024-12-30T14:10:00.000Z",
+    "animeIds": [
+      "24cfcdb2-42aa-4403-818d-528951cf2987"
+    ],
+    "title": "Монстр по сусідству",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "6",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80c9-b699-da0d0248be4e",
+    "last_edited": "2024-12-30T14:10:00.000Z",
+    "animeIds": [
+      "13c7667f-790e-80fd-9ba5-c7bf4f569980"
+    ],
+    "title": "Патріот Моріарті",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "6",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80b0-8779-df2b9f039f96",
+    "last_edited": "2024-12-30T14:09:00.000Z",
+    "animeIds": [
+      "944933a4-82d7-458e-b875-5770c74e5d7b"
+    ],
+    "title": "Доктор Стоун: Рюсуй",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8027-995c-e98a66db96e0",
+    "last_edited": "2024-12-30T14:07:00.000Z",
+    "animeIds": [
+      "33d83ef5-6480-4363-ba4d-1ae374ec434c"
+    ],
+    "title": "Мемуари Ванітаса",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-808e-92be-e794c7f6789c",
+    "last_edited": "2024-12-30T13:29:00.000Z",
+    "animeIds": [
+      "0456a5dd-1074-47a6-9dda-b5c50fe81c31"
+    ],
+    "title": "Як складно кохати отаку",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "11",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80da-9046-fae1d16aad58",
+    "last_edited": "2024-12-30T14:07:00.000Z",
+    "animeIds": [
+      "8cf06233-dab6-41ab-9971-ce857a23575d"
+    ],
+    "title": "Магічна битва 2",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80fa-b276-f3ec90e46485",
+    "last_edited": "2024-12-30T13:08:00.000Z",
+    "animeIds": [
+      "7ea268b8-1536-4ee5-8249-56b1b73f6710"
+    ],
+    "title": "Парад смерті",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip 1080p",
+        "href": "https://toloka.to/t664834"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8043-b396-ee648eb8e3ed",
+    "last_edited": "2024-12-30T13:19:00.000Z",
+    "animeIds": [
+      "2f626ed0-2dc1-4378-bb5b-341a275b445d"
+    ],
+    "title": "Реінкарнація безробітного",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "11",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80b3-9bca-fbbb86f6b75c",
+    "last_edited": "2024-12-30T13:21:00.000Z",
+    "animeIds": [
+      "590cd394-e01c-4566-ac01-9997739a0cc0"
+    ],
+    "title": "Кіберпанк: Ті, що біжать по краю",
+    "teams": [
+      {
+        "id": "11ebf486-fdcc-474f-8638-981f69bb53d9"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "10",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip 1080p (10)",
+        "href": "https://toloka.to/t664878"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "WEBRip 1080p\n",
+        "href": "https://toloka.to/t668277"
+      },
+      {
+        "text": "WEB-DLRip 1080p H.265 60fps",
+        "href": "https://toloka.to/t682939"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-807f-9ab6-f75d22387d9e",
+    "last_edited": "2024-12-30T12:09:00.000Z",
+    "animeIds": [
+      "1ea5a271-01fa-4237-9feb-9c4ca04c7a16"
+    ],
+    "title": "Селектор Зараження WIXOSS",
+    "teams": [
+      {
+        "id": "7880cc0f-ab3d-4990-b028-e3fb50a73351"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8098-aa0d-fee9ac499646",
+    "last_edited": "2024-12-30T12:11:00.000Z",
+    "animeIds": [
+      "5e1aef8a-5e75-40fa-bc92-9b4a15488f6d"
+    ],
+    "title": "Вежа Бога 2",
+    "teams": [
+      {
+        "id": "7880cc0f-ab3d-4990-b028-e3fb50a73351"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8088-9d81-f07e9fe0a4ca",
+    "last_edited": "2024-12-30T12:10:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-8051-8679-cc058b3950ac"
+    ],
+    "title": "Лосторейдж Провокація WIXOSS",
+    "teams": [
+      {
+        "id": "7880cc0f-ab3d-4990-b028-e3fb50a73351"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "3 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8057-89e0-d37e2796a878",
+    "last_edited": "2024-12-30T12:05:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-8010-ab08-c68d054fb453"
+    ],
+    "title": "Неймовірні пригоди Джоджо",
+    "teams": [
+      {
+        "id": "7880cc0f-ab3d-4990-b028-e3fb50a73351"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "1 / 7",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80c0-ad44-ff5d700ef8bf",
+    "last_edited": "2024-12-30T11:12:00.000Z",
+    "animeIds": [
+      "7603323d-2357-4cfd-9b31-ef4a86327a21"
+    ],
+    "title": "Перший удар",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80ad-8eda-c2bf59e5b222",
+    "last_edited": "2024-12-30T11:11:00.000Z",
+    "animeIds": [
+      "f55b5b4b-b077-46fc-8012-5d155fef0a74"
+    ],
+    "title": "Картколовка Сакура",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "2",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-808f-8228-d328909e0f25",
+    "last_edited": "2024-12-30T11:10:00.000Z",
+    "animeIds": [
+      "6830e3e3-3bb0-48d5-8a60-959487348538"
+    ],
+    "title": "Павучок",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8058-a6d1-c3748a45f81c",
+    "last_edited": "2024-12-30T11:13:00.000Z",
+    "animeIds": [
+      "42f28960-6a16-4178-97b7-e71ba8996830"
+    ],
+    "title": "Служниця-дракониця пані Кобаяші",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "9 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80b3-b77a-ec8cdba624e7",
+    "last_edited": "2024-12-30T11:04:00.000Z",
+    "animeIds": [
+      "61f8675a-16b4-486f-9047-4d1653c2c229"
+    ],
+    "title": "Досконала журба",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8086-9469-d94b84a995f9",
+    "last_edited": "2024-12-30T11:14:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-8047-80fc-e2b8cc3bcdee"
+    ],
+    "title": "Справжня краса",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "11 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-801a-accf-de69a24a15aa",
+    "last_edited": "2024-12-30T11:06:00.000Z",
+    "animeIds": [
+      "c13a356e-3183-4634-b764-295ffcb38456"
+    ],
+    "title": "Обіцяний Неверленд",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80bf-9e5c-f5a9df86d920",
+    "last_edited": "2024-12-30T11:06:00.000Z",
+    "animeIds": [
+      "abf00852-090a-41f4-81bd-cff0f8358bde"
+    ],
+    "title": "Безхатній Бог",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80e4-8514-f79e0464c6c9",
+    "last_edited": "2024-12-30T11:13:00.000Z",
+    "animeIds": [
+      "5e1aef8a-5e75-40fa-bc92-9b4a15488f6d",
+      "1607667f-790e-8070-8297-c0f68a95b343"
+    ],
+    "title": "Вежа Бога 2",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "13 + 12 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80ce-a745-e14a46f21fdc",
+    "last_edited": "2024-12-30T11:13:00.000Z",
+    "animeIds": [
+      "2fcfd790-5db2-4873-b283-e9ce80fd0a4d"
+    ],
+    "title": "Маєток тіней",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "11 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8021-80a7-dd0c132ff0c3",
+    "last_edited": "2024-12-30T11:14:00.000Z",
+    "animeIds": [
+      "e5701c90-8e1e-4cc6-a52b-af29efd4f751"
+    ],
+    "title": "Кізнайвери",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "7 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-808d-8c86-ce424b72574f",
+    "last_edited": "2024-12-30T11:07:00.000Z",
+    "animeIds": [
+      "0097477d-7cf6-4d57-9464-89eb89f6eac0"
+    ],
+    "title": "АНТ: Абсолютно нова тварина",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-804a-b18e-c58c80e7fa31",
+    "last_edited": "2024-12-30T11:00:00.000Z",
+    "animeIds": [
+      "ea65011c-f4f5-4ae9-9890-824cb1b69eed"
+    ],
+    "title": "Вежа Бога",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8034-9ec9-e6ea1311322b",
+    "last_edited": "2024-12-30T10:52:00.000Z",
+    "animeIds": [
+      "61c3ac9f-95ce-4100-9dd3-dde9ae644ee4"
+    ],
+    "title": "Експерименти Лейн",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "12 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80d1-ad61-fc1f3e43a4d1",
+    "last_edited": "2024-12-30T10:51:00.000Z",
+    "animeIds": [
+      "cfb3f831-e489-4ec9-84a2-e9deb08dec71"
+    ],
+    "title": "Вампір у саду",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "5",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-802a-8261-d712c497a55b",
+    "last_edited": "2024-12-30T10:35:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-806f-8ac6-d614d47eecbe"
+    ],
+    "title": "Щасливе солодке життя",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "7 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80e0-b557-e3cd76dadff5",
+    "last_edited": "2024-12-30T10:36:00.000Z",
+    "animeIds": [
+      "7edded2e-ccc9-4eb3-bd3a-265d3b6b202e"
+    ],
+    "title": "Суперюні брати та сестри",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "10 / 14",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8045-b77b-f9a018f1d62e",
+    "last_edited": "2024-12-30T10:50:00.000Z",
+    "animeIds": [
+      "068184a8-5bd9-492f-b8d1-28595289732e"
+    ],
+    "title": "Бліч",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      },
+      {
+        "id": "12d7667f-790e-80b9-a9bd-e22694401905"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "54",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8086-b463-fb6459d6dc8b",
+    "last_edited": "2024-12-30T10:30:00.000Z",
+    "animeIds": [
+      "351e0d75-d182-49bd-8c3a-29e472fb56e6"
+    ],
+    "title": "Янгол різанини",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "16",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8096-a2c5-d45abecec26c",
+    "last_edited": "2024-12-30T10:15:00.000Z",
+    "animeIds": [
+      "cd8698ab-4697-4a7b-82b5-d7420a7773c9"
+    ],
+    "title": "Щоденний Анни Франк",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-808b-aafb-e747d0722d39",
+    "last_edited": "2024-12-30T10:37:00.000Z",
+    "animeIds": [
+      "42f28960-6a16-4178-97b7-e71ba8996830"
+    ],
+    "title": "Служниця-дракон пані Кобаяші",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "7 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-802e-82fb-fa0eb6911cf1",
+    "last_edited": "2024-12-30T10:10:00.000Z",
+    "animeIds": [
+      "4cd3a13b-0e03-4e32-9b0a-d30936c9a6c1"
+    ],
+    "title": "Рибка Поньйо на кручі",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80d5-8cdf-e80b34dba08b",
+    "last_edited": "2024-12-30T10:15:00.000Z",
+    "animeIds": [
+      "7496c729-324b-4d0a-9dee-347f8e904ba7"
+    ],
+    "title": "Чарівниця Мадока",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80e0-b9e4-d4339bf9993c",
+    "last_edited": "2024-12-30T10:07:00.000Z",
+    "animeIds": [
+      "a6ee4f57-80ee-4f6b-a4de-58863fe4b349"
+    ],
+    "title": "Йормунґанд",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8078-9a7e-cc49ad40846d",
+    "last_edited": "2024-12-30T10:04:00.000Z",
+    "animeIds": [
+      "4a1da2fe-ebeb-4c83-a48d-aca9e05e72a9"
+    ],
+    "title": "Діти моря",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80a8-8a2e-e237e36ba223",
+    "last_edited": "2024-12-30T10:01:00.000Z",
+    "animeIds": [
+      "54789955-81a1-480b-b2f6-3f26788f3173"
+    ],
+    "title": "Сад слів",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80b2-ac10-e4145e8d13e7",
+    "last_edited": "2024-12-30T10:25:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-8000-be45-c3bc5133e51b"
+    ],
+    "title": "Любовна сцена!",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "10",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80ee-a7ef-e1a3884cf07d",
+    "last_edited": "2024-12-30T09:50:00.000Z",
+    "animeIds": [
+      "655ccc22-8c2e-4b15-b938-dfad0c770105"
+    ],
+    "title": "Наруто: Останній фільм",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80bb-8987-f22abb5b5e1b",
+    "last_edited": "2024-12-30T10:25:00.000Z",
+    "animeIds": [
+      "2d1e3989-f694-4781-9df4-ff1348dd419c"
+    ],
+    "title": "Пікнік у потойбіччі",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80dd-8cdb-fbb17b9f0991",
+    "last_edited": "2024-12-30T09:49:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-80ca-becf-c21d81cf5eff"
+    ],
+    "title": "Міні-дракон",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8022-9c0b-fd52b3ec3cc4",
+    "last_edited": "2024-12-30T09:45:00.000Z",
+    "animeIds": [
+      "1657667f-790e-802d-b361-e8fcd1f1e7f4"
+    ],
+    "title": "Пані Касе і ранкове сяйво",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8049-961f-c183c5555277",
+    "last_edited": "2024-12-30T09:42:00.000Z",
+    "animeIds": [
+      "a1f08874-c092-4f34-9420-b71d57d47761"
+    ],
+    "title": "Пріоритет чудо-яйця",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8049-acd2-c3e252080d76",
+    "last_edited": "2024-12-30T09:43:00.000Z",
+    "animeIds": [
+      "e6941e87-68d9-42fb-a1e8-9c418c5d329b"
+    ],
+    "title": "За гранню",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8023-887f-c222ccf44268",
+    "last_edited": "2024-12-30T09:42:00.000Z",
+    "animeIds": [
+      "b22d0caa-f47f-4b47-b6f1-38cf0e484c2e"
+    ],
+    "title": "Цитрус",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8092-9786-d9074a9950fd",
+    "last_edited": "2024-12-30T09:35:00.000Z",
+    "animeIds": [
+      "a1eda98b-d4bb-415c-9b18-f4c9768e6db5"
+    ],
+    "title": "Сутінкова дівчина та амнезія",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8081-9b4c-deb54b953d65",
+    "last_edited": "2024-12-30T09:35:00.000Z",
+    "animeIds": [
+      "16c7667f-790e-80c2-9278-cab16f473b89"
+    ],
+    "title": "Шкільне життя",
+    "teams": [
+      {
+        "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
     "id": "16b7667f-790e-80af-a90a-c5faa2c6476b",
     "last_edited": "2024-12-29T10:03:00.000Z",
     "animeIds": [
@@ -78,18 +3329,18 @@
   },
   {
     "id": "1657667f-790e-80ff-b20b-d941d058505c",
-    "last_edited": "2024-12-23T15:36:00.000Z",
+    "last_edited": "2024-12-30T14:39:00.000Z",
     "animeIds": [
-      "fd147c47-57d7-4a65-825f-0b1a281de09c"
+      "1517667f-790e-801d-ad8f-ecf09130004e"
     ],
-    "title": "Шкільний апокаліпсис",
+    "title": "Дюрарара 2",
     "teams": [
       {
         "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
       }
     ],
     "status": "В процесі",
-    "episodes": "2 / 12",
+    "episodes": "1 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -264,11 +3515,11 @@
   },
   {
     "id": "1627667f-790e-80ae-a959-d623010d5439",
-    "last_edited": "2024-12-20T13:17:00.000Z",
+    "last_edited": "2024-12-30T09:30:00.000Z",
     "animeIds": [
       "47c402af-78ab-4d7f-b461-a061758400a2"
     ],
-    "title": "Без назви",
+    "title": "Край самоцвітів",
     "teams": [
       {
         "id": "7b7e41ce-a371-4932-886a-10008fa46faf"
@@ -346,7 +3597,7 @@
   },
   {
     "id": "1627667f-790e-807a-872f-e484f4194ab7",
-    "last_edited": "2024-12-20T11:16:00.000Z",
+    "last_edited": "2025-01-02T11:40:00.000Z",
     "animeIds": [],
     "title": "Солодкі сліди укусів",
     "teams": [
@@ -4243,6 +7494,9 @@
     "teams": [
       {
         "id": "c8aaa528-3300-49d5-b2f7-ffe80dbabc64"
+      },
+      {
+        "id": "cc101264-170e-4ef8-9337-83932ac8a7b3"
       }
     ],
     "status": "Завершено",
@@ -5379,11 +8633,11 @@
   },
   {
     "id": "1607667f-790e-80a7-bce4-c13f2e4fc38a",
-    "last_edited": "2024-12-18T11:51:00.000Z",
+    "last_edited": "2024-12-31T08:28:00.000Z",
     "animeIds": [
       "cf4a6af5-444b-47fa-91ae-0685b580b957"
     ],
-    "title": "Дитина улюбленця",
+    "title": "Зіркові діти",
     "teams": [
       {
         "id": "c6f11ce6-3949-425e-b49a-cd013627f7ad"
@@ -6724,7 +9978,7 @@
   },
   {
     "id": "15f7667f-790e-80a9-8e3d-fe4f981792ed",
-    "last_edited": "2024-12-17T22:04:00.000Z",
+    "last_edited": "2024-12-30T14:32:00.000Z",
     "animeIds": [
       "fd147c47-57d7-4a65-825f-0b1a281de09c"
     ],
@@ -6735,7 +9989,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "1 / 12",
+    "episodes": "4 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -7817,7 +11071,7 @@
   },
   {
     "id": "15f7667f-790e-8066-b52f-dcd56a3a8277",
-    "last_edited": "2024-12-17T15:10:00.000Z",
+    "last_edited": "2025-01-02T12:43:00.000Z",
     "animeIds": [
       "10c7667f-790e-8057-ac04-e51edec74bf0"
     ],
@@ -7827,8 +11081,8 @@
         "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
       }
     ],
-    "status": "В процесі",
-    "episodes": "10 / 12",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -8255,7 +11509,7 @@
   },
   {
     "id": "15f7667f-790e-80c0-86ea-fd4e99e2b7f0",
-    "last_edited": "2024-12-17T14:24:00.000Z",
+    "last_edited": "2025-01-02T12:44:00.000Z",
     "animeIds": [
       "fb25c055-ecc3-4872-963b-dcbab41457f5"
     ],
@@ -8265,7 +11519,7 @@
         "id": "dbcd9b59-6f6b-4c42-9a1c-5dadbcfb6c12"
       }
     ],
-    "status": "В процесі",
+    "status": "Завершено",
     "episodes": "9 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [
@@ -9128,7 +12382,7 @@
   },
   {
     "id": "15f7667f-790e-8090-a469-db3d28bb7ff0",
-    "last_edited": "2024-12-17T12:14:00.000Z",
+    "last_edited": "2025-01-02T12:45:00.000Z",
     "animeIds": [
       "bb1addc3-13f5-459f-9f5a-3191c68b9013"
     ],
@@ -9139,7 +12393,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "10 / 13",
+    "episodes": "12 / 14",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -10578,7 +13832,7 @@
   },
   {
     "id": "15f7667f-790e-8019-8775-d06331d6d2fa",
-    "last_edited": "2024-12-17T06:58:00.000Z",
+    "last_edited": "2025-01-05T09:28:00.000Z",
     "animeIds": [
       "c12f1a77-2757-4ec2-82c0-cce19f0de61c"
     ],
@@ -10595,6 +13849,14 @@
       {
         "text": "BDRip 1080p",
         "href": "https://toloka.to/t118382"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip 1080p H.265 60fps",
+        "href": "https://toloka.to/t684243"
       }
     ],
     "posters": []
@@ -11827,7 +15089,7 @@
   },
   {
     "id": "15a7667f-790e-8089-8747-d790af552ead",
-    "last_edited": "2024-12-28T14:03:00.000Z",
+    "last_edited": "2025-01-02T13:27:00.000Z",
     "animeIds": [
       "15a7667f-790e-80d1-a839-db2d23599963"
     ],
@@ -11838,7 +15100,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "3 / 13",
+    "episodes": "4 / 13",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -12622,7 +15884,7 @@
   },
   {
     "id": "15a7667f-790e-8093-8d0d-c851cb5b58f5",
-    "last_edited": "2024-12-12T08:44:00.000Z",
+    "last_edited": "2025-01-02T13:54:00.000Z",
     "animeIds": [
       "86f4bd0d-fc84-4a84-a984-cc3df7b6a6c5"
     ],
@@ -12633,7 +15895,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "1 / 12",
+    "episodes": "2 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -13498,7 +16760,7 @@
   },
   {
     "id": "1597667f-790e-80cf-86bc-df9c044758ad",
-    "last_edited": "2024-12-11T14:45:00.000Z",
+    "last_edited": "2025-01-05T09:02:00.000Z",
     "animeIds": [
       "cade9bd1-e9e7-4a2b-8c24-c4996c1f0f69"
     ],
@@ -13512,6 +16774,14 @@
     "episodes": "13",
     "torrent": "Невідомо",
     "torrentLinks": [
+      {
+        "text": "BDRip 1080p H.265",
+        "href": "https://toloka.to/t684223"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
       {
         "text": "HDTVRip 720р",
         "href": "https://toloka.to/t74633"
@@ -16509,7 +19779,7 @@
   },
   {
     "id": "1587667f-790e-80f6-bc6f-e85a3d604556",
-    "last_edited": "2024-12-10T13:03:00.000Z",
+    "last_edited": "2025-01-02T13:33:00.000Z",
     "animeIds": [
       "1167667f-790e-80b0-a2ff-e0c397d5b5a4"
     ],
@@ -16534,24 +19804,6 @@
         "url": "http://quamproject.com.ua/wp-content/uploads/2015/10/Krov_Triytsi2.jpg"
       }
     ]
-  },
-  {
-    "id": "1587667f-790e-8059-84a0-c34d5f696afa",
-    "last_edited": "2024-12-10T13:33:00.000Z",
-    "animeIds": [
-      "1167667f-790e-80b0-a2ff-e0c397d5b5a4"
-    ],
-    "title": "Кров Трійці",
-    "teams": [
-      {
-        "id": "9e4b5486-f45a-44e0-8b50-7894ca5d9003"
-      }
-    ],
-    "status": "На перевірку",
-    "episodes": "Невідомо",
-    "torrent": "Невідомо",
-    "torrentLinks": [],
-    "posters": []
   },
   {
     "id": "1587667f-790e-8024-8263-df43d84c7023",
@@ -17364,7 +20616,7 @@
   },
   {
     "id": "1537667f-790e-8035-94f9-dc15c350b8ab",
-    "last_edited": "2024-12-05T12:27:00.000Z",
+    "last_edited": "2025-01-02T11:51:00.000Z",
     "animeIds": [
       "dd4fb273-c1e5-406e-9bc5-fdf735d7e178"
     ],
@@ -17374,8 +20626,8 @@
         "id": "04399237-b6e2-4859-97bc-844bafa0ab4b"
       }
     ],
-    "status": "Закинуто",
-    "episodes": "1 / 10",
+    "status": "В процесі",
+    "episodes": "2 / 10",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -17879,6 +21131,9 @@
     "teams": [
       {
         "id": "2ee764b5-3fb5-4bad-97c2-31572caf90b4"
+      },
+      {
+        "id": "1357667f-790e-8019-82fe-c6148e7a4368"
       }
     ],
     "status": "Завершено",
@@ -17973,7 +21228,7 @@
   },
   {
     "id": "1537667f-790e-803b-8479-f4b4ac16c87e",
-    "last_edited": "2024-12-05T10:32:00.000Z",
+    "last_edited": "2025-01-02T13:09:00.000Z",
     "animeIds": [
       "5100a8ee-06cd-4217-bbea-92e81b23a15d"
     ],
@@ -17984,7 +21239,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "4",
+    "episodes": "10 / 24",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -19926,16 +23181,18 @@
   },
   {
     "id": "1527667f-790e-8038-a0c6-ec332dfe3469",
-    "last_edited": "2024-12-04T08:57:00.000Z",
-    "animeIds": [],
+    "last_edited": "2025-01-02T13:47:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-80ff-9368-d88189f700a1"
+    ],
     "title": "Лицарі та магія",
     "teams": [
       {
         "id": "1347667f-790e-80e0-91cc-e6302b8c1716"
       }
     ],
-    "status": "В процесі",
-    "episodes": "4",
+    "status": "Завершено",
+    "episodes": "13",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -19947,7 +23204,7 @@
   },
   {
     "id": "1527667f-790e-8079-aff2-e1dfd0df291e",
-    "last_edited": "2024-12-04T08:54:00.000Z",
+    "last_edited": "2025-01-02T13:42:00.000Z",
     "animeIds": [
       "1527667f-790e-80e3-9653-d2087a84cbeb"
     ],
@@ -19957,8 +23214,8 @@
         "id": "1347667f-790e-80e0-91cc-e6302b8c1716"
       }
     ],
-    "status": "В процесі",
-    "episodes": "5 / 10",
+    "status": "Завершено",
+    "episodes": "10",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -20024,7 +23281,7 @@
   },
   {
     "id": "1517667f-790e-8094-ac4c-de5e91c71c82",
-    "last_edited": "2024-12-12T16:38:00.000Z",
+    "last_edited": "2025-01-02T13:27:00.000Z",
     "animeIds": [
       "1137667f-790e-805a-864a-dee315e55b9a"
     ],
@@ -20035,7 +23292,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "5",
+    "episodes": "6",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -27528,6 +30785,9 @@
     "teams": [
       {
         "id": "07a270c5-75e5-4718-ae51-6173577acf05"
+      },
+      {
+        "id": "1357667f-790e-8019-82fe-c6148e7a4368"
       }
     ],
     "status": "Завершено",
@@ -27626,7 +30886,7 @@
   },
   {
     "id": "1467667f-790e-80f1-bcc2-c0bc139eb0f5",
-    "last_edited": "2024-11-22T08:13:00.000Z",
+    "last_edited": "2024-12-30T13:25:00.000Z",
     "animeIds": [
       "cf220602-e234-49d9-b7f1-fc0c245dd7ed"
     ],
@@ -33555,7 +36815,7 @@
   },
   {
     "id": "13f7667f-790e-800c-a854-f822bff2a049",
-    "last_edited": "2024-11-26T08:57:00.000Z",
+    "last_edited": "2025-01-02T13:54:00.000Z",
     "animeIds": [
       "63da2797-1bda-4e81-8ba0-36ab77ae27ba"
     ],
@@ -33566,7 +36826,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "2 / 25",
+    "episodes": "5 / 25",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -33713,7 +36973,7 @@
   },
   {
     "id": "13f7667f-790e-806e-b47a-c703bd5ceffa",
-    "last_edited": "2024-12-23T15:32:00.000Z",
+    "last_edited": "2024-12-30T14:31:00.000Z",
     "animeIds": [
       "08e3372e-55be-4c2d-8c71-72d928f95ff6"
     ],
@@ -33723,8 +36983,8 @@
         "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
       }
     ],
-    "status": "В процесі",
-    "episodes": "22 / 24",
+    "status": "Завершено",
+    "episodes": "24",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -33741,7 +37001,7 @@
   },
   {
     "id": "13f7667f-790e-800c-b595-ea6d4119ae13",
-    "last_edited": "2024-12-21T23:20:00.000Z",
+    "last_edited": "2024-12-30T14:28:00.000Z",
     "animeIds": [
       "9e4e313b-8e9f-47e6-84e7-03fd066eb5d0"
     ],
@@ -33752,7 +37012,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "15 / 24",
+    "episodes": "17 / 24",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -33797,7 +37057,7 @@
   },
   {
     "id": "13f7667f-790e-8085-a1bf-c8d1233acee2",
-    "last_edited": "2024-12-23T15:37:00.000Z",
+    "last_edited": "2024-12-30T14:34:00.000Z",
     "animeIds": [
       "6e0e532e-fc43-49e6-8836-f32c363d82aa"
     ],
@@ -33807,8 +37067,8 @@
         "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
       }
     ],
-    "status": "В процесі",
-    "episodes": "11 / 12",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -33825,7 +37085,7 @@
   },
   {
     "id": "13f7667f-790e-8023-9826-d38469a5691e",
-    "last_edited": "2024-12-23T15:37:00.000Z",
+    "last_edited": "2024-12-30T14:34:00.000Z",
     "animeIds": [
       "1b660f72-f1d2-47be-9fc2-7aa02a368e1f"
     ],
@@ -33835,8 +37095,8 @@
         "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
       }
     ],
-    "status": "В процесі",
-    "episodes": "12 / 14",
+    "status": "Завершено",
+    "episodes": "14",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -33853,7 +37113,7 @@
   },
   {
     "id": "13f7667f-790e-80b0-92a3-fe3009b68183",
-    "last_edited": "2024-12-23T15:37:00.000Z",
+    "last_edited": "2024-12-30T14:34:00.000Z",
     "animeIds": [
       "13b7667f-790e-80db-910a-f530424ae529"
     ],
@@ -33863,7 +37123,7 @@
         "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
       }
     ],
-    "status": "В процесі",
+    "status": "Відкладено",
     "episodes": "11 / 15",
     "torrent": "Невідомо",
     "torrentLinks": [
@@ -34021,7 +37281,7 @@
   },
   {
     "id": "13f7667f-790e-8089-9b19-d2915dae94e7",
-    "last_edited": "2024-12-23T15:37:00.000Z",
+    "last_edited": "2024-12-30T14:34:00.000Z",
     "animeIds": [
       "bb1addc3-13f5-459f-9f5a-3191c68b9013"
     ],
@@ -34031,8 +37291,8 @@
         "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
       }
     ],
-    "status": "В процесі",
-    "episodes": "12 / 13",
+    "status": "Завершено",
+    "episodes": "14",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -34105,7 +37365,7 @@
   },
   {
     "id": "13f7667f-790e-8074-a339-f2112c9cae4f",
-    "last_edited": "2024-12-23T15:33:00.000Z",
+    "last_edited": "2024-12-30T14:31:00.000Z",
     "animeIds": [
       "13f7667f-790e-8083-abc6-c442dc3a1ef2"
     ],
@@ -34115,8 +37375,8 @@
         "id": "fdb0cdcf-a694-4d21-8267-6b9bd6372549"
       }
     ],
-    "status": "В процесі",
-    "episodes": "11 / 12",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -41302,7 +44562,7 @@
   },
   {
     "id": "13c7667f-790e-80ab-8d57-c91b41f97a52",
-    "last_edited": "2024-11-18T11:18:00.000Z",
+    "last_edited": "2025-01-03T06:59:00.000Z",
     "animeIds": [
       "05e2354e-ede3-41c4-bf7a-fb0ec293f5fa"
     ],
@@ -41327,6 +44587,14 @@
       {
         "text": "BDRip 720р-mini",
         "href": "https://toloka.to/t668366"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip 1080p H.265",
+        "href": "https://toloka.to/t683220"
       }
     ],
     "posters": [
@@ -43250,15 +46518,17 @@
   },
   {
     "id": "1367667f-790e-803e-8d4c-c53d24be3795",
-    "last_edited": "2024-11-07T08:41:00.000Z",
-    "animeIds": [],
+    "last_edited": "2025-01-02T08:09:00.000Z",
+    "animeIds": [
+      "1227667f-790e-8056-b357-e53f4a0a2cc0"
+    ],
     "title": "Піщана країна",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
       }
     ],
-    "status": "В процесі",
+    "status": "Закинуто",
     "episodes": "1 / 13",
     "torrent": "Невідомо",
     "torrentLinks": [],
@@ -43266,7 +46536,7 @@
   },
   {
     "id": "1367667f-790e-808d-8e90-c338df59b36a",
-    "last_edited": "2024-11-06T11:55:00.000Z",
+    "last_edited": "2024-12-30T11:56:00.000Z",
     "animeIds": [
       "299c2e90-01dc-4b41-8b22-a730e216ffaa"
     ],
@@ -43276,8 +46546,8 @@
         "id": "12d7667f-790e-8065-99df-f5d4ea095a13"
       }
     ],
-    "status": "Закинуто",
-    "episodes": "3 / 13",
+    "status": "В процесі",
+    "episodes": "4 / 13",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -43369,7 +46639,7 @@
   },
   {
     "id": "1357667f-790e-80bc-accc-dd4b86d71872",
-    "last_edited": "2024-11-21T10:12:00.000Z",
+    "last_edited": "2025-01-02T08:28:00.000Z",
     "animeIds": [
       "45c5ef6d-9f80-4336-86a4-fc952a3b9d58"
     ],
@@ -43392,7 +46662,7 @@
   },
   {
     "id": "1357667f-790e-807d-9f32-dbcb15613132",
-    "last_edited": "2024-11-21T10:11:00.000Z",
+    "last_edited": "2025-01-02T08:29:00.000Z",
     "animeIds": [
       "99dd1594-2d27-4ae0-a97e-228172e5558e"
     ],
@@ -43438,7 +46708,7 @@
   },
   {
     "id": "1357667f-790e-803d-b38e-dc200085d55b",
-    "last_edited": "2024-11-05T19:15:00.000Z",
+    "last_edited": "2025-01-03T11:25:00.000Z",
     "animeIds": [
       "8812f3a5-ef80-4f28-a861-46d8beb36526"
     ],
@@ -43449,7 +46719,7 @@
       }
     ],
     "status": "Закинуто",
-    "episodes": "1 / 12",
+    "episodes": "2 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -46868,9 +50138,10 @@
   },
   {
     "id": "1357667f-790e-8015-8600-de19bab5569d",
-    "last_edited": "2024-12-06T13:13:00.000Z",
+    "last_edited": "2025-01-03T10:23:00.000Z",
     "animeIds": [
-      "b0617ffb-b2ee-42dd-86c5-3dca79cd7ac4"
+      "b0617ffb-b2ee-42dd-86c5-3dca79cd7ac4",
+      "1547667f-790e-80c1-92ac-e904fe13be55"
     ],
     "title": "Вартові кривавого бар'єру (ТБ-1 + спешл)",
     "teams": [
@@ -48628,7 +51899,7 @@
   },
   {
     "id": "1357667f-790e-803a-b2e8-ea629c81c140",
-    "last_edited": "2024-11-05T08:41:00.000Z",
+    "last_edited": "2025-01-03T08:44:00.000Z",
     "animeIds": [
       "88332c57-f1cb-4103-a280-ea7aea7b9cc4"
     ],
@@ -48643,7 +51914,7 @@
     "torrent": "Невідомо",
     "torrentLinks": [
       {
-        "text": "BDRip 1080p ",
+        "text": "BDRip 1080p (добірка)",
         "href": "https://toloka.to/t669796"
       }
     ],
@@ -50312,7 +53583,7 @@
   },
   {
     "id": "1347667f-790e-8056-9549-e689e0f1454a",
-    "last_edited": "2024-12-27T11:01:00.000Z",
+    "last_edited": "2025-01-02T13:09:00.000Z",
     "animeIds": [
       "1b660f72-f1d2-47be-9fc2-7aa02a368e1f"
     ],
@@ -50326,7 +53597,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "10 / 14",
+    "episodes": "11 / 14",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -50461,7 +53732,7 @@
   },
   {
     "id": "10c7667f-790e-8003-b6d3-e0c5af8826fc",
-    "last_edited": "2024-11-06T12:16:00.000Z",
+    "last_edited": "2025-01-02T13:53:00.000Z",
     "animeIds": [
       "248c40a0-f21c-468e-ad91-d6254ef4d7c0"
     ],
@@ -50472,7 +53743,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "5 / 25",
+    "episodes": "8 / 25",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -57694,7 +60965,7 @@
   },
   {
     "id": "34674bc3-7f46-41a3-acf7-c26f8cce7683",
-    "last_edited": "2024-09-03T10:03:00.000Z",
+    "last_edited": "2025-01-05T08:53:00.000Z",
     "animeIds": [
       "e6cbfef0-b7c7-4050-952d-866c27caa521"
     ],
@@ -57704,8 +60975,8 @@
         "id": "5db7b6f5-d34d-4715-89ab-2d8ca5c27dae"
       }
     ],
-    "status": "Відкладено",
-    "episodes": "3 / 4",
+    "status": "Завершено",
+    "episodes": "4",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -58134,7 +61405,7 @@
   },
   {
     "id": "ab2a568d-c3a3-4867-8814-af4f3d39ab5e",
-    "last_edited": "2024-09-03T08:55:00.000Z",
+    "last_edited": "2025-01-02T13:25:00.000Z",
     "animeIds": [
       "bc825c04-1782-41d1-af00-292b5d7e9fdc"
     ],
@@ -58142,13 +61413,10 @@
     "teams": [
       {
         "id": "5db7b6f5-d34d-4715-89ab-2d8ca5c27dae"
-      },
-      {
-        "id": "2ee764b5-3fb5-4bad-97c2-31572caf90b4"
       }
     ],
-    "status": "На перевірку",
-    "episodes": "3 / 25",
+    "status": "В процесі",
+    "episodes": "5 / 25",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -60266,7 +63534,7 @@
   },
   {
     "id": "2ea0b1cf-0e89-4f41-b29a-6146ce6956b0",
-    "last_edited": "2024-09-02T12:31:00.000Z",
+    "last_edited": "2024-12-31T08:08:00.000Z",
     "animeIds": [
       "dcdebe11-e696-407c-a318-4719672be289"
     ],
@@ -60283,13 +63551,21 @@
       {
         "text": "WEBDL 720p",
         "href": "https://toloka.to/t120598"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip 1080p H.265 60fps",
+        "href": "https://toloka.to/t684134"
       }
     ],
     "posters": []
   },
   {
     "id": "2a907482-3925-433b-8964-b074d11a7bb4",
-    "last_edited": "2024-09-02T12:28:00.000Z",
+    "last_edited": "2024-12-31T08:07:00.000Z",
     "animeIds": [
       "46c98fae-c9b7-4ddc-972c-1be79d739ccd",
       "5c830b98-86f7-41f6-8b73-1c4a2ee7add7"
@@ -60315,6 +63591,14 @@
       {
         "text": "BDRip 720p",
         "href": "https://toloka.to/t116402"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip 1080p H.265 60fps",
+        "href": "https://toloka.to/t684133"
       }
     ],
     "posters": []
@@ -63606,7 +66890,7 @@
   },
   {
     "id": "5ee80976-9445-4d46-9e66-3914ba2f55d7",
-    "last_edited": "2024-11-06T10:40:00.000Z",
+    "last_edited": "2024-12-30T15:13:00.000Z",
     "animeIds": [
       "a7a67ca7-37dc-451f-a929-17f415338aa8"
     ],
@@ -63825,7 +67109,7 @@
   },
   {
     "id": "267bb6bb-f52a-447d-a96e-59e7111fa848",
-    "last_edited": "2024-11-06T14:40:00.000Z",
+    "last_edited": "2025-01-02T13:52:00.000Z",
     "animeIds": [
       "cfee85a7-eb27-4c5b-9632-d6b88ed8b497"
     ],
@@ -63839,7 +67123,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "7 / 26",
+    "episodes": "9 / 26",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": [
@@ -64205,10 +67489,11 @@
   },
   {
     "id": "725525c1-01e6-47ac-9c33-30a5c7a3080e",
-    "last_edited": "2024-12-29T10:10:00.000Z",
+    "last_edited": "2024-12-31T08:11:00.000Z",
     "animeIds": [
       "8d551a79-626e-4c23-86b2-ead6bbef181b",
-      "1427667f-790e-80cc-baed-ca4a80eb4f34"
+      "1427667f-790e-80cc-baed-ca4a80eb4f34",
+      "13b7667f-790e-80c7-824e-c95db36b0a29"
     ],
     "title": "Ванпанчмен",
     "teams": [
@@ -64216,8 +67501,8 @@
         "id": "3c35f84b-15e2-48fa-907f-6a0194782a85"
       }
     ],
-    "status": "Завершено",
-    "episodes": "12 + 1",
+    "status": "В процесі",
+    "episodes": "12 + 1 + 4 / 6",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -64599,7 +67884,7 @@
   },
   {
     "id": "06cb06ad-5725-4636-b80d-fcd842ca00d7",
-    "last_edited": "2024-10-31T10:16:00.000Z",
+    "last_edited": "2025-01-02T12:50:00.000Z",
     "animeIds": [
       "3b75caa3-dbf7-47cc-9a17-6da4dbcc7224"
     ],
@@ -64714,7 +67999,7 @@
       "ba072f2e-a2e4-45a9-a65b-62e430aa7acd"
     ],
     "title": "Кошик фруктів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/694acfd3-8bba-445c-9212-242a756f111e/photo_2023-04-03_19-11-40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012800Z&X-Amz-Expires=3600&X-Amz-Signature=2df96640f9824b38e6927b5012fc7435b93c10a8bc933ac9599dbf107be43893&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/694acfd3-8bba-445c-9212-242a756f111e/photo_2023-04-03_19-11-40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012949Z&X-Amz-Expires=3600&X-Amz-Signature=9d8e5c4cdae42fb9631b980df428a87f23f05b52e37ac68f24e46d2ec7604aec&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "5db7b6f5-d34d-4715-89ab-2d8ca5c27dae"
@@ -64899,7 +68184,7 @@
       "e3c44073-59d0-4a21-8ee0-e1ee1b42df7e"
     ],
     "title": "Мій Деймон",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/396a519d-a0e8-460c-bd4e-1d15ae359b71/IMG_20240503_175739_093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012800Z&X-Amz-Expires=3600&X-Amz-Signature=c103cf41417b9f2bd859455813fc7eea3ce884959c7527ab103c7630530b7247&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/396a519d-a0e8-460c-bd4e-1d15ae359b71/IMG_20240503_175739_093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=43fb20c6d47467f20239786e8a5d1cfa1ac14d01e16d996e82a0079b8f29b839&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -64918,7 +68203,7 @@
       "ef5d4590-9376-4271-869a-dad4e924c8d8"
     ],
     "title": "Діяльність звичайного чоловіка у віртуальному світі VRMMO",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/82df6438-87ba-497c-be06-159b3d5000aa/IMG_20240503_175440_984.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012800Z&X-Amz-Expires=3600&X-Amz-Signature=9c7140b762984d86990da8d0e1d5de350d8cc8282aa2fd5c7fd7349767b00e8a&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/82df6438-87ba-497c-be06-159b3d5000aa/IMG_20240503_175440_984.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=db5b53c67f8ac54f2ef7ac8e01e1b16d1a7b83912c7cc6b8296a3d14b802a3ee&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -64937,7 +68222,7 @@
       "93d9a8d3-6e57-4d81-85ae-020510803908"
     ],
     "title": "З милості Богів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/09bb52cf-7e83-4906-805d-ec716bec934c/IMG_20240503_175329_798.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012800Z&X-Amz-Expires=3600&X-Amz-Signature=f17faa2cdafd77e13c6d916440864c1c9f93fc9b41290cc4f4edbc772e4fc6c2&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/09bb52cf-7e83-4906-805d-ec716bec934c/IMG_20240503_175329_798.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=62b9d32f30b565453c6ab916878b3dfa2b13188c48e3342d07c8c441fcba2ad7&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -64992,7 +68277,7 @@
       "83ad3404-374b-4fe7-9d26-2a0deaa42c59"
     ],
     "title": "Переродження в монстра",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a9714aab-1e43-447a-8aab-359f86233f0c/IMG_20240503_171643_623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012800Z&X-Amz-Expires=3600&X-Amz-Signature=bbbb7d313cc3fe40e0109a62fedd80fce56b61078d720bba2e5117fa546245a8&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a9714aab-1e43-447a-8aab-359f86233f0c/IMG_20240503_171643_623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=ebf9327b549e2c9886bbdcfd0890bdbda503d103f388b73dec900c32290a836d&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "88ab498a-f5d0-456d-8772-c9921e6f482d"
@@ -65011,7 +68296,7 @@
       "a06a7c96-e5d8-41ba-9894-80a85575fa47"
     ],
     "title": "Вовчиця та спеції: Торговець зустрічає мудру вовчицю",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/1848a051-e68e-4cd3-8358-16c906bcb696/IMG_20240503_171632_327.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012800Z&X-Amz-Expires=3600&X-Amz-Signature=ef6b405f55befda6afbfaa761a3b7a600858a5d665791f6c24883d0b572351dc&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/1848a051-e68e-4cd3-8358-16c906bcb696/IMG_20240503_171632_327.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=fa1bdd7443d90200a1e7ac7c956330dcc36bcc2a61cf8b5265545b2ab4114c3a&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "88ab498a-f5d0-456d-8772-c9921e6f482d"
@@ -65120,7 +68405,7 @@
   },
   {
     "id": "de0ae7af-0aed-4930-9f77-074afbca8758",
-    "last_edited": "2024-10-31T10:05:00.000Z",
+    "last_edited": "2025-01-02T12:59:00.000Z",
     "animeIds": [
       "ed4a3f85-e977-487d-8e6c-2008efbfd6d2"
     ],
@@ -65130,7 +68415,7 @@
         "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
       }
     ],
-    "status": "На перевірку",
+    "status": "В процесі",
     "episodes": "1 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [],
@@ -65143,7 +68428,7 @@
   },
   {
     "id": "6bffc3b0-a9aa-4bd8-b383-a821a34488a0",
-    "last_edited": "2024-10-31T10:15:00.000Z",
+    "last_edited": "2025-01-02T12:58:00.000Z",
     "animeIds": [
       "c0c31ab5-e54f-4a40-98cf-aa7eab417361"
     ],
@@ -65153,7 +68438,7 @@
         "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
       }
     ],
-    "status": "На перевірку",
+    "status": "В процесі",
     "episodes": "3 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [],
@@ -65166,7 +68451,7 @@
   },
   {
     "id": "5b2763fe-f4d3-43a4-a93e-8d8f15b0af6d",
-    "last_edited": "2024-11-28T13:46:00.000Z",
+    "last_edited": "2025-01-02T12:57:00.000Z",
     "animeIds": [
       "86fff43b-5ab4-48b3-a875-20558086953d"
     ],
@@ -65176,26 +68461,26 @@
         "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
       }
     ],
-    "status": "На перевірку",
-    "episodes": "5 / 12",
+    "status": "В процесі",
+    "episodes": "7 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
   },
   {
     "id": "36005433-1418-4202-b26f-6f168fd315a2",
-    "last_edited": "2024-10-31T10:14:00.000Z",
+    "last_edited": "2025-01-02T12:58:00.000Z",
     "animeIds": [
       "fd73ba42-eeff-4765-8ccd-866cfc5ed7e4"
     ],
-    "title": "Сайт дівчат-чарівниць суб",
+    "title": "Сайт дівчат-чарівниць (суб)",
     "teams": [
       {
         "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
       }
     ],
-    "status": "На перевірку",
-    "episodes": "Невідомо",
+    "status": "В процесі",
+    "episodes": "1 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": [
@@ -65263,7 +68548,7 @@
   },
   {
     "id": "389d3836-f447-44bd-a567-fbca20119eb5",
-    "last_edited": "2024-11-28T13:46:00.000Z",
+    "last_edited": "2025-01-02T12:51:00.000Z",
     "animeIds": [
       "c0c31ab5-e54f-4a40-98cf-aa7eab417361"
     ],
@@ -65273,8 +68558,8 @@
         "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
       }
     ],
-    "status": "На перевірку",
-    "episodes": "7 / 12",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": [
@@ -65286,7 +68571,7 @@
   },
   {
     "id": "40b1c06d-0600-4625-8aa6-99115a8afc52",
-    "last_edited": "2024-11-28T13:46:00.000Z",
+    "last_edited": "2025-01-02T12:57:00.000Z",
     "animeIds": [
       "ed4a3f85-e977-487d-8e6c-2008efbfd6d2"
     ],
@@ -65296,8 +68581,8 @@
         "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
       }
     ],
-    "status": "На перевірку",
-    "episodes": "3 / 12",
+    "status": "В процесі",
+    "episodes": "5 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": [
@@ -65309,7 +68594,7 @@
   },
   {
     "id": "8bbb2b5b-f501-4c68-a975-c8fc3d4058d2",
-    "last_edited": "2024-10-31T10:14:00.000Z",
+    "last_edited": "2025-01-02T12:59:00.000Z",
     "animeIds": [
       "86fff43b-5ab4-48b3-a875-20558086953d"
     ],
@@ -65319,7 +68604,7 @@
         "id": "cd5213ff-acc4-4874-9e38-4dfca6aebc94"
       }
     ],
-    "status": "На перевірку",
+    "status": "В процесі",
     "episodes": "3 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [],
@@ -65996,7 +69281,7 @@
   },
   {
     "id": "f6c7ca64-3631-44a8-9855-e7c6366ade66",
-    "last_edited": "2024-08-14T15:33:00.000Z",
+    "last_edited": "2024-12-30T07:16:00.000Z",
     "animeIds": [
       "08e3372e-55be-4c2d-8c71-72d928f95ff6"
     ],
@@ -69701,7 +72986,7 @@
       "5d7ced72-ec85-4ff4-9f68-1464999c2a12"
     ],
     "title": "Розколота битвою синьова небес",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7b0bf4e5-fe4c-42cd-aa08-7123609900b6/Battle-Through-the-Heavens_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=b468c5bfb7bdb69fcdd19c971ca92d842e7487f8e3d3005340d5ac0e6a577af2&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7b0bf4e5-fe4c-42cd-aa08-7123609900b6/Battle-Through-the-Heavens_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=5a1336fa640a55af45826c4a9c4bb11db2660402d991599da660259f7991ef8a&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -69720,7 +73005,7 @@
       "7b972da2-3f36-4667-bd1b-1e1b331960ff"
     ],
     "title": "Трон печатки",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/775eac6d-2fd2-427f-b1b4-7f6b2286cdba/IMG_20240502_184605_841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=d67eea2fe56ca6ced80f57d53e76cb77bcaf105a68bf822347401492a9d8e443&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/775eac6d-2fd2-427f-b1b4-7f6b2286cdba/IMG_20240502_184605_841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=ac4191ac84a935c1fb243c136d9213c4e1dd89fa857aaabfe50bde0344471f49&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -69739,7 +73024,7 @@
       "6a2de34f-5182-4438-a060-7c64264d1e64"
     ],
     "title": "Прокачка в Соло / Сололевелінг",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/691abbb4-2447-441e-ab7f-d1bd2dc6914c/IMG_20240502_184804_211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=e44e11e0c281757e7d4ba5d4c4ceac3443045cd909ece7d11a5cb78fed7b3d8d&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/691abbb4-2447-441e-ab7f-d1bd2dc6914c/IMG_20240502_184804_211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=2383eaae3238516256f90f62d4c44ff5a729304836dc332fe9d5451a082b23a3&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -69763,7 +73048,7 @@
       "08e3372e-55be-4c2d-8c71-72d928f95ff6"
     ],
     "title": "Монолог травниці",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/cae22595-b142-41af-ba73-4d36bdedef04/IMG_20240502_184911_371.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=8ea1fc1847668d5767f455c10402b70c749129fb666868036e034ed53687a694&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/cae22595-b142-41af-ba73-4d36bdedef04/IMG_20240502_184911_371.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=8791b99c0c7ae8adc60f641e1df0a300c0a3bbe3726fdf4f162f5db998886437&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -69787,7 +73072,7 @@
       "380365f5-0322-4a27-a4f7-d2b63f97f75e"
     ],
     "title": "Фрірен: супровід в останню путь",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5f262935-3c40-4c5e-ab76-fbc9c6a29d79/IMG_20240502_185047_490.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=912382d64b8628d85d75280e0a3a7843e065bb7d07cd5a490d1de6ba2bbcfe88&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5f262935-3c40-4c5e-ab76-fbc9c6a29d79/IMG_20240502_185047_490.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=1e1e70c5da41e7c5b457e9f8d6fec0d5d8cc754f3c438ce745ef753375aed4ec&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -69820,7 +73105,7 @@
       "dfe689ad-5ab9-4794-a598-70cafece3459"
     ],
     "title": "Леза хранителів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69a8541c-83ef-4283-b925-596178746af8/botg_banner_4ua-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=e84921f9901f4c596cc850d047efc3877ae86fae699582da03f776d30a9b6124&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69a8541c-83ef-4283-b925-596178746af8/botg_banner_4ua-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=b31e9e7ccba6187690d40409404ff1a682225d44c173ebc2189a013a70e4e783&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -69839,7 +73124,7 @@
       "370c53ff-4699-46b7-83e9-1bd3dd5ec25f"
     ],
     "title": "Вічна воля 2",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/95aa82d8-0f9d-4a92-8eb6-b7546819510d/IMG_20240502_185420_224.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=0d0f96205f93671385359bb9655f9a0b3812c12fe3987a9bdad7406a0e8b281a&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/95aa82d8-0f9d-4a92-8eb6-b7546819510d/IMG_20240502_185420_224.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=06f28b3faa2f468251e00413389a00c3cb96d429be2eaa6136fe38905b8c3f94&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -69863,7 +73148,7 @@
       "2d10eab7-56cf-4dfe-811c-e54b2679c5e5"
     ],
     "title": "Вічна воля",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2c0fe918-9974-4d7a-a4d5-2e6a0c8d9b64/IMG_20240502_183055_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=f8bdf50adf2d951501fe3a990972e505f3530964a2fae0943c3faea935cd665b&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2c0fe918-9974-4d7a-a4d5-2e6a0c8d9b64/IMG_20240502_183055_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=5bd48fb408828622e7da436a3449bb2431f927f4e52ed1436a3af1eaff7b6ed3&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -69908,7 +73193,7 @@
       "99d8118a-0432-45e8-ae5c-669fd44d8adb"
     ],
     "title": "Атака Титанів: Фінал",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/13be87a7-702c-4bda-9abb-5a5be00887e4/aot_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241230T012813Z&X-Amz-Expires=3600&X-Amz-Signature=84bd380bdae0786a844ceb7a855fa88d3bbc84c2877f83bd5f74b17562a9c385&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/13be87a7-702c-4bda-9abb-5a5be00887e4/aot_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=e40d587a89c9fe266b2b86d5ea43a03debe02f06ef5dcdad73beb78b9922d134&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"

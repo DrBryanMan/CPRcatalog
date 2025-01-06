@@ -150,6 +150,9 @@
       },
       {
         "id": "15f7667f-790e-80c3-a15d-d90741879d52"
+      },
+      {
+        "id": "1707667f-790e-80eb-9a89-c8210ad60110"
       }
     ],
     "site": null,
@@ -301,7 +304,11 @@
     "status": "Невідомо",
     "type_activity": [],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1707667f-790e-80d7-8a4a-e431c3a3a1c5"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -534,9 +541,9 @@
   },
   {
     "id": "1357667f-790e-8019-82fe-c6148e7a4368",
-    "last_edited": "2024-12-13T13:35:00.000Z",
+    "last_edited": "2025-01-03T12:52:00.000Z",
     "cover": null,
-    "name": "AniJap",
+    "name": "HappyDub",
     "status": "Розформована",
     "type_activity": [
       "Аніме"
@@ -548,10 +555,31 @@
       },
       {
         "id": "1357667f-790e-80bc-accc-dd4b86d71872"
+      },
+      {
+        "id": "16f7667f-790e-808d-b013-e7d55f75dc7f"
+      },
+      {
+        "id": "16f7667f-790e-802c-afad-faba79d69175"
+      },
+      {
+        "id": "16f7667f-790e-805c-a6ae-c37e781c6b92"
+      },
+      {
+        "id": "1707667f-790e-803c-bbf3-c72c7542f845"
+      },
+      {
+        "id": "1537667f-790e-80aa-a7d5-e051a5dc918f"
+      },
+      {
+        "id": "1467667f-790e-808a-b60e-eac07ddcf954"
+      },
+      {
+        "id": "1707667f-790e-80c4-986f-fbf624ac03d1"
       }
     ],
     "site": null,
-    "anitube": "https://anitube.in.ua/tags/AniJap/",
+    "anitube": "https://anitube.in.ua/tags/HappyDub/",
     "insta": null,
     "tg": null,
     "tg_video": null
@@ -614,6 +642,12 @@
       },
       {
         "id": "1527667f-790e-8038-a0c6-ec332dfe3469"
+      },
+      {
+        "id": "16f7667f-790e-80ca-9e5d-c4024df4df0e"
+      },
+      {
+        "id": "16f7667f-790e-80aa-9878-fbaa0f5fc932"
       }
     ],
     "site": null,
@@ -727,7 +761,14 @@
     "status": "Невідомо",
     "type_activity": [],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16f7667f-790e-801c-9c9f-d8661af9434e"
+      },
+      {
+        "id": "16f7667f-790e-80c8-b481-cb38e59bc46e"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/Zetsuko/",
     "insta": null,
@@ -751,7 +792,7 @@
   },
   {
     "id": "12d7667f-790e-807d-a93e-e412137f207d",
-    "last_edited": "2024-11-04T13:10:00.000Z",
+    "last_edited": "2024-12-30T07:16:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730113743/%D0%92%D1%83%D0%B9%D0%BA%D0%BE%D0%94%D0%B0%D0%B1_jaoi1y.jpg",
     "name": "ВуйкоДаб",
@@ -1029,7 +1070,56 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16c7667f-790e-8045-b77b-f9a018f1d62e"
+      },
+      {
+        "id": "16c7667f-790e-80d1-ad61-fc1f3e43a4d1"
+      },
+      {
+        "id": "16c7667f-790e-8034-9ec9-e6ea1311322b"
+      },
+      {
+        "id": "16c7667f-790e-804a-b18e-c58c80e7fa31"
+      },
+      {
+        "id": "16c7667f-790e-808d-8c86-ce424b72574f"
+      },
+      {
+        "id": "16c7667f-790e-8021-80a7-dd0c132ff0c3"
+      },
+      {
+        "id": "16c7667f-790e-80ce-a745-e14a46f21fdc"
+      },
+      {
+        "id": "16c7667f-790e-80e4-8514-f79e0464c6c9"
+      },
+      {
+        "id": "16c7667f-790e-80bf-9e5c-f5a9df86d920"
+      },
+      {
+        "id": "16c7667f-790e-801a-accf-de69a24a15aa"
+      },
+      {
+        "id": "16c7667f-790e-8086-9469-d94b84a995f9"
+      },
+      {
+        "id": "16c7667f-790e-80b3-b77a-ec8cdba624e7"
+      },
+      {
+        "id": "16c7667f-790e-8058-a6d1-c3748a45f81c"
+      },
+      {
+        "id": "16c7667f-790e-808f-8228-d328909e0f25"
+      },
+      {
+        "id": "16c7667f-790e-80ad-8eda-c2bf59e5b222"
+      },
+      {
+        "id": "16c7667f-790e-80c0-ad44-ff5d700ef8bf"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/Майстерня%20Слів/",
     "insta": null,
@@ -1061,7 +1151,14 @@
     "status": "Невідомо",
     "type_activity": [],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1707667f-790e-80f0-be7c-e0f42ab5f8e3"
+      },
+      {
+        "id": "1707667f-790e-80ae-b8b2-c9ce01d16163"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -1093,7 +1190,14 @@
     "status": "Невідомо",
     "type_activity": [],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1707667f-790e-806a-9618-cd556eefcb01"
+      },
+      {
+        "id": "1707667f-790e-80f5-8e7e-c79a28aaf780"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -1193,14 +1297,32 @@
   },
   {
     "id": "12d7667f-790e-8093-811a-ca7b7ba04a68",
-    "last_edited": "2024-12-05T12:38:00.000Z",
+    "last_edited": "2025-01-02T08:53:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098008/Animesh_le7gpu.jpg",
     "name": "Animesh",
-    "status": "Невідомо",
-    "type_activity": [],
+    "status": "Активна",
+    "type_activity": [
+      "Аніме"
+    ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16f7667f-790e-8073-912a-f0d43a0b0768"
+      },
+      {
+        "id": "16f7667f-790e-80a1-8136-d17a28194965"
+      },
+      {
+        "id": "16f7667f-790e-80ea-99a5-d0a2117fd367"
+      },
+      {
+        "id": "16f7667f-790e-80f3-a547-e4d66894e429"
+      },
+      {
+        "id": "16f7667f-790e-808b-a812-d1b7a8773c9f"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/Animesh/",
     "insta": null,
@@ -1947,6 +2069,9 @@
       },
       {
         "id": "16a7667f-790e-801c-897e-e155a1e0394b"
+      },
+      {
+        "id": "16f7667f-790e-8015-baea-eaf42437ca40"
       }
     ],
     "site": null,
@@ -2005,6 +2130,24 @@
       },
       {
         "id": "6bffc3b0-a9aa-4bd8-b383-a821a34488a0"
+      },
+      {
+        "id": "16f7667f-790e-8026-a5e7-d732d280d2af"
+      },
+      {
+        "id": "16f7667f-790e-8039-aade-c78a0f80a548"
+      },
+      {
+        "id": "16f7667f-790e-80f8-8e1c-ca8c55d8da7a"
+      },
+      {
+        "id": "16f7667f-790e-801e-989c-f3fd9fcd759d"
+      },
+      {
+        "id": "16f7667f-790e-8058-be93-e17d2ef95e13"
+      },
+      {
+        "id": "16f7667f-790e-8043-8dc2-dec844353c89"
       }
     ],
     "site": null,
@@ -2258,11 +2401,11 @@
   },
   {
     "id": "94116cd0-a6cc-4cf8-9a25-592ae3d8dc30",
-    "last_edited": "2024-12-10T15:18:00.000Z",
+    "last_edited": "2025-01-02T14:18:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099883/Wakamania_qfjr1b.jpg",
     "name": "Wakamania",
-    "status": "Малоактивна",
+    "status": "Розформована",
     "type_activity": [
       "Аніме",
       "Субтитри"
@@ -2631,6 +2774,12 @@
       },
       {
         "id": "1607667f-790e-80cd-9684-fa735492fa81"
+      },
+      {
+        "id": "1707667f-790e-8083-973c-fcbfef413b90"
+      },
+      {
+        "id": "1707667f-790e-804d-8e1a-d3e9e5c66259"
       }
     ],
     "site": null,
@@ -3324,6 +3473,12 @@
       },
       {
         "id": "20d14831-1925-4790-9ad8-35b8bec40039"
+      },
+      {
+        "id": "1707667f-790e-8026-a2a7-c2e468a29453"
+      },
+      {
+        "id": "1707667f-790e-80b1-bd71-fab3d58bac50"
       }
     ],
     "site": null,
@@ -3509,6 +3664,9 @@
       },
       {
         "id": "1627667f-790e-8028-ace5-e2ebf66828cb"
+      },
+      {
+        "id": "1707667f-790e-80ce-a7cf-d8c759beec85"
       }
     ],
     "site": null,
@@ -3781,7 +3939,7 @@
   },
   {
     "id": "7b7e41ce-a371-4932-886a-10008fa46faf",
-    "last_edited": "2024-12-05T12:50:00.000Z",
+    "last_edited": "2024-12-30T09:39:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099901/Saturnunion_ph2i6o.jpg",
     "name": "Saturn Union",
@@ -3796,6 +3954,69 @@
       },
       {
         "id": "1627667f-790e-80ae-a959-d623010d5439"
+      },
+      {
+        "id": "16c7667f-790e-8081-9b4c-deb54b953d65"
+      },
+      {
+        "id": "16c7667f-790e-8092-9786-d9074a9950fd"
+      },
+      {
+        "id": "16c7667f-790e-8023-887f-c222ccf44268"
+      },
+      {
+        "id": "16c7667f-790e-8049-acd2-c3e252080d76"
+      },
+      {
+        "id": "16c7667f-790e-8049-961f-c183c5555277"
+      },
+      {
+        "id": "16c7667f-790e-8022-9c0b-fd52b3ec3cc4"
+      },
+      {
+        "id": "16c7667f-790e-80dd-8cdb-fbb17b9f0991"
+      },
+      {
+        "id": "16c7667f-790e-80bb-8987-f22abb5b5e1b"
+      },
+      {
+        "id": "16c7667f-790e-80ee-a7ef-e1a3884cf07d"
+      },
+      {
+        "id": "16c7667f-790e-80b2-ac10-e4145e8d13e7"
+      },
+      {
+        "id": "16c7667f-790e-80a8-8a2e-e237e36ba223"
+      },
+      {
+        "id": "16c7667f-790e-8078-9a7e-cc49ad40846d"
+      },
+      {
+        "id": "16c7667f-790e-80e0-b9e4-d4339bf9993c"
+      },
+      {
+        "id": "16c7667f-790e-80d5-8cdf-e80b34dba08b"
+      },
+      {
+        "id": "16c7667f-790e-802e-82fb-fa0eb6911cf1"
+      },
+      {
+        "id": "16c7667f-790e-808b-aafb-e747d0722d39"
+      },
+      {
+        "id": "16c7667f-790e-8096-a2c5-d45abecec26c"
+      },
+      {
+        "id": "16c7667f-790e-8086-b463-fb6459d6dc8b"
+      },
+      {
+        "id": "16c7667f-790e-8045-b77b-f9a018f1d62e"
+      },
+      {
+        "id": "16c7667f-790e-80e0-b557-e3cd76dadff5"
+      },
+      {
+        "id": "16c7667f-790e-802a-8261-d712c497a55b"
       }
     ],
     "site": null,
@@ -3996,9 +4217,6 @@
       },
       {
         "id": "1537667f-790e-8016-b276-ebb5c592080c"
-      },
-      {
-        "id": "1587667f-790e-8059-84a0-c34d5f696afa"
       },
       {
         "id": "1587667f-790e-80f6-bc6f-e85a3d604556"
@@ -4362,7 +4580,7 @@
   },
   {
     "id": "e3e581d9-fd22-4230-b4bb-316e78ed7beb",
-    "last_edited": "2024-12-05T12:46:00.000Z",
+    "last_edited": "2025-01-03T06:53:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099914/Lifecycle_jcmxns.jpg",
     "name": "LifeCycle",
@@ -4377,9 +4595,18 @@
       },
       {
         "id": "1607667f-790e-8036-885b-d89d9a4b67b2"
+      },
+      {
+        "id": "1707667f-790e-800d-a079-c1ec85d91902"
+      },
+      {
+        "id": "1707667f-790e-80e7-9957-e279e58a0aa6"
+      },
+      {
+        "id": "1707667f-790e-8097-a2a1-fb1a8a600c69"
       }
     ],
-    "site": null,
+    "site": "https://lifecycle.net.ua/",
     "anitube": "https://anitube.in.ua/tags/Lifecycle/",
     "insta": null,
     "tg": "https://t.me/lifecycledub",
@@ -5023,23 +5250,6 @@
     "anitube": "https://anitube.in.ua/tags/HATOSHI/",
     "insta": null,
     "tg": "https://t.me/hatoshi_ua",
-    "tg_video": null
-  },
-  {
-    "id": "91613ae8-f2bf-4820-819a-9884ed4dadf2",
-    "last_edited": "2024-12-05T12:43:00.000Z",
-    "cover": null,
-    "name": "HappyDUB",
-    "status": "Невідомо",
-    "type_activity": [
-      "Аніме"
-    ],
-    "members": [],
-    "anime_releases": [],
-    "site": null,
-    "anitube": "https://anitube.in.ua/tags/HappyDub/",
-    "insta": null,
-    "tg": null,
     "tg_video": null
   },
   {
@@ -6548,7 +6758,7 @@
   },
   {
     "id": "63d78473-f9e1-436f-9e5b-f0384b90350c",
-    "last_edited": "2024-12-05T12:43:00.000Z",
+    "last_edited": "2025-01-03T11:45:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098026/Fukoro_cz7nre.jpg",
     "name": "FukuroNachi",
@@ -6566,6 +6776,27 @@
       },
       {
         "id": "1607667f-790e-80d0-b806-f82f832b36fb"
+      },
+      {
+        "id": "1707667f-790e-80ef-9dbb-fe217f4ff36e"
+      },
+      {
+        "id": "1707667f-790e-80bf-8b78-fab8ce9498b1"
+      },
+      {
+        "id": "1707667f-790e-8023-bb51-d4ef27f4d488"
+      },
+      {
+        "id": "1707667f-790e-806e-b1e4-efd6438c74a9"
+      },
+      {
+        "id": "1707667f-790e-8006-93e4-dea87318d5bb"
+      },
+      {
+        "id": "1707667f-790e-80a0-a6c3-f5d34cdbf978"
+      },
+      {
+        "id": "1707667f-790e-8015-8679-c9f8d54f1385"
       }
     ],
     "site": null,
@@ -6633,11 +6864,11 @@
   },
   {
     "id": "52a5c6f6-4140-4059-be92-8ba6332a9fff",
-    "last_edited": "2024-10-28T08:19:00.000Z",
+    "last_edited": "2025-01-03T11:17:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098023/Flame_gbelxl.jpg",
     "name": "Flame Studio UA",
-    "status": "Невідомо",
+    "status": "Неактивна",
     "type_activity": [
       "Аніме"
     ],
@@ -6645,6 +6876,48 @@
     "anime_releases": [
       {
         "id": "15f7667f-790e-8053-8bc7-f4c89361e166"
+      },
+      {
+        "id": "1707667f-790e-80a7-9cc4-ec5fd4bfdc7b"
+      },
+      {
+        "id": "1707667f-790e-8054-8ad5-fd31516a80fe"
+      },
+      {
+        "id": "1707667f-790e-8005-81ab-c3868881128e"
+      },
+      {
+        "id": "1707667f-790e-80d5-acd1-e7afe6c3752d"
+      },
+      {
+        "id": "1707667f-790e-8062-8628-fdc4215904f1"
+      },
+      {
+        "id": "1707667f-790e-8014-a599-ed4f7cc7f4e9"
+      },
+      {
+        "id": "1707667f-790e-804b-afb3-dd18c56b72db"
+      },
+      {
+        "id": "1707667f-790e-803e-b9ec-ea9aa78f7aca"
+      },
+      {
+        "id": "1707667f-790e-80a7-8498-f2947fc098e6"
+      },
+      {
+        "id": "1707667f-790e-8079-b84b-fc4e4cf7b03b"
+      },
+      {
+        "id": "1707667f-790e-8037-a4fb-c6b7f77b8cc6"
+      },
+      {
+        "id": "1707667f-790e-80c4-aa87-fca849eb1be2"
+      },
+      {
+        "id": "1707667f-790e-8033-b9ef-f3e14626218a"
+      },
+      {
+        "id": "1707667f-790e-801b-985d-e9e24f743c9b"
       }
     ],
     "site": null,
@@ -8257,6 +8530,12 @@
       },
       {
         "id": "1657667f-790e-80ff-b20b-d941d058505c"
+      },
+      {
+        "id": "16c7667f-790e-806e-9e02-f574976ac101"
+      },
+      {
+        "id": "16c7667f-790e-802e-9a22-dc6eefe8c40b"
       }
     ],
     "site": null,
@@ -8279,9 +8558,6 @@
     "anime_releases": [
       {
         "id": "f6764d58-082e-412e-b0cb-88de1ff51015"
-      },
-      {
-        "id": "ab2a568d-c3a3-4867-8814-af4f3d39ab5e"
       },
       {
         "id": "13f7667f-790e-8096-9bb0-fe3264ec1a1a"
@@ -8360,6 +8636,9 @@
       },
       {
         "id": "1537667f-790e-80f7-a99d-dda8b6697f32"
+      },
+      {
+        "id": "16f7667f-790e-80ba-a295-c6f26f691bd7"
       }
     ],
     "site": null,
@@ -8698,6 +8977,30 @@
       },
       {
         "id": "15f7667f-790e-80ee-92d5-da7349eea839"
+      },
+      {
+        "id": "16f7667f-790e-80fd-823b-c945dd72faa9"
+      },
+      {
+        "id": "16f7667f-790e-8025-a458-e8524a7a2451"
+      },
+      {
+        "id": "16f7667f-790e-80c5-98fe-de9a1b303735"
+      },
+      {
+        "id": "16f7667f-790e-8098-9b9f-e3d0ccbd0ad9"
+      },
+      {
+        "id": "16f7667f-790e-800d-bca6-c1b92a62a39f"
+      },
+      {
+        "id": "16f7667f-790e-8050-abd2-ea0e7f45688d"
+      },
+      {
+        "id": "16f7667f-790e-8003-b8a4-faa3ba13d800"
+      },
+      {
+        "id": "16f7667f-790e-8057-a623-c4a6cdfc2741"
       }
     ],
     "site": "https://dzuski.com/",
@@ -8753,7 +9056,11 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16f7667f-790e-80d5-ae89-fdfa99ba3073"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -8777,29 +9084,15 @@
       },
       {
         "id": "1537667f-790e-8035-94f9-dc15c350b8ab"
+      },
+      {
+        "id": "16f7667f-790e-80c5-8d73-e9a414275a95"
       }
     ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/CrystalVoicesUA/",
     "insta": null,
     "tg": "https://t.me/CrystalVoicesUA",
-    "tg_video": null
-  },
-  {
-    "id": "5fe808b9-b044-46a1-b630-c83e8ef52f4d",
-    "last_edited": "2024-10-25T18:53:00.000Z",
-    "cover": null,
-    "name": "CreativUAstudio",
-    "status": "Невідомо",
-    "type_activity": [
-      "Аніме"
-    ],
-    "members": [],
-    "anime_releases": [],
-    "site": null,
-    "anitube": null,
-    "insta": null,
-    "tg": null,
     "tg_video": null
   },
   {
@@ -9643,7 +9936,17 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16f7667f-790e-80b3-842f-ed439d1ded02"
+      },
+      {
+        "id": "16f7667f-790e-80ba-a023-dc05986d376f"
+      },
+      {
+        "id": "16f7667f-790e-805a-835d-ec1a498f4ce0"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/Argonavis/",
     "insta": null,
@@ -9652,11 +9955,11 @@
   },
   {
     "id": "63d070c0-1178-4449-b190-79a0994b6111",
-    "last_edited": "2024-12-05T12:39:00.000Z",
+    "last_edited": "2025-01-02T10:40:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098008/Aniunion_yxhxdt.jpg",
     "name": "AniUnion",
-    "status": "Невідомо",
+    "status": "Неактивна",
     "type_activity": [
       "Аніме"
     ],
@@ -9664,6 +9967,45 @@
     "anime_releases": [
       {
         "id": "1607667f-790e-8043-92f0-d34871ebaf82"
+      },
+      {
+        "id": "16f7667f-790e-80ae-952e-c5b445a3e77a"
+      },
+      {
+        "id": "16f7667f-790e-8033-96eb-e98e95d2cb80"
+      },
+      {
+        "id": "16f7667f-790e-8010-a1d0-f2a8258e229a"
+      },
+      {
+        "id": "16f7667f-790e-80f9-b25d-dd7e85f5125a"
+      },
+      {
+        "id": "16f7667f-790e-80e7-8056-ea58fdf46cbc"
+      },
+      {
+        "id": "16f7667f-790e-8000-ae7b-d7599f1e808c"
+      },
+      {
+        "id": "16f7667f-790e-804a-8f14-fe5d6beae83d"
+      },
+      {
+        "id": "16f7667f-790e-8075-abdd-edd0ba7be2c3"
+      },
+      {
+        "id": "16f7667f-790e-80de-9698-f5165d72dcf0"
+      },
+      {
+        "id": "16f7667f-790e-806f-b234-c4ca81f4afde"
+      },
+      {
+        "id": "16f7667f-790e-80e7-b3c2-d7dc4fbd0ae5"
+      },
+      {
+        "id": "16f7667f-790e-80bd-86dc-eaead94cf3fc"
+      },
+      {
+        "id": "16f7667f-790e-80cf-af7e-c4bfa475a75d"
       }
     ],
     "site": null,
@@ -9698,7 +10040,7 @@
   },
   {
     "id": "3617cc67-f3bd-414b-8be1-25d75d735b4f",
-    "last_edited": "2024-12-13T13:35:00.000Z",
+    "last_edited": "2025-01-02T09:16:00.000Z",
     "cover": null,
     "name": "AniMur",
     "status": "Припинено",
@@ -10228,6 +10570,9 @@
     "anime_releases": [
       {
         "id": "15e7667f-790e-8059-acee-c642be6fc393"
+      },
+      {
+        "id": "16f7667f-790e-8012-bd19-db4632f8d77b"
       }
     ],
     "site": null,
@@ -10379,6 +10724,39 @@
       },
       {
         "id": "1607667f-790e-80a7-bce4-c13f2e4fc38a"
+      },
+      {
+        "id": "16c7667f-790e-80c3-9c97-de5575c498ca"
+      },
+      {
+        "id": "16c7667f-790e-800c-a19a-c86223d91840"
+      },
+      {
+        "id": "16c7667f-790e-802f-953f-de04e24c1230"
+      },
+      {
+        "id": "16d7667f-790e-8085-b7bb-eef52de662d5"
+      },
+      {
+        "id": "16d7667f-790e-80e7-8430-f8ba103f2ddc"
+      },
+      {
+        "id": "16d7667f-790e-807b-922c-f69a3cd38ba8"
+      },
+      {
+        "id": "16d7667f-790e-80e7-a160-ff84f8ed9aad"
+      },
+      {
+        "id": "16d7667f-790e-80eb-92df-ee5d58297896"
+      },
+      {
+        "id": "16d7667f-790e-80b0-8b9d-fbbdfbb0fc64"
+      },
+      {
+        "id": "16d7667f-790e-8067-8b33-e9d47664d14e"
+      },
+      {
+        "id": "16d7667f-790e-8071-bd74-e1174e654990"
       }
     ],
     "site": null,
@@ -10389,16 +10767,26 @@
   },
   {
     "id": "b35c0ca3-7744-46c8-af3c-7f0f69b851fd",
-    "last_edited": "2024-10-28T08:02:00.000Z",
+    "last_edited": "2024-12-30T14:57:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098000/Шкереберть_zld3k4.jpg",
     "name": "Шкереберть",
-    "status": "Невідомо",
+    "status": "Малоактивна",
     "type_activity": [
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16c7667f-790e-8030-b318-fa4421e27499"
+      },
+      {
+        "id": "16c7667f-790e-8039-b20e-dc2b0a41cbc2"
+      },
+      {
+        "id": "16c7667f-790e-80dc-bb28-f7f7520a2cbe"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -10407,16 +10795,20 @@
   },
   {
     "id": "cc101264-170e-4ef8-9337-83932ac8a7b3",
-    "last_edited": "2024-10-28T08:00:00.000Z",
+    "last_edited": "2024-12-30T14:44:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102391/Хатина_дабера_molcg7.jpg",
     "name": "Хатина Дабера",
-    "status": "Невідомо",
+    "status": "Неактивна",
     "type_activity": [
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16c7667f-790e-805e-ad28-c3723aa5793e"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -10434,7 +10826,11 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16c7667f-790e-8081-aa3b-c3df200f26b1"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -10443,11 +10839,11 @@
   },
   {
     "id": "11ebf486-fdcc-474f-8638-981f69bb53d9",
-    "last_edited": "2024-12-05T12:58:00.000Z",
+    "last_edited": "2024-12-30T14:11:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097997/%D0%A3_%D0%BA%D1%83%D1%82%D0%BE%D1%87%D0%BA%D1%83_%D1%83_%D1%82%D0%B0%D0%B2%D0%B5%D1%80%D0%BD%D1%96_rgon2z.jpg",
     "name": "У куточку в таверні",
-    "status": "Невідомо",
+    "status": "Розформована",
     "type_activity": [
       "Аніме"
     ],
@@ -10461,6 +10857,48 @@
       },
       {
         "id": "1607667f-790e-8043-92f0-d34871ebaf82"
+      },
+      {
+        "id": "16c7667f-790e-80b3-9bca-fbbb86f6b75c"
+      },
+      {
+        "id": "16c7667f-790e-8043-b396-ee648eb8e3ed"
+      },
+      {
+        "id": "16c7667f-790e-80fa-b276-f3ec90e46485"
+      },
+      {
+        "id": "16c7667f-790e-80da-9046-fae1d16aad58"
+      },
+      {
+        "id": "16c7667f-790e-808e-92be-e794c7f6789c"
+      },
+      {
+        "id": "16c7667f-790e-8027-995c-e98a66db96e0"
+      },
+      {
+        "id": "16c7667f-790e-80b0-8779-df2b9f039f96"
+      },
+      {
+        "id": "16c7667f-790e-80fb-b413-e1b6c57bb9ef"
+      },
+      {
+        "id": "16c7667f-790e-80c9-b699-da0d0248be4e"
+      },
+      {
+        "id": "16c7667f-790e-806b-932c-cc486e5410be"
+      },
+      {
+        "id": "16c7667f-790e-80db-aa48-c7baf296b7fb"
+      },
+      {
+        "id": "16c7667f-790e-802a-b652-d4a7128aada5"
+      },
+      {
+        "id": "16c7667f-790e-80a8-a6d8-f8ba79a829d8"
+      },
+      {
+        "id": "16f7667f-790e-804a-8f14-fe5d6beae83d"
       }
     ],
     "site": null,
@@ -10471,11 +10909,11 @@
   },
   {
     "id": "bdcc926c-788f-4c43-b273-f2d1c93d2348",
-    "last_edited": "2024-12-05T12:57:00.000Z",
+    "last_edited": "2025-01-03T08:00:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/Студія_СВ_джавеліни_umdnsh.jpg",
     "name": "Студія СВ Джавеліни",
-    "status": "Невідомо",
+    "status": "Неактивна",
     "type_activity": [
       "Аніме"
     ],
@@ -10483,6 +10921,15 @@
     "anime_releases": [
       {
         "id": "15e7667f-790e-8084-808c-e5d2aac25cf1"
+      },
+      {
+        "id": "1707667f-790e-805b-bf0c-ebd25f07402c"
+      },
+      {
+        "id": "1707667f-790e-8067-a117-ccb994e2f098"
+      },
+      {
+        "id": "1707667f-790e-805c-b290-d3780cb0ba30"
       }
     ],
     "site": null,
@@ -10511,16 +10958,38 @@
   },
   {
     "id": "7cf0ed97-6608-43e7-a475-b22866f5a3b2",
-    "last_edited": "2024-12-05T12:57:00.000Z",
+    "last_edited": "2025-01-03T08:40:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097995/Студія_сокира_vh8ffp.jpg",
     "name": "Студія Сокира",
-    "status": "Невідомо",
+    "status": "Неактивна",
     "type_activity": [
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1707667f-790e-801a-8ff2-c574d116c7fb"
+      },
+      {
+        "id": "1707667f-790e-8044-af5d-c94be0592c8d"
+      },
+      {
+        "id": "1707667f-790e-8022-a591-cef95021580b"
+      },
+      {
+        "id": "1707667f-790e-802d-a7e4-f4e33ebebb1f"
+      },
+      {
+        "id": "1707667f-790e-8028-9396-da032cf12023"
+      },
+      {
+        "id": "1707667f-790e-80d5-b3a1-cfd0dd07cc8c"
+      },
+      {
+        "id": "1707667f-790e-80f8-a212-d98953d531e1"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/%D0%A1%D0%BE%D0%BA%D0%B8%D1%80%D0%B0/",
     "insta": null,
@@ -10529,16 +10998,20 @@
   },
   {
     "id": "a59bc033-9766-4735-a1b9-0de5bcc3aa54",
-    "last_edited": "2024-10-28T07:53:00.000Z",
+    "last_edited": "2025-01-03T07:56:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/Студія_Сакура_jdzota.jpg",
     "name": "Студія Сакура",
-    "status": "Невідомо",
+    "status": "Неактивна",
     "type_activity": [
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "1707667f-790e-80c5-bc12-d06fcc82b176"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -10565,6 +11038,15 @@
       },
       {
         "id": "1607667f-790e-8036-885b-d89d9a4b67b2"
+      },
+      {
+        "id": "1707667f-790e-80e7-9957-e279e58a0aa6"
+      },
+      {
+        "id": "1707667f-790e-8097-a2a1-fb1a8a600c69"
+      },
+      {
+        "id": "1707667f-790e-8056-84c3-daa573f32bd6"
       }
     ],
     "site": null,
@@ -10690,7 +11172,7 @@
   },
   {
     "id": "7880cc0f-ab3d-4990-b028-e3fb50a73351",
-    "last_edited": "2024-12-05T12:57:00.000Z",
+    "last_edited": "2024-12-30T12:03:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097990/САД_edkwye.jpg",
     "name": "Світовий аніме двіж САД",
@@ -10699,7 +11181,20 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16c7667f-790e-8057-89e0-d37e2796a878"
+      },
+      {
+        "id": "16c7667f-790e-8088-9d81-f07e9fe0a4ca"
+      },
+      {
+        "id": "16c7667f-790e-8098-aa0d-fee9ac499646"
+      },
+      {
+        "id": "16c7667f-790e-807f-9ab6-f75d22387d9e"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/САД/",
     "insta": null,
@@ -11712,7 +12207,11 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "16f7667f-790e-807e-91ae-c16a9b3bcb48"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
