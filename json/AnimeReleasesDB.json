@@ -1,5 +1,536 @@
 [
   {
+    "id": "1737667f-790e-80a7-b3ae-e5342130eaa9",
+    "last_edited": "2025-01-06T09:35:00.000Z",
+    "animeIds": [
+      "c8b78999-1f2e-471d-8bb4-e1f5b9ee88dc"
+    ],
+    "title": "Цвітіння жоржини",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80c6-a559-d29adc6bf98a"
+      }
+    ],
+    "status": "На перевірку",
+    "episodes": "1 / 12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8069-81a2-fca517c9eaca",
+    "last_edited": "2025-01-06T09:33:00.000Z",
+    "animeIds": [
+      "13f7667f-790e-80c1-85ca-e60b73d00259"
+    ],
+    "title": "Спіраль",
+    "teams": [
+      {
+        "id": "12d7667f-790e-80c6-a559-d29adc6bf98a"
+      }
+    ],
+    "status": "На перевірку",
+    "episodes": "Невідомо",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8061-8598-d8f5231e8ed5",
+    "last_edited": "2025-01-06T09:25:00.000Z",
+    "animeIds": [
+      "90944cc7-bb90-4a56-a598-1db27963fbe3"
+    ],
+    "title": "Хвіст феї",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "Анонс",
+    "episodes": "Невідомо",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8093-891e-d9cbf0ba2cea",
+    "last_edited": "2025-01-06T09:25:00.000Z",
+    "animeIds": [
+      "6a2de34f-5182-4438-a060-7c64264d1e64"
+    ],
+    "title": "Тільки я візьму новий рівень",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-80f2-880c-c1bb81c63073",
+    "last_edited": "2025-01-06T09:23:00.000Z",
+    "animeIds": [
+      "3e6a4687-a88c-484b-8421-d43f03c361fa"
+    ],
+    "title": "Вбивчі укуси",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "Анонс",
+    "episodes": "Невідомо",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-801a-802d-f379d45a358e",
+    "last_edited": "2025-01-06T09:22:00.000Z",
+    "animeIds": [
+      "e9cb6fbe-db77-4859-8149-5e2f4ab8323b"
+    ],
+    "title": "Поцілунок Бога",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "Анонс",
+    "episodes": "Невідомо",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8025-a9e6-f3cbed6acf2f",
+    "last_edited": "2025-01-06T09:25:00.000Z",
+    "animeIds": [
+      "445b9dd7-5c7f-4907-b843-266e607f0ba2"
+    ],
+    "title": "Шлях домогосподаря",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "2 / 5",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8024-bfdc-e9e6afecabf7",
+    "last_edited": "2025-01-06T09:24:00.000Z",
+    "animeIds": [
+      "a9a38072-4d69-4332-b271-ddcd66bd6aca"
+    ],
+    "title": "Вельзевул",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "9 / 60",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-80fa-ba9c-f9606cf2f2f1",
+    "last_edited": "2025-01-06T09:20:00.000Z",
+    "animeIds": [
+      "c015ff0f-922d-4d7d-a881-4d2cfb3252b4"
+    ],
+    "title": "Салатник диваків",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-802a-b190-f7b3a8d96919",
+    "last_edited": "2025-01-06T09:24:00.000Z",
+    "animeIds": [
+      "b615098b-7857-4ddd-bd6a-cd315530c387"
+    ],
+    "title": "Безхатній Бог: Араґото",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "8 / 13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8009-ac9c-d0fd853227ee",
+    "last_edited": "2025-01-06T09:19:00.000Z",
+    "animeIds": [
+      "1737667f-790e-8009-95ef-dab65596faa3"
+    ],
+    "title": "Бути героєм",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8068-96e2-c4735905235a",
+    "last_edited": "2025-01-06T09:18:00.000Z",
+    "animeIds": [
+      "1167667f-790e-80ab-a9b1-e7dccd85387f"
+    ],
+    "title": "Ханда кун",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-80dc-acb2-f1c045622722",
+    "last_edited": "2025-01-06T09:20:00.000Z",
+    "animeIds": [
+      "abf00852-090a-41f4-81bd-cff0f8358bde",
+      "15f7667f-790e-8011-966d-cb3be82f22cc"
+    ],
+    "title": "Безхатній Бог",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "На перевірку",
+    "episodes": "12 + 3",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-80b5-ad7b-cdd6f8fad9a0",
+    "last_edited": "2025-01-06T08:54:00.000Z",
+    "animeIds": [
+      "9b17ff3c-d06b-45d4-a704-c5189531a54f"
+    ],
+    "title": "Офісний Планктон Оззі",
+    "teams": [
+      {
+        "id": "f7bb745d-0484-4ec6-8688-f7866b6cec6d"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "13",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8097-a54b-e6081e23893f",
+    "last_edited": "2025-01-06T08:15:00.000Z",
+    "animeIds": [
+      "16f7667f-790e-80e1-80d1-f2aa938660f4"
+    ],
+    "title": "Компанія Санти",
+    "teams": [
+      {
+        "id": "57a1c09f-b63b-46bb-8c3b-2d1995aceddb"
+      },
+      {
+        "id": "c8aaa528-3300-49d5-b2f7-ffe80dbabc64"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p",
+        "href": "https://toloka.to/t683995"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-809d-99c5-e37612ef11f1",
+    "last_edited": "2025-01-06T07:25:00.000Z",
+    "animeIds": [
+      "64d195d8-1f6c-46ec-bc53-f4706ee520d8"
+    ],
+    "title": "Привид літа",
+    "teams": [
+      {
+        "id": "cbbb61c2-fbdd-4884-a935-bc39c4152851"
+      },
+      {
+        "id": "8221bfb5-11c2-4558-8449-0be5fd94d913"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p х3",
+        "href": "https://toloka.to/t664298"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip 1080p",
+        "href": "https://toloka.to/t664313"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-80e8-b593-eb4e2bf84ab7",
+    "last_edited": "2025-01-06T07:23:00.000Z",
+    "animeIds": [
+      "64d195d8-1f6c-46ec-bc53-f4706ee520d8"
+    ],
+    "title": "Привид літа",
+    "teams": [
+      {
+        "id": "2956b4a6-e291-4014-a17a-1f22834466f0"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p х3",
+        "href": "https://toloka.to/t664298"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip",
+        "href": "https://toloka.to/t656398"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8009-b918-cf06b48d4677",
+    "last_edited": "2025-01-06T07:21:00.000Z",
+    "animeIds": [
+      "62bce172-225d-462d-acf5-f305b3ed91ff"
+    ],
+    "title": "Манускрипт ніндзя",
+    "teams": [
+      {
+        "id": "2956b4a6-e291-4014-a17a-1f22834466f0"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p",
+        "href": "https://toloka.to/t660524"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-802f-8180-c93215960b7b",
+    "last_edited": "2025-01-06T07:18:00.000Z",
+    "animeIds": [
+      "bb99daad-28d5-4b8a-a56e-9f8fd5352233"
+    ],
+    "title": "З'єднайся зі мною!",
+    "teams": [
+      {
+        "id": "2956b4a6-e291-4014-a17a-1f22834466f0"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "12",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBDL",
+        "href": "https://toloka.to/t656566"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8030-8a2c-fe957ea5ee23",
+    "last_edited": "2025-01-06T07:18:00.000Z",
+    "animeIds": [
+      "9d101420-0a88-41c8-9a0c-9cd7a983e162"
+    ],
+    "title": "Найближча далека зірка",
+    "teams": [
+      {
+        "id": "2956b4a6-e291-4014-a17a-1f22834466f0"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip 1080p",
+        "href": "https://toloka.to/t658616"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8053-bbd6-e2b97c4beea3",
+    "last_edited": "2025-01-06T07:16:00.000Z",
+    "animeIds": [
+      "6654ba86-6acb-4c21-9470-3c30d0607eb8"
+    ],
+    "title": "Скромні герої. Краб, яйце та невидимка",
+    "teams": [
+      {
+        "id": "2956b4a6-e291-4014-a17a-1f22834466f0"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p",
+        "href": "https://toloka.to/t116585"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-80fe-969f-cfb61278f3d1",
+    "last_edited": "2025-01-06T07:26:00.000Z",
+    "animeIds": [
+      "a374c247-bc4e-40d8-8f7b-e89bf305fb4a"
+    ],
+    "title": "Зелені дні. Динозавр і Я",
+    "teams": [
+      {
+        "id": "2956b4a6-e291-4014-a17a-1f22834466f0"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "WEBRip",
+        "href": "https://toloka.to/t113517"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-805a-a6d4-c58380ffe6af",
+    "last_edited": "2025-01-06T06:53:00.000Z",
+    "animeIds": [
+      "de677bfb-d87f-48b3-9c17-6f461721ac99"
+    ],
+    "title": "Покемон: Легенда грому",
+    "teams": [
+      {
+        "id": "b2fbcb04-13c9-4ff8-8733-191b3b855dbd"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "3",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8009-b063-e90585ff0d3e",
+    "last_edited": "2025-01-06T06:46:00.000Z",
+    "animeIds": [
+      "e874ba00-dfdf-42ff-8ad7-f88d4911bd32"
+    ],
+    "title": "Кулінарні поєдинки Соми",
+    "teams": [
+      {
+        "id": "b2fbcb04-13c9-4ff8-8733-191b3b855dbd"
+      }
+    ],
+    "status": "Закинуто",
+    "episodes": "9 / 24",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p H.265 х2",
+        "href": "https://toloka.to/t680760"
+      },
+      {
+        "text": "\n",
+        "href": null
+      },
+      {
+        "text": "BDRip 720p",
+        "href": "https://toloka.to/t89659"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8033-bcb8-c9f460eaaa8d",
+    "last_edited": "2025-01-06T06:45:00.000Z",
+    "animeIds": [
+      "e874ba00-dfdf-42ff-8ad7-f88d4911bd32"
+    ],
+    "title": "Кулінарні поєдинки Соми",
+    "teams": [
+      {
+        "id": "d3f1986f-4802-4217-8d5f-fe9ea6515b4b"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "24",
+    "torrent": "Невідомо",
+    "torrentLinks": [
+      {
+        "text": "BDRip 1080p H.265 х2",
+        "href": "https://toloka.to/t680760"
+      }
+    ],
+    "posters": []
+  },
+  {
     "id": "1707667f-790e-80c4-986f-fbf624ac03d1",
     "last_edited": "2025-01-03T13:13:00.000Z",
     "animeIds": [
@@ -8326,7 +8857,7 @@
   },
   {
     "id": "1607667f-790e-8071-b355-fa5e62744cc4",
-    "last_edited": "2024-12-18T12:20:00.000Z",
+    "last_edited": "2025-01-06T06:25:00.000Z",
     "animeIds": [
       "b2e741cc-adae-4442-8651-09631f924432"
     ],
@@ -8336,8 +8867,8 @@
         "id": "7f606576-a426-4611-adbf-fdb177dc5a09"
       }
     ],
-    "status": "Закинуто",
-    "episodes": "2 / 13",
+    "status": "Завершено",
+    "episodes": "13",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -15884,7 +16415,7 @@
   },
   {
     "id": "15a7667f-790e-8093-8d0d-c851cb5b58f5",
-    "last_edited": "2025-01-02T13:54:00.000Z",
+    "last_edited": "2025-01-06T09:31:00.000Z",
     "animeIds": [
       "86f4bd0d-fc84-4a84-a984-cc3df7b6a6c5"
     ],
@@ -15895,7 +16426,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "2 / 12",
+    "episodes": "3 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -36815,7 +37346,7 @@
   },
   {
     "id": "13f7667f-790e-800c-a854-f822bff2a049",
-    "last_edited": "2025-01-02T13:54:00.000Z",
+    "last_edited": "2025-01-06T09:31:00.000Z",
     "animeIds": [
       "63da2797-1bda-4e81-8ba0-36ab77ae27ba"
     ],
@@ -36826,7 +37357,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "5 / 25",
+    "episodes": "6 / 25",
     "torrent": "Невідомо",
     "torrentLinks": [
       {
@@ -67999,7 +68530,7 @@
       "ba072f2e-a2e4-45a9-a65b-62e430aa7acd"
     ],
     "title": "Кошик фруктів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/694acfd3-8bba-445c-9212-242a756f111e/photo_2023-04-03_19-11-40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012949Z&X-Amz-Expires=3600&X-Amz-Signature=9d8e5c4cdae42fb9631b980df428a87f23f05b52e37ac68f24e46d2ec7604aec&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/694acfd3-8bba-445c-9212-242a756f111e/photo_2023-04-03_19-11-40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063553Z&X-Amz-Expires=3600&X-Amz-Signature=2d37fd65ba8d783a76a78ff1d368b1ceb44701f2f54ce20f713b24bcb61c3843&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "5db7b6f5-d34d-4715-89ab-2d8ca5c27dae"
@@ -68184,7 +68715,7 @@
       "e3c44073-59d0-4a21-8ee0-e1ee1b42df7e"
     ],
     "title": "Мій Деймон",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/396a519d-a0e8-460c-bd4e-1d15ae359b71/IMG_20240503_175739_093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=43fb20c6d47467f20239786e8a5d1cfa1ac14d01e16d996e82a0079b8f29b839&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/396a519d-a0e8-460c-bd4e-1d15ae359b71/IMG_20240503_175739_093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063553Z&X-Amz-Expires=3600&X-Amz-Signature=6a460003153a090891db7bec69cdbd1233f9054fded2fc2f934d53e558d73604&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -68203,7 +68734,7 @@
       "ef5d4590-9376-4271-869a-dad4e924c8d8"
     ],
     "title": "Діяльність звичайного чоловіка у віртуальному світі VRMMO",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/82df6438-87ba-497c-be06-159b3d5000aa/IMG_20240503_175440_984.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=db5b53c67f8ac54f2ef7ac8e01e1b16d1a7b83912c7cc6b8296a3d14b802a3ee&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/82df6438-87ba-497c-be06-159b3d5000aa/IMG_20240503_175440_984.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063553Z&X-Amz-Expires=3600&X-Amz-Signature=40f5b4d3eaa5e5d98f85f68f6738fef9af4cb6c99cceb8a8648872f872c10f98&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -68222,7 +68753,7 @@
       "93d9a8d3-6e57-4d81-85ae-020510803908"
     ],
     "title": "З милості Богів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/09bb52cf-7e83-4906-805d-ec716bec934c/IMG_20240503_175329_798.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=62b9d32f30b565453c6ab916878b3dfa2b13188c48e3342d07c8c441fcba2ad7&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/09bb52cf-7e83-4906-805d-ec716bec934c/IMG_20240503_175329_798.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063553Z&X-Amz-Expires=3600&X-Amz-Signature=0be4648dbcae40e09e3ca74cf3395f3509f62ae6228563f52fa5c46da1f0b68d&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "7ddd0a4d-d7b1-4e79-8eae-491deec5cbfb"
@@ -68277,7 +68808,7 @@
       "83ad3404-374b-4fe7-9d26-2a0deaa42c59"
     ],
     "title": "Переродження в монстра",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a9714aab-1e43-447a-8aab-359f86233f0c/IMG_20240503_171643_623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=ebf9327b549e2c9886bbdcfd0890bdbda503d103f388b73dec900c32290a836d&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/a9714aab-1e43-447a-8aab-359f86233f0c/IMG_20240503_171643_623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063553Z&X-Amz-Expires=3600&X-Amz-Signature=49493ae8c36b234fd3ac3200d3a25c638ebb4a326bb4fcf3fd4b0b376d73bfc9&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "88ab498a-f5d0-456d-8772-c9921e6f482d"
@@ -68296,7 +68827,7 @@
       "a06a7c96-e5d8-41ba-9894-80a85575fa47"
     ],
     "title": "Вовчиця та спеції: Торговець зустрічає мудру вовчицю",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/1848a051-e68e-4cd3-8358-16c906bcb696/IMG_20240503_171632_327.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012950Z&X-Amz-Expires=3600&X-Amz-Signature=fa1bdd7443d90200a1e7ac7c956330dcc36bcc2a61cf8b5265545b2ab4114c3a&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/1848a051-e68e-4cd3-8358-16c906bcb696/IMG_20240503_171632_327.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063553Z&X-Amz-Expires=3600&X-Amz-Signature=1f4abf918615cd21f766978c68ff03bbf82061322eb35a1198571f75c269c383&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "88ab498a-f5d0-456d-8772-c9921e6f482d"
@@ -68937,7 +69468,7 @@
   },
   {
     "id": "8afcd947-1a51-4bdf-be1a-11f6fcd909e6",
-    "last_edited": "2024-05-01T14:31:00.000Z",
+    "last_edited": "2025-01-06T06:25:00.000Z",
     "animeIds": [
       "25558220-4e53-4315-9b79-377aa460c98c"
     ],
@@ -72986,7 +73517,7 @@
       "5d7ced72-ec85-4ff4-9f68-1464999c2a12"
     ],
     "title": "Розколота битвою синьова небес",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7b0bf4e5-fe4c-42cd-aa08-7123609900b6/Battle-Through-the-Heavens_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=5a1336fa640a55af45826c4a9c4bb11db2660402d991599da660259f7991ef8a&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/7b0bf4e5-fe4c-42cd-aa08-7123609900b6/Battle-Through-the-Heavens_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063603Z&X-Amz-Expires=3600&X-Amz-Signature=dfe9330f28564149ca16676987fa6f4f847ef3aadcc77923a641febc17a79b3f&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -73005,7 +73536,7 @@
       "7b972da2-3f36-4667-bd1b-1e1b331960ff"
     ],
     "title": "Трон печатки",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/775eac6d-2fd2-427f-b1b4-7f6b2286cdba/IMG_20240502_184605_841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=ac4191ac84a935c1fb243c136d9213c4e1dd89fa857aaabfe50bde0344471f49&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/775eac6d-2fd2-427f-b1b4-7f6b2286cdba/IMG_20240502_184605_841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063606Z&X-Amz-Expires=3600&X-Amz-Signature=659d9925b66ed75d21afd6cfedc343204c2f780216908568e908365cc9f24f4e&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -73024,7 +73555,7 @@
       "6a2de34f-5182-4438-a060-7c64264d1e64"
     ],
     "title": "Прокачка в Соло / Сололевелінг",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/691abbb4-2447-441e-ab7f-d1bd2dc6914c/IMG_20240502_184804_211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=2383eaae3238516256f90f62d4c44ff5a729304836dc332fe9d5451a082b23a3&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/691abbb4-2447-441e-ab7f-d1bd2dc6914c/IMG_20240502_184804_211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063606Z&X-Amz-Expires=3600&X-Amz-Signature=6593e64bb4b1cf49d2b28ddf6a1ccfef735c030d619d4d13ac69d78fed8eadb3&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -73048,7 +73579,7 @@
       "08e3372e-55be-4c2d-8c71-72d928f95ff6"
     ],
     "title": "Монолог травниці",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/cae22595-b142-41af-ba73-4d36bdedef04/IMG_20240502_184911_371.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=8791b99c0c7ae8adc60f641e1df0a300c0a3bbe3726fdf4f162f5db998886437&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/cae22595-b142-41af-ba73-4d36bdedef04/IMG_20240502_184911_371.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063606Z&X-Amz-Expires=3600&X-Amz-Signature=28060a084769198f0c87275dfffc304b2743cd315305ed96ea10a7065abcb96f&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -73072,7 +73603,7 @@
       "380365f5-0322-4a27-a4f7-d2b63f97f75e"
     ],
     "title": "Фрірен: супровід в останню путь",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5f262935-3c40-4c5e-ab76-fbc9c6a29d79/IMG_20240502_185047_490.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=1e1e70c5da41e7c5b457e9f8d6fec0d5d8cc754f3c438ce745ef753375aed4ec&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/5f262935-3c40-4c5e-ab76-fbc9c6a29d79/IMG_20240502_185047_490.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063606Z&X-Amz-Expires=3600&X-Amz-Signature=c26ec8b9896b5b15244df172a3a21bfb104ec96282c226b3f2d325888a81d0f4&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -73105,7 +73636,7 @@
       "dfe689ad-5ab9-4794-a598-70cafece3459"
     ],
     "title": "Леза хранителів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69a8541c-83ef-4283-b925-596178746af8/botg_banner_4ua-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=b31e9e7ccba6187690d40409404ff1a682225d44c173ebc2189a013a70e4e783&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/69a8541c-83ef-4283-b925-596178746af8/botg_banner_4ua-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063606Z&X-Amz-Expires=3600&X-Amz-Signature=39e3289650fc4fe8eb05b26a783aceefec5126911c131f950a266bc3cc660f49&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -73124,7 +73655,7 @@
       "370c53ff-4699-46b7-83e9-1bd3dd5ec25f"
     ],
     "title": "Вічна воля 2",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/95aa82d8-0f9d-4a92-8eb6-b7546819510d/IMG_20240502_185420_224.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=06f28b3faa2f468251e00413389a00c3cb96d429be2eaa6136fe38905b8c3f94&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/95aa82d8-0f9d-4a92-8eb6-b7546819510d/IMG_20240502_185420_224.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063606Z&X-Amz-Expires=3600&X-Amz-Signature=f00c24af1ab3419a2c410118189538d3e24f28c1f4cff3376c8c56738884710e&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -73148,7 +73679,7 @@
       "2d10eab7-56cf-4dfe-811c-e54b2679c5e5"
     ],
     "title": "Вічна воля",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2c0fe918-9974-4d7a-a4d5-2e6a0c8d9b64/IMG_20240502_183055_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=5bd48fb408828622e7da436a3449bb2431f927f4e52ed1436a3af1eaff7b6ed3&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/2c0fe918-9974-4d7a-a4d5-2e6a0c8d9b64/IMG_20240502_183055_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063606Z&X-Amz-Expires=3600&X-Amz-Signature=ab1942504f9a08d0503877908488ea90648916d8cb5e2d67121fb3e931898ed7&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
@@ -73193,7 +73724,7 @@
       "99d8118a-0432-45e8-ae5c-669fd44d8adb"
     ],
     "title": "Атака Титанів: Фінал",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/13be87a7-702c-4bda-9abb-5a5be00887e4/aot_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250106T012958Z&X-Amz-Expires=3600&X-Amz-Signature=e40d587a89c9fe266b2b86d5ea43a03debe02f06ef5dcdad73beb78b9922d134&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/13be87a7-702c-4bda-9abb-5a5be00887e4/aot_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T063606Z&X-Amz-Expires=3600&X-Amz-Signature=cfc816fa4acd06e9619cd2ff70804088240c1e17adcbde82532e4e46af3bda7e&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "2cddc217-a294-4768-a5ce-188d16aec743"
