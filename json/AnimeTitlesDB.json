@@ -1,7 +1,1126 @@
 [
   {
+    "id": "1737667f-790e-801b-a1cb-f2f960937694",
+    "last_edited": "2025-01-06T09:13:00.000Z",
+    "hikka_url": "https://hikka.io/anime/tu-bian-yingxiong-x-8d3a06",
+    "title": "Бути героєм Ікс",
+    "romaji": "Tu Bian Yingxiong X",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2025",
+    "scoreMAL": 0,
+    "scoredbyMAL": 0,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [],
+    "relations": [
+      {
+        "id": "1737667f-790e-8009-95ef-dab65596faa3"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8048-9e95-c9e9cc5409bb",
+    "last_edited": "2025-01-06T09:14:00.000Z",
+    "hikka_url": "https://hikka.io/anime/tu-bian-ying-xiong-leaf-e03328",
+    "title": "Бути героїнею",
+    "romaji": "Tu Bian Ying Xiong Leaf",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "To Be Hero 2"
+    ],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2018",
+    "scoreMAL": 7.01,
+    "scoredbyMAL": 8098,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [],
+    "relations": [
+      {
+        "id": "1737667f-790e-8009-95ef-dab65596faa3"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1737667f-790e-8009-95ef-dab65596faa3",
+    "last_edited": "2025-01-06T09:13:00.000Z",
+    "hikka_url": "https://hikka.io/anime/to-be-hero-a34755",
+    "title": "Бути героєм",
+    "romaji": "To Be Hero",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Tu Bian Ying Xiong Baba",
+      "凸变英雄 BABA"
+    ],
+    "type": "Донхва",
+    "format": "ТБ",
+    "year": "2016",
+    "scoreMAL": 6.95,
+    "scoredbyMAL": 28805,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "1737667f-790e-8009-ac9c-d0fd853227ee"
+      }
+    ],
+    "relations": [
+      {
+        "id": "1737667f-790e-8048-9e95-c9e9cc5409bb"
+      },
+      {
+        "id": "1737667f-790e-801b-a1cb-f2f960937694"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80a9-8b5a-d238e19f8fcd",
+    "last_edited": "2025-01-03T13:12:00.000Z",
+    "hikka_url": "https://hikka.io/anime/aa-megami-sama-sorezore-no-tsubasa-specials-ec1830",
+    "title": "Моя Богиня : У кожного є крила",
+    "romaji": "Aa! Megami-sama! Sorezore no Tsubasa Specials",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Ah! My Goddess: Sorezore no Tsubasa Specials"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2007",
+    "scoreMAL": 7.49,
+    "scoredbyMAL": 13338,
+    "Анітюб": "https://anitube.in.ua/2634-moya-boginya.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "2",
+    "releases": [
+      {
+        "id": "1707667f-790e-80c4-986f-fbf624ac03d1"
+      }
+    ],
+    "relations": [
+      {
+        "id": "1707667f-790e-8028-8a6b-f07ca58bc7bb"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8028-8a6b-f07ca58bc7bb",
+    "last_edited": "2025-01-03T13:11:00.000Z",
+    "hikka_url": "https://hikka.io/anime/aa-megami-sama-sorezore-no-tsubasa-d507b6",
+    "title": "Моя Богиня : У кожного є крила",
+    "romaji": "Aa! Megami-sama! Sorezore no Tsubasa",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Ah! My Goddess: Sorezore no Tsubasa"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2006",
+    "scoreMAL": 7.54,
+    "scoredbyMAL": 36207,
+    "Анітюб": "https://anitube.in.ua/2634-moya-boginya.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "22",
+    "releases": [
+      {
+        "id": "1707667f-790e-80c4-986f-fbf624ac03d1"
+      }
+    ],
+    "relations": [
+      {
+        "id": "7476fea7-dbec-41f6-8014-846493b99d47"
+      },
+      {
+        "id": "1707667f-790e-80a9-8b5a-d238e19f8fcd"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8010-bc5f-dd40b147c39b",
+    "last_edited": "2025-01-03T12:44:00.000Z",
+    "hikka_url": null,
+    "title": "Райдужні дні",
+    "synonyms": [],
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "1707667f-790e-803c-bbf3-c72c7542f845"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80a2-a450-c04533cbe33a",
+    "last_edited": "2025-01-03T12:09:00.000Z",
+    "hikka_url": null,
+    "title": "Завтрашній Джо",
+    "synonyms": [],
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "1707667f-790e-80f5-8e7e-c79a28aaf780"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8049-95d2-c9d323553a7b",
+    "last_edited": "2025-01-03T11:39:00.000Z",
+    "hikka_url": "https://hikka.io/anime/tian-mei-de-yao-hen-f324db",
+    "title": "Солодкі сліди укусів",
+    "romaji": "Tian Mei De Yao Hen",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Tianmei De Yaohen"
+    ],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2022",
+    "scoreMAL": 6.55,
+    "scoredbyMAL": 2872,
+    "Анітюб": "https://anitube.in.ua/4254-tian-mei-de-yao-hen.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "1707667f-790e-80bf-8b78-fab8ce9498b1"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8029-8c81-c961ef48702c",
+    "last_edited": "2025-01-03T10:30:00.000Z",
+    "hikka_url": null,
+    "title": "Наруто проти Конохомару",
+    "synonyms": [],
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "1707667f-790e-80b1-bd71-fab3d58bac50"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8007-9c32-e03fe0209b13",
+    "last_edited": "2025-01-03T10:27:00.000Z",
+    "hikka_url": null,
+    "title": "Наруто",
+    "synonyms": [],
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "1707667f-790e-8026-a2a7-c2e468a29453"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8055-8845-cc20fe723473",
+    "last_edited": "2025-01-03T09:07:00.000Z",
+    "hikka_url": "https://hikka.io/anime/yowai-5000-nen-no-soushoku-dragon-iwarenaki-jaryuu-nintei-2nd-season-2d2140",
+    "title": "Слабкий п'яти тисячорічний дракон-вегетаріанець (ТБ-2)",
+    "romaji": "Shi Cao Lao Long Bei Guan Yi E Long Zhi Ming 2",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "A Gentle Dragon of 5000 Years Old",
+      "It Was Recognized as an Evil Dragon Without Any Cause",
+      "Yowai 5000-nen no Soushoku Dragon",
+      "Iwarenaki Jaryuu Nintei 2nd Season"
+    ],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2024",
+    "scoreMAL": 6.75,
+    "scoredbyMAL": 1305,
+    "Анітюб": "https://anitube.in.ua/5000-slabkiy-pyati-tisyachorchniy-drakon-vegetaranec-2-sezon.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [],
+    "relations": [
+      {
+        "id": "1707667f-790e-80e6-9e16-e8de82fbda53"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-80e6-9e16-e8de82fbda53",
+    "last_edited": "2025-01-03T09:06:00.000Z",
+    "hikka_url": "https://hikka.io/anime/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming-e4233e",
+    "title": "Слабкий п'яти тисячорічний дракон-вегетаріанець",
+    "romaji": "Shi Cao Lao Long Bei Guan Yi E Long Zhi Ming",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Yowai 5000-nen no Soushoku Dragon",
+      "Iwarenaki Jaryuu Nintei",
+      "A Gentle Dragon of 5000 Years Old",
+      "It Was Recognized as an Evil Dragon Without Any Cause.",
+      "齢5000年の草食ドラゴン、いわれなき邪竜認定"
+    ],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2022",
+    "scoreMAL": 6.74,
+    "scoredbyMAL": 8596,
+    "Анітюб": "https://anitube.in.ua/4050-slabkiy-pyati-tisyachorchniy-drakon-vegetaranec.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "1707667f-790e-804b-afb3-dd18c56b72db"
+      }
+    ],
+    "relations": [
+      {
+        "id": "1707667f-790e-8055-8845-cc20fe723473"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "1707667f-790e-8034-b5f6-fa6d48f1f2ae",
+    "last_edited": "2025-01-03T08:30:00.000Z",
+    "hikka_url": "https://hikka.io/anime/shinobi-no-ittoki-5ff8cc",
+    "title": "Час нінджя",
+    "romaji": "Shinobi no Ittoki",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Ittoki the Ninja"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2022",
+    "scoreMAL": 6.06,
+    "scoredbyMAL": 62529,
+    "Анітюб": "https://anitube.in.ua/4103-shinobi-no-ittoki.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "1707667f-790e-80d5-b3a1-cfd0dd07cc8c"
+      },
+      {
+        "id": "1707667f-790e-8037-a4fb-c6b7f77b8cc6"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80e1-80d1-f2aa938660f4",
+    "last_edited": "2025-01-02T15:34:00.000Z",
+    "hikka_url": "https://hikka.io/anime/santa-company-ade6f7",
+    "title": "Компанія Санти",
+    "romaji": "Santa Company",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2014",
+    "scoreMAL": 5.73,
+    "scoredbyMAL": 2317,
+    "Анітюб": "https://anitube.in.ua/3511-santa-company.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "1737667f-790e-8097-a54b-e6081e23893f"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": [
+      {
+        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Компанія_Санти_bu1ha2.jpg",
+        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Компанія_Санти_bu1ha2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "16f7667f-790e-80ff-9368-d88189f700a1",
+    "last_edited": "2025-01-02T14:57:00.000Z",
+    "hikka_url": "https://hikka.io/anime/knights-magic-3cede0",
+    "title": "Лицарі та Магія",
+    "romaji": "Knight's & Magic",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2017",
+    "scoreMAL": 7.07,
+    "scoredbyMAL": 135728,
+    "Анітюб": "https://anitube.in.ua/4877-licar-ta-magya.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "1527667f-790e-8038-a0c6-ec332dfe3469"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": [
+      {
+        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Лицарі_та_Магія_arivie.jpg",
+        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Лицарі_та_Магія_arivie.jpg"
+      }
+    ]
+  },
+  {
+    "id": "16f7667f-790e-8052-b19c-dc4e4435d347",
+    "last_edited": "2025-01-02T13:41:00.000Z",
+    "hikka_url": "https://hikka.io/anime/peter-grill-to-kenja-no-jikan-super-extra-498aa6",
+    "title": "Пітер Ґрілл та час філософа (ТБ-2)",
+    "romaji": "Peter Grill to Kenja no Jikan: Super Extra",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Peter Grill to Kenja no Jikan 2nd Season"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2022",
+    "scoreMAL": 5.94,
+    "scoredbyMAL": 22045,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [],
+    "relations": [
+      {
+        "id": "16f7667f-790e-80e9-affa-d1e2f3618820"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80e9-affa-d1e2f3618820",
+    "last_edited": "2025-01-03T09:59:00.000Z",
+    "hikka_url": "https://hikka.io/anime/peter-grill-to-kenja-no-jikan-223521",
+    "title": "Пітер Ґрілл та час філософа",
+    "romaji": "Peter Grill to Kenja no Jikan",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2020",
+    "scoreMAL": 5.52,
+    "scoredbyMAL": 94054,
+    "Анітюб": "https://anitube.in.ua/4287-peter-grill-to-kenja-no-jikan.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "16f7667f-790e-80ca-9e5d-c4024df4df0e"
+      }
+    ],
+    "relations": [
+      {
+        "id": "16f7667f-790e-8052-b19c-dc4e4435d347"
+      }
+    ],
+    "Франшиза": [],
+    "posters": [
+      {
+        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Пітер_Ґрілл_та_час_філософа_rljyjf.jpg",
+        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Пітер_Ґрілл_та_час_філософа_rljyjf.jpg"
+      }
+    ]
+  },
+  {
+    "id": "16f7667f-790e-8041-a1d4-c8616aacbd5d",
+    "last_edited": "2025-01-02T12:32:00.000Z",
+    "hikka_url": "https://hikka.io/anime/kyoukaisenjou-no-horizon-f2064c",
+    "title": "Kyoukaisenjou no Horizon",
+    "romaji": "Kyoukaisenjou no Horizon",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Kyoukai Senjou no Horizon"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2011",
+    "scoreMAL": 7.01,
+    "scoredbyMAL": 66646,
+    "Анітюб": "https://anitube.in.ua/4537-kyoukaisenjou-no-horizon.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "16f7667f-790e-8098-9b9f-e3d0ccbd0ad9"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-801b-b45e-e77f621fc743",
+    "last_edited": "2025-01-02T12:06:00.000Z",
+    "hikka_url": "https://hikka.io/anime/yojouhan-time-machine-blues-224c0b",
+    "title": "Блюз про машину часу татамі",
+    "romaji": "Yojouhan Time Machine Blues",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2022",
+    "scoreMAL": 8.18,
+    "scoredbyMAL": 13396,
+    "Анітюб": "https://anitube.in.ua/4765-blyuz-mashini-chasu-pro-chotiri-z-polovinoyu-tatam.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "6",
+    "releases": [
+      {
+        "id": "16f7667f-790e-80fd-823b-c945dd72faa9"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-803a-8334-e81f15b4244b",
+    "last_edited": "2025-01-02T11:34:00.000Z",
+    "hikka_url": "https://hikka.io/anime/akkun-to-kanojo-3cfc34",
+    "title": "Akkun to Kanojo",
+    "romaji": "Akkun to Kanojo",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Akkun and His Girlfriend"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2018",
+    "scoreMAL": 6.82,
+    "scoredbyMAL": 80943,
+    "Анітюб": "https://anitube.in.ua/4549-akkun-to-kanojo.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "25",
+    "releases": [
+      {
+        "id": "16f7667f-790e-80d5-ae89-fdfa99ba3073"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8071-985c-eebd65ee8daa",
+    "last_edited": "2025-01-02T10:59:00.000Z",
+    "hikka_url": "https://hikka.io/anime/animegataris-e90678",
+    "title": "Аніме історії",
+    "romaji": "Animegataris",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2017",
+    "scoreMAL": 6.37,
+    "scoredbyMAL": 30752,
+    "Анітюб": "https://anitube.in.ua/4876-anme-storyi.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "16f7667f-790e-805a-835d-ec1a498f4ce0"
+      },
+      {
+        "id": "16f7667f-790e-8092-90b7-fe4c6d33a9f6"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8043-8136-e6fbc1264576",
+    "last_edited": "2025-01-02T10:52:00.000Z",
+    "hikka_url": "https://hikka.io/anime/chuubyou-gekihatsu-boy-otoko-ni-umareta-shukumei-dakara-afa784",
+    "title": "Спалах мрійників",
+    "romaji": "Chuubyou Gekihatsu Boy: Otoko ni Umareta Shukumei Dakara",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Chuubyou Gekihatsu Boy Episode 12",
+      "Outburst Dreamer Boys Episode 12",
+      "Chuubyou Gekihatsu Boy Special"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2020",
+    "scoreMAL": 6.88,
+    "scoredbyMAL": 2769,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "16f7667f-790e-80b3-842f-ed439d1ded02"
+      },
+      {
+        "id": "16f7667f-790e-80bb-af50-f04dcab2103a"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80c0-b017-e79fc4f56423",
+    "last_edited": "2025-01-02T10:31:00.000Z",
+    "hikka_url": "https://hikka.io/anime/upotte-f7f8f8",
+    "title": "Збройна школа!!",
+    "romaji": "Upotte!!",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Употте"
+    ],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2012",
+    "scoreMAL": 6.45,
+    "scoredbyMAL": 31441,
+    "Анітюб": "https://anitube.in.ua/3444-upotte.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "10",
+    "releases": [
+      {
+        "id": "16f7667f-790e-80e7-b3c2-d7dc4fbd0ae5"
+      }
+    ],
+    "relations": [
+      {
+        "id": "af8c3770-55d6-4ecb-86e0-97bff0a40420"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8072-9d79-f924ed256bd6",
+    "last_edited": "2025-01-02T09:53:00.000Z",
+    "hikka_url": "https://hikka.io/anime/initial-d-second-stage-da3c2a",
+    "title": "Ініціал Д: Другий етап",
+    "romaji": "Initial D Second Stage",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "1999",
+    "scoreMAL": 8.18,
+    "scoredbyMAL": 141895,
+    "Анітюб": "https://anitube.in.ua/2887-initial-d-second-stage.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "16f7667f-790e-80e7-8056-ea58fdf46cbc"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8075-a189-e4b94523b676",
+    "last_edited": "2025-01-02T09:29:00.000Z",
+    "hikka_url": "https://hikka.io/anime/fei-ren-zai-3066cf",
+    "title": "Fei Ren Zai",
+    "romaji": "Fei Ren Zai",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Fe-Renzai: Kamisama no Nichijou",
+      "Shenme Gui",
+      "神么鬼",
+      "非人哉"
+    ],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2018",
+    "scoreMAL": 7.13,
+    "scoredbyMAL": 1069,
+    "Анітюб": "https://anitube.in.ua/4005-fei-ren-zai.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "48",
+    "releases": [
+      {
+        "id": "16f7667f-790e-8010-a1d0-f2a8258e229a"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-8093-9027-ce2a3a67cf3e",
+    "last_edited": "2025-01-02T08:34:00.000Z",
+    "hikka_url": "https://hikka.io/anime/tonari-no-kaibutsu-kun-tonari-no-gokudou-kun-324ca0",
+    "title": "Монстр який сидить поруч (ОВА)",
+    "romaji": "Tonari no Kaibutsu-kun: Tonari no Gokudou-kun",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Tonari no Kaibutsu-kun OVA",
+      "The Monster Next Door OVA",
+      "Чудовисько за сусідньою партою OVA"
+    ],
+    "type": "Аніме",
+    "format": "ОВА",
+    "year": "2013",
+    "scoreMAL": 7.09,
+    "scoredbyMAL": 52588,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "16f7667f-790e-805c-a6ae-c37e781c6b92"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-803d-a291-cf2c70539179",
+    "last_edited": "2025-01-02T08:20:00.000Z",
+    "hikka_url": "https://hikka.io/anime/aa-megami-sama-tv-specials-d03b06",
+    "title": "Aa! Megami-sama!",
+    "romaji": "Aa! Megami-sama! (TV) Specials",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Aa! Megami-sama! Episodes 12.5",
+      "25 and 26",
+      "Oh! My Goddess Specials"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2005",
+    "scoreMAL": 7.5,
+    "scoredbyMAL": 14800,
+    "Анітюб": "https://anitube.in.ua/2123-my-goddess-tv1.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "3",
+    "releases": [
+      {
+        "id": "16f7667f-790e-808d-b013-e7d55f75dc7f"
+      }
+    ],
+    "relations": [
+      {
+        "id": "7476fea7-dbec-41f6-8014-846493b99d47"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16f7667f-790e-80df-99cc-f4d1281c1317",
+    "last_edited": "2025-01-02T07:52:00.000Z",
+    "hikka_url": "https://hikka.io/anime/cang-yuan-tu-2nd-season-4c8b7c",
+    "title": "Мисливець на демонів (ТБ-2)",
+    "romaji": "Cang Yuan Tu 2",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Azure Legacy"
+    ],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2024",
+    "scoreMAL": 0,
+    "scoredbyMAL": 0,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "27",
+    "releases": [
+      {
+        "id": "16f7667f-790e-8015-baea-eaf42437ca40"
+      }
+    ],
+    "relations": [
+      {
+        "id": "1377667f-790e-8017-92df-e67636492253"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8023-af4d-f9ac200e6c60",
+    "last_edited": "2025-01-03T10:07:00.000Z",
+    "hikka_url": null,
+    "title": "RWBY",
+    "synonyms": [],
+    "type": "Амеріме",
+    "format": "ТБ",
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "16c7667f-790e-802e-9a22-dc6eefe8c40b"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8051-8679-cc058b3950ac",
+    "last_edited": "2024-12-30T12:07:00.000Z",
+    "hikka_url": "https://hikka.io/anime/lostorage-incited-wixoss-f7dca3",
+    "title": "WIXOSS: Провокування втрачених спогадів",
+    "romaji": "Lostorage Incited WIXOSS",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2016",
+    "scoreMAL": 6.68,
+    "scoredbyMAL": 22299,
+    "Анітюб": "https://anitube.in.ua/4805-lostoreydzh-provokacya-wixoss.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "16c7667f-790e-8088-9d81-f07e9fe0a4ca"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8010-ab08-c68d054fb453",
+    "last_edited": "2024-12-30T12:04:00.000Z",
+    "hikka_url": "https://hikka.io/anime/jojo-no-kimyou-na-bouken-adventure-5f40ea",
+    "title": "Химерні пригоди Джоджо",
+    "romaji": "JoJo no Kimyou na Bouken: Adventure",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "JoJo's Bizarre Adventure (2000)",
+      "Неймовірні пригоди ДжоДжо: Пригода ОВА"
+    ],
+    "type": "Аніме",
+    "format": "ОВА",
+    "year": "2000",
+    "scoreMAL": 7.24,
+    "scoredbyMAL": 36973,
+    "Анітюб": "https://anitube.in.ua/4057-jojo-no-kimyou-na-bouken-adventure.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "7",
+    "releases": [
+      {
+        "id": "16c7667f-790e-8057-89e0-d37e2796a878"
+      },
+      {
+        "id": "16c7667f-790e-80dc-bb28-f7f7520a2cbe"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8047-80fc-e2b8cc3bcdee",
+    "last_edited": "2024-12-30T11:03:00.000Z",
+    "hikka_url": "https://hikka.io/anime/yeosin-gangnim-6652c5",
+    "title": "Yeosin Gangnim",
+    "romaji": "Yeosin Gangnim",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Descent of a Goddess"
+    ],
+    "type": "Корейське",
+    "format": "ОМА",
+    "year": "2024",
+    "scoreMAL": 6.59,
+    "scoredbyMAL": 5796,
+    "Анітюб": "https://anitube.in.ua/4899-spravzhnya-krasa.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "16c7667f-790e-8086-9469-d94b84a995f9"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-806f-8ac6-d614d47eecbe",
+    "last_edited": "2024-12-30T10:33:00.000Z",
+    "hikka_url": "https://hikka.io/anime/happy-sugar-life-26ca1e",
+    "title": "Щасливе солодке життя",
+    "romaji": "Happy Sugar Life",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "White Sugar Garden",
+      "Black Salt Cage"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2018",
+    "scoreMAL": 6.76,
+    "scoredbyMAL": 144063,
+    "Анітюб": "https://anitube.in.ua/3238-happy-sugar-life.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "16c7667f-790e-802a-8261-d712c497a55b"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-8000-be45-c3bc5133e51b",
+    "last_edited": "2024-12-30T09:52:00.000Z",
+    "hikka_url": "https://hikka.io/anime/love-stage-9bd44b",
+    "title": "Любовна сцена!!",
+    "romaji": "Love Stage!!",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2014",
+    "scoreMAL": 7.15,
+    "scoredbyMAL": 147968,
+    "Анітюб": "https://anitube.in.ua/2691-lyubovna-scena-love-stage.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "10",
+    "releases": [
+      {
+        "id": "16c7667f-790e-80b2-ac10-e4145e8d13e7"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80ca-becf-c21d81cf5eff",
+    "last_edited": "2024-12-30T09:49:00.000Z",
+    "hikka_url": "https://hikka.io/anime/mini-dragon-6e03ef",
+    "title": "Мінідракон",
+    "romaji": "Mini Dragon",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Minidora"
+    ],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2021",
+    "scoreMAL": 7.35,
+    "scoredbyMAL": 37204,
+    "Анітюб": "https://anitube.in.ua/4423-mini-dragon.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "16c7667f-790e-80dd-8cdb-fbb17b9f0991"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16c7667f-790e-80c2-9278-cab16f473b89",
+    "last_edited": "2024-12-30T09:32:00.000Z",
+    "hikka_url": "https://hikka.io/anime/gakkougurashi-e25b8d",
+    "title": "Шкільне життя!",
+    "romaji": "Gakkougurashi!",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Gakkou Gurashi!"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2015",
+    "scoreMAL": 7.61,
+    "scoredbyMAL": 223815,
+    "Анітюб": "https://anitube.in.ua/4033-shklne-zhittya.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "16c7667f-790e-8081-9b4c-deb54b953d65"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16b7667f-790e-80fb-80e1-e733ab5ee25f",
+    "last_edited": "2025-01-03T10:05:00.000Z",
+    "hikka_url": "https://hikka.io/anime/quanzhi-fashi-37b8ec",
+    "poster": "https://cdn.hikka.io/content/anime/quanzhi-fashi-37b8ec/tgZh_44sRQy9nGmHxoCQhw.jpg",
+    "title": "Маг на повну ставку",
+    "romaji": "Quanzhi Fashi",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Quan Zhi Fa Shi"
+    ],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2016",
+    "scoreMAL": 7.18,
+    "scoredbyMAL": 61793,
+    "Анітюб": "https://anitube.in.ua/4414-quanzhi-fashi.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [],
+    "relations": [
+      {
+        "id": "16b7667f-790e-80f0-9e17-fcf4df7af6da"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16b7667f-790e-80f0-9e17-fcf4df7af6da",
+    "last_edited": "2025-01-03T10:06:00.000Z",
+    "hikka_url": "https://hikka.io/anime/quanzhi-fashi-ii-8da00d",
+    "title": "Маг на повну ставку 2",
+    "romaji": "Quanzhi Fashi 2",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Quanzhi Fashi 2nd Season",
+      "Quan Zhi Fa Shi 2",
+      "Full-Time Magister 2"
+    ],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2017",
+    "scoreMAL": 6.76,
+    "scoredbyMAL": 38664,
+    "Анітюб": "https://anitube.in.ua/4532-quanzhi-fashi-ii.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "16b7667f-790e-80af-a90a-c5faa2c6476b"
+      }
+    ],
+    "relations": [
+      {
+        "id": "16b7667f-790e-80fb-80e1-e733ab5ee25f"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "16a7667f-790e-806f-84b4-f0454f2d8bdc",
+    "last_edited": "2024-12-28T08:38:00.000Z",
+    "hikka_url": "https://hikka.io/anime/cang-yuan-tu-dongning-fu-fanwai-pian-bd726e",
+    "poster": "https://cdn.hikka.io/content/anime/cang-yuan-tu-dongning-fu-fanwai-pian-bd726e/1W8yoM7IIvgQlgKrq9O86Q.jpg",
+    "title": "Мисливець на демонів: Володіння Доннін",
+    "romaji": "Cang Yuan Tu: Dongning Fu Fanwai Pian",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Донхва",
+    "format": "ОМА",
+    "year": "2024",
+    "scoreMAL": 7.56,
+    "scoredbyMAL": 317,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "4",
+    "releases": [
+      {
+        "id": "16a7667f-790e-801c-897e-e155a1e0394b"
+      }
+    ],
+    "relations": [
+      {
+        "id": "1377667f-790e-8017-92df-e67636492253"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
     "id": "1687667f-790e-80ae-aa4f-d1ea79dd9cb5",
-    "last_edited": "2024-12-26T08:31:00.000Z",
+    "last_edited": "2025-01-03T09:57:00.000Z",
     "hikka_url": null,
     "title": "Національні свята Чилі!",
     "romaji": "iFelices Fiestas Patrias!",
@@ -20,7 +1139,12 @@
     ],
     "relations": [],
     "Франшиза": [],
-    "posters": []
+    "posters": [
+      {
+        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829726/національні_свята_чілі_umqcft.webp",
+        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829726/національні_свята_чілі_umqcft.webp"
+      }
+    ]
   },
   {
     "id": "1687667f-790e-8084-82a5-dbfbe50d5864",
@@ -266,7 +1390,7 @@
   },
   {
     "id": "1687667f-790e-806d-bee9-d6a9e206fbbf",
-    "last_edited": "2024-12-26T07:54:00.000Z",
+    "last_edited": "2025-01-03T09:59:00.000Z",
     "hikka_url": "https://hikka.io/anime/plastic-neesan-1a4a26",
     "poster": "https://cdn.hikka.io/content/anime/plastic-neesan-1a4a26/0Vj9QvvkM6y94CqsPA5Xkg.jpg",
     "title": "Пластикова сестричка",
@@ -296,7 +1420,12 @@
     ],
     "relations": [],
     "Франшиза": [],
-    "posters": []
+    "posters": [
+      {
+        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Plastic_Neesan_jklbsm.png",
+        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Plastic_Neesan_jklbsm.png"
+      }
+    ]
   },
   {
     "id": "1687667f-790e-80a3-b4e5-c98b4dcb29e8",
@@ -1648,6 +2777,9 @@
     "releases": [
       {
         "id": "1627667f-790e-80c8-a936-ccc8dad7fadb"
+      },
+      {
+        "id": "16c7667f-790e-8022-9c0b-fd52b3ec3cc4"
       }
     ],
     "relations": [],
@@ -2231,11 +3363,11 @@
     "posters": [
       {
         "name": "Магічна битва - нищівна міграція.jpg",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241226T151122Z&X-Amz-Expires=3600&X-Amz-Signature=218a0d8d972ef10ced525454aad51e4a1cf3ca7cb781aabc04a824d8de312895&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T062847Z&X-Amz-Expires=3600&X-Amz-Signature=07fe9995dc8297d0951767e1795b37cded7d497c51c0feb98d1de0cf3756ca21&X-Amz-SignedHeaders=host&x-id=GetObject"
       },
       {
         "name": "Магічна битва - гра на вибування-min.png",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241226T151122Z&X-Amz-Expires=3600&X-Amz-Signature=953247300e34dd88f30ec0620ccc4e0db0c6a47e7ee06c44efaab6136e4c2d24&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/5e67c788-4206-46de-bec7-ddc1b1a7c669/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T062847Z&X-Amz-Expires=3600&X-Amz-Signature=b9188c64cb0c1099576b4657197ff77cc00d8ca2aaf06d30bf56b9f91be57f07&X-Amz-SignedHeaders=host&x-id=GetObject"
       }
     ]
   },
@@ -2608,7 +3740,7 @@
   },
   {
     "id": "1627667f-790e-80e5-9158-d41d911b2724",
-    "last_edited": "2024-12-20T14:28:00.000Z",
+    "last_edited": "2025-01-03T09:58:00.000Z",
     "hikka_url": "https://hikka.io/anime/oruchuban-ebichu-5b2589",
     "poster": "https://cdn.hikka.io/content/anime/oruchuban-ebichu-5b2589/U9i6InWzz3ZFokU69WQZAA.jpg",
     "title": "Хазяйновита Ебічу",
@@ -2637,7 +3769,12 @@
     ],
     "relations": [],
     "Франшиза": [],
-    "posters": []
+    "posters": [
+      {
+        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Хазяйновита_Ебічу_zimjb7.png",
+        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829725/Хазяйновита_Ебічу_zimjb7.png"
+      }
+    ]
   },
   {
     "id": "1627667f-790e-808a-a7d7-c817df26ad49",
@@ -2660,7 +3797,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1627667f-790e-80eb-bf53-f8fc298666ba"
+      }
+    ],
     "posters": []
   },
   {
@@ -2687,7 +3828,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1627667f-790e-80eb-bf53-f8fc298666ba"
+      }
+    ],
     "posters": []
   },
   {
@@ -2714,7 +3859,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1627667f-790e-80eb-bf53-f8fc298666ba"
+      }
+    ],
     "posters": []
   },
   {
@@ -2835,7 +3984,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": []
   },
   {
@@ -3038,6 +4191,9 @@
       },
       {
         "id": "1607667f-790e-8058-951b-dd2ee65f5aaf"
+      },
+      {
+        "id": "16c7667f-790e-80e4-8514-f79e0464c6c9"
       }
     ],
     "relations": [
@@ -3183,7 +4339,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "71",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-8057-a623-c4a6cdfc2741"
+      }
+    ],
     "relations": [
       {
         "id": "059e5d24-35a2-4e6f-b856-d158f2aa80b9"
@@ -3467,6 +4627,9 @@
     "releases": [
       {
         "id": "15f7667f-790e-80d5-8d0d-e71c72c52993"
+      },
+      {
+        "id": "1737667f-790e-80dc-acb2-f1c045622722"
       }
     ],
     "relations": [
@@ -3529,7 +4692,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-80bf-9009-cc623a265e11"
+      }
+    ],
     "posters": []
   },
   {
@@ -3557,7 +4724,11 @@
     "episodes": "7",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-80bf-9009-cc623a265e11"
+      }
+    ],
     "posters": []
   },
   {
@@ -3586,7 +4757,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-80bf-9009-cc623a265e11"
+      }
+    ],
     "posters": []
   },
   {
@@ -3748,7 +4923,11 @@
     "episodes": "3",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-8081-87b9-c979b21a8cea"
+      }
+    ],
     "posters": []
   },
   {
@@ -3778,7 +4957,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-8091-89b8-e32431f0cd77"
+      }
+    ],
     "posters": []
   },
   {
@@ -3803,7 +4986,11 @@
     "episodes": "4",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-8091-89b8-e32431f0cd77"
+      }
+    ],
     "posters": []
   },
   {
@@ -3829,7 +5016,11 @@
     "episodes": "16",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-8091-89b8-e32431f0cd77"
+      }
+    ],
     "posters": []
   },
   {
@@ -3858,7 +5049,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-8091-89b8-e32431f0cd77"
+      }
+    ],
     "posters": []
   },
   {
@@ -3887,7 +5082,11 @@
     "episodes": "7",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -3920,7 +5119,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734938679/Chuunibyou_demo_Koi_ga_Shitai_Lite_ugxagh.jpg",
@@ -4357,7 +5560,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734007429/Доля_дивна_Підробка_eqim7l.png",
@@ -5123,124 +6330,240 @@
   },
   {
     "id": "1597667f-790e-8038-9e2d-fd7e1c96627a",
-    "last_edited": "2024-12-11T12:21:00.000Z",
-    "hikka_url": null,
+    "last_edited": "2025-01-03T10:17:00.000Z",
+    "hikka_url": "https://hikka.io/anime/break-blade-virgins-war-556d87",
     "title": "Зламаний меч Спешл",
+    "romaji": "Break Blade: Virgins War",
     "synonyms": [],
+    "hikkaSynonyms": [
+      "Break Blade Special"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2014",
+    "scoreMAL": 6.48,
+    "scoredbyMAL": 1605,
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-804c-b439-d35201c21c36"
+      }
+    ],
     "posters": []
   },
   {
     "id": "1597667f-790e-80d2-bb58-ebada225377f",
-    "last_edited": "2024-12-11T12:20:00.000Z",
-    "hikka_url": null,
-    "title": "Зламаний меч 6",
+    "last_edited": "2025-01-03T10:16:00.000Z",
+    "hikka_url": "https://hikka.io/anime/break-blade-movie-6-doukoku-no-toride-efb5aa",
+    "title": "Зламаний Меч Фільм 6: Бастіон cкорботи",
+    "romaji": "Break Blade Movie 6: Doukoku no Toride",
     "synonyms": [],
-    "Анітюб": null,
+    "hikkaSynonyms": [
+      "Breaker Blade 6"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2011",
+    "scoreMAL": 7.67,
+    "scoredbyMAL": 33175,
+    "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "1",
     "releases": [
       {
         "id": "1597667f-790e-804b-807b-d282bfdd0397"
+      },
+      {
+        "id": "16f7667f-790e-80cf-af7e-c4bfa475a75d"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-804c-b439-d35201c21c36"
+      }
+    ],
     "posters": []
   },
   {
     "id": "1597667f-790e-80f8-a6fb-eb9d4dd79430",
-    "last_edited": "2024-12-11T12:20:00.000Z",
-    "hikka_url": null,
-    "title": "Зламаний меч 5",
+    "last_edited": "2025-01-03T10:15:00.000Z",
+    "hikka_url": "https://hikka.io/anime/break-blade-movie-5-shisen-no-hate-dff674",
+    "title": "Зламаний меч Фільм 5: На краю смерті",
+    "romaji": "Break Blade Movie 5: Shisen no Hate",
     "synonyms": [],
-    "Анітюб": null,
+    "hikkaSynonyms": [
+      "Breaker Blade 5"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2011",
+    "scoreMAL": 7.8,
+    "scoredbyMAL": 33938,
+    "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "1",
     "releases": [
       {
         "id": "1597667f-790e-804b-807b-d282bfdd0397"
+      },
+      {
+        "id": "16f7667f-790e-80cf-af7e-c4bfa475a75d"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-804c-b439-d35201c21c36"
+      }
+    ],
     "posters": []
   },
   {
     "id": "1597667f-790e-8092-9219-d7eeac35f94d",
-    "last_edited": "2024-12-11T12:20:00.000Z",
-    "hikka_url": null,
-    "title": "Зламаний меч 4",
+    "last_edited": "2025-01-03T10:14:00.000Z",
+    "hikka_url": "https://hikka.io/anime/break-blade-movie-4-sanka-no-chi-4f37f9",
+    "title": "Зламаний меч Фільм 4: Зона катастрофи",
+    "romaji": "Break Blade Movie 4: Sanka no Chi",
     "synonyms": [],
-    "Анітюб": null,
+    "hikkaSynonyms": [
+      "Breaker Blade 4"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2010",
+    "scoreMAL": 7.82,
+    "scoredbyMAL": 35343,
+    "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "1",
     "releases": [
       {
         "id": "1597667f-790e-804b-807b-d282bfdd0397"
+      },
+      {
+        "id": "16f7667f-790e-80cf-af7e-c4bfa475a75d"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-804c-b439-d35201c21c36"
+      }
+    ],
     "posters": []
   },
   {
     "id": "1597667f-790e-80c0-a98a-fd9e210cf0d3",
-    "last_edited": "2024-12-11T12:20:00.000Z",
-    "hikka_url": null,
-    "title": "Зламаний меч 3",
+    "last_edited": "2025-01-03T10:13:00.000Z",
+    "hikka_url": "https://hikka.io/anime/break-blade-movie-3-kyoujin-no-ato-5af421",
+    "title": "Зламаний меч Фільм 3: Шрами від меча вбивці",
+    "romaji": "Break Blade Movie 3: Kyoujin no Ato",
     "synonyms": [],
-    "Анітюб": null,
+    "hikkaSynonyms": [
+      "Breaker Blade 3"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2010",
+    "scoreMAL": 7.77,
+    "scoredbyMAL": 36292,
+    "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "1",
     "releases": [
       {
         "id": "1597667f-790e-804b-807b-d282bfdd0397"
+      },
+      {
+        "id": "16f7667f-790e-80cf-af7e-c4bfa475a75d"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-804c-b439-d35201c21c36"
+      }
+    ],
     "posters": []
   },
   {
     "id": "1597667f-790e-807d-a778-d6684a5c3f96",
-    "last_edited": "2024-12-11T12:20:00.000Z",
-    "hikka_url": null,
-    "title": "Зламаний меч 2",
+    "last_edited": "2025-01-03T10:12:00.000Z",
+    "hikka_url": "https://hikka.io/anime/break-blade-movie-2-ketsubetsu-no-michi-149683",
+    "title": "Зламаний меч Фільм 2: Розділений шлях",
+    "romaji": "Break Blade Movie 2: Ketsubetsu no Michi",
     "synonyms": [],
-    "Анітюб": null,
+    "hikkaSynonyms": [
+      "Breaker Blade 2"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2010",
+    "scoreMAL": 7.7,
+    "scoredbyMAL": 38474,
+    "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "1",
     "releases": [
       {
         "id": "1597667f-790e-804b-807b-d282bfdd0397"
+      },
+      {
+        "id": "16f7667f-790e-80cf-af7e-c4bfa475a75d"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-804c-b439-d35201c21c36"
+      }
+    ],
     "posters": []
   },
   {
     "id": "1597667f-790e-8089-a650-f95490e8dcff",
-    "last_edited": "2024-12-11T12:20:00.000Z",
-    "hikka_url": null,
-    "title": "Зламаний меч 1",
+    "last_edited": "2025-01-03T10:10:00.000Z",
+    "hikka_url": "https://hikka.io/anime/break-blade-movie-1-kakusei-no-toki-e24246",
+    "title": "Зламаний меч Фільм 1: Час пробудження",
+    "romaji": "Break Blade Movie 1: Kakusei no Toki",
     "synonyms": [],
-    "Анітюб": null,
+    "hikkaSynonyms": [
+      "Breaker Blade"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2010",
+    "scoreMAL": 7.62,
+    "scoredbyMAL": 43945,
+    "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "1",
     "releases": [
       {
         "id": "1597667f-790e-804b-807b-d282bfdd0397"
+      },
+      {
+        "id": "16f7667f-790e-80cf-af7e-c4bfa475a75d"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-804c-b439-d35201c21c36"
+      }
+    ],
     "posters": []
   },
   {
@@ -5492,7 +6815,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-806c-91a4-e790cf15daf0"
+      }
+    ],
     "posters": []
   },
   {
@@ -5645,7 +6972,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735030958/Блакитний_екзорцист_Блакитна_ніч_fbclgv.png",
@@ -5676,7 +7007,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": []
   },
   {
@@ -5709,7 +7044,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": []
   },
   {
@@ -5769,7 +7108,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": []
   },
   {
@@ -5957,7 +7300,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1557667f-790e-80e6-b934-fbf557508a4e"
+      }
+    ],
     "posters": []
   },
   {
@@ -5992,7 +7339,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1557667f-790e-80e6-b934-fbf557508a4e"
+      }
+    ],
     "posters": []
   },
   {
@@ -6021,7 +7372,11 @@
     "episodes": "9",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1557667f-790e-80e6-b934-fbf557508a4e"
+      }
+    ],
     "posters": []
   },
   {
@@ -6054,7 +7409,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1557667f-790e-80e6-b934-fbf557508a4e"
+      }
+    ],
     "posters": []
   },
   {
@@ -6178,14 +7537,29 @@
   },
   {
     "id": "1547667f-790e-80c1-92ac-e904fe13be55",
-    "last_edited": "2024-12-06T13:10:00.000Z",
-    "hikka_url": null,
+    "last_edited": "2025-01-03T10:24:00.000Z",
+    "hikka_url": "https://hikka.io/anime/kekkai-sensen-soresaemo-saitei-de-saikou-na-hibi-6e02c4",
     "title": "Вартові кривавого бар'єру Спешл",
+    "romaji": "Kekkai Sensen: Soresaemo Saitei de Saikou na Hibi",
     "synonyms": [],
+    "hikkaSynonyms": [
+      "Kekkai Sensen 10.5",
+      "Вартові кривавого бар'єру Епізод 10.5"
+    ],
+    "type": "Аніме",
+    "format": "Рекап",
+    "year": "2015",
+    "scoreMAL": 6.82,
+    "scoredbyMAL": 18695,
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "1357667f-790e-8015-8600-de19bab5569d"
+      }
+    ],
     "relations": [
       {
         "id": "b0617ffb-b2ee-42dd-86c5-3dca79cd7ac4"
@@ -6308,7 +7682,11 @@
     "episodes": "13",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": []
   },
   {
@@ -6333,7 +7711,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": []
   },
   {
@@ -6359,7 +7741,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1733563466/Сім_Смертних_Гріхів_3_b5scln.png",
@@ -6391,7 +7777,11 @@
     "episodes": "2",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": []
   },
   {
@@ -6421,7 +7811,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1733563466/Сім_Смертних_Гріхів_kr5bdb.jpg",
@@ -6457,7 +7851,11 @@
         "id": "04659447-1a39-44aa-bcf6-1b417766677b"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": []
   },
   {
@@ -7340,7 +8738,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1527667f-790e-8095-aa18-f1e742034760"
+      }
+    ],
     "posters": []
   },
   {
@@ -7369,7 +8771,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1527667f-790e-8095-aa18-f1e742034760"
+      }
+    ],
     "posters": []
   },
   {
@@ -7400,7 +8806,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1527667f-790e-8095-aa18-f1e742034760"
+      }
+    ],
     "posters": []
   },
   {
@@ -7430,7 +8840,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1527667f-790e-8095-aa18-f1e742034760"
+      }
+    ],
     "posters": []
   },
   {
@@ -7948,7 +9362,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1517667f-790e-80eb-8862-cd6ac2f1828b"
+      }
+    ],
     "posters": []
   },
   {
@@ -7973,7 +9391,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1517667f-790e-80eb-8862-cd6ac2f1828b"
+      }
+    ],
     "posters": []
   },
   {
@@ -8001,7 +9423,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1517667f-790e-80eb-8862-cd6ac2f1828b"
+      }
+    ],
     "posters": []
   },
   {
@@ -8026,7 +9452,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1517667f-790e-80eb-8862-cd6ac2f1828b"
+      }
+    ],
     "posters": []
   },
   {
@@ -8055,7 +9485,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1517667f-790e-80eb-8862-cd6ac2f1828b"
+      }
+    ],
     "posters": []
   },
   {
@@ -8085,10 +9519,17 @@
     "releases": [
       {
         "id": "1517667f-790e-8087-8812-fec846e13034"
+      },
+      {
+        "id": "1657667f-790e-80ff-b20b-d941d058505c"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1517667f-790e-80eb-8862-cd6ac2f1828b"
+      }
+    ],
     "posters": []
   },
   {
@@ -8119,7 +9560,11 @@
     "episodes": "2",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1517667f-790e-80eb-8862-cd6ac2f1828b"
+      }
+    ],
     "posters": []
   },
   {
@@ -8989,6 +10434,9 @@
       },
       {
         "id": "14c7667f-790e-80e8-9fa9-e00ce86bb71b"
+      },
+      {
+        "id": "16f7667f-790e-8025-a458-e8524a7a2451"
       }
     ],
     "relations": [],
@@ -9217,7 +10665,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-808d-8233-d9e39665b2b8"
+      }
+    ],
     "posters": []
   },
   {
@@ -9244,7 +10696,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-808d-8233-d9e39665b2b8"
+      }
+    ],
     "posters": []
   },
   {
@@ -9298,7 +10754,11 @@
     "episodes": "24",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-80d7-ad69-eabcafa8b3da"
+      }
+    ],
     "posters": []
   },
   {
@@ -9323,7 +10783,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-80d7-ad69-eabcafa8b3da"
+      }
+    ],
     "posters": []
   },
   {
@@ -10067,7 +11531,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1467667f-790e-8067-a0f0-c5ee09d70d20"
+      }
+    ],
     "posters": []
   },
   {
@@ -10112,7 +11580,11 @@
         "id": "e456153a-63dd-4026-bbfe-982fd3696d8a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1557667f-790e-80e6-b934-fbf557508a4e"
+      }
+    ],
     "posters": []
   },
   {
@@ -10592,7 +12064,11 @@
         "id": "e6db29a6-ecbb-4647-9f6a-1a1295bf9af4"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1457667f-790e-8092-ba7e-d8ee4f7a5872"
+      }
+    ],
     "posters": []
   },
   {
@@ -10757,7 +12233,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735030933/АтакаТитанів_-_Середня_школа_c665nb.png",
@@ -10794,7 +12274,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735030932/АтакаТитанів_-_Щоденник_Ільзе_olxyk4.png",
@@ -10830,7 +12314,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735030930/АтакаТитанів_-_Без_жалю_o81eqn.png",
@@ -10925,7 +12413,11 @@
     "episodes": "25",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-807f-ac6b-cf6b7b6a35f7"
+      }
+    ],
     "posters": []
   },
   {
@@ -10950,7 +12442,11 @@
     "episodes": "11",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-807f-ac6b-cf6b7b6a35f7"
+      }
+    ],
     "posters": []
   },
   {
@@ -10979,7 +12475,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-807f-ac6b-cf6b7b6a35f7"
+      }
+    ],
     "posters": []
   },
   {
@@ -11007,6 +12507,9 @@
     "releases": [
       {
         "id": "1427667f-790e-80f3-811a-c083dc3ce1c2"
+      },
+      {
+        "id": "725525c1-01e6-47ac-9c33-30a5c7a3080e"
       }
     ],
     "relations": [],
@@ -11102,7 +12605,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8055-abe9-c4a8499ba10a"
+      }
+    ],
     "posters": []
   },
   {
@@ -11124,7 +12631,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8099-80ff-ec0bdbcb6dc4"
+      }
+    ],
     "posters": []
   },
   {
@@ -11161,7 +12672,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8099-80ff-ec0bdbcb6dc4"
+      }
+    ],
     "posters": []
   },
   {
@@ -11405,7 +12920,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -11846,6 +13365,9 @@
       },
       {
         "id": "1617667f-790e-802f-bb3b-cc319e1b5b57"
+      },
+      {
+        "id": "1737667f-790e-8069-81a2-fca517c9eaca"
       }
     ],
     "relations": [],
@@ -12051,7 +13573,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13f7667f-790e-8084-967a-c6d17d30c4c0"
+      }
+    ],
     "posters": []
   },
   {
@@ -12078,7 +13604,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13f7667f-790e-8084-967a-c6d17d30c4c0"
+      }
+    ],
     "posters": []
   },
   {
@@ -12107,7 +13637,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13f7667f-790e-8084-967a-c6d17d30c4c0"
+      }
+    ],
     "posters": []
   },
   {
@@ -12137,7 +13671,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13f7667f-790e-8084-967a-c6d17d30c4c0"
+      }
+    ],
     "posters": []
   },
   {
@@ -12778,7 +14316,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13d7667f-790e-8047-9621-e1f542d86a80"
+      }
+    ],
     "posters": []
   },
   {
@@ -12810,7 +14352,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13d7667f-790e-8047-9621-e1f542d86a80"
+      }
+    ],
     "posters": []
   },
   {
@@ -12831,7 +14377,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "7ea29855-20d7-41be-bae5-e9f4bfba3903"
+      }
+    ],
     "posters": []
   },
   {
@@ -12893,7 +14443,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-808d-8233-d9e39665b2b8"
+      }
+    ],
     "posters": []
   },
   {
@@ -12985,7 +14539,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-808e-a767-f3d44ddf6931"
+      }
+    ],
     "posters": []
   },
   {
@@ -13010,7 +14568,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-808e-a767-f3d44ddf6931"
+      }
+    ],
     "posters": []
   },
   {
@@ -13037,7 +14599,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-808e-a767-f3d44ddf6931"
+      }
+    ],
     "posters": []
   },
   {
@@ -13064,7 +14630,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-808e-a767-f3d44ddf6931"
+      }
+    ],
     "posters": []
   },
   {
@@ -13087,7 +14657,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -13114,7 +14688,11 @@
     "episodes": "2",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -13143,7 +14721,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -13166,7 +14748,11 @@
     "episodes": "2",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -13195,7 +14781,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -13218,7 +14808,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -13246,7 +14840,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -13271,7 +14869,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c5bd3095-168a-491e-acf6-f5e31159012a"
+      }
+    ],
     "posters": []
   },
   {
@@ -13304,7 +14906,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c5bd3095-168a-491e-acf6-f5e31159012a"
+      }
+    ],
     "posters": []
   },
   {
@@ -13326,7 +14932,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-958d-cfed75058e81"
+      }
+    ],
     "posters": []
   },
   {
@@ -13357,7 +14967,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-958d-cfed75058e81"
+      }
+    ],
     "posters": []
   },
   {
@@ -13392,7 +15006,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-958d-cfed75058e81"
+      }
+    ],
     "posters": []
   },
   {
@@ -13483,7 +15101,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -13508,7 +15130,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -13534,7 +15160,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -13563,7 +15193,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -13588,7 +15222,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -13648,6 +15286,9 @@
     "releases": [
       {
         "id": "13c7667f-790e-80c6-a86d-f2b7e90e0c85"
+      },
+      {
+        "id": "16c7667f-790e-80c9-b699-da0d0248be4e"
       }
     ],
     "relations": [
@@ -13714,7 +15355,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-a105-caa67fe5bc02"
+      }
+    ],
     "posters": []
   },
   {
@@ -13743,7 +15388,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-a105-caa67fe5bc02"
+      }
+    ],
     "posters": []
   },
   {
@@ -13775,7 +15424,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-a105-caa67fe5bc02"
+      }
+    ],
     "posters": []
   },
   {
@@ -13802,7 +15455,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-a105-caa67fe5bc02"
+      }
+    ],
     "posters": []
   },
   {
@@ -13832,7 +15489,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-800a-9bf2-c1e5a54ea639"
+      }
+    ],
     "posters": []
   },
   {
@@ -13855,7 +15516,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-800a-9bf2-c1e5a54ea639"
+      }
+    ],
     "posters": []
   },
   {
@@ -13884,7 +15549,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-800a-9bf2-c1e5a54ea639"
+      }
+    ],
     "posters": []
   },
   {
@@ -13913,7 +15582,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-800a-9bf2-c1e5a54ea639"
+      }
+    ],
     "posters": []
   },
   {
@@ -13940,7 +15613,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-809e-9885-ef9415bb8cdd"
+      }
+    ],
     "posters": []
   },
   {
@@ -13971,7 +15648,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-809e-9885-ef9415bb8cdd"
+      }
+    ],
     "posters": []
   },
   {
@@ -14031,7 +15712,11 @@
     "episodes": "23",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-808b-ab1f-d71c8c466345"
+      }
+    ],
     "posters": []
   },
   {
@@ -14057,7 +15742,11 @@
     "episodes": "24",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-808b-ab1f-d71c8c466345"
+      }
+    ],
     "posters": []
   },
   {
@@ -14089,7 +15778,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-808b-ab1f-d71c8c466345"
+      }
+    ],
     "posters": []
   },
   {
@@ -14113,7 +15806,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14144,7 +15841,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14173,7 +15874,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14203,7 +15908,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14230,7 +15939,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14261,7 +15974,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14288,7 +16005,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14314,7 +16035,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14343,7 +16068,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14373,7 +16102,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -14499,7 +16232,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -14529,7 +16266,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -14559,7 +16300,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -14585,7 +16330,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -14615,7 +16364,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -14641,7 +16394,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -14671,7 +16428,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -14924,6 +16685,9 @@
       },
       {
         "id": "1357667f-790e-8029-b600-f6c24e9e4238"
+      },
+      {
+        "id": "725525c1-01e6-47ac-9c33-30a5c7a3080e"
       }
     ],
     "relations": [
@@ -15040,7 +16804,11 @@
         "id": "1167667f-790e-806e-b84f-d610c9718d2e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-807f-ac6b-cf6b7b6a35f7"
+      }
+    ],
     "posters": []
   },
   {
@@ -15201,7 +16969,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80b6-8701-c73ccd72ebc2"
+      }
+    ],
     "posters": []
   },
   {
@@ -15228,7 +17000,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80b6-8701-c73ccd72ebc2"
+      }
+    ],
     "posters": []
   },
   {
@@ -15255,7 +17031,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80b6-8701-c73ccd72ebc2"
+      }
+    ],
     "posters": []
   },
   {
@@ -15318,7 +17098,7 @@
   },
   {
     "id": "1377667f-790e-8017-92df-e67636492253",
-    "last_edited": "2024-11-07T07:59:00.000Z",
+    "last_edited": "2025-01-02T07:49:00.000Z",
     "hikka_url": "https://hikka.io/anime/cang-yuan-tu-605296",
     "poster": "https://cdn.hikka.io/content/anime/cang-yuan-tu-605296/XOkT-593c_8y1Bq3YUvZlQ.jpg",
     "title": "Мисливець на демонів",
@@ -15345,7 +17125,14 @@
         "id": "1377667f-790e-8064-8981-ff7e56cfd96a"
       }
     ],
-    "relations": [],
+    "relations": [
+      {
+        "id": "16a7667f-790e-806f-84b4-f0454f2d8bdc"
+      },
+      {
+        "id": "16f7667f-790e-80df-99cc-f4d1281c1317"
+      }
+    ],
     "Франшиза": [],
     "posters": []
   },
@@ -15686,7 +17473,11 @@
         "id": "0b129e55-5c1b-4a76-b527-4cae4a728821"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163359/моя_геройська_академія_6.1_ytyq7t.jpg",
@@ -15739,7 +17530,11 @@
         "id": "0b129e55-5c1b-4a76-b527-4cae4a728821"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163423/моя_геройська_академія_5.1_payh7o.jpg",
@@ -15790,7 +17585,11 @@
         "id": "0b129e55-5c1b-4a76-b527-4cae4a728821"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729682932/моя_геройська_академія_4.1_gbvncl.jpg",
@@ -15844,7 +17643,11 @@
         "id": "0b129e55-5c1b-4a76-b527-4cae4a728821"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163335/моя_геройська_академія_3.1_rh6izr.jpg",
@@ -15891,7 +17694,11 @@
         "id": "0b129e55-5c1b-4a76-b527-4cae4a728821"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163360/моя_геройська_академія_2.1_esewkg.jpg",
@@ -16320,7 +18127,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-8043-8dc2-dec844353c89"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -16887,7 +18698,11 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-808b-a812-d1b7a8773c9f"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -17117,6 +18932,9 @@
     "releases": [
       {
         "id": "1537667f-790e-80ec-adf9-ed3cb0db721d"
+      },
+      {
+        "id": "1367667f-790e-803e-8d4c-c53d24be3795"
       }
     ],
     "relations": [],
@@ -17255,7 +19073,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163419/майстерство_меча_онлайн_4.2_ueqjdx.jpg",
@@ -17286,7 +19108,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163419/майстерство_меча_онлайн_1_5_insm1d.jpg",
@@ -17475,7 +19301,11 @@
         "id": "0675b90f-1466-4e53-9a4c-e698a20e482d"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13d7667f-790e-8047-9621-e1f542d86a80"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163335/сходження_в_тіні_фільм_1.1_hfdvdk.jpg",
@@ -18391,7 +20221,11 @@
         "id": "c9b07d34-c157-4697-90a3-25f6593e93f1"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-808d-8233-d9e39665b2b8"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/rodom-z-absa-made-in-abyss-2017-by-ham_r.jpg",
@@ -18427,7 +20261,11 @@
         "id": "c9b07d34-c157-4697-90a3-25f6593e93f1"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-808d-8233-d9e39665b2b8"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/rodom-z-absa-made-in-abyss-2017-by-ham_r-2.jpg",
@@ -18780,7 +20618,7 @@
   },
   {
     "id": "1167667f-790e-80a5-8b1f-ec0f24bb96f1",
-    "last_edited": "2024-12-12T14:14:00.000Z",
+    "last_edited": "2024-12-26T21:53:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-gaoshou-e9d542",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98861-vDeVlvjXHh0g.jpg",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-gaoshou-e9d542/7tKM9-T5-46IPFabZG4Puw.jpg",
@@ -18806,6 +20644,9 @@
     "releases": [
       {
         "id": "1587667f-790e-8072-b555-f18439d74022"
+      },
+      {
+        "id": "16f7667f-790e-80aa-9878-fbaa0f5fc932"
       }
     ],
     "relations": [
@@ -19110,7 +20951,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-808e-a767-f3d44ddf6931"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/l-teraturn-gen--brodyach-psi-2.jpg",
@@ -19312,7 +21157,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-8068-96e2-c4735905235a"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -19548,7 +21397,11 @@
         "id": "10c7667f-790e-8023-be89-c8fd4088e33d"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-807f-ac6b-cf6b7b6a35f7"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/pererodzhennya.jpg",
@@ -19983,9 +21836,6 @@
     "releases": [
       {
         "id": "1587667f-790e-80f6-bc6f-e85a3d604556"
-      },
-      {
-        "id": "1587667f-790e-8059-84a0-c34d5f696afa"
       }
     ],
     "relations": [],
@@ -21408,7 +23258,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729848606/МГА_Ти_наступний_xlz6wh.jpg",
@@ -21775,6 +23629,9 @@
       },
       {
         "id": "15e7667f-790e-806c-80f1-ea37fe675472"
+      },
+      {
+        "id": "1707667f-790e-8044-af5d-c94be0592c8d"
       }
     ],
     "relations": [],
@@ -21904,7 +23761,11 @@
         "id": "1167667f-790e-806e-b84f-d610c9718d2e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-807f-ac6b-cf6b7b6a35f7"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171312/Переродження_3_сезон_1_версія_p1rk0s.png",
@@ -21950,7 +23811,11 @@
         "id": "1167667f-790e-806e-b84f-d610c9718d2e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-807f-ac6b-cf6b7b6a35f7"
+      }
+    ],
     "posters": []
   },
   {
@@ -21983,6 +23848,9 @@
       },
       {
         "id": "15f7667f-790e-8066-b52f-dcd56a3a8277"
+      },
+      {
+        "id": "16f7667f-790e-800d-bca6-c1b92a62a39f"
       }
     ],
     "relations": [],
@@ -22115,7 +23983,11 @@
         "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171292/АтакаТитанів_-_Остання_атака_bsknda.png",
@@ -22469,7 +24341,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-8036-8cc2-fb53f8994715"
+      }
+    ],
     "posters": []
   },
   {
@@ -22504,7 +24380,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-8036-8cc2-fb53f8994715"
+      }
+    ],
     "posters": []
   },
   {
@@ -22953,7 +24833,7 @@
   },
   {
     "id": "5100a8ee-06cd-4217-bbea-92e81b23a15d",
-    "last_edited": "2024-12-05T10:31:00.000Z",
+    "last_edited": "2025-01-02T13:09:00.000Z",
     "hikka_url": "https://hikka.io/anime/ao-no-miburo-7c1b6e",
     "poster": "https://cdn.hikka.io/content/anime/ao-no-miburo-7c1b6e/qTUH4EpiCEK9HhALkhIfhg.jpg",
     "title": "Блакитні вовки Мібуро",
@@ -22970,6 +24850,7 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "24",
     "releases": [
       {
         "id": "1377667f-790e-804f-9f52-fdffd989f329"
@@ -23099,7 +24980,11 @@
         "id": "1457667f-790e-80dc-84d4-da17cdad19fb"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1457667f-790e-8092-ba7e-d8ee4f7a5872"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164829/photo_2024-10-16_11-30-50_pa7z0w.jpg",
@@ -23128,7 +25013,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": []
   },
   {
@@ -23155,7 +25044,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": []
   },
   {
@@ -23188,7 +25081,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/kniga-druz-v-natsume-ova.jpg",
@@ -23222,7 +25119,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": []
   },
   {
@@ -23253,7 +25154,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": []
   },
   {
@@ -23284,7 +25189,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": []
   },
   {
@@ -23315,7 +25224,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": []
   },
   {
@@ -23347,7 +25260,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/kniga-druz-v-natsume_1488315211.jpg",
@@ -23384,7 +25301,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/kniga-druz-v-natsume_1483295313.jpg",
@@ -23421,7 +25342,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/kniga-druz-v-natsume_1382223829.jpg",
@@ -23523,7 +25448,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c49a50b2-eaf3-40e0-8e2c-117c9d764345"
+      }
+    ],
     "posters": []
   },
   {
@@ -23556,7 +25485,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c49a50b2-eaf3-40e0-8e2c-117c9d764345"
+      }
+    ],
     "posters": []
   },
   {
@@ -23777,7 +25710,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": []
   },
   {
@@ -23808,7 +25745,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": []
   },
   {
@@ -23839,7 +25780,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/psikhopas.jpg",
@@ -24594,7 +26539,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": []
   },
   {
@@ -24837,7 +26786,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -24866,7 +26819,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -24895,7 +26852,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -25059,7 +27020,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c49a50b2-eaf3-40e0-8e2c-117c9d764345"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/legenda-pro-gero-v-galaktiki.jpg",
@@ -25089,7 +27054,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e363d612-4ee2-4958-9a5f-18d92320f38c"
+      }
+    ],
     "posters": [
       {
         "name": "https://anitube.in.ua/uploads/mini/full-news-poster/6/5e8a87a059a1ef03dabff7809f32b2.jpg",
@@ -25119,7 +27088,11 @@
     "episodes": "27",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "67a83334-309c-4794-8574-ed9d8d1bfe16"
+      }
+    ],
     "posters": []
   },
   {
@@ -25150,7 +27123,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "67a83334-309c-4794-8574-ed9d8d1bfe16"
+      }
+    ],
     "posters": []
   },
   {
@@ -25187,7 +27164,11 @@
         "id": "56c5ea7b-4aae-42a8-b444-f6dc9d79ff1a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "67a83334-309c-4794-8574-ed9d8d1bfe16"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/k-no.jpg",
@@ -25285,7 +27266,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "41dfbed4-02c2-4e1f-9300-862e38823dce"
+      }
+    ],
     "posters": []
   },
   {
@@ -25316,7 +27301,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "41dfbed4-02c2-4e1f-9300-862e38823dce"
+      }
+    ],
     "posters": []
   },
   {
@@ -25349,7 +27338,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "41dfbed4-02c2-4e1f-9300-862e38823dce"
+      }
+    ],
     "posters": []
   },
   {
@@ -25538,7 +27531,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c49a50b2-eaf3-40e0-8e2c-117c9d764345"
+      }
+    ],
     "posters": []
   },
   {
@@ -25568,7 +27565,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c49a50b2-eaf3-40e0-8e2c-117c9d764345"
+      }
+    ],
     "posters": []
   },
   {
@@ -25599,7 +27600,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c49a50b2-eaf3-40e0-8e2c-117c9d764345"
+      }
+    ],
     "posters": []
   },
   {
@@ -25620,7 +27625,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -25651,7 +27660,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -25682,7 +27695,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -25713,7 +27730,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -25747,7 +27768,11 @@
         "id": "1bc7b34f-389e-4238-a57c-6477e79209af"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/dukh-v-obolonts-.jpg",
@@ -25780,7 +27805,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -25808,7 +27837,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -25840,7 +27873,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -25870,7 +27907,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/privid-v-latakh.-nevinn-st.jpg",
@@ -25909,7 +27950,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -25950,7 +27995,11 @@
         "id": "431db28a-d0ae-4c7c-b1ec-1c4d6bf3caac"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -26023,7 +28072,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e363d612-4ee2-4958-9a5f-18d92320f38c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/full-metal-panicthe-second-raid-ova.jpg",
@@ -26177,7 +28230,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-80d7-ad69-eabcafa8b3da"
+      }
+    ],
     "posters": []
   },
   {
@@ -26309,6 +28366,9 @@
       },
       {
         "id": "15f7667f-790e-80c0-86ea-fd4e99e2b7f0"
+      },
+      {
+        "id": "16f7667f-790e-8003-b8a4-faa3ba13d800"
       }
     ],
     "relations": [],
@@ -26395,7 +28455,11 @@
         "id": "d64eee00-b63a-472b-b2ee-22cba59d6332"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171187/Альтернативний_САО_2_vdwaxc.png",
@@ -26852,7 +28916,14 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-8039-aade-c78a0f80a548"
+      },
+      {
+        "id": "16f7667f-790e-80f8-8e1c-ca8c55d8da7a"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -26893,6 +28964,9 @@
       },
       {
         "id": "14c7667f-790e-80e5-b728-dc6609aa28de"
+      },
+      {
+        "id": "16f7667f-790e-801e-989c-f3fd9fcd759d"
       }
     ],
     "relations": [],
@@ -26981,7 +29055,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-80a7-b3ae-e5342130eaa9"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -27104,7 +29182,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "42184ddb-1ff4-43ee-b2a7-a720ffb7083d"
+      }
+    ],
     "posters": []
   },
   {
@@ -27134,7 +29216,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "42184ddb-1ff4-43ee-b2a7-a720ffb7083d"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171072/Непутящий_учень_школи_магії_2_версія_ca8aqm.png",
@@ -27673,7 +29759,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-80fa-ba9c-f9606cf2f2f1"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -27873,7 +29963,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170846/Волейбол._Фільм_2024_s320j9.png",
@@ -28283,7 +30377,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "b3a7b894-838d-4fc5-bcd6-e689e2cc6060"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170312/Меч_короля._Остання_фантазія_15_tlybrf.png",
@@ -28518,6 +30616,9 @@
       },
       {
         "id": "1517667f-790e-8068-863c-ea879c996a6e"
+      },
+      {
+        "id": "16c7667f-790e-8039-b20e-dc2b0a41cbc2"
       }
     ],
     "relations": [
@@ -28901,7 +31002,14 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16d7667f-790e-8085-b7bb-eef52de662d5"
+      },
+      {
+        "id": "16d7667f-790e-807b-922c-f69a3cd38ba8"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -29006,7 +31114,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729168584/Привид_в_латах._СС_2045_2_h4czi6.jpg",
@@ -29130,7 +31242,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "4f0a71d1-0142-45c1-b974-25400edb52da"
+      }
+    ],
     "posters": []
   },
   {
@@ -29156,7 +31272,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "4f0a71d1-0142-45c1-b974-25400edb52da"
+      }
+    ],
     "posters": []
   },
   {
@@ -29181,7 +31301,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "4f0a71d1-0142-45c1-b974-25400edb52da"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729168430/Оселя_зла_Острів_смерті_1_версія_fi2fr8.jpg",
@@ -29368,7 +31492,11 @@
         "id": "9a1e7e58-042e-444b-92a7-0d96c10fe00e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "dc5a35e6-06e3-49d0-9960-2c6edeb09acd"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729167131/Квартет_потраплянців._Інший_світ_oxcvkg.jpg",
@@ -29492,6 +31620,9 @@
       },
       {
         "id": "14b7667f-790e-80a8-804e-f8032067723e"
+      },
+      {
+        "id": "16c7667f-790e-802f-953f-de04e24c1230"
       }
     ],
     "relations": [],
@@ -29916,7 +32047,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165659/Мобільна_броня_Ґандам_Відьма_з_Меркурію_2_версія_s1msaf.jpg",
@@ -29986,7 +32121,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13f7667f-790e-8084-967a-c6d17d30c4c0"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734006916/Персона_5_mhtwbb.png",
@@ -30114,10 +32253,10 @@
   },
   {
     "id": "a9a62eb9-33b7-4cb0-815e-fc0229a6410d",
-    "last_edited": "2024-11-27T13:59:00.000Z",
+    "last_edited": "2025-01-03T12:08:00.000Z",
     "hikka_url": "https://hikka.io/anime/jojo-no-kimyou-na-bouken-tv-a67ac7",
     "poster": "https://cdn.hikka.io/content/anime/jojo-no-kimyou-na-bouken-tv-a67ac7/nnKlB4ps2shtH2vp45vNZg.jpg",
-    "title": "Химерні пригоди ДжоДжо",
+    "title": "Химерні пригоди ДжоДжо: ФК/БТ",
     "romaji": "JoJo no Kimyou na Bouken",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -30145,10 +32284,17 @@
       },
       {
         "id": "13c7667f-790e-8054-80e3-d8c683b9d850"
+      },
+      {
+        "id": "1707667f-790e-806a-9618-cd556eefcb01"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a11b23d3-29c6-4ef8-b83b-e16fc3032bca"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163761/jojo_1.2_f9vqd3.png",
@@ -30184,6 +32330,9 @@
       },
       {
         "id": "1617667f-790e-800b-adcb-d14cfe2cffef"
+      },
+      {
+        "id": "16c7667f-790e-804a-b18e-c58c80e7fa31"
       }
     ],
     "relations": [
@@ -30227,10 +32376,17 @@
       },
       {
         "id": "15f7667f-790e-80e7-9463-ce44193039a0"
+      },
+      {
+        "id": "16c7667f-790e-802a-b652-d4a7128aada5"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c5bd3095-168a-491e-acf6-f5e31159012a"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163573/переродження_безробітного_1.4_gfttrl.jpg",
@@ -30308,7 +32464,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": []
   },
   {
@@ -30435,7 +32595,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8099-80ff-ec0bdbcb6dc4"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734006916/ЦейПрекраснийСвітБлагословеннийБогом_ОВА_zriqhb.png",
@@ -30630,7 +32794,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": []
   },
   {
@@ -32301,31 +34469,6 @@
     ]
   },
   {
-    "id": "8b2b842b-08ac-4ef6-bc7e-4721f4277ada",
-    "last_edited": "2024-08-22T17:06:00.000Z",
-    "hikka_url": "https://hikka.io/anime/yakusoku-no-neverland-6d9279",
-    "poster": "https://cdn.hikka.io/content/anime/yakusoku-no-neverland-6d9279/0up2-liBvkRO657pTB0tZA.jpg",
-    "title": "Обіцяний Неверленд",
-    "romaji": "Yakusoku no Neverland",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Неверленд. Омріяна нами країна вічного дитинства"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2019",
-    "scoreMAL": 8.49,
-    "scoredbyMAL": 1318472,
-    "Анітюб": "https://anitube.in.ua/3328-neverlend.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "12",
-    "releases": [],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
     "id": "addf4871-6e94-4b4b-b120-6b7cb29b3286",
     "last_edited": "2024-12-10T11:46:00.000Z",
     "hikka_url": "https://hikka.io/anime/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-7a8cd4",
@@ -32366,7 +34509,11 @@
         "id": "6f839a2d-62e1-4310-98de-52e44a977d50"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-8036-8cc2-fb53f8994715"
+      }
+    ],
     "posters": []
   },
   {
@@ -32410,7 +34557,11 @@
         "id": "addf4871-6e94-4b4b-b120-6b7cb29b3286"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-8036-8cc2-fb53f8994715"
+      }
+    ],
     "posters": []
   },
   {
@@ -32456,7 +34607,11 @@
         "id": "addf4871-6e94-4b4b-b120-6b7cb29b3286"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-8036-8cc2-fb53f8994715"
+      }
+    ],
     "posters": []
   },
   {
@@ -32858,7 +35013,7 @@
   },
   {
     "id": "29cb4f4f-3cae-4871-9eaf-f24953008074",
-    "last_edited": "2024-09-27T06:44:00.000Z",
+    "last_edited": "2024-12-30T14:00:00.000Z",
     "hikka_url": "https://hikka.io/anime/wotaku-ni-koi-wa-muzukashii-ova-bab5b7",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104217-kTPD8KidJyCi.jpg",
     "poster": "https://cdn.hikka.io/content/anime/wotaku-ni-koi-wa-muzukashii-ova-bab5b7/LSYzd6cB0tRm2-FpA2uU_Q.jpg",
@@ -32882,8 +35037,16 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "3",
-    "releases": [],
-    "relations": [],
+    "releases": [
+      {
+        "id": "16c7667f-790e-80a8-a6d8-f8ba79a829d8"
+      }
+    ],
+    "relations": [
+      {
+        "id": "0456a5dd-1074-47a6-9dda-b5c50fe81c31"
+      }
+    ],
     "Франшиза": [],
     "posters": []
   },
@@ -32972,6 +35135,9 @@
     "releases": [
       {
         "id": "7c93a9d0-6a74-4a1a-b590-7a82809ebfdf"
+      },
+      {
+        "id": "16c7667f-790e-8049-961f-c183c5555277"
       }
     ],
     "relations": [],
@@ -33343,6 +35509,9 @@
     "releases": [
       {
         "id": "1597667f-790e-804a-8f56-e9aea4373feb"
+      },
+      {
+        "id": "16c7667f-790e-808f-8228-d328909e0f25"
       }
     ],
     "relations": [],
@@ -33401,6 +35570,9 @@
     "releases": [
       {
         "id": "5e5597ba-e81b-437d-aeaa-e28989c9bc82"
+      },
+      {
+        "id": "16c7667f-790e-8081-aa3b-c3df200f26b1"
       }
     ],
     "relations": [],
@@ -33784,6 +35956,9 @@
     "releases": [
       {
         "id": "9a760d0f-39b8-4ea9-a1d3-887b390874ec"
+      },
+      {
+        "id": "16c7667f-790e-8027-995c-e98a66db96e0"
       }
     ],
     "relations": [
@@ -33853,6 +36028,9 @@
       },
       {
         "id": "1627667f-790e-80ea-a092-d060043e2f7c"
+      },
+      {
+        "id": "16c7667f-790e-80d1-ad61-fc1f3e43a4d1"
       }
     ],
     "relations": [],
@@ -34052,7 +36230,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1457667f-790e-8092-ba7e-d8ee4f7a5872"
+      }
+    ],
     "posters": []
   },
   {
@@ -34084,7 +36266,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1457667f-790e-8092-ba7e-d8ee4f7a5872"
+      }
+    ],
     "posters": []
   },
   {
@@ -34169,6 +36355,9 @@
       },
       {
         "id": "89df2273-0c7e-43d3-a521-b949a9422fc4"
+      },
+      {
+        "id": "16c7667f-790e-80bb-8987-f22abb5b5e1b"
       }
     ],
     "relations": [],
@@ -34204,7 +36393,7 @@
   },
   {
     "id": "af8c3770-55d6-4ecb-86e0-97bff0a40420",
-    "last_edited": "2024-08-22T17:08:00.000Z",
+    "last_edited": "2025-01-02T10:30:00.000Z",
     "hikka_url": "https://hikka.io/anime/upotte-miatte-waratte-3eb786",
     "poster": "https://cdn.hikka.io/content/anime/upotte-miatte-waratte-3eb786/wcN5G-oUydtdv66TGHmGRg.jpg",
     "title": "Збройна школа!",
@@ -34222,8 +36411,16 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
-    "releases": [],
-    "relations": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-80e7-b3c2-d7dc4fbd0ae5"
+      }
+    ],
+    "relations": [
+      {
+        "id": "16f7667f-790e-80c0-b017-e79fc4f56423"
+      }
+    ],
     "Франшиза": [],
     "posters": []
   },
@@ -34408,7 +36605,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "41dfbed4-02c2-4e1f-9300-862e38823dce"
+      }
+    ],
     "posters": []
   },
   {
@@ -35167,7 +37368,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": []
   },
   {
@@ -36109,7 +38314,14 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "13",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16c7667f-790e-806b-932c-cc486e5410be"
+      },
+      {
+        "id": "16f7667f-790e-802c-afad-faba79d69175"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -36269,6 +38481,9 @@
     "releases": [
       {
         "id": "13c7667f-790e-80e6-abbe-d7cf05426fb5"
+      },
+      {
+        "id": "1707667f-790e-8079-b84b-fc4e4cf7b03b"
       }
     ],
     "relations": [],
@@ -36416,7 +38631,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80b6-8701-c73ccd72ebc2"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/tok-iskii-lyudozher2.jpg",
@@ -36454,7 +38673,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80b6-8701-c73ccd72ebc2"
+      }
+    ],
     "posters": []
   },
   {
@@ -36825,6 +39048,12 @@
     "releases": [
       {
         "id": "1527667f-790e-8005-a92b-d343a4959791"
+      },
+      {
+        "id": "16c7667f-790e-800c-a19a-c86223d91840"
+      },
+      {
+        "id": "16d7667f-790e-80e7-8430-f8ba103f2ddc"
       }
     ],
     "relations": [],
@@ -37294,7 +39523,14 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "13",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-80ba-a023-dc05986d376f"
+      },
+      {
+        "id": "16f7667f-790e-8062-9fee-ffebc4fc9609"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -37367,7 +39603,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -37429,7 +39669,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164918/photo_2024-10-16_11-32-52_tj05oa.jpg",
@@ -37473,7 +39717,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -37506,7 +39754,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -37543,7 +39795,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170867/Коли_я_переродився_слизом_3_2_версія_bfuoia.png",
@@ -37586,7 +39842,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -37621,7 +39881,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80cf-90af-c7b80d6fd38d"
+      }
+    ],
     "posters": []
   },
   {
@@ -38359,6 +40623,9 @@
     "releases": [
       {
         "id": "1427667f-790e-807b-8731-f8ab71d1205e"
+      },
+      {
+        "id": "16c7667f-790e-8092-9786-d9074a9950fd"
       }
     ],
     "relations": [],
@@ -38754,7 +41021,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729851314/майстерство_меча_онлайн_4.1_q7oib1.jpg",
@@ -38791,7 +41062,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164785/photo_2024-10-17_12-46-07_m1s7pu.jpg",
@@ -38833,7 +41108,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163360/майстерство_меча_онлайн_2.1_nobpnf.jpg",
@@ -38879,7 +41158,11 @@
         "id": "86f4bd0d-fc84-4a84-a984-cc3df7b6a6c5"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": []
   },
   {
@@ -38917,7 +41200,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729851425/майстерство_меча_онлайн_1_k99son.jpg",
@@ -39118,10 +41405,10 @@
   },
   {
     "id": "7edded2e-ccc9-4eb3-bd3a-265d3b6b202e",
-    "last_edited": "2024-08-22T17:19:00.000Z",
+    "last_edited": "2024-12-30T10:31:00.000Z",
     "hikka_url": "https://hikka.io/anime/super-seisyun-brothers-62535f",
     "poster": "https://cdn.hikka.io/content/anime/super-seisyun-brothers-62535f/yuqW3fdd1SQpzjQXlYUyCQ.jpg",
-    "title": "Супер-юні Брати і Сестри",
+    "title": "Суперюні брати та сестри",
     "romaji": "Super Seisyun Brothers",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -39140,6 +41427,9 @@
     "releases": [
       {
         "id": "1597667f-790e-8057-b1d4-d470f537e901"
+      },
+      {
+        "id": "16c7667f-790e-80e0-b557-e3cd76dadff5"
       }
     ],
     "relations": [],
@@ -39908,7 +42198,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "7ea29855-20d7-41be-bae5-e9f4bfba3903"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729166461/Сім_я_шпигуна._Код_-_Білий_gobte4.jpg",
@@ -40317,7 +42611,7 @@
   },
   {
     "id": "5089f5c1-fe40-41f1-a630-1a5fdeeb1015",
-    "last_edited": "2024-09-22T08:19:00.000Z",
+    "last_edited": "2025-01-03T08:53:00.000Z",
     "hikka_url": "https://hikka.io/anime/soredemo-ayumu-wa-yosetekuru-6572aa",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128223-8lbPZo25hVhf.jpg",
     "poster": "https://cdn.hikka.io/content/anime/soredemo-ayumu-wa-yosetekuru-6572aa/ROelleaXKLpYmSuJLZQcKA.jpg",
@@ -40340,7 +42634,14 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1707667f-790e-802d-a7e4-f4e33ebebb1f"
+      },
+      {
+        "id": "1707667f-790e-8054-8ad5-fd31516a80fe"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -41060,6 +43361,9 @@
       },
       {
         "id": "1357667f-790e-8070-82b6-c9bbe7254f18"
+      },
+      {
+        "id": "16f7667f-790e-8026-a5e7-d732d280d2af"
       }
     ],
     "relations": [],
@@ -41232,7 +43536,7 @@
   },
   {
     "id": "e874ba00-dfdf-42ff-8ad7-f88d4911bd32",
-    "last_edited": "2024-10-05T14:34:00.000Z",
+    "last_edited": "2025-01-06T06:44:00.000Z",
     "hikka_url": "https://hikka.io/anime/shokugeki-no-souma-283b01",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20923-9tFdZ5hIrRiF.png",
     "poster": "https://cdn.hikka.io/content/anime/shokugeki-no-souma-283b01/oHTu0SPj--M4sZchbc0N7Q.jpg",
@@ -41252,7 +43556,17 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "24",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-80c5-98fe-de9a1b303735"
+      },
+      {
+        "id": "1737667f-790e-8033-bcb8-c9f460eaaa8d"
+      },
+      {
+        "id": "1737667f-790e-8009-b063-e90585ff0d3e"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -41711,7 +44025,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/m-syachna-printsesa.jpg",
@@ -41751,7 +44069,11 @@
         "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729707578/АтакаТитанів_gjkjxx.png",
@@ -41795,7 +44117,11 @@
         "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729707593/attackTitanFinal-min_mz8obg.png",
@@ -41837,7 +44163,11 @@
         "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734008479/АтакаТитанів_3_сезон_1_версія_plgtq3.png",
@@ -41878,7 +44208,11 @@
         "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734008039/АтакаТитанів_3_сезон_q4mbzj.png",
@@ -41917,7 +44251,11 @@
         "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734007836/АтакаТитанів_2_сезон_mf2tdi.png",
@@ -41956,7 +44294,11 @@
         "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735030954/АтакаТитанів_-_Втрачені_дівчата_n8qun6.png",
@@ -42219,6 +44561,9 @@
     "releases": [
       {
         "id": "2cace5e5-11b2-48e4-a700-876f613f0fb6"
+      },
+      {
+        "id": "1707667f-790e-80f0-be7c-e0f42ab5f8e3"
       }
     ],
     "relations": [],
@@ -42536,7 +44881,7 @@
   },
   {
     "id": "390015b5-5b10-4d39-a8e1-81b7cfdc0081",
-    "last_edited": "2024-12-17T06:51:00.000Z",
+    "last_edited": "2025-01-03T09:56:00.000Z",
     "hikka_url": "https://hikka.io/anime/shenhai-0a0b88",
     "poster": "https://cdn.hikka.io/content/anime/shenhai-0a0b88/cGMmRWw0qceLP8S8qKWq3g.jpg",
     "title": "Глибоке море",
@@ -42563,8 +44908,8 @@
     "Франшиза": [],
     "posters": [
       {
-        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730368390/глибоке_море_Дзуськи_ЮАмах_lt1ve8.jpg",
-        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730368390/глибоке_море_Дзуськи_ЮАмах_lt1ve8.jpg"
+        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829727/Глибоке_море_f5tbg7.png",
+        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829727/Глибоке_море_f5tbg7.png"
       }
     ]
   },
@@ -42662,6 +45007,9 @@
     "releases": [
       {
         "id": "b8a59863-299d-4b9b-ba9f-c9eb3d7b94e2"
+      },
+      {
+        "id": "16c7667f-790e-80ce-a745-e14a46f21fdc"
       }
     ],
     "relations": [
@@ -42759,6 +45107,9 @@
     "releases": [
       {
         "id": "c7a7a096-b9d1-454e-aeac-07f506b254da"
+      },
+      {
+        "id": "16c7667f-790e-8034-9ec9-e6ea1311322b"
       }
     ],
     "relations": [],
@@ -43045,6 +45396,9 @@
     "releases": [
       {
         "id": "1587667f-790e-8098-844d-c77b7f4fbc1f"
+      },
+      {
+        "id": "16c7667f-790e-807f-9ab6-f75d22387d9e"
       }
     ],
     "relations": [],
@@ -43458,6 +45812,9 @@
     "releases": [
       {
         "id": "13f7667f-790e-8057-97cb-d749d69f4efd"
+      },
+      {
+        "id": "16c7667f-790e-80c3-9c97-de5575c498ca"
       }
     ],
     "relations": [
@@ -44004,6 +46361,9 @@
     "releases": [
       {
         "id": "1527667f-790e-80ab-be13-d63fc75518c1"
+      },
+      {
+        "id": "16c7667f-790e-8086-b463-fb6459d6dc8b"
       }
     ],
     "relations": [],
@@ -45943,7 +48303,11 @@
     "episodes": "4",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "4f0a71d1-0142-45c1-b974-25400edb52da"
+      }
+    ],
     "posters": []
   },
   {
@@ -45968,7 +48332,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "4f0a71d1-0142-45c1-b974-25400edb52da"
+      }
+    ],
     "posters": []
   },
   {
@@ -46297,7 +48665,11 @@
         "id": "1167667f-790e-806e-b84f-d610c9718d2e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-807f-ac6b-cf6b7b6a35f7"
+      }
+    ],
     "posters": []
   },
   {
@@ -46668,7 +49040,7 @@
   },
   {
     "id": "040115bf-fd3d-4abe-984e-12bac13fe66c",
-    "last_edited": "2024-08-22T17:25:00.000Z",
+    "last_edited": "2024-12-29T10:01:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-fashi-37b8ec",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-fashi-37b8ec/tgZh_44sRQy9nGmHxoCQhw.jpg",
     "title": "Маг на повну ставку",
@@ -46846,7 +49218,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": []
   },
   {
@@ -46876,7 +49252,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": []
   },
   {
@@ -46912,7 +49292,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": []
   },
   {
@@ -46944,7 +49328,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/psikhopas2.jpg",
@@ -47056,7 +49444,11 @@
         "id": "13e7667f-790e-8070-b9a4-e48a500943c7"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13e7667f-790e-80f3-8265-dc124dbbdc31"
+      }
+    ],
     "posters": []
   },
   {
@@ -47373,7 +49765,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-805a-a6d4-c58380ffe6af"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -47990,7 +50386,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13f7667f-790e-8084-967a-c6d17d30c4c0"
+      }
+    ],
     "posters": []
   },
   {
@@ -48019,7 +50419,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13f7667f-790e-8084-967a-c6d17d30c4c0"
+      }
+    ],
     "posters": []
   },
   {
@@ -48043,6 +50447,9 @@
     "releases": [
       {
         "id": "684dbdc4-0187-4262-85ce-f7539dd39f75"
+      },
+      {
+        "id": "16c7667f-790e-80b3-b77a-ec8cdba624e7"
       }
     ],
     "relations": [],
@@ -48386,7 +50793,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/ostann--stor-.jpg",
@@ -48550,7 +50961,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "dc5a35e6-06e3-49d0-9960-2c6edeb09acd"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163421/повелитель_4.1_axftxe.jpg",
@@ -48585,7 +51000,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "dc5a35e6-06e3-49d0-9960-2c6edeb09acd"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/overlord-by-otaku-first.png",
@@ -48624,7 +51043,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "dc5a35e6-06e3-49d0-9960-2c6edeb09acd"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/overlord-2.png",
@@ -48672,6 +51095,9 @@
       },
       {
         "id": "13c7667f-790e-80f7-aa78-fca5d8057b1f"
+      },
+      {
+        "id": "16f7667f-790e-80f3-a547-e4d66894e429"
       }
     ],
     "relations": [
@@ -48679,7 +51105,11 @@
         "id": "10c7667f-790e-80f2-b2fe-ea7d992ae687"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "dc5a35e6-06e3-49d0-9960-2c6edeb09acd"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163417/повелитель_1_q4imum.jpg",
@@ -49127,6 +51557,9 @@
     "releases": [
       {
         "id": "1627667f-790e-8036-8544-f79201a33506"
+      },
+      {
+        "id": "16f7667f-790e-80c5-8d73-e9a414275a95"
       }
     ],
     "relations": [],
@@ -49202,7 +51635,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-8036-8cc2-fb53f8994715"
+      }
+    ],
     "posters": []
   },
   {
@@ -49319,7 +51756,11 @@
     "episodes": "13",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-8091-89b8-e32431f0cd77"
+      }
+    ],
     "posters": []
   },
   {
@@ -50671,6 +53112,9 @@
       },
       {
         "id": "15f7667f-790e-8025-84e9-f27e9a4e4566"
+      },
+      {
+        "id": "1737667f-790e-802a-b190-f7b3a8d96919"
       }
     ],
     "relations": [
@@ -50713,7 +53157,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-800a-9bf2-c1e5a54ea639"
+      }
+    ],
     "posters": []
   },
   {
@@ -50743,7 +53191,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-800a-9bf2-c1e5a54ea639"
+      }
+    ],
     "posters": []
   },
   {
@@ -50770,7 +53222,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-800a-9bf2-c1e5a54ea639"
+      }
+    ],
     "posters": []
   },
   {
@@ -51044,7 +53500,11 @@
         "id": "ae744f9b-3fe3-4476-98ae-33b9153eb32e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/-stor--p-drobok.jpg",
@@ -51110,7 +53570,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-8009-b918-cf06b48d4677"
+      }
+    ],
     "relations": [
       {
         "id": "6a6cc7fc-a149-4192-9470-864cec7828ab"
@@ -51731,7 +54195,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/-stor-ya-k-shki.jpg",
@@ -51852,7 +54320,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-802f-8180-c93215960b7b"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -51884,7 +54356,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d744f7f5-2635-4637-b4e3-9c7931ac410c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/kniga-druz-v-natsume_1480260272.jpg",
@@ -52093,7 +54569,11 @@
         "id": "1547667f-790e-80b2-88d5-dbb9f5532bea"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165123/photo_2024-10-16_11-34-39_sbbfyq.jpg",
@@ -52127,7 +54607,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1733563466/Сім_Смертних_Гріхів._Відродження_заповідей_x7epbu.jpg",
@@ -52166,7 +54650,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": []
   },
   {
@@ -52193,7 +54681,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": [
       {
         "name": "https://toloka.to/photos/200309130857889220_f0_0.jpg",
@@ -52223,7 +54715,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1547667f-790e-809a-9061-dd635962fea4"
+      }
+    ],
     "posters": []
   },
   {
@@ -52582,10 +55078,17 @@
       },
       {
         "id": "15f7667f-790e-80e7-9463-ce44193039a0"
+      },
+      {
+        "id": "16c7667f-790e-8043-b396-ee648eb8e3ed"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c5bd3095-168a-491e-acf6-f5e31159012a"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164758/photo_2024-10-17_11-07-41_xexayi.jpg",
@@ -52619,7 +55122,11 @@
     "тґ_канал": null,
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c5bd3095-168a-491e-acf6-f5e31159012a"
+      }
+    ],
     "posters": []
   },
   {
@@ -52656,7 +55163,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c5bd3095-168a-491e-acf6-f5e31159012a"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163382/переродження_безробітного_2.5_q6v0fa.jpg",
@@ -53153,7 +55664,14 @@
         "id": "227624b9-4a17-463f-873a-b7f3a992dfc2"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "973879c1-9fd4-4c7e-8c38-64658c43a904"
+      },
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": []
   },
   {
@@ -53192,7 +55710,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": []
   },
   {
@@ -53223,7 +55745,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53251,7 +55777,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53279,7 +55809,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53305,7 +55839,11 @@
     "episodes": "13",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53331,7 +55869,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53361,7 +55903,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53391,7 +55937,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53416,7 +55966,11 @@
     "episodes": "22",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53444,7 +55998,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53473,7 +56031,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53503,7 +56065,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -53530,7 +56096,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -54153,7 +56723,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-80f9-b25d-dd7e85f5125a"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -54660,6 +57234,9 @@
     "releases": [
       {
         "id": "1587667f-790e-8046-adbc-f1d9e045e0d9"
+      },
+      {
+        "id": "16c7667f-790e-806e-9e02-f574976ac101"
       }
     ],
     "relations": [],
@@ -55000,7 +57577,11 @@
     "episodes": "11",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-808b-ab1f-d71c8c466345"
+      }
+    ],
     "posters": []
   },
   {
@@ -55234,7 +57815,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-808b-ab1f-d71c8c466345"
+      }
+    ],
     "posters": []
   },
   {
@@ -55264,7 +57849,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-808b-ab1f-d71c8c466345"
+      }
+    ],
     "posters": []
   },
   {
@@ -55291,7 +57880,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-808b-ab1f-d71c8c466345"
+      }
+    ],
     "posters": []
   },
   {
@@ -55655,7 +58248,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "42184ddb-1ff4-43ee-b2a7-a720ffb7083d"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1733563611/Почесна_учениця_школи_магії_kagcdb.jpg",
@@ -55696,7 +58293,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "42184ddb-1ff4-43ee-b2a7-a720ffb7083d"
+      }
+    ],
     "posters": []
   },
   {
@@ -55727,7 +58328,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "42184ddb-1ff4-43ee-b2a7-a720ffb7083d"
+      }
+    ],
     "posters": []
   },
   {
@@ -55858,6 +58463,9 @@
     "releases": [
       {
         "id": "b6975831-e844-4937-881d-3f73439def0d"
+      },
+      {
+        "id": "16c7667f-790e-80d5-8cdf-e80b34dba08b"
       }
     ],
     "relations": [],
@@ -56143,7 +58751,11 @@
         "id": "1167667f-790e-807e-a79b-eb21fc36b73d"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-808d-8233-d9e39665b2b8"
+      }
+    ],
     "posters": [
       {
         "name": "https://img.hurtom.com/i/2017/09/df8a8e8f-2bf0-47cf-c7a1-e05d5be2acfe.jpg",
@@ -56515,7 +59127,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8055-abe9-c4a8499ba10a"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/lyubov-nazhivo.jpg",
@@ -56603,6 +59219,9 @@
     "releases": [
       {
         "id": "13f7667f-790e-80da-aec4-e4aa2b4d17b6"
+      },
+      {
+        "id": "1707667f-790e-80a7-8498-f2947fc098e6"
       }
     ],
     "relations": [],
@@ -56928,6 +59547,9 @@
     "releases": [
       {
         "id": "15e7667f-790e-80a1-a8c2-d5ff09bd374b"
+      },
+      {
+        "id": "16f7667f-790e-80ba-a295-c6f26f691bd7"
       }
     ],
     "relations": [],
@@ -56963,6 +59585,9 @@
     "releases": [
       {
         "id": "1467667f-790e-8000-ad11-ea7495390d2b"
+      },
+      {
+        "id": "1737667f-790e-80b5-ad7b-cdd6f8fad9a0"
       }
     ],
     "relations": [],
@@ -57203,7 +59828,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-80bf-9009-cc623a265e11"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/za-grannyu-minule.jpg",
@@ -57234,10 +59863,17 @@
     "releases": [
       {
         "id": "15f7667f-790e-807a-88bb-d99d910d9adb"
+      },
+      {
+        "id": "16c7667f-790e-8049-acd2-c3e252080d76"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-80bf-9009-cc623a265e11"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/za-grannyu.jpg",
@@ -57481,7 +60117,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1627667f-790e-80eb-bf53-f8fc298666ba"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170999/ТД_Школа-інтернат_2_версія_r9yndz.png",
@@ -57526,7 +60166,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1627667f-790e-80eb-bf53-f8fc298666ba"
+      }
+    ],
     "posters": []
   },
   {
@@ -57562,7 +60206,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1627667f-790e-80eb-bf53-f8fc298666ba"
+      }
+    ],
     "posters": []
   },
   {
@@ -57596,7 +60244,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1627667f-790e-80eb-bf53-f8fc298666ba"
+      }
+    ],
     "posters": []
   },
   {
@@ -57623,6 +60275,12 @@
     "releases": [
       {
         "id": "1377667f-790e-80b9-83f6-dcea40ab0844"
+      },
+      {
+        "id": "16f7667f-790e-801c-9c9f-d8661af9434e"
+      },
+      {
+        "id": "16f7667f-790e-80c8-b481-cb38e59bc46e"
       }
     ],
     "relations": [],
@@ -57944,6 +60602,9 @@
     "releases": [
       {
         "id": "13d7667f-790e-809e-bc52-cc9b7d10820c"
+      },
+      {
+        "id": "1707667f-790e-8062-8628-fdc4215904f1"
       }
     ],
     "relations": [],
@@ -58087,7 +60748,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/-stor--koiom-.jpg",
@@ -58322,6 +60987,9 @@
     "releases": [
       {
         "id": "15f7667f-790e-80c3-a15d-d90741879d52"
+      },
+      {
+        "id": "16c7667f-790e-80a8-8a2e-e237e36ba223"
       }
     ],
     "relations": [],
@@ -58548,10 +61216,17 @@
       },
       {
         "id": "15f7667f-790e-80d9-ade1-de95320a8523"
+      },
+      {
+        "id": "1707667f-790e-800d-a079-c1ec85d91902"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8099-80ff-ec0bdbcb6dc4"
+      }
+    ],
     "posters": []
   },
   {
@@ -58594,7 +61269,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8099-80ff-ec0bdbcb6dc4"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170152/ЦейПрекраснийСвітБлагословеннийБогом3_efl18m.jpg",
@@ -58638,7 +61317,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8099-80ff-ec0bdbcb6dc4"
+      }
+    ],
     "posters": []
   },
   {
@@ -58674,7 +61357,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8099-80ff-ec0bdbcb6dc4"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/prekrasnii-sv-t.jpg",
@@ -58719,7 +61406,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1427667f-790e-8099-80ff-ec0bdbcb6dc4"
+      }
+    ],
     "posters": []
   },
   {
@@ -59343,6 +62034,12 @@
     "releases": [
       {
         "id": "1427667f-790e-80e6-9c53-c648e3a84e23"
+      },
+      {
+        "id": "16c7667f-790e-808b-aafb-e747d0722d39"
+      },
+      {
+        "id": "16c7667f-790e-8058-a6d1-c3748a45f81c"
       }
     ],
     "relations": [],
@@ -59464,7 +62161,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/-stor-ya-ran-iii.-kholodna-krov.jpg",
@@ -59502,7 +62203,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/-stor-ya-ran-ii.-palka-krov.jpg",
@@ -59539,7 +62244,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/-stor-ya-ran.-f-lm-pershii.-zal-zna-krov.jpg",
@@ -59568,6 +62277,9 @@
     "releases": [
       {
         "id": "1427667f-790e-80ba-8c0c-c8cfe16e24c1"
+      },
+      {
+        "id": "16c7667f-790e-8021-80a7-dd0c132ff0c3"
       }
     ],
     "relations": [],
@@ -59895,7 +62607,11 @@
         "id": "56c5ea7b-4aae-42a8-b444-f6dc9d79ff1a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "67a83334-309c-4794-8574-ed9d8d1bfe16"
+      }
+    ],
     "posters": []
   },
   {
@@ -59923,7 +62639,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "67a83334-309c-4794-8574-ed9d8d1bfe16"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/k-no_1511090929.jpg",
@@ -59971,7 +62691,11 @@
         "id": "246c4de9-c793-4606-bdf9-6c1f2c4f8ed9"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "67a83334-309c-4794-8574-ed9d8d1bfe16"
+      }
+    ],
     "posters": []
   },
   {
@@ -60442,7 +63166,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-958d-cfed75058e81"
+      }
+    ],
     "posters": []
   },
   {
@@ -60473,10 +63201,20 @@
       },
       {
         "id": "13e7667f-790e-807b-99f0-cdf55946b1ad"
+      },
+      {
+        "id": "16c7667f-790e-80db-aa48-c7baf296b7fb"
+      },
+      {
+        "id": "1707667f-790e-8006-93e4-dea87318d5bb"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-958d-cfed75058e81"
+      }
+    ],
     "posters": []
   },
   {
@@ -60513,7 +63251,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-958d-cfed75058e81"
+      }
+    ],
     "posters": []
   },
   {
@@ -60567,6 +63309,9 @@
     "releases": [
       {
         "id": "1527667f-790e-809d-920d-d391a1e30029"
+      },
+      {
+        "id": "1737667f-790e-80f2-880c-c1bb81c63073"
       }
     ],
     "relations": [],
@@ -60748,7 +63493,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -60775,7 +63524,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -60806,7 +63559,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -60835,7 +63592,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -61718,6 +64479,9 @@
     "releases": [
       {
         "id": "4e20a093-4848-4d7f-be17-71dc31d3105e"
+      },
+      {
+        "id": "1707667f-790e-8022-a591-cef95021580b"
       }
     ],
     "relations": [],
@@ -62065,6 +64829,9 @@
     "releases": [
       {
         "id": "1427667f-790e-80a0-9c20-d10506e9c542"
+      },
+      {
+        "id": "1737667f-790e-801a-802d-f379d45a358e"
       }
     ],
     "relations": [
@@ -62292,6 +65059,12 @@
       },
       {
         "id": "1607667f-790e-8058-951b-dd2ee65f5aaf"
+      },
+      {
+        "id": "16c7667f-790e-80e4-8514-f79e0464c6c9"
+      },
+      {
+        "id": "16c7667f-790e-8098-aa0d-fee9ac499646"
       }
     ],
     "relations": [
@@ -62515,6 +65288,9 @@
     "releases": [
       {
         "id": "8bb41e09-c412-4cf9-9b43-b14f15cdbecc"
+      },
+      {
+        "id": "16c7667f-790e-8078-9a7e-cc49ad40846d"
       }
     ],
     "relations": [],
@@ -62660,7 +65436,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-809e-9885-ef9415bb8cdd"
+      }
+    ],
     "posters": []
   },
   {
@@ -62690,7 +65470,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-809e-9885-ef9415bb8cdd"
+      }
+    ],
     "posters": []
   },
   {
@@ -62717,7 +65501,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-809e-9885-ef9415bb8cdd"
+      }
+    ],
     "posters": []
   },
   {
@@ -62819,7 +65607,11 @@
         "id": "1227667f-790e-800d-a811-cb23505b825e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13d7667f-790e-8047-9621-e1f542d86a80"
+      }
+    ],
     "posters": []
   },
   {
@@ -62846,7 +65638,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13d7667f-790e-8047-9621-e1f542d86a80"
+      }
+    ],
     "posters": []
   },
   {
@@ -62918,7 +65714,11 @@
         "id": "1467667f-790e-806d-9f57-d62f77b355d8"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1557667f-790e-80e6-b934-fbf557508a4e"
+      }
+    ],
     "posters": []
   },
   {
@@ -62958,7 +65758,11 @@
         "id": "1467667f-790e-806d-9f57-d62f77b355d8"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1557667f-790e-80e6-b934-fbf557508a4e"
+      }
+    ],
     "posters": []
   },
   {
@@ -63141,6 +65945,9 @@
     "releases": [
       {
         "id": "1357667f-790e-80e9-b09a-e1d063fb4b74"
+      },
+      {
+        "id": "1707667f-790e-8033-b9ef-f3e14626218a"
       }
     ],
     "relations": [],
@@ -63351,6 +66158,9 @@
       },
       {
         "id": "15f7667f-790e-8094-a555-c26907990763"
+      },
+      {
+        "id": "16c7667f-790e-80e0-b9e4-d4339bf9993c"
       }
     ],
     "relations": [],
@@ -63414,7 +66224,11 @@
     "episodes": "39",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a11b23d3-29c6-4ef8-b83b-e16fc3032bca"
+      }
+    ],
     "posters": []
   },
   {
@@ -63445,7 +66259,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a11b23d3-29c6-4ef8-b83b-e16fc3032bca"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729164785/photo_2024-10-17_13-53-03_qkgdhj.jpg",
@@ -63483,7 +66301,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a11b23d3-29c6-4ef8-b83b-e16fc3032bca"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163425/jojo_2.1_enzcsb.png",
@@ -63522,7 +66344,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a11b23d3-29c6-4ef8-b83b-e16fc3032bca"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163533/jojo_4.1_iofiz3.png",
@@ -64322,6 +67148,9 @@
     "releases": [
       {
         "id": "13f7667f-790e-80aa-84e9-d83e3886eb99"
+      },
+      {
+        "id": "16f7667f-790e-80a1-8136-d17a28194965"
       }
     ],
     "relations": [],
@@ -64368,7 +67197,11 @@
         "id": "83834fca-b79d-48bc-9729-ca21cc07dda7"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "dc5a35e6-06e3-49d0-9960-2c6edeb09acd"
+      }
+    ],
     "posters": []
   },
   {
@@ -64402,7 +67235,11 @@
         "id": "83834fca-b79d-48bc-9729-ca21cc07dda7"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "dc5a35e6-06e3-49d0-9960-2c6edeb09acd"
+      }
+    ],
     "posters": []
   },
   {
@@ -64464,6 +67301,9 @@
       },
       {
         "id": "15e7667f-790e-80ff-a99f-e147ac8dde87"
+      },
+      {
+        "id": "1707667f-790e-80d5-acd1-e7afe6c3752d"
       }
     ],
     "relations": [],
@@ -64964,7 +67804,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "26",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-80ae-952e-c5b445a3e77a"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -65362,7 +68206,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-8030-8a2c-fe957ea5ee23"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -66138,6 +68986,9 @@
       },
       {
         "id": "15f7667f-790e-8082-b514-fb56db517591"
+      },
+      {
+        "id": "1707667f-790e-8015-8679-c9f8d54f1385"
       }
     ],
     "relations": [],
@@ -66305,7 +69156,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-a105-caa67fe5bc02"
+      }
+    ],
     "posters": []
   },
   {
@@ -67022,7 +69877,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "41dfbed4-02c2-4e1f-9300-862e38823dce"
+      }
+    ],
     "posters": []
   },
   {
@@ -68259,7 +71118,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": []
   },
   {
@@ -68618,7 +71481,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "75",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16c7667f-790e-80c0-ad44-ff5d700ef8bf"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -68651,7 +71518,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1527667f-790e-8095-aa18-f1e742034760"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1733308625/Haiyore_Nyaruko-san_jkyhm3.jpg",
@@ -68690,7 +71561,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -68720,7 +71595,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/voleibol-.jpg",
@@ -68756,7 +71635,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -68783,7 +71666,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-80ea-b838-d0b3c6d74303"
+      }
+    ],
     "posters": []
   },
   {
@@ -69571,7 +72458,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-80fe-969f-cfb61278f3d1"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -69671,7 +72562,7 @@
   },
   {
     "id": "88332c57-f1cb-4103-a280-ea7aea7b9cc4",
-    "last_edited": "2024-12-02T07:49:00.000Z",
+    "last_edited": "2025-01-03T08:45:00.000Z",
     "hikka_url": "https://hikka.io/anime/grand-blue-3f49b8",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100922-ef1bBJCUCfxk.jpg",
     "poster": "https://cdn.hikka.io/content/anime/grand-blue-3f49b8/Dx-M0faXrzxsLNt2iPelJQ.jpg",
@@ -69694,6 +72585,24 @@
       },
       {
         "id": "1507667f-790e-8022-b42b-e45fce4dadb5"
+      },
+      {
+        "id": "1707667f-790e-801a-8ff2-c574d116c7fb"
+      },
+      {
+        "id": "1707667f-790e-8083-973c-fcbfef413b90"
+      },
+      {
+        "id": "1707667f-790e-80ce-a7cf-d8c759beec85"
+      },
+      {
+        "id": "1707667f-790e-80a7-9cc4-ec5fd4bfdc7b"
+      },
+      {
+        "id": "1707667f-790e-80eb-9a89-c8210ad60110"
+      },
+      {
+        "id": "1707667f-790e-80ae-b8b2-c9ce01d16163"
       }
     ],
     "relations": [],
@@ -69908,6 +72817,9 @@
       },
       {
         "id": "13c7667f-790e-80ac-96f4-cc37d34823a8"
+      },
+      {
+        "id": "1737667f-790e-8025-a9e6-f3cbed6acf2f"
       }
     ],
     "relations": [
@@ -70330,7 +73242,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c49a50b2-eaf3-40e0-8e2c-117c9d764345"
+      }
+    ],
     "posters": []
   },
   {
@@ -70363,7 +73279,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c49a50b2-eaf3-40e0-8e2c-117c9d764345"
+      }
+    ],
     "posters": []
   },
   {
@@ -70515,7 +73435,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/dukh-v-obolonts-__.jpg",
@@ -70550,7 +73474,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -70581,7 +73509,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -71007,7 +73939,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/svord-art-onlain-ordinal-skeil.jpg",
@@ -71042,10 +73978,17 @@
     "releases": [
       {
         "id": "1467667f-790e-80f1-bcc2-c0bc139eb0f5"
+      },
+      {
+        "id": "16f7667f-790e-804a-8f14-fe5d6beae83d"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80ca-a910-e1eb8ef78f3c"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163300/майстерство_меча_онлайн_фільм_2_gtufxe.jpg",
@@ -71083,7 +74026,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "ed7f3373-a2f7-40ca-91a5-539fedd4c810"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/psikhopasport_k-no.jpg",
@@ -71115,7 +74062,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "42184ddb-1ff4-43ee-b2a7-a720ffb7083d"
+      }
+    ],
     "posters": []
   },
   {
@@ -71150,7 +74101,11 @@
         "id": "c9b07d34-c157-4697-90a3-25f6593e93f1"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-808d-8233-d9e39665b2b8"
+      }
+    ],
     "posters": []
   },
   {
@@ -71514,7 +74469,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -71734,7 +74693,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/blakitnii-ekzortsist_1488315208.jpg",
@@ -71772,7 +74735,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-806c-91a4-e790cf15daf0"
+      }
+    ],
     "posters": []
   },
   {
@@ -71805,7 +74772,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-806c-91a4-e790cf15daf0"
+      }
+    ],
     "posters": []
   },
   {
@@ -72126,9 +75097,6 @@
       },
       {
         "id": "15f7667f-790e-80a9-8e3d-fe4f981792ed"
-      },
-      {
-        "id": "1657667f-790e-80ff-b20b-d941d058505c"
       }
     ],
     "relations": [],
@@ -72163,6 +75131,9 @@
       },
       {
         "id": "1467667f-790e-80d6-a44b-c3c29e3f0d56"
+      },
+      {
+        "id": "16c7667f-790e-802e-82fb-fa0eb6911cf1"
       }
     ],
     "relations": [],
@@ -72352,6 +75323,9 @@
     "releases": [
       {
         "id": "f08cb55e-d84a-4cdf-90be-7a5b0f104d4c"
+      },
+      {
+        "id": "1707667f-790e-803e-b9ec-ea9aa78f7aca"
       }
     ],
     "relations": [],
@@ -73171,7 +76145,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/dolya.pochatok.jpg",
@@ -73203,7 +76181,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -73233,7 +76215,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/dolyan-ch-bitvi-sv-t-nesk-nchennikh-klink-v.jpg",
@@ -73276,7 +76262,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -73310,7 +76300,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -73339,7 +76333,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -73366,7 +76364,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/dolyad-vchinka-char-vnitsya-l-ya.jpg",
@@ -73398,7 +76400,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -73425,7 +76431,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -73452,7 +76462,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -73479,7 +76493,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734938751/Доля_Прототип_zamaag.png",
@@ -73517,7 +76535,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "88151293-2ab5-498d-a15d-9559a45682f0"
+      }
+    ],
     "posters": []
   },
   {
@@ -73695,6 +76717,9 @@
     "releases": [
       {
         "id": "1627667f-790e-806f-90fd-cd2b54ad21d1"
+      },
+      {
+        "id": "1737667f-790e-8061-8598-d8f5231e8ed5"
       }
     ],
     "relations": [],
@@ -74457,7 +77482,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1517667f-790e-80eb-8862-cd6ac2f1828b"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/brrrum-.jpg",
@@ -74529,7 +77558,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -74584,6 +77617,9 @@
     "releases": [
       {
         "id": "13b7667f-790e-8090-b294-f464a3d19269"
+      },
+      {
+        "id": "16f7667f-790e-807e-91ae-c16a9b3bcb48"
       }
     ],
     "relations": [
@@ -75067,6 +78103,9 @@
     "releases": [
       {
         "id": "1607667f-790e-80c8-ac3d-c418a64316e3"
+      },
+      {
+        "id": "16c7667f-790e-805e-ad28-c3723aa5793e"
       }
     ],
     "relations": [],
@@ -75282,6 +78321,9 @@
     "releases": [
       {
         "id": "1587667f-790e-8010-90ae-f8698c2ea4a6"
+      },
+      {
+        "id": "16c7667f-790e-80b0-8779-df2b9f039f96"
       }
     ],
     "relations": [
@@ -75530,7 +78572,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "50",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-8012-bd19-db4632f8d77b"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -76027,6 +79073,9 @@
       },
       {
         "id": "1457667f-790e-8064-8ede-d2d315c9d039"
+      },
+      {
+        "id": "16c7667f-790e-80fa-b276-f3ec90e46485"
       }
     ],
     "relations": [],
@@ -76192,6 +79241,9 @@
       },
       {
         "id": "14a7667f-790e-804d-9055-c45938d37f58"
+      },
+      {
+        "id": "1707667f-790e-80a0-a6c3-f5d34cdbf978"
       }
     ],
     "relations": [
@@ -76646,6 +79698,9 @@
     "releases": [
       {
         "id": "13f7667f-790e-8097-8939-eafe0f037fe6"
+      },
+      {
+        "id": "1707667f-790e-805c-b290-d3780cb0ba30"
       }
     ],
     "relations": [],
@@ -76678,7 +79733,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -76711,7 +79770,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
@@ -76741,12 +79804,16 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13b7667f-790e-8096-872f-dff039c3eae9"
+      }
+    ],
     "posters": []
   },
   {
     "id": "b15e5c7c-701d-4a49-b467-745d10e2ff50",
-    "last_edited": "2024-08-22T18:05:00.000Z",
+    "last_edited": "2025-01-02T09:27:00.000Z",
     "hikka_url": "https://hikka.io/anime/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation-c401a4",
     "poster": "https://cdn.hikka.io/content/anime/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation-c401a4/QRushJ5iHSvEwMSsiVvZBw.jpg",
     "title": "Данґанронпа: Школа надії та відчаю",
@@ -76766,7 +79833,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "13",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-8033-96eb-e98e95d2cb80"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -77046,7 +80117,7 @@
   },
   {
     "id": "590cd394-e01c-4566-ac01-9997739a0cc0",
-    "last_edited": "2024-08-21T23:29:00.000Z",
+    "last_edited": "2025-01-03T11:57:00.000Z",
     "hikka_url": "https://hikka.io/anime/cyberpunk-edgerunners-33f8c6",
     "poster": "https://cdn.hikka.io/content/anime/cyberpunk-edgerunners-33f8c6/I59PLsnxnulUveQ1Y8IjPg.jpg",
     "title": "Кіберпанк: Ті, що біжать по краю",
@@ -77065,11 +80136,31 @@
     "releases": [
       {
         "id": "1327667f-790e-808b-8bd6-ee0f83e758e2"
+      },
+      {
+        "id": "16c7667f-790e-80b3-9bca-fbbb86f6b75c"
+      },
+      {
+        "id": "1707667f-790e-80ef-9dbb-fe217f4ff36e"
+      },
+      {
+        "id": "1707667f-790e-8056-84c3-daa573f32bd6"
+      },
+      {
+        "id": "1707667f-790e-80d7-8a4a-e431c3a3a1c5"
+      },
+      {
+        "id": "1707667f-790e-804d-8e1a-d3e9e5c66259"
       }
     ],
     "relations": [],
     "Франшиза": [],
-    "posters": []
+    "posters": [
+      {
+        "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829726/Кіберпанк_wa0fah.jpg",
+        "url": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735829726/Кіберпанк_wa0fah.jpg"
+      }
+    ]
   },
   {
     "id": "8aa33af0-ce63-46c2-b60e-171006695bb9",
@@ -77558,7 +80649,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-806c-91a4-e790cf15daf0"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/kod--as-povstannya-lelusha-2.jpg",
@@ -77603,7 +80698,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-806c-91a4-e790cf15daf0"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170970/Код_Ґіас_-_Повернення_Розе_wmcydm.png",
@@ -77638,7 +80737,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-806c-91a4-e790cf15daf0"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1733999576/Код_Ґіасс_Повстання_Лелуша_vzwr57.jpg",
@@ -77853,6 +80956,9 @@
     "releases": [
       {
         "id": "cfb58886-c45c-48db-a30c-c02fbdfcbcee"
+      },
+      {
+        "id": "16c7667f-790e-8023-887f-c222ccf44268"
       }
     ],
     "relations": [],
@@ -77926,7 +81032,11 @@
     "episodes": "7",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -77949,7 +81059,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -77976,7 +81090,11 @@
     "episodes": "6",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -78000,7 +81118,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "11",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-80b3-842f-ed439d1ded02"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -78272,7 +81394,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "3",
-    "releases": [],
+    "releases": [
+      {
+        "id": "1737667f-790e-8053-bbd6-e2b97c4beea3"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -78303,7 +81429,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "14b7667f-790e-80d7-ad69-eabcafa8b3da"
+      }
+    ],
     "posters": []
   },
   {
@@ -78725,7 +81855,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-8081-87b9-c979b21a8cea"
+      }
+    ],
     "posters": []
   },
   {
@@ -78758,7 +81892,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-8081-87b9-c979b21a8cea"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/kartolovka-f-lm.jpg",
@@ -78793,7 +81931,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-8081-87b9-c979b21a8cea"
+      }
+    ],
     "posters": []
   },
   {
@@ -78823,7 +81965,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-8081-87b9-c979b21a8cea"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170334/Картоловка_Сакура_Чисті_Карти_ppvn7k.png",
@@ -78864,10 +82010,17 @@
       },
       {
         "id": "15f7667f-790e-80f0-bc00-cba3f396aaae"
+      },
+      {
+        "id": "16c7667f-790e-80ad-8eda-c2bf59e5b222"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15f7667f-790e-8081-87b9-c979b21a8cea"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/kartolovka-sakura.jpg",
@@ -79291,7 +82444,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-808e-a767-f3d44ddf6931"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165055/photo_2024-10-16_11-34-19_h3cili.jpg",
@@ -79320,7 +82477,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-808e-a767-f3d44ddf6931"
+      }
+    ],
     "posters": []
   },
   {
@@ -79348,10 +82509,17 @@
     "releases": [
       {
         "id": "13f7667f-790e-8063-ab9c-d829c4ae66a2"
+      },
+      {
+        "id": "1697667f-790e-80d9-bc05-dc1b5477de6f"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-808e-a767-f3d44ddf6931"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/l-teraturn-gen--brodyach-psi.jpg",
@@ -79612,7 +82780,11 @@
     "episodes": "12",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-804c-b439-d35201c21c36"
+      }
+    ],
     "posters": []
   },
   {
@@ -80078,6 +83250,9 @@
     "releases": [
       {
         "id": "e7499e51-ca7f-428c-a531-f86699bc79d4"
+      },
+      {
+        "id": "16f7667f-790e-8058-be93-e17d2ef95e13"
       }
     ],
     "relations": [],
@@ -80148,6 +83323,9 @@
       },
       {
         "id": "1357667f-790e-80d3-a9b1-ef56a62aac19"
+      },
+      {
+        "id": "1707667f-790e-8023-bb51-d4ef27f4d488"
       }
     ],
     "relations": [
@@ -80189,7 +83367,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -80216,7 +83398,11 @@
     "episodes": "1",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -80245,7 +83431,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -80293,7 +83483,11 @@
         "id": "1287667f-790e-80c1-9f5b-ec818fc0762e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": []
   },
   {
@@ -80339,7 +83533,11 @@
         "id": "0b129e55-5c1b-4a76-b527-4cae4a728821"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8055-9721-e4b9ab9bc1d8"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/moya-akadem-ya-gero-v.jpg",
@@ -80520,6 +83718,9 @@
     "releases": [
       {
         "id": "15f7667f-790e-80bc-9eee-c0fb150cc0a2"
+      },
+      {
+        "id": "16c7667f-790e-808d-8c86-ce424b72574f"
       }
     ],
     "relations": [],
@@ -80583,6 +83784,9 @@
       },
       {
         "id": "1607667f-790e-805b-b2ee-fbca40ad04fc"
+      },
+      {
+        "id": "1707667f-790e-80f8-a212-d98953d531e1"
       }
     ],
     "relations": [
@@ -80877,6 +84081,9 @@
       },
       {
         "id": "15f7667f-790e-8090-a469-db3d28bb7ff0"
+      },
+      {
+        "id": "16f7667f-790e-8050-abd2-ea0e7f45688d"
       }
     ],
     "relations": [
@@ -81786,6 +84993,9 @@
     "releases": [
       {
         "id": "14a7667f-790e-8011-a50e-c22449414211"
+      },
+      {
+        "id": "1707667f-790e-801b-985d-e9e24f743c9b"
       }
     ],
     "relations": [],
@@ -81929,6 +85139,9 @@
     "releases": [
       {
         "id": "1527667f-790e-80f8-9629-e6ce8d4b8796"
+      },
+      {
+        "id": "1737667f-790e-8024-bfdc-e9e6afecabf7"
       }
     ],
     "relations": [],
@@ -82628,7 +85841,11 @@
         "id": "ae744f9b-3fe3-4476-98ae-33b9153eb32e"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1597667f-790e-80d5-aee6-d17776d9c43e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/-stor--monstr-v.jpg",
@@ -84150,7 +87367,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/blakitnii-ekzortsist2.jpg",
@@ -84160,11 +87381,11 @@
   },
   {
     "id": "6d2c0866-ddcd-44c1-a397-05f97d7b0a0c",
-    "last_edited": "2024-12-10T17:46:00.000Z",
+    "last_edited": "2025-01-02T08:50:00.000Z",
     "hikka_url": "https://hikka.io/anime/ao-no-exorcist-shin-series-b5a652",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176311-faAPK9m0QCjP.jpg",
     "poster": "https://cdn.hikka.io/content/anime/ao-no-exorcist-shin-series-b5a652/f95LUGkwmpSLG37FJD49Ww.jpg",
-    "title": "Cиній екзорцист: Арка снігових фруктів",
+    "title": "Cиній екзорцист 4: Арка снігових фруктів",
     "romaji": "Ao no Exorcist / Blue Exorcist",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -84180,9 +87401,17 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-80ea-99a5-d0a2117fd367"
+      }
+    ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729171135/Блакитний_екзорцист._За_cнігом_kraiuf.png",
@@ -84223,7 +87452,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1735030932/ao_no_exorcist_1.1_bjlqxx.png",
@@ -84383,6 +87616,9 @@
     "releases": [
       {
         "id": "15f7667f-790e-8076-8af8-f338efdf93ac"
+      },
+      {
+        "id": "1707667f-790e-80c5-bc12-d06fcc82b176"
       }
     ],
     "relations": [],
@@ -85992,8 +89228,19 @@
     "Юакіно": "https://uakino.me/animeukr/anime-series/11309-moya-boginya.html",
     "тґ_канал": null,
     "episodes": "24",
-    "releases": [],
-    "relations": [],
+    "releases": [
+      {
+        "id": "16f7667f-790e-808d-b013-e7d55f75dc7f"
+      }
+    ],
+    "relations": [
+      {
+        "id": "16f7667f-790e-803d-a291-cf2c70539179"
+      },
+      {
+        "id": "1707667f-790e-8028-8a6b-f07ca58bc7bb"
+      }
+    ],
     "Франшиза": [],
     "posters": []
   },
@@ -86323,7 +89570,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "018189e7-6341-48aa-ac99-ef4c01fe0018"
+      }
+    ],
     "posters": []
   },
   {
@@ -86365,6 +89616,9 @@
       },
       {
         "id": "1607667f-790e-8070-a0f7-e0b0ec87c4bd"
+      },
+      {
+        "id": "16d7667f-790e-8071-bd74-e1174e654990"
       }
     ],
     "relations": [
@@ -86872,7 +90126,11 @@
         "id": "668a6964-b440-4841-a579-81795c979ecc"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "b6280006-8202-4159-aaa9-375b4c103cfc"
+      }
+    ],
     "posters": []
   },
   {
@@ -87205,6 +90463,9 @@
       },
       {
         "id": "1357667f-790e-80d1-8f28-f4a95eec208a"
+      },
+      {
+        "id": "16f7667f-790e-8073-912a-f0d43a0b0768"
       }
     ],
     "relations": [],
@@ -87796,6 +91057,9 @@
       },
       {
         "id": "1347667f-790e-8033-8596-ea6f4dea9bb3"
+      },
+      {
+        "id": "16c7667f-790e-8045-b77b-f9a018f1d62e"
       }
     ],
     "relations": [],
@@ -87959,7 +91223,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d7cf49ce-93b4-4cae-96c1-c6501fcefd6d"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163384/наруто_1.1_cmh3fn.jpg",
@@ -88006,7 +91274,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -88073,7 +91345,11 @@
         "id": "efb913a0-6a2f-4dca-afd8-8fec5b71027f"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e363d612-4ee2-4958-9a5f-18d92320f38c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/full-metal-panicthe-second-raid.jpg",
@@ -88191,7 +91467,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "60d0e935-88d8-487a-b119-1b570b8e0fe0"
+      }
+    ],
     "posters": []
   },
   {
@@ -88257,7 +91537,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a92eb85e-5f44-46db-ad45-76bb7582bad4"
+      }
+    ],
     "posters": []
   },
   {
@@ -88298,7 +91582,11 @@
         "id": "f8b43371-c399-4a93-94e4-23ce3579950c"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e363d612-4ee2-4958-9a5f-18d92320f38c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/full-metal-panic-fumoffu.jpg",
@@ -88549,7 +91837,11 @@
         "id": "0b5d756a-bd29-4b5b-8ce0-e6f874e0f0fa"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e363d612-4ee2-4958-9a5f-18d92320f38c"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/full-metal-panic-common.jpg",
@@ -89089,7 +92381,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1377667f-790e-80b6-8701-c73ccd72ebc2"
+      }
+    ],
     "posters": []
   },
   {
@@ -89338,7 +92634,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "7d3895d8-d00b-430a-9a77-045b61403a2e"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/one-piece.jpg",
@@ -89548,7 +92848,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "7ea29855-20d7-41be-bae5-e9f4bfba3903"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729166355/Сім_я_шпигуна_2_1_версія_v1xemm.jpg",
@@ -89591,10 +92895,17 @@
       },
       {
         "id": "15f7667f-790e-8027-b2cd-e76d8479fc11"
+      },
+      {
+        "id": "1707667f-790e-80c4-aa87-fca849eb1be2"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "7ea29855-20d7-41be-bae5-e9f4bfba3903"
+      }
+    ],
     "posters": []
   },
   {
@@ -89673,10 +92984,17 @@
       },
       {
         "id": "15f7667f-790e-8074-8109-c6b4e621cc19"
+      },
+      {
+        "id": "1707667f-790e-8014-a599-ed4f7cc7f4e9"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "7ea29855-20d7-41be-bae5-e9f4bfba3903"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163620/шпигунська_сім_я_1_1_wewf9h.jpg",
@@ -89744,6 +93062,9 @@
       },
       {
         "id": "1607667f-790e-801f-a978-dfa12c1ac1b3"
+      },
+      {
+        "id": "1707667f-790e-806e-b1e4-efd6438c74a9"
       }
     ],
     "relations": [],
@@ -89794,7 +93115,11 @@
         "id": "1647667f-790e-8024-bcda-cc1dbd78e435"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "b6280006-8202-4159-aaa9-375b4c103cfc"
+      }
+    ],
     "posters": []
   },
   {
@@ -89886,7 +93211,11 @@
         "id": "0675b90f-1466-4e53-9a4c-e698a20e482d"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13d7667f-790e-8047-9621-e1f542d86a80"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729168518/Сходження_в_тіні_2_2_версія_moodtr.jpg",
@@ -90165,7 +93494,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "fa05a578-d9f2-4c02-8936-c405698aee97"
+      }
+    ],
     "posters": []
   },
   {
@@ -90232,7 +93565,11 @@
     "episodes": "2",
     "releases": [],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "bbf0f300-418b-4a97-a596-0720c6c9abdc"
+      }
+    ],
     "posters": []
   },
   {
@@ -90264,7 +93601,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "bbf0f300-418b-4a97-a596-0720c6c9abdc"
+      }
+    ],
     "posters": []
   },
   {
@@ -90300,7 +93641,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "bbf0f300-418b-4a97-a596-0720c6c9abdc"
+      }
+    ],
     "posters": []
   },
   {
@@ -90334,7 +93679,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "bbf0f300-418b-4a97-a596-0720c6c9abdc"
+      }
+    ],
     "posters": []
   },
   {
@@ -90396,10 +93745,17 @@
       },
       {
         "id": "1517667f-790e-8027-8102-eb7ecd11771e"
+      },
+      {
+        "id": "16c7667f-790e-80ee-a7ef-e1a3884cf07d"
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d7cf49ce-93b4-4cae-96c1-c6501fcefd6d"
+      }
+    ],
     "posters": []
   },
   {
@@ -90432,7 +93788,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d7cf49ce-93b4-4cae-96c1-c6501fcefd6d"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/naruto-sh-pu.jpg",
@@ -90450,11 +93810,11 @@
   },
   {
     "id": "0456a5dd-1074-47a6-9dda-b5c50fe81c31",
-    "last_edited": "2024-09-22T09:00:00.000Z",
+    "last_edited": "2024-12-30T14:00:00.000Z",
     "hikka_url": "https://hikka.io/anime/wotaku-ni-koi-wa-muzukashii-683b05",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99578-8orFGgDq7NS8.jpg",
     "poster": "https://cdn.hikka.io/content/anime/wotaku-ni-koi-wa-muzukashii-683b05/yPGGIxWMUzy_DzWb1S-VDw.jpg",
-    "title": "Тяжке кохання в отаку",
+    "title": "Важко кохати отаку",
     "romaji": "Wotaku ni Koi wa Muzukashii",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -90475,9 +93835,16 @@
     "releases": [
       {
         "id": "7cbe1088-2aa9-4c12-b80d-48f10a10a3e7"
+      },
+      {
+        "id": "16c7667f-790e-808e-92be-e794c7f6789c"
       }
     ],
-    "relations": [],
+    "relations": [
+      {
+        "id": "29cb4f4f-3cae-4871-9eaf-f24953008074"
+      }
+    ],
     "Франшиза": [],
     "posters": []
   },
@@ -90620,6 +93987,9 @@
       },
       {
         "id": "13d7667f-790e-801e-9046-ec12a1631833"
+      },
+      {
+        "id": "1707667f-790e-8005-81ab-c3868881128e"
       }
     ],
     "relations": [],
@@ -90752,7 +94122,11 @@
         "id": "3bfad577-70a7-4615-84ff-f56f5c9b6c62"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a11b23d3-29c6-4ef8-b83b-e16fc3032bca"
+      }
+    ],
     "posters": []
   },
   {
@@ -90838,7 +94212,11 @@
         "id": "2653b949-3f34-4833-abe4-6edb3988f573"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -90958,7 +94336,11 @@
         "id": "2653b949-3f34-4833-abe4-6edb3988f573"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -91007,7 +94389,11 @@
         "id": "2653b949-3f34-4833-abe4-6edb3988f573"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -91037,6 +94423,15 @@
       },
       {
         "id": "1597667f-790e-8011-9053-d8b11328aeff"
+      },
+      {
+        "id": "1707667f-790e-805b-bf0c-ebd25f07402c"
+      },
+      {
+        "id": "1707667f-790e-8067-a117-ccb994e2f098"
+      },
+      {
+        "id": "1707667f-790e-8028-9396-da032cf12023"
       }
     ],
     "relations": [],
@@ -91110,7 +94505,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "fa05a578-d9f2-4c02-8936-c405698aee97"
+      }
+    ],
     "posters": []
   },
   {
@@ -91200,7 +94599,11 @@
         "id": "2653b949-3f34-4833-abe4-6edb3988f573"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -91253,7 +94656,11 @@
         "id": "2653b949-3f34-4833-abe4-6edb3988f573"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "15e7667f-790e-806a-b42a-fd4576234c64"
+      }
+    ],
     "posters": []
   },
   {
@@ -91369,7 +94776,11 @@
         "id": "bb96bdc2-96f7-4612-b84b-4f898942c330"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "fa05a578-d9f2-4c02-8936-c405698aee97"
+      }
+    ],
     "posters": []
   },
   {
@@ -91418,7 +94829,11 @@
         "id": "8c8f338a-0fb1-4d77-b9a3-45450ff8f439"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "fa05a578-d9f2-4c02-8936-c405698aee97"
+      }
+    ],
     "posters": []
   },
   {
@@ -91561,7 +94976,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d7cf49ce-93b4-4cae-96c1-c6501fcefd6d"
+      }
+    ],
     "posters": []
   },
   {
@@ -91711,7 +95130,11 @@
         "id": "8c8f338a-0fb1-4d77-b9a3-45450ff8f439"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "fa05a578-d9f2-4c02-8936-c405698aee97"
+      }
+    ],
     "posters": []
   },
   {
@@ -92073,7 +95496,11 @@
         "id": "5f828913-2dee-4f6b-8b9e-d300176a0dea"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "a11b23d3-29c6-4ef8-b83b-e16fc3032bca"
+      }
+    ],
     "posters": []
   },
   {
@@ -92119,7 +95546,11 @@
         "id": "8c8f338a-0fb1-4d77-b9a3-45450ff8f439"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "fa05a578-d9f2-4c02-8936-c405698aee97"
+      }
+    ],
     "posters": []
   },
   {
@@ -92333,7 +95764,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "16c7667f-790e-801a-accf-de69a24a15aa"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -92409,7 +95844,11 @@
         "id": "8c8f338a-0fb1-4d77-b9a3-45450ff8f439"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "fa05a578-d9f2-4c02-8936-c405698aee97"
+      }
+    ],
     "posters": []
   },
   {
@@ -92627,7 +96066,11 @@
         "id": "d7dec847-38ac-447e-b55b-0a50f7f5543b"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "9e53a94f-222a-4807-b464-0c8889d60853"
+      }
+    ],
     "posters": []
   },
   {
@@ -92667,7 +96110,11 @@
         "id": "d7dec847-38ac-447e-b55b-0a50f7f5543b"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "9e53a94f-222a-4807-b464-0c8889d60853"
+      }
+    ],
     "posters": []
   },
   {
@@ -92707,7 +96154,11 @@
         "id": "d7dec847-38ac-447e-b55b-0a50f7f5543b"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "9e53a94f-222a-4807-b464-0c8889d60853"
+      }
+    ],
     "posters": []
   },
   {
@@ -92807,7 +96258,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d7cf49ce-93b4-4cae-96c1-c6501fcefd6d"
+      }
+    ],
     "posters": []
   },
   {
@@ -93209,7 +96664,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "d7cf49ce-93b4-4cae-96c1-c6501fcefd6d"
+      }
+    ],
     "posters": [
       {
         "name": "https://posters.hurtom.com/albums/anime/naruto-f-lm-1.jpg",
@@ -93320,7 +96779,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "13c7667f-790e-8069-958d-cfed75058e81"
+      }
+    ],
     "posters": []
   },
   {
@@ -93345,6 +96808,9 @@
     "releases": [
       {
         "id": "9c801906-d098-4873-bcc9-d273b3eaf319"
+      },
+      {
+        "id": "16c7667f-790e-8096-a2c5-d45abecec26c"
       }
     ],
     "relations": [],
@@ -93391,7 +96857,7 @@
   },
   {
     "id": "64d195d8-1f6c-46ec-bc53-f4706ee520d8",
-    "last_edited": "2024-12-06T07:17:00.000Z",
+    "last_edited": "2025-01-06T07:24:00.000Z",
     "hikka_url": "https://hikka.io/anime/summer-ghost-cfaa01",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130050-XmWACuPeEEtv.jpg",
     "poster": "https://cdn.hikka.io/content/anime/summer-ghost-cfaa01/vwRvmgsI6lxwFQ8ZDTlI7w.jpg",
@@ -93419,6 +96885,12 @@
       },
       {
         "id": "1357667f-790e-8071-aa16-e63225d23692"
+      },
+      {
+        "id": "1737667f-790e-80e8-b593-eb4e2bf84ab7"
+      },
+      {
+        "id": "1737667f-790e-809d-99c5-e37612ef11f1"
       }
     ],
     "relations": [],
@@ -93493,6 +96965,9 @@
       },
       {
         "id": "1497667f-790e-8088-b705-c6a52edce098"
+      },
+      {
+        "id": "16c7667f-790e-8030-b318-fa4421e27499"
       }
     ],
     "relations": [
@@ -93563,6 +97038,9 @@
       },
       {
         "id": "13f7667f-790e-8050-992c-f8e5647cfe07"
+      },
+      {
+        "id": "16c7667f-790e-80fb-b413-e1b6c57bb9ef"
       }
     ],
     "relations": [],
@@ -93639,7 +97117,11 @@
         "id": "10c7667f-790e-8067-8a81-f197fb4a6dd3"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734008290/shingeki_no_kyojin_1.1_gkihmd.png",
@@ -93836,6 +97318,12 @@
       },
       {
         "id": "15f7667f-790e-80e8-b61f-f5ca4a891c56"
+      },
+      {
+        "id": "16c7667f-790e-80da-9046-fae1d16aad58"
+      },
+      {
+        "id": "1707667f-790e-80e7-9957-e279e58a0aa6"
       }
     ],
     "relations": [
@@ -93843,7 +97331,11 @@
         "id": "668a6964-b440-4841-a579-81795c979ecc"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "b6280006-8202-4159-aaa9-375b4c103cfc"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729165720/Магічна_битва_2_rpuvjh.jpg",
@@ -93894,6 +97386,9 @@
       },
       {
         "id": "1617667f-790e-80d7-b331-f865b692a04b"
+      },
+      {
+        "id": "16f7667f-790e-806f-b234-c4ca81f4afde"
       }
     ],
     "relations": [],
@@ -93958,7 +97453,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "c5bd3095-168a-491e-acf6-f5e31159012a"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729163359/переродження_безробітного_2.1_sae6ob.jpg",
@@ -94978,6 +98477,12 @@
       },
       {
         "id": "1607667f-790e-80b9-a933-ffe480c38e7c"
+      },
+      {
+        "id": "16d7667f-790e-80e7-a160-ff84f8ed9aad"
+      },
+      {
+        "id": "16d7667f-790e-80eb-92df-ee5d58297896"
       }
     ],
     "relations": [
@@ -95190,6 +98695,9 @@
       },
       {
         "id": "1627667f-790e-80aa-9f0d-ecb3d1d3b88d"
+      },
+      {
+        "id": "1707667f-790e-8097-a2a1-fb1a8a600c69"
       }
     ],
     "relations": [
@@ -95197,7 +98705,11 @@
         "id": "79c7fda6-f8c8-4128-bbf0-812272c9695a"
       }
     ],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "e055a9c0-8083-4981-be76-a7fb9ac5b7a2"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170291/АтакаТитанівФіналІЗновуФінал_kplxbo.png",
@@ -95305,6 +98817,9 @@
       },
       {
         "id": "1607667f-790e-80cd-9684-fa735492fa81"
+      },
+      {
+        "id": "1737667f-790e-8093-891e-d9cbf0ba2cea"
       }
     ],
     "relations": [],
@@ -95447,6 +98962,12 @@
       },
       {
         "id": "1607667f-790e-803c-aec0-ca5ad394888d"
+      },
+      {
+        "id": "16d7667f-790e-80b0-8b9d-fbbdfbb0fc64"
+      },
+      {
+        "id": "16d7667f-790e-8067-8b33-e9d47664d14e"
       }
     ],
     "relations": [],
@@ -95484,7 +99005,11 @@
       }
     ],
     "relations": [],
-    "Франшиза": [],
+    "Франшиза": [
+      {
+        "id": "1587667f-790e-80d6-b9d5-c7b9022c3ac6"
+      }
+    ],
     "posters": [
       {
         "name": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1729170795/Блакитний_екзорцист_Сага_про_ілюмінатів_2_версія_exzq46.png",
@@ -95524,6 +99049,12 @@
       },
       {
         "id": "15f7667f-790e-80d5-8d0d-e71c72c52993"
+      },
+      {
+        "id": "16c7667f-790e-80bf-9e5c-f5a9df86d920"
+      },
+      {
+        "id": "1737667f-790e-80dc-acb2-f1c045622722"
       }
     ],
     "relations": [
