@@ -25,6 +25,20 @@ const OUTPUT_MODES = {
   SAMELINE: 'sameline',  // Вивід в той самий рядок
   PROGRESS: 'progress'   // Вивід прогресу з очищенням
 }
+const DATABASES = {
+  PEOPLES_DB: "910dbf9f4f4a416d9322ba5d12f75605",
+  FSM_RELEASES_DB: "aeeb8936580a41ae95c472b5db7a9954",
+  FSM_DB: "1298487f4c45458dbea35e7d9bdc887a",
+  FRANCHISES_DB: "65e3170869d149fe80a37e50a717f8fc",
+  COMICS_PUBLISHES_DB: "db303569819b4359932352683e8d5451",
+  ANIME_RELEASES_DB: "7b5115df827e4ea59e9e1b8c96757a4e",
+  TEAMS_DB: "494187f8f1894196839d0437f74ad0c4",
+  ANIME_TITLES_DB: "2c56f87aefa1421599e91845dbf8e140",
+  TV_STREAMS_DB: "c4655b9aa3174699b322646cf2ad6a80",
+  PUBLISHES_DB: "8e9aed9714e0455fac4581bac9a62534",
+  MANGA_TITLES_DB: "2633db218dd64b3e9a40c7646bd7e319",
+  MANGA_PUBLISHES_DB: "ffe7b2a2b3a54ff4a38dd57c0cbfafa4"
+}
 
 process.stdout.setEncoding('utf8')
 if (process.stdout.isTTY) {
@@ -350,17 +364,17 @@ async function importData(databaseId, dbTitle, outputFileName, propertiesToExpan
 }
 
 async function importAnimeTitles() {
-  const databaseId = process.env.NOTION_ANIME_TITLES_DB
+  const databaseId = DATABASES.ANIME_TITLES_DB
   await importData(databaseId, "Аніме тайтли", "AnimeTitlesDB.json", [], processAnimeData)
 }
 
 async function importReleases() {
-  const databaseId = process.env.NOTION_ANIME_RELEASES_DB
+  const databaseId = DATABASES.ANIME_RELEASES_DB
   await importData(databaseId, "Аніме релізи", "AnimeReleasesDB.json", [], processReleaseData)
 }
 
 async function importTeams() {
-  const databaseId = process.env.NOTION_TEAMS_DB
+  const databaseId = DATABASES.TEAMS_DB
   await importData(databaseId, "Команди фандабу", "TeamsDB.json", ["Релізи аніме"], processTeamData)
 }
 
