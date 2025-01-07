@@ -350,17 +350,17 @@ async function importData(databaseId, dbTitle, outputFileName, propertiesToExpan
 }
 
 async function importAnimeTitles() {
-  const databaseId = process.env.NOTION_ANIME_TITLES_DB
+  const databaseId = process.env.ANIME_TITLES_DB
   await importData(databaseId, "Аніме тайтли", "AnimeTitlesDB.json", [], processAnimeData)
 }
 
 async function importReleases() {
-  const databaseId = process.env.NOTION_ANIME_RELEASES_DB
+  const databaseId = process.env.ANIME_RELEASES_DB
   await importData(databaseId, "Аніме релізи", "AnimeReleasesDB.json", [], processReleaseData)
 }
 
 async function importTeams() {
-  const databaseId = process.env.NOTION_TEAMS_DB
+  const databaseId = process.env.TEAMS_DB
   await importData(databaseId, "Команди фандабу", "TeamsDB.json", ["Релізи аніме"], processTeamData)
 }
 
