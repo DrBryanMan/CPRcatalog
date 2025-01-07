@@ -109,7 +109,7 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = []) {
         processedPages.push(processedPage)
         pageCount++
         const title = processedPage.properties['Назва тайтлу']?.title[0]?.plain_text || 
-                      processedPage.properties['Name']?.title[0]?.plain_text || 
+                      processedPage.properties['Назва релізу']?.title[0]?.plain_text || 
                       processedPage.properties['Назва команди']?.title[0]?.plain_text || 
                       processedPage.id
         colorLog(`Обробка ${pageCount}/${pages.length}: ${title}`, 'yellow', OUTPUT_MODES.PROGRESS)
@@ -124,7 +124,7 @@ async function getAllPages(databaseId, dbTitle, propertiesToExpand = []) {
   for (const page of pages) {
     pageCount++
     const title = page.properties['Назва тайтлу']?.title[0]?.plain_text || 
-                  page.properties['Name']?.title[0]?.plain_text || 
+                  page.properties['Назва релізу']?.title[0]?.plain_text || 
                   page.properties['Назва команди']?.title[0]?.plain_text || 
                   page.id
     colorLog(`Обробка ${pageCount}/${pages.length}: ${title}`, 'yellow', OUTPUT_MODES.PROGRESS)
@@ -185,7 +185,7 @@ async function fetchHikkaData(urls) {
 
       animeData.push({
         url,
-        poster: anime.poster,
+        poster: anime.image,
         synonyms: anime.synonyms,
         score: anime.score,
         scored_by: anime.scored_by
