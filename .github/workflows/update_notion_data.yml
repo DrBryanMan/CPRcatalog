@@ -22,9 +22,6 @@ jobs:
     - name: Run import script
       env:
         NOTION_TOKEN: ${{ secrets.NOTION_SECRET }}
-        NOTION_ANIME_TITLES_DB: ${{ vars.NOTION_ANIME_TITLES_DB }}
-        NOTION_ANIME_RELEASES_DB: ${{ vars.NOTION_ANIME_RELEASES_DB }}
-        NOTION_TEAMS_DB: ${{ vars.NOTION_TEAMS_DB }}
       run: node js/notion_data_import.js
     
     - name: Commit and push if changed
