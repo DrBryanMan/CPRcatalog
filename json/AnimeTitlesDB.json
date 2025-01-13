@@ -1,5 +1,1851 @@
 [
   {
+    "id": "179d30fa-35d0-80d5-8d5c-d5e50c254bbe",
+    "last_edited": "2025-01-12T07:55:00.000Z",
+    "hikka_url": "https://hikka.io/anime/eyeshield-21-b44c48",
+    "poster": "https://cdn.hikka.io/content/anime/eyeshield-21-b44c48/6D9IvKmZgO3Fq7BdHaI4sw.jpg",
+    "title": "Айшілд 21",
+    "romaji": "Eyeshield 21",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Eyeshield21"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2005",
+    "scoreMAL": 7.91,
+    "scoredbyMAL": 90848,
+    "Анітюб": "https://anitube.in.ua/4668-ayshld-21.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "145",
+    "releases": [
+      {
+        "id": "179d30fa-35d0-80bf-8de0-cf7cf2da74e6"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "179d30fa-35d0-80cc-906f-f14ba5236fa3",
+    "last_edited": "2025-01-12T07:48:00.000Z",
+    "hikka_url": "https://hikka.io/anime/slam-dunk-e584dd",
+    "poster": "https://cdn.hikka.io/content/anime/slam-dunk-e584dd/kRR3V2fLd3VDhshefxm3_A.jpg",
+    "title": "Слем Данк",
+    "romaji": "Slam Dunk",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "1993",
+    "scoreMAL": 8.55,
+    "scoredbyMAL": 142008,
+    "Анітюб": "https://anitube.in.ua/3699-slam-dunk.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "101",
+    "releases": [
+      {
+        "id": "179d30fa-35d0-80fa-afd5-cb89be116c72"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "179d30fa-35d0-80cf-b222-fe9ca7b30bc1",
+    "last_edited": "2025-01-12T07:43:00.000Z",
+    "hikka_url": "https://hikka.io/anime/momokuri-8085bf",
+    "poster": "https://cdn.hikka.io/content/anime/momokuri-8085bf/He_6-QSw7-4fLnrdvqQntw.jpg",
+    "title": "Момокурі",
+    "romaji": "Momokuri",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2015",
+    "scoreMAL": 7.04,
+    "scoredbyMAL": 40784,
+    "Анітюб": "https://anitube.in.ua/4657-momokuri.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "26",
+    "releases": [
+      {
+        "id": "179d30fa-35d0-8036-a419-c7f7648ac104"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "179d30fa-35d0-80d1-869d-c854fce44148",
+    "last_edited": "2025-01-12T07:36:00.000Z",
+    "hikka_url": "https://hikka.io/anime/maison-ikkoku-d34281",
+    "poster": "https://cdn.hikka.io/content/anime/maison-ikkoku-d34281/lEnm5WCHLNjaCNEaWK3ybg.jpg",
+    "title": "Гуртожиток Іккоку",
+    "romaji": "Maison Ikkoku",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Ikkoku House"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "1986",
+    "scoreMAL": 8.19,
+    "scoredbyMAL": 19899,
+    "Анітюб": "https://anitube.in.ua/4569-maison-ikkoku.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "96",
+    "releases": [
+      {
+        "id": "179d30fa-35d0-80ef-bb40-e4ded8089716"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "179d30fa-35d0-8076-a8b6-ec4fb5472cdb",
+    "last_edited": "2025-01-12T07:34:00.000Z",
+    "hikka_url": "https://hikka.io/anime/hunter-x-hunter-8c4a33",
+    "poster": "https://cdn.hikka.io/content/anime/hunter-x-hunter-8c4a33/N5-p40f6nb5X8i5mLPuyFA.jpg",
+    "title": "Мисливець x Мисливець",
+    "romaji": "Hunter x Hunter",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "HxH"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "1999",
+    "scoreMAL": 8.42,
+    "scoredbyMAL": 297683,
+    "Анітюб": "https://anitube.in.ua/4600-hunter-x-hunter.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "62",
+    "releases": [
+      {
+        "id": "179d30fa-35d0-8003-b5ff-fec9e1c6d553"
+      },
+      {
+        "id": "179d30fa-35d0-8094-a7fd-eb54a410607f"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8038-ac72-f51475608f9d",
+    "last_edited": "2025-01-10T13:29:00.000Z",
+    "hikka_url": "https://hikka.io/anime/bishoujo-senshi-sailor-moon-s-kaguya-hime-no-koibito-1377ce",
+    "poster": "https://cdn.hikka.io/content/anime/bishoujo-senshi-sailor-moon-s-kaguya-hime-no-koibito-1377ce/mS9LzyUwtrrv9byVbvWv0w.jpg",
+    "title": "Сейлор Мун Супер Фільм",
+    "romaji": "Bishoujo Senshi Sailor Moon S: Kaguya-hime no Koibito",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Bishoujo Senshi Sailor Moon S: The Movie",
+      "Bishoujo Senshi Sailor Moon S: Kaguya Hime no Koibito",
+      "Sailor Moon S: Snowprincess Kaguya"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "1994",
+    "scoreMAL": 7.69,
+    "scoredbyMAL": 29780,
+    "Анітюб": "https://anitube.in.ua/4559-bishoujo-senshi-sailor-moon-s-kaguya-hime-no-koibito.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8035-82a1-c5662263d3b7"
+      },
+      {
+        "id": "179d30fa-35d0-803a-96bc-ef2322e55f28"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8047-a2e1-f485c26705dc",
+    "last_edited": "2025-01-10T13:25:00.000Z",
+    "hikka_url": "https://hikka.io/anime/omae-wa-mada-gunma-wo-shiranai-3d0a7a",
+    "poster": "https://cdn.hikka.io/content/anime/omae-wa-mada-gunma-wo-shiranai-3d0a7a/bixTSy15JdL_qGJ-XyENDw.jpg",
+    "title": "Ви ще не знаєте Ґумму",
+    "romaji": "Omae wa Mada Gunma wo Shiranai",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2018",
+    "scoreMAL": 5.25,
+    "scoredbyMAL": 5477,
+    "Анітюб": "https://anitube.in.ua/4694-vi-sche-ne-znayete-ummu.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8042-8e16-c74609bf668d"
+      },
+      {
+        "id": "177d30fa-35d0-80b4-989e-ccf55e1e6456"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8084-91e4-f41b48e72ce4",
+    "last_edited": "2025-01-10T13:17:00.000Z",
+    "hikka_url": "https://hikka.io/anime/lupin-zero-838517",
+    "poster": "https://cdn.hikka.io/content/anime/lupin-zero-838517/4_ZMUIidvQufAaJ9OXwD2Q.jpg",
+    "title": "Люпен: Початок",
+    "romaji": "Lupin Zero",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2022",
+    "scoreMAL": 7.41,
+    "scoredbyMAL": 3820,
+    "Анітюб": "https://anitube.in.ua/4544-lupin-zero.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "6",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8010-8a26-c39133443fb3"
+      },
+      {
+        "id": "179d30fa-35d0-808b-845e-c1e9089b97b2"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-806f-a1ff-dea4aa2b6a67",
+    "last_edited": "2025-01-10T13:09:00.000Z",
+    "hikka_url": "https://hikka.io/anime/fumikiri-jikan-c6bfd0",
+    "poster": "https://cdn.hikka.io/content/anime/fumikiri-jikan-c6bfd0/UI3G-6XQZd_y7qX1kusz9A.jpg",
+    "title": "На залізничному переїзді",
+    "romaji": "Fumikiri Jikan",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2018",
+    "scoreMAL": 6.36,
+    "scoredbyMAL": 19971,
+    "Анітюб": "https://anitube.in.ua/4808-na-zalznichnomu-pereyizd.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8074-99bc-e409bc6d8d73"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80e3-8ca2-f72649506b0c",
+    "last_edited": "2025-01-10T13:07:00.000Z",
+    "hikka_url": "https://hikka.io/anime/dogeza-de-tanondemita-isekai-hen-c6bb94",
+    "poster": "https://cdn.hikka.io/content/anime/dogeza-de-tanondemita-isekai-hen-c6bb94/aq-bhQY4Syjrzdq9QC7j-g.jpg",
+    "title": "Я благаю її на колінах: Ісекай",
+    "romaji": "Dogeza de Tanondemita: Isekai-hen",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Dogeza de Tanondemita Episode 13",
+      "I Tried Asking In Dogeza Episode 13",
+      "Я благаю її на колінах: Епізод 13",
+      "Я благаю її в доґедза: Ісекай",
+      "Я благаю її в доґедза: Епізод 13"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2021",
+    "scoreMAL": 5.65,
+    "scoredbyMAL": 8559,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8021-bdf6-ddecfe8336cb"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8047-9903-fbd1f67afad5",
+    "last_edited": "2025-01-10T13:03:00.000Z",
+    "hikka_url": "https://hikka.io/anime/aru-tabibito-no-nikki-37add7",
+    "poster": "https://cdn.hikka.io/content/anime/aru-tabibito-no-nikki-37add7/fdq9NISoWGpYCtebZ4jCuw.jpg",
+    "title": "Щоденник Тортова Роддла",
+    "romaji": "Aru Tabibito no Nikki",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "The Diary of Tortov Roddle"
+    ],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2003",
+    "scoreMAL": 7.04,
+    "scoredbyMAL": 12133,
+    "Анітюб": "https://anitube.in.ua/4459-aru-tabibito-no-nikki.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "6",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8049-b307-c69f37570895"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-809e-895d-ca9afdaeacbc",
+    "last_edited": "2025-01-10T12:57:00.000Z",
+    "hikka_url": "https://hikka.io/anime/anikuri15-f6aa23",
+    "poster": "https://cdn.hikka.io/content/anime/anikuri15-f6aa23/tLq7nJ2BnEqwD1tNk-Qfjg.jpg",
+    "title": "Збірка анімації",
+    "romaji": "Ani*Kuri15",
+    "synonyms": [
+      "Котяче збіговисько"
+    ],
+    "hikkaSynonyms": [
+      "Ani*Cre15",
+      "Ani Kuri 15",
+      "Ani-Kuri 15",
+      "Anikuri 15",
+      "Neko no Shuukai",
+      "Котяче збіговисько"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2007",
+    "scoreMAL": 6.68,
+    "scoredbyMAL": 11115,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "15",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-80d7-b264-f915895a8175"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80fa-8082-f51591382ac0",
+    "last_edited": "2025-01-10T12:54:00.000Z",
+    "hikka_url": "https://hikka.io/anime/dogeza-de-tanondemita-110252",
+    "poster": "https://cdn.hikka.io/content/anime/dogeza-de-tanondemita-110252/cPueJsMrEJgsV96SrdwfSw.jpg",
+    "title": "Я благаю її на колінах",
+    "romaji": "Dogeza de Tanondemita",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "I Tried Asking In Dogeza",
+      "Я благаю її в доґедза"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2020",
+    "scoreMAL": 5.56,
+    "scoredbyMAL": 29733,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8021-bdf6-ddecfe8336cb"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80b6-b2b5-f92b198ea4b6",
+    "last_edited": "2025-01-10T12:43:00.000Z",
+    "hikka_url": "https://hikka.io/anime/fumiko-no-kokuhaku-294f00",
+    "poster": "https://cdn.hikka.io/content/anime/fumiko-no-kokuhaku-294f00/nOUirlZxGWSzFNzqHr-Mpg.jpg",
+    "title": "Зізнання Фуміко",
+    "romaji": "Fumiko no Kokuhaku",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2009",
+    "scoreMAL": 6.6,
+    "scoredbyMAL": 17331,
+    "Анітюб": "https://anitube.in.ua/4653-fumiko-no-kokuhaku.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-80b8-a143-ce531367e5c0"
+      },
+      {
+        "id": "179d30fa-35d0-8040-a13e-dcd1e1742381"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80da-b063-d435958e35a3",
+    "last_edited": "2025-01-10T13:11:00.000Z",
+    "hikka_url": "https://hikka.io/anime/atama-yama-6ad993",
+    "poster": "https://cdn.hikka.io/content/anime/atama-yama-6ad993/aeMFKJ1jX9dfewJLnCVvRQ.jpg",
+    "title": "Голова гора",
+    "romaji": "Atama Yama",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Atama-yama"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2002",
+    "scoreMAL": 6.37,
+    "scoredbyMAL": 4835,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-80eb-bbe8-d0dbb8154675"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80e7-9e8c-ef023f96a0ff",
+    "last_edited": "2025-01-10T12:35:00.000Z",
+    "hikka_url": "https://hikka.io/anime/hiatari-ryoukou-ebc94b",
+    "poster": "https://cdn.hikka.io/content/anime/hiatari-ryoukou-ebc94b/GZ_5BKBsjRjUltie0QpRWw.jpg",
+    "title": "Сонячний день",
+    "romaji": "Hiatari Ryoukou!",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Hiatari Ryoukou"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "1987",
+    "scoreMAL": 7.02,
+    "scoredbyMAL": 1465,
+    "Анітюб": "https://anitube.in.ua/4243-hiatari-ryoukou.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "48",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8028-8931-fb5c81705035"
+      },
+      {
+        "id": "177d30fa-35d0-80e9-bd92-f8f0ad76a4c2"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80ab-b676-faf9b9be5f22",
+    "last_edited": "2025-01-10T12:05:00.000Z",
+    "hikka_url": "https://hikka.io/anime/majin-tantei-nougami-neuro-e73f48",
+    "poster": "https://cdn.hikka.io/content/anime/majin-tantei-nougami-neuro-e73f48/VVXSXE65Ydjwy2b0JwoWIA.jpg",
+    "title": "Нейро: Надприродний детектив",
+    "romaji": "Majin Tantei Nougami Neuro",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Private Evil-Eye Nougami Neuro",
+      "Demon Detective Nougami Neuro"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2007",
+    "scoreMAL": 7.58,
+    "scoredbyMAL": 28359,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "25",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-80eb-ad0d-f12ed6f632bf"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-807d-ba49-e99d7b5425dd",
+    "last_edited": "2025-01-10T11:05:00.000Z",
+    "hikka_url": "https://hikka.io/anime/iron-man-e75e68",
+    "poster": "https://cdn.hikka.io/content/anime/iron-man-e75e68/uI5xu9IcuhvYklgpCLZeIg.jpg",
+    "title": "Залізна людина",
+    "romaji": "Iron Man",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Ironman"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2010",
+    "scoreMAL": 6.04,
+    "scoredbyMAL": 14168,
+    "Анітюб": "https://anitube.in.ua/4776-zalzna-lyudina.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8000-84d4-dabb44f26d84"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80b1-97b0-d523eb9515dc",
+    "last_edited": "2025-01-10T10:56:00.000Z",
+    "hikka_url": "https://hikka.io/anime/city-hunter-ai-to-shukumei-no-magnum-05f4bf",
+    "poster": "https://cdn.hikka.io/content/anime/city-hunter-ai-to-shukumei-no-magnum-05f4bf/GSSGICQuTzZmXnPCkVJBkA.jpg",
+    "title": "Міський мисливець. 357 Маґнум",
+    "romaji": "City Hunter: Ai to Shukumei no Magnum",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "City Hunter: A Magnum of Love's Destination",
+      "City Hunter: Magnum of Love and Destiny",
+      "City Hunter: Magnum of Love and Fate"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "1989",
+    "scoreMAL": 7.37,
+    "scoredbyMAL": 4359,
+    "Анітюб": "https://anitube.in.ua/4661-city-hunter-ai-to-shukumei-no-magnum.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-800b-afda-e1db56297b3d"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8022-9891-f7b1d3dbd144",
+    "last_edited": "2025-01-10T10:54:00.000Z",
+    "hikka_url": "https://hikka.io/anime/bishoujo-senshi-sailor-moon-r-make-up-sailor-senshi-a0455b",
+    "poster": "https://cdn.hikka.io/content/anime/bishoujo-senshi-sailor-moon-r-make-up-sailor-senshi-a0455b/ZnXlWXbgzPsHMLj6hhKpQg.jpg",
+    "title": "Сейлор Воїтельки, Перетворіться!",
+    "romaji": "Bishoujo Senshi Sailor Moon R: Make Up! Sailor Senshi",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "1993",
+    "scoreMAL": 7.06,
+    "scoredbyMAL": 8093,
+    "Анітюб": "https://anitube.in.ua/4647-bishoujo-senshi-sailor-moon-r-make-up-sailor-senshi.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8084-951f-ede77db9b4d4"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80dc-a881-e2b747641ab6",
+    "last_edited": "2025-01-10T10:50:00.000Z",
+    "hikka_url": "https://hikka.io/anime/love-hina-christmas-special-silent-eve-43ca59",
+    "poster": "https://cdn.hikka.io/content/anime/love-hina-christmas-special-silent-eve-43ca59/SUXhkRnMLLZPsjoBaVYLUQ.jpg",
+    "title": "З любов'ю Хіна: Різдвяна історія",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2000",
+    "scoreMAL": 7.31,
+    "scoredbyMAL": 36297,
+    "Анітюб": "https://anitube.in.ua/4565-love-hina-christmas-special-silent-eve.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8031-8644-d3d9e4ee52b6"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8021-9205-d3c6c23afd8e",
+    "last_edited": "2025-01-10T10:44:00.000Z",
+    "hikka_url": "https://hikka.io/anime/bai-ye-ling-long-4d0218",
+    "poster": "https://cdn.hikka.io/content/anime/bai-ye-ling-long-4d0218/g4NNDeD-7lg2KvdOWb7yiw.jpg",
+    "title": "Біла ніч",
+    "romaji": "Bai Ye Ling Long",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Baiye Linglong"
+    ],
+    "type": "Китайське",
+    "format": "ОМА",
+    "year": "2018",
+    "scoreMAL": 6.38,
+    "scoredbyMAL": 769,
+    "Анітюб": "https://anitube.in.ua/4474-bai-ye-ling-long.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "25",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-804f-9124-ea6c6d0adabf"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8099-b11a-d22593c1b6d4",
+    "last_edited": "2025-01-10T10:33:00.000Z",
+    "hikka_url": "https://hikka.io/anime/given-uragawa-no-sonzai-0bbbc7",
+    "poster": "https://cdn.hikka.io/content/anime/given-uragawa-no-sonzai-0bbbc7/BODSAAt6PJ7XSlq6u8KWaA.jpg",
+    "title": "Ґівен: З іншого боку",
+    "romaji": "Given: Uragawa no Sonzai",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Given OVA",
+      "Given OAD"
+    ],
+    "type": "Аніме",
+    "format": "ОВА",
+    "year": "2021",
+    "scoreMAL": 8.13,
+    "scoredbyMAL": 40403,
+    "Анітюб": "https://anitube.in.ua/4265-given-uragawa-no-sonzai.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8067-8727-fef7a80f783c"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8091-85a0-c0dcb996fc15",
+    "last_edited": "2025-01-10T10:22:00.000Z",
+    "hikka_url": "https://hikka.io/anime/xie-wang-zhui-qi-d0516b",
+    "poster": "https://cdn.hikka.io/content/anime/xie-wang-zhui-qi-d0516b/BUzpyJThLqO_J3TywyDZ4g.jpg",
+    "title": "Полювання короля демонів на свою дружину",
+    "romaji": "Xie Wang Zhui Qi",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Китайське",
+    "format": "ОМА",
+    "year": "2019",
+    "scoreMAL": 6.78,
+    "scoredbyMAL": 8577,
+    "Анітюб": "https://anitube.in.ua/4139-xie-wang-zhui-qi.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8054-ae6a-eb0257d892b3"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-8094-9460-e1fd04d2d41b",
+    "last_edited": "2025-01-10T10:15:00.000Z",
+    "hikka_url": "https://hikka.io/anime/date-a-bullet-nightmare-or-queen-1cb21f",
+    "poster": "https://cdn.hikka.io/content/anime/date-a-bullet-nightmare-or-queen-1cb21f/GuydrFx6abr4ocIkVWurlg.jpg",
+    "title": "Побачення з кулею: Кошмар або королева",
+    "romaji": "Date A Bullet: Nightmare or Queen",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2020",
+    "scoreMAL": 7.64,
+    "scoredbyMAL": 37104,
+    "Анітюб": "https://anitube.in.ua/4145-pobachennya-z-kuleyu-chastina-2-koshmar-abo-koroleva.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8095-abbe-d6f24b27df5e"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-802f-bb49-fb662c3b4c38",
+    "last_edited": "2025-01-10T10:32:00.000Z",
+    "hikka_url": "https://hikka.io/anime/given-zoku-hen-882af7",
+    "poster": "https://cdn.hikka.io/content/anime/given-zoku-hen-882af7/D1LTK3tJwR8jvCdFHzbe5g.jpg",
+    "title": "Ґівен Фільм 2: Мікс Хіїраґі",
+    "romaji": "Given Movie 2: Hiiragi Mix",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2024",
+    "scoreMAL": 8.01,
+    "scoredbyMAL": 3283,
+    "Анітюб": "https://anitube.in.ua/5042-ven-flm-2-zbrka-hyira.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8065-9998-c15b3e413331"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80d9-a306-c9b5139c68ea",
+    "last_edited": "2025-01-10T07:42:00.000Z",
+    "hikka_url": null,
+    "title": "Держслужбовці опівнічних таємниць",
+    "romaji": "Mayonaka no Occult Koumuin",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2019",
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8006-a3af-fde762072c72"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "177d30fa-35d0-80d3-9e7f-fd30fdbf96a0",
+    "last_edited": "2025-01-10T07:38:00.000Z",
+    "hikka_url": "https://hikka.io/anime/high-card-the-flowers-bloom-f21b8a",
+    "poster": "https://cdn.hikka.io/content/anime/high-card-the-flowers-bloom-f21b8a/r8b-s7jXFJLQtS9eSf15kg.jpg",
+    "title": "Старша карта: Цвітіння квітів",
+    "romaji": "High Card: The Flowers Bloom",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2024",
+    "scoreMAL": 6.66,
+    "scoredbyMAL": 1428,
+    "Анітюб": "https://anitube.in.ua/4619-high-card-season-2.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-818f-b4a8-fe15b6f6f137"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-809c-aadd-c74cd1914338",
+    "last_edited": "2025-01-09T14:17:00.000Z",
+    "hikka_url": "https://hikka.io/anime/aragne-no-mushikago-16f89a",
+    "poster": "https://cdn.hikka.io/content/anime/aragne-no-mushikago-16f89a/iBEr2r6A_ThxC-B0HTUMsw.jpg",
+    "title": "Араньє: Оболонка для комах",
+    "romaji": "Aragne no Mushikago",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2018",
+    "scoreMAL": 5.04,
+    "scoredbyMAL": 1646,
+    "Анітюб": "https://anitube.in.ua/5051-aranye-obolonka-dlya-komah.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-803e-bb14-fb05a246ba4f"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-80d3-ad4a-d75645af8a35",
+    "last_edited": "2025-01-09T14:06:00.000Z",
+    "hikka_url": "https://hikka.io/anime/lupin-the-iiird-mine-fujiko-no-uso-4cb8a3",
+    "poster": "https://cdn.hikka.io/content/anime/lupin-the-iiird-mine-fujiko-no-uso-4cb8a3/zbr0zVQisiSpGEeBpdzh6w.jpg",
+    "title": "Люпен Третій: Брехня Фуджіко Міне",
+    "romaji": "Lupin the IIIrd: Mine Fujiko no Uso",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2019",
+    "scoreMAL": 7.26,
+    "scoredbyMAL": 6108,
+    "Анітюб": "https://anitube.in.ua/4940-lyupen-trety-brehnya-fudzhko-mne.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-80e5-941a-ca0300fa5d98"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-806c-a551-cc58eda95ff0",
+    "last_edited": "2025-01-09T14:03:00.000Z",
+    "hikka_url": "https://hikka.io/anime/morita-san-wa-mukuchi-072bd2",
+    "poster": "https://cdn.hikka.io/content/anime/morita-san-wa-mukuchi-072bd2/GIyExUZ5OUK-CKq_lczxvg.jpg",
+    "title": "Моріта небалакуча",
+    "romaji": "Morita-san wa Mukuchi.",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Miss Morita is Taciturn (TV)"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2011",
+    "scoreMAL": 6.49,
+    "scoredbyMAL": 11218,
+    "Анітюб": "https://anitube.in.ua/4923-morta-nebalakucha.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-803f-9db7-f0993e33e176"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-80eb-82d7-df5f614173a1",
+    "last_edited": "2025-01-09T14:00:00.000Z",
+    "hikka_url": "https://hikka.io/anime/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita-00d3c2",
+    "poster": "https://cdn.hikka.io/content/anime/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita-00d3c2/Q5FkvRCcLl6p1-UNQfMKPg.jpg",
+    "title": "Райські гарячу джерела",
+    "romaji": "Meitou \"Isekai no Yu\" Kaitakuki: Around 40 Onsen Mania no Tensei Saki wa, Nonbiri Onsen Tengoku deshita",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Meitou \"Isekai no Yu\" Kaitakuki: Arafoo 40 Onsen Mania no Tensei Saki wa",
+      "Nonbiri Onsen Tengoku deshita",
+      "Isekai Onsen Paradise"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "scoreMAL": 5.24,
+    "scoredbyMAL": 9147,
+    "Анітюб": "https://anitube.in.ua/4886-raysk-garyach-dzherela.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-800a-a718-d6e0d31f506e"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-8000-b723-d2092eff1926",
+    "last_edited": "2025-01-09T13:56:00.000Z",
+    "hikka_url": "https://hikka.io/anime/amrita-no-kyouen-6d806f",
+    "poster": "https://cdn.hikka.io/content/anime/amrita-no-kyouen-6d806f/q1lb3LK3R9SGvhgZnx509A.jpg",
+    "title": "Бенкет Амріти",
+    "romaji": "Amrita no Kyouen",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2023",
+    "scoreMAL": 5.4,
+    "scoredbyMAL": 1003,
+    "Анітюб": "https://anitube.in.ua/4794-benket-amrti.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-8065-8fc8-d0d56f9e39b6"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-8090-8c0c-d8c30cbf4794",
+    "last_edited": "2025-01-09T13:51:00.000Z",
+    "hikka_url": "https://hikka.io/anime/lupin-the-iiird-chikemuri-no-ishikawa-goemon-51ad1c",
+    "poster": "https://cdn.hikka.io/content/anime/lupin-the-iiird-chikemuri-no-ishikawa-goemon-51ad1c/3AnsOHcBCSzq9UKZ8QbTDA.jpg",
+    "title": "Люпен Третій: Бризки крові Ґоемона Ішікави",
+    "romaji": "Lupin the IIIrd: Chikemuri no Ishikawa Goemon",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Lupin the Third: Goemon Ishikawa's Spray of Blood"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2017",
+    "scoreMAL": 7.86,
+    "scoredbyMAL": 17368,
+    "Анітюб": "https://anitube.in.ua/4785-lyupen-trety-brizki-krov-oemona-shkavi.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-8097-8b37-da26dc469840"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-80f1-9302-c0b395dc3fb7",
+    "last_edited": "2025-01-09T13:48:00.000Z",
+    "hikka_url": "https://hikka.io/anime/grappler-baki-saidai-tournament-hen-b3b78b",
+    "poster": "https://cdn.hikka.io/content/anime/grappler-baki-saidai-tournament-hen-b3b78b/Zckhn6iep5kVILkVnHz9cg.jpg",
+    "title": "Боєць Бакі 2: Найвеличніший турнір",
+    "romaji": "Grappler Baki: Saidai Tournament-hen",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Baki the Grappler II",
+      "Grappler Baki Second Season",
+      "Baki The Grappler - The Ultimate Tournament",
+      "Grappler Baki Maximum Tournament"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2001",
+    "scoreMAL": 7.48,
+    "scoredbyMAL": 53372,
+    "Анітюб": "https://anitube.in.ua/4746-boyec-bak-nayvelichnshiy-turnr.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "24",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-80f0-a8b7-f1048802a99a"
+      }
+    ],
+    "relations": [
+      {
+        "id": "176d30fa-35d0-8003-a233-ec0943e32f60"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-806d-baa0-fc2b98dcb0fd",
+    "last_edited": "2025-01-09T13:45:00.000Z",
+    "hikka_url": "https://hikka.io/anime/kawaikereba-hentai-demo-suki-ni-natte-kuremasu-ka-6cabd6",
+    "poster": "https://cdn.hikka.io/content/anime/kawaikereba-hentai-demo-suki-ni-natte-kuremasu-ka-6cabd6/uoU33X4vCjcmKkoPEqROsg.jpg",
+    "title": "Чи полюбиш ти збоченку, якщо вона мила?",
+    "romaji": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Would you love a pervert as long as she's cute?"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2019",
+    "scoreMAL": 6.47,
+    "scoredbyMAL": 164231,
+    "Анітюб": "https://anitube.in.ua/4722-chi-gotoviy-ti-zakohatis-u-zbochenku-yakscho-vona-mila.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-8046-aba4-f2f575b31f61"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-8003-a233-ec0943e32f60",
+    "last_edited": "2025-01-09T13:44:00.000Z",
+    "hikka_url": "https://hikka.io/anime/grappler-baki-tv-ce7944",
+    "poster": "https://cdn.hikka.io/content/anime/grappler-baki-tv-ce7944/nVqik3hfZ9yTSwYG2576nQ.jpg",
+    "title": "Боєць Бакі",
+    "romaji": "Grappler Baki (TV)",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2001",
+    "scoreMAL": 7.45,
+    "scoredbyMAL": 79290,
+    "Анітюб": "https://anitube.in.ua/4510-boyec-bak.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "24",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-801b-9128-eefd5e2be647"
+      }
+    ],
+    "relations": [
+      {
+        "id": "176d30fa-35d0-80f1-9302-c0b395dc3fb7"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-8020-93b8-d8a0e47bc84e",
+    "last_edited": "2025-01-09T11:54:00.000Z",
+    "hikka_url": "https://hikka.io/anime/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-5c6b3e",
+    "poster": "https://cdn.hikka.io/content/anime/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-5c6b3e/V8V09pawp5ew9iFqHswU5w.jpg",
+    "title": "Чому про мене ніхто не пам'ятає в цьому світі?",
+    "romaji": "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Why Does Nobody Remember Me in This World?",
+      "Чому ніхто не пам'ятає мій світ?"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2024",
+    "scoreMAL": 6.26,
+    "scoredbyMAL": 36220,
+    "Анітюб": "https://anitube.in.ua/4869-chomu-nhto-v-comu-svt-ne-pamyataye-mene.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-80df-a8c1-f46183cc54cb"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-80ea-8613-fb4ded2dae7c",
+    "last_edited": "2025-01-10T10:21:00.000Z",
+    "hikka_url": "https://hikka.io/anime/xiehou-ta-de-shaonu-shidai-f2478d",
+    "poster": "https://cdn.hikka.io/content/anime/xiehou-ta-de-shaonu-shidai-f2478d/kQCLwz94ryAcGr949VhvLg.jpg",
+    "title": "Мамо, мені жаль",
+    "romaji": "Xiehou ta de Shaonu Shidai",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "맘마미안",
+      "Mama Mian"
+    ],
+    "type": "Китайське",
+    "format": "ОМА",
+    "year": "2024",
+    "scoreMAL": 7.7,
+    "scoredbyMAL": 1446,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "18",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-8078-b391-e60315af9e3a"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-8089-9f96-c6a61eaed73d",
+    "last_edited": "2025-01-09T11:10:00.000Z",
+    "hikka_url": "https://hikka.io/anime/monsters-ippyaku-sanjou-hiryuu-jigoku-ddd330",
+    "poster": "https://cdn.hikka.io/content/anime/monsters-ippyaku-sanjou-hiryuu-jigoku-ddd330/3xXIZdeSB9tWGN9OLi9kXg.jpg",
+    "title": "Монстри: 103 милосердя прокляття дракона",
+    "romaji": "Monsters: Ippyaku Sanjou Hiryuu Jigoku",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2024",
+    "scoreMAL": 7.7,
+    "scoredbyMAL": 27310,
+    "Анітюб": "https://anitube.in.ua/4666-monstri-103-miloserdya-proklyattya-drakona.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-807f-8ff2-f2b42d379c6d"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-8004-8819-ff825572f40a",
+    "last_edited": "2025-01-09T09:49:00.000Z",
+    "hikka_url": "https://hikka.io/anime/orient-28e1af",
+    "poster": "https://cdn.hikka.io/content/anime/orient-28e1af/PmYkFdWLn1qCvSEIRUIgww.jpg",
+    "title": "Звільнення",
+    "romaji": "Orient",
+    "synonyms": [],
+    "hikkaSynonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2022",
+    "scoreMAL": 6.61,
+    "scoredbyMAL": 42351,
+    "Анітюб": "https://anitube.in.ua/4664-orient.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-80ca-ab8b-ea2a5fb47cac"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "176d30fa-35d0-8018-8075-c9a57e7630e7",
+    "last_edited": "2025-01-09T09:29:00.000Z",
+    "hikka_url": "https://hikka.io/anime/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow-0f969d",
+    "poster": "https://cdn.hikka.io/content/anime/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow-0f969d/TOSktHB2yG5EpWq47RWnhg.jpg",
+    "title": "Тільки я візьму новий рівень 2: Вихід із тіні",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Solo Leveling Second Season"
+    ],
+    "type": "Корейське",
+    "format": "ТБ",
+    "year": "2025",
+    "scoreMAL": 0,
+    "scoredbyMAL": 0,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "176d30fa-35d0-8036-b70f-fee7df0f8d41"
+      },
+      {
+        "id": "176d30fa-35d0-80cc-a0c7-d1744dd8346d"
+      },
+      {
+        "id": "176d30fa-35d0-8049-a750-dea83f79d63c"
+      },
+      {
+        "id": "176d30fa-35d0-80e2-82d6-eed1e5c0f629"
+      },
+      {
+        "id": "176d30fa-35d0-802b-ace3-e2b183dd344b"
+      }
+    ],
+    "relations": [
+      {
+        "id": "174d30fa-35d0-81a0-94b6-eabda4374668"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "175d30fa-35d0-8097-a240-c0d2fa83fa62",
+    "last_edited": "2025-01-08T20:54:00.000Z",
+    "hikka_url": "https://hikka.io/anime/sugarsoldier-ed673e",
+    "poster": "https://cdn.hikka.io/content/anime/sugarsoldier-ed673e/1RiINJpTqYfCK2Z6o4vJDg.jpg",
+    "title": "Цукровий солдатик",
+    "romaji": "Sugar*Soldier",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Sugar Soldier",
+      "Sugar * Soldier",
+      "Ribbon x Oha Suta Specials",
+      "Ribon x Oha Suta Specials"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2014",
+    "scoreMAL": 5.78,
+    "scoredbyMAL": 5470,
+    "Анітюб": "https://anitube.in.ua/1946-cukroviy-soldatik-sugar-soldier.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "3",
+    "releases": [
+      {
+        "id": "175d30fa-35d0-8039-9b47-d816022c8efc"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "175d30fa-35d0-8039-a97d-f048b893cd2f",
+    "last_edited": "2025-01-08T20:45:00.000Z",
+    "hikka_url": "https://hikka.io/anime/romantica-clock-81e845",
+    "poster": "https://cdn.hikka.io/content/anime/romantica-clock-81e845/2vshPTAW_u6V7m19mkAmwg.jpg",
+    "title": "Годинник романтики",
+    "romaji": "Romantica Clock",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Ribbon x Oha Suta Specials",
+      "Ribon x Oha Suta Specials"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2014",
+    "scoreMAL": 5.68,
+    "scoredbyMAL": 6781,
+    "Анітюб": "https://anitube.in.ua/1945-godinnik-romantiki-romantica-clock.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "3",
+    "releases": [
+      {
+        "id": "175d30fa-35d0-80f2-8dbe-d51ddd8f1cba"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "175d30fa-35d0-80c1-b1c8-c6a50f710b27",
+    "last_edited": "2025-01-08T17:17:00.000Z",
+    "hikka_url": "https://hikka.io/anime/azumanga-daiou-the-animation-b5a0ef",
+    "poster": "https://cdn.hikka.io/content/anime/azumanga-daiou-the-animation-b5a0ef/00fbTqMj2tnrfid3yqDDKQ.jpg",
+    "title": "Адзуманґа Дайо",
+    "romaji": "Azumanga Daiou The Animation",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Azumanga Daiou"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2002",
+    "scoreMAL": 8.04,
+    "scoredbyMAL": 167740,
+    "Анітюб": "https://anitube.in.ua/4137-adzumana.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "26",
+    "releases": [
+      {
+        "id": "175d30fa-35d0-8089-b567-ec69def49ba8"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "175d30fa-35d0-8095-ad68-f10d67cc5c25",
+    "last_edited": "2025-01-08T15:09:00.000Z",
+    "hikka_url": "https://hikka.io/anime/naruto-shippuuden-sunny-side-battle-c952e9",
+    "poster": "https://cdn.hikka.io/content/anime/naruto-shippuuden-sunny-side-battle-c952e9/oicltMPD6KmJDzNf7-uBxA.jpg",
+    "title": "Наруто: Ураганні хроніки - Сонячна сторона битви",
+    "romaji": "Naruto: Shippuuden - Sunny Side Battle",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Naruto: Shippuuden - Jump Festa 2013 Special",
+      "Naruto: Shippuuden - Jump Super Anime Tour 2013 Special"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2013",
+    "scoreMAL": 7.58,
+    "scoredbyMAL": 40433,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "175d30fa-35d0-8025-862b-cd5f0002c97e"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [
+      {
+        "id": "174d30fa-35d0-818c-bf28-d1648c585a63"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "175d30fa-35d0-800e-b345-ed2bf4a61bfd",
+    "last_edited": "2025-01-08T15:06:00.000Z",
+    "hikka_url": "https://hikka.io/anime/naruto-shippuuden-movie-1-bb3472",
+    "poster": "https://cdn.hikka.io/content/anime/naruto-shippuuden-movie-1-bb3472/wHdQIKgXYwUZ2SGPsWMHTw.jpg",
+    "title": "Наруто: Ураганні хроніки Фільм 1",
+    "romaji": "Naruto: Shippuuden Movie 1",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Naruto Shippuden Movie",
+      "Naruto Movie 4",
+      "Gekijouban Naruto Shippuuden"
+    ],
+    "type": "Аніме",
+    "format": "Фільм",
+    "year": "2007",
+    "scoreMAL": 7.29,
+    "scoredbyMAL": 177465,
+    "Анітюб": "https://anitube.in.ua/4669-naruto-uragann-hronki-flm-1.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "175d30fa-35d0-80e4-801b-fbe8b0e366ee"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [
+      {
+        "id": "174d30fa-35d0-818c-bf28-d1648c585a63"
+      }
+    ],
+    "posters": []
+  },
+  {
+    "id": "175d30fa-35d0-8087-aea9-cfbe2c80743c",
+    "last_edited": "2025-01-08T15:02:00.000Z",
+    "hikka_url": "https://hikka.io/anime/kuroko-no-basket-saikou-no-present-desu-c50413",
+    "poster": "https://cdn.hikka.io/content/anime/kuroko-no-basket-saikou-no-present-desu-c50413/6YFHokRSR7kUPBpXv8HpeA.jpg",
+    "title": "Баскетбол Куроко: Це найкращий подарунок",
+    "romaji": "Kuroko no Basket: Saikou no Present desu",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Kuroko no Basket Episode 75.5"
+    ],
+    "type": "Аніме",
+    "format": "Спешл",
+    "year": "2015",
+    "scoreMAL": 8.09,
+    "scoredbyMAL": 58689,
+    "Анітюб": "https://anitube.in.ua/4567-basketbol-kuroko-ce-naykraschiy-podarunok.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "175d30fa-35d0-800f-9e31-cbb59917c895"
+      }
+    ],
+    "relations": [
+      {
+        "id": "174d30fa-35d0-8161-8690-d0db4712db88"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-8082-be25-f12ed31dbf40",
+    "last_edited": "2025-01-07T14:37:00.000Z",
+    "hikka_url": "https://hikka.io/anime/to-love-ru-280c19",
+    "poster": "https://cdn.hikka.io/content/anime/to-love-ru-280c19/muRzmYcjPt7empwReXKfMg.jpg",
+    "title": "Любовні неприємності",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Toraburu",
+      "Love Trouble"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2008",
+    "scoreMAL": 6.97,
+    "scoredbyMAL": 328810,
+    "Анітюб": "https://anitube.in.ua/4875-neschastya-kohannya.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "26",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80fa-ae60-d9a48d9ef00c"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-80a8-9a58-dd399c133f52",
+    "last_edited": "2025-01-07T14:28:00.000Z",
+    "hikka_url": "https://hikka.io/anime/mahou-shoujo-ore-873b06",
+    "poster": "https://cdn.hikka.io/content/anime/mahou-shoujo-ore-873b06/2mEzWo4hAUkjLG7OZDmvfw.jpg",
+    "title": "Хлопці-чарівниці",
+    "romaji": "Mahou Shoujo Ore",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Magical Girl Me",
+      "Чарівна дівчинка Оре"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2018",
+    "scoreMAL": 6.64,
+    "scoredbyMAL": 26915,
+    "Анітюб": "https://anitube.in.ua/4662-charvna-dvchinka-ore.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-8065-a116-cbe6173e061a"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-805b-9a46-e96b03557d4b",
+    "last_edited": "2025-01-07T14:09:00.000Z",
+    "hikka_url": "https://hikka.io/anime/kami-nomi-zo-shiru-sekai-ii-36b30d",
+    "poster": "https://cdn.hikka.io/content/anime/kami-nomi-zo-shiru-sekai-ii-36b30d/OH-OMj-QOAV3YNCQzS0mIg.jpg",
+    "title": "Світ відомий лиш Богу (ТБ-2)",
+    "romaji": "Kami nomi zo Shiru Sekai II",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Kami nomi zo Shiru Sekai 2",
+      "Kaminomi II",
+      "The World God Only Knows 2"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2011",
+    "scoreMAL": 7.86,
+    "scoredbyMAL": 244280,
+    "Анітюб": "https://anitube.in.ua/4534-svt-vdomiy-lish-bogu-2-sezon.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80e8-a3ef-fafb9626f7c9"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-8025-9545-c774fff71ee0",
+    "last_edited": "2025-01-07T14:07:00.000Z",
+    "hikka_url": "https://hikka.io/anime/seitokai-yakuindomo-dbae10",
+    "poster": "https://cdn.hikka.io/content/anime/seitokai-yakuindomo-dbae10/69G_fw4XgZ7cZvQy2zt5jQ.jpg",
+    "title": "Члени Учнівської ради",
+    "romaji": "Seitokai Yakuindomo",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "SYD"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2010",
+    "scoreMAL": 7.54,
+    "scoredbyMAL": 224545,
+    "Анітюб": "https://anitube.in.ua/4598-chleni-uchnvskoyi-radi.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80fc-a335-e4d065d960a7"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-8068-851b-c8f3f5398f11",
+    "last_edited": "2025-01-07T13:58:00.000Z",
+    "hikka_url": "https://hikka.io/anime/dakara-boku-wa-h-ga-dekinai-03b585",
+    "poster": "https://cdn.hikka.io/content/anime/dakara-boku-wa-h-ga-dekinai-03b585/bB5A29WeCAUBiSXD4ML0oA.jpg",
+    "title": "Ось чому я не можу зробити ЦЕ",
+    "romaji": "Dakara Boku wa, H ga Dekinai.",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Dakara boku-ha H ga Dekinai.",
+      "Dakara Boku wa",
+      "Ecchi ga Dekinai."
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2012",
+    "scoreMAL": 6.53,
+    "scoredbyMAL": 217131,
+    "Анітюб": "https://anitube.in.ua/4588-dakara-boku-wa-h-ga-dekinai.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-8004-8f37-f4e9f9936839"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-804f-beac-d26b3525a1d6",
+    "last_edited": "2025-01-07T13:46:00.000Z",
+    "hikka_url": "https://hikka.io/anime/jingai-san-no-yome-b25a6c",
+    "poster": "https://cdn.hikka.io/content/anime/jingai-san-no-yome-b25a6c/8ymbf_Yr6GSYD3_LmH9WBQ.jpg",
+    "title": "Наречена монстр",
+    "romaji": "Jingai-san no Yome",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Non-Human Creature's Wife"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2018",
+    "scoreMAL": 5.82,
+    "scoredbyMAL": 21230,
+    "Анітюб": "https://anitube.in.ua/3266-jingai-san-no-yome.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-805b-b4b5-d89410cad6d2"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-8029-9e17-cb75b42dd00f",
+    "last_edited": "2025-01-07T13:35:00.000Z",
+    "hikka_url": "https://hikka.io/anime/hokuto-no-ken-6b4b63",
+    "poster": "https://cdn.hikka.io/content/anime/hokuto-no-ken-6b4b63/B7k4lvDD5xqmEinNErj6WQ.jpg",
+    "title": "Кулак Полярної зорі",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Seikimatsu Kyuseishu Densetsu: Hokuto no Ken",
+      "HNK"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "1984",
+    "scoreMAL": 7.96,
+    "scoredbyMAL": 46136,
+    "Анітюб": "https://anitube.in.ua/4488-hokuto-no-ken.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "109",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80a0-b025-f392e7d824c2"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-801c-a992-d85dd6b32e67",
+    "last_edited": "2025-01-07T12:45:00.000Z",
+    "hikka_url": null,
+    "title": "Бейблейд Вибух КвадСтрайк",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2023",
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "26",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80e9-a165-e3a0e7dab6c1"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-80d7-b399-ceed4adc2ad0",
+    "last_edited": "2025-01-07T12:29:00.000Z",
+    "hikka_url": "https://hikka.io/anime/kuma-kuma-kuma-bear-punch-7ad116",
+    "poster": "https://cdn.hikka.io/content/anime/kuma-kuma-kuma-bear-punch-7ad116/h9FcJf9rx7nWTekHVFKqug.jpg",
+    "title": "Ведмедики-кумедики (ТБ-2)",
+    "romaji": "Kuma Kuma Kuma Bear Punch!",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Kuma Kuma Kuma Bear 2nd Season",
+      "The Bears Bear a Bare Kuma 2nd Season"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2023",
+    "scoreMAL": 7.28,
+    "scoredbyMAL": 31755,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [],
+    "relations": [
+      {
+        "id": "174d30fa-35d0-8026-a747-e3379bbae33a"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-8026-a747-e3379bbae33a",
+    "last_edited": "2025-01-07T12:30:00.000Z",
+    "hikka_url": "https://hikka.io/anime/kuma-kuma-kuma-bear-20e55c",
+    "poster": "https://cdn.hikka.io/content/anime/kuma-kuma-kuma-bear-20e55c/Vvqz9LwjKKQOfjIGFarShw.jpg",
+    "title": "Ведмедики-кумедики",
+    "romaji": "Kuma Kuma Kuma Bear",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "The Bears Bear a Bare Kuma"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2020",
+    "scoreMAL": 7.23,
+    "scoredbyMAL": 84920,
+    "Анітюб": "https://anitube.in.ua/4428-kuma-kuma-kuma-bear.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-8099-8f58-fb384041ea66"
+      }
+    ],
+    "relations": [
+      {
+        "id": "174d30fa-35d0-80d7-b399-ceed4adc2ad0"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-8028-a9ef-df180598b894",
+    "last_edited": "2025-01-07T12:25:00.000Z",
+    "hikka_url": "https://hikka.io/anime/luckystar-ca261c",
+    "poster": "https://cdn.hikka.io/content/anime/luckystar-ca261c/OFFpLghZ-upEJVikGzOcAQ.jpg",
+    "title": "Щаслива☆Зірка",
+    "romaji": "Lucky☆Star",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Lucky Star",
+      "Щаслива Зірка"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2007",
+    "scoreMAL": 7.75,
+    "scoredbyMAL": 327892,
+    "Анітюб": "https://anitube.in.ua/4311-schasliva-zrka.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "24",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-803c-b301-cdae8c3ffb2d"
+      },
+      {
+        "id": "175d30fa-35d0-8040-9151-cab5bb5bdd53"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-80a4-be7f-c9c407deab2c",
+    "last_edited": "2025-01-07T12:22:00.000Z",
+    "hikka_url": "https://hikka.io/anime/suki-tte-ii-na-yo-b3a0bd",
+    "poster": "https://cdn.hikka.io/content/anime/suki-tte-ii-na-yo-b3a0bd/ncZmDYMIiUhXvPirxVxwyg.jpg",
+    "title": "Скажи \"Я тебе кохаю\"",
+    "romaji": "Suki tte Ii na yo.",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Suki-tte Ii na yo.",
+      "Sukinayo"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2012",
+    "scoreMAL": 7.39,
+    "scoredbyMAL": 362242,
+    "Анітюб": "https://anitube.in.ua/4264-suki-tte-ii-na-yo.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80c0-8346-ed238d3f4b24"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-80a9-bd03-fe32dd26241a",
+    "last_edited": "2025-01-07T12:06:00.000Z",
+    "hikka_url": "https://hikka.io/anime/taishou-otome-otogibanashi-c41f66",
+    "poster": "https://cdn.hikka.io/content/anime/taishou-otome-otogibanashi-c41f66/drafbIFCNCFNw4y2E4KgTA.jpg",
+    "title": "Казка про дівчину епохи Тайшьо",
+    "romaji": "Taishou Otome Otogibanashi",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Taishou Maiden Fairytale"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2021",
+    "scoreMAL": 7.79,
+    "scoredbyMAL": 66086,
+    "Анітюб": "https://anitube.in.ua/3896-kazka-pro-dvchinu-epohi-tayse.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-803a-8809-c7781959527b"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "174d30fa-35d0-8043-b0c8-fcaa874733a6",
+    "last_edited": "2025-01-07T11:47:00.000Z",
+    "hikka_url": "https://hikka.io/anime/midori-no-hibi-835e24",
+    "poster": "https://cdn.hikka.io/content/anime/midori-no-hibi-835e24/3QqWEtm4O63PGwi2BkTbcA.jpg",
+    "title": "Дні Мідорі",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "My Days With Midori"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2004",
+    "scoreMAL": 7.21,
+    "scoredbyMAL": 90952,
+    "Анітюб": "https://anitube.in.ua/4953-dn-mdor.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "174d30fa-35d0-805e-bc7d-fe21a27e9171"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
     "id": "174d30fa-35d0-8128-aee1-eac3bb79c71b",
     "last_edited": "2025-01-07T07:00:00.000Z",
     "hikka_url": "https://hikka.io/anime/lets-nupu-nupu-301fc9",
@@ -923,7 +2769,7 @@
       "Засновник темного Шляху"
     ],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2020",
     "scoreMAL": 8.19,
@@ -1194,6 +3040,9 @@
       },
       {
         "id": "174d30fa-35d0-81cd-9530-d16f8ab4a128"
+      },
+      {
+        "id": "175d30fa-35d0-800e-8673-daa035c228a1"
       }
     ],
     "relations": [],
@@ -1728,6 +3577,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81c3-bee6-ed0dc46502b4"
+      },
+      {
+        "id": "177d30fa-35d0-8006-b651-c4959e23bde9"
       }
     ],
     "relations": [],
@@ -2163,7 +4015,7 @@
   },
   {
     "id": "174d30fa-35d0-817f-a0f2-f67c864ab8e3",
-    "last_edited": "2025-01-07T07:00:00.000Z",
+    "last_edited": "2025-01-09T14:10:00.000Z",
     "hikka_url": "https://hikka.io/anime/itsudatte-bokura-no-koi-wa-10-cm-datta-99333d",
     "poster": "https://cdn.hikka.io/content/anime/itsudatte-bokura-no-koi-wa-10-cm-datta-99333d/M8y5kszx-TJSX1CpQAtVTA.jpg",
     "title": "Наше кохання завжди було на відстані 10 сантиметрів",
@@ -2181,7 +4033,14 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "6",
-    "releases": [],
+    "releases": [
+      {
+        "id": "176d30fa-35d0-80c9-984e-d3a67a8789ff"
+      },
+      {
+        "id": "176d30fa-35d0-8049-a9da-fee3fb78034f"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -2430,6 +4289,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8155-8952-f71371848f72"
+      },
+      {
+        "id": "174d30fa-35d0-80cc-922c-c0e2905fa72a"
       }
     ],
     "relations": [
@@ -3369,6 +5231,12 @@
       },
       {
         "id": "174d30fa-35d0-8149-8657-c790c3ad7e35"
+      },
+      {
+        "id": "176d30fa-35d0-80d8-8c91-f43afd4e205c"
+      },
+      {
+        "id": "176d30fa-35d0-80c3-81c1-ca0277fe1365"
       }
     ],
     "relations": [],
@@ -3555,7 +5423,7 @@
   },
   {
     "id": "174d30fa-35d0-814a-9a0b-f58770888f90",
-    "last_edited": "2025-01-07T07:00:00.000Z",
+    "last_edited": "2025-01-08T15:32:00.000Z",
     "hikka_url": "https://hikka.io/anime/one-piece-929f5d",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
     "poster": "https://cdn.hikka.io/content/anime/one-piece-929f5d/epMVUp0mO7REXcTu9HgtgA.jpg",
@@ -3587,6 +5455,15 @@
       },
       {
         "id": "174d30fa-35d0-81d7-8b7d-c1049da7216c"
+      },
+      {
+        "id": "175d30fa-35d0-8082-afe4-eb6383df83b1"
+      },
+      {
+        "id": "175d30fa-35d0-8063-8053-e3c33cc4769e"
+      },
+      {
+        "id": "176d30fa-35d0-80a5-b3b7-de8e06ec6dbc"
       }
     ],
     "relations": [],
@@ -3897,6 +5774,9 @@
       },
       {
         "id": "174d30fa-35d0-8101-a944-f6ef7073d89b"
+      },
+      {
+        "id": "176d30fa-35d0-8012-9549-f80a35ac7fcf"
       }
     ],
     "relations": [],
@@ -4522,7 +6402,7 @@
       "時光代理人 -LINK CLICK- II",
       "Ательє часу 2"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 8.63,
@@ -5198,6 +7078,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-813d-ab5a-ee179894cde7"
+      },
+      {
+        "id": "174d30fa-35d0-8092-a427-c7a6e8ae33e4"
       }
     ],
     "relations": [],
@@ -5532,6 +7415,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81fa-a6bd-c0f84b20f475"
+      },
+      {
+        "id": "177d30fa-35d0-8038-8d8e-cfb67413136e"
       }
     ],
     "relations": [],
@@ -6350,6 +8236,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81ba-9447-c379e6c870ef"
+      },
+      {
+        "id": "176d30fa-35d0-809b-8201-c380af88e65c"
       }
     ],
     "relations": [],
@@ -6576,6 +8465,12 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8176-b1ad-cd9615afe806"
+      },
+      {
+        "id": "176d30fa-35d0-801c-bbec-db2f3dc63d5d"
+      },
+      {
+        "id": "176d30fa-35d0-809c-9671-fe7c7713a60a"
       }
     ],
     "relations": [],
@@ -7623,7 +9518,7 @@
       "魔道祖师 前尘篇",
       "Madou Soshi"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2018",
     "scoreMAL": 8.46,
@@ -8899,7 +10794,7 @@
       "ヒョウ人",
       "Blades of the Guardians"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 7.55,
@@ -10274,7 +12169,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "175d30fa-35d0-803d-81d6-de9ffd40d2d0"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -10360,7 +12259,7 @@
   },
   {
     "id": "174d30fa-35d0-8190-9af5-c77561896249",
-    "last_edited": "2025-01-07T07:00:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-gaoshou-dianfeng-rongyao-2c82c2",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-gaoshou-dianfeng-rongyao-2c82c2/clUOeyCpiWvQvJjP82yCZw.jpg",
     "title": "Аватар Короля: Вершина Слави",
@@ -10374,7 +12273,7 @@
       "Master of Skills Movie",
       "The King's Avatar Movie"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "Фільм",
     "year": "2019",
     "scoreMAL": 8.07,
@@ -11285,6 +13184,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-814f-9e09-f4bed1be6223"
+      },
+      {
+        "id": "176d30fa-35d0-80a2-9610-ce01530ba1eb"
       }
     ],
     "relations": [],
@@ -11461,6 +13363,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81f4-bef0-e68e4130775a"
+      },
+      {
+        "id": "177d30fa-35d0-80ec-b226-d9738f2507b6"
       }
     ],
     "relations": [
@@ -11760,7 +13665,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "176d30fa-35d0-80aa-a607-f4768575a2e0"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-81f2-b0c4-ea00fa844097"
@@ -12520,6 +14429,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8111-b8c0-dc8c8e3691c1"
+      },
+      {
+        "id": "177d30fa-35d0-8034-b246-f8262fb6bec9"
       }
     ],
     "relations": [],
@@ -13022,6 +14934,12 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8153-a918-fa0a4fc46f46"
+      },
+      {
+        "id": "174d30fa-35d0-80be-bf78-c5e67b4e2035"
+      },
+      {
+        "id": "175d30fa-35d0-8034-a035-c5e6ea7f7ed7"
       }
     ],
     "relations": [
@@ -13924,7 +15842,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-80c8-81e1-ecfe16aeb174"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -15287,6 +17209,12 @@
     "releases": [
       {
         "id": "174d30fa-35d0-813e-a8c5-eae40d87e31f"
+      },
+      {
+        "id": "176d30fa-35d0-80be-bc7e-d0b0e911a7db"
+      },
+      {
+        "id": "176d30fa-35d0-8002-a173-d81425910d34"
       }
     ],
     "relations": [],
@@ -15382,6 +17310,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-810a-a9ad-cc5cc1925989"
+      },
+      {
+        "id": "177d30fa-35d0-805b-9329-cf62810456e7"
       }
     ],
     "relations": [
@@ -15531,12 +17462,14 @@
   },
   {
     "id": "174d30fa-35d0-81cf-861d-ccbb057d82b8",
-    "last_edited": "2025-01-07T07:00:00.000Z",
+    "last_edited": "2025-01-10T11:13:00.000Z",
     "hikka_url": "https://hikka.io/anime/madougushi-dahlia-wa-utsumukanai-kyou-kara-jiyuu-na-shokunin-life-55a1e1",
     "poster": "https://cdn.hikka.io/content/anime/madougushi-dahlia-wa-utsumukanai-kyou-kara-jiyuu-na-shokunin-life-55a1e1/lac1WnK2fuHvK_mCGhVvzg.jpg",
     "title": "Далія у розквіті сил: Новий старт за допомогою магічних інструментів",
     "romaji": "Madougushi Dahlia wa Utsumukanai: Kyou kara Jiyuu na Shokunin Life",
-    "synonyms": [],
+    "synonyms": [
+      "Цвітіння жоржини"
+    ],
     "hikkaSynonyms": [
       "Dahlia in Bloom",
       "Dahliya in Bloom",
@@ -15554,6 +17487,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81d1-91dc-f816cc784067"
+      },
+      {
+        "id": "177d30fa-35d0-80be-b9b5-dbaeb2a369d0"
       }
     ],
     "relations": [],
@@ -17262,6 +19198,9 @@
       },
       {
         "id": "174d30fa-35d0-81b7-bee4-df6d4b7ce3f5"
+      },
+      {
+        "id": "176d30fa-35d0-80c4-8a34-eeb629fdb897"
       }
     ],
     "relations": [],
@@ -17710,6 +19649,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8177-bc62-c3e147b7b71b"
+      },
+      {
+        "id": "174d30fa-35d0-8081-8113-d5cf53d00d57"
       }
     ],
     "relations": [],
@@ -18518,11 +20460,11 @@
   },
   {
     "id": "174d30fa-35d0-8173-8520-e67d7dbc32b8",
-    "last_edited": "2025-01-07T07:00:00.000Z",
+    "last_edited": "2025-01-08T15:00:00.000Z",
     "hikka_url": "https://hikka.io/anime/seirei-no-moribito-11a089",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1827-cPDeZs4N6VH6.jpg",
     "poster": "https://cdn.hikka.io/content/anime/seirei-no-moribito-11a089/F9EV53-mrCb1h5AC9lFTAA.jpg",
-    "title": "Хранитель Священного Духу",
+    "title": "Хранитель священного духу",
     "romaji": "Seirei no Moribito / Moribito - Guardian of the Spirit",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -18540,6 +20482,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81e3-aed4-f45aea290cac"
+      },
+      {
+        "id": "175d30fa-35d0-806f-abf8-c9e648ac4fa4"
       }
     ],
     "relations": [],
@@ -19675,6 +21620,9 @@
       },
       {
         "id": "174d30fa-35d0-819d-a4e1-d27722d914b5"
+      },
+      {
+        "id": "175d30fa-35d0-80ec-9b40-c31ed1993e51"
       }
     ],
     "relations": [],
@@ -20556,6 +22504,15 @@
       },
       {
         "id": "174d30fa-35d0-8128-ab1b-e36a4efc0c21"
+      },
+      {
+        "id": "175d30fa-35d0-80bf-b13b-e5ef8e8bd719"
+      },
+      {
+        "id": "175d30fa-35d0-8061-8a6d-c8fda96e072f"
+      },
+      {
+        "id": "176d30fa-35d0-80c8-8217-ddcbbcb8d8c9"
       }
     ],
     "relations": [],
@@ -20758,7 +22715,7 @@
       ""
     ],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 7.35,
@@ -21358,6 +23315,9 @@
       },
       {
         "id": "174d30fa-35d0-811f-8854-c50647967773"
+      },
+      {
+        "id": "174d30fa-35d0-813e-a21f-ff5121903c03"
       }
     ],
     "relations": [],
@@ -22350,7 +24310,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "174d30fa-35d0-8078-9f6a-c68fe9a7cef3"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -22464,6 +24428,9 @@
       },
       {
         "id": "174d30fa-35d0-812b-ad4c-f7d2a84bd72f"
+      },
+      {
+        "id": "175d30fa-35d0-80a6-a757-e79cb755ed6b"
       }
     ],
     "relations": [],
@@ -23296,7 +25263,7 @@
     "hikkaSynonyms": [
       "吞噬星空 壮志凌云"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 8.29,
@@ -23642,6 +25609,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-811b-8d4a-dff4c74d21b1"
+      },
+      {
+        "id": "175d30fa-35d0-804a-b89c-fcffa234eccb"
       }
     ],
     "relations": [],
@@ -23681,6 +25651,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-810f-9478-e72124e062d0"
+      },
+      {
+        "id": "176d30fa-35d0-80f9-8522-f90189477b5a"
       }
     ],
     "relations": [],
@@ -25092,7 +27065,7 @@
       "Xian Wang de Richang Shenghuo Er",
       "仙王的日常生活 贰"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2021",
     "scoreMAL": 7.39,
@@ -25135,6 +27108,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81b9-add9-c6ee7a8affa1"
+      },
+      {
+        "id": "174d30fa-35d0-809a-8c1c-d9445c06e83e"
       }
     ],
     "relations": [],
@@ -25692,7 +27668,11 @@
         "id": "174d30fa-35d0-81cd-9eff-d5f584ad7810"
       }
     ],
-    "relations": [],
+    "relations": [
+      {
+        "id": "175d30fa-35d0-8087-aea9-cfbe2c80743c"
+      }
+    ],
     "Франшиза": [],
     "posters": []
   },
@@ -26007,7 +27987,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "24",
-    "releases": [],
+    "releases": [
+      {
+        "id": "174d30fa-35d0-800c-bcc1-ffcf570dd792"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -26326,6 +28310,9 @@
       },
       {
         "id": "174d30fa-35d0-8115-8615-e940b9675718"
+      },
+      {
+        "id": "174d30fa-35d0-8000-98f5-d40a6d91e3e9"
       }
     ],
     "relations": [],
@@ -26401,6 +28388,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-812c-a4f7-e07ae22ba9fc"
+      },
+      {
+        "id": "177d30fa-35d0-80ca-a52d-f3474bc88b57"
       }
     ],
     "relations": [],
@@ -26443,6 +28433,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8193-8325-f105230ef5e3"
+      },
+      {
+        "id": "177d30fa-35d0-80b2-af48-cd6a52bfc615"
       }
     ],
     "relations": [],
@@ -27053,6 +29046,9 @@
       },
       {
         "id": "174d30fa-35d0-810a-9caf-f0bee37f1772"
+      },
+      {
+        "id": "175d30fa-35d0-8075-b431-c9041376f759"
       }
     ],
     "relations": [
@@ -27109,6 +29105,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81b8-98b2-dfc6e30b42ab"
+      },
+      {
+        "id": "175d30fa-35d0-8000-b9a5-f9ae94627c40"
       }
     ],
     "relations": [],
@@ -31232,6 +33231,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8140-a3cf-fba997a61fa3"
+      },
+      {
+        "id": "177d30fa-35d0-80d3-ad85-dc20951253d5"
       }
     ],
     "relations": [],
@@ -31968,6 +33970,9 @@
       },
       {
         "id": "174d30fa-35d0-8134-ae5c-fdc9bfd73f8d"
+      },
+      {
+        "id": "177d30fa-35d0-8070-ba9e-c6aaf30238aa"
       }
     ],
     "relations": [],
@@ -33343,6 +35348,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8133-af32-de45cceeb6b4"
+      },
+      {
+        "id": "175d30fa-35d0-80a5-af1b-f7119717bee2"
       }
     ],
     "relations": [
@@ -33769,6 +35777,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-817a-9892-f6b36c5bdc6a"
+      },
+      {
+        "id": "177d30fa-35d0-8043-a0fe-dfb7cb42e21e"
       }
     ],
     "relations": [],
@@ -34448,6 +36459,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81ce-bddf-c7f0621e257c"
+      },
+      {
+        "id": "177d30fa-35d0-805c-b699-c1b26e746129"
       }
     ],
     "relations": [],
@@ -35272,6 +37286,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-816d-806b-cd93c1dff463"
+      },
+      {
+        "id": "174d30fa-35d0-80e5-b775-e786fa052847"
       }
     ],
     "relations": [],
@@ -36720,7 +38737,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8046-8526-d55b2c66d5ae"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -36749,6 +38770,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-819e-98c5-f8001e11ae71"
+      },
+      {
+        "id": "177d30fa-35d0-8012-bf3e-fe64603382f0"
       }
     ],
     "relations": [],
@@ -36852,6 +38876,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81df-882d-d1748bab736e"
+      },
+      {
+        "id": "176d30fa-35d0-80f7-83b4-e01ce40f0dc6"
       }
     ],
     "relations": [],
@@ -37038,6 +39065,9 @@
       },
       {
         "id": "174d30fa-35d0-816c-afc8-f460aff89a50"
+      },
+      {
+        "id": "176d30fa-35d0-80ad-aa13-dbb95dbdf36b"
       }
     ],
     "relations": [],
@@ -37325,6 +39355,9 @@
       },
       {
         "id": "174d30fa-35d0-81e5-a045-f7bd44e060a7"
+      },
+      {
+        "id": "175d30fa-35d0-80b0-b0d3-ca7c9faf86a4"
       }
     ],
     "relations": [],
@@ -37434,6 +39467,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81d1-9441-eb58df8c28d7"
+      },
+      {
+        "id": "174d30fa-35d0-80b9-9d99-cbaf7645ebe4"
       }
     ],
     "relations": [],
@@ -38654,7 +40690,7 @@
     "romaji": "Shen Yin Wangzuo",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 8.2,
@@ -39429,6 +41465,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81e0-9cf6-c5313772c163"
+      },
+      {
+        "id": "174d30fa-35d0-81c3-bff4-c2056f5fe0af"
       }
     ],
     "relations": [],
@@ -41299,6 +43338,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81db-b10f-f29a589c522a"
+      },
+      {
+        "id": "174d30fa-35d0-803d-933b-eabfba511002"
       }
     ],
     "relations": [],
@@ -42153,7 +44195,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-80cb-9404-c5e5c5d8da43"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -42543,6 +44589,9 @@
       },
       {
         "id": "174d30fa-35d0-81e6-8988-d24e5bfeb4c4"
+      },
+      {
+        "id": "176d30fa-35d0-8065-b69a-d61449c3cd96"
       }
     ],
     "relations": [],
@@ -43558,6 +45607,9 @@
       },
       {
         "id": "174d30fa-35d0-81af-8e40-e1fe40e91e18"
+      },
+      {
+        "id": "175d30fa-35d0-80b0-b0d3-ca7c9faf86a4"
       }
     ],
     "relations": [],
@@ -43730,7 +45782,7 @@
   },
   {
     "id": "174d30fa-35d0-81a0-94b6-eabda4374668",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-09T11:15:00.000Z",
     "hikka_url": "https://hikka.io/anime/ore-dake-level-up-na-ken-201d6c",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151807-37yfQA3ym8PA.jpg",
     "poster": "https://cdn.hikka.io/content/anime/ore-dake-level-up-na-ken-201d6c/3Gkfe0BqDdgNobLmYIT-2A.jpg",
@@ -43785,9 +45837,22 @@
       },
       {
         "id": "174d30fa-35d0-818c-9a12-f2ee54878a9d"
+      },
+      {
+        "id": "176d30fa-35d0-805b-8e00-f0ddad234829"
+      },
+      {
+        "id": "176d30fa-35d0-80a0-b329-e6fff94126b4"
+      },
+      {
+        "id": "176d30fa-35d0-80cd-930d-eca01ede2a26"
       }
     ],
-    "relations": [],
+    "relations": [
+      {
+        "id": "176d30fa-35d0-8018-8075-c9a57e7630e7"
+      }
+    ],
     "Франшиза": [],
     "posters": [
       {
@@ -44164,6 +46229,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81d5-92e3-ec3739e41fa6"
+      },
+      {
+        "id": "176d30fa-35d0-8021-9570-e03cef26d37d"
       }
     ],
     "relations": [],
@@ -44229,6 +46297,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-818b-8783-d387fe8fd670"
+      },
+      {
+        "id": "174d30fa-35d0-80dd-8756-dd88c7f32bc2"
       }
     ],
     "relations": [
@@ -44336,6 +46407,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8106-a2e5-c1d43da8d62b"
+      },
+      {
+        "id": "176d30fa-35d0-8047-ae06-e4a04c6dffb3"
       }
     ],
     "relations": [],
@@ -44897,6 +46971,9 @@
       },
       {
         "id": "174d30fa-35d0-81a3-bd1a-dc580e4fdb3d"
+      },
+      {
+        "id": "176d30fa-35d0-80a7-af99-cdb6ba5966f1"
       }
     ],
     "relations": [
@@ -46229,6 +48306,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-816a-a3fe-d8da06bc1089"
+      },
+      {
+        "id": "177d30fa-35d0-8098-a2b0-d49a4377687e"
       }
     ],
     "relations": [],
@@ -47233,6 +49313,9 @@
       },
       {
         "id": "174d30fa-35d0-8161-9c14-efd5454a4080"
+      },
+      {
+        "id": "176d30fa-35d0-8069-842f-f88e0f26e85e"
       }
     ],
     "relations": [],
@@ -47436,6 +49519,12 @@
       },
       {
         "id": "174d30fa-35d0-81a6-9f0c-e73ba208c731"
+      },
+      {
+        "id": "175d30fa-35d0-800e-b338-cb5ad2cf6368"
+      },
+      {
+        "id": "175d30fa-35d0-80b4-99da-e9f0d8da7e7e"
       }
     ],
     "relations": [],
@@ -47480,7 +49569,7 @@
       "Fights break sphere",
       "Fights Breaking Through The Heavens"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2017",
     "scoreMAL": 7.26,
@@ -48101,6 +50190,9 @@
       },
       {
         "id": "174d30fa-35d0-811c-8b5a-dfbaa95d0b2b"
+      },
+      {
+        "id": "177d30fa-35d0-8020-a6ec-e394746dee7f"
       }
     ],
     "relations": [],
@@ -50384,7 +52476,7 @@
       ""
     ],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 7.22,
@@ -50589,6 +52681,9 @@
       },
       {
         "id": "174d30fa-35d0-81f5-af91-dfe7e275f15c"
+      },
+      {
+        "id": "175d30fa-35d0-809f-90ae-ebde61b9e7b0"
       }
     ],
     "relations": [],
@@ -50999,7 +53094,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "174d30fa-35d0-8059-99e9-e22ec6911803"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -51202,7 +53301,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "112",
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-807b-9d57-d0a8a67c2bba"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -51301,7 +53404,14 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "46",
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8061-b45a-ee92dc02bda8"
+      },
+      {
+        "id": "177d30fa-35d0-8068-9ed3-e4ce3050ac1c"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -52730,7 +54840,7 @@
       "Shi Guang Dai Li Ren",
       "Ательє часу"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2021",
     "scoreMAL": 8.73,
@@ -52936,7 +55046,7 @@
     "hikkaSynonyms": [
       "Xian Wang de Ri Chang Sheng Huo"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2020",
     "scoreMAL": 7.32,
@@ -53025,7 +55135,7 @@
         "id": "174d30fa-35d0-81fe-8786-cbe86ed909f6"
       },
       {
-        "id": "174d30fa-35d0-81bc-902e-fb531de2b6d2"
+        "id": "174d30fa-35d0-811b-a27c-f2f98967a16f"
       }
     ],
     "relations": [],
@@ -53932,6 +56042,9 @@
       },
       {
         "id": "174d30fa-35d0-81b8-acf0-fe5454b77722"
+      },
+      {
+        "id": "175d30fa-35d0-801e-ac0e-facd8ce8d51f"
       }
     ],
     "relations": [
@@ -54022,7 +56135,7 @@
       "Mo Dao Zu Shi 3rd Season",
       "Mo Dao Zu Shi Final Arc"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2021",
     "scoreMAL": 8.68,
@@ -54647,6 +56760,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8122-a452-cce06f43d2ff"
+      },
+      {
+        "id": "176d30fa-35d0-8098-b773-c60dff561e69"
       }
     ],
     "relations": [],
@@ -54773,7 +56889,7 @@
     "hikkaSynonyms": [
       "The Legend of Luoxiaohei"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "Фільм",
     "year": "2019",
     "scoreMAL": 8.3,
@@ -56415,6 +58531,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81b7-8eac-c80c3183613b"
+      },
+      {
+        "id": "174d30fa-35d0-808c-8d00-c0a18fc4f311"
       }
     ],
     "relations": [],
@@ -57571,33 +59690,6 @@
     ]
   },
   {
-    "id": "174d30fa-35d0-81c7-b29c-cc69db8d55a2",
-    "last_edited": "2025-01-07T06:59:00.000Z",
-    "hikka_url": "https://hikka.io/anime/buta-no-liver-wa-kanetsu-shiro-9032ee",
-    "cover": "https://media.kitsu.app/anime/45581/cover_image/71074c70053d50b814098406cbeeabef.png",
-    "poster": "https://cdn.hikka.io/content/anime/buta-no-liver-wa-kanetsu-shiro-9032ee/pFZ63eFA4vDU5IIaYhppdQ.jpg",
-    "title": "Не їж сиру печінку, бо перетворишся на свинку",
-    "romaji": "Buta",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Heat the Pig Liver: The Story of a Man Turned Into a Pig",
-      "ButaLiver"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2023",
-    "scoreMAL": 6.3,
-    "scoredbyMAL": 15595,
-    "Анітюб": "https://anitube.in.ua/4494-buta-no-liver-wa-kanetsu-shiro.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "12",
-    "releases": [],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
     "id": "174d30fa-35d0-8133-9591-fc7f4d83f8bc",
     "last_edited": "2025-01-07T06:59:00.000Z",
     "hikka_url": "https://hikka.io/anime/hanbun-no-tsuki-ga-noboru-sora-9f7604",
@@ -57642,7 +59734,7 @@
       ""
     ],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "Фільм",
     "year": "2023",
     "scoreMAL": 7.36,
@@ -58039,6 +60131,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-810e-b879-f980a8b83047"
+      },
+      {
+        "id": "177d30fa-35d0-8036-9273-c98fce279e4a"
       }
     ],
     "relations": [],
@@ -58517,7 +60612,7 @@
     "romaji": "Yi Nian Yong Heng: Chuan Cheng Pian",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 8.15,
@@ -59039,7 +61134,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8018-9bf7-e84e513c6f4e"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -60560,6 +62659,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81b3-875f-e3229ec53b37"
+      },
+      {
+        "id": "174d30fa-35d0-8009-a4a4-cd55416a42b2"
       }
     ],
     "relations": [],
@@ -60671,6 +62773,12 @@
       },
       {
         "id": "174d30fa-35d0-81d0-88a1-fbce8fcc6e35"
+      },
+      {
+        "id": "175d30fa-35d0-8046-be42-c52f1239ff02"
+      },
+      {
+        "id": "175d30fa-35d0-800b-8acf-e9813597e068"
       }
     ],
     "relations": [],
@@ -61255,7 +63363,7 @@
     "romaji": "Yi Nian Yong Heng",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2020",
     "scoreMAL": 7.94,
@@ -61779,6 +63887,9 @@
       },
       {
         "id": "174d30fa-35d0-818a-be33-f6faf61d72a1"
+      },
+      {
+        "id": "176d30fa-35d0-80eb-a344-d0ac2d2d522a"
       }
     ],
     "relations": [],
@@ -62511,6 +64622,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8196-9e90-d4d72ec6923c"
+      },
+      {
+        "id": "177d30fa-35d0-80c3-8d1f-eee38d9c926d"
       }
     ],
     "relations": [
@@ -64193,7 +66307,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "2",
-    "releases": [],
+    "releases": [
+      {
+        "id": "175d30fa-35d0-8025-aa6e-e94197fd3e68"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": []
@@ -64911,6 +67029,9 @@
       },
       {
         "id": "174d30fa-35d0-81c2-beda-d75daca3718c"
+      },
+      {
+        "id": "176d30fa-35d0-8048-9c3e-f11dda905298"
       }
     ],
     "relations": [],
@@ -65021,6 +67142,9 @@
       },
       {
         "id": "174d30fa-35d0-81ec-ae1d-e8cfc23f725a"
+      },
+      {
+        "id": "176d30fa-35d0-806f-b4fe-c80c578d0e49"
       }
     ],
     "relations": [],
@@ -66348,7 +68472,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "9",
-    "releases": [],
+    "releases": [
+      {
+        "id": "175d30fa-35d0-80e0-b15c-e42d84b5e9d8"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -66541,6 +68669,9 @@
       },
       {
         "id": "174d30fa-35d0-81bc-a173-fe8c5f09768e"
+      },
+      {
+        "id": "176d30fa-35d0-804b-bb8f-d8c51fa289b6"
       }
     ],
     "relations": [
@@ -66797,6 +68928,9 @@
       },
       {
         "id": "174d30fa-35d0-813b-962c-db08c4f6e453"
+      },
+      {
+        "id": "177d30fa-35d0-80be-9a68-cae26aa1de1c"
       }
     ],
     "relations": [],
@@ -66936,7 +69070,7 @@
       "Way of Choices",
       "Fighter of the Destiny"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ТБ",
     "year": "2015",
     "scoreMAL": 6.81,
@@ -67255,6 +69389,12 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81e2-8848-f6e960e4fba2"
+      },
+      {
+        "id": "174d30fa-35d0-80b7-af34-ce13b763aa6a"
+      },
+      {
+        "id": "177d30fa-35d0-809b-a000-e551f50c898e"
       }
     ],
     "relations": [],
@@ -67764,7 +69904,7 @@
     "hikkaSynonyms": [
       "To Be Hero 2"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2018",
     "scoreMAL": 7.01,
@@ -67825,7 +69965,7 @@
     "romaji": "Tu Bian Yingxiong X",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2025",
     "scoreMAL": 0,
@@ -67960,7 +70100,7 @@
       "Tu Bian Ying Xiong Baba",
       "凸变英雄 BABA"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ТБ",
     "year": "2016",
     "scoreMAL": 6.95,
@@ -67996,7 +70136,7 @@
     "hikkaSynonyms": [
       "Tianmei De Yaohen"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 6.55,
@@ -68008,6 +70148,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8171-8f94-dece49dc2e71"
+      },
+      {
+        "id": "174d30fa-35d0-81ec-9a02-e6e0abbfc8c0"
       }
     ],
     "relations": [],
@@ -68037,6 +70180,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-816b-9dc4-c2145fb736d9"
+      },
+      {
+        "id": "176d30fa-35d0-80a2-997f-f947c0f2776a"
       }
     ],
     "relations": [],
@@ -68170,7 +70316,7 @@
   },
   {
     "id": "174d30fa-35d0-81b9-bf16-d37293ff31d5",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming-e4233e",
     "poster": "https://cdn.hikka.io/content/anime/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming-e4233e/R0tfU4Qauy2jonTxErya5A.jpg",
     "title": "Слабкий п'яти тисячорічний дракон-вегетаріанець",
@@ -68183,7 +70329,7 @@
       "It Was Recognized as an Evil Dragon Without Any Cause.",
       "齢5000年の草食ドラゴン、いわれなき邪竜認定"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 6.74,
@@ -68219,7 +70365,7 @@
       "Yowai 5000-nen no Soushoku Dragon",
       "Iwarenaki Jaryuu Nintei 2nd Season"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2024",
     "scoreMAL": 6.75,
@@ -68341,7 +70487,7 @@
   },
   {
     "id": "174d30fa-35d0-8103-84e1-d0ee12a5b2dc",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/cang-yuan-tu-2nd-season-4c8b7c",
     "poster": "https://cdn.hikka.io/content/anime/cang-yuan-tu-2nd-season-4c8b7c/eyxDsq0uqF6raLeg2zzg_g.jpg",
     "title": "Мисливець на демонів (ТБ-2)",
@@ -68350,7 +70496,7 @@
     "hikkaSynonyms": [
       "Azure Legacy"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2024",
     "scoreMAL": 0,
@@ -68455,7 +70601,7 @@
       "神么鬼",
       "非人哉"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2018",
     "scoreMAL": 7.13,
@@ -68538,10 +70684,10 @@
   },
   {
     "id": "174d30fa-35d0-8144-be10-d52e806231d0",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T13:15:00.000Z",
     "hikka_url": "https://hikka.io/anime/akkun-to-kanojo-3cfc34",
     "poster": "https://cdn.hikka.io/content/anime/akkun-to-kanojo-3cfc34/g2Lc4qQw6MOMLMI0qrtD6Q.jpg",
-    "title": "Akkun to Kanojo",
+    "title": "Мій миленький тиран (суб)",
     "romaji": "Akkun to Kanojo",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -68559,6 +70705,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8159-b8f1-e04196d40ca6"
+      },
+      {
+        "id": "177d30fa-35d0-80b8-bce4-df41ed4dcd86"
       }
     ],
     "relations": [],
@@ -68970,7 +71119,7 @@
   },
   {
     "id": "174d30fa-35d0-81ed-9e8b-fb96c41cdaca",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-08T13:41:00.000Z",
     "hikka_url": "https://hikka.io/anime/kimi-no-na-wa-945779",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg",
     "poster": "https://cdn.hikka.io/content/anime/kimi-no-na-wa-945779/F74__Da7B5le9RWGQg0YQg.jpg",
@@ -68995,6 +71144,12 @@
       },
       {
         "id": "174d30fa-35d0-8137-be9b-cb0345c2e32c"
+      },
+      {
+        "id": "175d30fa-35d0-800a-abfc-e8bc0314c653"
+      },
+      {
+        "id": "175d30fa-35d0-80ee-96c8-c2a5f0da2441"
       }
     ],
     "relations": [],
@@ -69016,14 +71171,14 @@
   },
   {
     "id": "174d30fa-35d0-8101-80df-f68c87766c18",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/cang-yuan-tu-dongning-fu-fanwai-pian-bd726e",
     "poster": "https://cdn.hikka.io/content/anime/cang-yuan-tu-dongning-fu-fanwai-pian-bd726e/1W8yoM7IIvgQlgKrq9O86Q.jpg",
     "title": "Мисливець на демонів: Володіння Доннін",
     "romaji": "Cang Yuan Tu: Dongning Fu Fanwai Pian",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2024",
     "scoreMAL": 7.56,
@@ -69190,7 +71345,7 @@
     "hikkaSynonyms": [
       "Quan Zhi Fa Shi"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2016",
     "scoreMAL": 7.18,
@@ -69221,7 +71376,7 @@
       "Quan Zhi Fa Shi 2",
       "Full-Time Magister 2"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2017",
     "scoreMAL": 6.76,
@@ -69426,7 +71581,7 @@
     "hikkaSynonyms": [
       "Zuo Ri Qing Kong"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "Фільм",
     "year": "2018",
     "scoreMAL": 6.8,
@@ -69978,7 +72133,7 @@
       "Please Take My Brother Away",
       "Kuai Ba Wo Ge Dai Zou"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ТБ",
     "year": "2017",
     "scoreMAL": 7.48,
@@ -70010,7 +72165,7 @@
       "Assassin Seven: Extra Story",
       "Сьомий кілер"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2018",
     "scoreMAL": 7.52,
@@ -70113,7 +72268,7 @@
       "Shiguang Dailiren Tebie Pian",
       "Link Click Specials"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2021",
     "scoreMAL": 5.9,
@@ -70218,6 +72373,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-810c-9da3-da411d97e835"
+      },
+      {
+        "id": "175d30fa-35d0-80eb-9e4c-dbe711cbb552"
       }
     ],
     "relations": [],
@@ -70306,7 +72464,7 @@
       "Кілер із ножицями: Тіньова доля",
       "Сьомий кілер: Тіньова доля"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 8.18,
@@ -70350,7 +72508,11 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "releases": [
+      {
+        "id": "179d30fa-35d0-8088-9a36-c91d1d93174e"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -70378,7 +72540,7 @@
       "伍六七第三季",
       "Сьомий кілер 3"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2021",
     "scoreMAL": 8.42,
@@ -70445,7 +72607,7 @@
       "Assassin Seven",
       "Killer Seven"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2018",
     "scoreMAL": 7.91,
@@ -70510,14 +72672,14 @@
   },
   {
     "id": "174d30fa-35d0-81be-9d7a-fdab49cd4d52",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/bai-she-yuan-qi-33ace8",
     "poster": "https://cdn.hikka.io/content/anime/bai-she-yuan-qi-33ace8/7IyhgHDu619XLvOzaIPAVg.jpg",
     "title": "Біла змія",
     "romaji": "Bai She: Yuan Qi",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "Фільм",
     "year": "2019",
     "scoreMAL": 7.47,
@@ -70541,7 +72703,7 @@
   },
   {
     "id": "174d30fa-35d0-81e2-92a2-f1cec3577a58",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/bai-she-ii-qing-she-jie-qi-935c7c",
     "poster": "https://cdn.hikka.io/content/anime/bai-she-ii-qing-she-jie-qi-935c7c/ee4yM8dwnyFsMcJAFg-v2A.jpg",
     "title": "Біла Змія - 2 частина: Скорбота Зеленої Змії",
@@ -70550,7 +72712,7 @@
     "hikkaSynonyms": [
       "Зелена Змія"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "Фільм",
     "year": "2021",
     "scoreMAL": 7.47,
@@ -70739,7 +72901,7 @@
       "Cike Wu Liuqi 5th Season",
       "Scissor Seven 5th Season"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2024",
     "scoreMAL": 7.97,
@@ -70966,7 +73128,7 @@
       "Wu Liuqi`s Strongest Hair Stylist",
       "Сьомий кілер 2"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2019",
     "scoreMAL": 8.22,
@@ -71114,7 +73276,7 @@
       "Combat Continent",
       "Soul Land"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2018",
     "scoreMAL": 7.93,
@@ -71155,7 +73317,7 @@
       "时光代理人小剧场",
       "Link Click Mini Theater"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2021",
     "scoreMAL": 6.98,
@@ -71322,11 +73484,11 @@
     "posters": [
       {
         "name": "Магічна битва - нищівна міграція.jpg",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T101718Z&X-Amz-Expires=3600&X-Amz-Signature=0aa3a5a85f5ed7f3d2f42ab05ec4888dec2dc53ef84948e1bc74ee2aa692a6a5&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250113T012424Z&X-Amz-Expires=3600&X-Amz-Signature=4028ede9240a090d0e65f3defcae3377ccb7cca3ce5c2e365240bd7cb049b3f7&X-Amz-SignedHeaders=host&x-id=GetObject"
       },
       {
         "name": "Магічна битва - гра на вибування-min.png",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T101718Z&X-Amz-Expires=3600&X-Amz-Signature=f74df2e02e52d1386d50ff79ba03624582f8d8df6b7785875f2b53ae3330faa4&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250113T012424Z&X-Amz-Expires=3600&X-Amz-Signature=018e785f40d8f72e737d37751ad0379fbbe2bc1c018547258a812bcfe8fe6d6b&X-Amz-SignedHeaders=host&x-id=GetObject"
       }
     ]
   },
@@ -71371,7 +73533,7 @@
       "Douluo Dalu Second Season",
       "Soul Land 2nd Season"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2018",
     "scoreMAL": 8.33,
@@ -71447,7 +73609,7 @@
       "Soul Land 2: Peerless Tang Sect",
       "斗罗大陆2绝世唐门"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 8.05,
@@ -71474,7 +73636,7 @@
     "romaji": "Douluo Dalu: Daoyan Jianji Ban",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 7.15,
@@ -72031,7 +74193,7 @@
     "hikkaSynonyms": [
       "Link Click: Yingdu Chapter"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "scoreMAL": 0,
     "scoredbyMAL": 0,
@@ -72315,7 +74477,7 @@
     "hikkaSynonyms": [
       "Shiguang Dailiren Episode 5.5"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2021",
     "scoreMAL": 7.78,
@@ -72567,6 +74729,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81c4-84e5-dd10272338d3"
+      },
+      {
+        "id": "176d30fa-35d0-8077-b121-ccaede230751"
       }
     ],
     "relations": [
@@ -72597,7 +74762,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "2",
-    "releases": [],
+    "releases": [
+      {
+        "id": "174d30fa-35d0-8126-8585-f886db7dc194"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-812e-8938-fa0a267f167d"
@@ -72675,7 +74844,7 @@
     "romaji": "Tunshi Xingkong 4",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 8.29,
@@ -72706,7 +74875,7 @@
     "romaji": "Tunshi Xingkong 3",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 8.34,
@@ -73144,7 +75313,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8072-8e35-f01e96f01eee"
+      }
+    ],
     "relations": [],
     "Франшиза": [
       {
@@ -73866,7 +76039,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "176d30fa-35d0-80dc-94ad-ffa8d9755b53"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -74408,7 +76585,11 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "releases": [
+      {
+        "id": "179d30fa-35d0-80f7-a549-d08b33521eb9"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-8175-8711-fac3697e8ad0"
@@ -76032,6 +78213,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81b3-ac94-f19674874999"
+      },
+      {
+        "id": "174d30fa-35d0-80a8-97ed-f97140d49950"
       }
     ],
     "relations": [],
@@ -76040,7 +78224,7 @@
   },
   {
     "id": "174d30fa-35d0-8141-83da-e57dd3d7b8fa",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-gaoshou-specials-62d6a8",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-gaoshou-specials-62d6a8/hRPqnyoKPnrzBOJ0wktndQ.jpg",
     "title": "Аватар короля Спешли",
@@ -76053,7 +78237,7 @@
       "Master of Skills",
       "Quanzhi Gaoshou: Tebie Pian"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2018",
     "scoreMAL": 8.2,
@@ -76082,7 +78266,7 @@
   },
   {
     "id": "174d30fa-35d0-8141-a8e7-ffe9f0b0b29b",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-gaoshou-3-dbbca5",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-gaoshou-3-dbbca5/G1HdOr0GrbL-2kt-7JCMQQ.jpg",
     "title": "Аватар Короля 3",
@@ -76091,7 +78275,7 @@
     "hikkaSynonyms": [
       "Quanzhi Gaoshou 3"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2024",
     "scoreMAL": 7.16,
@@ -76379,7 +78563,7 @@
   },
   {
     "id": "174d30fa-35d0-8175-96c6-c29812e1832a",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-gaoshou-2-d276c1",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-gaoshou-2-d276c1/RDxK09kwauxsYuMCO0ZgbQ.jpg",
     "title": "Аватар короля 2",
@@ -76390,7 +78574,7 @@
       "Full-Time Expert 2nd Season",
       "Master of Skills 2nd Season"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2020",
     "scoreMAL": 7.92,
@@ -76608,6 +78792,12 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81f1-b910-cd2041386b08"
+      },
+      {
+        "id": "177d30fa-35d0-80b4-99a0-c1a9f5c8a6fd"
+      },
+      {
+        "id": "177d30fa-35d0-800b-8959-d839a06976a6"
       }
     ],
     "relations": [],
@@ -76920,7 +79110,7 @@
       "Xian Wang de Richang Shenghuo 4th Season",
       "The Daily Life of the Immortal King 4th Season"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 7.47,
@@ -77713,7 +79903,7 @@
     "romaji": "Da Wang Rao Ming 2",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 7.6,
@@ -77722,7 +79912,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80ee-a7c6-d9ba3ec55f30"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-8165-9073-e0776c04d4f0"
@@ -77937,7 +80131,7 @@
     "hikkaSynonyms": [
       "Dawang Raoming"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2021",
     "scoreMAL": 7.54,
@@ -77949,6 +80143,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8146-bc8b-e23c2887710e"
+      },
+      {
+        "id": "174d30fa-35d0-806b-82ac-d66c244093f6"
       }
     ],
     "relations": [
@@ -78104,6 +80301,9 @@
       },
       {
         "id": "174d30fa-35d0-81a0-aec3-c3c909bbea0c"
+      },
+      {
+        "id": "176d30fa-35d0-80d9-a32e-db55812bcd5e"
       }
     ],
     "relations": [],
@@ -78450,6 +80650,9 @@
       },
       {
         "id": "174d30fa-35d0-811a-a33f-ca358c4d3387"
+      },
+      {
+        "id": "175d30fa-35d0-8078-a781-c6e21b943634"
       }
     ],
     "relations": [],
@@ -79496,7 +81699,7 @@
       "Fog Hill of Five Elements"
     ],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2016",
     "scoreMAL": 7.14,
@@ -82237,9 +84440,6 @@
         "id": "174d30fa-35d0-81a3-b98c-ec1b37e7d504"
       },
       {
-        "id": "174d30fa-35d0-81da-9ea9-c9840ff21f13"
-      },
-      {
         "id": "174d30fa-35d0-81a9-8db8-eee84493b2b5"
       },
       {
@@ -82265,6 +84465,12 @@
       },
       {
         "id": "174d30fa-35d0-812f-a1b1-dd5982d7c61d"
+      },
+      {
+        "id": "175d30fa-35d0-8064-a4a2-d619482cdb86"
+      },
+      {
+        "id": "176d30fa-35d0-8094-aab6-d6c478533632"
       }
     ],
     "relations": [],
@@ -83240,6 +85446,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81f1-969c-da806df8f878"
+      },
+      {
+        "id": "174d30fa-35d0-8025-98bc-d3dc430e88d5"
       }
     ],
     "relations": [
@@ -83706,7 +85915,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "5",
-    "releases": [],
+    "releases": [
+      {
+        "id": "175d30fa-35d0-801e-ac0e-facd8ce8d51f"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-8165-b81c-fd74f9c4ee8c"
@@ -84321,10 +86534,10 @@
   },
   {
     "id": "174d30fa-35d0-8169-bc9d-d19636e175b6",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-08T14:14:00.000Z",
     "hikka_url": "https://hikka.io/anime/kimetsu-no-yaiba-yuukaku-hen-ceb04d",
     "poster": "https://cdn.hikka.io/content/anime/kimetsu-no-yaiba-yuukaku-hen-ceb04d/gqTXvLSAPcMJ4F90P0C_vQ.jpg",
-    "title": "Вбивця демонів: Квартал розваг",
+    "title": "Вбивця ",
     "romaji": "Kimetsu no Yaiba: Yuukaku-hen",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -84344,6 +86557,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81ba-acff-ea89accf6ad7"
+      },
+      {
+        "id": "175d30fa-35d0-808c-9aed-f3983e88eae9"
       }
     ],
     "relations": [],
@@ -84383,6 +86599,9 @@
       },
       {
         "id": "174d30fa-35d0-8172-99ba-f0d95bc2c2db"
+      },
+      {
+        "id": "175d30fa-35d0-8069-8b4c-f04040c6ffe0"
       }
     ],
     "relations": [],
@@ -84589,7 +86808,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "175d30fa-35d0-8028-8201-e3da65c68c15"
+      }
+    ],
     "relations": [],
     "Франшиза": [
       {
@@ -85225,6 +87448,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8194-acb2-e968530781b6"
+      },
+      {
+        "id": "176d30fa-35d0-8093-babc-c6989a926acd"
       }
     ],
     "relations": [],
@@ -86151,7 +88377,7 @@
   },
   {
     "id": "174d30fa-35d0-8121-b1cd-fa6734d3bdf9",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/cang-yuan-tu-605296",
     "poster": "https://cdn.hikka.io/content/anime/cang-yuan-tu-605296/XOkT-593c_8y1Bq3YUvZlQ.jpg",
     "title": "Мисливець на демонів",
@@ -86164,7 +88390,7 @@
       "Chang Yuan Tu",
       "Cang Yuan Tu"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 8.15,
@@ -86329,7 +88555,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
-    "releases": [],
+    "releases": [
+      {
+        "id": "175d30fa-35d0-806b-90b6-ee7969c8d1a4"
+      }
+    ],
     "relations": [],
     "Франшиза": [
       {
@@ -86688,7 +88918,7 @@
       "Fog Hill of the Five Elements",
       "Five Elements in the Misty Mountain"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2020",
     "scoreMAL": 7.86,
@@ -86916,6 +89146,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8123-aee9-e712dec84bd2"
+      },
+      {
+        "id": "177d30fa-35d0-80ad-a1ea-f209f8c4c4d8"
       }
     ],
     "relations": [],
@@ -87165,21 +89398,31 @@
   },
   {
     "id": "174d30fa-35d0-818d-97ed-cdfc69576480",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T09:45:00.000Z",
     "hikka_url": "https://hikka.io/anime/zenshu-31068c",
     "poster": "https://cdn.hikka.io/content/anime/zenshu-31068c/nPulGfsBz2zSA2tdEU7k5A.jpg",
-    "title": "Переробити",
+    "title": "Переробити.",
     "romaji": "Zenshu.",
-    "synonyms": [],
+    "synonyms": [
+      "Наново"
+    ],
     "hikkaSynonyms": [],
     "type": "Аніме",
     "format": "ТБ",
+    "year": "2025",
     "scoreMAL": 0,
     "scoredbyMAL": 0,
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-8099-adb6-cd053f0fba6e"
+      },
+      {
+        "id": "177d30fa-35d0-80cb-b6a6-caf1845562e9"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -87365,7 +89608,7 @@
   },
   {
     "id": "174d30fa-35d0-8139-8f1c-cb91c17e7e1b",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-09T12:09:00.000Z",
     "hikka_url": "https://hikka.io/anime/kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai-587008",
     "poster": "https://cdn.hikka.io/content/anime/kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai-587008/TZs9mCmCpDF6d_4VuT1MTg.jpg",
     "title": "Куроїва Медака не розуміє моєї привабливості",
@@ -87375,7 +89618,7 @@
       "My Charms Are Wasted On Kuroiwa Medaka",
       "Kuroiwa Medaka is Proof Against My Cuteness."
     ],
-    "type": "Анонс",
+    "type": "Аніме",
     "format": "ТБ",
     "year": "2025",
     "scoreMAL": 0,
@@ -87383,7 +89626,15 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-80fb-9de8-f619cb7a20db"
+      },
+      {
+        "id": "176d30fa-35d0-8086-8f89-e2843e5a2834"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -87395,7 +89646,7 @@
   },
   {
     "id": "174d30fa-35d0-813c-b164-ce35a42dcba8",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T09:47:00.000Z",
     "hikka_url": "https://hikka.io/anime/dr-stone-science-future-54a9f9",
     "poster": "https://cdn.hikka.io/content/anime/dr-stone-science-future-54a9f9/NhnYQpMirsVestoNZlgcKQ.jpg",
     "title": "Доктор Стоун 4: Наука майбутнього",
@@ -87417,7 +89668,14 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "releases": [
+      {
+        "id": "177d30fa-35d0-80f7-8c0e-dc2686cc0db4"
+      },
+      {
+        "id": "179d30fa-35d0-8068-a1c6-f46d576c7fee"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-8114-8152-c819dd0e4c80"
@@ -87604,6 +89862,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81f0-8ce1-e47d45c545ba"
+      },
+      {
+        "id": "176d30fa-35d0-804c-b130-f0e5f675a3d5"
       }
     ],
     "relations": [],
@@ -88367,7 +90628,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80a3-9723-e2d616b6fe87"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -88659,6 +90924,9 @@
       },
       {
         "id": "174d30fa-35d0-8161-b28a-fed97efcab24"
+      },
+      {
+        "id": "176d30fa-35d0-8045-9634-de63d1eb1018"
       }
     ],
     "relations": [],
@@ -88792,6 +91060,9 @@
       },
       {
         "id": "174d30fa-35d0-8126-83af-d30383ab6454"
+      },
+      {
+        "id": "175d30fa-35d0-8086-868b-fc39a57d2e1a"
       }
     ],
     "relations": [],
@@ -88864,6 +91135,9 @@
       },
       {
         "id": "174d30fa-35d0-8140-b0fe-e75d88d765fa"
+      },
+      {
+        "id": "175d30fa-35d0-8028-adf3-e15fbe02707f"
       }
     ],
     "relations": [],
@@ -89030,7 +91304,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "26",
-    "releases": [],
+    "releases": [
+      {
+        "id": "174d30fa-35d0-81a3-8857-f3800c50cb75"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -89194,7 +91472,7 @@
   },
   {
     "id": "174d30fa-35d0-8152-b437-ed0bf3924cc6",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-09T12:09:00.000Z",
     "hikka_url": "https://hikka.io/anime/class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta-7cca64",
     "poster": "https://cdn.hikka.io/content/anime/class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta-7cca64/8T33PXs-LeKe3lvWBXnSIQ.jpg",
     "title": "Я одружився з однокласницею, яку найбільше ненавидів",
@@ -89209,7 +91487,18 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "176d30fa-35d0-8023-9fdf-f76e11422b8b"
+      },
+      {
+        "id": "176d30fa-35d0-809d-8ded-f4cbf997f7de"
+      },
+      {
+        "id": "177d30fa-35d0-80b1-8b76-eaefd8c67ac5"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -89638,6 +91927,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81cb-a1db-d1d98815a86f"
+      },
+      {
+        "id": "174d30fa-35d0-8024-b7f3-dac6a8b9852b"
       }
     ],
     "relations": [],
@@ -90348,6 +92640,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8102-a7bf-dad0c141f344"
+      },
+      {
+        "id": "175d30fa-35d0-806d-bbe6-e08aff289bfb"
       }
     ],
     "relations": [],
@@ -90378,7 +92673,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "13",
-    "releases": [],
+    "releases": [
+      {
+        "id": "176d30fa-35d0-808a-a73c-f56b3bfa1767"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -90452,7 +92751,7 @@
   },
   {
     "id": "174d30fa-35d0-81b9-9bcc-f9beec2727e8",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-10T10:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/quanzhi-gaoshou-e9d542",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98861-vDeVlvjXHh0g.jpg",
     "poster": "https://cdn.hikka.io/content/anime/quanzhi-gaoshou-e9d542/7tKM9-T5-46IPFabZG4Puw.jpg",
@@ -90466,7 +92765,7 @@
       "Full-Time Expert",
       "Expert of All Classes"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2017",
     "scoreMAL": 7.87,
@@ -92406,6 +94705,9 @@
       },
       {
         "id": "174d30fa-35d0-81bc-9240-d01e52e522cd"
+      },
+      {
+        "id": "176d30fa-35d0-809f-8424-c623d25706ab"
       }
     ],
     "relations": [],
@@ -93237,7 +95539,7 @@
     "hikkaSynonyms": [
       "Wu Shan Wu Xing 2nd Season"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 8.34,
@@ -93359,7 +95661,7 @@
   },
   {
     "id": "174d30fa-35d0-816f-bb2a-fb72c375d588",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-08T08:13:00.000Z",
     "hikka_url": "https://hikka.io/anime/kabushikigaisha-magi-lumiere-263304",
     "cover": "https://media.kitsu.app/anime/48272/cover_image/72a5c22595cd0bd46e74b408d36bb914.jpg",
     "poster": "https://cdn.hikka.io/content/anime/kabushikigaisha-magi-lumiere-263304/pyJyfbrnoVlqxb0NS7kaNg.jpg",
@@ -93375,15 +95677,19 @@
     "year": "2024",
     "scoreMAL": 6.96,
     "scoredbyMAL": 2444,
-    "Анітюб": null,
+    "Анітюб": "https://anitube.in.ua/4985-akconerne-tovaristvo-maglyumyer.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "12",
     "releases": [
       {
         "id": "174d30fa-35d0-819b-bc76-fa0a04cf954b"
       },
       {
         "id": "174d30fa-35d0-817e-9f4a-c8d897ea1139"
+      },
+      {
+        "id": "175d30fa-35d0-8083-960d-febf46d99738"
       }
     ],
     "relations": [],
@@ -93427,6 +95733,9 @@
       },
       {
         "id": "174d30fa-35d0-81a0-aff3-dc465f040bc1"
+      },
+      {
+        "id": "175d30fa-35d0-803c-969d-d47fc8ba3a2f"
       }
     ],
     "relations": [],
@@ -94329,7 +96638,7 @@
   },
   {
     "id": "174d30fa-35d0-81b8-87a7-c74299cce89e",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-01-09T10:25:00.000Z",
     "hikka_url": "https://hikka.io/anime/nageki-no-bourei-wa-intai-shitai-299935",
     "poster": "https://cdn.hikka.io/content/anime/nageki-no-bourei-wa-intai-shitai-299935/EuiaXUpZ6y6ZPldoqRYGZg.jpg",
     "title": "Скорботний привид прагне у відставку. Як найслабший мисливець створив найсильнішу команду",
@@ -94343,9 +96652,10 @@
     "year": "2024",
     "scoreMAL": 6.96,
     "scoredbyMAL": 8642,
-    "Анітюб": null,
+    "Анітюб": "https://anitube.in.ua/4965-dayte-cy-skorbotny-dush-pti-u-vdstavku.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "13",
     "releases": [
       {
         "id": "174d30fa-35d0-81d6-bbae-ed99e3f629a4"
@@ -94355,6 +96665,9 @@
       },
       {
         "id": "174d30fa-35d0-81b2-aeed-cda36e959920"
+      },
+      {
+        "id": "176d30fa-35d0-80df-be87-d0cc66835204"
       }
     ],
     "relations": [],
@@ -94625,7 +96938,7 @@
       "Протистояння святого",
       "仙逆"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2023",
     "scoreMAL": 8.1,
@@ -95088,7 +97401,7 @@
       "Mo Dao Zu Shi 2nd Season",
       "The Founder of Diabolism: The Reborn"
     ],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2019",
     "scoreMAL": 8.46,
@@ -95522,6 +97835,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81bd-a149-c5d30fede35f"
+      },
+      {
+        "id": "176d30fa-35d0-80f1-8de2-cfd6173d5faa"
       }
     ],
     "relations": [],
@@ -96061,6 +98377,9 @@
       },
       {
         "id": "174d30fa-35d0-81ac-9df4-e1a7409bedfc"
+      },
+      {
+        "id": "175d30fa-35d0-8087-94a0-c57954373c56"
       }
     ],
     "relations": [],
@@ -96290,9 +98609,6 @@
       },
       {
         "id": "174d30fa-35d0-8183-b330-ffd214959a63"
-      },
-      {
-        "id": "174d30fa-35d0-81b6-9cfa-d1202cc14c55"
       },
       {
         "id": "174d30fa-35d0-818f-8861-c8c7d6812cb1"
@@ -97102,6 +99418,9 @@
       },
       {
         "id": "174d30fa-35d0-81b2-b5bc-ea52e6645f3f"
+      },
+      {
+        "id": "176d30fa-35d0-8085-97da-c7630f3b761d"
       }
     ],
     "relations": [],
@@ -97170,6 +99489,9 @@
       },
       {
         "id": "174d30fa-35d0-815f-85ef-d03092538d03"
+      },
+      {
+        "id": "175d30fa-35d0-807c-97e9-c37f6f089697"
       }
     ],
     "relations": [],
@@ -97381,7 +99703,7 @@
     "romaji": "Tunshi Xingkong",
     "synonyms": [],
     "hikkaSynonyms": [],
-    "type": "Донхва",
+    "type": "Китайське",
     "format": "ОМА",
     "year": "2020",
     "scoreMAL": 8.05,
@@ -97482,7 +99804,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "174d30fa-35d0-80e4-87b4-f46f6b19bb9f"
+      }
+    ],
     "relations": [],
     "Франшиза": [],
     "posters": [
@@ -99094,6 +101420,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-818f-9198-fa852d05a502"
+      },
+      {
+        "id": "177d30fa-35d0-80c9-8e77-dda12c0c0be4"
       }
     ],
     "relations": [],
