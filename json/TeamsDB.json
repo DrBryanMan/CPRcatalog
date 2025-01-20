@@ -1,5 +1,57 @@
 [
   {
+    "id": "17cd30fa-35d0-80ca-ba48-ed721580833a",
+    "last_edited": "2025-01-15T13:39:00.000Z",
+    "cover": null,
+    "name": "Petrodab UA",
+    "status": "Активна",
+    "type_activity": [
+      "Аніме"
+    ],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "17cd30fa-35d0-8002-aa85-ee9fd04593a8"
+      },
+      {
+        "id": "17cd30fa-35d0-8006-8cee-c009bafb10af"
+      },
+      {
+        "id": "17cd30fa-35d0-80d2-ad01-c27962136d4d"
+      },
+      {
+        "id": "17cd30fa-35d0-80b7-a8ac-e231985aa7e4"
+      },
+      {
+        "id": "17cd30fa-35d0-80b7-8329-c60b765b4a79"
+      }
+    ],
+    "site": null,
+    "anitube": "https://anitube.in.ua/tags/Petrodab/",
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "17ad30fa-35d0-8052-997e-fabe8e6f91f3",
+    "last_edited": "2025-01-13T13:24:00.000Z",
+    "cover": null,
+    "name": "Сашкові озвучення",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "17ad30fa-35d0-80b8-9439-d372ef0f2cbf"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
     "id": "179d30fa-35d0-8004-85c9-e5a42e5ca333",
     "last_edited": "2025-01-12T08:14:00.000Z",
     "cover": null,
@@ -1699,6 +1751,27 @@
       },
       {
         "id": "176d30fa-35d0-802b-ace3-e2b183dd344b"
+      },
+      {
+        "id": "17cd30fa-35d0-80f0-8b4a-cb5998047e06"
+      },
+      {
+        "id": "17cd30fa-35d0-80d1-84d9-da211ec0d3fb"
+      },
+      {
+        "id": "17cd30fa-35d0-800d-8460-e3b0e3d5871a"
+      },
+      {
+        "id": "17cd30fa-35d0-808e-a606-d949492e8633"
+      },
+      {
+        "id": "17cd30fa-35d0-80db-a6ac-c80073ef46ad"
+      },
+      {
+        "id": "17cd30fa-35d0-80e2-8087-c871319e6a55"
+      },
+      {
+        "id": "17cd30fa-35d0-80a2-82e2-d05c4cdc3389"
       }
     ],
     "site": null,
@@ -3074,11 +3147,11 @@
   },
   {
     "id": "174d30fa-35d0-815b-a47b-fe41372c9a9b",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-14T07:30:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097988/Майже_студія_lineo_shogfc.jpg",
     "name": "Майже студія Line'O",
-    "status": "Невідомо",
+    "status": "Малоактивна",
     "type_activity": [
       "Аніме"
     ],
@@ -3086,6 +3159,9 @@
     "anime_releases": [
       {
         "id": "174d30fa-35d0-8197-91ac-e4cb5d30dd7b"
+      },
+      {
+        "id": "17bd30fa-35d0-80da-b56a-e70a6672b26c"
       }
     ],
     "site": null,
@@ -3750,6 +3826,12 @@
       },
       {
         "id": "177d30fa-35d0-80f7-8c0e-dc2686cc0db4"
+      },
+      {
+        "id": "17cd30fa-35d0-8076-b1e7-ed031c022656"
+      },
+      {
+        "id": "17cd30fa-35d0-80cc-aaff-fccacb326a0d"
       }
     ],
     "site": null,
@@ -3760,11 +3842,11 @@
   },
   {
     "id": "174d30fa-35d0-8160-8b67-d692ace3746f",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-15T11:21:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098011/Argonavis_efvyf2.jpg",
     "name": "Argonavis",
-    "status": "Невідомо",
+    "status": "Малоактивна",
     "type_activity": [
       "Аніме"
     ],
@@ -4388,6 +4470,9 @@
       },
       {
         "id": "174d30fa-35d0-8169-a5f1-c57b0c2258b5"
+      },
+      {
+        "id": "17cd30fa-35d0-805c-911c-ef64fdcdcfa4"
       }
     ],
     "site": null,
@@ -4728,6 +4813,33 @@
       },
       {
         "id": "174d30fa-35d0-8196-bdb7-e1ff3302353e"
+      },
+      {
+        "id": "17cd30fa-35d0-80b4-81b0-cb02adb20ff7"
+      },
+      {
+        "id": "17cd30fa-35d0-8035-a4ea-ec2f24bda0fb"
+      },
+      {
+        "id": "17cd30fa-35d0-8007-8b1c-e59aa1da9503"
+      },
+      {
+        "id": "17cd30fa-35d0-8033-97c7-ef8356a639be"
+      },
+      {
+        "id": "17cd30fa-35d0-80fa-8f8c-e14e9bb9ad29"
+      },
+      {
+        "id": "17cd30fa-35d0-8090-9077-f067aaa850ba"
+      },
+      {
+        "id": "17cd30fa-35d0-806d-a909-e74258cb94f2"
+      },
+      {
+        "id": "17cd30fa-35d0-8068-aa59-d2bb3539d228"
+      },
+      {
+        "id": "17cd30fa-35d0-80c6-9cd1-da42e1d72887"
       }
     ],
     "site": null,
@@ -4946,7 +5058,7 @@
   },
   {
     "id": "174d30fa-35d0-81c2-b5ef-c82a070e33c4",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-13T14:12:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098011/Bambooua_s4jmtp.jpg",
     "name": "Bamboo UA",
@@ -4961,6 +5073,9 @@
       },
       {
         "id": "174d30fa-35d0-8101-b4dc-fc954523ae32"
+      },
+      {
+        "id": "17ad30fa-35d0-804d-acce-daec53d64f1d"
       }
     ],
     "site": null,
@@ -5753,7 +5868,7 @@
   },
   {
     "id": "174d30fa-35d0-8180-920e-e5cad2a32eed",
-    "last_edited": "2025-01-09T14:15:00.000Z",
+    "last_edited": "2025-01-15T11:53:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098026/Fomalhaut_vgfkop.jpg",
     "name": "Fomalhaut Dub",
@@ -5798,6 +5913,9 @@
       },
       {
         "id": "176d30fa-35d0-803e-bb14-fb05a246ba4f"
+      },
+      {
+        "id": "17cd30fa-35d0-80a3-a141-c8addfa1daf3"
       }
     ],
     "site": null,
@@ -5962,7 +6080,7 @@
   },
   {
     "id": "174d30fa-35d0-818b-bb47-f31212d48fd1",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-15T11:10:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097980/10gu_yyshow.jpg",
     "name": "10GU",
@@ -6080,6 +6198,9 @@
       },
       {
         "id": "174d30fa-35d0-81b7-bf1f-e4b824e7a0b9"
+      },
+      {
+        "id": "17cd30fa-35d0-80d5-b993-ee9a7b34b66f"
       }
     ],
     "site": null,
@@ -7852,6 +7973,9 @@
       },
       {
         "id": "174d30fa-35d0-8160-92df-e5449ca5ce6c"
+      },
+      {
+        "id": "17cd30fa-35d0-803e-82f2-ca6dae9cbc19"
       }
     ],
     "site": null,
@@ -9192,6 +9316,9 @@
       },
       {
         "id": "177d30fa-35d0-80b4-989e-ccf55e1e6456"
+      },
+      {
+        "id": "17cd30fa-35d0-80fc-aabf-d406676e0054"
       }
     ],
     "site": "https://ufdub.com/",
@@ -10266,7 +10393,7 @@
   },
   {
     "id": "174d30fa-35d0-810f-a927-fa233d7a7fd8",
-    "last_edited": "2025-01-09T16:35:00.000Z",
+    "last_edited": "2025-01-13T07:36:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099905/Ryanha_vsbq85.jpg",
     "name": "RyanhaVoice (Рянха)",
@@ -10299,9 +10426,6 @@
       },
       {
         "id": "177d30fa-35d0-8028-8931-fb5c81705035"
-      },
-      {
-        "id": "177d30fa-35d0-80e9-bd92-f8f0ad76a4c2"
       },
       {
         "id": "177d30fa-35d0-80cb-9404-c5e5c5d8da43"
@@ -10365,6 +10489,141 @@
       },
       {
         "id": "179d30fa-35d0-80bf-8de0-cf7cf2da74e6"
+      },
+      {
+        "id": "17ad30fa-35d0-8088-a752-c2d8d2a443e7"
+      },
+      {
+        "id": "17ad30fa-35d0-80a7-b033-f686c818a17c"
+      },
+      {
+        "id": "17ad30fa-35d0-8095-9720-c5fadc128c06"
+      },
+      {
+        "id": "17ad30fa-35d0-8009-bc4b-f7f0fce2be25"
+      },
+      {
+        "id": "17ad30fa-35d0-8085-9e3c-f33b93e4e8b2"
+      },
+      {
+        "id": "17ad30fa-35d0-80e8-b360-f2c4f61b96de"
+      },
+      {
+        "id": "17ad30fa-35d0-802a-8d00-c3bcc86946b1"
+      },
+      {
+        "id": "17ad30fa-35d0-80f8-b531-dadf9dd5e31e"
+      },
+      {
+        "id": "17ad30fa-35d0-8024-b999-d2df6e871f14"
+      },
+      {
+        "id": "17ad30fa-35d0-8031-8bdc-cd27257d8b25"
+      },
+      {
+        "id": "17ad30fa-35d0-8072-b74c-c5ab88caa8c9"
+      },
+      {
+        "id": "17ad30fa-35d0-8068-a3bd-c5ec7baa9d4e"
+      },
+      {
+        "id": "17ad30fa-35d0-8053-af27-f1cefc9c61e2"
+      },
+      {
+        "id": "17ad30fa-35d0-80f3-917c-fecf14d60df2"
+      },
+      {
+        "id": "17ad30fa-35d0-8031-afc5-de5a235e6a06"
+      },
+      {
+        "id": "17ad30fa-35d0-80ae-a377-cf0878bf3e42"
+      },
+      {
+        "id": "17ad30fa-35d0-80d6-8c64-eb066e77f440"
+      },
+      {
+        "id": "17ad30fa-35d0-8060-b5d3-c98c937312c3"
+      },
+      {
+        "id": "17ad30fa-35d0-80cd-94df-ced395ebd5d7"
+      },
+      {
+        "id": "17ad30fa-35d0-8034-adec-fca3b72fb3f4"
+      },
+      {
+        "id": "17ad30fa-35d0-804b-8c22-f7dea73bf7ab"
+      },
+      {
+        "id": "17ad30fa-35d0-8001-80c1-c8dd502749ce"
+      },
+      {
+        "id": "17ad30fa-35d0-80fa-b5f1-f3b118026ff3"
+      },
+      {
+        "id": "17ad30fa-35d0-8023-b26a-f88236afd5a1"
+      },
+      {
+        "id": "17ad30fa-35d0-80af-af2b-e3828ef9d256"
+      },
+      {
+        "id": "17ad30fa-35d0-808e-a1f6-f72bdee41816"
+      },
+      {
+        "id": "17ad30fa-35d0-8019-afa6-cb0eef0f039f"
+      },
+      {
+        "id": "17ad30fa-35d0-80a7-b8b6-da5400b9c5d1"
+      },
+      {
+        "id": "17ad30fa-35d0-8084-9319-cd7f47b62a20"
+      },
+      {
+        "id": "17ad30fa-35d0-8052-a978-ec63508963a4"
+      },
+      {
+        "id": "17ad30fa-35d0-80e4-96ae-d2fea06ddbbd"
+      },
+      {
+        "id": "17ad30fa-35d0-8035-a609-e3d61408fae4"
+      },
+      {
+        "id": "17ad30fa-35d0-8038-b289-e86f1d32bc21"
+      },
+      {
+        "id": "17ad30fa-35d0-809f-8a94-c38cdc46a77e"
+      },
+      {
+        "id": "17ad30fa-35d0-804e-8761-ef090da312a9"
+      },
+      {
+        "id": "17ad30fa-35d0-8064-b203-f6ff9b2afb17"
+      },
+      {
+        "id": "17ad30fa-35d0-80ad-a291-c2cce54eaf0b"
+      },
+      {
+        "id": "17ad30fa-35d0-80c6-b39d-dad712bbc64d"
+      },
+      {
+        "id": "17ad30fa-35d0-80b7-abab-dd9faa5cd137"
+      },
+      {
+        "id": "17ad30fa-35d0-809a-b38e-f94c5e9111d0"
+      },
+      {
+        "id": "17ad30fa-35d0-807b-90a3-d23958072825"
+      },
+      {
+        "id": "17ad30fa-35d0-8052-917c-e619c551afce"
+      },
+      {
+        "id": "17ad30fa-35d0-808c-b1dc-c12e9a77c0e5"
+      },
+      {
+        "id": "17ad30fa-35d0-8096-99c2-f77d941afd2c"
+      },
+      {
+        "id": "17bd30fa-35d0-809e-aeec-f7ab836fe4a0"
       }
     ],
     "site": null,
@@ -10460,7 +10719,7 @@
   },
   {
     "id": "174d30fa-35d0-8180-8478-f68cc1a01489",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-16T21:23:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099895/Togarashi_agqbpd.jpg",
     "name": "Togarashi",
@@ -10487,6 +10746,180 @@
       },
       {
         "id": "174d30fa-35d0-81cb-915e-f0adb456726c"
+      },
+      {
+        "id": "17dd30fa-35d0-8058-ae52-cfff8f77a7f4"
+      },
+      {
+        "id": "17dd30fa-35d0-80f9-b56e-dba4b961c472"
+      },
+      {
+        "id": "17dd30fa-35d0-8043-9158-f22534aa9178"
+      },
+      {
+        "id": "17dd30fa-35d0-800e-b385-f6e853f35f6b"
+      },
+      {
+        "id": "17dd30fa-35d0-80fd-8a12-f48e486af9ec"
+      },
+      {
+        "id": "17dd30fa-35d0-808c-bf22-cb2fa292ba25"
+      },
+      {
+        "id": "17dd30fa-35d0-8088-a5d6-ccf85d285686"
+      },
+      {
+        "id": "17dd30fa-35d0-8085-b1ae-dae1e82da7e2"
+      },
+      {
+        "id": "17dd30fa-35d0-80c8-bc31-ca4b6e7995d5"
+      },
+      {
+        "id": "17dd30fa-35d0-80b5-b0f5-c939ed6bdeb1"
+      },
+      {
+        "id": "17dd30fa-35d0-80ad-93bd-cdabd33c0eff"
+      },
+      {
+        "id": "17dd30fa-35d0-8008-84fd-fca478e87c32"
+      },
+      {
+        "id": "17dd30fa-35d0-80ee-81d9-db15adb404a9"
+      },
+      {
+        "id": "17dd30fa-35d0-8056-8a92-d3b6da30380a"
+      },
+      {
+        "id": "17dd30fa-35d0-80bb-a390-f02d364d1a6a"
+      },
+      {
+        "id": "17dd30fa-35d0-8021-b3f8-e2e9956cf98b"
+      },
+      {
+        "id": "17dd30fa-35d0-804a-8ed9-fa70f4e9a490"
+      },
+      {
+        "id": "17dd30fa-35d0-80fc-9d4e-f5e456fefbd4"
+      },
+      {
+        "id": "17dd30fa-35d0-80f9-861d-d7fd92557296"
+      },
+      {
+        "id": "17dd30fa-35d0-80b0-b199-c2e3ccea2f63"
+      },
+      {
+        "id": "17dd30fa-35d0-80c4-ae77-fafc9068a45b"
+      },
+      {
+        "id": "17dd30fa-35d0-801f-8aea-dac90a60d742"
+      },
+      {
+        "id": "17dd30fa-35d0-801c-895e-fdc878f05b1b"
+      },
+      {
+        "id": "17dd30fa-35d0-8093-876c-fd592bdd743b"
+      },
+      {
+        "id": "17dd30fa-35d0-8046-a6c0-fd0916cf092c"
+      },
+      {
+        "id": "17dd30fa-35d0-8060-a102-cb476c67b33c"
+      },
+      {
+        "id": "17dd30fa-35d0-8024-9c06-d9b5f99cea1e"
+      },
+      {
+        "id": "17dd30fa-35d0-80ee-b849-c3d0ba91b914"
+      },
+      {
+        "id": "17dd30fa-35d0-800d-8b05-f66fac12bd2e"
+      },
+      {
+        "id": "17dd30fa-35d0-8013-b6d8-d7052a100e6e"
+      },
+      {
+        "id": "17dd30fa-35d0-80fb-8828-e12859e2cd73"
+      },
+      {
+        "id": "17dd30fa-35d0-80d0-96ac-fcd0253e9d05"
+      },
+      {
+        "id": "17dd30fa-35d0-80c7-9652-ec3df75043ad"
+      },
+      {
+        "id": "17dd30fa-35d0-806c-93d6-d107b53e074e"
+      },
+      {
+        "id": "17dd30fa-35d0-8001-bdb8-d09b9032fda6"
+      },
+      {
+        "id": "17dd30fa-35d0-80f9-94aa-f75ad7448d0e"
+      },
+      {
+        "id": "17dd30fa-35d0-802d-90ea-f236b6983437"
+      },
+      {
+        "id": "17dd30fa-35d0-80b2-8746-dd736462b1e1"
+      },
+      {
+        "id": "17dd30fa-35d0-80b3-96be-fc3c05fb33d2"
+      },
+      {
+        "id": "17dd30fa-35d0-802e-a02c-f95903462b44"
+      },
+      {
+        "id": "17dd30fa-35d0-80fd-988b-de681955e895"
+      },
+      {
+        "id": "17dd30fa-35d0-8036-9fc2-d3fcf6b9c441"
+      },
+      {
+        "id": "17dd30fa-35d0-80a0-9c52-c1590d4445b4"
+      },
+      {
+        "id": "17dd30fa-35d0-8089-9481-f49924c0701c"
+      },
+      {
+        "id": "17dd30fa-35d0-80b9-a4e4-e4ebaf3fc803"
+      },
+      {
+        "id": "17dd30fa-35d0-8017-b56d-e3c347808c05"
+      },
+      {
+        "id": "17dd30fa-35d0-8092-a6a5-ce502987686e"
+      },
+      {
+        "id": "17dd30fa-35d0-8092-9cf1-cc3de2e6a2eb"
+      },
+      {
+        "id": "17dd30fa-35d0-80f4-a6cb-d57d4f3e7e65"
+      },
+      {
+        "id": "17dd30fa-35d0-80bf-ac06-ee49e558d112"
+      },
+      {
+        "id": "17dd30fa-35d0-80b3-a32e-e363dc0826e8"
+      },
+      {
+        "id": "17dd30fa-35d0-8025-b5a6-e8b4c0359733"
+      },
+      {
+        "id": "17dd30fa-35d0-8040-9688-d44223dd5e3b"
+      },
+      {
+        "id": "17dd30fa-35d0-8021-8429-f51f57bac0e0"
+      },
+      {
+        "id": "17dd30fa-35d0-80b0-b92d-ea816f03cd43"
+      },
+      {
+        "id": "17dd30fa-35d0-8030-8412-d833e5e36094"
+      },
+      {
+        "id": "17dd30fa-35d0-8025-bc4e-f2ab0ee8c457"
+      },
+      {
+        "id": "17dd30fa-35d0-804d-a4cf-e2ede2a5c67b"
       }
     ],
     "site": null,
@@ -11070,7 +11503,7 @@
   },
   {
     "id": "174d30fa-35d0-8179-85ec-c0e7f3331b50",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-15T17:48:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1734691045/Uaanisub_o81rag.jpg",
     "name": "UaAniSub",
@@ -11078,8 +11511,79 @@
     "type_activity": [
       "Аніме"
     ],
-    "members": [],
-    "anime_releases": [],
+    "members": [
+      {
+        "id": "17cd30fa-35d0-80ae-aa57-f8169241e000"
+      },
+      {
+        "id": "17cd30fa-35d0-8049-b34d-ca66faa8bfaf"
+      },
+      {
+        "id": "174d30fa-35d0-8110-80e7-dfad907b8743"
+      }
+    ],
+    "anime_releases": [
+      {
+        "id": "17cd30fa-35d0-802f-ac61-f47b88eb8cb1"
+      },
+      {
+        "id": "17cd30fa-35d0-8066-838c-f743f07610c1"
+      },
+      {
+        "id": "17cd30fa-35d0-8096-bb64-ccf0f356d965"
+      },
+      {
+        "id": "17cd30fa-35d0-80c5-86fb-e792106e3386"
+      },
+      {
+        "id": "17cd30fa-35d0-80be-a2bd-dd4ce7db8512"
+      },
+      {
+        "id": "17cd30fa-35d0-80cf-baf5-ed4ae945d94f"
+      },
+      {
+        "id": "17cd30fa-35d0-8053-a0cb-e4f45f3b4213"
+      },
+      {
+        "id": "17cd30fa-35d0-809a-910f-d470c959a198"
+      },
+      {
+        "id": "17cd30fa-35d0-800f-bdef-c97ec97da07b"
+      },
+      {
+        "id": "17cd30fa-35d0-807c-bcb0-cc4dba989a7f"
+      },
+      {
+        "id": "17cd30fa-35d0-8009-96d2-e82096ede370"
+      },
+      {
+        "id": "17cd30fa-35d0-802b-80cf-ffa866795842"
+      },
+      {
+        "id": "17cd30fa-35d0-80c1-8a42-f34a467490c8"
+      },
+      {
+        "id": "17cd30fa-35d0-809d-b7a2-e155a0dfafd1"
+      },
+      {
+        "id": "17cd30fa-35d0-8061-bb3c-c14aaca5d351"
+      },
+      {
+        "id": "17cd30fa-35d0-80e9-b009-da1e06752b1e"
+      },
+      {
+        "id": "17cd30fa-35d0-8018-8a25-d7eaeea8747f"
+      },
+      {
+        "id": "17cd30fa-35d0-808b-89f2-f93a1abfa111"
+      },
+      {
+        "id": "17cd30fa-35d0-80f6-880d-ca4bb17f1484"
+      },
+      {
+        "id": "17cd30fa-35d0-80ff-a61f-dbc0b9cc52d5"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -11587,10 +12091,11 @@
   },
   {
     "id": "174d30fa-35d0-8197-ae3d-ca6f4898c245",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-15T16:30:00.000Z",
     "cover": null,
+    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1736958333/VitoSubs_wk8fgm.jpg",
     "name": "Vitosub",
-    "status": "Активна",
+    "status": "Малоактивна",
     "type_activity": [
       "Аніме",
       "Субтитри"
@@ -11600,12 +12105,28 @@
         "id": "174d30fa-35d0-81cc-a74b-eaf1a2eb3a08"
       }
     ],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "17cd30fa-35d0-8040-9d53-ca3f7daeae03"
+      },
+      {
+        "id": "17cd30fa-35d0-80ac-845c-e33d2821ef4d"
+      },
+      {
+        "id": "17cd30fa-35d0-804a-8275-e0ccc52e7bf6"
+      },
+      {
+        "id": "17cd30fa-35d0-80ae-a47f-d7454c3c6745"
+      },
+      {
+        "id": "17cd30fa-35d0-802d-8ce7-d5e84ec50385"
+      }
+    ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/xfsearch/translation/Vitosub/",
     "insta": null,
-    "tg": null,
-    "tg_video": null
+    "tg": "https://t.me/vitosuby",
+    "tg_video": "https://t.me/vitosub_title"
   },
   {
     "id": "174d30fa-35d0-81b8-84c0-f32b45f0f756",
@@ -11660,6 +12181,9 @@
       },
       {
         "id": "174d30fa-35d0-81b7-85c8-ea88d56e2198"
+      },
+      {
+        "id": "17cd30fa-35d0-8042-806a-eb6a768ae181"
       }
     ],
     "site": null,
@@ -11796,12 +12320,14 @@
   },
   {
     "id": "174d30fa-35d0-813c-ac4b-fb627e00ff64",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-15T13:02:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098030/Hajime_ej3gux.jpg",
     "name": "HajimeDub",
-    "status": "Невідомо",
-    "type_activity": [],
+    "status": "Малоактивна",
+    "type_activity": [
+      "Аніме"
+    ],
     "members": [],
     "anime_releases": [
       {
@@ -12053,7 +12579,7 @@
   },
   {
     "id": "174d30fa-35d0-8164-a272-fe1ecbc97feb",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-13T15:07:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097987/Майстерня_слів_tmxigb.jpg",
     "name": "Майстерня слів",
@@ -12120,7 +12646,7 @@
   },
   {
     "id": "174d30fa-35d0-8165-b179-dee54c2caf54",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-19T18:02:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098008/Animesh_le7gpu.jpg",
     "name": "Animesh",
@@ -12144,6 +12670,9 @@
       },
       {
         "id": "174d30fa-35d0-8188-8472-eccf79fc25f6"
+      },
+      {
+        "id": "180d30fa-35d0-803a-a94f-dbff536268a7"
       }
     ],
     "site": null,
@@ -12438,7 +12967,7 @@
   },
   {
     "id": "174d30fa-35d0-81b4-ae01-d4d4b8c5584c",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-14T07:28:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098030/Haroshi_i6wrzk.jpg",
     "name": "HATOSHI",
@@ -12509,6 +13038,9 @@
       },
       {
         "id": "176d30fa-35d0-80f9-8522-f90189477b5a"
+      },
+      {
+        "id": "17bd30fa-35d0-80d6-b5ee-d39bae73a1ab"
       }
     ],
     "site": null,
@@ -12789,20 +13321,52 @@
   },
   {
     "id": "174d30fa-35d0-81e0-8148-d4630eeb3d53",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-16T10:08:00.000Z",
     "cover": null,
     "name": "torahetora",
-    "status": "Невідомо",
+    "status": "Малоактивна",
     "type_activity": [
+      "Аніме",
       "Субтитри"
     ],
     "members": [],
-    "anime_releases": [],
-    "site": null,
+    "anime_releases": [
+      {
+        "id": "17dd30fa-35d0-8087-a884-e6c772fd5988"
+      },
+      {
+        "id": "17dd30fa-35d0-8070-ac7c-ee857fb8b0d9"
+      },
+      {
+        "id": "17dd30fa-35d0-8059-b003-f4cd6cadd874"
+      },
+      {
+        "id": "17dd30fa-35d0-80a1-8ea5-fd9e515dc749"
+      },
+      {
+        "id": "17dd30fa-35d0-802f-8091-cb5293749778"
+      },
+      {
+        "id": "17dd30fa-35d0-801a-a199-d33497981f62"
+      },
+      {
+        "id": "17dd30fa-35d0-80ae-8097-cedc7b4ba967"
+      },
+      {
+        "id": "17dd30fa-35d0-8068-a702-c189be2a5a3d"
+      },
+      {
+        "id": "17dd30fa-35d0-80ca-9652-feb1546b8fef"
+      },
+      {
+        "id": "17dd30fa-35d0-8013-8b92-fd26c425490f"
+      }
+    ],
+    "site": "https://torahetora.com",
     "anitube": "https://anitube.in.ua/tags/torahetora/",
     "insta": null,
-    "tg": null,
-    "tg_video": null
+    "tg": "https://t.me/torahetoraSUB",
+    "tg_video": "https://t.me/torahetora_mp4"
   },
   {
     "id": "174d30fa-35d0-81f5-8d13-c0d1d4bd19d5",
