@@ -1,5 +1,76 @@
 [
   {
+    "id": "18cd30fa-35d0-800f-bca5-fe79700aee75",
+    "last_edited": "2025-01-31T07:51:00.000Z",
+    "cover": null,
+    "name": "KatMaster",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "18bd30fa-35d0-80db-8d09-f19f116b1fc4",
+    "last_edited": "2025-01-30T08:28:00.000Z",
+    "cover": null,
+    "name": "Білі Джин",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "18bd30fa-35d0-80b2-952f-f401bfdbc784",
+    "last_edited": "2025-01-30T08:16:00.000Z",
+    "cover": null,
+    "name": "Taran",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "18bd30fa-35d0-8044-b008-ef4f6c90fe84"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
+    "id": "18bd30fa-35d0-80b7-9430-f027e6fa18ed",
+    "last_edited": "2025-01-30T07:32:00.000Z",
+    "cover": null,
+    "name": "Boku no Pidval",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "18bd30fa-35d0-8067-9a7e-fbf0368e1537"
+      },
+      {
+        "id": "18bd30fa-35d0-80b0-85ff-fc10f2d6821c"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
     "id": "17cd30fa-35d0-80ca-ba48-ed721580833a",
     "last_edited": "2025-01-15T13:39:00.000Z",
     "cover": null,
@@ -2076,7 +2147,7 @@
   },
   {
     "id": "174d30fa-35d0-81f9-9f61-ee68a94664bd",
-    "last_edited": "2025-01-08T20:18:00.000Z",
+    "last_edited": "2025-01-30T09:47:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/Студія_Качур_nze6id.jpg",
     "name": "Студія Качур",
@@ -2117,10 +2188,22 @@
         "id": "175d30fa-35d0-8028-adf3-e15fbe02707f"
       },
       {
+        "id": "18bd30fa-35d0-80c7-9b24-df70e99acb86"
+      },
+      {
         "id": "175d30fa-35d0-801e-ac0e-facd8ce8d51f"
       },
       {
         "id": "176d30fa-35d0-8036-b70f-fee7df0f8d41"
+      },
+      {
+        "id": "18bd30fa-35d0-8088-bd94-c91dc35357b7"
+      },
+      {
+        "id": "18bd30fa-35d0-8044-932e-ecd0e7197ad9"
+      },
+      {
+        "id": "18bd30fa-35d0-80e3-a10f-d739ae5eb86f"
       }
     ],
     "site": "https://bidosi.com/",
@@ -2968,7 +3051,7 @@
   },
   {
     "id": "174d30fa-35d0-81bb-82a0-f78814807b1e",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-30T14:27:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098002/AID_sub_studio_w3q3hj.jpg",
     "name": "AID Sub Studio",
@@ -4291,6 +4374,9 @@
       },
       {
         "id": "174d30fa-35d0-81fc-8703-fa6902c1f872"
+      },
+      {
+        "id": "18cd30fa-35d0-80e1-ba2b-e89f40a02456"
       }
     ],
     "site": null,
@@ -4883,7 +4969,11 @@
       "Аніме"
     ],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "18bd30fa-35d0-80f3-a8f9-f6969b630bc1"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/TrivialSound/",
     "insta": null,
@@ -8015,6 +8105,9 @@
       },
       {
         "id": "183d30fa-35d0-801d-bc07-ddc5850ba46f"
+      },
+      {
+        "id": "18bd30fa-35d0-807b-b419-f7012258b639"
       }
     ],
     "site": null,
@@ -8038,9 +8131,6 @@
     ],
     "members": [],
     "anime_releases": [
-      {
-        "id": "174d30fa-35d0-817b-80cc-ddc24a4477e9"
-      },
       {
         "id": "174d30fa-35d0-81ff-a328-cc68c05c69a5"
       },
@@ -8067,6 +8157,9 @@
       },
       {
         "id": "175d30fa-35d0-8025-862b-cd5f0002c97e"
+      },
+      {
+        "id": "174d30fa-35d0-817b-80cc-ddc24a4477e9"
       }
     ],
     "site": null,
@@ -9376,6 +9469,9 @@
       },
       {
         "id": "181d30fa-35d0-80c6-9bb9-cb90e5e17433"
+      },
+      {
+        "id": "18bd30fa-35d0-8097-813a-d99d15778c0b"
       }
     ],
     "site": "https://ufdub.com/",
@@ -9768,7 +9864,7 @@
   },
   {
     "id": "174d30fa-35d0-8111-ba58-fc5bc908a546",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-27T08:56:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099900/Shirifugen_ecf33k.jpg",
     "name": "Shirifugen",
@@ -9846,6 +9942,60 @@
       },
       {
         "id": "185d30fa-35d0-8044-8e01-e3c6f6b0551c"
+      },
+      {
+        "id": "188d30fa-35d0-8012-9ee2-d59d38c4f15e"
+      },
+      {
+        "id": "188d30fa-35d0-80df-8c62-d0455f2078b8"
+      },
+      {
+        "id": "188d30fa-35d0-805a-9259-ca3acd3e9e20"
+      },
+      {
+        "id": "188d30fa-35d0-803a-b5fc-c4d81fa22770"
+      },
+      {
+        "id": "188d30fa-35d0-80a7-a307-e36379a8da5b"
+      },
+      {
+        "id": "188d30fa-35d0-80ec-b34d-d09ccecab6a5"
+      },
+      {
+        "id": "188d30fa-35d0-80d0-81c2-d754aebf437f"
+      },
+      {
+        "id": "188d30fa-35d0-80ec-b202-d396ba53f21f"
+      },
+      {
+        "id": "188d30fa-35d0-808d-afdf-cb2b5f497b5d"
+      },
+      {
+        "id": "188d30fa-35d0-80e6-a688-f093a0006b09"
+      },
+      {
+        "id": "188d30fa-35d0-8080-ba62-dd6d689cb6b1"
+      },
+      {
+        "id": "188d30fa-35d0-8099-b20d-cddfeaab1d3c"
+      },
+      {
+        "id": "188d30fa-35d0-806c-aefa-d1c32018bf37"
+      },
+      {
+        "id": "188d30fa-35d0-802e-ba8f-e7ad708c9465"
+      },
+      {
+        "id": "188d30fa-35d0-8097-b851-fac4ba1e4035"
+      },
+      {
+        "id": "188d30fa-35d0-8025-be3a-e0c792b92a91"
+      },
+      {
+        "id": "188d30fa-35d0-809b-abfe-ffaad6267283"
+      },
+      {
+        "id": "188d30fa-35d0-809c-a908-edfda6ef00df"
       }
     ],
     "site": null,
@@ -11035,13 +11185,16 @@
   },
   {
     "id": "174d30fa-35d0-811c-a72b-e10be909b6c5",
-    "last_edited": "2025-01-09T16:35:00.000Z",
+    "last_edited": "2025-02-02T21:27:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099914/Lvp_q5lsrn.jpg",
     "name": "Lemonka Voice Project",
     "status": "Активна",
     "type_activity": [
-      "Аніме"
+      "Аніме",
+      "Мульти",
+      "Дорами",
+      "Серіали"
     ],
     "members": [],
     "anime_releases": [
@@ -11050,10 +11203,103 @@
       },
       {
         "id": "174d30fa-35d0-817f-9a88-ed02f3456d9f"
+      },
+      {
+        "id": "18bd30fa-35d0-8006-a8bc-c89294144c16"
+      },
+      {
+        "id": "18bd30fa-35d0-800b-883a-d399daf4d73d"
+      },
+      {
+        "id": "18bd30fa-35d0-8092-91ae-ff03d8a841e7"
+      },
+      {
+        "id": "18bd30fa-35d0-80f4-a747-ff1659ae26d2"
+      },
+      {
+        "id": "18bd30fa-35d0-807a-93ff-e7b06e8e8a61"
+      },
+      {
+        "id": "18bd30fa-35d0-80cd-9713-f178cfa8c774"
+      },
+      {
+        "id": "18bd30fa-35d0-8046-bb08-fdbb046355b3"
+      },
+      {
+        "id": "18bd30fa-35d0-802f-a9b9-e8df930ad2e3"
+      },
+      {
+        "id": "18bd30fa-35d0-807f-b0f2-de0fe255b1b2"
+      },
+      {
+        "id": "18bd30fa-35d0-802e-8676-c25eff3d728a"
+      },
+      {
+        "id": "18bd30fa-35d0-8068-84d8-ef48ff873e47"
+      },
+      {
+        "id": "18bd30fa-35d0-8047-af9d-e186ea9d4b26"
+      },
+      {
+        "id": "18bd30fa-35d0-80b0-88e8-dd60998b9e43"
+      },
+      {
+        "id": "18bd30fa-35d0-8084-970a-dfc9aa88fe54"
+      },
+      {
+        "id": "18bd30fa-35d0-8028-80fd-d90174a4cf21"
+      },
+      {
+        "id": "18bd30fa-35d0-8047-bbec-f948583555de"
+      },
+      {
+        "id": "18bd30fa-35d0-807b-9f5c-f2b3087730b4"
+      },
+      {
+        "id": "18bd30fa-35d0-8081-9ac5-d27261ac3fda"
+      },
+      {
+        "id": "18bd30fa-35d0-80d7-8aba-dc5dc11a8983"
+      },
+      {
+        "id": "18bd30fa-35d0-80c6-b276-fa7e1f720c19"
+      },
+      {
+        "id": "18bd30fa-35d0-8064-bb2e-fb6c8a9326db"
+      },
+      {
+        "id": "18bd30fa-35d0-8039-91ed-ee3e18f32072"
+      },
+      {
+        "id": "18bd30fa-35d0-80fa-b295-f73cf2102c8c"
+      },
+      {
+        "id": "18bd30fa-35d0-8079-b909-f2cd9ce95c99"
+      },
+      {
+        "id": "18bd30fa-35d0-80ec-980e-fd627f9c28b2"
+      },
+      {
+        "id": "18bd30fa-35d0-8039-b275-de3729b94b91"
+      },
+      {
+        "id": "18bd30fa-35d0-8048-a0ec-faab412bf4ca"
+      },
+      {
+        "id": "18bd30fa-35d0-802f-9357-ea2826c7a925"
+      },
+      {
+        "id": "18bd30fa-35d0-807b-bd63-f240ee8d9558"
+      },
+      {
+        "id": "18bd30fa-35d0-80f3-a8f9-f6969b630bc1"
+      },
+      {
+        "id": "18bd30fa-35d0-8068-a636-eae5ca56b806"
       }
     ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/tags/Lem0nka%20Voice%20Project/",
     "insta": null,
     "tg": "https://t.me/KokojamboLVP",
     "tg_video": null
@@ -12373,12 +12619,14 @@
   },
   {
     "id": "174d30fa-35d0-81e8-807a-e80a523d86e7",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-01-31T11:27:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730116716/Zetsuko_iovcqx.jpg",
     "name": "Zetsuko продакшн",
-    "status": "Невідомо",
-    "type_activity": [],
+    "status": "Неактивна",
+    "type_activity": [
+      "Аніме"
+    ],
     "members": [],
     "anime_releases": [
       {
@@ -12386,6 +12634,9 @@
       },
       {
         "id": "174d30fa-35d0-81c3-85ee-c9cca1337cca"
+      },
+      {
+        "id": "18cd30fa-35d0-8054-a07b-cdb5430888c2"
       }
     ],
     "site": null,
@@ -12821,7 +13072,119 @@
     "status": "Невідомо",
     "type_activity": [],
     "members": [],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "18bd30fa-35d0-806c-8385-fe61287f661e"
+      },
+      {
+        "id": "18bd30fa-35d0-807b-abe0-d5cc8f62fe7d"
+      },
+      {
+        "id": "18bd30fa-35d0-8074-bb4b-ed0e9b676385"
+      },
+      {
+        "id": "18bd30fa-35d0-80ab-82a8-d4ae52909015"
+      },
+      {
+        "id": "18bd30fa-35d0-809d-8fb6-ff49a9422c31"
+      },
+      {
+        "id": "18bd30fa-35d0-805d-a8e1-c95d1e4f780a"
+      },
+      {
+        "id": "18bd30fa-35d0-8024-9081-f802c0e64042"
+      },
+      {
+        "id": "18bd30fa-35d0-80a9-b882-c0e3256896f8"
+      },
+      {
+        "id": "18bd30fa-35d0-80cd-ad1f-c22fe3deefdd"
+      },
+      {
+        "id": "18cd30fa-35d0-8021-8958-c6c7a7dea272"
+      },
+      {
+        "id": "18cd30fa-35d0-806f-b9b6-c72330629e1b"
+      },
+      {
+        "id": "18cd30fa-35d0-80e1-895e-cbb7fef0ad5b"
+      },
+      {
+        "id": "18cd30fa-35d0-80a3-86ec-ddc38dffc6f8"
+      },
+      {
+        "id": "18cd30fa-35d0-80fe-ac0c-c975a551d531"
+      },
+      {
+        "id": "18cd30fa-35d0-8052-aed6-dba806ca467b"
+      },
+      {
+        "id": "18cd30fa-35d0-804c-b00a-d9fb231bba80"
+      },
+      {
+        "id": "18cd30fa-35d0-80be-8ee5-eeda47884617"
+      },
+      {
+        "id": "18cd30fa-35d0-804f-9e9a-c8c0f15b1c89"
+      },
+      {
+        "id": "18cd30fa-35d0-8089-bb58-e481b5218c1b"
+      },
+      {
+        "id": "18cd30fa-35d0-80ac-9905-e3b47ce00318"
+      },
+      {
+        "id": "18cd30fa-35d0-80bf-9599-dd0331f4adea"
+      },
+      {
+        "id": "18cd30fa-35d0-80bb-9af8-c5550b773255"
+      },
+      {
+        "id": "18cd30fa-35d0-8049-8d31-e92101856d6b"
+      },
+      {
+        "id": "18cd30fa-35d0-80da-ba9c-e04cf8dbef54"
+      },
+      {
+        "id": "18cd30fa-35d0-8055-bf4a-dd18a532cddc"
+      },
+      {
+        "id": "18cd30fa-35d0-80eb-8af0-e26e33c40d39"
+      },
+      {
+        "id": "18cd30fa-35d0-8097-b816-f37c991887a5"
+      },
+      {
+        "id": "18cd30fa-35d0-8049-a0e7-f08073bbca7b"
+      },
+      {
+        "id": "18cd30fa-35d0-80b2-aa05-c0528c063787"
+      },
+      {
+        "id": "18cd30fa-35d0-80b6-89e1-c6a0f2bd8e64"
+      },
+      {
+        "id": "18cd30fa-35d0-80b9-bf06-ec958ffa3a98"
+      },
+      {
+        "id": "18cd30fa-35d0-8032-b420-ee0d46228379"
+      },
+      {
+        "id": "18cd30fa-35d0-805a-93d2-e321accd6179"
+      },
+      {
+        "id": "18cd30fa-35d0-8000-80b7-e001a822a88f"
+      },
+      {
+        "id": "18cd30fa-35d0-80c4-b371-fee71aa4d630"
+      },
+      {
+        "id": "18cd30fa-35d0-8053-918b-d2e879783e2b"
+      },
+      {
+        "id": "18cd30fa-35d0-800b-bed6-cedad44e3961"
+      }
+    ],
     "site": null,
     "anitube": "https://anitube.in.ua/tags/BeySub%20Studio/",
     "insta": null,
