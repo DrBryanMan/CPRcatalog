@@ -1,5 +1,207 @@
 [
   {
+    "id": "198d30fa-35d0-809a-a111-cf5324b2544f",
+    "last_edited": "2025-02-12T11:55:00.000Z",
+    "hikka_url": null,
+    "title": "Куренай",
+    "synonyms": [],
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "198d30fa-35d0-806f-ba67-c0ff7bae9e15"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "197d30fa-35d0-8025-b55a-c4e4c7c88f37",
+    "last_edited": "2025-02-11T08:19:00.000Z",
+    "hikka_url": "https://hikka.io/anime/maomao-no-hitorigoto-2nd-season-98841b",
+    "title": "Монолог Маомао 2",
+    "romaji": "Maomao no Hitorigoto 2",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ОМА",
+    "year": "2025",
+    "Анітюб": "https://anitube.in.ua/5186-monolog-maomao-2.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "197d30fa-35d0-8006-b9a6-fcd1bc665fe5"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "197d30fa-35d0-804b-825b-d1b0471f73f8",
+    "last_edited": "2025-02-11T07:57:00.000Z",
+    "hikka_url": null,
+    "title": "Кохання на кінчиках пальців. Маленькі історії",
+    "synonyms": [],
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "releases": [
+      {
+        "id": "196d30fa-35d0-80f6-b809-c53bdf0d9b70"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "196d30fa-35d0-80ae-a2c0-caa7b09d3ec5",
+    "last_edited": "2025-02-10T11:34:00.000Z",
+    "hikka_url": "https://hikka.io/anime/hoshi-no-samidare-dd6e98",
+    "title": "Люцифер і бісквітний молот",
+    "romaji": "Hoshi no Samidare",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2022",
+    "Анітюб": "https://anitube.in.ua/4023-hoshi-no-samidare.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "24",
+    "releases": [
+      {
+        "id": "196d30fa-35d0-80c9-a88f-e26798cce4c1"
+      },
+      {
+        "id": "196d30fa-35d0-803c-8bbd-ce1615e174d4"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "196d30fa-35d0-8009-81dd-d79e3cf09fd1",
+    "last_edited": "2025-02-10T11:28:00.000Z",
+    "hikka_url": "https://hikka.io/anime/gankutsuou-34ba3a",
+    "title": "Король печери: граф Монте-Крісто",
+    "romaji": "Gankutsuou",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2004",
+    "Анітюб": "https://anitube.in.ua/4019-gankutsuou.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "24",
+    "releases": [
+      {
+        "id": "196d30fa-35d0-804d-9c92-e281f3df3f58"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "196d30fa-35d0-806d-9294-c33e284456dd",
+    "last_edited": "2025-02-10T11:21:00.000Z",
+    "hikka_url": "https://hikka.io/anime/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru-be254a",
+    "title": "Найвеличніший Володар Демонів переродився у типового невдаху",
+    "romaji": "Shijou Saikyou no Daimaou, Murabito A ni Tensei suru",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2022",
+    "Анітюб": "https://anitube.in.ua/3969-nayvelichnshiy-volodar-demonv-pererodivsya-u-tipovogo-nevdahu-shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "196d30fa-35d0-80aa-800f-eae8c8c258f7"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "196d30fa-35d0-8006-b048-d9e029c47b42",
+    "last_edited": "2025-02-10T11:08:00.000Z",
+    "hikka_url": "https://hikka.io/anime/dance-dance-danseur-2eb36e",
+    "title": "Танцюй, танцюй, танцюристе",
+    "romaji": "Dance Dance Danseur",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2022",
+    "Анітюб": "https://anitube.in.ua/3963-dance-dance-danseur.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "11",
+    "releases": [
+      {
+        "id": "196d30fa-35d0-8017-951e-c94b4b82b190"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "196d30fa-35d0-802d-abd5-cb98d9f0e682",
+    "last_edited": "2025-02-10T09:11:00.000Z",
+    "hikka_url": "https://hikka.io/anime/mars-red-9a90ca",
+    "title": "Mars Red",
+    "romaji": "Mars Red",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2021",
+    "Анітюб": "https://anitube.in.ua/3772-mars-red.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "196d30fa-35d0-80ec-96e8-ee0b512f83a6"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "196d30fa-35d0-808f-93a3-f7184f67db0e",
+    "last_edited": "2025-02-10T07:29:00.000Z",
+    "hikka_url": "https://hikka.io/anime/suki-tte-ii-na-yo-dareka-ga-2ba126",
+    "title": "Скажи \"Я кохаю тебе\"",
+    "romaji": "Suki tte Ii na yo. Dareka ga",
+    "synonyms": [],
+    "type": "Аніме",
+    "format": "ОВА",
+    "year": "2013",
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "1",
+    "releases": [
+      {
+        "id": "196d30fa-35d0-8092-a3e4-cce6783631c7"
+      },
+      {
+        "id": "196d30fa-35d0-804c-9fd5-dec21ac1a040"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
     "id": "192d30fa-35d0-803f-b8fc-f4f5bb254a44",
     "last_edited": "2025-02-06T14:36:00.000Z",
     "hikka_url": "https://hikka.io/anime/strike-witches-ova-dbd64f",
@@ -2369,6 +2571,9 @@
     "releases": [
       {
         "id": "184d30fa-35d0-8018-a6fd-deb2d7db03f9"
+      },
+      {
+        "id": "198d30fa-35d0-8056-bcc3-fb5022e7e9aa"
       }
     ],
     "relations": [
@@ -7307,6 +7512,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8103-9f04-ee2c55866853"
+      },
+      {
+        "id": "196d30fa-35d0-800a-b503-ee4d507fb5db"
       }
     ],
     "relations": [],
@@ -8757,6 +8965,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81cf-9090-c4e8c6cc4a37"
+      },
+      {
+        "id": "197d30fa-35d0-80b1-962a-c245c6dd7b06"
       }
     ],
     "relations": [],
@@ -11197,6 +11408,9 @@
       },
       {
         "id": "174d30fa-35d0-8092-a427-c7a6e8ae33e4"
+      },
+      {
+        "id": "196d30fa-35d0-809d-b216-faec02656c3d"
       }
     ],
     "relations": [],
@@ -19250,9 +19464,6 @@
       },
       {
         "id": "174d30fa-35d0-8141-a724-c305cc6ada22"
-      },
-      {
-        "id": "18bd30fa-35d0-8081-9ac5-d27261ac3fda"
       }
     ],
     "relations": [
@@ -19749,6 +19960,9 @@
       },
       {
         "id": "174d30fa-35d0-81ce-8863-ed47c93e149c"
+      },
+      {
+        "id": "198d30fa-35d0-803b-a4b9-eebb9b90bed2"
       }
     ],
     "relations": [],
@@ -32257,6 +32471,9 @@
       },
       {
         "id": "174d30fa-35d0-8152-8fea-de7553e128fd"
+      },
+      {
+        "id": "196d30fa-35d0-80e6-b199-f6cc48c05159"
       }
     ],
     "relations": [],
@@ -39739,9 +39956,6 @@
     "releases": [
       {
         "id": "174d30fa-35d0-814e-8486-d59380bf50c0"
-      },
-      {
-        "id": "18bd30fa-35d0-8039-b275-de3729b94b91"
       }
     ],
     "relations": [],
@@ -42592,6 +42806,9 @@
       },
       {
         "id": "174d30fa-35d0-8192-b87c-de3600b217cb"
+      },
+      {
+        "id": "198d30fa-35d0-8085-a3e7-e19b6c3a9b32"
       }
     ],
     "relations": [],
@@ -47345,6 +47562,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-81b4-8e27-f9b7788fd791"
+      },
+      {
+        "id": "197d30fa-35d0-803b-a67d-f61577da05c2"
       }
     ],
     "relations": [],
@@ -48170,10 +48390,10 @@
   },
   {
     "id": "174d30fa-35d0-816e-978f-fbe282f5bf6a",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-02-10T11:01:00.000Z",
     "hikka_url": "https://hikka.io/anime/komi-san-wa-comyushou-desu-2nd-season-603532",
     "poster": "https://cdn.hikka.io/content/anime/komi-san-wa-comyushou-desu-2nd-season-603532/GoscQTv908atQZv3gkTpHA.jpg",
-    "title": "Комі не вміє спілкуватися (ТБ-2)",
+    "title": "Комі не вміє спілкуватися 2",
     "romaji": "Komi-san wa, Komyushou Desu (Season 2)",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -48200,9 +48420,6 @@
       },
       {
         "id": "174d30fa-35d0-81e1-befa-daf9b6562a4d"
-      },
-      {
-        "id": "18bd30fa-35d0-8079-b909-f2cd9ce95c99"
       }
     ],
     "relations": [
@@ -50576,7 +50793,7 @@
   },
   {
     "id": "174d30fa-35d0-81a8-9698-ce538918509e",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-02-12T11:49:00.000Z",
     "hikka_url": "https://hikka.io/anime/oroka-na-tenshi-wa-akuma-to-odoru-37ec93",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/164244-Xd5RWTHAZ6wI.jpg",
     "poster": "https://cdn.hikka.io/content/anime/oroka-na-tenshi-wa-akuma-to-odoru-37ec93/1FnDEIkT1c6r0EVuHUiv8A.jpg",
@@ -50602,6 +50819,9 @@
       },
       {
         "id": "174d30fa-35d0-8158-94de-d2c70d782511"
+      },
+      {
+        "id": "198d30fa-35d0-8043-a8ed-e0fe90a2c2b5"
       }
     ],
     "relations": [],
@@ -51128,9 +51348,6 @@
       },
       {
         "id": "176d30fa-35d0-8047-ae06-e4a04c6dffb3"
-      },
-      {
-        "id": "18bd30fa-35d0-80ec-980e-fd627f9c28b2"
       }
     ],
     "relations": [],
@@ -56491,7 +56708,7 @@
   },
   {
     "id": "174d30fa-35d0-8140-b8db-d95be4a34a32",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-02-16T10:49:00.000Z",
     "hikka_url": "https://hikka.io/anime/kotonoha-no-niwa-4be3ca",
     "poster": "https://cdn.hikka.io/content/anime/kotonoha-no-niwa-4be3ca/rByOO62Lpzwq2HXz_Q7ZOA.jpg",
     "title": "Сад слів",
@@ -56518,6 +56735,9 @@
       },
       {
         "id": "174d30fa-35d0-8112-9dcc-e05e711ba61b"
+      },
+      {
+        "id": "19cd30fa-35d0-80df-8620-ee9652fb01b4"
       }
     ],
     "relations": [],
@@ -67117,6 +67337,9 @@
       },
       {
         "id": "174d30fa-35d0-8157-8b3e-c3c8945d38a6"
+      },
+      {
+        "id": "196d30fa-35d0-8008-a19b-f9d74b20ff25"
       }
     ],
     "relations": [
@@ -70891,6 +71114,9 @@
       },
       {
         "id": "174d30fa-35d0-8175-8a6f-d51471b97719"
+      },
+      {
+        "id": "198d30fa-35d0-80da-aab8-f96ab7ea1c88"
       }
     ],
     "relations": [
@@ -75226,6 +75452,12 @@
       },
       {
         "id": "174d30fa-35d0-813c-8e4b-c34e5b0f0456"
+      },
+      {
+        "id": "196d30fa-35d0-80e2-81c1-daed1186fd0a"
+      },
+      {
+        "id": "196d30fa-35d0-8006-aa2c-e3eac584321a"
       }
     ],
     "relations": [],
@@ -76144,6 +76376,9 @@
       },
       {
         "id": "17dd30fa-35d0-80f9-b56e-dba4b961c472"
+      },
+      {
+        "id": "196d30fa-35d0-8060-a24d-eeee4b89aa9d"
       }
     ],
     "relations": [],
@@ -78279,6 +78514,9 @@
     "releases": [
       {
         "id": "174d30fa-35d0-8195-82d4-fb14084a3b18"
+      },
+      {
+        "id": "197d30fa-35d0-8052-8c8a-f89f615198d9"
       }
     ],
     "relations": [],
@@ -78567,11 +78805,11 @@
     "posters": [
       {
         "name": "Магічна битва - нищівна міграція.jpg",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466US7WEXHO%2F20250210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250210T012020Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAzeHpsv6AJ9mcqiRKg7FIvXHEF2VHk2ywangex53ellAiAo4BRhgYOad%2BlangEe8W9tHFTSQqe7cah2UN0Rq77mICqIBAiy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMwgTO3ElYHaWoR29DKtwDwi8qHCTb%2BgEFGeByA2ZP%2Bhk6r%2FSz6o6JFwIF5qJEiwRvgQ0Hxe2O6g9%2Bktc9tMQzogXXrs6XDqW5N20%2B3j5%2Bde0zAwqC0qt3XTGPON6gPIU5yGCnKe06UUjZrw99uUx1ZnjaRjjucCDlM%2Ftfc%2ByOxfhJ2p8JrMgmtGL8QNdisQrCLrAtl%2BXna1KNDSWui3bT3yJqHetR3JLnXYUu0TIVvPcqOH2Pu76O20kvzW2ix9vYUvb%2B1DUI%2BrQiuasS9hjIGnK77CP%2B8Pxkqp09ewXeMLj91fZ%2B8Ez1NvLwCzD9dZpM%2Fr1N4%2FQXOWu%2FFhjo%2B78t3iv24cQJA9MrE0RWuVNx7GvZLqMKMg4IkmwBs8RNn4t6jLOxWYRcQEBh3ZRwQ0eRIPMnezPtUD6Y2UrGGF12o05BmX8C4cXDjwtEjXYG7Zi19mcwrFG4z4bd%2BFbHx3ku2YQLYorBvPYquarHMkv25JzXj41XMjn9MNfGjh1uWAA1N2dc7bT%2F8a7WQw1IB7bQfsgHZlpbXcvJeZl%2FW75Xh9pw3r8cqblWO1P%2FU9b9NPGk3cPn7a1uE3b5eFk1lRZr0Y4dVpS1tG57eRnV4fySo70ZYgQ5CwXBU2SC0l%2FiLrkR9a0VPZ0C2Lyg%2FcIws5qlvQY6pgGtGJJFGnIvJstxSDfYZDD%2BQvNKKffkBIsZhrNVth0X%2FevcwiBSCDlO12pQE3DuRQgJcXtXym9RflZSqOzk02zhoJ6Ydz6o2PKJ1pfiuvbJ1HrwljLI3sLTujDOFj%2BDgslzvTFzhG8o3mWp8vZ4GgLQ4Zi%2FDwS9EA%2BiAPnT3AdQbWMwuXuCT0nRskrdNbtLkw76Awq8P4RtE3zL6h8K1dnN4YRPCoXb&X-Amz-Signature=4dc3a99c469b077f866e75b95321cf7dbdafbdea8efff77394cf638a050847cf&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XRDEASRJ%2F20250217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250217T012206Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJIMEYCIQCBpUEYSzlIdo0s%2B7ZX8q8qb2Z0LX99Tl52B6rPvW%2BInQIhAIycd5Q4amp1aWYYpDVWXha9ku6Ep5t6u%2BHonX4P4Kz3Kv8DCGoQABoMNjM3NDIzMTgzODA1IgwTLR%2BX4le%2FnQiQFOAq3AO1f9Ah4oY6RpbRMfQ3vx4QKMcZlAb7KCgipuaseOoGRK6t5L0bevuZzR2tO5mGR8FpPTdvsGJx8WUayvnwCq2fCd%2BjaWyN761oIR2HGrOHA16GTuPqp52HmD4bjYkaSHOD03G896x5wzMJMfmXpAOf6f0m%2BUiHsFulyW7xwqHJSiC4FRVbgOJ4nv2DVwwWaoNKAspWV1ddFJoe5Ts6GOFh2HyYza0VLjZVocHaCd4KWpwQ%2F8u2C2CY4xar5U9fbd08NoCs%2FrggF1zIbBKu8Zz4C%2FIX6Ih9xKaorj0P%2BLei3U9LFX6fliMygp3kVoRRs8REBopNVD0x6DuCUY%2F34nGRSzCxkJSeXlcMQ%2FAuAxZErmGBIWNPjvuSMvPuBLoUwd4167zAXu8vxrPHQNev7Qx5KrPc1KXY%2FXrWi7p7DBuu23%2B3kjJYOntQg8tnbyDHGyUzO%2F8E33h7p1I1E4hV1E%2FOY8eW7TZ3YUydg3YWPZ0NrxxcLP7VkoDUahVJm%2FjKdH3btH5RnI%2FHxP2msHY%2Fw3%2BEgdDzW8kF%2FASL2gtaQX7Z7Zvv4dNhxku3IciOZ3wKlrD%2FRSBuUJd0tMNzr7ZLGwCaBCMIrWIpGVo8IIi7ICLOkvpTiMC6X9tBVOqLvDChmsq9BjqkAUQ8VpyHkM8kzh%2FyiHpmKylPSOWLH%2Fx96S68D%2BNV4PoSwDwpPSuvujv%2FIOiTry0KwckDUODyRFWgWwxPEsghpCfQE%2BMcgY3h3H%2BdV%2FA5Prw0ahDlCPsqJtftdglvWucLiGn0BMk9HnqcLI71YkrU2PwYl7YUvYPeuJGde9dlijLS6S%2FwLx7QfsbT48Pq3ByzJa22MIhIcjCZR%2FAHB43aAMH2lo3G&X-Amz-Signature=ec46f908d64d099a6d680866004c4fb3601f33221b4638f4508c4ecd0d299aeb&X-Amz-SignedHeaders=host&x-id=GetObject"
       },
       {
         "name": "Магічна битва - гра на вибування-min.png",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466US7WEXHO%2F20250210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250210T012020Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAzeHpsv6AJ9mcqiRKg7FIvXHEF2VHk2ywangex53ellAiAo4BRhgYOad%2BlangEe8W9tHFTSQqe7cah2UN0Rq77mICqIBAiy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMwgTO3ElYHaWoR29DKtwDwi8qHCTb%2BgEFGeByA2ZP%2Bhk6r%2FSz6o6JFwIF5qJEiwRvgQ0Hxe2O6g9%2Bktc9tMQzogXXrs6XDqW5N20%2B3j5%2Bde0zAwqC0qt3XTGPON6gPIU5yGCnKe06UUjZrw99uUx1ZnjaRjjucCDlM%2Ftfc%2ByOxfhJ2p8JrMgmtGL8QNdisQrCLrAtl%2BXna1KNDSWui3bT3yJqHetR3JLnXYUu0TIVvPcqOH2Pu76O20kvzW2ix9vYUvb%2B1DUI%2BrQiuasS9hjIGnK77CP%2B8Pxkqp09ewXeMLj91fZ%2B8Ez1NvLwCzD9dZpM%2Fr1N4%2FQXOWu%2FFhjo%2B78t3iv24cQJA9MrE0RWuVNx7GvZLqMKMg4IkmwBs8RNn4t6jLOxWYRcQEBh3ZRwQ0eRIPMnezPtUD6Y2UrGGF12o05BmX8C4cXDjwtEjXYG7Zi19mcwrFG4z4bd%2BFbHx3ku2YQLYorBvPYquarHMkv25JzXj41XMjn9MNfGjh1uWAA1N2dc7bT%2F8a7WQw1IB7bQfsgHZlpbXcvJeZl%2FW75Xh9pw3r8cqblWO1P%2FU9b9NPGk3cPn7a1uE3b5eFk1lRZr0Y4dVpS1tG57eRnV4fySo70ZYgQ5CwXBU2SC0l%2FiLrkR9a0VPZ0C2Lyg%2FcIws5qlvQY6pgGtGJJFGnIvJstxSDfYZDD%2BQvNKKffkBIsZhrNVth0X%2FevcwiBSCDlO12pQE3DuRQgJcXtXym9RflZSqOzk02zhoJ6Ydz6o2PKJ1pfiuvbJ1HrwljLI3sLTujDOFj%2BDgslzvTFzhG8o3mWp8vZ4GgLQ4Zi%2FDwS9EA%2BiAPnT3AdQbWMwuXuCT0nRskrdNbtLkw76Awq8P4RtE3zL6h8K1dnN4YRPCoXb&X-Amz-Signature=84fd3cab754bf8659bfb87df839b095465af01e24bc034d738797eafe02fcaf4&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XRDEASRJ%2F20250217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250217T012206Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJIMEYCIQCBpUEYSzlIdo0s%2B7ZX8q8qb2Z0LX99Tl52B6rPvW%2BInQIhAIycd5Q4amp1aWYYpDVWXha9ku6Ep5t6u%2BHonX4P4Kz3Kv8DCGoQABoMNjM3NDIzMTgzODA1IgwTLR%2BX4le%2FnQiQFOAq3AO1f9Ah4oY6RpbRMfQ3vx4QKMcZlAb7KCgipuaseOoGRK6t5L0bevuZzR2tO5mGR8FpPTdvsGJx8WUayvnwCq2fCd%2BjaWyN761oIR2HGrOHA16GTuPqp52HmD4bjYkaSHOD03G896x5wzMJMfmXpAOf6f0m%2BUiHsFulyW7xwqHJSiC4FRVbgOJ4nv2DVwwWaoNKAspWV1ddFJoe5Ts6GOFh2HyYza0VLjZVocHaCd4KWpwQ%2F8u2C2CY4xar5U9fbd08NoCs%2FrggF1zIbBKu8Zz4C%2FIX6Ih9xKaorj0P%2BLei3U9LFX6fliMygp3kVoRRs8REBopNVD0x6DuCUY%2F34nGRSzCxkJSeXlcMQ%2FAuAxZErmGBIWNPjvuSMvPuBLoUwd4167zAXu8vxrPHQNev7Qx5KrPc1KXY%2FXrWi7p7DBuu23%2B3kjJYOntQg8tnbyDHGyUzO%2F8E33h7p1I1E4hV1E%2FOY8eW7TZ3YUydg3YWPZ0NrxxcLP7VkoDUahVJm%2FjKdH3btH5RnI%2FHxP2msHY%2Fw3%2BEgdDzW8kF%2FASL2gtaQX7Z7Zvv4dNhxku3IciOZ3wKlrD%2FRSBuUJd0tMNzr7ZLGwCaBCMIrWIpGVo8IIi7ICLOkvpTiMC6X9tBVOqLvDChmsq9BjqkAUQ8VpyHkM8kzh%2FyiHpmKylPSOWLH%2Fx96S68D%2BNV4PoSwDwpPSuvujv%2FIOiTry0KwckDUODyRFWgWwxPEsghpCfQE%2BMcgY3h3H%2BdV%2FA5Prw0ahDlCPsqJtftdglvWucLiGn0BMk9HnqcLI71YkrU2PwYl7YUvYPeuJGde9dlijLS6S%2FwLx7QfsbT48Pq3ByzJa22MIhIcjCZR%2FAHB43aAMH2lo3G&X-Amz-Signature=ab33dcb862945756fa46ede19b842c753ce0204636f1a3be2c887194f033e121&X-Amz-SignedHeaders=host&x-id=GetObject"
       }
     ]
   },
@@ -79850,6 +80088,9 @@
       },
       {
         "id": "176d30fa-35d0-8077-b121-ccaede230751"
+      },
+      {
+        "id": "196d30fa-35d0-80f6-b809-c53bdf0d9b70"
       }
     ],
     "relations": [
@@ -80882,6 +81123,9 @@
     "releases": [
       {
         "id": "18fd30fa-35d0-804a-8f7a-f70a4991e153"
+      },
+      {
+        "id": "196d30fa-35d0-80d4-ba8a-f79583e36e4a"
       }
     ],
     "relations": [],
@@ -80922,6 +81166,9 @@
       },
       {
         "id": "190d30fa-35d0-8000-8303-cb3631b2b8ea"
+      },
+      {
+        "id": "197d30fa-35d0-80ba-b5c8-ef32c76cf272"
       }
     ],
     "relations": [],
@@ -81295,10 +81542,10 @@
   },
   {
     "id": "174d30fa-35d0-819b-8ecb-cc4ec9644ca3",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-02-11T08:20:00.000Z",
     "hikka_url": "https://hikka.io/anime/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-2nd-season-b80c60",
     "poster": "https://cdn.hikka.io/content/anime/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-2nd-season-b80c60/5-nibXjBAj7wrPYfsEMBXw.jpg",
-    "title": "100 дівчат, які дуже, дуже, дуже, дуже, дуже тебе кохають (ТБ-2)",
+    "title": "100 дівчат, які дуже, дуже, дуже, дуже, дуже тебе кохають 2",
     "romaji": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 2",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -81312,7 +81559,11 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
-    "releases": [],
+    "releases": [
+      {
+        "id": "197d30fa-35d0-803f-a07c-e040db3110dd"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-8155-97ca-c7a7a0b6fc50"
@@ -81864,6 +82115,9 @@
       },
       {
         "id": "190d30fa-35d0-8068-a311-fd097900d446"
+      },
+      {
+        "id": "198d30fa-35d0-8024-a0fc-d9d26b2f8681"
       }
     ],
     "relations": [
@@ -89510,7 +89764,7 @@
   },
   {
     "id": "174d30fa-35d0-81e1-97d6-c75c155f0b89",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-02-10T09:24:00.000Z",
     "hikka_url": "https://hikka.io/anime/sono-bisque-doll-wa-koi-wo-suru-0a2f14",
     "cover": "https://media.kitsu.app/anime/44382/cover_image/ee63290838bcd2fe3acd5eaa2e4f7df4.jpg",
     "poster": "https://cdn.hikka.io/content/anime/sono-bisque-doll-wa-koi-wo-suru-0a2f14/zcLbOQr2k_PKJRZ3tdA8tA.jpg",
@@ -89542,6 +89796,9 @@
       },
       {
         "id": "174d30fa-35d0-811a-bc6f-ed36339d0b90"
+      },
+      {
+        "id": "196d30fa-35d0-800c-a5dc-dcd93a89872e"
       }
     ],
     "relations": [],
@@ -95855,6 +96112,9 @@
       },
       {
         "id": "190d30fa-35d0-8033-abc4-c3c177e35710"
+      },
+      {
+        "id": "197d30fa-35d0-804a-b8de-c641c4214e04"
       }
     ],
     "relations": [],
@@ -96643,7 +96903,7 @@
   },
   {
     "id": "174d30fa-35d0-8109-b603-f049663327c9",
-    "last_edited": "2025-01-07T06:59:00.000Z",
+    "last_edited": "2025-02-10T06:36:00.000Z",
     "hikka_url": "https://hikka.io/anime/look-back-968446",
     "poster": "https://cdn.hikka.io/content/anime/look-back-968446/W_O101ieu40LiALEp0w7eA.jpg",
     "title": "Озирнись",
@@ -96677,6 +96937,9 @@
       },
       {
         "id": "17bd30fa-35d0-80d6-b5ee-d39bae73a1ab"
+      },
+      {
+        "id": "196d30fa-35d0-8034-bffc-f0720f761679"
       }
     ],
     "relations": [],
@@ -96922,7 +97185,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "196d30fa-35d0-8077-875a-e2e932630b64"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-81c9-a4e9-d9bcfb234ef7"
