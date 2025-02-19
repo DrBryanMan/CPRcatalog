@@ -1,5 +1,67 @@
 [
   {
+    "id": "19fd30fa-35d0-8076-af68-c7d454b6cc1e",
+    "last_edited": "2025-02-19T09:06:00.000Z",
+    "hikka_url": "https://hikka.io/anime/morita-san-wa-mukuchi-2-5fd137",
+    "poster": "https://cdn.hikka.io/content/anime/morita-san-wa-mukuchi-2-5fd137/N5rcbR0QlZ6LSM-Otjws2g.jpg",
+    "title": "Моріта небалакуча 2",
+    "romaji": "Morita-san wa Mukuchi. 2",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Miss Morita is Taciturn (TV) 2"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2011",
+    "scoreMAL": 6.63,
+    "scoredbyMAL": 7759,
+    "Анітюб": null,
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "13",
+    "releases": [
+      {
+        "id": "19fd30fa-35d0-8002-ae20-ef040632820d"
+      }
+    ],
+    "relations": [
+      {
+        "id": "176d30fa-35d0-806c-a551-cc58eda95ff0"
+      }
+    ],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
+    "id": "19fd30fa-35d0-8078-bb79-e9c94b7f56b8",
+    "last_edited": "2025-02-19T09:03:00.000Z",
+    "hikka_url": "https://hikka.io/anime/nakanohito-genome-jikkyouchuu-89749c",
+    "poster": "https://cdn.hikka.io/content/anime/nakanohito-genome-jikkyouchuu-89749c/AMhTtEEByQJUUL0IlEjXzA.jpg",
+    "title": "Геном замкнених",
+    "romaji": "Nakanohito Genome [Jikkyouchuu]",
+    "synonyms": [],
+    "hikkaSynonyms": [
+      "Naka no Hito Genome [Jikkyouchuu]"
+    ],
+    "type": "Аніме",
+    "format": "ТБ",
+    "year": "2019",
+    "scoreMAL": 6.87,
+    "scoredbyMAL": 57354,
+    "Анітюб": "https://anitube.in.ua/5215-genom-zamknenih-nazhivo-.html",
+    "Юакіно": null,
+    "тґ_канал": null,
+    "episodes": "12",
+    "releases": [
+      {
+        "id": "19fd30fa-35d0-80c2-aef6-cc35cb5b2f87"
+      }
+    ],
+    "relations": [],
+    "Франшиза": [],
+    "posters": []
+  },
+  {
     "id": "198d30fa-35d0-809a-a111-cf5324b2544f",
     "last_edited": "2025-02-12T11:55:00.000Z",
     "hikka_url": null,
@@ -3922,7 +3984,7 @@
   },
   {
     "id": "17bd30fa-35d0-8038-8705-db97d6f768e2",
-    "last_edited": "2025-01-14T07:32:00.000Z",
+    "last_edited": "2025-02-19T08:52:00.000Z",
     "hikka_url": "https://hikka.io/anime/salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-623185",
     "poster": "https://cdn.hikka.io/content/anime/salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-623185/8k4kxmn9oPCQPYsVsR2HxA.jpg",
     "title": "Історія про офісника, який відійшов в інший світ і став одним з чотирьох небесних королів",
@@ -3934,9 +3996,10 @@
     "year": "2025",
     "scoreMAL": 6.44,
     "scoredbyMAL": 9218,
-    "Анітюб": null,
+    "Анітюб": "https://anitube.in.ua/5125-storya-pro-te-yak-ofsniy-pracvnik-potrapiv-u-nshiy-svt-stav-odnim-z-generalv-korolya-demonv.html",
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "12",
     "releases": [
       {
         "id": "17bd30fa-35d0-80da-b56a-e70a6672b26c"
@@ -5730,7 +5793,7 @@
   },
   {
     "id": "176d30fa-35d0-806c-a551-cc58eda95ff0",
-    "last_edited": "2025-01-09T14:03:00.000Z",
+    "last_edited": "2025-02-19T09:05:00.000Z",
     "hikka_url": "https://hikka.io/anime/morita-san-wa-mukuchi-072bd2",
     "poster": "https://cdn.hikka.io/content/anime/morita-san-wa-mukuchi-072bd2/GIyExUZ5OUK-CKq_lczxvg.jpg",
     "title": "Моріта небалакуча",
@@ -5753,7 +5816,11 @@
         "id": "176d30fa-35d0-803f-9db7-f0993e33e176"
       }
     ],
-    "relations": [],
+    "relations": [
+      {
+        "id": "19fd30fa-35d0-8076-af68-c7d454b6cc1e"
+      }
+    ],
     "Франшиза": [],
     "posters": []
   },
@@ -79447,11 +79514,11 @@
     "posters": [
       {
         "name": "Магічна битва - нищівна міграція.jpg",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XIUEF4MF%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T081950Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJGMEQCIAQdRP8ip5guX2NkM1Cj%2BOEpWIfj67ACnk%2FMJ569mcSWAiBmEjFSIobMMy2X2JdtYpL8l3%2FUcWRSQxrFLH7lFcxfiSqIBAih%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMc2mogpvl2sqFBNGGKtwDPCVnYJ52Hzk6qXsRuEZJ1G6jMvGMjLlhWDjMVHBv5fTo1E4uXZwcn5VB4i2p%2B3UxMzrQ58JqU%2FIs4v17QDUjIYpLBme4WY%2BZng3FTbhc5KutYpNZUFPu2JaDAmydHRkWe2f6M3uPyj6DFQmhJJULwCVYwFAuvICZO7KgUyUrodrKKD1p8OEig4BUzZp8wP2aSy9vvWYwYTC9O8bv6r43MvmBa8SNEtxohRNWwK1g37PKYPAOCY6JFdnCPgdvo2Dg51XJKq8l%2FbAQcOeBiXyfEg%2B8LTBYeJrGAi0YmC%2Fjr4Qff7lqhbAM8SWGJoDfxR%2FXNj30L996CJFMs1SiMJcILOJMl69N7xvQ%2Bt8zbnYLL2R5T6yIuLck1shtKNYePNW4nWuZb%2BBntIwOd18vS15cDWhjPud36koVIxrEcRAyfsyAT9ll1g%2B9JrYFCAyybJ3gX1adI1H7V0tLwVsbzLLNyGN9b3Mm068QC1XiYjQM2CC5Ozwk85KqNMG%2B4iGy%2FQBW675ooEm5CxA%2FW%2BY54obCA%2FfE%2B2EoBCyR5u5TtAyJpDlK2SSNbkfFrKI05yO80YM713mBkP0AM6LAto1NiboMaaQcdkcIKiDBOLBJsCQ8vAwLJJojEz%2FJ88Fphf4wwJ7WvQY6pgFDuDfcN%2B6BG2BSYpOeoNxH2O8wdHAA0b1BHibF7F8JiYkpn%2B9Y4FYUBXMvIa%2BvifEuw79RX3ujaxNjAfLR3zyue4ZbAQw7RvWk4p6jmP0nZ7IjiA5NB2ZVc1gpekq%2B69t734W3lKSzZDSE2Gm%2BdIFmveij1m5o%2FTbMlaK%2B%2By0NwMwWL4zjpIKM2MmtuaitNrOzV0dq7ZJC43Zk6KVUVaI%2FLc5p1JgM&X-Amz-Signature=fb69348fd9861f50c46343c39c1041e8b613e56b937bb31a666e1aec90dcfe2d&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SKEMZ4LI%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T101810Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHoaCXVzLXdlc3QtMiJHMEUCIQDDFfmjHwKLGs5B6IEQw9GV2oQpIUSC0g7jotSpbvBSwwIgHKtE%2BDgVommiY3HBIApobB2BL6jNqo4ywJE2WuRWynQqiAQIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIRjlgNfBzqYadnAJSrcA3%2F7NnBrJQOeVdZPPeQqtq2hPzoqLW24BPNVWFEJWbKrFQBC1BxZOn1sJlUQ2jBycPvcEAIjmoqYf1N1pgjeeVc2Wd2vkoS1EddVQWlb4y4OhiuK0YPyAklkPVOUaSaoZjEUymrRfEqtTKDmWcdb18cVodAk7pLjtATulbXXQB2iiGw%2BH0FFHARW8LihjOx%2FCiFlwxK18u3EqKZDh2%2Fb2W6Js54pmnMJcbMQoYPQFJAGkHqqHFqFDn2nCsB%2F8AcXJnRvR6CxPegoLCYBqg0Cn9G619RPeT%2FCrf39YFR%2FRtnSvL5P57gPaYj6XzFKjTIEn0chganwKnb9ZQYZO9wYo%2FNKElUxnPwjzno8HUWPuOzNsD1hzsEX5fge0QOex2BbLUE5B4TsfDzszU6unNr54zZflngZudYMwlDSNcpZ8geQ1yAt06cEszv9lOpl7VgLk4wQ3ejvQKeDRSsbrhp7KWCj%2Fgo1QkZT8U%2BjuaPKcjovbpgbyuU2F02LSiGqHPL%2B4lezu31OuaGiQV2uuFqiQTFalMgyjcaLw3r%2F2%2Fi6gQpk4k0f7bdFn09pO%2FWDojihhWL3eiCKNh9AxeeXd32ebJzgC2840%2F22wO2KGFV6zSJUp5%2B%2BRCaMonLyXgsaMJPa1r0GOqUBN2k6nEuzM4tu%2BG0jpYEXYHQeRum0mj4Nhyvz4kaaQQ5nzsn3BHI9vmEUVTs9teWvwZ20r9oZppJQ%2FTJudog2B3Wi0PxyyWOrTY%2FRf7sHA%2BDrjZJxmIZ7iZ7NdPvthTVfzs8SpSl553wUW%2B%2BWnw5qjklepfEWrbrT0QTls1%2FN541NlS2KLGEr67U5PKpe8s8UxJQtJKHMknFiVoht25%2BHrNp%2FWbSn&X-Amz-Signature=f1f68fef429283b666cf77ef241119d004a191ee76c2604af2ffcfeda3f004d9&X-Amz-SignedHeaders=host&x-id=GetObject"
       },
       {
         "name": "Магічна битва - гра на вибування-min.png",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XIUEF4MF%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T081950Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJGMEQCIAQdRP8ip5guX2NkM1Cj%2BOEpWIfj67ACnk%2FMJ569mcSWAiBmEjFSIobMMy2X2JdtYpL8l3%2FUcWRSQxrFLH7lFcxfiSqIBAih%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMc2mogpvl2sqFBNGGKtwDPCVnYJ52Hzk6qXsRuEZJ1G6jMvGMjLlhWDjMVHBv5fTo1E4uXZwcn5VB4i2p%2B3UxMzrQ58JqU%2FIs4v17QDUjIYpLBme4WY%2BZng3FTbhc5KutYpNZUFPu2JaDAmydHRkWe2f6M3uPyj6DFQmhJJULwCVYwFAuvICZO7KgUyUrodrKKD1p8OEig4BUzZp8wP2aSy9vvWYwYTC9O8bv6r43MvmBa8SNEtxohRNWwK1g37PKYPAOCY6JFdnCPgdvo2Dg51XJKq8l%2FbAQcOeBiXyfEg%2B8LTBYeJrGAi0YmC%2Fjr4Qff7lqhbAM8SWGJoDfxR%2FXNj30L996CJFMs1SiMJcILOJMl69N7xvQ%2Bt8zbnYLL2R5T6yIuLck1shtKNYePNW4nWuZb%2BBntIwOd18vS15cDWhjPud36koVIxrEcRAyfsyAT9ll1g%2B9JrYFCAyybJ3gX1adI1H7V0tLwVsbzLLNyGN9b3Mm068QC1XiYjQM2CC5Ozwk85KqNMG%2B4iGy%2FQBW675ooEm5CxA%2FW%2BY54obCA%2FfE%2B2EoBCyR5u5TtAyJpDlK2SSNbkfFrKI05yO80YM713mBkP0AM6LAto1NiboMaaQcdkcIKiDBOLBJsCQ8vAwLJJojEz%2FJ88Fphf4wwJ7WvQY6pgFDuDfcN%2B6BG2BSYpOeoNxH2O8wdHAA0b1BHibF7F8JiYkpn%2B9Y4FYUBXMvIa%2BvifEuw79RX3ujaxNjAfLR3zyue4ZbAQw7RvWk4p6jmP0nZ7IjiA5NB2ZVc1gpekq%2B69t734W3lKSzZDSE2Gm%2BdIFmveij1m5o%2FTbMlaK%2B%2By0NwMwWL4zjpIKM2MmtuaitNrOzV0dq7ZJC43Zk6KVUVaI%2FLc5p1JgM&X-Amz-Signature=f41cdc6ebabccdfb3f36283faf8ec921fdd03c3b298d5d0f8284ca1a349d209d&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SKEMZ4LI%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T101810Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHoaCXVzLXdlc3QtMiJHMEUCIQDDFfmjHwKLGs5B6IEQw9GV2oQpIUSC0g7jotSpbvBSwwIgHKtE%2BDgVommiY3HBIApobB2BL6jNqo4ywJE2WuRWynQqiAQIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIRjlgNfBzqYadnAJSrcA3%2F7NnBrJQOeVdZPPeQqtq2hPzoqLW24BPNVWFEJWbKrFQBC1BxZOn1sJlUQ2jBycPvcEAIjmoqYf1N1pgjeeVc2Wd2vkoS1EddVQWlb4y4OhiuK0YPyAklkPVOUaSaoZjEUymrRfEqtTKDmWcdb18cVodAk7pLjtATulbXXQB2iiGw%2BH0FFHARW8LihjOx%2FCiFlwxK18u3EqKZDh2%2Fb2W6Js54pmnMJcbMQoYPQFJAGkHqqHFqFDn2nCsB%2F8AcXJnRvR6CxPegoLCYBqg0Cn9G619RPeT%2FCrf39YFR%2FRtnSvL5P57gPaYj6XzFKjTIEn0chganwKnb9ZQYZO9wYo%2FNKElUxnPwjzno8HUWPuOzNsD1hzsEX5fge0QOex2BbLUE5B4TsfDzszU6unNr54zZflngZudYMwlDSNcpZ8geQ1yAt06cEszv9lOpl7VgLk4wQ3ejvQKeDRSsbrhp7KWCj%2Fgo1QkZT8U%2BjuaPKcjovbpgbyuU2F02LSiGqHPL%2B4lezu31OuaGiQV2uuFqiQTFalMgyjcaLw3r%2F2%2Fi6gQpk4k0f7bdFn09pO%2FWDojihhWL3eiCKNh9AxeeXd32ebJzgC2840%2F22wO2KGFV6zSJUp5%2B%2BRCaMonLyXgsaMJPa1r0GOqUBN2k6nEuzM4tu%2BG0jpYEXYHQeRum0mj4Nhyvz4kaaQQ5nzsn3BHI9vmEUVTs9teWvwZ20r9oZppJQ%2FTJudog2B3Wi0PxyyWOrTY%2FRf7sHA%2BDrjZJxmIZ7iZ7NdPvthTVfzs8SpSl553wUW%2B%2BWnw5qjklepfEWrbrT0QTls1%2FN541NlS2KLGEr67U5PKpe8s8UxJQtJKHMknFiVoht25%2BHrNp%2FWbSn&X-Amz-Signature=98b11f30ff50ac70ffe095e5025885d300848230307dd5a4d7c8417268e48147&X-Amz-SignedHeaders=host&x-id=GetObject"
       }
     ]
   },
@@ -94786,7 +94853,11 @@
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "12",
-    "releases": [],
+    "releases": [
+      {
+        "id": "19fd30fa-35d0-8025-8f39-db1b5de98947"
+      }
+    ],
     "relations": [
       {
         "id": "174d30fa-35d0-812b-b333-f9e3ebf61769"
@@ -95704,7 +95775,7 @@
   },
   {
     "id": "174d30fa-35d0-818d-97ed-cdfc69576480",
-    "last_edited": "2025-01-23T13:17:00.000Z",
+    "last_edited": "2025-02-19T08:40:00.000Z",
     "hikka_url": "https://hikka.io/anime/zenshu-31068c",
     "poster": "https://cdn.hikka.io/content/anime/zenshu-31068c/nPulGfsBz2zSA2tdEU7k5A.jpg",
     "title": "Переробити.",
@@ -95722,6 +95793,7 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "12",
     "releases": [
       {
         "id": "177d30fa-35d0-8099-adb6-cd053f0fba6e"
@@ -95977,7 +96049,7 @@
   },
   {
     "id": "174d30fa-35d0-813c-b164-ce35a42dcba8",
-    "last_edited": "2025-01-10T09:47:00.000Z",
+    "last_edited": "2025-02-19T08:41:00.000Z",
     "hikka_url": "https://hikka.io/anime/dr-stone-science-future-54a9f9",
     "poster": "https://cdn.hikka.io/content/anime/dr-stone-science-future-54a9f9/NhnYQpMirsVestoNZlgcKQ.jpg",
     "title": "Доктор Стоун 4: Наука майбутнього",
@@ -95999,6 +96071,7 @@
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
+    "episodes": "12",
     "releases": [
       {
         "id": "177d30fa-35d0-80f7-8c0e-dc2686cc0db4"
