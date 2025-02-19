@@ -4,7 +4,6 @@
     "last_edited": "2025-02-12T11:55:00.000Z",
     "hikka_url": null,
     "title": "Куренай",
-<<<<<<< HEAD
     "synonyms": [],
     "Анітюб": null,
     "Юакіно": null,
@@ -32,38 +31,12 @@
     "year": "2025",
     "scoreMAL": 0,
     "scoredbyMAL": 0,
-=======
-    "synonyms": [],
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "releases": [
-      {
-        "id": "198d30fa-35d0-806f-ba67-c0ff7bae9e15"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "197d30fa-35d0-8025-b55a-c4e4c7c88f37",
-    "last_edited": "2025-02-11T08:19:00.000Z",
-    "hikka_url": "https://hikka.io/anime/maomao-no-hitorigoto-2nd-season-98841b",
-    "title": "Монолог Маомао 2",
-    "romaji": "Maomao no Hitorigoto 2",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОМА",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5186-monolog-maomao-2.html",
     "Юакіно": null,
     "тґ_канал": null,
     "releases": [
       {
         "id": "197d30fa-35d0-8006-b9a6-fcd1bc665fe5"
-<<<<<<< HEAD
       }
     ],
     "relations": [],
@@ -112,8 +85,6 @@
       },
       {
         "id": "196d30fa-35d0-803c-8bbd-ce1615e174d4"
-=======
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
       }
     ],
     "relations": [],
@@ -121,7 +92,6 @@
     "posters": []
   },
   {
-<<<<<<< HEAD
     "id": "196d30fa-35d0-8009-81dd-d79e3cf09fd1",
     "last_edited": "2025-02-10T11:28:00.000Z",
     "hikka_url": "https://hikka.io/anime/gankutsuou-34ba3a",
@@ -144,19 +114,6 @@
     "releases": [
       {
         "id": "196d30fa-35d0-804d-9c92-e281f3df3f58"
-=======
-    "id": "197d30fa-35d0-804b-825b-d1b0471f73f8",
-    "last_edited": "2025-02-11T07:57:00.000Z",
-    "hikka_url": null,
-    "title": "Кохання на кінчиках пальців. Маленькі історії",
-    "synonyms": [],
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "releases": [
-      {
-        "id": "196d30fa-35d0-80f6-b809-c53bdf0d9b70"
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
       }
     ],
     "relations": [],
@@ -164,7 +121,6 @@
     "posters": []
   },
   {
-<<<<<<< HEAD
     "id": "196d30fa-35d0-806d-9294-c33e284456dd",
     "last_edited": "2025-02-10T11:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru-be254a",
@@ -180,86 +136,6 @@
     "year": "2022",
     "scoreMAL": 6.29,
     "scoredbyMAL": 142005,
-    "Анітюб": "https://anitube.in.ua/3969-nayvelichnshiy-volodar-demonv-pererodivsya-u-tipovogo-nevdahu-shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru.html",
-=======
-    "id": "196d30fa-35d0-80ae-a2c0-caa7b09d3ec5",
-    "last_edited": "2025-02-10T11:34:00.000Z",
-    "hikka_url": "https://hikka.io/anime/hoshi-no-samidare-dd6e98",
-    "title": "Люцифер і бісквітний молот",
-    "romaji": "Hoshi no Samidare",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2022",
-    "Анітюб": "https://anitube.in.ua/4023-hoshi-no-samidare.html",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "24",
-    "releases": [
-      {
-<<<<<<< HEAD
-        "id": "196d30fa-35d0-80aa-800f-eae8c8c258f7"
-=======
-        "id": "196d30fa-35d0-80c9-a88f-e26798cce4c1"
-      },
-      {
-        "id": "196d30fa-35d0-803c-8bbd-ce1615e174d4"
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-<<<<<<< HEAD
-    "id": "196d30fa-35d0-8006-b048-d9e029c47b42",
-    "last_edited": "2025-02-10T11:08:00.000Z",
-    "hikka_url": "https://hikka.io/anime/dance-dance-danseur-2eb36e",
-    "poster": "https://cdn.hikka.io/content/anime/dance-dance-danseur-2eb36e/qxqwipQsdzn8lz-i5izZ9Q.jpg",
-    "title": "Танцюй, танцюй, танцюристе",
-    "romaji": "Dance Dance Danseur",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2022",
-    "scoreMAL": 7.82,
-    "scoredbyMAL": 35241,
-=======
-    "id": "196d30fa-35d0-8009-81dd-d79e3cf09fd1",
-    "last_edited": "2025-02-10T11:28:00.000Z",
-    "hikka_url": "https://hikka.io/anime/gankutsuou-34ba3a",
-    "title": "Король печери: граф Монте-Крісто",
-    "romaji": "Gankutsuou",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2004",
-    "Анітюб": "https://anitube.in.ua/4019-gankutsuou.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "24",
-    "releases": [
-      {
-        "id": "196d30fa-35d0-804d-9c92-e281f3df3f58"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "196d30fa-35d0-806d-9294-c33e284456dd",
-    "last_edited": "2025-02-10T11:21:00.000Z",
-    "hikka_url": "https://hikka.io/anime/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru-be254a",
-    "title": "Найвеличніший Володар Демонів переродився у типового невдаху",
-    "romaji": "Shijou Saikyou no Daimaou, Murabito A ni Tensei suru",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2022",
     "Анітюб": "https://anitube.in.ua/3969-nayvelichnshiy-volodar-demonv-pererodivsya-u-tipovogo-nevdahu-shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -277,13 +153,16 @@
     "id": "196d30fa-35d0-8006-b048-d9e029c47b42",
     "last_edited": "2025-02-10T11:08:00.000Z",
     "hikka_url": "https://hikka.io/anime/dance-dance-danseur-2eb36e",
+    "poster": "https://cdn.hikka.io/content/anime/dance-dance-danseur-2eb36e/qxqwipQsdzn8lz-i5izZ9Q.jpg",
     "title": "Танцюй, танцюй, танцюристе",
     "romaji": "Dance Dance Danseur",
     "synonyms": [],
+    "hikkaSynonyms": [],
     "type": "Аніме",
     "format": "ТБ",
     "year": "2022",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
+    "scoreMAL": 7.82,
+    "scoredbyMAL": 35241,
     "Анітюб": "https://anitube.in.ua/3963-dance-dance-danseur.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -301,7 +180,6 @@
     "id": "196d30fa-35d0-802d-abd5-cb98d9f0e682",
     "last_edited": "2025-02-10T09:11:00.000Z",
     "hikka_url": "https://hikka.io/anime/mars-red-9a90ca",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/mars-red-9a90ca/YGe77h_wP2MdKsUNMAEiAQ.jpg",
     "title": "Mars Red",
     "romaji": "Mars Red",
@@ -312,14 +190,6 @@
     "year": "2021",
     "scoreMAL": 6.59,
     "scoredbyMAL": 36990,
-=======
-    "title": "Mars Red",
-    "romaji": "Mars Red",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3772-mars-red.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -337,7 +207,6 @@
     "id": "196d30fa-35d0-808f-93a3-f7184f67db0e",
     "last_edited": "2025-02-10T07:29:00.000Z",
     "hikka_url": "https://hikka.io/anime/suki-tte-ii-na-yo-dareka-ga-2ba126",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/suki-tte-ii-na-yo-dareka-ga-2ba126/h9RBnEpR1cKIez2R2jtPmQ.jpg",
     "title": "Скажи \"Я кохаю тебе\"",
     "romaji": "Suki tte Ii na yo. Dareka ga",
@@ -351,14 +220,6 @@
     "year": "2013",
     "scoreMAL": 7.23,
     "scoredbyMAL": 32817,
-=======
-    "title": "Скажи \"Я кохаю тебе\"",
-    "romaji": "Suki tte Ii na yo. Dareka ga",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2013",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -379,21 +240,16 @@
     "id": "192d30fa-35d0-803f-b8fc-f4f5bb254a44",
     "last_edited": "2025-02-06T14:36:00.000Z",
     "hikka_url": "https://hikka.io/anime/strike-witches-ova-dbd64f",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/strike-witches-ova-dbd64f/6LjdyduT7aDNysyuRHRJVA.jpg",
-=======
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "title": "Ударні відьми",
     "romaji": "Strike Witches OVA",
     "synonyms": [],
+    "hikkaSynonyms": [],
     "type": "Аніме",
     "format": "ОВА",
     "year": "2007",
-<<<<<<< HEAD
     "scoreMAL": 6.28,
     "scoredbyMAL": 12004,
-=======
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3200-udarn-vdmi-strike-witches.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -411,7 +267,6 @@
     "id": "192d30fa-35d0-80d9-8d26-f01451e69165",
     "last_edited": "2025-02-06T14:15:00.000Z",
     "hikka_url": "https://hikka.io/anime/lingerie-senshi-papillon-rose-edca5e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/lingerie-senshi-papillon-rose-edca5e/XToQjx3wm0MoVAVd_Ss3HA.jpg",
     "title": "Хтивий метелик: Воїн у спідньому",
     "romaji": "Lingerie Senshi Papillon Rose",
@@ -424,14 +279,6 @@
     "year": "2003",
     "scoreMAL": 4.6,
     "scoredbyMAL": 4020,
-=======
-    "title": "Хтивий метелик: Воїн у спідньому",
-    "romaji": "Lingerie Senshi Papillon Rose",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2003",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3679-lingerie-senshi-papillon-rose.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -449,21 +296,16 @@
     "id": "192d30fa-35d0-80b4-824d-cf73d9cb91ab",
     "last_edited": "2025-02-06T10:54:00.000Z",
     "hikka_url": "https://hikka.io/anime/promare-galo-hen-405fdc",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/promare-galo-hen-405fdc/hU8UenkQMBVokSS4p6JK-w.jpg",
-=======
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "title": "Промари: Ґало",
     "romaji": "Promare: Galo-hen",
     "synonyms": [],
+    "hikkaSynonyms": [],
     "type": "Аніме",
     "format": "ОМА",
     "year": "2019",
-<<<<<<< HEAD
     "scoreMAL": 6.88,
     "scoredbyMAL": 15084,
-=======
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4054-promare.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -485,7 +327,6 @@
     "id": "192d30fa-35d0-8092-9a31-d96d22fc8486",
     "last_edited": "2025-02-06T10:55:00.000Z",
     "hikka_url": "https://hikka.io/anime/promare-lio-hen-5f4a71",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/promare-lio-hen-5f4a71/cR3ogow09l4dMdCDnLw5EQ.jpg",
     "title": "Промари: Ліо",
     "romaji": "Promare: Lio-hen",
@@ -496,14 +337,6 @@
     "year": "2019",
     "scoreMAL": 7.02,
     "scoredbyMAL": 15200,
-=======
-    "title": "Промари: Ліо",
-    "romaji": "Promare: Lio-hen",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОМА",
-    "year": "2019",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4054-promare.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -525,7 +358,6 @@
     "id": "192d30fa-35d0-80e0-a583-fcfd19766c57",
     "last_edited": "2025-02-06T09:44:00.000Z",
     "hikka_url": "https://hikka.io/anime/hate-no-issen-episode-zero-e07a1c",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/hate-no-issen-episode-zero-e07a1c/y8O0h3EiduaOqDk7psp1Fw.jpg",
     "title": "Початок занепаду",
     "romaji": "Hate no Issen: Episode Zero",
@@ -536,14 +368,6 @@
     "year": "2022",
     "scoreMAL": 0,
     "scoredbyMAL": 0,
-=======
-    "title": "Початок занепаду",
-    "romaji": "Hate no Issen: Episode Zero",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОМА",
-    "year": "2022",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -561,7 +385,6 @@
     "id": "192d30fa-35d0-80f7-9105-fa7b7cbbdaea",
     "last_edited": "2025-02-06T08:19:00.000Z",
     "hikka_url": "https://hikka.io/anime/isekai-no-seikishi-monogatari-3936a4",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/isekai-no-seikishi-monogatari-3936a4/Z2F8CILXefPy_iZVuiy7hg.jpg",
     "title": "Інший світ - легенда Святих Лицарів",
     "romaji": "Isekai no Seikishi Monogatari",
@@ -576,14 +399,6 @@
     "year": "2009",
     "scoreMAL": 7.72,
     "scoredbyMAL": 85224,
-=======
-    "title": "Інший світ - легенда Святих Лицарів",
-    "romaji": "Isekai no Seikishi Monogatari",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2009",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5121-storyi-pro-svyatogo-mehamaystra-z-nshogo-svtu.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -604,7 +419,6 @@
     "id": "191d30fa-35d0-80da-8073-f4f236e5e371",
     "last_edited": "2025-02-05T09:57:00.000Z",
     "hikka_url": "https://hikka.io/anime/tp-bon-0f4d27",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/tp-bon-0f4d27/F4YUDqRXMWz8wNYfqkfuTA.jpg",
     "title": "Патруль часу Бон",
     "romaji": "T.P BON",
@@ -620,14 +434,6 @@
     "year": "2024",
     "scoreMAL": 6.92,
     "scoredbyMAL": 2268,
-=======
-    "title": "Патруль часу Бон",
-    "romaji": "T.P BON",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОМА",
-    "year": "2024",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4903-patrul-chasu-bona.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -645,7 +451,6 @@
     "id": "191d30fa-35d0-8066-8559-ca1af1bc4913",
     "last_edited": "2025-02-06T08:27:00.000Z",
     "hikka_url": "https://hikka.io/anime/one-punch-man-specials-cb16c4",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/one-punch-man-specials-cb16c4/nS10AeUDclp2iTf44FEMAQ.jpg",
     "title": "Ванпанчмен Спешли",
     "romaji": "One Punch Man Specials",
@@ -676,32 +481,6 @@
         "id": "174d30fa-35d0-8170-82bc-de718fdd7f15"
       }
     ],
-=======
-    "title": "Ванпанчмен Спешли",
-    "romaji": "One Punch Man Specials",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2015",
-    "Анітюб": "https://anitube.in.ua/2255-vanpanchmen.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "6",
-    "releases": [
-      {
-        "id": "191d30fa-35d0-8030-b25c-c0ccafa527fc"
-      },
-      {
-        "id": "191d30fa-35d0-8001-9b1c-ee834aac7495"
-      },
-      {
-        "id": "174d30fa-35d0-812d-8594-c7ad114893b6"
-      },
-      {
-        "id": "174d30fa-35d0-8170-82bc-de718fdd7f15"
-      }
-    ],
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "relations": [
       {
         "id": "174d30fa-35d0-816c-8e2c-cca249e4c2f0"
@@ -714,7 +493,6 @@
     "id": "191d30fa-35d0-80b4-9c61-c0a74636c0ee",
     "last_edited": "2025-02-05T08:16:00.000Z",
     "hikka_url": "https://hikka.io/anime/seitokai-yakuindomo-movie-2-e0abfa",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/seitokai-yakuindomo-movie-2-e0abfa/or2dTTR7nlQVnKzPGu9ADw.jpg",
     "title": "Члени Учнівської Ради: Кіно 2",
     "romaji": "Seitokai Yakuindomo Movie 2",
@@ -727,14 +505,6 @@
     "year": "2021",
     "scoreMAL": 7.77,
     "scoredbyMAL": 10454,
-=======
-    "title": "Члени Учнівської Ради: Кіно 2",
-    "romaji": "Seitokai Yakuindomo Movie 2",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5127-chleni-uchnvskoyi-radi-kno-2.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -752,7 +522,6 @@
     "id": "191d30fa-35d0-80e0-b2a6-cc37b383c9b4",
     "last_edited": "2025-02-05T08:13:00.000Z",
     "hikka_url": "https://hikka.io/anime/re-kan-93e8d9",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/re-kan-93e8d9/Dk2lDfrn2EROdkF3fMcuxw.jpg",
     "title": "Ре-Кан!",
     "romaji": "Re-Kan!",
@@ -765,14 +534,6 @@
     "year": "2015",
     "scoreMAL": 6.76,
     "scoredbyMAL": 24913,
-=======
-    "title": "Ре-Кан!",
-    "romaji": "Re-Kan!",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2015",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5113-re-kan.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -790,7 +551,6 @@
     "id": "191d30fa-35d0-8038-aaff-ee3b215e77f7",
     "last_edited": "2025-02-05T07:37:00.000Z",
     "hikka_url": "https://hikka.io/anime/seitokai-yakuindomo-movie-e731f8",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/seitokai-yakuindomo-movie-e731f8/y80nYuK9bZT2FBkueMJ1KA.jpg",
     "title": "Члени Учнівської Ради: Кіно",
     "romaji": "Seitokai Yakuindomo Movie",
@@ -803,14 +563,6 @@
     "year": "2017",
     "scoreMAL": 7.82,
     "scoredbyMAL": 26187,
-=======
-    "title": "Члени Учнівської Ради: Кіно",
-    "romaji": "Seitokai Yakuindomo Movie",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2017",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5076-chleni-uchnvskoyi-radi-kno.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -828,7 +580,6 @@
     "id": "191d30fa-35d0-8021-b916-fcb8c7e1978d",
     "last_edited": "2025-02-05T07:31:00.000Z",
     "hikka_url": "https://hikka.io/anime/seitokai-yakuindomo-ova-952bea",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/seitokai-yakuindomo-ova-952bea/w4td7_bDf71cRWMLht1iKQ.jpg",
     "title": "Члени Учнівської Ради 2 ОВА",
     "romaji": "Seitokai Yakuindomo* OVA",
@@ -845,14 +596,6 @@
     "year": "2014",
     "scoreMAL": 7.84,
     "scoredbyMAL": 34103,
-=======
-    "title": "Члени Учнівської Ради 2 ОВА",
-    "romaji": "Seitokai Yakuindomo* OVA",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2014",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -870,7 +613,6 @@
     "id": "191d30fa-35d0-80b2-8295-cd5d09fe8751",
     "last_edited": "2025-02-05T07:24:00.000Z",
     "hikka_url": "https://hikka.io/anime/tanoshii-muumin-ikka-a8e70e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/tanoshii-muumin-ikka-a8e70e/RQF-epDkjqk6TybwgfLULA.jpg",
     "title": "Щасливе сімейство Мумі-тролів",
     "romaji": "Tanoshii Muumin Ikka",
@@ -887,14 +629,6 @@
     "year": "1990",
     "scoreMAL": 8.27,
     "scoredbyMAL": 12964,
-=======
-    "title": "Щасливе сімейство Мумі-тролів",
-    "romaji": "Tanoshii Muumin Ikka",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "1990",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4978-schasliva-rodina-mum-trolv.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -912,7 +646,6 @@
     "id": "190d30fa-35d0-8076-8baf-efc026093450",
     "last_edited": "2025-02-04T16:44:00.000Z",
     "hikka_url": "https://hikka.io/anime/seitokai-yakuindomo-638264",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/seitokai-yakuindomo-638264/kiC5uT0AsHKX4PhmfLudww.jpg",
     "title": "Члени Учнівської ради 2",
     "romaji": "Seitokai Yakuindomo*",
@@ -926,14 +659,6 @@
     "year": "2014",
     "scoreMAL": 7.68,
     "scoredbyMAL": 127047,
-=======
-    "title": "Члени Учнівської ради 2",
-    "romaji": "Seitokai Yakuindomo*",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2014",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4835-chleni-uchnvskoyi-radi.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -951,7 +676,6 @@
     "id": "190d30fa-35d0-80eb-9dd1-cac2f7088942",
     "last_edited": "2025-02-04T16:00:00.000Z",
     "hikka_url": "https://hikka.io/anime/seitokai-yakuindomo-ova-aa8b6b",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/seitokai-yakuindomo-ova-aa8b6b/trq6VbtjUsL6qcdUVKAGrQ.jpg",
     "title": "Члени Учнівської ради OVA",
     "romaji": "Seitokai Yakuindomo OVA",
@@ -968,14 +692,6 @@
     "year": "2011",
     "scoreMAL": 7.75,
     "scoredbyMAL": 69753,
-=======
-    "title": "Члени Учнівської ради OVA",
-    "romaji": "Seitokai Yakuindomo OVA",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2011",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -993,7 +709,6 @@
     "id": "190d30fa-35d0-8085-8736-f81a35ce1406",
     "last_edited": "2025-02-04T15:54:00.000Z",
     "hikka_url": "https://hikka.io/anime/oban-star-racers-4aeb22",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/oban-star-racers-4aeb22/fXyySuq2N6CtvcGIP41Ptw.jpg",
     "title": "Обан: Зоряні Гонки",
     "romaji": "Oban Star-Racers",
@@ -1006,14 +721,6 @@
     "year": "2006",
     "scoreMAL": 7.5,
     "scoredbyMAL": 25377,
-=======
-    "title": "Обан: Зоряні Гонки",
-    "romaji": "Oban Star-Racers",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2006",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4715-oban-zoryan-gonki.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1031,7 +738,6 @@
     "id": "190d30fa-35d0-80d3-986b-c04b87baecbc",
     "last_edited": "2025-02-04T15:39:00.000Z",
     "hikka_url": "https://hikka.io/anime/shirobako-movie-ede422",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/shirobako-movie-ede422/XZ_fxsDV8we6HBLo8tD3pw.jpg",
     "title": "Біла Коробка: Кіно",
     "romaji": "Shirobako Movie",
@@ -1044,14 +750,6 @@
     "year": "2020",
     "scoreMAL": 7.65,
     "scoredbyMAL": 15022,
-=======
-    "title": "Біла Коробка: Кіно",
-    "romaji": "Shirobako Movie",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2020",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4566-shirobako-movie.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1069,7 +767,6 @@
     "id": "190d30fa-35d0-803a-841c-eb6b8df75fbf",
     "last_edited": "2025-02-04T15:36:00.000Z",
     "hikka_url": "https://hikka.io/anime/shirobako-specials-e5658e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/shirobako-specials-e5658e/dz3yeeuaD93bHoR-KQp0hQ.jpg",
     "title": "Біла Коробка Спецвипуск",
     "romaji": "Shirobako Specials",
@@ -1080,14 +777,6 @@
     "year": "2015",
     "scoreMAL": 6.83,
     "scoredbyMAL": 12404,
-=======
-    "title": "Біла Коробка Спецвипуск",
-    "romaji": "Shirobako Specials",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2015",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4553-shirobako-specials.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1105,7 +794,6 @@
     "id": "190d30fa-35d0-80c3-810a-e3bfd68e1124",
     "last_edited": "2025-02-04T15:31:00.000Z",
     "hikka_url": "https://hikka.io/anime/soratobu-yuureisen-6daac1",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/soratobu-yuureisen-6daac1/mj24S3ktuUFhaUiYXepHbA.jpg",
     "title": "Летючий корабель-привид",
     "romaji": "Soratobu Yuureisen",
@@ -1120,14 +808,6 @@
     "year": "1969",
     "scoreMAL": 6.54,
     "scoredbyMAL": 3449,
-=======
-    "title": "Летючий корабель-привид",
-    "romaji": "Soratobu Yuureisen",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "1969",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4460-soratobu-yuureisen.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1148,7 +828,6 @@
     "id": "190d30fa-35d0-80ad-9708-ea62d6b1a8f7",
     "last_edited": "2025-02-04T14:55:00.000Z",
     "hikka_url": "https://hikka.io/anime/eiyuu-ou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi-3b83b0",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/eiyuu-ou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi-3b83b0/wqbxDhNn7KhaMwXdujp4hg.jpg",
     "title": "Переродження в майстриню меча з короля героя",
     "romaji": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀",
@@ -1159,14 +838,6 @@
     "year": "2023",
     "scoreMAL": 6.56,
     "scoredbyMAL": 72499,
-=======
-    "title": "Переродження в майстриню меча з короля героя",
-    "romaji": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2023",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4191-eiyuuou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1187,7 +858,6 @@
     "id": "190d30fa-35d0-806a-bf1a-ca89c2f8a916",
     "last_edited": "2025-02-04T14:46:00.000Z",
     "hikka_url": "https://hikka.io/anime/inari-konkon-koi-iroha-43a3b4",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/inari-konkon-koi-iroha-43a3b4/3DojJN7LAejEw3m3svZt1g.jpg",
     "title": "Інарі, лисички та азбука кохання",
     "romaji": "Inari, Konkon, Koi Iroha.",
@@ -1203,14 +873,6 @@
     "year": "2014",
     "scoreMAL": 7.19,
     "scoredbyMAL": 66378,
-=======
-    "title": "Інарі, лисички та азбука кохання",
-    "romaji": "Inari, Konkon, Koi Iroha.",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2014",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3905-nar-kon-kon-azbuka-kohannya.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1228,7 +890,6 @@
     "id": "190d30fa-35d0-806e-8d95-d89b4e6aa40c",
     "last_edited": "2025-02-04T13:22:00.000Z",
     "hikka_url": "https://hikka.io/anime/net-juu-no-susume-special-49b9ed",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/net-juu-no-susume-special-49b9ed/zZ8DCDxKhu3cPuyD_YmyxQ.jpg",
     "title": "Рекомендації для чудового життя онлайн",
     "romaji": "Net-juu no Susume Special",
@@ -1245,14 +906,6 @@
     "year": "2017",
     "scoreMAL": 7.34,
     "scoredbyMAL": 69420,
-=======
-    "title": "Рекомендації для чудового життя онлайн",
-    "romaji": "Net-juu no Susume Special",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2017",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3068-rekomendacyi-dlya-chudovogo-zhittya-onlayn-net-juu-no-susume.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1273,7 +926,6 @@
     "id": "190d30fa-35d0-80f5-8d4a-e52e95e6c797",
     "last_edited": "2025-02-04T13:07:00.000Z",
     "hikka_url": "https://hikka.io/anime/hakumei-to-mikochi-neji-to-bed-to-irori-to-bakuchi-865261",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/hakumei-to-mikochi-neji-to-bed-to-irori-to-bakuchi-865261/aT45JBnvZF83JUXIVJEEtw.jpg",
     "title": "Хакумей і Мікочі Спешл",
     "romaji": "Hakumei to Mikochi: Neji to Bed to Irori to Bakuchi",
@@ -1287,14 +939,6 @@
     "year": "2018",
     "scoreMAL": 7.56,
     "scoredbyMAL": 3911,
-=======
-    "title": "Хакумей і Мікочі Спешл",
-    "romaji": "Hakumei to Mikochi: Neji to Bed to Irori to Bakuchi",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2018",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3085-hakuymey-mkoch-hakumei-to-mikochi.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1316,7 +960,6 @@
     "id": "190d30fa-35d0-8029-9449-ed7c4e510c62",
     "last_edited": "2025-02-04T12:33:00.000Z",
     "hikka_url": "https://hikka.io/anime/hachimitsu-to-clover-ii-fa4de1",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/hachimitsu-to-clover-ii-fa4de1/HTZILWi1_Cvc8bjrsvm4ig.jpg",
     "title": "Мед і конюшина 2",
     "romaji": "Hachimitsu to Clover II",
@@ -1331,14 +974,6 @@
     "year": "2006",
     "scoreMAL": 8.18,
     "scoredbyMAL": 55421,
-=======
-    "title": "Мед і конюшина 2",
-    "romaji": "Hachimitsu to Clover II",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2006",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5199-med-konyushina-2.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1356,7 +991,6 @@
     "id": "190d30fa-35d0-80b1-ba23-d9dd84abe0eb",
     "last_edited": "2025-02-04T12:25:00.000Z",
     "hikka_url": "https://hikka.io/anime/ano-natsu-de-matteru-e1c0ea",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/ano-natsu-de-matteru-e1c0ea/6QWQRRsSWc1Npx6tP5xAVQ.jpg",
     "title": "Чекаємо на тебе влітку",
     "romaji": "Ano Natsu de Matteru",
@@ -1367,14 +1001,6 @@
     "year": "2012",
     "scoreMAL": 7.4,
     "scoredbyMAL": 183764,
-=======
-    "title": "Чекаємо на тебе влітку",
-    "romaji": "Ano Natsu de Matteru",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2012",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/2161-chekayemo-na-tebe-vltku-ano-natsu-de-matteru.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1392,7 +1018,6 @@
     "id": "190d30fa-35d0-8095-9f4d-e3f89a46abd5",
     "last_edited": "2025-02-04T12:21:00.000Z",
     "hikka_url": "https://hikka.io/anime/vampire-hunter-d-160184",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/vampire-hunter-d-160184/z9lcZlClwIh8X9pC-mbBAg.jpg",
     "title": "Мисливець на вампірів Ді",
     "romaji": "Vampire Hunter D",
@@ -1403,14 +1028,6 @@
     "year": "1985",
     "scoreMAL": 6.98,
     "scoredbyMAL": 49520,
-=======
-    "title": "Мисливець на вампірів Ді",
-    "romaji": "Vampire Hunter D",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "1985",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5187-mislivec-na-vamprv-d.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1435,7 +1052,6 @@
     "id": "190d30fa-35d0-80b9-acfc-fdb317bdde1a",
     "last_edited": "2025-02-04T11:52:00.000Z",
     "hikka_url": "https://hikka.io/anime/aria-the-natural-292390",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/aria-the-natural-292390/w99PR5bZnNkCDpGDKyQoWQ.jpg",
     "title": "Арія 2: Природа",
     "romaji": "Aria the Natural",
@@ -1448,14 +1064,6 @@
     "year": "2006",
     "scoreMAL": 8.16,
     "scoredbyMAL": 30914,
-=======
-    "title": "Арія 2: Природа",
-    "romaji": "Aria the Natural",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2006",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5123-arya-2-sezon.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1476,7 +1084,6 @@
     "id": "190d30fa-35d0-80f9-965d-cffc5e71d5af",
     "last_edited": "2025-02-04T11:31:00.000Z",
     "hikka_url": "https://hikka.io/anime/yuru-camp-season-3-specials-71001f",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/yuru-camp-season-3-specials-71001f/XtfMXuT8fFLWDf2kFdUqMQ.jpg",
     "title": "Дівчачий табір△ - 3 сезон Спешли",
     "romaji": "Yuru Camp△ Season 3 Specials",
@@ -1489,14 +1096,6 @@
     "year": "2024",
     "scoreMAL": 7.52,
     "scoredbyMAL": 3300,
-=======
-    "title": "Дівчачий табір△ - 3 сезон Спешли",
-    "romaji": "Yuru Camp△ Season 3 Specials",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2024",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -1520,7 +1119,6 @@
     "id": "190d30fa-35d0-80e7-861b-ce96dbc6dc86",
     "last_edited": "2025-02-04T11:25:00.000Z",
     "hikka_url": "https://hikka.io/anime/hachimitsu-to-clover-specials-7f67cf",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/hachimitsu-to-clover-specials-7f67cf/1Q71qD01HqrL0uDn24Pi9Q.jpg",
     "title": "Мед і конюшина Спешли",
     "romaji": "Hachimitsu to Clover Specials",
@@ -1533,14 +1131,6 @@
     "year": "2005",
     "scoreMAL": 7.64,
     "scoredbyMAL": 16470,
-=======
-    "title": "Мед і конюшина Спешли",
-    "romaji": "Hachimitsu to Clover Specials",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2005",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -1558,7 +1148,6 @@
     "id": "190d30fa-35d0-80d3-bf76-e26382453b21",
     "last_edited": "2025-02-04T11:20:00.000Z",
     "hikka_url": "https://hikka.io/anime/umayon-249023",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/umayon-249023/nt4d-cfJKGz9pikipBIMRA.jpg",
     "title": "Кобилички. Йонкома",
     "romaji": "Umayon",
@@ -1571,14 +1160,6 @@
     "year": "2020",
     "scoreMAL": 6.36,
     "scoredbyMAL": 7879,
-=======
-    "title": "Кобилички. Йонкома",
-    "romaji": "Umayon",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2020",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3770-umayon.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1596,7 +1177,6 @@
     "id": "190d30fa-35d0-804c-b72c-e0f9d8a39e08",
     "last_edited": "2025-02-04T11:06:00.000Z",
     "hikka_url": "https://hikka.io/anime/senki-zesshou-symphogear-dd6bc1",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/senki-zesshou-symphogear-dd6bc1/IZ_7aeR-hiUCcdIk_mwAIQ.jpg",
     "title": "Спів войовничих принцес: Мехасимфонія",
     "romaji": "Senki Zesshou Symphogear",
@@ -1610,14 +1190,6 @@
     "year": "2012",
     "scoreMAL": 7.04,
     "scoredbyMAL": 46357,
-=======
-    "title": "Спів войовничих принцес: Мехасимфонія",
-    "romaji": "Senki Zesshou Symphogear",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2012",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5110-simfor.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1635,7 +1207,6 @@
     "id": "190d30fa-35d0-802b-afb0-f87d46c2801d",
     "last_edited": "2025-02-04T10:50:00.000Z",
     "hikka_url": "https://hikka.io/anime/final-fantasy-unlimited-404afa",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/final-fantasy-unlimited-404afa/rv1xpazob7FqZ7uGXenm1A.jpg",
     "title": "Остання фантазія: Непереможні",
     "romaji": "Final Fantasy: Unlimited",
@@ -1646,14 +1217,6 @@
     "year": "2001",
     "scoreMAL": 6.17,
     "scoredbyMAL": 17063,
-=======
-    "title": "Остання фантазія: Непереможні",
-    "romaji": "Final Fantasy: Unlimited",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2001",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5101-ostannya-fantazya-neperemozhn.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1678,7 +1241,6 @@
     "id": "190d30fa-35d0-8012-93e3-ef8f3fbba912",
     "last_edited": "2025-02-04T09:52:00.000Z",
     "hikka_url": "https://hikka.io/anime/black-cat-tv-afacad",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/black-cat-tv-afacad/jNApXhQ4HzMmeFf26glevw.jpg",
     "title": "Чорний кіт",
     "romaji": "Black Cat (TV)",
@@ -1689,14 +1251,6 @@
     "year": "2005",
     "scoreMAL": 7.32,
     "scoredbyMAL": 131118,
-=======
-    "title": "Чорний кіт",
-    "romaji": "Black Cat (TV)",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2005",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4952-chorniy-kt.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1714,7 +1268,6 @@
     "id": "190d30fa-35d0-8004-a284-fec35e819378",
     "last_edited": "2025-02-04T09:44:00.000Z",
     "hikka_url": "https://hikka.io/anime/shijou-saikyou-no-deshi-kenichi-d457e8",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/shijou-saikyou-no-deshi-kenichi-d457e8/JwAKAX0R_Gb1TZhVdusNpg.jpg",
     "title": "Найсильніший в історії учень Кенічі ",
     "romaji": "Shijou Saikyou no Deshi Kenichi",
@@ -1727,14 +1280,6 @@
     "year": "2006",
     "scoreMAL": 8.04,
     "scoredbyMAL": 161266,
-=======
-    "title": "Найсильніший в історії учень Кенічі ",
-    "romaji": "Shijou Saikyou no Deshi Kenichi",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2006",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4916-naysilnshiy-v-storyi-uchen-kench.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1752,7 +1297,6 @@
     "id": "190d30fa-35d0-8099-9a38-dfea6cbbc02e",
     "last_edited": "2025-02-04T09:16:00.000Z",
     "hikka_url": "https://hikka.io/anime/karakuri-circus-26fc0b",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/karakuri-circus-26fc0b/xM_d2nw56BsQi20-hFXzyg.jpg",
     "title": "Цирк маріонеток",
     "romaji": "Karakuri Circus",
@@ -1763,14 +1307,6 @@
     "year": "2018",
     "scoreMAL": 7.16,
     "scoredbyMAL": 39121,
-=======
-    "title": "Цирк маріонеток",
-    "romaji": "Karakuri Circus",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2018",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4798-cirk-maronetok.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1788,7 +1324,6 @@
     "id": "190d30fa-35d0-808e-94bf-dfb6c9ba154f",
     "last_edited": "2025-02-04T08:59:00.000Z",
     "hikka_url": "https://hikka.io/anime/hacksign-f5caeb",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/hacksign-f5caeb/f_9ix_fxyl86VrmkHkSIag.jpg",
     "title": ".хак//Сигнал",
     "romaji": ".hack//Sign",
@@ -1799,14 +1334,6 @@
     "year": "2002",
     "scoreMAL": 6.94,
     "scoredbyMAL": 85827,
-=======
-    "title": ".хак//Сигнал",
-    "romaji": ".hack//Sign",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2002",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4946-zlam-znak.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1824,7 +1351,6 @@
     "id": "190d30fa-35d0-80e0-a211-e463a4b03d6d",
     "last_edited": "2025-02-04T08:53:00.000Z",
     "hikka_url": "https://hikka.io/anime/dai-mahou-touge-e4cf44",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/dai-mahou-touge-e4cf44/YuTpl7JwTWnlHveVNEkxqw.jpg",
     "title": "Чарівна відьму Пуні-Чан",
     "romaji": "Dai Mahou Touge",
@@ -1837,14 +1363,6 @@
     "year": "2006",
     "scoreMAL": 6.92,
     "scoredbyMAL": 13427,
-=======
-    "title": "Чарівна відьму Пуні-Чан",
-    "romaji": "Dai Mahou Touge",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2006",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4942-charvna-vdmu-pun-chan.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1885,7 +1403,6 @@
     "id": "190d30fa-35d0-8031-89f6-e36056701db2",
     "last_edited": "2025-02-04T08:48:00.000Z",
     "hikka_url": "https://hikka.io/anime/aishang-ta-de-liyou-extra-28d33e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/aishang-ta-de-liyou-extra-28d33e/fzoJ4EK9LKgSq11eN9A_eg.jpg",
     "title": "Дівчина знизу: Додатковий випуск",
     "romaji": "Aishang Ta de Liyou Extra",
@@ -1900,14 +1417,6 @@
     "year": "2024",
     "scoreMAL": 7.93,
     "scoredbyMAL": 2546,
-=======
-    "title": "Дівчина знизу: Додатковий випуск",
-    "romaji": "Aishang Ta de Liyou Extra",
-    "synonyms": [],
-    "type": "Китайське",
-    "format": "ОМА",
-    "year": "2024",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -1925,7 +1434,6 @@
     "id": "190d30fa-35d0-80f6-a3e6-e4c67112afde",
     "last_edited": "2025-02-04T08:23:00.000Z",
     "hikka_url": "https://hikka.io/anime/li-shi-zhentan-shiwusuo-a-day-in-lungmen-dee3e4",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/li-shi-zhentan-shiwusuo-a-day-in-lungmen-dee3e4/79d5A1BCpHtrGkUq3TVlMA.jpg",
     "title": "Детективне агентство Лі",
     "romaji": "Li Shi Zhentan Shiwusuo: A Day in Lungmen",
@@ -1939,14 +1447,6 @@
     "year": "2022",
     "scoreMAL": 6.55,
     "scoredbyMAL": 1559,
-=======
-    "title": "Детективне агентство Лі",
-    "romaji": "Li Shi Zhentan Shiwusuo: A Day in Lungmen",
-    "synonyms": [],
-    "type": "Китайське",
-    "format": "ОМА",
-    "year": "2022",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4322-detektivne-agentstvo-l.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -1964,7 +1464,6 @@
     "id": "18fd30fa-35d0-8012-ae8b-ce6619330ab5",
     "last_edited": "2025-02-03T17:51:00.000Z",
     "hikka_url": "https://hikka.io/anime/wangan-midnight-240088",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/wangan-midnight-240088/fnGBqyUkSmay-2z6gXsD-Q.jpg",
     "title": "Ванґан Міднайт",
     "romaji": "Wangan Midnight",
@@ -1975,14 +1474,6 @@
     "year": "2007",
     "scoreMAL": 7.48,
     "scoredbyMAL": 18200,
-=======
-    "title": "Ванґан Міднайт",
-    "romaji": "Wangan Midnight",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2007",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4080-wangan-midnight.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2003,7 +1494,6 @@
     "id": "18fd30fa-35d0-8062-8680-e32f7a0dbee0",
     "last_edited": "2025-02-03T17:45:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-saishuushou-part-3-specials-80c27a",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-saishuushou-part-3-specials-80c27a/x7Pzx5-6lHbDFNb_aZjdXg.jpg",
     "title": "Дівчата і танки: Битва за дайкон! ",
     "romaji": "Girls & Panzer: Saishuushou Part 3 Specials",
@@ -2019,14 +1509,6 @@
     "year": "2021",
     "scoreMAL": 7.23,
     "scoredbyMAL": 2429,
-=======
-    "title": "Дівчата і танки: Битва за дайкон! ",
-    "romaji": "Girls & Panzer: Saishuushou Part 3 Specials",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4633-girls-panzer-saishuushou-part-3-specials.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2048,7 +1530,6 @@
     "id": "18fd30fa-35d0-8000-bccc-e2bea1902ac6",
     "last_edited": "2025-02-03T17:43:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-saishuushou-part-3-419ba0",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-saishuushou-part-3-419ba0/DCBkLkcFEXQfeeQ1HjZlQA.jpg",
     "title": "Дівчата і танки: Фінал - 3 частина",
     "romaji": "Girls & Panzer: Saishuushou Part 3",
@@ -2059,14 +1540,6 @@
     "year": "2021",
     "scoreMAL": 8.16,
     "scoredbyMAL": 13771,
-=======
-    "title": "Дівчата і танки: Фінал - 3 частина",
-    "romaji": "Girls & Panzer: Saishuushou Part 3",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4581-dvchata-tanki-fnal-chastina-3.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2088,7 +1561,6 @@
     "id": "18fd30fa-35d0-80dd-af52-f25e552387c7",
     "last_edited": "2025-02-03T17:36:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-saishuushou-part-2-specials-607a15",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-saishuushou-part-2-specials-607a15/VCaz6Ncn58DnGRPYByLcvA.jpg",
     "title": "Дівчата і танки",
     "romaji": "Girls & Panzer: Saishuushou Part 2 Specials",
@@ -2105,14 +1577,6 @@
     "year": "2020",
     "scoreMAL": 7.28,
     "scoredbyMAL": 3650,
-=======
-    "title": "Дівчата і танки",
-    "romaji": "Girls & Panzer: Saishuushou Part 2 Specials",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2020",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4575-dvchata-tanki-vyna-tayak.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2134,7 +1598,6 @@
     "id": "18fd30fa-35d0-805b-a564-c1c8aaa92454",
     "last_edited": "2025-02-03T17:35:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-saishuushou-part-2-e7eaf5",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-saishuushou-part-2-e7eaf5/Z8jkAS00QFfdMWCeU_M6RA.jpg",
     "title": "Дівчата і танки: Фінал - 2 частина",
     "romaji": "Girls & Panzer: Saishuushou Part 2",
@@ -2145,14 +1608,6 @@
     "year": "2019",
     "scoreMAL": 8.07,
     "scoredbyMAL": 19932,
-=======
-    "title": "Дівчата і танки: Фінал - 2 частина",
-    "romaji": "Girls & Panzer: Saishuushou Part 2",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2019",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4578-dvchata-tanki-fnal-chastina-2.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2174,7 +1629,6 @@
     "id": "18fd30fa-35d0-800d-9c8c-f786d1da5539",
     "last_edited": "2025-02-03T17:34:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-movie-specials-77ed51",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-movie-specials-77ed51/pPwfibqQw8WzgaryG_XdzQ.jpg",
     "title": "Дівчата і танки",
     "romaji": "Girls & Panzer Movie Specials",
@@ -2188,14 +1642,6 @@
     "year": "2016",
     "scoreMAL": 7.32,
     "scoredbyMAL": 11906,
-=======
-    "title": "Дівчата і танки",
-    "romaji": "Girls & Panzer Movie Specials",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2016",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4574-dvchata-tanki-bitva-za-arsu.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2217,7 +1663,6 @@
     "id": "18fd30fa-35d0-80a3-a298-ca51a5f27381",
     "last_edited": "2025-02-03T17:35:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-saishuushou-part-1-95ddb1",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-saishuushou-part-1-95ddb1/mXqQIsUFd2Dsjwb1BbFCeg.jpg",
     "title": "Дівчата і танки: Фінал",
     "romaji": "Girls & Panzer: Saishuushou Part 1",
@@ -2228,14 +1673,6 @@
     "year": "2017",
     "scoreMAL": 7.95,
     "scoredbyMAL": 25425,
-=======
-    "title": "Дівчата і танки: Фінал",
-    "romaji": "Girls & Panzer: Saishuushou Part 1",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2017",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4577-dvchata-tanki-fnal.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2257,7 +1694,6 @@
     "id": "18fd30fa-35d0-8030-af00-fc625601bd32",
     "last_edited": "2025-02-03T17:29:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-movie-d2f3d6",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-movie-d2f3d6/9bXKko9lSW5UOmS8RWOMmA.jpg",
     "title": "Дівчата і танки: Фільм",
     "romaji": "Girls & Panzer Movie",
@@ -2270,14 +1706,6 @@
     "year": "2015",
     "scoreMAL": 8.18,
     "scoredbyMAL": 60837,
-=======
-    "title": "Дівчата і танки: Фільм",
-    "romaji": "Girls & Panzer Movie",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2015",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4576-dvchata-tanki-flm.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2299,7 +1727,6 @@
     "id": "18fd30fa-35d0-80c8-a766-e17c6534dab2",
     "last_edited": "2025-02-03T17:25:00.000Z",
     "hikka_url": "https://hikka.io/anime/cowboy-bebop-ein-no-natsuyasumi-53b839",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/cowboy-bebop-ein-no-natsuyasumi-53b839/U_GhXuh7Gj7UEsCygu4IcQ.jpg",
     "title": "Ковбой Бібоп: Літня відпустка Ейна",
     "romaji": "Cowboy Bebop: Ein no Natsuyasumi",
@@ -2313,14 +1740,6 @@
     "year": "2012",
     "scoreMAL": 6.34,
     "scoredbyMAL": 12866,
-=======
-    "title": "Ковбой Бібоп: Літня відпустка Ейна",
-    "romaji": "Cowboy Bebop: Ein no Natsuyasumi",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2012",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -2338,7 +1757,6 @@
     "id": "18fd30fa-35d0-80ef-a636-c02311561166",
     "last_edited": "2025-02-03T17:15:00.000Z",
     "hikka_url": "https://hikka.io/anime/issho-ni-training-ofuro-bathtime-with-hinako-hiyoko-279c9d",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/issho-ni-training-ofuro-bathtime-with-hinako-hiyoko-279c9d/MdDKT_wJsd2fKpIgfvtEpw.jpg",
     "title": "Приймаємо ванну з Хінако і Хійоко",
     "romaji": "Issho ni Training Ofuro: Bathtime with Hinako & Hiyoko",
@@ -2353,14 +1771,6 @@
     "year": "2010",
     "scoreMAL": 4.78,
     "scoredbyMAL": 5646,
-=======
-    "title": "Приймаємо ванну з Хінако і Хійоко",
-    "romaji": "Issho ni Training Ofuro: Bathtime with Hinako & Hiyoko",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2010",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -2378,7 +1788,6 @@
     "id": "18fd30fa-35d0-80aa-8c73-eec3d66fc9e4",
     "last_edited": "2025-02-03T17:13:00.000Z",
     "hikka_url": "https://hikka.io/anime/issho-ni-sleeping-sleeping-with-hinako-403042",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/issho-ni-sleeping-sleeping-with-hinako-403042/wAOVLDdrNa2WWKFXzsXqug.jpg",
     "title": "Спимо разом з Хінако",
     "romaji": "Issho ni Sleeping: Sleeping with Hinako",
@@ -2392,14 +1801,6 @@
     "year": "2010",
     "scoreMAL": 4.41,
     "scoredbyMAL": 10884,
-=======
-    "title": "Спимо разом з Хінако",
-    "romaji": "Issho ni Sleeping: Sleeping with Hinako",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2010",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -2417,7 +1818,6 @@
     "id": "18fd30fa-35d0-8094-b4ea-dd8e27d74294",
     "last_edited": "2025-02-03T17:08:00.000Z",
     "hikka_url": "https://hikka.io/anime/issho-ni-training-training-with-hinako-31cf48",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/issho-ni-training-training-with-hinako-31cf48/rPhlUolB4oTl8Xr4noLkQA.jpg",
     "title": "Тренування з Хінако",
     "romaji": "Issho ni Training: Training with Hinako",
@@ -2430,14 +1830,6 @@
     "year": "2009",
     "scoreMAL": 4.72,
     "scoredbyMAL": 10933,
-=======
-    "title": "Тренування з Хінако",
-    "romaji": "Issho ni Training: Training with Hinako",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2009",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4933-anme-trenuvannya-z-hnako.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2455,7 +1847,6 @@
     "id": "18fd30fa-35d0-803e-8a41-c09f6985da46",
     "last_edited": "2025-02-03T17:07:00.000Z",
     "hikka_url": "https://hikka.io/anime/joker-game-kuroneko-yoru-no-bouken-cd8af7",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/joker-game-kuroneko-yoru-no-bouken-cd8af7/av4tYfP_GJhhJgg2HLZ8SA.jpg",
     "title": "Гра Джокера: Спецвипуски",
     "romaji": "Joker Game: Kuroneko Yoru no Bouken",
@@ -2469,14 +1860,6 @@
     "year": "2016",
     "scoreMAL": 6.68,
     "scoredbyMAL": 5646,
-=======
-    "title": "Гра Джокера: Спецвипуски",
-    "romaji": "Joker Game: Kuroneko Yoru no Bouken",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2016",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -2498,7 +1881,6 @@
     "id": "18fd30fa-35d0-80b7-8b9e-f81a9148b33c",
     "last_edited": "2025-02-03T17:01:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-specials-28af5e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-specials-28af5e/bP4HG3s0aaN_okTeqZvnJg.jpg",
     "title": "Дівчата і танки",
     "romaji": "Girls & Panzer Specials",
@@ -2511,14 +1893,6 @@
     "year": "2012",
     "scoreMAL": 7.22,
     "scoredbyMAL": 21937,
-=======
-    "title": "Дівчата і танки",
-    "romaji": "Girls & Panzer Specials",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2012",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4580-dvchata-tanki-specvipuski.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2540,7 +1914,6 @@
     "id": "18fd30fa-35d0-803d-b680-f058e7bb3a25",
     "last_edited": "2025-02-03T16:55:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-kore-ga-hontou-no-anzio-sen-desu-a6f6b4",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-kore-ga-hontou-no-anzio-sen-desu-a6f6b4/UQ3adC-OE6eDO9hQiEzwRA.jpg",
     "title": "Дівчата і танки: Справжній матч з Анціо",
     "romaji": "Girls & Panzer: Kore ga Hontou no Anzio-sen desu!",
@@ -2554,14 +1927,6 @@
     "year": "2014",
     "scoreMAL": 7.72,
     "scoredbyMAL": 28729,
-=======
-    "title": "Дівчата і танки: Справжній матч з Анціо",
-    "romaji": "Girls & Panzer: Kore ga Hontou no Anzio-sen desu!",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2014",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4579-dvchata-tanki-spravzhny-match-z-anco.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2583,7 +1948,6 @@
     "id": "18fd30fa-35d0-801f-b6d7-c5b64263fdb7",
     "last_edited": "2025-02-03T16:55:00.000Z",
     "hikka_url": "https://hikka.io/anime/girls-panzer-fushou-akiyama-yukari-no-sensha-kouza-9d1704",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/girls-panzer-fushou-akiyama-yukari-no-sensha-kouza-9d1704/E7JdwPMLvXURbBUKeMt3hQ.jpg",
     "title": "Дівчата і танки: Танковий курс Акіями Юкарі",
     "romaji": "Girls & Panzer: Fushou Akiyama Yukari no Sensha Kouza",
@@ -2597,14 +1961,6 @@
     "year": "2012",
     "scoreMAL": 7.01,
     "scoredbyMAL": 5558,
-=======
-    "title": "Дівчата і танки: Танковий курс Акіями Юкарі",
-    "romaji": "Girls & Panzer: Fushou Akiyama Yukari no Sensha Kouza",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2012",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4634-dvchata-tanki-tankoviy-kurs-akyami-yukar.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2626,7 +1982,6 @@
     "id": "18fd30fa-35d0-801e-8243-f1bcd6722d2e",
     "last_edited": "2025-02-03T14:20:00.000Z",
     "hikka_url": "https://hikka.io/anime/ore-twintail-ni-narimasu-d406fe",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/ore-twintail-ni-narimasu-d406fe/06BmbfvwQhAa3NTYPL3sqQ.jpg",
     "title": "Я буду хвостики носити!!",
     "romaji": "Ore, Twintail ni Narimasu.",
@@ -2640,14 +1995,6 @@
     "year": "2014",
     "scoreMAL": 6.42,
     "scoredbyMAL": 67885,
-=======
-    "title": "Я буду хвостики носити!!",
-    "romaji": "Ore, Twintail ni Narimasu.",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2014",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/2814-ya-budu-hvostiki-nositi-ore-twintail-ni-narimasu.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2668,7 +2015,6 @@
     "id": "18fd30fa-35d0-8058-882e-c8b8777a55f1",
     "last_edited": "2025-02-03T14:05:00.000Z",
     "hikka_url": "https://hikka.io/anime/ayakashi-japanese-classic-horror-2ee0d9",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/ayakashi-japanese-classic-horror-2ee0d9/v6oZj7tvp__3O8OUYdBDrQ.jpg",
     "title": "Аякаші: Хроніки японських жахів",
     "romaji": "Ayakashi: Japanese Classic Horror",
@@ -2681,14 +2027,6 @@
     "year": "2006",
     "scoreMAL": 7.37,
     "scoredbyMAL": 27025,
-=======
-    "title": "Аякаші: Хроніки японських жахів",
-    "romaji": "Ayakashi: Japanese Classic Horror",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2006",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -2706,7 +2044,6 @@
     "id": "18fd30fa-35d0-8090-9883-e52730a08d2d",
     "last_edited": "2025-02-03T14:01:00.000Z",
     "hikka_url": "https://hikka.io/anime/meiji-tokyo-renka-c0d13f",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/meiji-tokyo-renka-c0d13f/qFaCMEYkd5MPWAbK3yKvKg.jpg",
     "title": "Любов епохи Мейджі",
     "romaji": "Meiji Tokyo Renka",
@@ -2717,14 +2054,6 @@
     "year": "2019",
     "scoreMAL": 7.04,
     "scoredbyMAL": 22509,
-=======
-    "title": "Любов епохи Мейджі",
-    "romaji": "Meiji Tokyo Renka",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2019",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5206-lyubov-epohi-meydzh.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2742,7 +2071,6 @@
     "id": "18cd30fa-35d0-8091-b265-d3626844c2f4",
     "last_edited": "2025-01-31T08:31:00.000Z",
     "hikka_url": "https://hikka.io/anime/sorairo-utility-e17561",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/sorairo-utility-e17561/bLTGSu1JS4PEfGXUtMiTrg.jpg",
     "title": "Небесно-блакитний гібрид Спешл",
     "synonyms": [],
@@ -2754,13 +2082,6 @@
     "year": "2021",
     "scoreMAL": 6.51,
     "scoredbyMAL": 7521,
-=======
-    "title": "Небесно-блакитний гібрид Спешл",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5135-blakitne-nebo-ta-golf.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2782,7 +2103,6 @@
     "id": "18cd30fa-35d0-80eb-94a7-efacff2bcf94",
     "last_edited": "2025-01-31T08:27:00.000Z",
     "hikka_url": "https://hikka.io/anime/servant-x-service-916953",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/servant-x-service-916953/oPswSw5_TA2coiMQyr_jMw.jpg",
     "title": "Службовці та служба",
     "romaji": "Servant x Service",
@@ -2793,14 +2113,6 @@
     "year": "2013",
     "scoreMAL": 7.62,
     "scoredbyMAL": 98095,
-=======
-    "title": "Службовці та служба",
-    "romaji": "Servant x Service",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2013",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5126-sluzhbovc-ta-sluzhba.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2818,7 +2130,6 @@
     "id": "18cd30fa-35d0-806d-98ea-dfd08a54005f",
     "last_edited": "2025-01-31T08:15:00.000Z",
     "hikka_url": "https://hikka.io/anime/katekyo-hitman-reborn-71400d",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/katekyo-hitman-reborn-71400d/lw5rNQ5frR09tk5M9dxhJw.jpg",
     "title": "Репетитор-кілер Реборн!",
     "romaji": "Katekyo Hitman Reborn!",
@@ -2832,14 +2143,6 @@
     "year": "2006",
     "scoreMAL": 8.12,
     "scoredbyMAL": 264681,
-=======
-    "title": "Репетитор-кілер Реборн!",
-    "romaji": "Katekyo Hitman Reborn!",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2006",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4310-katekyo-hitman-reborn.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2857,7 +2160,6 @@
     "id": "18cd30fa-35d0-8086-9e3e-f0a7cad32f05",
     "last_edited": "2025-01-31T08:10:00.000Z",
     "hikka_url": "https://hikka.io/anime/bubuki-buranki-a488c3",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/bubuki-buranki-a488c3/10NxPN4VNJf6SsTcPbq4ww.jpg",
     "title": "Лагідні велетні галактики",
     "romaji": "Bubuki Buranki",
@@ -2868,14 +2170,6 @@
     "year": "2016",
     "scoreMAL": 6.25,
     "scoredbyMAL": 28698,
-=======
-    "title": "Лагідні велетні галактики",
-    "romaji": "Bubuki Buranki",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2016",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5078-bubuki-buranki.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2893,7 +2187,6 @@
     "id": "18cd30fa-35d0-8075-8d02-d072576b81c8",
     "last_edited": "2025-01-31T08:12:00.000Z",
     "hikka_url": "https://hikka.io/anime/zettai-bouei-leviathan-f32f25",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/zettai-bouei-leviathan-f32f25/yRw5XxuAvtWIkbOGFbVIhw.jpg",
     "title": "Левіафан: Остання оборона",
     "romaji": "Zettai Bouei Leviathan",
@@ -2906,14 +2199,6 @@
     "year": "2013",
     "scoreMAL": 6.28,
     "scoredbyMAL": 11813,
-=======
-    "title": "Левіафан: Остання оборона",
-    "romaji": "Zettai Bouei Leviathan",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2013",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5079-levafan-ostannya-oborona.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2931,7 +2216,6 @@
     "id": "18cd30fa-35d0-80a6-86e0-ca7e036399d8",
     "last_edited": "2025-01-31T08:05:00.000Z",
     "hikka_url": "https://hikka.io/anime/revisions-bf7c4a",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/revisions-bf7c4a/d3pAFTqyKfSlzYgIam65YA.jpg",
     "title": "Ревізія",
     "romaji": "Revisions",
@@ -2942,14 +2226,6 @@
     "year": "2019",
     "scoreMAL": 6.02,
     "scoredbyMAL": 20744,
-=======
-    "title": "Ревізія",
-    "romaji": "Revisions",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2019",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5065-revzya.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -2967,7 +2243,6 @@
     "id": "18cd30fa-35d0-80a9-91a9-d28d116e1b30",
     "last_edited": "2025-01-31T08:04:00.000Z",
     "hikka_url": "https://hikka.io/anime/ani-x-para-anata-no-hero-wa-dare-desu-ka-79a5c5",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/ani-x-para-anata-no-hero-wa-dare-desu-ka-79a5c5/KW4L7xqJ7aiEHRVW1klAhA.jpg",
     "title": "Ані х Пара: Хто твій герой?",
     "romaji": "Ani x Para: Anata no Hero wa Dare desu ka",
@@ -2980,14 +2255,6 @@
     "year": "2017",
     "scoreMAL": 6.51,
     "scoredbyMAL": 412,
-=======
-    "title": "Ані х Пара: Хто твій герой?",
-    "romaji": "Ani x Para: Anata no Hero wa Dare desu ka",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2017",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5064-an-h-para-hto-tvy-geroy.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3005,16 +2272,12 @@
     "id": "18cd30fa-35d0-8023-9d76-dee21707fa64",
     "last_edited": "2025-01-31T08:00:00.000Z",
     "hikka_url": "https://hikka.io/anime/schwarzesmarken-fa1280",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/schwarzesmarken-fa1280/MPEktfltdK1IGabFeegBoA.jpg",
-=======
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "title": "Швармарцмаркен",
     "romaji": "Schwarzesmarken",
     "synonyms": [
       "Чорні плями"
     ],
-<<<<<<< HEAD
     "hikkaSynonyms": [
       "Швармарцмаркен"
     ],
@@ -3023,11 +2286,6 @@
     "year": "2016",
     "scoreMAL": 6.74,
     "scoredbyMAL": 45249,
-=======
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2016",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5058-shvarmarcmarken.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3045,7 +2303,6 @@
     "id": "18cd30fa-35d0-80c6-b5fb-fbc0dcfb6d42",
     "last_edited": "2025-01-31T07:50:00.000Z",
     "hikka_url": "https://hikka.io/anime/bakugan-battle-brawlers-d7d391",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/bakugan-battle-brawlers-d7d391/hhLiiPGUbdxxmQBP8Q1bMw.jpg",
     "title": "Бакуґан",
     "romaji": "Bakugan Battle Brawlers",
@@ -3056,14 +2313,6 @@
     "year": "2007",
     "scoreMAL": 6.47,
     "scoredbyMAL": 69984,
-=======
-    "title": "Бакуґан",
-    "romaji": "Bakugan Battle Brawlers",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2007",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5056-bakuan-zapekl-byc.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3081,7 +2330,6 @@
     "id": "18cd30fa-35d0-800c-bd18-f45b3c49aaa7",
     "last_edited": "2025-01-31T07:45:00.000Z",
     "hikka_url": "https://hikka.io/anime/danball-senki-24a90f",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/danball-senki-24a90f/tGLV-XysAL5M7UZkAPIceQ.jpg",
     "title": "LBX: Досвід маленьких бійців",
     "romaji": "Danball Senki",
@@ -3095,14 +2343,6 @@
     "year": "2011",
     "scoreMAL": 7.01,
     "scoredbyMAL": 5066,
-=======
-    "title": "LBX: Досвід маленьких бійців",
-    "romaji": "Danball Senki",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2011",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5048-lbx-dosvd-malenkih-bycv.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3120,7 +2360,6 @@
     "id": "18cd30fa-35d0-80de-ac4d-cd32807c7980",
     "last_edited": "2025-01-31T07:41:00.000Z",
     "hikka_url": "https://hikka.io/anime/inazuma-eleven-39ba4e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/inazuma-eleven-39ba4e/G8MHdz_Q8r5xEzZy5XVuKw.jpg",
     "title": "Інадзума Одинадцять",
     "romaji": "Inazuma Eleven",
@@ -3131,14 +2370,6 @@
     "year": "2008",
     "scoreMAL": 7.74,
     "scoredbyMAL": 137721,
-=======
-    "title": "Інадзума Одинадцять",
-    "romaji": "Inazuma Eleven",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2008",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5030-nazuma-odinadcyat.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3156,7 +2387,6 @@
     "id": "18cd30fa-35d0-8035-9850-d26727c4b68b",
     "last_edited": "2025-01-31T07:39:00.000Z",
     "hikka_url": "https://hikka.io/anime/shadowverse-bb664b",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/shadowverse-bb664b/SepS1UjYFp3ItcG2Ol1EFg.jpg",
     "title": "Поезія тіней",
     "romaji": "Shadowverse",
@@ -3167,14 +2397,6 @@
     "year": "2020",
     "scoreMAL": 5.76,
     "scoredbyMAL": 5154,
-=======
-    "title": "Поезія тіней",
-    "romaji": "Shadowverse",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2020",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3192,7 +2414,6 @@
     "id": "18cd30fa-35d0-8031-b4b5-fff238dc0189",
     "last_edited": "2025-01-31T07:37:00.000Z",
     "hikka_url": "https://hikka.io/anime/yugioh-17677b",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/yugioh-17677b/Op3LpS2Skui3-eWHsrH28w.jpg",
     "title": "Ю-Ґі-О!",
     "romaji": "Yu☆Gi☆Oh!",
@@ -3214,14 +2435,6 @@
     "year": "1998",
     "scoreMAL": 7.24,
     "scoredbyMAL": 145598,
-=======
-    "title": "Ю-Ґі-О!",
-    "romaji": "Yu☆Gi☆Oh!",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "1998",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4998-yu-o.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3239,7 +2452,6 @@
     "id": "18cd30fa-35d0-8067-a2e1-ec92b29ba7a9",
     "last_edited": "2025-01-31T07:35:00.000Z",
     "hikka_url": "https://hikka.io/anime/youkai-watch-fa322e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/youkai-watch-fa322e/nb-tEFdt7OkSCvaB3c5TGw.jpg",
     "title": "Йокай Вотч",
     "romaji": "Youkai Watch",
@@ -3252,14 +2464,6 @@
     "year": "2014",
     "scoreMAL": 6.67,
     "scoredbyMAL": 16035,
-=======
-    "title": "Йокай Вотч",
-    "romaji": "Youkai Watch",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2014",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/2588-yo-kay-votch-1-season.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3288,11 +2492,7 @@
     "format": "ТБ",
     "year": "2013",
     "scoreMAL": 7.92,
-<<<<<<< HEAD
     "scoredbyMAL": 119203,
-=======
-    "scoredbyMAL": 119074,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/2371-boyazkiy-velosipedist.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3310,7 +2510,6 @@
     "id": "18cd30fa-35d0-80d0-88cf-d068be48f21f",
     "last_edited": "2025-01-31T07:25:00.000Z",
     "hikka_url": "https://hikka.io/anime/bakuten-shoot-beyblade-c09313",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/bakuten-shoot-beyblade-c09313/uWEA0fltn4xqkAuQswhSdA.jpg",
     "title": "Бейблейд",
     "romaji": "Bakuten Shoot Beyblade",
@@ -3321,14 +2520,6 @@
     "year": "2001",
     "scoreMAL": 6.78,
     "scoredbyMAL": 73909,
-=======
-    "title": "Бейблейд",
-    "romaji": "Bakuten Shoot Beyblade",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2001",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3346,7 +2537,6 @@
     "id": "18cd30fa-35d0-8028-ba56-c559b0a9b08d",
     "last_edited": "2025-01-31T07:23:00.000Z",
     "hikka_url": "https://hikka.io/anime/metal-fight-beyblade-748afe",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/metal-fight-beyblade-748afe/kwrNt-B2T2N7YduI5gZylA.jpg",
     "title": "Бейблейд: Битви металу",
     "romaji": "Metal Fight Beyblade",
@@ -3357,14 +2547,6 @@
     "year": "2009",
     "scoreMAL": 6.92,
     "scoredbyMAL": 64170,
-=======
-    "title": "Бейблейд: Битви металу",
-    "romaji": "Metal Fight Beyblade",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2009",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3382,7 +2564,6 @@
     "id": "18cd30fa-35d0-80d1-8949-d6deebe53c3f",
     "last_edited": "2025-01-31T07:19:00.000Z",
     "hikka_url": "https://hikka.io/anime/beyblade-x-a891cf",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/beyblade-x-a891cf/eKh9g6-0tQP4UPMKYIc2Ew.jpg",
     "title": "Бейблейд Х",
     "romaji": "Beyblade X",
@@ -3393,14 +2574,6 @@
     "year": "2023",
     "scoreMAL": 6.8,
     "scoredbyMAL": 1136,
-=======
-    "title": "Бейблейд Х",
-    "romaji": "Beyblade X",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2023",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3418,7 +2591,6 @@
     "id": "18cd30fa-35d0-80fe-9959-f898e0ca08f4",
     "last_edited": "2025-01-31T07:22:00.000Z",
     "hikka_url": "https://hikka.io/anime/beyblade-burst-dynamite-battle-7f26bb",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/beyblade-burst-dynamite-battle-7f26bb/kh__IDFQ1iASZd-n51oemQ.jpg",
     "title": "Бейблейд Вибух: КвадДрайв",
     "romaji": "Beyblade Burst Dynamite Battle",
@@ -3431,14 +2603,6 @@
     "year": "2021",
     "scoreMAL": 6.26,
     "scoredbyMAL": 2077,
-=======
-    "title": "Бейблейд Вибух: КвадДрайв",
-    "romaji": "Beyblade Burst Dynamite Battle",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОМА",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3456,7 +2620,6 @@
     "id": "18cd30fa-35d0-8094-b0d0-f6bd176e7c8a",
     "last_edited": "2025-01-31T07:17:00.000Z",
     "hikka_url": "https://hikka.io/anime/beyblade-burst-sparking-3d6063",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/beyblade-burst-sparking-3d6063/sBrPj1-_nBXRAele5dD4DA.jpg",
     "title": "Бейблейд Вибух: Іскра",
     "romaji": "Beyblade Burst Sparking",
@@ -3469,14 +2632,6 @@
     "year": "2020",
     "scoreMAL": 6.65,
     "scoredbyMAL": 3734,
-=======
-    "title": "Бейблейд Вибух: Іскра",
-    "romaji": "Beyblade Burst Sparking",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ОМА",
-    "year": "2020",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3494,7 +2649,6 @@
     "id": "18bd30fa-35d0-8090-82b0-f52ec9e570d1",
     "last_edited": "2025-01-30T14:50:00.000Z",
     "hikka_url": "https://hikka.io/anime/sayonara-watashi-no-cramer-movie-first-touch-ea6f53",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/sayonara-watashi-no-cramer-movie-first-touch-ea6f53/LUDKYkMKgHcGMDLkEChmdg.jpg",
     "title": "Прощавай, мій любимий Крамер: Перший дотик",
     "romaji": "Sayonara Watashi no Cramer Movie: First Touch",
@@ -3509,14 +2663,6 @@
     "year": "2021",
     "scoreMAL": 7.08,
     "scoredbyMAL": 3915,
-=======
-    "title": "Прощавай, мій любимий Крамер: Перший дотик",
-    "romaji": "Sayonara Watashi no Cramer Movie: First Touch",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4981-proschavay-my-lyubimiy-kramer-pershiy-dotik.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3534,7 +2680,6 @@
     "id": "18bd30fa-35d0-8098-a08f-c0545e5bc239",
     "last_edited": "2025-01-31T07:29:00.000Z",
     "hikka_url": "https://hikka.io/anime/captain-tsubasa-a884a7",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/captain-tsubasa-a884a7/8z48gRgh4bUWAryrteVnCQ.jpg",
     "title": "Капітан Цубаса",
     "romaji": "Captain Tsubasa",
@@ -3547,14 +2692,6 @@
     "year": "1983",
     "scoreMAL": 7.35,
     "scoredbyMAL": 53638,
-=======
-    "title": "Капітан Цубаса",
-    "romaji": "Captain Tsubasa",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "1983",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4979-kaptan-cubasa.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3572,7 +2709,6 @@
     "id": "18bd30fa-35d0-80ca-9c5e-f101c296972e",
     "last_edited": "2025-01-30T14:47:00.000Z",
     "hikka_url": "https://hikka.io/anime/sayonara-watashi-no-cramer-06b26e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/sayonara-watashi-no-cramer-06b26e/cc3E0f_Q0-xwTmNyYq2MVQ.jpg",
     "title": "Прощавай, мій любимий Крамер",
     "romaji": "Sayonara Watashi no Cramer",
@@ -3586,14 +2722,6 @@
     "year": "2021",
     "scoreMAL": 6.09,
     "scoredbyMAL": 15934,
-=======
-    "title": "Прощавай, мій любимий Крамер",
-    "romaji": "Sayonara Watashi no Cramer",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4767-proschavay-my-lyubimiy-kramer.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3611,7 +2739,6 @@
     "id": "18bd30fa-35d0-8090-8f78-d32b718a2dc4",
     "last_edited": "2025-01-30T11:34:00.000Z",
     "hikka_url": "https://hikka.io/anime/mahoutsukai-reimeiki-578060",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/mahoutsukai-reimeiki-578060/_xEetxflRjhFR6P8Bah2mg.jpg",
     "title": "Світанок відьми",
     "romaji": "Mahoutsukai Reimeiki",
@@ -3624,14 +2751,6 @@
     "year": "2022",
     "scoreMAL": 6.39,
     "scoredbyMAL": 57033,
-=======
-    "title": "Світанок відьми",
-    "romaji": "Mahoutsukai Reimeiki",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2022",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3965-mahoutsukai-reimeiki.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3649,7 +2768,6 @@
     "id": "185d30fa-35d0-8006-9bd3-eb1507121106",
     "last_edited": "2025-01-24T13:27:00.000Z",
     "hikka_url": "https://hikka.io/anime/kaginado-8cd3c2",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/kaginado-8cd3c2/5XatrxQeGk6ZDFX29wdCwA.jpg",
     "title": "Каґінадо",
     "romaji": "Kaginado",
@@ -3660,14 +2778,6 @@
     "year": "2021",
     "scoreMAL": 7.12,
     "scoredbyMAL": 9207,
-=======
-    "title": "Каґінадо",
-    "romaji": "Kaginado",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4130-kaginado.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3685,7 +2795,6 @@
     "id": "185d30fa-35d0-80f0-9e41-d128c565ef6b",
     "last_edited": "2025-01-24T13:22:00.000Z",
     "hikka_url": "https://hikka.io/anime/rymans-club-005444",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/rymans-club-005444/rGBfkemkpcs-EHgpzOVoRg.jpg",
     "title": "Клуб Раймана",
     "romaji": "Ryman's Club",
@@ -3696,14 +2805,6 @@
     "year": "2022",
     "scoreMAL": 7.35,
     "scoredbyMAL": 29752,
-=======
-    "title": "Клуб Раймана",
-    "romaji": "Ryman's Club",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2022",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4201-rymans-club.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3724,7 +2825,6 @@
     "id": "185d30fa-35d0-80d9-8975-da112ca9da42",
     "last_edited": "2025-01-24T13:12:00.000Z",
     "hikka_url": "https://hikka.io/anime/shiroi-suna-no-aquatope-b1e2df",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/shiroi-suna-no-aquatope-b1e2df/Sgt15A7MdRyjY6k_KkzWBQ.jpg",
     "title": "Акватоп білого піску",
     "romaji": "Shiroi Suna no Aquatope",
@@ -3737,14 +2837,6 @@
     "year": "2021",
     "scoreMAL": 7.51,
     "scoredbyMAL": 53201,
-=======
-    "title": "Акватоп білого піску",
-    "romaji": "Shiroi Suna no Aquatope",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2021",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3827-shiroi-suna-no-aquatope.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3762,7 +2854,6 @@
     "id": "185d30fa-35d0-808c-8c3e-da3e090cbcf0",
     "last_edited": "2025-01-24T07:50:00.000Z",
     "hikka_url": "https://hikka.io/anime/recorder-to-randoseru-do-d52bdc",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/recorder-to-randoseru-do-d52bdc/RMv6JahNTYk1sF_p0U13sA.jpg",
     "title": "Флейта в портфелі До♪",
     "romaji": "Recorder to Randoseru Do♪",
@@ -3780,14 +2871,6 @@
     "year": "2012",
     "scoreMAL": 6.62,
     "scoredbyMAL": 26275,
-=======
-    "title": "Флейта в портфелі До♪",
-    "romaji": "Recorder to Randoseru Do♪",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2012",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3695-recorder-to-randoseru-do.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -3805,7 +2888,6 @@
     "id": "184d30fa-35d0-808d-8404-d885a7911749",
     "last_edited": "2025-01-23T14:43:00.000Z",
     "hikka_url": "https://hikka.io/anime/douse-koishite-shimaunda-05acca",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/douse-koishite-shimaunda-05acca/eSdDuz8vUaB6XiCaPdRZXA.jpg",
     "title": "Так чи інакше, закохаюся",
     "romaji": "Douse, Koishite Shimaunda.",
@@ -3820,14 +2902,6 @@
     "year": "2025",
     "scoreMAL": 5.99,
     "scoredbyMAL": 2694,
-=======
-    "title": "Так чи інакше, закохаюся",
-    "romaji": "Douse, Koishite Shimaunda.",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3847,7 +2921,6 @@
     "id": "184d30fa-35d0-807b-b45a-fc3fe272c785",
     "last_edited": "2025-01-23T13:32:00.000Z",
     "hikka_url": "https://hikka.io/anime/hana-wa-saku-shura-no-gotoku-d693bf",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/hana-wa-saku-shura-no-gotoku-d693bf/6eMzGWIc_KGQ8a5y1dy3kw.jpg",
     "title": "Розквітає квітка серед руїн",
     "romaji": "Hana wa Saku, Shura no Gotoku",
@@ -3864,14 +2937,6 @@
     "year": "2025",
     "scoreMAL": 7.32,
     "scoredbyMAL": 3234,
-=======
-    "title": "Розквітає квітка серед руїн",
-    "romaji": "Hana wa Saku, Shura no Gotoku",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3891,7 +2956,6 @@
     "id": "184d30fa-35d0-80af-8d73-e71fd8655947",
     "last_edited": "2025-01-23T13:26:00.000Z",
     "hikka_url": "https://hikka.io/anime/botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita-e4139a",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita-e4139a/RHPjFccWB3SEDbc26hPY2w.jpg",
     "title": "Переродившись аристократом-невдахою, я витратив весь свій вільний час, щоб стати великим магом!",
     "romaji": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
@@ -3905,14 +2969,6 @@
     "year": "2025",
     "scoreMAL": 6.08,
     "scoredbyMAL": 7037,
-=======
-    "title": "Переродившись аристократом-невдахою, я витратив весь свій вільний час, щоб стати великим магом!",
-    "romaji": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3932,7 +2988,6 @@
     "id": "184d30fa-35d0-8011-a388-e3ebeb20f291",
     "last_edited": "2025-01-23T13:19:00.000Z",
     "hikka_url": "https://hikka.io/anime/kisaki-kyouiku-kara-nigetai-watashi-452af4",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/kisaki-kyouiku-kara-nigetai-watashi-452af4/JTveZ2YnKUOC4mKHh2avJA.jpg",
     "title": "Я хочу втекти від придворної освіти",
     "romaji": "Kisaki Kyouiku kara Nigetai Watashi",
@@ -3947,14 +3002,6 @@
     "year": "2025",
     "scoreMAL": 5.38,
     "scoredbyMAL": 3980,
-=======
-    "title": "Я хочу втекти від придворної освіти",
-    "romaji": "Kisaki Kyouiku kara Nigetai Watashi",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -3974,16 +3021,12 @@
     "id": "184d30fa-35d0-80cd-a30b-c97236195ea0",
     "last_edited": "2025-01-23T12:59:00.000Z",
     "hikka_url": "https://hikka.io/anime/hazure-skill-kinomi-master-skill-no-mi-tabetara-shinu-wo-mugen-ni-taberareru-you-ni-natta-ken-ni-tsuite-5132c3",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/hazure-skill-kinomi-master-skill-no-mi-tabetara-shinu-wo-mugen-ni-taberareru-you-ni-natta-ken-ni-tsuite-5132c3/scW9qNwdZZI7Ib4eCo5y7Q.jpg",
-=======
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "title": "Безкорисне вміння \"Горіховий майстер\"",
     "romaji": "Hazure Skill \"Kinomi Master\": Skill no Mi (Tabetara Shinu) wo Mugen ni Taberareru You ni Natta Ken ni Tsuite",
     "synonyms": [
       "Безкорисне вміння \"Горіховий майстер\": Як я отримав можливість їсти необмежену кількість плодів навичок (не вмираючи)"
     ],
-<<<<<<< HEAD
     "hikkaSynonyms": [
       "Failure Skill \"Nut Master\": It Became Now Possible to Eat as Many Skill Fruits as You Want (From Which You Would Normally Die)"
     ],
@@ -3992,11 +3035,6 @@
     "year": "2025",
     "scoreMAL": 5.84,
     "scoredbyMAL": 9189,
-=======
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5124-nevdale-vmnnya-znavec-fruktv-yak-stav-bezsmertnim-yivshi-smertefrukti.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -4016,7 +3054,6 @@
     "id": "184d30fa-35d0-809a-adf7-e2e1be04ca3e",
     "last_edited": "2025-01-23T12:46:00.000Z",
     "hikka_url": "https://hikka.io/anime/hokkyoku-hyakkaten-no-concierge-san-e27018",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/hokkyoku-hyakkaten-no-concierge-san-e27018/Y7PGSOqsn4Nq8zDwEvXePg.jpg",
     "title": "Консьєржка з магазину Хокьоку",
     "synonyms": [],
@@ -4028,13 +3065,6 @@
     "year": "2023",
     "scoreMAL": 7.47,
     "scoredbyMAL": 2278,
-=======
-    "title": "Консьєржка з магазину Хокьоку",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2023",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5109-konsyerzhka-z-magazinu-hokoku.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -4052,7 +3082,6 @@
     "id": "184d30fa-35d0-80e6-8ed3-e3f3683ea416",
     "last_edited": "2025-01-23T11:20:00.000Z",
     "hikka_url": "https://hikka.io/anime/fanren-xiu-xian-chuan-chongzhi-ban-00a1c2",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/fanren-xiu-xian-chuan-chongzhi-ban-00a1c2/dD1SSZcWy1zv_4cX3S9j2w.jpg",
     "title": "Запис про подорож смертного до безсмертя Ремастер",
     "romaji": "Fanren Xiu Xian Chuan: Chongzhi Ban",
@@ -4066,14 +3095,6 @@
     "year": "2023",
     "scoreMAL": 7.57,
     "scoredbyMAL": 337,
-=======
-    "title": "Запис про подорож смертного до безсмертя Ремастер",
-    "romaji": "Fanren Xiu Xian Chuan: Chongzhi Ban",
-    "synonyms": [],
-    "type": "Китайське",
-    "format": "ОМА",
-    "year": "2023",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -4091,7 +3112,6 @@
     "id": "184d30fa-35d0-80ac-ad9e-e8927920fa36",
     "last_edited": "2025-01-24T07:40:00.000Z",
     "hikka_url": "https://hikka.io/anime/doupo-cangqiong-3rd-season-15b3cd",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/doupo-cangqiong-3rd-season-15b3cd/eUth7TDaR_rNdJaqvbDwMQ.jpg",
     "title": "Руйнівник небесних сфер 3",
     "romaji": "Doupo Cangqiong 3",
@@ -4104,14 +3124,6 @@
     "year": "2019",
     "scoreMAL": 7.87,
     "scoredbyMAL": 4899,
-=======
-    "title": "Руйнівник небесних сфер 3",
-    "romaji": "Doupo Cangqiong 3",
-    "synonyms": [],
-    "type": "Китайське",
-    "format": "ОМА",
-    "year": "2019",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -4133,7 +3145,6 @@
     "id": "184d30fa-35d0-8031-bbd9-ffb74d7b5314",
     "last_edited": "2025-01-23T11:05:00.000Z",
     "hikka_url": "https://hikka.io/anime/jibaku-shounen-hanako-kun-anime-shin-project-c331da",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/jibaku-shounen-hanako-kun-anime-shin-project-c331da/edBBFHo2BLw3T0hm07qiKw.jpg",
     "title": "Туалетний привид Ханако (ТБ-2)",
     "romaji": "Jibaku Shounen Hanako-kun 2",
@@ -4144,14 +3155,6 @@
     "year": "2025",
     "scoreMAL": 8.01,
     "scoredbyMAL": 4131,
-=======
-    "title": "Туалетний привид Ханако (ТБ-2)",
-    "romaji": "Jibaku Shounen Hanako-kun 2",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5185-tualetniy-hlopchik-hanakou.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -4175,7 +3178,6 @@
     "id": "184d30fa-35d0-8076-a88a-dc06bf443767",
     "last_edited": "2025-02-04T08:29:00.000Z",
     "hikka_url": "https://hikka.io/anime/watashi-no-shiawase-na-kekkon-2nd-season-60c675",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/watashi-no-shiawase-na-kekkon-2nd-season-60c675/ouhBKTSGbyAeVHRr-wuSQw.jpg",
     "title": "Мій щасливий шлюб 2",
     "romaji": "Watashi no Shiawase na Kekkon 2",
@@ -4188,14 +3190,6 @@
     "year": "2025",
     "scoreMAL": 7.83,
     "scoredbyMAL": 8876,
-=======
-    "title": "Мій щасливий шлюб 2",
-    "romaji": "Watashi no Shiawase na Kekkon 2",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5194-my-schasliviy-shlyub-2.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -4220,7 +3214,6 @@
     "id": "181d30fa-35d0-8057-a5ed-d98ef52a0e8e",
     "last_edited": "2025-01-20T07:46:00.000Z",
     "hikka_url": "https://hikka.io/anime/little-busters-refrain-d2a108",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/little-busters-refrain-d2a108/2JBx1RMGcstbotCYsqKqpA.jpg",
     "title": "Маленькі бешкетники! Рефрен",
     "romaji": "Little Busters! Refrain",
@@ -4234,14 +3227,6 @@
     "year": "2013",
     "scoreMAL": 8.17,
     "scoredbyMAL": 79330,
-=======
-    "title": "Маленькі бешкетники! Рефрен",
-    "romaji": "Little Busters! Refrain",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2013",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -4263,7 +3248,6 @@
     "id": "181d30fa-35d0-8053-86ad-c5e0afc4c96d",
     "last_edited": "2025-01-20T07:00:00.000Z",
     "hikka_url": "https://hikka.io/anime/around-40-otoko-no-isekai-tsuuhan-seikatsu-7a472e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/around-40-otoko-no-isekai-tsuuhan-seikatsu-7a472e/szpxCf_4w1iwEwvnC2tlaQ.jpg",
     "title": "Життя 40-річного чоловіка в іншому світі з онлайн-шопінґом",
     "romaji": "Around 40 Otoko no Isekai Tsuuhan Seikatsu",
@@ -4277,14 +3261,6 @@
     "year": "2025",
     "scoreMAL": 6.59,
     "scoredbyMAL": 6698,
-=======
-    "title": "Життя 40-річного чоловіка в іншому світі з онлайн-шопінґом",
-    "romaji": "Around 40 Otoko no Isekai Tsuuhan Seikatsu",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5166-zhittya-mayzhe-sorokaltnogo-cholovka-v-nshomu-svt-zavdyaki-nternet-magazinam.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -4315,13 +3291,8 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "2024",
-<<<<<<< HEAD
     "scoreMAL": 7.63,
     "scoredbyMAL": 27963,
-=======
-    "scoreMAL": 7.8,
-    "scoredbyMAL": 16755,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4838-hvst-feyi-storchniy-kvest.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -4415,11 +3386,7 @@
     "format": "ТБ",
     "year": "2023",
     "scoreMAL": 8.32,
-<<<<<<< HEAD
     "scoredbyMAL": 173347,
-=======
-    "scoredbyMAL": 163560,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4516-dr-stone-new-world-part-2.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -4447,45 +3414,6 @@
     "poster": "https://cdn.hikka.io/content/anime/miira-no-kaikata-72f1e0/5VLD55N7nAphmfutFVJo8g.jpg",
     "title": "Як подбати про мумію?",
     "romaji": "Miira no Kaikata",
-<<<<<<< HEAD
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "How to keep a mummy"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2018",
-    "scoreMAL": 7.46,
-    "scoredbyMAL": 55779,
-    "Анітюб": "https://anitube.in.ua/4333-miira-no-kaikata.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "12",
-    "releases": [
-      {
-        "id": "17dd30fa-35d0-8060-a102-cb476c67b33c"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17dd30fa-35d0-806a-9921-f22ffad5bfe1",
-    "last_edited": "2025-01-16T10:56:00.000Z",
-    "hikka_url": "https://hikka.io/anime/future-war-198x-nen-657ca5",
-    "poster": "https://cdn.hikka.io/content/anime/future-war-198x-nen-657ca5/hqZnzaD1MmFetYUumhOO-Q.jpg",
-    "title": "Війна майбутнього 198Х",
-    "romaji": "Future War 198X-nen",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "1982",
-    "scoreMAL": 6.04,
-    "scoredbyMAL": 1084,
-    "Анітюб": "https://anitube.in.ua/4334-future-war-198x-nen.html",
-=======
     "synonyms": [],
     "hikkaSynonyms": [
       "How to keep a mummy"
@@ -4527,765 +3455,6 @@
     "тґ_канал": null,
     "episodes": "1",
     "releases": [
-      {
-        "id": "17dd30fa-35d0-808c-bf22-cb2fa292ba25"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17dd30fa-35d0-8059-b42b-c0a0003f2d17",
-    "last_edited": "2025-01-16T10:22:00.000Z",
-    "hikka_url": "https://hikka.io/anime/kuroko-no-basket-movie-4-last-game-2d32ab",
-    "poster": "https://cdn.hikka.io/content/anime/kuroko-no-basket-movie-4-last-game-2d32ab/nSGgEIAi_TGuWPhO8H25tw.jpg",
-    "title": "Баскетбол Куроко Фільм 4: Остання гра",
-    "romaji": "Kuroko no Basket Movie 4: Last Game",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Gekijouban Kuroko no Basuke: Last Game",
-      "The Basketball Which Kuroko Plays"
-    ],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2017",
-    "scoreMAL": 8.07,
-    "scoredbyMAL": 193369,
-    "Анітюб": "https://anitube.in.ua/3993-kuroko-no-basket-movie-4-last-game.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [
-      {
-        "id": "17dd30fa-35d0-80f9-b56e-dba4b961c472"
-      }
-    ],
-    "relations": [
-      {
-        "id": "174d30fa-35d0-8161-8690-d0db4712db88"
-      }
-    ],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17dd30fa-35d0-80d7-b787-d6004f0983fc",
-    "last_edited": "2025-01-16T07:17:00.000Z",
-    "hikka_url": "https://hikka.io/anime/shika-no-ou-yuna-to-yakusoku-no-tabi-6ce3d3",
-    "poster": "https://cdn.hikka.io/content/anime/shika-no-ou-yuna-to-yakusoku-no-tabi-6ce3d3/7GuLHlZrArTgCkdAEIR0EQ.jpg",
-    "title": "Оленячий король",
-    "romaji": "Shika no Ou: Yuna to Yakusoku no Tabi",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2022",
-    "scoreMAL": 6.88,
-    "scoredbyMAL": 5985,
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [
-      {
-        "id": "17dd30fa-35d0-8070-ac7c-ee857fb8b0d9"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-80c2-8f13-cfcc5db12988",
-    "last_edited": "2025-01-15T18:08:00.000Z",
-    "hikka_url": "https://hikka.io/anime/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-99942e",
-    "poster": "https://cdn.hikka.io/content/anime/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-99942e/YoOhiFmotoQ0ldV6gUDvdg.jpg",
-    "title": "Ю-но: Дівчина, яка оспівує кохання на межі цього світу",
-    "romaji": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Yuno"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2019",
-    "scoreMAL": 6.59,
-    "scoredbyMAL": 52945,
-    "Анітюб": "https://anitube.in.ua/4688-yuno-dvchina-yaka-ospvuye-kohannya-na-mezh-cogo-svtu.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "26",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80ff-a61f-dbc0b9cc52d5"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-804e-9fab-f25c37e0a9d4",
-    "last_edited": "2025-01-15T17:47:00.000Z",
-    "hikka_url": "https://hikka.io/anime/goddamn-1853b0",
-    "poster": "https://cdn.hikka.io/content/anime/goddamn-1853b0/8UfdPRjN0bcD_kxIWhet4w.jpg",
-    "title": "Прокляття",
-    "romaji": "Goddamn",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "ガッデム"
-    ],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "1990",
-    "scoreMAL": 5.88,
-    "scoredbyMAL": 1753,
-    "Анітюб": "https://anitube.in.ua/4893-proklyattya.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "2",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80e9-b009-da1e06752b1e"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-80ed-8bb5-cbe8a3f74471",
-    "last_edited": "2025-01-15T17:37:00.000Z",
-    "hikka_url": "https://hikka.io/anime/tensui-no-sakuna-hime-133278",
-    "poster": "https://cdn.hikka.io/content/anime/tensui-no-sakuna-hime-133278/WF9U-YxylRB6hiyg0PXy-w.jpg",
-    "title": "Рис руйнації маленької богині",
-    "romaji": "Tensui no Sakuna-hime",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Сакуна: Про рис та руїни"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2024",
-    "scoreMAL": 6.74,
-    "scoredbyMAL": 6018,
-    "Анітюб": "https://anitube.in.ua/4844-ris-ruynacyi-malenkoyi-bogin.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "13",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80c1-8a42-f34a467490c8"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-8054-9e2d-f8ca1b2c04c4",
-    "last_edited": "2025-01-15T16:03:00.000Z",
-    "hikka_url": "https://hikka.io/anime/teizokurei-daydream-9974a7",
-    "poster": "https://cdn.hikka.io/content/anime/teizokurei-daydream-9974a7/B8FBblv9kKE7_AcEFFX3rw.jpg",
-    "title": "Мрія балакуна-привида",
-    "romaji": "Teizokurei Daydream",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Teizoku Rei Daydream",
-      "Vulgar Ghost Daydream"
-    ],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2004",
-    "scoreMAL": 6.09,
-    "scoredbyMAL": 4734,
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "4",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-8042-806a-eb6a768ae181"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-8024-95f6-ca0346844ebb",
-    "last_edited": "2025-01-15T15:39:00.000Z",
-    "hikka_url": "https://hikka.io/anime/utopa-b7ae29",
-    "poster": "https://cdn.hikka.io/content/anime/utopa-b7ae29/0XJUu2ViXepf15i6PaLOGw.jpg",
-    "title": "Утопа",
-    "romaji": "Utopa",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Wakate Animator Ikusei Project",
-      "2016 Young Animator Training Project",
-      "Anime Tamago"
-    ],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "2016",
-    "scoreMAL": 5.71,
-    "scoredbyMAL": 880,
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-8035-a4ea-ec2f24bda0fb"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-807e-91db-ddc9c3a8cbfc",
-    "last_edited": "2025-01-15T15:33:00.000Z",
-    "hikka_url": "https://hikka.io/anime/maid-in-heaven-supers-09887b",
-    "poster": "https://cdn.hikka.io/content/anime/maid-in-heaven-supers-09887b/QUAu-K56umLlJl2bTOuG3A.jpg",
-    "title": "Покоївка з небес",
-    "romaji": "Maid in Heaven SuperS",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2005",
-    "scoreMAL": 6.41,
-    "scoredbyMAL": 3689,
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "2",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80b4-81b0-cb02adb20ff7"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-8032-91b1-d7a97c1909b4",
-    "last_edited": "2025-01-15T14:14:00.000Z",
-    "hikka_url": "https://hikka.io/anime/hikaru-no-go-hokuto-hai-e-no-michi-f3dddb",
-    "poster": "https://cdn.hikka.io/content/anime/hikaru-no-go-hokuto-hai-e-no-michi-f3dddb/VDIBg12STuURJikTEcZSDg.jpg",
-    "title": "Хікару та Ґо: Шлях до кубка Полярної зорі",
-    "romaji": "Hikaru no Go: Hokuto Hai e no Michi",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Hikaru no Go: Journey to the North Star Cup"
-    ],
-    "type": "Аніме",
-    "format": "Спешл",
-    "year": "2004",
-    "scoreMAL": 7.94,
-    "scoredbyMAL": 13088,
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80d2-ad01-c27962136d4d"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-8050-b301-f7239bdbb71f",
-    "last_edited": "2025-01-15T13:41:00.000Z",
-    "hikka_url": "https://hikka.io/anime/tennis-no-ouji-sama-094a84",
-    "poster": "https://cdn.hikka.io/content/anime/tennis-no-ouji-sama-094a84/-gvjU2r-PJk3adYYKIKV-w.jpg",
-    "title": "Принц тенісу",
-    "romaji": "Tennis no Ouji-sama",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "TeniPuri",
-      "PoT"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2001",
-    "scoreMAL": 7.85,
-    "scoredbyMAL": 86180,
-    "Анітюб": "https://anitube.in.ua/5031-princ-tensu.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "178",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80b7-8329-c60b765b4a79"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-80eb-b656-f59085824841",
-    "last_edited": "2025-01-15T13:22:00.000Z",
-    "hikka_url": "https://hikka.io/anime/ng-knight-ramune-40-e18d8a",
-    "poster": "https://cdn.hikka.io/content/anime/ng-knight-ramune-40-e18d8a/W7YoDFSgjOlwFWtN11V--g.jpg",
-    "title": "НГ Лицар Ламуне & 40",
-    "romaji": "NG Knight Ramune & 40",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Knight Lamune & 40",
-      "NG Kishi Ramune & 40"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "1990",
-    "scoreMAL": 7.03,
-    "scoredbyMAL": 1526,
-    "Анітюб": "https://anitube.in.ua/4435-ng-licar-lamune.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "38",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80b7-a8ac-e231985aa7e4"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-80eb-9b77-e92a8d3b4dfe",
-    "last_edited": "2025-01-15T13:20:00.000Z",
-    "hikka_url": "https://hikka.io/anime/hikaru-no-go-79a1c8",
-    "poster": "https://cdn.hikka.io/content/anime/hikaru-no-go-79a1c8/BuQRdZ1EHmFvYyDU4vAx0A.jpg",
-    "title": "Хікару та Ґо",
-    "romaji": "Hikaru no Go",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Hikaru's Go"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2001",
-    "scoreMAL": 8.07,
-    "scoredbyMAL": 64709,
-    "Анітюб": "https://anitube.in.ua/4434-hkaru-ta-o.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "75",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80d2-ad01-c27962136d4d"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-80cf-a4cf-ffab724b7155",
-    "last_edited": "2025-01-15T11:54:00.000Z",
-    "hikka_url": "https://hikka.io/anime/hakata-tonkotsu-ramens-ea7e00",
-    "poster": "https://cdn.hikka.io/content/anime/hakata-tonkotsu-ramens-ea7e00/N8QvSFjU0YPKOJs5TZqzBA.jpg",
-    "title": "Свинячий рамен з Хакати",
-    "romaji": "Hakata Tonkotsu Ramens",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2018",
-    "scoreMAL": 7.36,
-    "scoredbyMAL": 63568,
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "12",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80a3-a141-c8addfa1daf3"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-8027-8afc-ed2971751b8a",
-    "last_edited": "2025-02-05T08:22:00.000Z",
-    "hikka_url": "https://hikka.io/anime/akuyaku-reijou-tensei-ojisan-a23d84",
-    "poster": "https://cdn.hikka.io/content/anime/akuyaku-reijou-tensei-ojisan-a23d84/tnneK1KpJNr_JAk9WJDL1A.jpg",
-    "title": "Чоловік середнього віку, який перевтілився у лиходійку",
-    "romaji": "Akuyaku Reijou Tensei Ojisan",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Middle-Aged Man's Noble Daughter Reincarnation",
-      "The Old Man Reincarnated as a Villainess"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
-    "scoreMAL": 0,
-    "scoredbyMAL": 0,
-    "Анітюб": "https://anitube.in.ua/5168-dyadko-scho-pererodivsya-lihodykoyu.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "12",
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-808e-a606-d949492e8633"
-      },
-      {
-        "id": "184d30fa-35d0-8014-b1d6-f3dd14384ba3"
-      },
-      {
-        "id": "184d30fa-35d0-8053-9a9c-f8a6c52afc0a"
-      },
-      {
-        "id": "18fd30fa-35d0-80a2-a563-c775102d65a6"
-      },
-      {
-        "id": "191d30fa-35d0-8037-bf60-e5e4b73df46c"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17cd30fa-35d0-80f5-837e-caaee02541c7",
-    "last_edited": "2025-01-15T09:54:00.000Z",
-    "hikka_url": "https://hikka.io/anime/tasokare-hotel-b2ed4c",
-    "poster": "https://cdn.hikka.io/content/anime/tasokare-hotel-b2ed4c/CoHZm5kGH5LkgO81fOXUxQ.jpg",
-    "title": "Сутінковий готель",
-    "romaji": "Tasokare Hotel",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Готель \"Тасокаре\""
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
-    "scoreMAL": 0,
-    "scoredbyMAL": 0,
-    "Анітюб": "https://anitube.in.ua/5133-sutnkoviy-gotel.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "releases": [
-      {
-        "id": "17cd30fa-35d0-80f0-8b4a-cb5998047e06"
-      },
-      {
-        "id": "190d30fa-35d0-8074-8152-f51028538628"
-      },
-      {
-        "id": "190d30fa-35d0-801b-9991-d4b4d65b1d1c"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17bd30fa-35d0-8038-8705-db97d6f768e2",
-    "last_edited": "2025-01-14T07:32:00.000Z",
-    "hikka_url": "https://hikka.io/anime/salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-623185",
-    "poster": "https://cdn.hikka.io/content/anime/salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-623185/Xkj4a2xljYjBck4rm4_P1g.jpg",
-    "title": "Історія про офісника, який відійшов в інший світ і став одним з чотирьох небесних королів",
-    "romaji": "Salaryman ga Isekai ni Ittara Shitennou ni Natta Hanashi",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2025",
-    "scoreMAL": 0,
-    "scoredbyMAL": 0,
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "releases": [
-      {
-        "id": "17bd30fa-35d0-80da-b56a-e70a6672b26c"
-      },
-      {
-        "id": "184d30fa-35d0-8027-8249-ffe2842c6cc1"
-      },
-      {
-        "id": "184d30fa-35d0-801a-9790-e60e94cb3af6"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-8094-be3b-e9d9276ea0bd",
-    "last_edited": "2025-01-13T14:02:00.000Z",
-    "hikka_url": "https://hikka.io/anime/zipang-aa1e3b",
-    "poster": "https://cdn.hikka.io/content/anime/zipang-aa1e3b/cJBXqGlkfVqgkfEltZKulA.jpg",
-    "title": "Дзіпанґ",
-    "romaji": "Zipang",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2004",
-    "scoreMAL": 7.49,
-    "scoredbyMAL": 8156,
-    "Анітюб": "https://anitube.in.ua/5071-dzpan.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "26",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-8096-99c2-f77d941afd2c"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-800e-ae05-d0a19d320082",
-    "last_edited": "2025-01-13T14:00:00.000Z",
-    "hikka_url": "https://hikka.io/anime/detective-conan-0c0f0b",
-    "poster": "https://cdn.hikka.io/content/anime/detective-conan-0c0f0b/f23wx7bJFBx485qHbFNDJg.jpg",
-    "title": "Детектив Конан",
-    "romaji": "Detective Conan",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Meitantei Conan",
-      "Справу закрито"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "1996",
-    "scoreMAL": 8.17,
-    "scoredbyMAL": 163535,
-    "Анітюб": "https://anitube.in.ua/2760-detektiv-konan.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1149+",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-808c-b1dc-c12e9a77c0e5"
-      },
-      {
-        "id": "18cd30fa-35d0-8097-b816-f37c991887a5"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [
-      {
-        "id": "17ad30fa-35d0-807e-a587-fe4a1a9d6a7a"
-      }
-    ],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-8063-b08c-ff914b7c741d",
-    "last_edited": "2025-01-13T13:52:00.000Z",
-    "hikka_url": "https://hikka.io/anime/aishang-ta-de-liyou-dd397a",
-    "poster": "https://cdn.hikka.io/content/anime/aishang-ta-de-liyou-dd397a/WqrVHz_bNIuAGRHsOjIziw.jpg",
-    "title": "Дівчина знизу",
-    "romaji": "Aishang Ta de Liyou",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Lee Du-Na!",
-      "이두나!",
-      "Shita no Kai ni wa Mio ga Iru",
-      "下の階には澪がいる"
-    ],
-    "type": "Китайське",
-    "format": "ОМА",
-    "year": "2023",
-    "scoreMAL": 7.85,
-    "scoredbyMAL": 11630,
-    "Анітюб": "https://anitube.in.ua/4338-dvchina-znizu.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "22",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-807b-90a3-d23958072825"
-      },
-      {
-        "id": "17ad30fa-35d0-8052-917c-e619c551afce"
-      },
-      {
-        "id": "190d30fa-35d0-80b8-8ab6-d8ce1f16c948"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-802e-8eda-cf5bafea2010",
-    "last_edited": "2025-01-13T13:48:00.000Z",
-    "hikka_url": null,
-    "title": "Можливо",
-    "romaji": "May",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Інше",
-    "Анітюб": null,
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-809a-b38e-f94c5e9111d0"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-8041-a56a-db297288b322",
-    "last_edited": "2025-01-13T13:45:00.000Z",
-    "hikka_url": "https://hikka.io/anime/project-a-ko-3-cinderella-rhapsody-b80a4a",
-    "poster": "https://cdn.hikka.io/content/anime/project-a-ko-3-cinderella-rhapsody-b80a4a/tabu9-WSQnSmUlkLFOzyYw.jpg",
-    "title": "Проєкт Ей-ко 3: Рапсодія Попелюшки",
-    "romaji": "Project A-Ko 3: Cinderella Rhapsody",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "1988",
-    "scoreMAL": 6.34,
-    "scoredbyMAL": 3384,
-    "Анітюб": "https://anitube.in.ua/4818-proyekt-ey-ko-3-rapsodya-popelyushki.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [],
-    "relations": [
-      {
-        "id": "17ad30fa-35d0-80f8-a6a0-dd0b567da898"
-      }
-    ],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-802d-8d3f-deb29c2c9cfe",
-    "last_edited": "2025-01-13T13:45:00.000Z",
-    "hikka_url": "https://hikka.io/anime/project-a-ko-2-daitokuji-zaibatsu-no-inbou-8ab7b9",
-    "poster": "https://cdn.hikka.io/content/anime/project-a-ko-2-daitokuji-zaibatsu-no-inbou-8ab7b9/RKVslCf9fM4HnG69hJ7dRQ.jpg",
-    "title": "Проєкт Ей-ко 2: Історія фінансової групи \"Дайтокуджі\"",
-    "romaji": "Project A-Ko 2: Daitokuji Zaibatsu no Inbou",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "1987",
-    "scoreMAL": 6.47,
-    "scoredbyMAL": 3883,
-    "Анітюб": "https://anitube.in.ua/4810-proyekt-ey-ko-2-storya-fnansovoyi-grupi-daytokudzh.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [],
-    "relations": [
-      {
-        "id": "17ad30fa-35d0-80f8-a6a0-dd0b567da898"
-      }
-    ],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-80f8-a6a0-dd0b567da898",
-    "last_edited": "2025-01-13T13:44:00.000Z",
-    "hikka_url": "https://hikka.io/anime/project-a-ko-d2d784",
-    "poster": "https://cdn.hikka.io/content/anime/project-a-ko-d2d784/HqGSBmkuijuH34lOQN1ArQ.jpg",
-    "title": "Проєкт Ей-ко",
-    "romaji": "Project A-Ko",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "1986",
-    "scoreMAL": 6.85,
-    "scoredbyMAL": 9358,
-    "Анітюб": "https://anitube.in.ua/4809-proyekt-ey-ko.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-80b7-abab-dd9faa5cd137"
-      }
-    ],
-    "relations": [
-      {
-        "id": "17ad30fa-35d0-802d-8d3f-deb29c2c9cfe"
-      },
-      {
-        "id": "17ad30fa-35d0-8041-a56a-db297288b322"
-      }
-    ],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-8090-9e97-dd9ede7a7341",
-    "last_edited": "2025-01-13T13:42:00.000Z",
-    "hikka_url": "https://hikka.io/anime/ushiro-no-shoumen-daare-c5da6c",
-    "poster": "https://cdn.hikka.io/content/anime/ushiro-no-shoumen-daare-c5da6c/FoFlIzCuKcA0dyvL7dfOMA.jpg",
-    "title": "Хто залишився позаду?",
-    "romaji": "Ushiro no Shoumen Daare",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Kayoko's Diary",
-      "Ushiro no Shomen Daare",
-      "Ushiro no Shomen Dare"
-    ],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "1991",
-    "scoreMAL": 7.71,
-    "scoredbyMAL": 4152,
-    "Анітюб": "https://anitube.in.ua/4787-hto-stoyit-pozadu.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-80ad-a291-c2cce54eaf0b"
-      },
-      {
-        "id": "17ad30fa-35d0-80c6-b39d-dad712bbc64d"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-8001-a351-cea022781970",
-    "last_edited": "2025-01-13T13:37:00.000Z",
-    "hikka_url": null,
-    "title": "Кульбабка першого кохання",
-    "romaji": "Dandelion of First Love",
-    "synonyms": [],
-    "type": "Аніме",
-    "format": "Інше",
-    "Анітюб": null,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "1",
-    "releases": [
-<<<<<<< HEAD
       {
         "id": "17dd30fa-35d0-808c-bf22-cb2fa292ba25"
       }
@@ -5323,18 +3492,12 @@
     "relations": [
       {
         "id": "174d30fa-35d0-8161-8690-d0db4712db88"
-=======
-      {
-        "id": "17ad30fa-35d0-80ad-a291-c2cce54eaf0b"
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
       }
     ],
-    "relations": [],
     "Франшиза": [],
     "posters": []
   },
   {
-<<<<<<< HEAD
     "id": "17dd30fa-35d0-80d7-b787-d6004f0983fc",
     "last_edited": "2025-01-16T07:17:00.000Z",
     "hikka_url": "https://hikka.io/anime/shika-no-ou-yuna-to-yakusoku-no-tabi-6ce3d3",
@@ -5349,34 +3512,12 @@
     "scoreMAL": 6.88,
     "scoredbyMAL": 5985,
     "Анітюб": null,
-=======
-    "id": "17ad30fa-35d0-80e9-a1cc-de3c100ac268",
-    "last_edited": "2025-01-13T13:29:00.000Z",
-    "hikka_url": "https://hikka.io/anime/ihatov-gensou-kenji-no-haru-6c570c",
-    "poster": "https://cdn.hikka.io/content/anime/ihatov-gensou-kenji-no-haru-6c570c/k_cxru1uvhNvhcg1xYkl8g.jpg",
-    "title": "Весна і хаос: Історія життя Міядзави Кенджі",
-    "romaji": "Ihatov Gensou: Kenji no Haru",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Kenji's Spring"
-    ],
-    "type": "Аніме",
-    "format": "Фільм",
-    "year": "1996",
-    "scoreMAL": 7.18,
-    "scoredbyMAL": 3361,
-    "Анітюб": "https://anitube.in.ua/4781-vesna-haos-storya-zhittya-myadzavi-kendzh.html",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "1",
     "releases": [
       {
-<<<<<<< HEAD
         "id": "17dd30fa-35d0-8070-ac7c-ee857fb8b0d9"
-=======
-        "id": "17ad30fa-35d0-8064-b203-f6ff9b2afb17"
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
       }
     ],
     "relations": [],
@@ -5384,7 +3525,6 @@
     "posters": []
   },
   {
-<<<<<<< HEAD
     "id": "17cd30fa-35d0-80c2-8f13-cfcc5db12988",
     "last_edited": "2025-01-15T18:08:00.000Z",
     "hikka_url": "https://hikka.io/anime/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-99942e",
@@ -5401,186 +3541,12 @@
     "scoreMAL": 6.59,
     "scoredbyMAL": 52945,
     "Анітюб": "https://anitube.in.ua/4688-yuno-dvchina-yaka-ospvuye-kohannya-na-mezh-cogo-svtu.html",
-=======
-    "id": "17ad30fa-35d0-80a6-87de-eb415d53daf9",
-    "last_edited": "2025-01-13T13:25:00.000Z",
-    "hikka_url": "https://hikka.io/anime/masou-gakuen-hxh-24cc02",
-    "poster": "https://cdn.hikka.io/content/anime/masou-gakuen-hxh-24cc02/PpQxvLmpcm4O7GDgr7GysA.jpg",
-    "title": "Магічна академія Атараксія: Гібрид та Серце",
-    "romaji": "Masou Gakuen HxH",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Masou Gakuen Hybrid x Heart"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2016",
-    "scoreMAL": 6.11,
-    "scoredbyMAL": 134191,
-    "Анітюб": "https://anitube.in.ua/4884-magchna-akademya-ataraksya.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "12",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-804e-8761-ef090da312a9"
-      },
-      {
-        "id": "17ad30fa-35d0-80b8-9439-d372ef0f2cbf"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-807b-9cfd-f83fc986b96a",
-    "last_edited": "2025-01-13T13:22:00.000Z",
-    "hikka_url": "https://hikka.io/anime/koukyoushihen-eureka-seven-239e90",
-    "poster": "https://cdn.hikka.io/content/anime/koukyoushihen-eureka-seven-239e90/9abSoIPGF_zVU2S9HDPLPQ.jpg",
-    "title": "Евріка 7",
-    "romaji": "Koukyoushihen Eureka Seven",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Psalms of Planets Eureka Seven"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2005",
-    "scoreMAL": 8.05,
-    "scoredbyMAL": 185003,
-    "Анітюб": "https://anitube.in.ua/4947-evrika-7-psalmi-planet.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "50",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-809f-8a94-c38cdc46a77e"
-      },
-      {
-        "id": "17ad30fa-35d0-8025-b395-f7e5f206d25f"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-8045-b9d0-c7254a91ec7e",
-    "last_edited": "2025-01-13T13:19:00.000Z",
-    "hikka_url": "https://hikka.io/anime/yondemasu-yo-azazel-san-tv-de0251",
-    "poster": "https://cdn.hikka.io/content/anime/yondemasu-yo-azazel-san-tv-de0251/j2RJfvVtLkrIWIV9D4eyNg.jpg",
-    "title": "Тебе викликають, Азазелю",
-    "romaji": "Yondemasu yo, Azazel-san.",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Yondemasu yo",
-      "Azazel-san. (2011)"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2011",
-    "scoreMAL": 7.51,
-    "scoredbyMAL": 34648,
-    "Анітюб": "https://anitube.in.ua/5070-tebe-viklikayut-azazelyu.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "13",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-8038-b289-e86f1d32bc21"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-80a4-b46b-c1a8fa732547",
-    "last_edited": "2025-01-13T13:18:00.000Z",
-    "hikka_url": "https://hikka.io/anime/golgo-13-tv-95d446",
-    "poster": "https://cdn.hikka.io/content/anime/golgo-13-tv-95d446/eoVdnf4LdeEWdx0o2wQspw.jpg",
-    "title": "Ґолґо 13",
-    "romaji": "Golgo 13",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "2008",
-    "scoreMAL": 7.51,
-    "scoredbyMAL": 12075,
-    "Анітюб": "https://anitube.in.ua/5092-olo-13.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "50",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-8035-a609-e3d61408fae4"
-      },
-      {
-        "id": "17ad30fa-35d0-802e-8bfe-e7dfaffd2ccc"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-801f-bdea-c956daab2bbd",
-    "last_edited": "2025-01-13T13:14:00.000Z",
-    "hikka_url": "https://hikka.io/anime/gokicha-277eea",
-    "poster": "https://cdn.hikka.io/content/anime/gokicha-277eea/nLCMqNWSczBCwWdOdIqEmg.jpg",
-    "title": "Ґокічя!!",
-    "romaji": "Gokicha!!",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ОВА",
-    "year": "2012",
-    "scoreMAL": 5.53,
-    "scoredbyMAL": 7735,
-    "Анітюб": "https://anitube.in.ua/5081-okchya.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "2",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-80e4-96ae-d2fea06ddbbd"
-      }
-    ],
-    "relations": [],
-    "Франшиза": [],
-    "posters": []
-  },
-  {
-    "id": "17ad30fa-35d0-80e4-bcbc-e1d8211a2c94",
-    "last_edited": "2025-01-13T13:11:00.000Z",
-    "hikka_url": "https://hikka.io/anime/kareshi-kanojo-no-jijou-672845",
-    "poster": "https://cdn.hikka.io/content/anime/kareshi-kanojo-no-jijou-672845/eTnfg7S56676HweqXRy4dQ.jpg",
-    "title": "Його та її обставини",
-    "romaji": "Kareshi Kanojo no Jijou",
-    "synonyms": [],
-    "hikkaSynonyms": [
-      "Kare Kano",
-      "Karekano"
-    ],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "1998",
-    "scoreMAL": 7.6,
-    "scoredbyMAL": 83142,
-    "Анітюб": "https://anitube.in.ua/4927-yogo-ta-yiyi-obstavini.html",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Юакіно": null,
     "тґ_канал": null,
     "episodes": "26",
     "releases": [
       {
-<<<<<<< HEAD
         "id": "17cd30fa-35d0-80ff-a61f-dbc0b9cc52d5"
-=======
-        "id": "17ad30fa-35d0-8084-9319-cd7f47b62a20"
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
       }
     ],
     "relations": [],
@@ -5588,7 +3554,6 @@
     "posters": []
   },
   {
-<<<<<<< HEAD
     "id": "17cd30fa-35d0-804e-9fab-f25c37e0a9d4",
     "last_edited": "2025-01-15T17:47:00.000Z",
     "hikka_url": "https://hikka.io/anime/goddamn-1853b0",
@@ -5670,31 +3635,6 @@
     "releases": [
       {
         "id": "17cd30fa-35d0-8042-806a-eb6a768ae181"
-=======
-    "id": "17ad30fa-35d0-804b-a253-d10272e442c9",
-    "last_edited": "2025-01-13T13:08:00.000Z",
-    "hikka_url": "https://hikka.io/anime/marmalade-boy-213aec",
-    "poster": "https://cdn.hikka.io/content/anime/marmalade-boy-213aec/UsnZudL0_BwJGD0mVZYhIA.jpg",
-    "title": "Мармеладний хлопчик",
-    "romaji": "Marmalade Boy",
-    "synonyms": [],
-    "hikkaSynonyms": [],
-    "type": "Аніме",
-    "format": "ТБ",
-    "year": "1994",
-    "scoreMAL": 7.42,
-    "scoredbyMAL": 22740,
-    "Анітюб": "https://anitube.in.ua/4912-marmeladniy-hlopchik.html",
-    "Юакіно": null,
-    "тґ_канал": null,
-    "episodes": "76",
-    "releases": [
-      {
-        "id": "17ad30fa-35d0-80a7-b8b6-da5400b9c5d1"
-      },
-      {
-        "id": "17ad30fa-35d0-80b8-9098-cd05679a1216"
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
       }
     ],
     "relations": [],
@@ -5702,7 +3642,6 @@
     "posters": []
   },
   {
-<<<<<<< HEAD
     "id": "17cd30fa-35d0-8024-95f6-ca0346844ebb",
     "last_edited": "2025-01-15T15:39:00.000Z",
     "hikka_url": "https://hikka.io/anime/utopa-b7ae29",
@@ -6522,8 +4461,6 @@
     "posters": []
   },
   {
-=======
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "id": "17ad30fa-35d0-804f-be8c-ed9da318ca7e",
     "last_edited": "2025-01-13T13:07:00.000Z",
     "hikka_url": "https://hikka.io/anime/hitorijime-my-hero-e4b3d2",
@@ -6537,13 +4474,8 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "2017",
-<<<<<<< HEAD
     "scoreMAL": 7.26,
     "scoredbyMAL": 85668,
-=======
-    "scoreMAL": 7.27,
-    "scoredbyMAL": 84827,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4885-my-vlasniy-geroy.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -6573,13 +4505,8 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "1982",
-<<<<<<< HEAD
     "scoreMAL": 6.91,
     "scoredbyMAL": 3041,
-=======
-    "scoreMAL": 6.89,
-    "scoredbyMAL": 2975,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4882-mahou-no-princess-minky-momo.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -6606,11 +4533,7 @@
     "format": "ОВА",
     "year": "1997",
     "scoreMAL": 5.95,
-<<<<<<< HEAD
     "scoredbyMAL": 15225,
-=======
-    "scoredbyMAL": 15063,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4880-agent-ayka.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -6697,11 +4620,7 @@
     "id": "17ad30fa-35d0-80fb-a1b7-d4e34ace0448",
     "last_edited": "2025-01-13T12:40:00.000Z",
     "hikka_url": "https://hikka.io/anime/guskou-budori-no-denki-b2cf0e",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/guskou-budori-no-denki-b2cf0e/jXJpWZeVGKjoNT7ljNoSJQ.jpg",
-=======
-    "poster": "https://cdn.hikka.io/content/anime/guskou-budori-no-denki-b2cf0e/mJSYPWf9Oa_wj54MdtTDEg.jpg",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "title": "Життєпис Ґуско Будорі",
     "romaji": "Guskou Budori no Denki",
     "synonyms": [],
@@ -6712,13 +4631,8 @@
     "type": "Аніме",
     "format": "Фільм",
     "year": "1994",
-<<<<<<< HEAD
     "scoreMAL": 6.31,
     "scoredbyMAL": 314,
-=======
-    "scoreMAL": 6.28,
-    "scoredbyMAL": 308,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -6858,11 +4772,7 @@
     "format": "ТБ",
     "year": "1971",
     "scoreMAL": 7.62,
-<<<<<<< HEAD
     "scoredbyMAL": 32955,
-=======
-    "scoredbyMAL": 32586,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4913-lyupen-iii.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -6947,11 +4857,7 @@
     "format": "ТБ",
     "year": "2005",
     "scoreMAL": 7.91,
-<<<<<<< HEAD
     "scoredbyMAL": 91156,
-=======
-    "scoredbyMAL": 90848,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4668-ayshld-21.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -6978,11 +4884,7 @@
     "format": "ТБ",
     "year": "1993",
     "scoreMAL": 8.55,
-<<<<<<< HEAD
     "scoredbyMAL": 143090,
-=======
-    "scoredbyMAL": 142008,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3699-slam-dunk.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7041,11 +4943,7 @@
     "format": "ТБ",
     "year": "1986",
     "scoreMAL": 8.19,
-<<<<<<< HEAD
     "scoredbyMAL": 20053,
-=======
-    "scoredbyMAL": 19899,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4569-maison-ikkoku.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7074,11 +4972,7 @@
     "format": "ТБ",
     "year": "1999",
     "scoreMAL": 8.42,
-<<<<<<< HEAD
     "scoredbyMAL": 299520,
-=======
-    "scoredbyMAL": 297683,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4600-hunter-x-hunter.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7118,11 +5012,7 @@
     "format": "Фільм",
     "year": "1994",
     "scoreMAL": 7.69,
-<<<<<<< HEAD
     "scoredbyMAL": 30074,
-=======
-    "scoredbyMAL": 29780,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4559-bishoujo-senshi-sailor-moon-s-kaguya-hime-no-koibito.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7277,11 +5167,7 @@
     "format": "ОМА",
     "year": "2003",
     "scoreMAL": 7.04,
-<<<<<<< HEAD
     "scoredbyMAL": 12235,
-=======
-    "scoredbyMAL": 12133,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4459-aru-tabibito-no-nikki.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7312,23 +5198,15 @@
       "Ani-Kuri 15",
       "Anikuri 15",
       "Neko no Shuukai",
-<<<<<<< HEAD
       "Котяче збіговисько",
       "Котячі збори",
       "ANIme KURIeta"
-=======
-      "Котяче збіговисько"
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     ],
     "type": "Аніме",
     "format": "Спешл",
     "year": "2007",
     "scoreMAL": 6.68,
-<<<<<<< HEAD
     "scoredbyMAL": 11201,
-=======
-    "scoredbyMAL": 11115,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -7538,13 +5416,8 @@
     "type": "Аніме",
     "format": "Фільм",
     "year": "1989",
-<<<<<<< HEAD
     "scoreMAL": 7.38,
     "scoredbyMAL": 4424,
-=======
-    "scoreMAL": 7.37,
-    "scoredbyMAL": 4359,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4661-city-hunter-ai-to-shukumei-no-magnum.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7571,11 +5444,7 @@
     "format": "Спешл",
     "year": "1993",
     "scoreMAL": 7.06,
-<<<<<<< HEAD
     "scoredbyMAL": 8112,
-=======
-    "scoredbyMAL": 8093,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4647-bishoujo-senshi-sailor-moon-r-make-up-sailor-senshi.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7600,13 +5469,8 @@
     "type": "Аніме",
     "format": "Спешл",
     "year": "2000",
-<<<<<<< HEAD
     "scoreMAL": 7.3,
     "scoredbyMAL": 36441,
-=======
-    "scoreMAL": 7.31,
-    "scoredbyMAL": 36297,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4565-love-hina-christmas-special-silent-eve.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7665,11 +5529,7 @@
     "format": "ОВА",
     "year": "2021",
     "scoreMAL": 8.13,
-<<<<<<< HEAD
     "scoredbyMAL": 41035,
-=======
-    "scoredbyMAL": 40403,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4265-given-uragawa-no-sonzai.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7749,13 +5609,8 @@
     "type": "Аніме",
     "format": "Фільм",
     "year": "2024",
-<<<<<<< HEAD
     "scoreMAL": 8.02,
     "scoredbyMAL": 5175,
-=======
-    "scoreMAL": 8.01,
-    "scoredbyMAL": 3283,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5042-ven-flm-2-zbrka-hyira.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7804,13 +5659,8 @@
     "type": "Аніме",
     "format": "ОМА",
     "year": "2024",
-<<<<<<< HEAD
     "scoreMAL": 6.68,
     "scoredbyMAL": 1793,
-=======
-    "scoreMAL": 6.66,
-    "scoredbyMAL": 1428,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4619-high-card-season-2.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7836,13 +5686,8 @@
     "type": "Аніме",
     "format": "Фільм",
     "year": "2018",
-<<<<<<< HEAD
     "scoreMAL": 5.08,
     "scoredbyMAL": 1712,
-=======
-    "scoreMAL": 5.04,
-    "scoredbyMAL": 1646,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5051-aranye-obolonka-dlya-komah.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7929,11 +5774,7 @@
     "format": "ТБ",
     "year": "2024",
     "scoreMAL": 5.24,
-<<<<<<< HEAD
     "scoredbyMAL": 9575,
-=======
-    "scoredbyMAL": 9147,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4886-raysk-garyach-dzherela.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -7992,11 +5833,7 @@
     "format": "Фільм",
     "year": "2017",
     "scoreMAL": 7.86,
-<<<<<<< HEAD
     "scoredbyMAL": 17477,
-=======
-    "scoredbyMAL": 17368,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4785-lyupen-trety-brizki-krov-oemona-shkavi.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8124,13 +5961,8 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "2024",
-<<<<<<< HEAD
     "scoreMAL": 6.24,
     "scoredbyMAL": 41655,
-=======
-    "scoreMAL": 6.26,
-    "scoredbyMAL": 36220,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4869-chomu-nhto-v-comu-svt-ne-pamyataye-mene.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8159,13 +5991,8 @@
     "type": "Китайське",
     "format": "ОМА",
     "year": "2024",
-<<<<<<< HEAD
     "scoreMAL": 7.71,
     "scoredbyMAL": 1575,
-=======
-    "scoreMAL": 7.7,
-    "scoredbyMAL": 1446,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -8195,11 +6022,7 @@
     "format": "ОМА",
     "year": "2024",
     "scoreMAL": 7.7,
-<<<<<<< HEAD
     "scoredbyMAL": 27951,
-=======
-    "scoredbyMAL": 27310,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4666-monstri-103-miloserdya-proklyattya-drakona.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8247,11 +6070,7 @@
     "id": "176d30fa-35d0-8018-8075-c9a57e7630e7",
     "last_edited": "2025-01-09T09:29:00.000Z",
     "hikka_url": "https://hikka.io/anime/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow-0f969d",
-<<<<<<< HEAD
     "poster": "https://cdn.hikka.io/content/anime/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow-0f969d/pv4kCDpu5aQl67BAB48WYg.jpg",
-=======
-    "poster": "https://cdn.hikka.io/content/anime/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow-0f969d/TOSktHB2yG5EpWq47RWnhg.jpg",
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "title": "Тільки я візьму новий рівень 2: Вихід із тіні",
     "synonyms": [],
     "hikkaSynonyms": [
@@ -8260,13 +6079,8 @@
     "type": "Корейське",
     "format": "ТБ",
     "year": "2025",
-<<<<<<< HEAD
     "scoreMAL": 8.85,
     "scoredbyMAL": 75912,
-=======
-    "scoreMAL": 0,
-    "scoredbyMAL": 0,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -8346,11 +6160,7 @@
     "format": "Спешл",
     "year": "2014",
     "scoreMAL": 5.68,
-<<<<<<< HEAD
     "scoredbyMAL": 6798,
-=======
-    "scoredbyMAL": 6781,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/1945-godinnik-romantiki-romantica-clock.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8378,13 +6188,8 @@
     "type": "Аніме",
     "format": "ТБ",
     "year": "2002",
-<<<<<<< HEAD
     "scoreMAL": 8.05,
     "scoredbyMAL": 169519,
-=======
-    "scoreMAL": 8.04,
-    "scoredbyMAL": 167740,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4137-adzumana.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8414,11 +6219,7 @@
     "format": "Спешл",
     "year": "2013",
     "scoreMAL": 7.58,
-<<<<<<< HEAD
     "scoredbyMAL": 41068,
-=======
-    "scoredbyMAL": 40433,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -8486,11 +6287,7 @@
     "format": "Спешл",
     "year": "2015",
     "scoreMAL": 8.09,
-<<<<<<< HEAD
     "scoredbyMAL": 59060,
-=======
-    "scoredbyMAL": 58689,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4567-basketbol-kuroko-ce-naykraschiy-podarunok.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8553,11 +6350,7 @@
     "format": "ТБ",
     "year": "2018",
     "scoreMAL": 6.64,
-<<<<<<< HEAD
     "scoredbyMAL": 27117,
-=======
-    "scoredbyMAL": 26915,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4662-charvna-dvchinka-ore.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8591,11 +6384,7 @@
     "format": "ТБ",
     "year": "2011",
     "scoreMAL": 7.86,
-<<<<<<< HEAD
     "scoredbyMAL": 244916,
-=======
-    "scoredbyMAL": 244280,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4534-svt-vdomiy-lish-bogu-2-sezon.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8716,11 +6505,7 @@
     "format": "ТБ",
     "year": "1984",
     "scoreMAL": 7.96,
-<<<<<<< HEAD
     "scoredbyMAL": 46341,
-=======
-    "scoredbyMAL": 46136,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4488-hokuto-no-ken.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8775,11 +6560,7 @@
     "format": "ТБ",
     "year": "2023",
     "scoreMAL": 7.28,
-<<<<<<< HEAD
     "scoredbyMAL": 33197,
-=======
-    "scoredbyMAL": 31755,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -8808,11 +6589,7 @@
     "format": "ТБ",
     "year": "2020",
     "scoreMAL": 7.23,
-<<<<<<< HEAD
     "scoredbyMAL": 87314,
-=======
-    "scoredbyMAL": 84920,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4428-kuma-kuma-kuma-bear.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -8932,11 +6709,7 @@
     "format": "ТБ",
     "year": "2021",
     "scoreMAL": 7.79,
-<<<<<<< HEAD
     "scoredbyMAL": 66732,
-=======
-    "scoredbyMAL": 66086,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3896-kazka-pro-dvchinu-epohi-tayse.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78210,11 +75983,7 @@
     "format": "ТБ",
     "year": "2016",
     "scoreMAL": 6.95,
-<<<<<<< HEAD
     "scoredbyMAL": 29093,
-=======
-    "scoredbyMAL": 28805,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -78386,11 +76155,7 @@
     "format": "ТБ",
     "year": "1970",
     "scoreMAL": 8.32,
-<<<<<<< HEAD
     "scoredbyMAL": 26038,
-=======
-    "scoredbyMAL": 25700,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4228-ashita-no-joe.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78416,11 +76181,7 @@
     "format": "Фільм",
     "year": "2011",
     "scoreMAL": 7.17,
-<<<<<<< HEAD
     "scoredbyMAL": 43069,
-=======
-    "scoredbyMAL": 42643,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4554-konohamaru.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78457,11 +76218,7 @@
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 6.74,
-<<<<<<< HEAD
     "scoredbyMAL": 9144,
-=======
-    "scoredbyMAL": 8596,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4050-slabkiy-pyati-tisyachorchniy-drakon-vegetaranec.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78496,13 +76253,8 @@
     "type": "Китайське",
     "format": "ОМА",
     "year": "2024",
-<<<<<<< HEAD
     "scoreMAL": 6.77,
     "scoredbyMAL": 1758,
-=======
-    "scoreMAL": 6.75,
-    "scoredbyMAL": 1305,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/5000-slabkiy-pyati-tisyachorchniy-drakon-vegetaranec-2-sezon.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78569,11 +76321,7 @@
     "format": "ТБ",
     "year": "2017",
     "scoreMAL": 7.07,
-<<<<<<< HEAD
     "scoredbyMAL": 137855,
-=======
-    "scoredbyMAL": 135728,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4877-licar-ta-magya.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78608,11 +76356,7 @@
     "format": "Спешл",
     "year": "2003",
     "scoreMAL": 6.57,
-<<<<<<< HEAD
     "scoredbyMAL": 48049,
-=======
-    "scoredbyMAL": 47714,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4336-naruto-akaki-yotsuba-no-clover-wo-sagase.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78644,13 +76388,8 @@
     "type": "Китайське",
     "format": "ОМА",
     "year": "2024",
-<<<<<<< HEAD
     "scoreMAL": 7.56,
     "scoredbyMAL": 150,
-=======
-    "scoreMAL": 0,
-    "scoredbyMAL": 0,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -78683,11 +76422,7 @@
     "format": "ОМА",
     "year": "2012",
     "scoreMAL": 6.45,
-<<<<<<< HEAD
     "scoredbyMAL": 31584,
-=======
-    "scoredbyMAL": 31441,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/3444-upotte.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78790,11 +76525,7 @@
     "format": "ОВА",
     "year": "2013",
     "scoreMAL": 7.09,
-<<<<<<< HEAD
     "scoredbyMAL": 52863,
-=======
-    "scoredbyMAL": 52588,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -78914,11 +76645,7 @@
     "format": "ОМА",
     "year": "2022",
     "scoreMAL": 8.18,
-<<<<<<< HEAD
     "scoredbyMAL": 13683,
-=======
-    "scoredbyMAL": 13396,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4765-blyuz-mashini-chasu-pro-chotiri-z-polovinoyu-tatam.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -78974,11 +76701,7 @@
     "format": "ТБ",
     "year": "1999",
     "scoreMAL": 8.18,
-<<<<<<< HEAD
     "scoredbyMAL": 143151,
-=======
-    "scoredbyMAL": 141895,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/2887-initial-d-second-stage.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -79033,11 +76756,7 @@
     "format": "ТБ",
     "year": "2017",
     "scoreMAL": 6.37,
-<<<<<<< HEAD
     "scoredbyMAL": 30967,
-=======
-    "scoredbyMAL": 30752,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4876-anme-storyi.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -79074,11 +76793,7 @@
     "format": "Спешл",
     "year": "2005",
     "scoreMAL": 7.5,
-<<<<<<< HEAD
     "scoredbyMAL": 14887,
-=======
-    "scoredbyMAL": 14800,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/2123-my-goddess-tv1.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -79112,13 +76827,8 @@
     "type": "Аніме",
     "format": "Спешл",
     "year": "2020",
-<<<<<<< HEAD
     "scoreMAL": 6.89,
     "scoredbyMAL": 2814,
-=======
-    "scoreMAL": 6.88,
-    "scoredbyMAL": 2769,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -79238,11 +76948,7 @@
     "format": "ОМА",
     "year": "2024",
     "scoreMAL": 6.59,
-<<<<<<< HEAD
     "scoredbyMAL": 7329,
-=======
-    "scoredbyMAL": 5796,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4899-spravzhnya-krasa.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -79491,11 +77197,7 @@
     "format": "ТБ",
     "year": "2014",
     "scoreMAL": 7.15,
-<<<<<<< HEAD
     "scoredbyMAL": 148973,
-=======
-    "scoredbyMAL": 147968,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/2691-lyubovna-scena-love-stage.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -79525,11 +77227,7 @@
     "format": "ОВА",
     "year": "2000",
     "scoreMAL": 7.24,
-<<<<<<< HEAD
     "scoredbyMAL": 37455,
-=======
-    "scoredbyMAL": 36973,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4057-jojo-no-kimyou-na-bouken-adventure.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -79592,11 +77290,7 @@
     "format": "ОМА",
     "year": "2017",
     "scoreMAL": 6.76,
-<<<<<<< HEAD
     "scoredbyMAL": 38769,
-=======
-    "scoredbyMAL": 38664,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/4532-quanzhi-fashi-ii.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -81753,19 +79447,11 @@
     "posters": [
       {
         "name": "Магічна битва - нищівна міграція.jpg",
-<<<<<<< HEAD
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZKWULSXU%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T074421Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHcaCXVzLXdlc3QtMiJHMEUCIQCI8qufL1AgyS2dPW4vTevqmoSyRb13fFZB8wfRWoMMCwIgEI9epT%2BGqj%2FRSFWeL7ZqjW6nYG9uTe9u%2Bbyld%2FS7ZAEqiAQIoP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDDjJBGcjjY5BkknELyrcA%2F%2BxJeIewWmYb%2BD86ykhZ9jdq6kazeThHJbLsXoFOyqBv6jBBnP6aoZX7IIUyrqooHmJlgKaei8gQEU18JaaQTwKYLyBX6Y6FyQYLyrSXecxCF1rLSoBsBZfm2xWPKQMh734H6U5Ok%2BbPl2REAoYNKD2%2FcWCJrUyifP4JnGiViAtrM%2FD%2Busv5g6Vr0Qam%2F08wNvq7gt%2FFo06hE47ZXo9X4x7oNWw31KBwDaAYAhyh%2FqeaE76Vq5ldaBmkjg0eGH08lTnp8WPze6m0MDELmMDeg6r%2BOTxTWcrBCxRIlOKyi19dcfnOYh43TgpE2tWC0iY4fwv9vpfj668fNYeBPlyvq7xYlrdfD0m9Qq32HneWxUzYvthus5ZtBKomIB0i0jjzGj1cBVXENxLDIljnRUXwBepeWY2X55bk6Ity1ySGzB7mXXY96xVk9HNv2vb7M%2Bt1I2x5w%2FNSuk3LcCrb%2BRLae8x0ODqJ3omUkm0eM9VW3lRkQedJrtzIhC%2BEG4bcCNkd9RsM%2F0wDLM5NvyV6StxfcWEupnC77PQnn%2FFbqrSdfS3kMj4GtQOz9mz%2FVclCulN8Ujv%2B5AojTNt7qsWMkXxEDKR5YAMkLSTOuYXZ6fBG9rTatIcVgxX4CZsFXJbMLL91b0GOqUBLNwbtBY3GR6ix%2Fmxnr8KG2SUxCHRuPYTeou1H%2FG9yUuon2ND2rKTapuMCAFo1MyqXASpod%2BUtE7pjV3a4rIeuY%2Fq2ExohqESl%2BNURlSiIx7MkkOKJaaE2genSpq0oOe2HerotmivSJouR4qZe3YPmcI55ilDSUS04EgK7EayIXyuFkrlsgFEQkRYRMq%2Bp4WeIwI2HvHAUPNHdRBTwMRf9mDLaOoK&X-Amz-Signature=0aa1760ba75b01a2272b99a1aaf6c0d4af3e6ed2c5cedd00a2acedf691d6180c&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XIUEF4MF%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T081950Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJGMEQCIAQdRP8ip5guX2NkM1Cj%2BOEpWIfj67ACnk%2FMJ569mcSWAiBmEjFSIobMMy2X2JdtYpL8l3%2FUcWRSQxrFLH7lFcxfiSqIBAih%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMc2mogpvl2sqFBNGGKtwDPCVnYJ52Hzk6qXsRuEZJ1G6jMvGMjLlhWDjMVHBv5fTo1E4uXZwcn5VB4i2p%2B3UxMzrQ58JqU%2FIs4v17QDUjIYpLBme4WY%2BZng3FTbhc5KutYpNZUFPu2JaDAmydHRkWe2f6M3uPyj6DFQmhJJULwCVYwFAuvICZO7KgUyUrodrKKD1p8OEig4BUzZp8wP2aSy9vvWYwYTC9O8bv6r43MvmBa8SNEtxohRNWwK1g37PKYPAOCY6JFdnCPgdvo2Dg51XJKq8l%2FbAQcOeBiXyfEg%2B8LTBYeJrGAi0YmC%2Fjr4Qff7lqhbAM8SWGJoDfxR%2FXNj30L996CJFMs1SiMJcILOJMl69N7xvQ%2Bt8zbnYLL2R5T6yIuLck1shtKNYePNW4nWuZb%2BBntIwOd18vS15cDWhjPud36koVIxrEcRAyfsyAT9ll1g%2B9JrYFCAyybJ3gX1adI1H7V0tLwVsbzLLNyGN9b3Mm068QC1XiYjQM2CC5Ozwk85KqNMG%2B4iGy%2FQBW675ooEm5CxA%2FW%2BY54obCA%2FfE%2B2EoBCyR5u5TtAyJpDlK2SSNbkfFrKI05yO80YM713mBkP0AM6LAto1NiboMaaQcdkcIKiDBOLBJsCQ8vAwLJJojEz%2FJ88Fphf4wwJ7WvQY6pgFDuDfcN%2B6BG2BSYpOeoNxH2O8wdHAA0b1BHibF7F8JiYkpn%2B9Y4FYUBXMvIa%2BvifEuw79RX3ujaxNjAfLR3zyue4ZbAQw7RvWk4p6jmP0nZ7IjiA5NB2ZVc1gpekq%2B69t734W3lKSzZDSE2Gm%2BdIFmveij1m5o%2FTbMlaK%2B%2By0NwMwWL4zjpIKM2MmtuaitNrOzV0dq7ZJC43Zk6KVUVaI%2FLc5p1JgM&X-Amz-Signature=fb69348fd9861f50c46343c39c1041e8b613e56b937bb31a666e1aec90dcfe2d&X-Amz-SignedHeaders=host&x-id=GetObject"
       },
       {
         "name": "Магічна битва - гра на вибування-min.png",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZKWULSXU%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T074421Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHcaCXVzLXdlc3QtMiJHMEUCIQCI8qufL1AgyS2dPW4vTevqmoSyRb13fFZB8wfRWoMMCwIgEI9epT%2BGqj%2FRSFWeL7ZqjW6nYG9uTe9u%2Bbyld%2FS7ZAEqiAQIoP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDDjJBGcjjY5BkknELyrcA%2F%2BxJeIewWmYb%2BD86ykhZ9jdq6kazeThHJbLsXoFOyqBv6jBBnP6aoZX7IIUyrqooHmJlgKaei8gQEU18JaaQTwKYLyBX6Y6FyQYLyrSXecxCF1rLSoBsBZfm2xWPKQMh734H6U5Ok%2BbPl2REAoYNKD2%2FcWCJrUyifP4JnGiViAtrM%2FD%2Busv5g6Vr0Qam%2F08wNvq7gt%2FFo06hE47ZXo9X4x7oNWw31KBwDaAYAhyh%2FqeaE76Vq5ldaBmkjg0eGH08lTnp8WPze6m0MDELmMDeg6r%2BOTxTWcrBCxRIlOKyi19dcfnOYh43TgpE2tWC0iY4fwv9vpfj668fNYeBPlyvq7xYlrdfD0m9Qq32HneWxUzYvthus5ZtBKomIB0i0jjzGj1cBVXENxLDIljnRUXwBepeWY2X55bk6Ity1ySGzB7mXXY96xVk9HNv2vb7M%2Bt1I2x5w%2FNSuk3LcCrb%2BRLae8x0ODqJ3omUkm0eM9VW3lRkQedJrtzIhC%2BEG4bcCNkd9RsM%2F0wDLM5NvyV6StxfcWEupnC77PQnn%2FFbqrSdfS3kMj4GtQOz9mz%2FVclCulN8Ujv%2B5AojTNt7qsWMkXxEDKR5YAMkLSTOuYXZ6fBG9rTatIcVgxX4CZsFXJbMLL91b0GOqUBLNwbtBY3GR6ix%2Fmxnr8KG2SUxCHRuPYTeou1H%2FG9yUuon2ND2rKTapuMCAFo1MyqXASpod%2BUtE7pjV3a4rIeuY%2Fq2ExohqESl%2BNURlSiIx7MkkOKJaaE2genSpq0oOe2HerotmivSJouR4qZe3YPmcI55ilDSUS04EgK7EayIXyuFkrlsgFEQkRYRMq%2Bp4WeIwI2HvHAUPNHdRBTwMRf9mDLaOoK&X-Amz-Signature=cc86a6f5acf52ad4eac0341fc27bd3ae0559581360e0f8349d9666cabbcca561&X-Amz-SignedHeaders=host&x-id=GetObject"
-=======
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/3c8c9d2c-fb07-47bd-aaad-c8ae74ade99c/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%BD%D0%B8%D1%89%D1%96%D0%B2%D0%BD%D0%B0_%D0%BC%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ZSV6VR3%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T074540Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHcaCXVzLXdlc3QtMiJGMEQCIGej1ksY91sHI%2Bl4TEFKiWgcPhTcRrhUBQxFEDM1QYkcAiAjLfV48IW4XLnFe5oM5qUZ%2Boii7XzIs12%2FfWQhGfQXiSqIBAig%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM2wFVJHTK36B5Od3AKtwDLvRDkSwtKhlaDtVtGAVrN01eB07RrMr1x0Z7GIb9zBqSi9%2Fk8vvISOyPccvAL5qQjycwrMSJ2Sh%2BOfK8h4tLpVpbLFo8AmCNN8kz39mDC2u3zZq9XBoDxz%2FjllqXT%2FtZC0qzBzF8yxuteX%2FrMgolHn1FUR8Y5Vp3GiSPL1KL%2FEItb%2FRzeM9DYsNeOERMZa9d8V%2BZbutOnslqJBoP7%2FlA%2FYxjcxvKloTLnQTKU9p%2Fi92nvhindqgCNmP0Wanrd1%2BTYsgnLjzjSUVxV0hYtg%2BZTlU5rWJKyUKKKqCjU0WkN%2BT0Gntv6yIzJKiRt%2BWGAUT4yBmd1AE9CrWvWbndUFC42kDltuJ186vVHFRkjizgLZTzK9ANYswtfPTfOZ71eF5pSIuGvGH1XTA4vjEgN7shjt1IUYYMMN7AIiiZs0Qz7nZZYZQmzChzwHpajFFUChTjYjKMD6YcAlRAOjD15Cjq05%2BiTigH2dy2P%2BPIkOAMBXuNwhod4nBTrkfOKJO1jT%2FN7LHniz%2FF6Hsmh%2BhGaO0Lsp3iZm4fYzPn3mUMYqzdiKSjrvdpqajvpaJHfrVxHE5m7%2F6YOCX8WSrspiuB24iXTRb7ECFXNLyd8px0IkB8%2Fa0jceBfhT0iJpopt0Iwhv3VvQY6pgFj2PaMx5EmYp0EGqI%2B7G8K%2BzNSvur3m%2BLZHx2miVjP5qJzMwBN%2BTmNOZZDq7TJzO6NIqkzmpgZCd019mHAaupEhSyceQmgjf8bo6UlHiTKq0r2kpIZ1LejLxt0%2B%2FJEwPTQ0VVhVA1VbRd79B4Jk%2FSqzKS8QED567HztZmIIIszheJ%2Fg1OL17ixXHJNkfAAJpei6M%2FIRnELJwAb3Hz4mRVDf1oaPR0V&X-Amz-Signature=a453fee347c6a7d7af3e03b963658a80b435fecf78ff1550b756b2b462072b1b&X-Amz-SignedHeaders=host&x-id=GetObject"
-      },
-      {
-        "name": "Магічна битва - гра на вибування-min.png",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ZSV6VR3%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T074540Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHcaCXVzLXdlc3QtMiJGMEQCIGej1ksY91sHI%2Bl4TEFKiWgcPhTcRrhUBQxFEDM1QYkcAiAjLfV48IW4XLnFe5oM5qUZ%2Boii7XzIs12%2FfWQhGfQXiSqIBAig%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM2wFVJHTK36B5Od3AKtwDLvRDkSwtKhlaDtVtGAVrN01eB07RrMr1x0Z7GIb9zBqSi9%2Fk8vvISOyPccvAL5qQjycwrMSJ2Sh%2BOfK8h4tLpVpbLFo8AmCNN8kz39mDC2u3zZq9XBoDxz%2FjllqXT%2FtZC0qzBzF8yxuteX%2FrMgolHn1FUR8Y5Vp3GiSPL1KL%2FEItb%2FRzeM9DYsNeOERMZa9d8V%2BZbutOnslqJBoP7%2FlA%2FYxjcxvKloTLnQTKU9p%2Fi92nvhindqgCNmP0Wanrd1%2BTYsgnLjzjSUVxV0hYtg%2BZTlU5rWJKyUKKKqCjU0WkN%2BT0Gntv6yIzJKiRt%2BWGAUT4yBmd1AE9CrWvWbndUFC42kDltuJ186vVHFRkjizgLZTzK9ANYswtfPTfOZ71eF5pSIuGvGH1XTA4vjEgN7shjt1IUYYMMN7AIiiZs0Qz7nZZYZQmzChzwHpajFFUChTjYjKMD6YcAlRAOjD15Cjq05%2BiTigH2dy2P%2BPIkOAMBXuNwhod4nBTrkfOKJO1jT%2FN7LHniz%2FF6Hsmh%2BhGaO0Lsp3iZm4fYzPn3mUMYqzdiKSjrvdpqajvpaJHfrVxHE5m7%2F6YOCX8WSrspiuB24iXTRb7ECFXNLyd8px0IkB8%2Fa0jceBfhT0iJpopt0Iwhv3VvQY6pgFj2PaMx5EmYp0EGqI%2B7G8K%2BzNSvur3m%2BLZHx2miVjP5qJzMwBN%2BTmNOZZDq7TJzO6NIqkzmpgZCd019mHAaupEhSyceQmgjf8bo6UlHiTKq0r2kpIZ1LejLxt0%2B%2FJEwPTQ0VVhVA1VbRd79B4Jk%2FSqzKS8QED567HztZmIIIszheJ%2Fg1OL17ixXHJNkfAAJpei6M%2FIRnELJwAb3Hz4mRVDf1oaPR0V&X-Amz-Signature=c1cda27dfe6b94b59907483e3b43375bb8b41817a3a27cb3170b07dc08cf0045&X-Amz-SignedHeaders=host&x-id=GetObject"
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/dc34a631-95e9-4461-8656-ca3267e40024/%D0%9C%D0%B0%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0_-_%D0%B3%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-min.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XIUEF4MF%2F20250219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250219T081950Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJGMEQCIAQdRP8ip5guX2NkM1Cj%2BOEpWIfj67ACnk%2FMJ569mcSWAiBmEjFSIobMMy2X2JdtYpL8l3%2FUcWRSQxrFLH7lFcxfiSqIBAih%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMc2mogpvl2sqFBNGGKtwDPCVnYJ52Hzk6qXsRuEZJ1G6jMvGMjLlhWDjMVHBv5fTo1E4uXZwcn5VB4i2p%2B3UxMzrQ58JqU%2FIs4v17QDUjIYpLBme4WY%2BZng3FTbhc5KutYpNZUFPu2JaDAmydHRkWe2f6M3uPyj6DFQmhJJULwCVYwFAuvICZO7KgUyUrodrKKD1p8OEig4BUzZp8wP2aSy9vvWYwYTC9O8bv6r43MvmBa8SNEtxohRNWwK1g37PKYPAOCY6JFdnCPgdvo2Dg51XJKq8l%2FbAQcOeBiXyfEg%2B8LTBYeJrGAi0YmC%2Fjr4Qff7lqhbAM8SWGJoDfxR%2FXNj30L996CJFMs1SiMJcILOJMl69N7xvQ%2Bt8zbnYLL2R5T6yIuLck1shtKNYePNW4nWuZb%2BBntIwOd18vS15cDWhjPud36koVIxrEcRAyfsyAT9ll1g%2B9JrYFCAyybJ3gX1adI1H7V0tLwVsbzLLNyGN9b3Mm068QC1XiYjQM2CC5Ozwk85KqNMG%2B4iGy%2FQBW675ooEm5CxA%2FW%2BY54obCA%2FfE%2B2EoBCyR5u5TtAyJpDlK2SSNbkfFrKI05yO80YM713mBkP0AM6LAto1NiboMaaQcdkcIKiDBOLBJsCQ8vAwLJJojEz%2FJ88Fphf4wwJ7WvQY6pgFDuDfcN%2B6BG2BSYpOeoNxH2O8wdHAA0b1BHibF7F8JiYkpn%2B9Y4FYUBXMvIa%2BvifEuw79RX3ujaxNjAfLR3zyue4ZbAQw7RvWk4p6jmP0nZ7IjiA5NB2ZVc1gpekq%2B69t734W3lKSzZDSE2Gm%2BdIFmveij1m5o%2FTbMlaK%2B%2By0NwMwWL4zjpIKM2MmtuaitNrOzV0dq7ZJC43Zk6KVUVaI%2FLc5p1JgM&X-Amz-Signature=f41cdc6ebabccdfb3f36283faf8ec921fdd03c3b298d5d0f8284ca1a349d209d&X-Amz-SignedHeaders=host&x-id=GetObject"
       }
     ]
   },
@@ -85195,13 +82881,8 @@
     "type": "Аніме",
     "format": "Фільм",
     "year": "2011",
-<<<<<<< HEAD
     "scoreMAL": 7.79,
     "scoredbyMAL": 34024,
-=======
-    "scoreMAL": 7.8,
-    "scoredbyMAL": 33938,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -85383,11 +83064,7 @@
     "format": "Фільм",
     "year": "2010",
     "scoreMAL": 7.62,
-<<<<<<< HEAD
     "scoredbyMAL": 44068,
-=======
-    "scoredbyMAL": 43945,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -85493,11 +83170,7 @@
     "format": "Фільм",
     "year": "2010",
     "scoreMAL": 7.82,
-<<<<<<< HEAD
     "scoredbyMAL": 35363,
-=======
-    "scoredbyMAL": 35343,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": "https://anitube.in.ua/1888-zlamaniy-mech-broken-blade.html",
     "Юакіно": null,
     "тґ_канал": null,
@@ -85662,13 +83335,8 @@
     "type": "Аніме",
     "format": "Спешл",
     "year": "2014",
-<<<<<<< HEAD
     "scoreMAL": 6.49,
     "scoredbyMAL": 1624,
-=======
-    "scoreMAL": 6.48,
-    "scoredbyMAL": 1605,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
@@ -86905,13 +84573,8 @@
     "type": "Аніме",
     "format": "Рекап",
     "year": "2015",
-<<<<<<< HEAD
     "scoreMAL": 6.83,
     "scoredbyMAL": 18827,
-=======
-    "scoreMAL": 6.82,
-    "scoredbyMAL": 18695,
->>>>>>> 8dbecffae98a15a58c70354da03ea6d3ddebbe31
     "Анітюб": null,
     "Юакіно": null,
     "тґ_канал": null,
