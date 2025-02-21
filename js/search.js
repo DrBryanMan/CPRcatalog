@@ -1,7 +1,7 @@
 import { allAnimes, allTeams, allReleases } from './loadData.js'
-import { renderTeamDetail } from './renderComponents.js';
+import * as Components from './renderComponents.js'
 
-export function initSearch(renderAnimeDetail, renderReleaseDetail) {
+export function initSearch() {
     searchModal.onclick = (e) => {
         const {left, right, top, bottom} = searchModal.getBoundingClientRect();
         (!((left <= e.clientX && e.clientX <= right && top <= e.clientY && e.clientY <= bottom)) || 
@@ -25,7 +25,7 @@ export function initSearch(renderAnimeDetail, renderReleaseDetail) {
         return allAnimes.filter(anime => 
             anime.title?.toLowerCase().includes(query) || 
             anime.romaji?.toLowerCase().includes(query)
-        ).slice(0, 5)
+        ).slice(0, 20)
     }
 
     function searchReleases(query) {
@@ -34,13 +34,13 @@ export function initSearch(renderAnimeDetail, renderReleaseDetail) {
             return release.title.toLowerCase().includes(query) ||
                 anime?.title?.toLowerCase().includes(query) || 
                 anime?.romaji?.toLowerCase().includes(query)
-        }).slice(0, 5)
+        }).slice(0, 20)
     }
 
     function searchTeams(query) {
         return allTeams.filter(team => 
             team.name.toLowerCase().includes(query)
-        ).slice(0, 5)
+        ).slice(0, 20)
     }
 
     function displayResults(results, type) {
@@ -52,25 +52,24 @@ export function initSearch(renderAnimeDetail, renderReleaseDetail) {
             switch(type) {
                 case 'anime':
                     div.innerHTML = `
-                        <img src="${result.posters[0]?.url || result.poster}" alt="${result.title}">
+                        <img src="${result.poster}">
                         <div>
-                            <div><label class="truncate">${result.title}</label></div>
+                            <div><label class="truncate" title="${result.title}">${result.title}</label></div>
                             <p>${result.year}</p>
                         </div>
                     `
-                    div.onclick = () => (renderAnimeDetail(result), searchModal.close())
+                    div.onclick = () => (Components.renderAnimeDetail(result), searchModal.close())
                     break
                 case 'releases':
                     const anime = allAnimes.find(anime => result.animeIds.includes(anime.id))
-                    // console.log(anime)
                     div.innerHTML = `
-                        <img src="${result.poster || anime?.posters[0]?.url || anime?.poster}"">
+                        <img src="${anime?.poster}">
                         <div>
-                            <div><label class="truncate">${result.title}</label></div>
+                            <div><label class="truncate" title="${result.title}">${result.title}</label></div>
                             <p>Епізоди: ${result.episodes}</p>
                         </div>
                     `
-                    div.onclick = () => (renderReleaseDetail(result), searchModal.close())
+                    div.onclick = () => (Components.renderReleaseDetail(result), searchModal.close())
                     break
                 case 'teams':
                     div.innerHTML = `
@@ -80,7 +79,7 @@ export function initSearch(renderAnimeDetail, renderReleaseDetail) {
                             <p>Релізів: ${result.anime_releases.length}</p>
                         </div>
                     `
-                    div.onclick = () => (renderTeamDetail(result), searchModal.close())
+                    div.onclick = () => (Components.renderTeamDetail(result), searchModal.close())
                     break
             }
             

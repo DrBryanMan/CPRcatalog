@@ -191,6 +191,7 @@ export async function renderReleaseDetail(release) {
     const teams = release.teams.map(t => `<a href="/team/${t.id}" class='data-nav-link' data-navigo><span><img src='${t.logo}'>${t.name}</span></a>`).join('')
     const torrents = release.torrentLinks.filter(t => t.href).map(t => `<a href='${t.href}' external-link>${t.text}</a>`).join('')
     const cover = anime?.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
+    const poster = anime?.poster ? `<img class='title-poster' src='${anime.posters[0]?.url || anime.poster}'>` : ''
     const status = () => {
         switch (release.status) {
             case 'В процесі':
@@ -210,7 +211,7 @@ export async function renderReleaseDetail(release) {
     <div class='title-detail release-page'>
         ${cover}
         <div class='top-section'>
-            <img class='title-poster' src='${anime.posters[0]?.url || anime.poster}'>
+            ${poster}
             <div class='center-column'>
                 <div>
                     <h1>${release.title}</h1>
@@ -252,6 +253,7 @@ export async function renderAnimeDetail(anime) {
     Functions.updateNavigation('Аніме', anime.title)
     const teams = anime.teams.map(t => `<a href="/team/${t.id}" class='data-nav-link' data-navigo><span><img src='${t.logo}'>${t.name}</span></a>`).join('')
     const cover = anime.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
+    const poster = anime?.poster ? `<img class='title-poster' src='${anime.posters[0]?.url || anime.poster}'>` : ''
     const HikkaLink = anime.hikka_url 
         ? `<a href="${anime.hikka_url}" target="_blank" class='badge' data-navigo>
                 <img src='https://rosset-nocpes.github.io/ua-badges/src/hikka-dark.svg'>
@@ -269,23 +271,23 @@ export async function renderAnimeDetail(anime) {
     <div class='title-detail'>
         ${cover}
         <div class='top-section'>
-            <img class='title-poster' src='${anime.posters[0]?.url || anime.poster}' title='${anime.title}'>
+            ${poster}
             <div class='center-column'>
                 <div>
                     <h1>${anime.title}</h1>
-                    ${anime.hikkaSynonyms.length !== 0 ? `
+                    ${anime.hikkaSynonyms?.length !== 0 ? `
                         <button id="altNamesModalBtn" onclick='altNamesModal.showModal()'>•••</button> <span> ${anime.romaji}</span>
                         <dialog id="altNamesModal" class="alternative-names modal">
                             <span id="altNamesModalClose" class="modal-close">&times;</span>
                             <h2>Альтернативні назви</h2>
-                            <div id="altNamesContent">${anime.hikkaSynonyms.map(title => `<span>${title}</span>`).join('')}</div>
+                            <div id="altNamesContent">${anime.hikkaSynonyms?.map(title => `<span>${title}</span>`).join('')}</div>
                         </dialog>
                     ` : `<span> ${anime.romaji}</span>`}
                 </div>
                 <div class='title-info'>
                     <a href="/animes" class='data-nav-link' data-navigo><span><i class="material-symbols-rounded" title="Тип">category</i> ${anime.type}</span></a>
                     <a href="/animes?format=${anime.format}" class='data-nav-link' data-navigo><span><i class="material-symbols-rounded" title="Формат">spoke</i> ${anime.format}</span></a>
-                    <span><i class="material-symbols-rounded" title="Рік">event_available</i> ${anime.year}</span>
+                    <span><i class="material-symbols-rounded" title="Рік">event_available</i> ${anime.year || 'Не вказано'}</span>
                     <span><i class="material-symbols-rounded" title="Епізодів">format_list_numbered</i> ${anime.episodes}</span>
                 </div>
                 <div class='watch-info'>${HikkaLink}${UaKinoLink}${AnitubeLink}</div>

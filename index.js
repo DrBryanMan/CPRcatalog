@@ -7,14 +7,10 @@ import { router, setupRoutes } from './js/router.js'
 // Викликаємо рендеринг головної сторінки при завантаженні сторінки
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        (window.location.pathname === '/CPRcatalog/' || window.location.pathname === '/' || window.location.pathname === '/index.html') && window.location.hash === '' ? router.navigate('/') : null
         loadingОverlay.style.display = 'flex'
         await loadData()
         setupRoutes()
-        initSearch( 
-            (anime) => router.navigate(`/anime/${anime.id}`),
-            (release) => router.navigate(`/release/${release.id}`)
-        )
+        initSearch()
         Functions.addExternalLinkEvent()
 
         cacheButton.onclick = () => {

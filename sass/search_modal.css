@@ -56,7 +56,6 @@
 #searchResults {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 10px;
   overflow-y: auto;
   max-height: 60vh;

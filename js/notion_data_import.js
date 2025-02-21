@@ -61,6 +61,57 @@ function colorLog(message, color = 'reset', mode = OUTPUT_MODES.NEWLINE) {
   }
 }
 
+// Функція для завантаження попередніх даних з файлу
+async function loadPreviousData(fileName) {
+  try {
+    const filePath = path.join(__dirname, "../json", fileName)
+    const data = JSON.parse(await fs.readFile(filePath, "utf8"))
+    colorLog(`Завантажено попередні дані з ${fileName}: ${data.length} записів`, 'blue')
+    return data
+  } catch (error) {
+    colorLog(`Попередні дані з ${fileName} не знайдено або помилка читання: ${error.message}`, 'yellow')
+    return []
+  }
+}
+
+// Функція для створення резервної копії файлу
+async function createBackup(fileName) {
+  try {
+    const sourcePath = path.join(__dirname, '../json', fileName)
+    const backupPath = path.join(
+      __dirname, 
+      '../json/backups', 
+      `${path.parse(fileName).name}_backup_${new Date().toISOString().replace(/:/g, '-')}${path.parse(fileName).ext}`
+    )
+    
+    // Створюємо директорію для резервних копій, якщо її не існує
+    await fs.mkdir(path.join(__dirname, '../json/backups'), { recursive: true })
+    
+    await fs.copyFile(sourcePath, backupPath)
+    colorLog(`Створено резервну копію: ${backupPath}`, 'green')
+  } catch (error) {
+    colorLog(`Не вдалося створити резервну копію: ${error.message}`, 'yellow')
+  }
+}
+
+// Функція для збереження даних з можливістю створення резервної копії
+async function saveData(fileName, data) {
+  try {
+    // Спершу робимо резервну копію
+    await createBackup(fileName)
+    
+    // Зберігаємо нові дані
+    await fs.writeFile(
+      path.join(__dirname, '../json', fileName),
+      JSON.stringify(data, null, 2)
+    )
+    colorLog(`Успішно збережено дані у файл ${fileName}: ${data.length} записів`, 'green')
+  } catch (error) {
+    colorLog(`Помилка при збереженні даних у файл ${fileName}: ${error.message}`, 'red')
+    throw error
+  }
+}
+
 async function getPageById(pageId) {
   try {
     const response = await Notion.pages.retrieve({
@@ -151,7 +202,7 @@ async function getAllRelatedIds(pageId, propertyId) {
   let hasMore = true
   let startCursor = undefined
   let retryCount = 0
-  const MAX_RETRIES = 3
+  const MAX_RETRIES = 10
 
   while (hasMore && retryCount < MAX_RETRIES) {
     try {
@@ -176,7 +227,7 @@ async function getAllRelatedIds(pageId, propertyId) {
       
       if (retryCount < MAX_RETRIES) {
         // Чекаємо перед повторною спробою
-        await new Promise(resolve => setTimeout(resolve, 1000 * retryCount))
+        await new Promise(resolve => setTimeout(resolve, 2000 * retryCount))
       } else {
         console.error(`Досягнуто максимальну кількість спроб для pageId: ${pageId}`)
         hasMore = false
@@ -215,10 +266,10 @@ async function fetchHikkaData(urls) {
 }
 
 const processAnimeData = async (pages) => {
-  let previousData = []
-  const existingDataPath = path.join(__dirname, "../json/AnimeTitlesDB.json")
-  previousData = JSON.parse(await fs.readFile(existingDataPath, "utf8"))
-
+  // Завантажуємо попередні дані
+  const previousData = await loadPreviousData("AnimeTitlesDB.json")
+  const previousDataMap = new Map(previousData.map(anime => [anime.id, anime]))
+  
   const hikkaUrls = pages
     .filter(page => {
       const hikkaUrl = page.properties.Hikka?.url
@@ -259,53 +310,92 @@ const processAnimeData = async (pages) => {
     const hikka_url = page.properties.Hikka?.url
     const hikkaInfo = hikka_url ? existingData.get(hikka_url) : null
     count++
-    colorLog(`Обробка: ${count}/${pages.length}. ${page.properties['Назва тайтлу'].title[0]?.plain_text || 'Невідомо для' + page.id}`, 'green', OUTPUT_MODES.PROGRESS)
-    results.push({
-      id: page.id,
+    
+    const pageId = page.id
+    const previousAnime = previousDataMap.get(pageId)
+    const titleText = page.properties['Назва тайтлу'].title[0]?.plain_text || 'Невідомо для' + pageId
+    colorLog(`Обробка: ${count}/${pages.length}. ${titleText}`, 'green', OUTPUT_MODES.PROGRESS)
+    
+    // Отримуємо нові дані з поточної сторінки
+    const newAnimeData = {
+      id: pageId,
       last_edited: page.last_edited_time,
       hikka_url,
       cover: page.cover?.external?.url || page.cover?.file?.url,
       poster: hikkaInfo?.poster,
-      title: page.properties['Назва тайтлу'].title[0]?.plain_text || 'Без назви',
+      title: titleText,
       romaji: page.properties.Ромаджі.rich_text[0]?.plain_text,
       synonyms: page.properties.Синоніми.rich_text?.flatMap(i => i.plain_text.split('\n')),
       hikkaSynonyms: hikkaInfo?.synonyms,
-      // 
       type: page.properties['Тип медіа'].multi_select[0]?.name,
       format: page.properties.Формат.select?.name,
       year: page.properties['Рік виходу'].rich_text[0]?.plain_text,
       scoreMAL: hikkaInfo?.score,
       scoredbyMAL: hikkaInfo?.scored_by,
-      // 
       Анітюб: page.properties.АніТюб.url,
       Юакіно: page.properties.Uakino.url,
       тґ_канал: page.properties['Tg канал'].url,
       episodes: page.properties['Кількість серій'].rich_text[0]?.plain_text,
-      releases: page.properties['🗂️ Релізи команд'].relation,
-      relations: page.properties["Пов'язані частини"].relation,
-      Франшиза: page.properties.Франшиза.relation,
+      releases: page.properties['🗂️ Релізи команд'].relation || [],
+      relations: page.properties["Пов'язані частини"].relation || [],
+      Франшиза: page.properties.Франшиза.relation || [],
       posters: page.properties.Постер?.files.map(i => ({
         name: i.name,
         url: i.external?.url || i.file.url
-      })),
-    })
+      })) || []
+    }
+    
+    // Перевіряємо і зберігаємо попередні значення для порожніх масивів
+    if (previousAnime) {
+      if (newAnimeData.releases.length === 0 && previousAnime.releases && previousAnime.releases.length > 0) {
+        newAnimeData.releases = previousAnime.releases;
+        colorLog(`Збережено попередні дані релізів для "${titleText}" (${previousAnime.releases.length} релізів)`, 'yellow')
+      }
+      
+      if (newAnimeData.relations.length === 0 && previousAnime.relations && previousAnime.relations.length > 0) {
+        newAnimeData.relations = previousAnime.relations;
+        colorLog(`Збережено попередні дані пов'язаних частин для "${titleText}"`, 'yellow')
+      }
+      
+      if (newAnimeData.Франшиза.length === 0 && previousAnime.Франшиза && previousAnime.Франшиза.length > 0) {
+        newAnimeData.Франшиза = previousAnime.Франшиза;
+        colorLog(`Збережено попередні дані франшизи для "${titleText}"`, 'yellow')
+      }
+      
+      if (newAnimeData.posters.length === 0 && previousAnime.posters && previousAnime.posters.length > 0) {
+        newAnimeData.posters = previousAnime.posters;
+        colorLog(`Збережено попередні постери для "${titleText}"`, 'yellow')
+      }
+    }
+    
+    results.push(newAnimeData)
   }
   return results
 }
 
-function processReleaseData(pages) {
+async function processReleaseData(pages) {
+  // Завантажуємо попередні дані
+  const previousData = await loadPreviousData("AnimeReleasesDB.json")
+  const previousDataMap = new Map(previousData.map(release => [release.id, release]))
+  
   const results = []
   let count = 0
   for (const page of pages) {
     count++
-    colorLog(`Обробка: ${count}/${pages.length}. ${page.properties['Назва релізу'].title[0]?.plain_text || 'Невідомо для' + page.id}`, 'blue', OUTPUT_MODES.PROGRESS)
-    results.push({
-      id: page.id,
+    const pageId = page.id
+    const previousRelease = previousDataMap.get(pageId)
+    const titleText = page.properties['Назва релізу'].title[0]?.plain_text || 'Невідомо для' + pageId
+    
+    colorLog(`Обробка: ${count}/${pages.length}. ${titleText}`, 'blue', OUTPUT_MODES.PROGRESS)
+    
+    // Отримуємо нові дані
+    const newReleaseData = {
+      id: pageId,
       last_edited: page.last_edited_time,
       animeIds: page.properties['Тайтл']?.relation.map(r => r.id) || [],
-      title: page.properties['Назва релізу'].title[0]?.plain_text || 'Без назви',
+      title: titleText,
       cover: page.cover?.external?.url || page.cover?.file.url,
-      teams: page.properties['Команда']?.relation,
+      teams: page.properties['Команда']?.relation || [],
       status: page.properties['Статус'].status?.name || 'Невідомо',
       episodes: page.properties['Кількість'].rich_text[0]?.plain_text || 'Невідомо',
       torrent: page.properties['Торент']?.select?.name || 'Невідомо',
@@ -314,32 +404,71 @@ function processReleaseData(pages) {
         .map(link => ({
           text: link.plain_text,
           href: link.href
-        })),
+        })) || [],
       posters: page.properties.Постер?.files.map(i => ({
         name: i.name,
         url: i.external?.url || i.file.url
-      })),
-    })
+      })) || []
+    }
+    
+    // Перевіряємо і зберігаємо попередні значення для порожніх масивів
+    if (previousRelease) {
+      if (newReleaseData.animeIds.length === 0 && previousRelease.animeIds && previousRelease.animeIds.length > 0) {
+        newReleaseData.animeIds = previousRelease.animeIds;
+        colorLog(`Збережено попередні ID аніме для релізу "${titleText}"`, 'yellow')
+      }
+      
+      if (newReleaseData.teams.length === 0 && previousRelease.teams && previousRelease.teams.length > 0) {
+        newReleaseData.teams = previousRelease.teams;
+        colorLog(`Збережено попередні дані команд для релізу "${titleText}"`, 'yellow')
+      }
+      
+      if (newReleaseData.torrentLinks.length === 0 && previousRelease.torrentLinks && previousRelease.torrentLinks.length > 0) {
+        newReleaseData.torrentLinks = previousRelease.torrentLinks;
+        colorLog(`Збережено попередні торент-посилання для релізу "${titleText}"`, 'yellow')
+      }
+      
+      if (newReleaseData.posters.length === 0 && previousRelease.posters && previousRelease.posters.length > 0) {
+        newReleaseData.posters = previousRelease.posters;
+        colorLog(`Збережено попередні постери для релізу "${titleText}"`, 'yellow')
+      }
+    }
+    
+    results.push(newReleaseData)
   }
   return results
 }
 
-function processTeamData(pages) {
+async function processTeamData(pages) {
+  // Завантажуємо попередні дані
+  const previousData = await loadPreviousData("TeamsDB.json")
+  const previousDataMap = new Map(previousData.map(team => [team.id, team]))
+  
   const results = []
+  let count = 0
+  
   for (const page of pages) {
-    results.push({
+    count++
+    const pageId = page.id
+    const previousTeam = previousDataMap.get(pageId)
+    const teamName = page.properties['Назва команди']?.title[0]?.plain_text || 'Невідомо для' + pageId
+    
+    colorLog(`Обробка команди ${count}/${pages.length}: ${teamName}`, 'blue', OUTPUT_MODES.PROGRESS)
+    
+    // Отримуємо нові дані
+    const newTeamData = {
       // Основна інформація
-      id: page.id,
+      id: pageId,
       last_edited: page.last_edited_time,
       cover: page.cover,
       logo: page.icon?.external?.url || page.icon?.file?.url,
-      name: page.properties['Назва команди']?.title[0]?.plain_text || 'Невідомо',
+      name: teamName,
 
       // Додаткова інформація
       status: page.properties.Статус.select?.name || 'Невідомо',
-      type_activity: page.properties['Тип робіт'].multi_select.map(item => item.name) || 'Невідомо',
-      members: page.properties['Склад команди'].relation,
-      anime_releases: page.properties['Релізи аніме'].relation,
+      type_activity: page.properties['Тип робіт'].multi_select.map(item => item.name) || [],
+      members: page.properties['Склад команди'].relation || [],
+      anime_releases: page.properties['Релізи аніме'].relation || [],
 
       // Соціальні посилання
       site: page.properties.Сайт?.url,
@@ -348,19 +477,43 @@ function processTeamData(pages) {
       insta: page.properties.Instagram?.url,
       tg: page.properties.Telegram?.url,
       tg_video: page.properties['ТҐ релізи']?.url,
-    })
+    }
+    
+    // Перевіряємо і зберігаємо попередні значення для порожніх масивів
+    if (previousTeam) {
+      if (newTeamData.members.length === 0 && previousTeam.members && previousTeam.members.length > 0) {
+        newTeamData.members = previousTeam.members;
+        colorLog(`Збережено попередній склад команди "${teamName}"`, 'yellow')
+      }
+      
+      if (newTeamData.anime_releases.length === 0 && previousTeam.anime_releases && previousTeam.anime_releases.length > 0) {
+        newTeamData.anime_releases = previousTeam.anime_releases;
+        colorLog(`Збережено попередні релізи команди "${teamName}" (${previousTeam.anime_releases.length} релізів)`, 'yellow')
+      }
+      
+      if (newTeamData.type_activity.length === 0 && previousTeam.type_activity && previousTeam.type_activity.length > 0) {
+        newTeamData.type_activity = previousTeam.type_activity;
+        colorLog(`Збережено попередні типи діяльності команди "${teamName}"`, 'yellow')
+      }
+    }
+    
+    results.push(newTeamData)
   }
+  
   return results
 }
 
 async function importData(databaseId, dbTitle, outputFileName, propertiesToExpand = [], processFunction) {
   console.log(`Початок імпорту даних для ${outputFileName}...`)
-  const pages = await getAllPages(databaseId, dbTitle, propertiesToExpand)
-  await fs.writeFile(
-    path.join(__dirname, '../json', outputFileName),
-    JSON.stringify(await processFunction(pages), null, 2)
-  )
-  console.log('Імпорт завершено.')
+  try {
+    const pages = await getAllPages(databaseId, dbTitle, propertiesToExpand)
+    const processedData = await processFunction(pages)
+    await saveData(outputFileName, processedData)
+    colorLog(`Імпорт даних для ${outputFileName} успішно завершено.`, 'green')
+  } catch (error) {
+    colorLog(`Помилка при імпорті даних для ${outputFileName}: ${error.message}`, 'red')
+    throw error
+  }
 }
 
 async function importAnimeTitles() {
@@ -379,13 +532,23 @@ async function importTeams() {
 }
 
 async function runAllImports() {
-  await importAnimeTitles()
-  await importReleases()
-  await importTeams()
-  // getPageById('1427667f-790e-8093-bdf8-fbf745c32f44')
-  // .then(page => {
-  //   console.log('URL:', JSON.stringify(page, null, 2))
-  // })
+  try {
+    await importAnimeTitles()
+    await importReleases()
+    await importTeams()
+    colorLog("Всі імпорти успішно завершено!", 'green')
+  } catch (error) {
+    colorLog(`Помилка під час виконання імпортів: ${error.message}`, 'red')
+  }
 }
 
+// Функція для тестування
+async function testGetPageById() {
+  getPageById('174d30fa-35d0-810f-a927-fa233d7a7fd8')
+  .then(page => {
+    console.log('URL:', JSON.stringify(page, null, 2))
+  })
+}
+
+// Виконуємо всі імпорти
 runAllImports()

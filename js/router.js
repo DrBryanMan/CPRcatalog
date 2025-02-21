@@ -1,11 +1,12 @@
 import { allAnimes, allTeams, allReleases } from './loadData.js' // Змінні з даними
 import { renderList } from './renderList.js'
-import * as renderComponents from './renderComponents.js'
+import * as Components from './renderComponents.js'
 
 export const router = new Navigo('/', { hash: true })
 export let currentRoute
 
 export function setupRoutes() {
+    (window.location.pathname === '/CPRcatalog/' || window.location.pathname === '/' || window.location.pathname === '/index.html') && window.location.hash === '' ? router.navigate('/') : null
     let cleanup = null
 
     function cleanupAndRender(renderFunction, ...args) {
@@ -22,7 +23,7 @@ export function setupRoutes() {
 
     router
         .on('*', () => window.scrollTo(0, 0))
-        .on('/', handleRoute('/', renderComponents.renderHomePage))
+        .on('/', handleRoute('/', Components.renderHomePage))
         .on('/animes', (match) => {
             const initialFilters = {}
             for (let key in match.params) {
@@ -34,7 +35,7 @@ export function setupRoutes() {
         })
         .on('/anime/:id', (match) => {
             const anime = allAnimes.find(a => a.id === match.data.id)
-            handleRoute('/anime/:id', renderComponents.renderAnimeDetail, anime)()
+            handleRoute('/anime/:id', Components.renderAnimeDetail, anime)()
         })
         .on('/releases', (match) => {
             const initialFilters = {}
@@ -47,12 +48,12 @@ export function setupRoutes() {
         })
         .on('/release/:id', (match) => {
             const release = allReleases.find(r => r.id === match.data.id)
-            handleRoute('/release/:id', renderComponents.renderReleaseDetail, release)()
+            handleRoute('/release/:id', Components.renderReleaseDetail, release)()
         })
         .on('/teams', handleRoute('/teams', renderList, allTeams, 'Команди'))
         .on('/team/:id', (match) => {
             const team = allTeams.find(t => t.id === match.data.id)
-            handleRoute('/team/:id', renderComponents.renderTeamDetail, team)()
+            handleRoute('/team/:id', Components.renderTeamDetail, team)()
         })
         .notFound(() => {
             if (typeof cleanup === 'function') {
