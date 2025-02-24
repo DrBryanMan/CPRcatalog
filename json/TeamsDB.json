@@ -1,5 +1,20 @@
 [
   {
+    "id": "1a1d30fa-35d0-80e7-baf3-fb6301cb98bb",
+    "last_edited": "2025-02-21T06:53:00.000Z",
+    "cover": null,
+    "name": "Стармайстер",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
     "id": "196d30fa-35d0-8049-8263-d4b39b7649cd",
     "last_edited": "2025-02-10T09:25:00.000Z",
     "cover": null,
@@ -6380,6 +6395,9 @@
       },
       {
         "id": "198d30fa-35d0-806f-ba67-c0ff7bae9e15"
+      },
+      {
+        "id": "1a1d30fa-35d0-808e-b3ec-c1014d4196f6"
       }
     ],
     "site": null,
@@ -12396,6 +12414,9 @@
       },
       {
         "id": "193d30fa-35d0-80e1-9ed3-e2b27df7f4b0"
+      },
+      {
+        "id": "1a1d30fa-35d0-804c-964a-c5325857ba53"
       }
     ],
     "site": null,
@@ -14593,12 +14614,15 @@
   },
   {
     "id": "174d30fa-35d0-8108-a88c-c7b206da46e4",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-02-19T12:57:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730112230/Volfin_studio_juo7kb.jpg",
     "name": "Volfin Studio🐺",
-    "status": "Невідомо",
-    "type_activity": [],
+    "status": "Малоактивна",
+    "type_activity": [
+      "Аніме",
+      "Мульти"
+    ],
     "members": [],
     "anime_releases": [
       {
@@ -16066,7 +16090,10 @@
         "id": "185d30fa-35d0-8032-9cef-f2dac765cd47"
       },
       {
-        "id": "198d30fa-35d0-8090-b188-f5831ae452e5"
+        "id": "19fd30fa-35d0-80cd-8174-dcdd8677adf7"
+      },
+      {
+        "id": "19fd30fa-35d0-801c-a0ae-daaabc11e6a2"
       }
     ],
     "site": null,
