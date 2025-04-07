@@ -1,5 +1,131 @@
 [
   {
+    "id": "1ccd30fa-35d0-803f-9dc6-cac9b9741228",
+    "last_edited": "2025-04-05T19:41:00.000Z",
+    "animeIds": [
+      "1ccd30fa-35d0-80be-bb04-cdc147ad6527"
+    ],
+    "title": "Дівчина з того боку",
+    "teams": [
+      {
+        "id": "174d30fa-35d0-8171-abc6-c2fe8f6d865f"
+      }
+    ],
+    "status": "Завершено",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1ccd30fa-35d0-80b3-a251-ed5bee993a43",
+    "last_edited": "2025-04-05T17:54:00.000Z",
+    "animeIds": [
+      "1ccd30fa-35d0-8092-a85b-c76b6ca502ba"
+    ],
+    "title": "Суперкуб",
+    "teams": [
+      {
+        "id": "174d30fa-35d0-819d-968c-f648d0b82baf"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "5",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1ccd30fa-35d0-8099-81e3-dfd657402ab6",
+    "last_edited": "2025-04-05T17:42:00.000Z",
+    "animeIds": [
+      "1ccd30fa-35d0-80a0-b16b-d6af8366f151"
+    ],
+    "title": "Зона ізоляції. Рівень Х 2",
+    "teams": [
+      {
+        "id": "174d30fa-35d0-819d-968c-f648d0b82baf"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1ccd30fa-35d0-8045-9605-f19bec93bd7b",
+    "last_edited": "2025-04-05T14:20:00.000Z",
+    "animeIds": [
+      "1ccd30fa-35d0-8003-809b-e09ca1ba6774"
+    ],
+    "title": "Веселкові дні",
+    "teams": [
+      {
+        "id": "174d30fa-35d0-81f7-8d08-c8d846694354"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "5",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1ccd30fa-35d0-8070-bf2d-ddea722ab8d1",
+    "last_edited": "2025-04-05T13:44:00.000Z",
+    "animeIds": [
+      "1ccd30fa-35d0-80c1-b341-e2b9a3b5b000"
+    ],
+    "title": "Клітка духу: Втілення",
+    "teams": [
+      {
+        "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "2",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1ccd30fa-35d0-80c4-9e90-cd303f891b58",
+    "last_edited": "2025-04-05T13:32:00.000Z",
+    "animeIds": [
+      "174d30fa-35d0-81b8-ba79-d16f6f35ae29"
+    ],
+    "title": "Ініціал Д: Перший етап",
+    "teams": [
+      {
+        "id": "193d30fa-35d0-8011-a8ef-ebc56591f8d8"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "5",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
+    "id": "1ccd30fa-35d0-8064-b3fd-e9a4d70b8487",
+    "last_edited": "2025-04-05T13:07:00.000Z",
+    "animeIds": [
+      "174d30fa-35d0-8104-aa60-f3a157d72bc3"
+    ],
+    "title": "Маєток тіней 2",
+    "teams": [
+      {
+        "id": "174d30fa-35d0-8164-a272-fe1ecbc97feb"
+      }
+    ],
+    "status": "В процесі",
+    "episodes": "1",
+    "torrent": "Невідомо",
+    "torrentLinks": [],
+    "posters": []
+  },
+  {
     "id": "1a1d30fa-35d0-808e-b3ec-c1014d4196f6",
     "last_edited": "2025-02-21T12:56:00.000Z",
     "animeIds": [
@@ -1504,7 +1630,7 @@
   },
   {
     "id": "193d30fa-35d0-8096-bad1-dadf5cf78690",
-    "last_edited": "2025-02-07T11:37:00.000Z",
+    "last_edited": "2025-04-05T13:31:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81d2-b4d0-f102d0660c3b"
     ],
@@ -1514,8 +1640,8 @@
         "id": "193d30fa-35d0-8011-a8ef-ebc56591f8d8"
       }
     ],
-    "status": "В процесі",
-    "episodes": "3",
+    "status": "Завершено",
+    "episodes": "6",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -1872,7 +1998,7 @@
   },
   {
     "id": "191d30fa-35d0-8083-b1a7-dfcf1807c46d",
-    "last_edited": "2025-02-05T14:37:00.000Z",
+    "last_edited": "2025-04-05T11:45:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8176-91df-c512d5c48e06"
     ],
@@ -1882,8 +2008,8 @@
         "id": "174d30fa-35d0-8160-8b67-d692ace3746f"
       }
     ],
-    "status": "В процесі",
-    "episodes": "10",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -7980,18 +8106,18 @@
   },
   {
     "id": "188d30fa-35d0-809b-abfe-ffaad6267283",
-    "last_edited": "2025-01-27T13:57:00.000Z",
+    "last_edited": "2025-04-05T13:18:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8134-b6cb-c46e6d4b804b"
     ],
-    "title": "Атака титанів 2",
+    "title": "Атака титанів 2 (суб)",
     "teams": [
       {
         "id": "174d30fa-35d0-8111-ba58-fc5bc908a546"
       }
     ],
     "status": "В процесі",
-    "episodes": "5",
+    "episodes": "8",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -8556,7 +8682,7 @@
   },
   {
     "id": "185d30fa-35d0-80e3-aea6-cb6ab36937e9",
-    "last_edited": "2025-02-10T06:50:00.000Z",
+    "last_edited": "2025-04-05T17:48:00.000Z",
     "animeIds": [
       "184d30fa-35d0-80ac-ad9e-e8927920fa36"
     ],
@@ -8566,8 +8692,8 @@
         "id": "174d30fa-35d0-819d-968c-f648d0b82baf"
       }
     ],
-    "status": "В процесі",
-    "episodes": "5",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -9790,7 +9916,7 @@
   },
   {
     "id": "184d30fa-35d0-806d-8ba6-dc23dde9416f",
-    "last_edited": "2025-02-19T12:45:00.000Z",
+    "last_edited": "2025-04-05T17:44:00.000Z",
     "animeIds": [
       "184d30fa-35d0-80e6-8ed3-e3f3683ea416"
     ],
@@ -9800,15 +9926,15 @@
         "id": "174d30fa-35d0-819d-968c-f648d0b82baf"
       }
     ],
-    "status": "В процесі",
-    "episodes": "13",
+    "status": "Завершено",
+    "episodes": "21",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
   },
   {
     "id": "184d30fa-35d0-80f9-96b6-f203107864e7",
-    "last_edited": "2025-01-23T11:06:00.000Z",
+    "last_edited": "2025-04-05T13:58:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8118-8bc1-e4f6ba5f0553"
     ],
@@ -9819,14 +9945,14 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "1",
+    "episodes": "3",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
   },
   {
     "id": "184d30fa-35d0-8053-9e86-c05f5edba960",
-    "last_edited": "2025-02-10T07:00:00.000Z",
+    "last_edited": "2025-04-05T13:59:00.000Z",
     "animeIds": [
       "184d30fa-35d0-8031-bbd9-ffb74d7b5314"
     ],
@@ -9837,7 +9963,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "3",
+    "episodes": "9",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -11855,7 +11981,7 @@
   },
   {
     "id": "17cd30fa-35d0-8068-aa59-d2bb3539d228",
-    "last_edited": "2025-02-03T09:59:00.000Z",
+    "last_edited": "2025-04-05T13:01:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8109-bf0e-dade2ab5565e"
     ],
@@ -11866,7 +11992,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "6",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -12108,7 +12234,7 @@
   },
   {
     "id": "17cd30fa-35d0-80d5-b993-ee9a7b34b66f",
-    "last_edited": "2025-02-10T06:59:00.000Z",
+    "last_edited": "2025-04-05T14:00:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81ec-9900-fda2be5567bd"
     ],
@@ -12119,7 +12245,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "4",
+    "episodes": "7",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -13443,7 +13569,7 @@
   },
   {
     "id": "179d30fa-35d0-8088-9a36-c91d1d93174e",
-    "last_edited": "2025-02-19T08:46:00.000Z",
+    "last_edited": "2025-04-05T19:29:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8166-81d9-fcf81aa960c2"
     ],
@@ -13453,15 +13579,15 @@
         "id": "174d30fa-35d0-8171-abc6-c2fe8f6d865f"
       }
     ],
-    "status": "В процесі",
-    "episodes": "6",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
   },
   {
     "id": "179d30fa-35d0-8068-a1c6-f46d576c7fee",
-    "last_edited": "2025-02-19T08:45:00.000Z",
+    "last_edited": "2025-04-05T19:34:00.000Z",
     "animeIds": [
       "174d30fa-35d0-813c-b164-ce35a42dcba8"
     ],
@@ -13471,15 +13597,15 @@
         "id": "174d30fa-35d0-8171-abc6-c2fe8f6d865f"
       }
     ],
-    "status": "В процесі",
-    "episodes": "6",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
   },
   {
     "id": "179d30fa-35d0-80f7-a549-d08b33521eb9",
-    "last_edited": "2025-02-10T06:58:00.000Z",
+    "last_edited": "2025-04-05T13:35:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81ec-9900-fda2be5567bd"
     ],
@@ -13490,7 +13616,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "5",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -13866,7 +13992,7 @@
   },
   {
     "id": "177d30fa-35d0-80eb-ad0d-f12ed6f632bf",
-    "last_edited": "2025-02-12T14:35:00.000Z",
+    "last_edited": "2025-04-05T13:51:00.000Z",
     "animeIds": [
       "177d30fa-35d0-80ab-b676-faf9b9be5f22"
     ],
@@ -13877,7 +14003,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "5",
+    "episodes": "11",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -14794,7 +14920,7 @@
   },
   {
     "id": "176d30fa-35d0-8021-9570-e03cef26d37d",
-    "last_edited": "2025-01-14T07:22:00.000Z",
+    "last_edited": "2025-04-05T11:32:00.000Z",
     "animeIds": [
       "174d30fa-35d0-811d-a59c-fba1989233d9"
     ],
@@ -14805,7 +14931,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "4",
+    "episodes": "6",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -16103,7 +16229,7 @@
   },
   {
     "id": "175d30fa-35d0-8063-8053-e3c33cc4769e",
-    "last_edited": "2025-02-09T10:17:00.000Z",
+    "last_edited": "2025-04-05T12:50:00.000Z",
     "animeIds": [
       "174d30fa-35d0-814a-9a0b-f58770888f90"
     ],
@@ -16114,7 +16240,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "(1-30), 31-101, 207-746, 890-930, 1001-1122",
+    "episodes": "(1-30), 31-101, 207-766, 890-935, 1001-1122",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -16397,7 +16523,7 @@
   },
   {
     "id": "175d30fa-35d0-80bf-b13b-e5ef8e8bd719",
-    "last_edited": "2025-02-06T07:22:00.000Z",
+    "last_edited": "2025-04-05T11:34:00.000Z",
     "animeIds": [
       "174d30fa-35d0-814d-be86-f05114ee5ec0"
     ],
@@ -16410,8 +16536,8 @@
         "id": "174d30fa-35d0-8110-853d-cb9601dbb0fa"
       }
     ],
-    "status": "В процесі",
-    "episodes": "9 / 12",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -18909,7 +19035,7 @@
       "174d30fa-35d0-81a0-94b6-eabda4374668"
     ],
     "title": "Прокачка в Соло / Сололевелінг",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/691abbb4-2447-441e-ab7f-d1bd2dc6914c/IMG_20240502_184804_211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665VC3GR6K%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013812Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIBqFcjIhR4tszeVtV4bcfYB5zxfaR%2FBNxDuS1S67qRcnAiAkO9TT72jpw8NcQJOkUs8zDpZP9ffM0x4a1RoamsszJSqIBAiZ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMQIS0YUsLKEqYGrO5KtwDBZRnlv5cqG3XPdtuq2pLRBBjnNvSHxPRN8puRZeT4w4WFhl7S82I8%2F5egcUMqLkA6S%2BoEKm9ahvhWr%2FdnFO%2FtD0SuLl%2BVNCpYH9P0Ycd6LaUtjS51qqaII2LYKmxjdP8BJ3jxjpuRlgMZaftlcI9Gz6CN3VRge6jWZEff%2B0xBfg1XjZpAnnwlwqQSwb6wIQXWN%2FBkte8NdGE838zNF93LCPhUEwFh2Q5xKhEnrjW7oiXFn32qk1DfWPj2gv13tr0GLDt1GIKv6S8D%2BXi1AaluOiznx7%2BHjizvwPjFxJK50d1%2FQGey2zLGLc6Ket3v%2BS%2F7AwCPfcznBUda%2BNTclMPro2pIAwk9x9XpW1XaW610X0gu5toOGwq%2FejfKrXRUdxIobRrD8CZ30Xmljwujx%2FzYzN%2BSyYvAwqOXIWZl0Rv7b4wcEYFdWG4vA8m9oZLhIGAA%2BbZsdFzb2VSCezQoZReDL73d%2FIj5SQxKl4z%2Br9lEfXYatVZiqlCuE9kSHMjyveD9p5qaPyq64JXd7DI6TSLs9HJda7xX43dY%2FXaW9cX6b%2F7julZFMTtek0nr6k9XlP5HpFKzLscM22kW4Ahl%2Ba2IK78qoPq9SLnXkJrb266m77h9LPSRXyZMfumN%2Bow%2F7invwY6pgFDT4DhH23rYzSMiVFEC2QQ4nOrhX7DxRQZTBnM8Usmv2QT7BJ5Z%2FQ8OejfL927HZsZpSs4zsf%2B0lvEPWmK37Y50CQR9CJe4pj%2BCAQMh53XLKJYFxXh0%2FtMc%2FrIN%2FUOnAoF8XGNyMeD5XEiFvbjQm47Cw0nCeeJCsaRtuBVniglkw8%2BVKfQwYLjM85IszRSzKouFBObPVACXB%2BIKNuJSsrIWvGR2B11&X-Amz-Signature=3613326430b6ea983bfc5f7f4b069489f988cc69625c3c30fb03db7cbccef8bb&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/691abbb4-2447-441e-ab7f-d1bd2dc6914c/IMG_20240502_184804_211.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YFAHCLOR%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012846Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCH3DcE7lTOaa0hPTwRIZmBtfzxDm25IVGNQ3ui1duph8CIQDa3K3ra35BWqPt4kKQdzu2DU%2B6kUFZLpWUyoAuv6OCtyr%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIM7%2FU8oDVwrnNk54QfKtwDkiywahIaZ1VWvc60J0xue72n2z7HtO7AxZM6TRPxrcbApu4pLvSBAlitGJ5M8J%2FFL48wtuzMDQUSEGc6J5UbDVU4s75cSnVGC7deTzvDi%2FGU5wAjdehRSBn6yeuaZmM%2BrAGofcAD4fH8QxNFQz0661Qw1wtGHUSX%2F4ItjTjgZaax82ZnVDKNPzUJggUx6CcMV8vRaHnH6FV5%2BXL5IKRdEKTSmL%2FZs%2FrcUTz9Eb%2FfpnWewTTOzVXtsVJDd3aJnh9kyB0Z%2B3Y6N%2FF27pvZvEOnGr1yXTfuuFgzJtb0KiWYMVHpviu2MhhwQc%2B6iJ8JIGTcL5IIuC5hsejgtGvktTTYGXmtxCC2OsqCJqQz5HV6NB14UARn65HKehXQeNr4uf1JWx79IjI8X4fOnW623um0x8iZUrhE6qQAcntTNNQVP%2FYsHAg7hCA4vpdjeihc6Z7JgZ%2F2L8FfYc2sQ8L1vdVtSmePC0WRpIY3HImn5vQ%2BfgkxPETOiccvTmXZ%2FxoxOK%2Ftog7%2BjDzckFE9VL0Uyqmz6ZAGFjsX1PXMk7jg9vyRkFosjtj4ToId6cb00dl1gSGQqFxSGMCjBhPXTMUVwRSbdcuMrekl0%2B7rIIta1EZQMNTPKItgc9ZrQxj2YS8wrc7MvwY6pgG%2BZ7ONLCHYcVDbSvzlQbydPyDd6oLvM7ya%2BUh9NPrD2C%2BNDB86%2BA6xrdETlLzI4jBuomrRYO9e%2BjJ61PcFLPfJG0jIYjQzoaoM%2Fqq0llxn2A7jV8rVZexL77PWV0s4EjQ91GlNcBMtc9sAcb5VjsPofvAolsh4bjkkCUv%2F8j3CGs6O2zfSS54xy6ehcRuhiDO4dHqpXiJvZIGSfc2Xb1GFpbXdo65z&X-Amz-Signature=5e9d6aa05ffae524fa59b58c26fe6b7eae84ebc03691cb9cf78f8e4224604473&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
@@ -19529,7 +19655,7 @@
       "174d30fa-35d0-810e-906d-d964a962313c"
     ],
     "title": "Переродження в монстра",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/a9714aab-1e43-447a-8aab-359f86233f0c/IMG_20240503_171643_623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466USXPHUY7%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013814Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGP2qkoxIpUGsJ4BA3ZD%2BuMfJvAn4UOcV8gTymuLlbewAiA2YNGDQz00pCGrVJyIJoGOWmmRb%2F6gzYb3o1yoivpvoyqIBAiZ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMF256NGjqgLuvykxTKtwDdZsLKJM5IPOCy4HEOYJiy0rnPXzt1FD4lRbSKn9fqL3f%2BiYgOaMVOcVyruRoBX2KS77%2Bf0DzwLhXfdVCL2tjXSzDdDqp9pacuA60YqagjaV69UlRngkMN1%2FBEPt9KU5iHMR8cGXe0J9m1%2Bif7%2Bns2rVzJSnoyZGoYIcZs%2BYhEDk%2FkYYvR661FrblyhhP1Na2qTmchp07injBa64ZCzW5AUNfmpPUot20qHXk1ofHB6%2FT9Cg41jbvtwvk8sF1BcbzQMISIiaQARMXvcv200RG1K7%2FwzBv8%2Flz1Lyan7x1pv2C0wPbNyTlgKTp9bBG5XApSAltxXKLvkoJMsv50b%2Bj1RHIm57pJTHmEyXlKnj3J3LIiDyzhRbA%2F%2BWjAaBBmpYFCjZDGDWUkB6zfVxD7aRE5DM9gsCdOX27LIiCr4s7icUSyRYVlAmD%2BPjtfM%2BVSEOP%2BGLw1v8FXajySDY5ECqm2RMtlpNJ9Dxau2LPQLJfshru3%2B2PGjxbWXvOSMqLWPUz2azCMezxKuazJR9PB%2FGe4f3%2Bf2y4xx1g92ZjxBAbAMHi9dX6q2%2Fxvg928xnNgjhm25FhML%2BWJuZC6ekerwxf%2BDYXn2xcIlbX4lA%2B6xTx%2FPDkyDLwuN5VxfGM8Xsw2rmnvwY6pgEfLXlKacQTJpDgdR2WeO8L9VeyVkMilIQybNFlCiSKai0IgfM7%2BBw%2BcVM%2FvEG0kjf2Sul3M7SiIk4WkBtoyd3ys5BXa5qM2G2WPj6KgJCbNMarZbQ65PQpJFXKdSIhSLyUT9hL%2FY7HCuvY4uzinKL%2BdBZsn5BQc3DCzN6hfgAcvcnNzKcefXpTUoFSwxqU8se14ZSFsxzByt1ETBHQJUkxci8o4poD&X-Amz-Signature=187f061eea3ee6e14b0f28e3fcc504a114cfe2003c1423ab5ff7dda9b6b00290&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/a9714aab-1e43-447a-8aab-359f86233f0c/IMG_20240503_171643_623.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YFAHCLOR%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012846Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCH3DcE7lTOaa0hPTwRIZmBtfzxDm25IVGNQ3ui1duph8CIQDa3K3ra35BWqPt4kKQdzu2DU%2B6kUFZLpWUyoAuv6OCtyr%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIM7%2FU8oDVwrnNk54QfKtwDkiywahIaZ1VWvc60J0xue72n2z7HtO7AxZM6TRPxrcbApu4pLvSBAlitGJ5M8J%2FFL48wtuzMDQUSEGc6J5UbDVU4s75cSnVGC7deTzvDi%2FGU5wAjdehRSBn6yeuaZmM%2BrAGofcAD4fH8QxNFQz0661Qw1wtGHUSX%2F4ItjTjgZaax82ZnVDKNPzUJggUx6CcMV8vRaHnH6FV5%2BXL5IKRdEKTSmL%2FZs%2FrcUTz9Eb%2FfpnWewTTOzVXtsVJDd3aJnh9kyB0Z%2B3Y6N%2FF27pvZvEOnGr1yXTfuuFgzJtb0KiWYMVHpviu2MhhwQc%2B6iJ8JIGTcL5IIuC5hsejgtGvktTTYGXmtxCC2OsqCJqQz5HV6NB14UARn65HKehXQeNr4uf1JWx79IjI8X4fOnW623um0x8iZUrhE6qQAcntTNNQVP%2FYsHAg7hCA4vpdjeihc6Z7JgZ%2F2L8FfYc2sQ8L1vdVtSmePC0WRpIY3HImn5vQ%2BfgkxPETOiccvTmXZ%2FxoxOK%2Ftog7%2BjDzckFE9VL0Uyqmz6ZAGFjsX1PXMk7jg9vyRkFosjtj4ToId6cb00dl1gSGQqFxSGMCjBhPXTMUVwRSbdcuMrekl0%2B7rIIta1EZQMNTPKItgc9ZrQxj2YS8wrc7MvwY6pgG%2BZ7ONLCHYcVDbSvzlQbydPyDd6oLvM7ya%2BUh9NPrD2C%2BNDB86%2BA6xrdETlLzI4jBuomrRYO9e%2BjJ61PcFLPfJG0jIYjQzoaoM%2Fqq0llxn2A7jV8rVZexL77PWV0s4EjQ91GlNcBMtc9sAcb5VjsPofvAolsh4bjkkCUv%2F8j3CGs6O2zfSS54xy6ehcRuhiDO4dHqpXiJvZIGSfc2Xb1GFpbXdo65z&X-Amz-Signature=272f55285a04c5b4a73a546dbdfead0bd40ddecdb3aa2df7425b170200b7dcc0&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-8184-8da5-fbd2bd689f80"
@@ -20393,7 +20519,7 @@
       "174d30fa-35d0-81ba-8c39-d5679a2109d2"
     ],
     "title": "З милості Богів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/09bb52cf-7e83-4906-805d-ec716bec934c/IMG_20240503_175329_798.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466USXPHUY7%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013814Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGP2qkoxIpUGsJ4BA3ZD%2BuMfJvAn4UOcV8gTymuLlbewAiA2YNGDQz00pCGrVJyIJoGOWmmRb%2F6gzYb3o1yoivpvoyqIBAiZ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMF256NGjqgLuvykxTKtwDdZsLKJM5IPOCy4HEOYJiy0rnPXzt1FD4lRbSKn9fqL3f%2BiYgOaMVOcVyruRoBX2KS77%2Bf0DzwLhXfdVCL2tjXSzDdDqp9pacuA60YqagjaV69UlRngkMN1%2FBEPt9KU5iHMR8cGXe0J9m1%2Bif7%2Bns2rVzJSnoyZGoYIcZs%2BYhEDk%2FkYYvR661FrblyhhP1Na2qTmchp07injBa64ZCzW5AUNfmpPUot20qHXk1ofHB6%2FT9Cg41jbvtwvk8sF1BcbzQMISIiaQARMXvcv200RG1K7%2FwzBv8%2Flz1Lyan7x1pv2C0wPbNyTlgKTp9bBG5XApSAltxXKLvkoJMsv50b%2Bj1RHIm57pJTHmEyXlKnj3J3LIiDyzhRbA%2F%2BWjAaBBmpYFCjZDGDWUkB6zfVxD7aRE5DM9gsCdOX27LIiCr4s7icUSyRYVlAmD%2BPjtfM%2BVSEOP%2BGLw1v8FXajySDY5ECqm2RMtlpNJ9Dxau2LPQLJfshru3%2B2PGjxbWXvOSMqLWPUz2azCMezxKuazJR9PB%2FGe4f3%2Bf2y4xx1g92ZjxBAbAMHi9dX6q2%2Fxvg928xnNgjhm25FhML%2BWJuZC6ekerwxf%2BDYXn2xcIlbX4lA%2B6xTx%2FPDkyDLwuN5VxfGM8Xsw2rmnvwY6pgEfLXlKacQTJpDgdR2WeO8L9VeyVkMilIQybNFlCiSKai0IgfM7%2BBw%2BcVM%2FvEG0kjf2Sul3M7SiIk4WkBtoyd3ys5BXa5qM2G2WPj6KgJCbNMarZbQ65PQpJFXKdSIhSLyUT9hL%2FY7HCuvY4uzinKL%2BdBZsn5BQc3DCzN6hfgAcvcnNzKcefXpTUoFSwxqU8se14ZSFsxzByt1ETBHQJUkxci8o4poD&X-Amz-Signature=513c3364229b9fc9c9f25f608e8a27657cee098d29ad6eb6518afa6f3bbdc3a7&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/09bb52cf-7e83-4906-805d-ec716bec934c/IMG_20240503_175329_798.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YFAHCLOR%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012846Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCH3DcE7lTOaa0hPTwRIZmBtfzxDm25IVGNQ3ui1duph8CIQDa3K3ra35BWqPt4kKQdzu2DU%2B6kUFZLpWUyoAuv6OCtyr%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIM7%2FU8oDVwrnNk54QfKtwDkiywahIaZ1VWvc60J0xue72n2z7HtO7AxZM6TRPxrcbApu4pLvSBAlitGJ5M8J%2FFL48wtuzMDQUSEGc6J5UbDVU4s75cSnVGC7deTzvDi%2FGU5wAjdehRSBn6yeuaZmM%2BrAGofcAD4fH8QxNFQz0661Qw1wtGHUSX%2F4ItjTjgZaax82ZnVDKNPzUJggUx6CcMV8vRaHnH6FV5%2BXL5IKRdEKTSmL%2FZs%2FrcUTz9Eb%2FfpnWewTTOzVXtsVJDd3aJnh9kyB0Z%2B3Y6N%2FF27pvZvEOnGr1yXTfuuFgzJtb0KiWYMVHpviu2MhhwQc%2B6iJ8JIGTcL5IIuC5hsejgtGvktTTYGXmtxCC2OsqCJqQz5HV6NB14UARn65HKehXQeNr4uf1JWx79IjI8X4fOnW623um0x8iZUrhE6qQAcntTNNQVP%2FYsHAg7hCA4vpdjeihc6Z7JgZ%2F2L8FfYc2sQ8L1vdVtSmePC0WRpIY3HImn5vQ%2BfgkxPETOiccvTmXZ%2FxoxOK%2Ftog7%2BjDzckFE9VL0Uyqmz6ZAGFjsX1PXMk7jg9vyRkFosjtj4ToId6cb00dl1gSGQqFxSGMCjBhPXTMUVwRSbdcuMrekl0%2B7rIIta1EZQMNTPKItgc9ZrQxj2YS8wrc7MvwY6pgG%2BZ7ONLCHYcVDbSvzlQbydPyDd6oLvM7ya%2BUh9NPrD2C%2BNDB86%2BA6xrdETlLzI4jBuomrRYO9e%2BjJ61PcFLPfJG0jIYjQzoaoM%2Fqq0llxn2A7jV8rVZexL77PWV0s4EjQ91GlNcBMtc9sAcb5VjsPofvAolsh4bjkkCUv%2F8j3CGs6O2zfSS54xy6ehcRuhiDO4dHqpXiJvZIGSfc2Xb1GFpbXdo65z&X-Amz-Signature=b52ba62f9108821e83b233dd2bed27701815d840178a722a42ed56a634b2fdc6&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-819d-968c-f648d0b82baf"
@@ -20717,7 +20843,7 @@
       "174d30fa-35d0-8163-b3d0-df859db50cf8"
     ],
     "title": "Мій Деймон",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/396a519d-a0e8-460c-bd4e-1d15ae359b71/IMG_20240503_175739_093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466USXPHUY7%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013814Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGP2qkoxIpUGsJ4BA3ZD%2BuMfJvAn4UOcV8gTymuLlbewAiA2YNGDQz00pCGrVJyIJoGOWmmRb%2F6gzYb3o1yoivpvoyqIBAiZ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMF256NGjqgLuvykxTKtwDdZsLKJM5IPOCy4HEOYJiy0rnPXzt1FD4lRbSKn9fqL3f%2BiYgOaMVOcVyruRoBX2KS77%2Bf0DzwLhXfdVCL2tjXSzDdDqp9pacuA60YqagjaV69UlRngkMN1%2FBEPt9KU5iHMR8cGXe0J9m1%2Bif7%2Bns2rVzJSnoyZGoYIcZs%2BYhEDk%2FkYYvR661FrblyhhP1Na2qTmchp07injBa64ZCzW5AUNfmpPUot20qHXk1ofHB6%2FT9Cg41jbvtwvk8sF1BcbzQMISIiaQARMXvcv200RG1K7%2FwzBv8%2Flz1Lyan7x1pv2C0wPbNyTlgKTp9bBG5XApSAltxXKLvkoJMsv50b%2Bj1RHIm57pJTHmEyXlKnj3J3LIiDyzhRbA%2F%2BWjAaBBmpYFCjZDGDWUkB6zfVxD7aRE5DM9gsCdOX27LIiCr4s7icUSyRYVlAmD%2BPjtfM%2BVSEOP%2BGLw1v8FXajySDY5ECqm2RMtlpNJ9Dxau2LPQLJfshru3%2B2PGjxbWXvOSMqLWPUz2azCMezxKuazJR9PB%2FGe4f3%2Bf2y4xx1g92ZjxBAbAMHi9dX6q2%2Fxvg928xnNgjhm25FhML%2BWJuZC6ekerwxf%2BDYXn2xcIlbX4lA%2B6xTx%2FPDkyDLwuN5VxfGM8Xsw2rmnvwY6pgEfLXlKacQTJpDgdR2WeO8L9VeyVkMilIQybNFlCiSKai0IgfM7%2BBw%2BcVM%2FvEG0kjf2Sul3M7SiIk4WkBtoyd3ys5BXa5qM2G2WPj6KgJCbNMarZbQ65PQpJFXKdSIhSLyUT9hL%2FY7HCuvY4uzinKL%2BdBZsn5BQc3DCzN6hfgAcvcnNzKcefXpTUoFSwxqU8se14ZSFsxzByt1ETBHQJUkxci8o4poD&X-Amz-Signature=035067d4b0af49a706c1b8678ce429e457af192a90bece005ef61bdcbe4d8aa7&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/396a519d-a0e8-460c-bd4e-1d15ae359b71/IMG_20240503_175739_093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YFAHCLOR%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012846Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCH3DcE7lTOaa0hPTwRIZmBtfzxDm25IVGNQ3ui1duph8CIQDa3K3ra35BWqPt4kKQdzu2DU%2B6kUFZLpWUyoAuv6OCtyr%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIM7%2FU8oDVwrnNk54QfKtwDkiywahIaZ1VWvc60J0xue72n2z7HtO7AxZM6TRPxrcbApu4pLvSBAlitGJ5M8J%2FFL48wtuzMDQUSEGc6J5UbDVU4s75cSnVGC7deTzvDi%2FGU5wAjdehRSBn6yeuaZmM%2BrAGofcAD4fH8QxNFQz0661Qw1wtGHUSX%2F4ItjTjgZaax82ZnVDKNPzUJggUx6CcMV8vRaHnH6FV5%2BXL5IKRdEKTSmL%2FZs%2FrcUTz9Eb%2FfpnWewTTOzVXtsVJDd3aJnh9kyB0Z%2B3Y6N%2FF27pvZvEOnGr1yXTfuuFgzJtb0KiWYMVHpviu2MhhwQc%2B6iJ8JIGTcL5IIuC5hsejgtGvktTTYGXmtxCC2OsqCJqQz5HV6NB14UARn65HKehXQeNr4uf1JWx79IjI8X4fOnW623um0x8iZUrhE6qQAcntTNNQVP%2FYsHAg7hCA4vpdjeihc6Z7JgZ%2F2L8FfYc2sQ8L1vdVtSmePC0WRpIY3HImn5vQ%2BfgkxPETOiccvTmXZ%2FxoxOK%2Ftog7%2BjDzckFE9VL0Uyqmz6ZAGFjsX1PXMk7jg9vyRkFosjtj4ToId6cb00dl1gSGQqFxSGMCjBhPXTMUVwRSbdcuMrekl0%2B7rIIta1EZQMNTPKItgc9ZrQxj2YS8wrc7MvwY6pgG%2BZ7ONLCHYcVDbSvzlQbydPyDd6oLvM7ya%2BUh9NPrD2C%2BNDB86%2BA6xrdETlLzI4jBuomrRYO9e%2BjJ61PcFLPfJG0jIYjQzoaoM%2Fqq0llxn2A7jV8rVZexL77PWV0s4EjQ91GlNcBMtc9sAcb5VjsPofvAolsh4bjkkCUv%2F8j3CGs6O2zfSS54xy6ehcRuhiDO4dHqpXiJvZIGSfc2Xb1GFpbXdo65z&X-Amz-Signature=ac987a813deae5bd433363811871d7280690cb9811cbb851d807ac5a3fc191eb&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-819d-968c-f648d0b82baf"
@@ -20819,7 +20945,7 @@
       "174d30fa-35d0-8187-a75c-f0ecbda4d7b2"
     ],
     "title": "Фрірен: супровід в останню путь",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/5f262935-3c40-4c5e-ab76-fbc9c6a29d79/IMG_20240502_185047_490.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466USXPHUY7%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013814Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGP2qkoxIpUGsJ4BA3ZD%2BuMfJvAn4UOcV8gTymuLlbewAiA2YNGDQz00pCGrVJyIJoGOWmmRb%2F6gzYb3o1yoivpvoyqIBAiZ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMF256NGjqgLuvykxTKtwDdZsLKJM5IPOCy4HEOYJiy0rnPXzt1FD4lRbSKn9fqL3f%2BiYgOaMVOcVyruRoBX2KS77%2Bf0DzwLhXfdVCL2tjXSzDdDqp9pacuA60YqagjaV69UlRngkMN1%2FBEPt9KU5iHMR8cGXe0J9m1%2Bif7%2Bns2rVzJSnoyZGoYIcZs%2BYhEDk%2FkYYvR661FrblyhhP1Na2qTmchp07injBa64ZCzW5AUNfmpPUot20qHXk1ofHB6%2FT9Cg41jbvtwvk8sF1BcbzQMISIiaQARMXvcv200RG1K7%2FwzBv8%2Flz1Lyan7x1pv2C0wPbNyTlgKTp9bBG5XApSAltxXKLvkoJMsv50b%2Bj1RHIm57pJTHmEyXlKnj3J3LIiDyzhRbA%2F%2BWjAaBBmpYFCjZDGDWUkB6zfVxD7aRE5DM9gsCdOX27LIiCr4s7icUSyRYVlAmD%2BPjtfM%2BVSEOP%2BGLw1v8FXajySDY5ECqm2RMtlpNJ9Dxau2LPQLJfshru3%2B2PGjxbWXvOSMqLWPUz2azCMezxKuazJR9PB%2FGe4f3%2Bf2y4xx1g92ZjxBAbAMHi9dX6q2%2Fxvg928xnNgjhm25FhML%2BWJuZC6ekerwxf%2BDYXn2xcIlbX4lA%2B6xTx%2FPDkyDLwuN5VxfGM8Xsw2rmnvwY6pgEfLXlKacQTJpDgdR2WeO8L9VeyVkMilIQybNFlCiSKai0IgfM7%2BBw%2BcVM%2FvEG0kjf2Sul3M7SiIk4WkBtoyd3ys5BXa5qM2G2WPj6KgJCbNMarZbQ65PQpJFXKdSIhSLyUT9hL%2FY7HCuvY4uzinKL%2BdBZsn5BQc3DCzN6hfgAcvcnNzKcefXpTUoFSwxqU8se14ZSFsxzByt1ETBHQJUkxci8o4poD&X-Amz-Signature=2f543036d9b13e243d1406cd287ed5a014921bb7ef17d751604db0048f490f02&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/5f262935-3c40-4c5e-ab76-fbc9c6a29d79/IMG_20240502_185047_490.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YFAHCLOR%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012846Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCH3DcE7lTOaa0hPTwRIZmBtfzxDm25IVGNQ3ui1duph8CIQDa3K3ra35BWqPt4kKQdzu2DU%2B6kUFZLpWUyoAuv6OCtyr%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIM7%2FU8oDVwrnNk54QfKtwDkiywahIaZ1VWvc60J0xue72n2z7HtO7AxZM6TRPxrcbApu4pLvSBAlitGJ5M8J%2FFL48wtuzMDQUSEGc6J5UbDVU4s75cSnVGC7deTzvDi%2FGU5wAjdehRSBn6yeuaZmM%2BrAGofcAD4fH8QxNFQz0661Qw1wtGHUSX%2F4ItjTjgZaax82ZnVDKNPzUJggUx6CcMV8vRaHnH6FV5%2BXL5IKRdEKTSmL%2FZs%2FrcUTz9Eb%2FfpnWewTTOzVXtsVJDd3aJnh9kyB0Z%2B3Y6N%2FF27pvZvEOnGr1yXTfuuFgzJtb0KiWYMVHpviu2MhhwQc%2B6iJ8JIGTcL5IIuC5hsejgtGvktTTYGXmtxCC2OsqCJqQz5HV6NB14UARn65HKehXQeNr4uf1JWx79IjI8X4fOnW623um0x8iZUrhE6qQAcntTNNQVP%2FYsHAg7hCA4vpdjeihc6Z7JgZ%2F2L8FfYc2sQ8L1vdVtSmePC0WRpIY3HImn5vQ%2BfgkxPETOiccvTmXZ%2FxoxOK%2Ftog7%2BjDzckFE9VL0Uyqmz6ZAGFjsX1PXMk7jg9vyRkFosjtj4ToId6cb00dl1gSGQqFxSGMCjBhPXTMUVwRSbdcuMrekl0%2B7rIIta1EZQMNTPKItgc9ZrQxj2YS8wrc7MvwY6pgG%2BZ7ONLCHYcVDbSvzlQbydPyDd6oLvM7ya%2BUh9NPrD2C%2BNDB86%2BA6xrdETlLzI4jBuomrRYO9e%2BjJ61PcFLPfJG0jIYjQzoaoM%2Fqq0llxn2A7jV8rVZexL77PWV0s4EjQ91GlNcBMtc9sAcb5VjsPofvAolsh4bjkkCUv%2F8j3CGs6O2zfSS54xy6ehcRuhiDO4dHqpXiJvZIGSfc2Xb1GFpbXdo65z&X-Amz-Signature=be64688ba466f46d8b9ad436549653937b0c31a6d3e95c48757e055197d3517a&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
@@ -22013,19 +22139,19 @@
   },
   {
     "id": "174d30fa-35d0-819d-bf6b-ed39f281d98a",
-    "last_edited": "2025-02-10T06:53:00.000Z",
+    "last_edited": "2025-04-05T13:46:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81df-8af4-d521baba3466"
     ],
     "title": "Вічна воля 2",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/95aa82d8-0f9d-4a92-8eb6-b7546819510d/IMG_20240502_185420_224.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S2Y4G34L%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013816Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQDyGJo5HftxzBM5lCx4hZ4%2BctsaGiiMXuxj6wDB05NszwIhAMsm%2BThUNx1YQykWHqJS3qxt8vDvc1NMCkv%2F%2BHoWrjPOKogECJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxHLrgmMiI7olDk%2B7oq3APYn1HRtq5cLJTuMHQlIdEfQeBnrih2tRlMui8uFKEZSApvMQek8TDlPUJJJ8ibnFjPQU6o6p73AKCWMobz77gBH%2F1vtkwIY4E1L50f%2BSIPmREBWPJTQBjCp0Cid9RirGg67b4XC4VZ88nyUjmsKHjy%2F%2FPqKbRSRjWifo9sF35jMv1cpS%2BIYg8Hgo3009rIlt3W6yL4zLO7G1qKlNWrjnnWQQ%2F3SQKj934sU8NeOlIZFSCddgIvPDygxeeqSXY%2BkMfip0eppZ9BwKMQiE1toX765Q4nEPEMoIQGoafLYRLDB6Qpe8ovof9kuLn06NQFsT6PIuv3uElKFpGjCTb8CumTxE6u%2BsznOAZ45nawYMSHidFUmVnzkbGbc2peLXLXGl1llCMjlLfIG%2Byvmzbajo6UzN1muUpjoI1L7yTWVjpfznyRq7i59gMrEhesh%2FRAA4ndT6cyCJ76oxOM3%2Fh145I01voAaM4xHRhioZRcknNkiiztN%2FRuVE2QRSa%2FId9Yi%2F8%2Bgip6%2FZJsiLNNWa4eBvO938d74Ypapkui7A%2FC2TD%2FJzjEqwVZlCc%2Bm1DxPMPifMucJ5oFK9mFtxofmwq5zWedclgs8KWcXPorvhBqoDwe0%2BHcE7tWq0Ayrtr8fjCmuae%2FBjqkASknFDkp%2B5XfZvYEDiC386Ad0GxDtpBY1%2BCUAHxT0v19TrceSHAYYGiCW5iJ5OS4BkP1mvy7Uo%2BwTzEXKhFNtfXiiflPSuVUqCVHtiFwg1No2XAIOZRYh8x%2F8UZ01v74hdtMlfmpFSQCLccyxlPdkaYztvoctitg2HEpguK%2FF4LMFyRIDNbPAA%2FJCbgkg2s4F8ipDx8hq4q3I3tsMjeSs2JLzRLJ&X-Amz-Signature=2001bbe4e693add7a5f90c5e0cd949e44d9c8ec26b1b7dbc855001be57c640fd&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/95aa82d8-0f9d-4a92-8eb6-b7546819510d/IMG_20240502_185420_224.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q5ZE2TOV%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012848Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBp2xM8lryBMPM459mxKGp6ebCgy2V5XV4LHXpPMWh4tAiAmOSWvG1pzs6uSJZmNm5ef4PO235jszVuNg3GKImpH1Sr%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIMybBLjDW5Cvu%2BxkzuKtwDvFaaYUDoe0Pr2E2WuK8fm3Fv89iSH6j5iyprEVsSzpEp68X1haSwZdLb1R9nvP5xa8ym%2F8qSkaxt%2Fk6ah3dWJbCwgGhn1a7q7El%2FxBlJRCfW%2BXAw%2BXm%2B7W6j1275H9TUdv0L4ODYpklOUAJff%2FvWes7CVitektsYRmf4vTl9SXBE66JTgnnnuD6wmKdFsmjsq88tsQ%2F6M5rldheZ3QyzNXg%2Bfjkb0euiYqeTNVjko5XRZeqMw3tkPeUoSYtIzYzL0j%2F6m%2BILWWb90b2YFlPwuiGo75sJvMlOPHVgnz8fe1q98Zhbf1D7U533U7WGt8daL%2FLoChr6oBZKAA3DCPljoMVLyq0kDZa3nFW5WI%2Fgjk90wm0dgzAjOAKuteovhOO18p2dWHLb8tSXqEweopLfaJO%2BPLO7pFdmVcP2aioOh213AtxNbwGECn0nNNtA0VQQPLCs%2BUUU2kLJDXhyx24GmHA85uazYJUMFtJ9GKkv8TG00S3ruit%2FRLNfJpHQIuXqnExu3RbAyZ1y016gRzTaDItcMrZzzrSOeVSkXJGmiRf6gR41xA9oY%2FJ%2Bgpl2Z0CEKqciF0xj01smmNsyIi2s%2Blz%2F%2Fg9W2uEmuEXifBu%2By6T0QvzT6zmvpR7DRXYwos3MvwY6pgGnoIu%2FDd5uWigsIgJekwD24Y3NcBVFSfC0smj%2BK3tCbzaul%2BbreWwr4EWWSelj1%2BS8ChVlKipsgea6ahT3xlopxxwM6b8kpXIKQEEkLRRgggJmqaffshYkivloYnuYxK%2BAy%2Fj%2BMUFmF15dcxKI8znJ9anCgvD9Nq4DL0WKdLYbvQl7ROxYRjPcfxt%2BG6MfE3ip%2BISsMYh743D9t632DNtxyflWilM5&X-Amz-Signature=b7262dff073ce0a31bd5c63ae227f1eb5c8e9469a2823a7ca30266feadb9e241&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
       }
     ],
     "status": "В процесі",
-    "episodes": "42",
+    "episodes": "45",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": [
@@ -23657,7 +23783,7 @@
       "174d30fa-35d0-8151-bd67-d2c240d239bf"
     ],
     "title": "Вовчиця та спеції: Торговець зустрічає мудру вовчицю",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/1848a051-e68e-4cd3-8358-16c906bcb696/IMG_20240503_171632_327.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S2Y4G34L%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013816Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQDyGJo5HftxzBM5lCx4hZ4%2BctsaGiiMXuxj6wDB05NszwIhAMsm%2BThUNx1YQykWHqJS3qxt8vDvc1NMCkv%2F%2BHoWrjPOKogECJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxHLrgmMiI7olDk%2B7oq3APYn1HRtq5cLJTuMHQlIdEfQeBnrih2tRlMui8uFKEZSApvMQek8TDlPUJJJ8ibnFjPQU6o6p73AKCWMobz77gBH%2F1vtkwIY4E1L50f%2BSIPmREBWPJTQBjCp0Cid9RirGg67b4XC4VZ88nyUjmsKHjy%2F%2FPqKbRSRjWifo9sF35jMv1cpS%2BIYg8Hgo3009rIlt3W6yL4zLO7G1qKlNWrjnnWQQ%2F3SQKj934sU8NeOlIZFSCddgIvPDygxeeqSXY%2BkMfip0eppZ9BwKMQiE1toX765Q4nEPEMoIQGoafLYRLDB6Qpe8ovof9kuLn06NQFsT6PIuv3uElKFpGjCTb8CumTxE6u%2BsznOAZ45nawYMSHidFUmVnzkbGbc2peLXLXGl1llCMjlLfIG%2Byvmzbajo6UzN1muUpjoI1L7yTWVjpfznyRq7i59gMrEhesh%2FRAA4ndT6cyCJ76oxOM3%2Fh145I01voAaM4xHRhioZRcknNkiiztN%2FRuVE2QRSa%2FId9Yi%2F8%2Bgip6%2FZJsiLNNWa4eBvO938d74Ypapkui7A%2FC2TD%2FJzjEqwVZlCc%2Bm1DxPMPifMucJ5oFK9mFtxofmwq5zWedclgs8KWcXPorvhBqoDwe0%2BHcE7tWq0Ayrtr8fjCmuae%2FBjqkASknFDkp%2B5XfZvYEDiC386Ad0GxDtpBY1%2BCUAHxT0v19TrceSHAYYGiCW5iJ5OS4BkP1mvy7Uo%2BwTzEXKhFNtfXiiflPSuVUqCVHtiFwg1No2XAIOZRYh8x%2F8UZ01v74hdtMlfmpFSQCLccyxlPdkaYztvoctitg2HEpguK%2FF4LMFyRIDNbPAA%2FJCbgkg2s4F8ipDx8hq4q3I3tsMjeSs2JLzRLJ&X-Amz-Signature=514983fb092f840c5e22d0e79c3dd7b1ae6f664dc267ca9eb911647e0bb6c6e1&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/1848a051-e68e-4cd3-8358-16c906bcb696/IMG_20240503_171632_327.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q5ZE2TOV%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012849Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBp2xM8lryBMPM459mxKGp6ebCgy2V5XV4LHXpPMWh4tAiAmOSWvG1pzs6uSJZmNm5ef4PO235jszVuNg3GKImpH1Sr%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIMybBLjDW5Cvu%2BxkzuKtwDvFaaYUDoe0Pr2E2WuK8fm3Fv89iSH6j5iyprEVsSzpEp68X1haSwZdLb1R9nvP5xa8ym%2F8qSkaxt%2Fk6ah3dWJbCwgGhn1a7q7El%2FxBlJRCfW%2BXAw%2BXm%2B7W6j1275H9TUdv0L4ODYpklOUAJff%2FvWes7CVitektsYRmf4vTl9SXBE66JTgnnnuD6wmKdFsmjsq88tsQ%2F6M5rldheZ3QyzNXg%2Bfjkb0euiYqeTNVjko5XRZeqMw3tkPeUoSYtIzYzL0j%2F6m%2BILWWb90b2YFlPwuiGo75sJvMlOPHVgnz8fe1q98Zhbf1D7U533U7WGt8daL%2FLoChr6oBZKAA3DCPljoMVLyq0kDZa3nFW5WI%2Fgjk90wm0dgzAjOAKuteovhOO18p2dWHLb8tSXqEweopLfaJO%2BPLO7pFdmVcP2aioOh213AtxNbwGECn0nNNtA0VQQPLCs%2BUUU2kLJDXhyx24GmHA85uazYJUMFtJ9GKkv8TG00S3ruit%2FRLNfJpHQIuXqnExu3RbAyZ1y016gRzTaDItcMrZzzrSOeVSkXJGmiRf6gR41xA9oY%2FJ%2Bgpl2Z0CEKqciF0xj01smmNsyIi2s%2Blz%2F%2Fg9W2uEmuEXifBu%2By6T0QvzT6zmvpR7DRXYwos3MvwY6pgGnoIu%2FDd5uWigsIgJekwD24Y3NcBVFSfC0smj%2BK3tCbzaul%2BbreWwr4EWWSelj1%2BS8ChVlKipsgea6ahT3xlopxxwM6b8kpXIKQEEkLRRgggJmqaffshYkivloYnuYxK%2BAy%2Fj%2BMUFmF15dcxKI8znJ9anCgvD9Nq4DL0WKdLYbvQl7ROxYRjPcfxt%2BG6MfE3ip%2BISsMYh743D9t632DNtxyflWilM5&X-Amz-Signature=a2c866662c226eb0fd3114eb20064873d6b366c999ed4ed0319c641c6f24e8b1&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-8184-8da5-fbd2bd689f80"
@@ -24212,7 +24338,7 @@
       "174d30fa-35d0-8126-9085-eac9f956ac1d"
     ],
     "title": "Вічна воля",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/2c0fe918-9974-4d7a-a4d5-2e6a0c8d9b64/IMG_20240502_183055_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y2W3CTV6%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013818Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIGAKuwtjQFE%2BzKB5At3fHEM2yeneREZCTtaplLHKqExdAiEAlWrEF4bXog9VPWAbCikE7MqBySz%2F9fwDMr51b8%2B5gUYqiAQImf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDOoYANFXGMb%2Fw3bsJyrcA3zTK4Dfz%2F%2BqoCht2BUb%2FdSjXINC62fgX35mAcXvUs17W6L6gpjEN1A8lc%2FuxkLdgQwYWswpJnCgTEg7IWDcgSJztFrNM8tN%2FoXhtmIr%2FJuAat3q9rN75bfVgKqp6E9ZAz4Ttm9L4jFGKk2kRzutlAcIwM%2F%2F%2Bp3Hd8oeUWCMZP5%2FS0pBv2mbhgJmG2AGVY2KrKmFhsnCGFML0t5%2Bv4AmFY65Bxh9lcRxukR1BoNEb96%2FyzSLOTOPA0c3jZlQK3rL6x4GkgbJfStpUJw9pREFSU%2FfY%2FMn5zQjttn61DUba18rl96fPG%2FRVcyNHa720YJJEmefHDeB5GBp7kbN2NbazhxsrJr21YAQ%2BCecoSrL2XkUckqHDaIAGIHKqB%2FjbEl7FRGjEZiffm8VsUdHyuAwH%2FbBbTkrNLeoqtMMZbj1Urwcdw2CAmOKJdefeXZOrR4tJOp6PEliqsqIo0pK211MfiQzH%2B4XRTEOjgBxg1WsMnyeDNNrilKYqeBalBS%2Fk049rvSuKPRaTJAYkoCUizE2tZg7oZ85hDnOO%2BOJ2i6Aep6Y5%2FKrcnPC1nrj92IQ7O7K7kJT4i%2FjBZ6emvK7u9%2FKeekAm%2FOKgF%2B4hfc2KcpOMdeu7jidlJF%2F9lGS8PpEMKy5p78GOqUBk0GzCNbU%2F%2B4ORF1vpWF8Wc69eYhBKUS0Uk4i0jkgv2DxpDtul4tAgfL3v1lcMa6%2BQif6m4r8vm9vQeCDowEIiQ%2Bjnpnm5mSECFHHBPKkr%2FOD%2FkxriKf7D%2F4Lx9u7z4l0h%2B5pDzqeoGBN%2BkB4w93XZTDON63nT%2BwFCHo3xIyAqh8Y2TNUKzY9466KCD9Vs%2Bkn6k%2F4eN5%2Fo1F1dIaLjXVSBM9%2BFXO1&X-Amz-Signature=744d2ad6280b12d7f3490ef1a9f3142a69f8d771217044402e8255d81c08e80d&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/2c0fe918-9974-4d7a-a4d5-2e6a0c8d9b64/IMG_20240502_183055_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y7U7S4MG%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012851Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDgDQoPa7IDpGHPUd0LYeh4SN3oEAuY8ftoBHcAm%2FMO2wIhAP8YCt0kxSep3s5MX0jgZ%2BdRwQOjLaaDnPKDgitmVck8Kv8DCFIQABoMNjM3NDIzMTgzODA1IgwSWPKfjt4MEIDr%2FDkq3AOaiV%2FRz4dq7vw%2FFog8G5MxlizUs5Va1LHMW73Zs4A7jqRV1tdEv0C6r2H3lnHLufq5dy0GadjGp%2F6ppq%2Ft2kUrVFxdL0bqrTFoR0aw%2F0IBnIWvtv%2FQ%2FKoZVCiZL2qc0Xeu2xIIX10U7QaPh1Ytu9IxybwtgOVJ6KNCgqtE31kuY7gtlYM8FMzvkkVWLB6B6tfudZ50XIqqaQM%2FC7bG320zv9W%2B%2Fh%2FHWK4LBf%2BgMle5m7BtPvApGyMzK9RCK4BmI0PEBxLfvpq3Sz5EheM325BO4rrKifx8JtiidWsForpH4aOMtHq%2F6xXKRJ7d26eZuAVVTnysK2%2BESu1ahw3sXVBMkqTBRdoWcyire7mLgMBvPdWYjMYhxVXCrDs58U3N%2FEabm1lEeoYKNIlV0xyQKAhkZhoNHlnRcrESYF6HpvBoiAqivzqFc3NtcVQ5KxZ7MdyJjRGM9AFQ8pmGSpRK4Z1PCi3Fe210kr5IByNTZyjfoqiKdVANdIyYrEAf97miIBSeAIX8dlh%2B5XtqMcd375IHh6f4ly2Ci1ru17faMw0OC0wroVcsMFEuYVBgK15fENmT98Sf88yORZcxIrwMo5DAnWqw%2F1xhJHvT5XVumOROFK6CAhExTA4mE9tiSTDizcy%2FBjqkAd%2F3dq3XE240QnL2FH3a7uNtivDoSai%2BYocE02MeFwmYYfc7rnp5lnCMTkNrJTun87OXHzZ7m9ccYOm%2FKiUYzJC07SmWt8KVnU8nsOW3YgHZbJtV%2Bse0D4Ritc4e4nKDoPLitacLAc4M30QXoy3jV8M6K2A1%2B2ohXR%2F%2FfCrvjgquyVQY8Sme4ajj6aMNfgv%2Bd2p3UAfbOYTTu1Tf9TmHROYB3l27&X-Amz-Signature=ad76176fc76ef1e3e33ab1e28263a65f4282594acb50137d650a3d1c178aa293&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
@@ -24984,7 +25110,7 @@
   },
   {
     "id": "174d30fa-35d0-8199-b0be-ead802daa71e",
-    "last_edited": "2025-02-10T06:52:00.000Z",
+    "last_edited": "2025-04-05T13:45:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8130-a4bb-f1cb9d0908f6"
     ],
@@ -24995,7 +25121,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "19",
+    "episodes": "23",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -27131,7 +27257,7 @@
   },
   {
     "id": "174d30fa-35d0-813b-9b0a-f9029b1c76e4",
-    "last_edited": "2025-01-15T11:57:00.000Z",
+    "last_edited": "2025-04-05T12:06:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8157-bd6f-fb2bef176b8c"
     ],
@@ -27142,7 +27268,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "15 / 26",
+    "episodes": "20",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -29304,7 +29430,7 @@
       "174d30fa-35d0-8188-bc07-e601fa4f108b"
     ],
     "title": "Атака Титанів: Фінал",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/13be87a7-702c-4bda-9abb-5a5be00887e4/aot_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XKU2SWF2%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013823Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQC7y4yBoBzvW1uZqYmoAo3jvyp7z8V9WbTGG%2BC4dDZMtAIgRMvP2WbiUpyfKTUijRbcJQL6U0JVOCHSMez%2FYcVkCOcqiAQImf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDG9APcsg1HHo1LF7AircA8wZplVkkh2jazoxH9CG%2FL6sB98BssDdDxOOVy1xdI0ncPE1%2B0aTZFub1AZnkDp6wyeWtTaU%2F97FBZClRjnwndOBxk1mNIrZias35EhQfn5EJeERIVx8c0XnBM4oMT8nHanekUZneSu5rkdh6rQqMo5dApQoI%2BDxsZNdH3HnPNt23ZoofWI9w0FUY5Pzn05eOO4xTL6MHXMoKLO7mk5JzXT0cjDSO8xtmxdNTBDlfzdowhWPly22lfiG9Pe0d0Ed0HzqgEE%2F0bTU%2BQGZzEPycTRTt7HmMCixN5FduaTkHcC%2Buyy33ltuyuhlVds8Vs8Yl3Zl1z6yfyP95jmQDEGOQgPs%2F4AypmQZUQUDwl%2BT1SRfK0EcIEkbyXQqDnn%2F8UadpCMNdaCZqwuxZUO0bIR9njhqh%2FsYC5TG6GA6XudKazW6J%2BpDHbY8Cfai5G5Uf7rGIZusmZYd7onsjIiftV8Fr%2Ba3rzFLWfacC7j9OQVKvfhvFoM%2BI77TjcHmPHPDaJ0O%2FFR6eBEnMAr3x%2BTJDn1K%2Fl3sN0HSDTmbk6ya5wOuLcX16VYRBDkZ1lGnAYS8dsPfIkU7BtYz7aKuhrP0rR2TQVhyXHrSUAqTqqW3VhdSaOihLI2ajE5snyTj7RBRMKG6p78GOqUB7SwpY01rhsgfKhQLPMcVMiAjO2iWw5cHO53i5uG3EADTT%2BHt%2BgAXDiquFswysc8DWR%2BCf0wuE4Q4947J10E9MaDi3kwtHyfaZHriM7en54hexEDdRWXMYdqGmVlyQGmzjxldOKJZyg5XtKuk7CNVhTcWZNdT50RVurk%2FAl1rvK9nPRe6hUQV8uJeI01ZG4UomGxuKRrW9T0hMhItwwwklxQAG0eC&X-Amz-Signature=e0d7c15205241463b5761baa2d9bc57e7ab1400b60c083250a56844cc9093916&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/13be87a7-702c-4bda-9abb-5a5be00887e4/aot_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663URNCACO%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012857Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC4BESsHpKxE2Ibe56GIXZ2%2FJSJNDH9yaPzUp7n9w4yUwIhAJjdaFpX5tjsV7PlImaL4eYSx%2Fb6jd43P973mS7%2BEmTCKv8DCFIQABoMNjM3NDIzMTgzODA1IgxqtcLKTNE57NN08wIq3AM6gHeKy%2Fj8RtTXRuRM1OET7b31zs255r0qj99w3p5SkMwFeyjJzUFpFpmAbxtiih66tTF1Etdzjsi0ytpMpcH%2B%2F1sSK7DgMFnsSI9iYLLNxAn7vISkgvdgjIcwZ4nwuPsYHMRy%2B02lNVL1YTA2kf5axf4j%2F8ZZn45BTXZdpSz6Oo952ArH2pIloaIbBhQS1XRNflZs%2F70jU6h00SanTwHdjZYzLXkQYXQI12TEgQmBx6qrcV6lKMbizfJEN7BNOAMMnGp3jPkB2DVEvoSG6dFn4KooXkX63k5eyQf1Xvnww77ClyOdcUuE3mfuOdhRPmbHntdxpMufjblKvUN9nsEt97%2Fa9mmfGIn2zlfR6X3JtjZYDww%2FdMYZ1L6sHJvuZpLk4MpWr%2FrR4jTlyipVY0eVrdsvqZ%2F5rWY2c%2Bb6YGcx6G137peOUp0QN%2BhCyZib%2FMFkfHauvlc6R%2FMu%2BVvXT%2BbiH2rOWgbC54rLNxEp2dF2tqFqyGWtAjbNDFHn04MDOgxbQ88483csQGS6klY%2FcuvMTCfrjL5SHO9Hkv2844ODhMptc%2FtBxb0eYuKvJxX1hA%2B3%2B6JH4z7i9pP4Sj1LVi3hLMb8uOznpkSaJxphu09LSjGd9iAZSZlDcq5%2BDzCjzcy%2FBjqkAXcwUYOHCYm%2FZy3vrruHIERY%2BofCiBylSsPK%2ByPm2P5s%2FVwG5%2BeYwP2OxD8SbS2nQzjbF4XsY0G0f8VQgCtm%2F5fEkYZf29mQASxbrR4guDGsJzQhc8qMMwc%2BVXJ3Wds%2BLr0Fp3WdkFAIIrM9DchqdPim07RH80HrwbdrYX5y%2FN7SJ5rVnTnFmv4mgbYef051%2BXKoVVHR2b74GLmk%2Fb00hR8bj5kE&X-Amz-Signature=912d359226247aa70faf0a539667e58de9301f7d4280ebd019943bc8ce720703&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
@@ -29764,7 +29890,7 @@
       "174d30fa-35d0-8175-8711-fac3697e8ad0"
     ],
     "title": "Монолог травниці",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/cae22595-b142-41af-ba73-4d36bdedef04/IMG_20240502_184911_371.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XKU2SWF2%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013823Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQC7y4yBoBzvW1uZqYmoAo3jvyp7z8V9WbTGG%2BC4dDZMtAIgRMvP2WbiUpyfKTUijRbcJQL6U0JVOCHSMez%2FYcVkCOcqiAQImf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDG9APcsg1HHo1LF7AircA8wZplVkkh2jazoxH9CG%2FL6sB98BssDdDxOOVy1xdI0ncPE1%2B0aTZFub1AZnkDp6wyeWtTaU%2F97FBZClRjnwndOBxk1mNIrZias35EhQfn5EJeERIVx8c0XnBM4oMT8nHanekUZneSu5rkdh6rQqMo5dApQoI%2BDxsZNdH3HnPNt23ZoofWI9w0FUY5Pzn05eOO4xTL6MHXMoKLO7mk5JzXT0cjDSO8xtmxdNTBDlfzdowhWPly22lfiG9Pe0d0Ed0HzqgEE%2F0bTU%2BQGZzEPycTRTt7HmMCixN5FduaTkHcC%2Buyy33ltuyuhlVds8Vs8Yl3Zl1z6yfyP95jmQDEGOQgPs%2F4AypmQZUQUDwl%2BT1SRfK0EcIEkbyXQqDnn%2F8UadpCMNdaCZqwuxZUO0bIR9njhqh%2FsYC5TG6GA6XudKazW6J%2BpDHbY8Cfai5G5Uf7rGIZusmZYd7onsjIiftV8Fr%2Ba3rzFLWfacC7j9OQVKvfhvFoM%2BI77TjcHmPHPDaJ0O%2FFR6eBEnMAr3x%2BTJDn1K%2Fl3sN0HSDTmbk6ya5wOuLcX16VYRBDkZ1lGnAYS8dsPfIkU7BtYz7aKuhrP0rR2TQVhyXHrSUAqTqqW3VhdSaOihLI2ajE5snyTj7RBRMKG6p78GOqUB7SwpY01rhsgfKhQLPMcVMiAjO2iWw5cHO53i5uG3EADTT%2BHt%2BgAXDiquFswysc8DWR%2BCf0wuE4Q4947J10E9MaDi3kwtHyfaZHriM7en54hexEDdRWXMYdqGmVlyQGmzjxldOKJZyg5XtKuk7CNVhTcWZNdT50RVurk%2FAl1rvK9nPRe6hUQV8uJeI01ZG4UomGxuKRrW9T0hMhItwwwklxQAG0eC&X-Amz-Signature=5e6b8046abac72668e8b580bedacd476d3e492a667b2e2c673b0242841c467a0&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/cae22595-b142-41af-ba73-4d36bdedef04/IMG_20240502_184911_371.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663URNCACO%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012857Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC4BESsHpKxE2Ibe56GIXZ2%2FJSJNDH9yaPzUp7n9w4yUwIhAJjdaFpX5tjsV7PlImaL4eYSx%2Fb6jd43P973mS7%2BEmTCKv8DCFIQABoMNjM3NDIzMTgzODA1IgxqtcLKTNE57NN08wIq3AM6gHeKy%2Fj8RtTXRuRM1OET7b31zs255r0qj99w3p5SkMwFeyjJzUFpFpmAbxtiih66tTF1Etdzjsi0ytpMpcH%2B%2F1sSK7DgMFnsSI9iYLLNxAn7vISkgvdgjIcwZ4nwuPsYHMRy%2B02lNVL1YTA2kf5axf4j%2F8ZZn45BTXZdpSz6Oo952ArH2pIloaIbBhQS1XRNflZs%2F70jU6h00SanTwHdjZYzLXkQYXQI12TEgQmBx6qrcV6lKMbizfJEN7BNOAMMnGp3jPkB2DVEvoSG6dFn4KooXkX63k5eyQf1Xvnww77ClyOdcUuE3mfuOdhRPmbHntdxpMufjblKvUN9nsEt97%2Fa9mmfGIn2zlfR6X3JtjZYDww%2FdMYZ1L6sHJvuZpLk4MpWr%2FrR4jTlyipVY0eVrdsvqZ%2F5rWY2c%2Bb6YGcx6G137peOUp0QN%2BhCyZib%2FMFkfHauvlc6R%2FMu%2BVvXT%2BbiH2rOWgbC54rLNxEp2dF2tqFqyGWtAjbNDFHn04MDOgxbQ88483csQGS6klY%2FcuvMTCfrjL5SHO9Hkv2844ODhMptc%2FtBxb0eYuKvJxX1hA%2B3%2B6JH4z7i9pP4Sj1LVi3hLMb8uOznpkSaJxphu09LSjGd9iAZSZlDcq5%2BDzCjzcy%2FBjqkAXcwUYOHCYm%2FZy3vrruHIERY%2BofCiBylSsPK%2ByPm2P5s%2FVwG5%2BeYwP2OxD8SbS2nQzjbF4XsY0G0f8VQgCtm%2F5fEkYZf29mQASxbrR4guDGsJzQhc8qMMwc%2BVXJ3Wds%2BLr0Fp3WdkFAIIrM9DchqdPim07RH80HrwbdrYX5y%2FN7SJ5rVnTnFmv4mgbYef051%2BXKoVVHR2b74GLmk%2Fb00hR8bj5kE&X-Amz-Signature=d9c62a2f58a19b7fa8f3e929a483c415bdaa1a4e3656f7f07aa84fd30411558c&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
@@ -30785,7 +30911,7 @@
       "174d30fa-35d0-81f7-aee4-e82572ec5882"
     ],
     "title": "Діяльність звичайного чоловіка у віртуальному світі VRMMO",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/82df6438-87ba-497c-be06-159b3d5000aa/IMG_20240503_175440_984.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XKU2SWF2%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013823Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQC7y4yBoBzvW1uZqYmoAo3jvyp7z8V9WbTGG%2BC4dDZMtAIgRMvP2WbiUpyfKTUijRbcJQL6U0JVOCHSMez%2FYcVkCOcqiAQImf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDG9APcsg1HHo1LF7AircA8wZplVkkh2jazoxH9CG%2FL6sB98BssDdDxOOVy1xdI0ncPE1%2B0aTZFub1AZnkDp6wyeWtTaU%2F97FBZClRjnwndOBxk1mNIrZias35EhQfn5EJeERIVx8c0XnBM4oMT8nHanekUZneSu5rkdh6rQqMo5dApQoI%2BDxsZNdH3HnPNt23ZoofWI9w0FUY5Pzn05eOO4xTL6MHXMoKLO7mk5JzXT0cjDSO8xtmxdNTBDlfzdowhWPly22lfiG9Pe0d0Ed0HzqgEE%2F0bTU%2BQGZzEPycTRTt7HmMCixN5FduaTkHcC%2Buyy33ltuyuhlVds8Vs8Yl3Zl1z6yfyP95jmQDEGOQgPs%2F4AypmQZUQUDwl%2BT1SRfK0EcIEkbyXQqDnn%2F8UadpCMNdaCZqwuxZUO0bIR9njhqh%2FsYC5TG6GA6XudKazW6J%2BpDHbY8Cfai5G5Uf7rGIZusmZYd7onsjIiftV8Fr%2Ba3rzFLWfacC7j9OQVKvfhvFoM%2BI77TjcHmPHPDaJ0O%2FFR6eBEnMAr3x%2BTJDn1K%2Fl3sN0HSDTmbk6ya5wOuLcX16VYRBDkZ1lGnAYS8dsPfIkU7BtYz7aKuhrP0rR2TQVhyXHrSUAqTqqW3VhdSaOihLI2ajE5snyTj7RBRMKG6p78GOqUB7SwpY01rhsgfKhQLPMcVMiAjO2iWw5cHO53i5uG3EADTT%2BHt%2BgAXDiquFswysc8DWR%2BCf0wuE4Q4947J10E9MaDi3kwtHyfaZHriM7en54hexEDdRWXMYdqGmVlyQGmzjxldOKJZyg5XtKuk7CNVhTcWZNdT50RVurk%2FAl1rvK9nPRe6hUQV8uJeI01ZG4UomGxuKRrW9T0hMhItwwwklxQAG0eC&X-Amz-Signature=8f38bc44835a9b8e5b343387154b7948be6d61ab3b114ecc82daefd4c1745a84&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/82df6438-87ba-497c-be06-159b3d5000aa/IMG_20240503_175440_984.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663URNCACO%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012857Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC4BESsHpKxE2Ibe56GIXZ2%2FJSJNDH9yaPzUp7n9w4yUwIhAJjdaFpX5tjsV7PlImaL4eYSx%2Fb6jd43P973mS7%2BEmTCKv8DCFIQABoMNjM3NDIzMTgzODA1IgxqtcLKTNE57NN08wIq3AM6gHeKy%2Fj8RtTXRuRM1OET7b31zs255r0qj99w3p5SkMwFeyjJzUFpFpmAbxtiih66tTF1Etdzjsi0ytpMpcH%2B%2F1sSK7DgMFnsSI9iYLLNxAn7vISkgvdgjIcwZ4nwuPsYHMRy%2B02lNVL1YTA2kf5axf4j%2F8ZZn45BTXZdpSz6Oo952ArH2pIloaIbBhQS1XRNflZs%2F70jU6h00SanTwHdjZYzLXkQYXQI12TEgQmBx6qrcV6lKMbizfJEN7BNOAMMnGp3jPkB2DVEvoSG6dFn4KooXkX63k5eyQf1Xvnww77ClyOdcUuE3mfuOdhRPmbHntdxpMufjblKvUN9nsEt97%2Fa9mmfGIn2zlfR6X3JtjZYDww%2FdMYZ1L6sHJvuZpLk4MpWr%2FrR4jTlyipVY0eVrdsvqZ%2F5rWY2c%2Bb6YGcx6G137peOUp0QN%2BhCyZib%2FMFkfHauvlc6R%2FMu%2BVvXT%2BbiH2rOWgbC54rLNxEp2dF2tqFqyGWtAjbNDFHn04MDOgxbQ88483csQGS6klY%2FcuvMTCfrjL5SHO9Hkv2844ODhMptc%2FtBxb0eYuKvJxX1hA%2B3%2B6JH4z7i9pP4Sj1LVi3hLMb8uOznpkSaJxphu09LSjGd9iAZSZlDcq5%2BDzCjzcy%2FBjqkAXcwUYOHCYm%2FZy3vrruHIERY%2BofCiBylSsPK%2ByPm2P5s%2FVwG5%2BeYwP2OxD8SbS2nQzjbF4XsY0G0f8VQgCtm%2F5fEkYZf29mQASxbrR4guDGsJzQhc8qMMwc%2BVXJ3Wds%2BLr0Fp3WdkFAIIrM9DchqdPim07RH80HrwbdrYX5y%2FN7SJ5rVnTnFmv4mgbYef051%2BXKoVVHR2b74GLmk%2Fb00hR8bj5kE&X-Amz-Signature=7073c1698ce6f6f49ff97325fc92325b782c39106077514446491ab44342c98d&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-819d-968c-f648d0b82baf"
@@ -32092,7 +32218,7 @@
       "174d30fa-35d0-81e5-b643-d8c93962a664"
     ],
     "title": "Розколота битвою синьова небес",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/7b0bf4e5-fe4c-42cd-aa08-7123609900b6/Battle-Through-the-Heavens_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666X7XNXGE%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013825Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICdwfZ92AD9RV5IVq4JR4km8lfLTT2Lpr1c2kpA2sb1JAiEAgfEsg7JbryfNPRerQFoPUaNkKOVLQN7WJwKBr%2BEe68cqiAQImf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPzA%2B2OsmNR6xasbhCrcAweNHKv5pADJqU6em2oXb14i5UOxHrAb9X6ixs38u9sYwx9dkg%2Bkclh3J0Ub5l2TgIoCzlmxehYRYVhp1uakW2gpI8%2FHbRKKqmLgccezw4ktl0L9RazUYLdVgj85jydVz2zMu7ZlXR5HS5qHyKTKi0CuZkleO7tOx0IauTHoNuO1UZ%2FrFLYcX3ByfYG8A4AaXR81eZh3jvoWFUpgas2nTYVhkHTTk4%2BFGlyxGyRc05rA0nDw2mOW2YcQnTwK0g7Z3TK0TB6hwNUbw%2FQuTS%2BylECxSBmaiUf%2FzFykXlWAIAKlUe3oQgPaaUhAFXQGNSPE3kUyPagCELb1miaEfBEHgV9Mcf1jrVA%2FF5nKeiXQknq81kuIYVpL1Zi7rhie12FGvzRfs26qrarwr046zA2yetpyZz5Dbm02TzQKLnKSlhDaR1FsY66VQvcRBLDEZtxj76p74PEzrZavmT7LMUGpjpHH4geShNE2BdrF%2BH8itO5yDPvDxQGV5XdH0q9Ccz4MZ8Zr4Eeuse1dheLy%2BY6ghns0RUFCl4lVQAL7mM8KDnoDsQ7VWtUqg9RbLffqAuJSGSs0wX%2BEhgGv21Rr1gHbFRL4CT2meNBIvLaQll1v88pY9Uezo%2BMUFbvn2FSAMOS5p78GOqUB7LV1%2FVs7%2B5p28ksjfmJLmzJNFrDccZfMUNDWunDe%2Be1FRUl4%2BnAYkOlxATtMCYVYF0yquo%2BSU6s7HBWh%2FyapcvqdQn3j0pu0fZA4%2F%2ByJj%2Bj7yY4%2Fux4VOxrd2fARnUy0hJRkrDXi07n4TgHVJrGatgIR%2FvWYLeTSVRemJeEdMmPrksj9xN%2FNj9RGq8hveaALZWn1BQFKJzhU1%2BMRRhJLRH2BymJR&X-Amz-Signature=090ef0e50a0541a4e132a8b2ed2261a946071224af76a152744f06f1e3ee52a4&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/7b0bf4e5-fe4c-42cd-aa08-7123609900b6/Battle-Through-the-Heavens_banner.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TMUW5AQM%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIG4iK%2BULudD%2FFaPeS4Pn4YjzcvxymM8J6aEAM6fI5ruZAiBpvQQx%2F7d8mAKhnTG0733VBiNMgy%2BGrWRyfETqDktdkir%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIMrC2dh0X%2Fhp87CKXxKtwDcoYYqTNjEc8Ny95t80f5WTdPdcVLPqShl4k%2Fy2tVJ0lRv3%2FS5c%2BTPFkBRwrTioZJrcMoa9%2FBVK3Z%2BtWV%2BiM%2Blr3gSxYv88rPCi0DICiR%2BgdILzMRMjLqFjiGdnEIknyd7pJhsMAmNxqt9%2Fyj2BGGLQDKkrxS9Dmep8dJU80N%2FZCz5oz2gqD9X7c%2F3ycJv746VRAy8X7eAibho3tdsEdhMyHqaNDx1eIB0MJCtpXVk3oeXCyVOKj2yBSK0TR%2FkhkMGt2VQRw7XxZS6cZ4Vx5PPJ8P4mFx3IWfZViI0%2BUPUAzX929qIQb2HHAFhb7nLxHspOFZpBs99eBwhZN48RphCwc6GN8uNN2iYkkyRSzndLzYFXKzTtfuf82aND1bc2FeRZHnqzd7lTYAEkE0MxiAsWE58YpYjcwR9M6l29N9ktnRYugv%2FiRZn7MSl%2FsA%2Fvpy46B2aleQ%2Fz9tkP9kATzpMpLhFXSEN%2BxQejom%2Fg2BSB%2Brmb13NSHw8OuBXoZypPo2Vq3dsFCdDPgwCzoCGJSpAmHXcK%2F0jih2NZ2%2FSUf201x9FH1%2BP0qV3Pv%2FVESeDWk8YdujDEPZuE6q0Xmu44lUs%2FYikIgBAPmTwBM%2Bj4oEbXzmtoK%2BKaSSII73cbMw887MvwY6pgGQUaIxJ4oFJYgLXJpNFTSPO9TGl0SGPPtAjrJtrbCAfUpxmz4Y38MN3UEkv88%2FVGoFZBs9qEBs%2FJ6cw4yy16WkfqDzwQpZq67ptSmupEfuE6D7dyvVMlloB098IIvnYX%2FvcqgA7gxu8ba50gguAsT04JM7bMTWje46AQSzkZBzn2aaNcdW9pYYG2xGgd7Z8nDD60MeK3rhdnl2uidMow0FeB8VUUtO&X-Amz-Signature=fe82fd390a2fce973ef7a40b440b563d07a77718ca24e7b1168403f534b33e70&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
@@ -32308,7 +32434,7 @@
   },
   {
     "id": "174d30fa-35d0-8113-8a81-cebc0526abbd",
-    "last_edited": "2025-02-03T10:03:00.000Z",
+    "last_edited": "2025-04-05T13:57:00.000Z",
     "animeIds": [
       "174d30fa-35d0-815b-b5c1-c99536b930c4"
     ],
@@ -32319,7 +32445,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "19",
+    "episodes": "20",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -34129,7 +34255,7 @@
       "174d30fa-35d0-81fb-9ad5-fdf51bc75670"
     ],
     "title": "Трон печатки",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/775eac6d-2fd2-427f-b1b4-7f6b2286cdba/IMG_20240502_184605_841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YWL345OI%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013828Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQDgvTjiRjxmHJMPQ91Z7jDDEDpPvX1vJovqZ5pYnGcjbgIhAL4IhkNy525SZXDfrQ9u55CU5t5%2BsnmfkCOOmXJI4YGmKogECJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgysZVwOu7h2HhVkhb0q3APYUvxh4LPKlX9INWYdOpbdbNMyznnPCUBlxVTmZC2dkZd7zqY1v5Sq7NaE%2BDiaojsuIyprJZnIh%2Fou5pJoPuJ401huVvVrvcTIdut5vEXoxO6haoZHtxI%2BkdL4CsUJe53u4exhbnL60HeuY%2ByEiobfhSpJAofTrzVuSToJ3XkzMg33CTU86HEgwanGU9pHYbKULiQNEopWX9A%2Bqte7J9uUqKz4N5CBUFa54OGPoGt05KaFad0WddGuIQNPbrj2Rj%2F1ZVKz6X1fnV0W6whlZ%2FIRaay6Y16IfKSAyFUirjh2MorxylNEhlB%2BtWgigb%2BRfPMjVzZlAa1FqMvwMS3eIRDPembzV4B8k%2FKhzBxPBuh4m4JYiJPVxwNBj9MA2cv5iimSwYsaARmzR1jONtYgYerZVNTSnKRvxMrUBSxz2G%2FpAu%2FP7MYI5Hf3a98nkBlRaR1D8lPf9oPquA7vrU8HVTcv6eSmaLgYcpF63R%2FvtLbQJ7HAgyv5vJuqmq808Mu5IGBfc5PZxbWs4oDgMiMtS6DqJoDTHZ6foWqIcC4L9krLiryO5yJY8nQ7nnxiK%2Fc7hi2kgOGUKZjSXV0lnvvNyyA%2B3QRuZ%2BkEVokQq%2FQ7lJxIYqW%2F%2Fuh1gi9vK0D1%2FDDWuae%2FBjqkAXHau9DTeqkqZlSNcov9M8l16L0Zx0K71zMy53L1AVVSIL5AUz%2B7ySwVwRdycvHV1WK%2BKAK0V%2B0DAHVLxCO3wAPr%2BZ02n8ScOpqULjvqJMZp6eF7lZrey7cKDEGFcnObsjVZx4JRTpyzd005%2FMviDMvfTJLs87jJ92RpxK2kuH6YkLiFUGZPMqDfYQ9Qv4l3yLuS0wFqt5Z0jh6jH31%2Ffr%2FRmThy&X-Amz-Signature=b0e4a68d7f4808c9f6daac44d175cd9460bb263e5a99722c69ba83ef2a632e93&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/775eac6d-2fd2-427f-b1b4-7f6b2286cdba/IMG_20240502_184605_841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663OQE2RKN%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBafzo%2FTb5uD7oZcfzXcNG2pVMN1oBkVQGG%2FYQNqZGexAiBvfFuCI4tcdSPwO1t1VieKvAeFUCaQZYo20frTiDcbXir%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIMNN3rQVCU1wbQXp53KtwDNlYwpzx6e9ojfS4epv6PPwQpEvJiS%2BKyA9udCIRC5ceXq0GfpIi7F29jDDJbxZwmG%2FmVewZDu%2BItKGQ%2Bmq5bXN3b8cG3Jiq0FNWH0IsGp1ZEWRU8v4z%2BeSkUxXMniH6zqkCdztmO2wX17GLIdoxzC3CQkm%2BtuY5%2FPkJ%2FHHmJqOwBLpY4S%2B9eIeBz9VFgBDxZL%2FIpTGcXAtEnhHrU9UypXzyZX4rFMjRBd%2B472TY%2FGDWKNIY03Waer7xLzWCoIm88WEGz5YcqGoT%2BLwHU1o3gpLB825mUrgfzDgMqPVkYG78Lo0BTEJK17cF3ysyd4J1YHJ0gixxtuRPmM06C3zpuwIyPNVCxev%2BuQ3sB2%2FMBdi4T4UDK7I7Ttx3Ovd%2BkhmZ26fC%2F69EJcr5Bz0dZ5pPEkjKWLQNzgjDqXzTG2pruqNYiZs%2Buk8fe7g4fOA36XLTnF69IojCSS%2F4nISNiC2bMRS88uCCVC7AE%2F8BLVowK1KjEBMr%2FAGrpdi58gjjx2eefAMvWUiyHhlWGbZ8MzhjsQNCfPNByRv9Eg5pQqT%2FHS7mswI7s%2BNIjuYArDiMEPUQ%2BnJvshDo5VjtRLKaC1DoB2WvJzTIBd%2Fa8GdaBD8Oq8S5it%2Bm5kBQLUNBO1e4w887MvwY6pgHsQdY91GvuQAb%2B44kzFfNKSoFPMbjeZguFqNYzuGb9xuPPAPi7t8JX%2BDzgfw2krnzuGY3eOOTFrnaJwTBwZwqIPXfa5XW1Q3BFhgQ7M3NnUOVx7D4svnVFOJESjANsXUcBEg412xKFrfFzRuUDMhxlgevAz02yZMG96mkQV0UTNbjdJHU7hREyO1W7g3WxuCUH6Ka3A%2BOtbI2362L9WIPiDQhekaz9&X-Amz-Signature=f3695b019674f33b3c4a479d10a4ab9fda165ff0e66c4ab8399d5fa03f08628f&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
@@ -34449,7 +34575,7 @@
       "174d30fa-35d0-813c-9069-d47c92822827"
     ],
     "title": "Кошик фруктів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/694acfd3-8bba-445c-9212-242a756f111e/photo_2023-04-03_19-11-40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YWL345OI%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013828Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQDgvTjiRjxmHJMPQ91Z7jDDEDpPvX1vJovqZ5pYnGcjbgIhAL4IhkNy525SZXDfrQ9u55CU5t5%2BsnmfkCOOmXJI4YGmKogECJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgysZVwOu7h2HhVkhb0q3APYUvxh4LPKlX9INWYdOpbdbNMyznnPCUBlxVTmZC2dkZd7zqY1v5Sq7NaE%2BDiaojsuIyprJZnIh%2Fou5pJoPuJ401huVvVrvcTIdut5vEXoxO6haoZHtxI%2BkdL4CsUJe53u4exhbnL60HeuY%2ByEiobfhSpJAofTrzVuSToJ3XkzMg33CTU86HEgwanGU9pHYbKULiQNEopWX9A%2Bqte7J9uUqKz4N5CBUFa54OGPoGt05KaFad0WddGuIQNPbrj2Rj%2F1ZVKz6X1fnV0W6whlZ%2FIRaay6Y16IfKSAyFUirjh2MorxylNEhlB%2BtWgigb%2BRfPMjVzZlAa1FqMvwMS3eIRDPembzV4B8k%2FKhzBxPBuh4m4JYiJPVxwNBj9MA2cv5iimSwYsaARmzR1jONtYgYerZVNTSnKRvxMrUBSxz2G%2FpAu%2FP7MYI5Hf3a98nkBlRaR1D8lPf9oPquA7vrU8HVTcv6eSmaLgYcpF63R%2FvtLbQJ7HAgyv5vJuqmq808Mu5IGBfc5PZxbWs4oDgMiMtS6DqJoDTHZ6foWqIcC4L9krLiryO5yJY8nQ7nnxiK%2Fc7hi2kgOGUKZjSXV0lnvvNyyA%2B3QRuZ%2BkEVokQq%2FQ7lJxIYqW%2F%2Fuh1gi9vK0D1%2FDDWuae%2FBjqkAXHau9DTeqkqZlSNcov9M8l16L0Zx0K71zMy53L1AVVSIL5AUz%2B7ySwVwRdycvHV1WK%2BKAK0V%2B0DAHVLxCO3wAPr%2BZ02n8ScOpqULjvqJMZp6eF7lZrey7cKDEGFcnObsjVZx4JRTpyzd005%2FMviDMvfTJLs87jJ92RpxK2kuH6YkLiFUGZPMqDfYQ9Qv4l3yLuS0wFqt5Z0jh6jH31%2Ffr%2FRmThy&X-Amz-Signature=da4f7d3d810b36d2a8482eae1d80bba6057e5db4b670cfd87d0117e6ee051aae&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/694acfd3-8bba-445c-9212-242a756f111e/photo_2023-04-03_19-11-40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663OQE2RKN%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBafzo%2FTb5uD7oZcfzXcNG2pVMN1oBkVQGG%2FYQNqZGexAiBvfFuCI4tcdSPwO1t1VieKvAeFUCaQZYo20frTiDcbXir%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIMNN3rQVCU1wbQXp53KtwDNlYwpzx6e9ojfS4epv6PPwQpEvJiS%2BKyA9udCIRC5ceXq0GfpIi7F29jDDJbxZwmG%2FmVewZDu%2BItKGQ%2Bmq5bXN3b8cG3Jiq0FNWH0IsGp1ZEWRU8v4z%2BeSkUxXMniH6zqkCdztmO2wX17GLIdoxzC3CQkm%2BtuY5%2FPkJ%2FHHmJqOwBLpY4S%2B9eIeBz9VFgBDxZL%2FIpTGcXAtEnhHrU9UypXzyZX4rFMjRBd%2B472TY%2FGDWKNIY03Waer7xLzWCoIm88WEGz5YcqGoT%2BLwHU1o3gpLB825mUrgfzDgMqPVkYG78Lo0BTEJK17cF3ysyd4J1YHJ0gixxtuRPmM06C3zpuwIyPNVCxev%2BuQ3sB2%2FMBdi4T4UDK7I7Ttx3Ovd%2BkhmZ26fC%2F69EJcr5Bz0dZ5pPEkjKWLQNzgjDqXzTG2pruqNYiZs%2Buk8fe7g4fOA36XLTnF69IojCSS%2F4nISNiC2bMRS88uCCVC7AE%2F8BLVowK1KjEBMr%2FAGrpdi58gjjx2eefAMvWUiyHhlWGbZ8MzhjsQNCfPNByRv9Eg5pQqT%2FHS7mswI7s%2BNIjuYArDiMEPUQ%2BnJvshDo5VjtRLKaC1DoB2WvJzTIBd%2Fa8GdaBD8Oq8S5it%2Bm5kBQLUNBO1e4w887MvwY6pgHsQdY91GvuQAb%2B44kzFfNKSoFPMbjeZguFqNYzuGb9xuPPAPi7t8JX%2BDzgfw2krnzuGY3eOOTFrnaJwTBwZwqIPXfa5XW1Q3BFhgQ7M3NnUOVx7D4svnVFOJESjANsXUcBEg412xKFrfFzRuUDMhxlgevAz02yZMG96mkQV0UTNbjdJHU7hREyO1W7g3WxuCUH6Ka3A%2BOtbI2362L9WIPiDQhekaz9&X-Amz-Signature=62bf9506d065947c348a6ff01e2fb2d242c75629bc9688958d966e6516b8ede0&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-81b8-95e2-f0e1493ff8fe"
@@ -34638,7 +34764,7 @@
       "174d30fa-35d0-8197-9676-e32fa69fc7e9"
     ],
     "title": "Леза хранителів",
-    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/69a8541c-83ef-4283-b925-596178746af8/botg_banner_4ua-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YWL345OI%2F20250331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250331T013828Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQDgvTjiRjxmHJMPQ91Z7jDDEDpPvX1vJovqZ5pYnGcjbgIhAL4IhkNy525SZXDfrQ9u55CU5t5%2BsnmfkCOOmXJI4YGmKogECJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgysZVwOu7h2HhVkhb0q3APYUvxh4LPKlX9INWYdOpbdbNMyznnPCUBlxVTmZC2dkZd7zqY1v5Sq7NaE%2BDiaojsuIyprJZnIh%2Fou5pJoPuJ401huVvVrvcTIdut5vEXoxO6haoZHtxI%2BkdL4CsUJe53u4exhbnL60HeuY%2ByEiobfhSpJAofTrzVuSToJ3XkzMg33CTU86HEgwanGU9pHYbKULiQNEopWX9A%2Bqte7J9uUqKz4N5CBUFa54OGPoGt05KaFad0WddGuIQNPbrj2Rj%2F1ZVKz6X1fnV0W6whlZ%2FIRaay6Y16IfKSAyFUirjh2MorxylNEhlB%2BtWgigb%2BRfPMjVzZlAa1FqMvwMS3eIRDPembzV4B8k%2FKhzBxPBuh4m4JYiJPVxwNBj9MA2cv5iimSwYsaARmzR1jONtYgYerZVNTSnKRvxMrUBSxz2G%2FpAu%2FP7MYI5Hf3a98nkBlRaR1D8lPf9oPquA7vrU8HVTcv6eSmaLgYcpF63R%2FvtLbQJ7HAgyv5vJuqmq808Mu5IGBfc5PZxbWs4oDgMiMtS6DqJoDTHZ6foWqIcC4L9krLiryO5yJY8nQ7nnxiK%2Fc7hi2kgOGUKZjSXV0lnvvNyyA%2B3QRuZ%2BkEVokQq%2FQ7lJxIYqW%2F%2Fuh1gi9vK0D1%2FDDWuae%2FBjqkAXHau9DTeqkqZlSNcov9M8l16L0Zx0K71zMy53L1AVVSIL5AUz%2B7ySwVwRdycvHV1WK%2BKAK0V%2B0DAHVLxCO3wAPr%2BZ02n8ScOpqULjvqJMZp6eF7lZrey7cKDEGFcnObsjVZx4JRTpyzd005%2FMviDMvfTJLs87jJ92RpxK2kuH6YkLiFUGZPMqDfYQ9Qv4l3yLuS0wFqt5Z0jh6jH31%2Ffr%2FRmThy&X-Amz-Signature=a8dd11bc0dbcd887236b46d327f146db1236f462f673d8870945e68f004a3019&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/69a8541c-83ef-4283-b925-596178746af8/botg_banner_4ua-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663OQE2RKN%2F20250407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250407T012902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBafzo%2FTb5uD7oZcfzXcNG2pVMN1oBkVQGG%2FYQNqZGexAiBvfFuCI4tcdSPwO1t1VieKvAeFUCaQZYo20frTiDcbXir%2FAwhSEAAaDDYzNzQyMzE4MzgwNSIMNN3rQVCU1wbQXp53KtwDNlYwpzx6e9ojfS4epv6PPwQpEvJiS%2BKyA9udCIRC5ceXq0GfpIi7F29jDDJbxZwmG%2FmVewZDu%2BItKGQ%2Bmq5bXN3b8cG3Jiq0FNWH0IsGp1ZEWRU8v4z%2BeSkUxXMniH6zqkCdztmO2wX17GLIdoxzC3CQkm%2BtuY5%2FPkJ%2FHHmJqOwBLpY4S%2B9eIeBz9VFgBDxZL%2FIpTGcXAtEnhHrU9UypXzyZX4rFMjRBd%2B472TY%2FGDWKNIY03Waer7xLzWCoIm88WEGz5YcqGoT%2BLwHU1o3gpLB825mUrgfzDgMqPVkYG78Lo0BTEJK17cF3ysyd4J1YHJ0gixxtuRPmM06C3zpuwIyPNVCxev%2BuQ3sB2%2FMBdi4T4UDK7I7Ttx3Ovd%2BkhmZ26fC%2F69EJcr5Bz0dZ5pPEkjKWLQNzgjDqXzTG2pruqNYiZs%2Buk8fe7g4fOA36XLTnF69IojCSS%2F4nISNiC2bMRS88uCCVC7AE%2F8BLVowK1KjEBMr%2FAGrpdi58gjjx2eefAMvWUiyHhlWGbZ8MzhjsQNCfPNByRv9Eg5pQqT%2FHS7mswI7s%2BNIjuYArDiMEPUQ%2BnJvshDo5VjtRLKaC1DoB2WvJzTIBd%2Fa8GdaBD8Oq8S5it%2Bm5kBQLUNBO1e4w887MvwY6pgHsQdY91GvuQAb%2B44kzFfNKSoFPMbjeZguFqNYzuGb9xuPPAPi7t8JX%2BDzgfw2krnzuGY3eOOTFrnaJwTBwZwqIPXfa5XW1Q3BFhgQ7M3NnUOVx7D4svnVFOJESjANsXUcBEg412xKFrfFzRuUDMhxlgevAz02yZMG96mkQV0UTNbjdJHU7hREyO1W7g3WxuCUH6Ka3A%2BOtbI2362L9WIPiDQhekaz9&X-Amz-Signature=c799b13979168258fd9f3347ab29741bb0321399398a52a95ad2980341f2c226&X-Amz-SignedHeaders=host&x-id=GetObject",
     "teams": [
       {
         "id": "174d30fa-35d0-813c-9474-da91ffcf4787"
@@ -35345,7 +35471,7 @@
   },
   {
     "id": "174d30fa-35d0-8101-97dc-c2278da72779",
-    "last_edited": "2025-01-30T07:57:00.000Z",
+    "last_edited": "2025-04-05T17:32:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8163-b58c-f3f622732917"
     ],
@@ -35356,7 +35482,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "26 / 79",
+    "episodes": "38",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -35898,7 +36024,7 @@
   },
   {
     "id": "174d30fa-35d0-8111-bf8d-c900fbf5ae21",
-    "last_edited": "2025-01-30T07:57:00.000Z",
+    "last_edited": "2025-04-05T17:36:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8157-b79c-f803fef8b7e3"
     ],
@@ -35908,8 +36034,8 @@
         "id": "174d30fa-35d0-813c-ac4b-fb627e00ff64"
       }
     ],
-    "status": "В процесі",
-    "episodes": "23 / 26",
+    "status": "Завершено",
+    "episodes": "26",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -36798,20 +36924,6 @@
     "posters": []
   },
   {
-    "id": "174d30fa-35d0-8152-b4c6-f88c45c1fcb5",
-    "last_edited": "2025-01-15T11:22:00.000Z",
-    "animeIds": [
-      "174d30fa-35d0-8176-91df-c512d5c48e06"
-    ],
-    "title": "Аніме історії (суб)",
-    "teams": [],
-    "status": "В процесі",
-    "episodes": "9 / 12",
-    "torrent": "Невідомо",
-    "torrentLinks": [],
-    "posters": []
-  },
-  {
     "id": "174d30fa-35d0-8166-b068-f999131f4640",
     "last_edited": "2025-02-05T14:37:00.000Z",
     "animeIds": [
@@ -36973,7 +37085,7 @@
   },
   {
     "id": "174d30fa-35d0-8142-83a7-ed092b6c4cf3",
-    "last_edited": "2025-02-05T14:37:00.000Z",
+    "last_edited": "2025-04-05T11:38:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8176-91df-c512d5c48e06"
     ],
@@ -36983,8 +37095,8 @@
         "id": "174d30fa-35d0-8160-8b67-d692ace3746f"
       }
     ],
-    "status": "В процесі",
-    "episodes": "10",
+    "status": "Завершено",
+    "episodes": "12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -37327,7 +37439,7 @@
   },
   {
     "id": "174d30fa-35d0-8184-8dc1-d54ab2abb9c6",
-    "last_edited": "2025-02-19T12:46:00.000Z",
+    "last_edited": "2025-04-05T17:55:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8103-84e1-d0ee12a5b2dc"
     ],
@@ -37338,7 +37450,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "12",
+    "episodes": "18",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -37489,7 +37601,7 @@
   },
   {
     "id": "174d30fa-35d0-818c-a05a-cccf4d0c94ec",
-    "last_edited": "2025-02-10T06:49:00.000Z",
+    "last_edited": "2025-04-05T11:53:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8127-b3da-e09f536b5f00"
     ],
@@ -37500,7 +37612,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "4",
+    "episodes": "5",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -37728,7 +37840,7 @@
   },
   {
     "id": "174d30fa-35d0-81e6-a777-efe6d0eac238",
-    "last_edited": "2025-01-07T07:01:00.000Z",
+    "last_edited": "2025-04-05T13:02:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8101-919d-c1042463a23d"
     ],
@@ -37738,8 +37850,8 @@
         "id": "174d30fa-35d0-8164-a272-fe1ecbc97feb"
       }
     ],
-    "status": "В процесі",
-    "episodes": "11 / 13",
+    "status": "Завершено",
+    "episodes": "13",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -37837,7 +37949,7 @@
   },
   {
     "id": "174d30fa-35d0-813f-9fa8-d3d64ba26b09",
-    "last_edited": "2025-01-07T07:01:00.000Z",
+    "last_edited": "2025-04-05T11:54:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8143-a8ef-fb75762901d5"
     ],
@@ -37848,14 +37960,14 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "10 / 12",
+    "episodes": "11 / 12",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
   },
   {
     "id": "174d30fa-35d0-8154-91a3-c8ab8aa2a698",
-    "last_edited": "2025-01-07T07:01:00.000Z",
+    "last_edited": "2025-04-05T13:07:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81e7-8373-ddc2304560be"
     ],
@@ -37866,7 +37978,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "2",
+    "episodes": "6",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -38340,7 +38452,7 @@
   },
   {
     "id": "174d30fa-35d0-818d-8c08-c2324826918a",
-    "last_edited": "2025-01-07T07:01:00.000Z",
+    "last_edited": "2025-04-05T13:07:00.000Z",
     "animeIds": [
       "174d30fa-35d0-816e-a0a6-e1283b6731e4"
     ],
@@ -38351,7 +38463,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "9 / 13",
+    "episodes": "10",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -38520,7 +38632,7 @@
   },
   {
     "id": "174d30fa-35d0-81b2-b5bc-ea52e6645f3f",
-    "last_edited": "2025-01-23T10:51:00.000Z",
+    "last_edited": "2025-04-05T13:02:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81e0-9645-c7a4b7d2e975"
     ],
@@ -38534,7 +38646,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "57",
+    "episodes": "62",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -38726,7 +38838,7 @@
   },
   {
     "id": "174d30fa-35d0-811a-bc6f-ed36339d0b90",
-    "last_edited": "2025-01-23T10:57:00.000Z",
+    "last_edited": "2025-04-05T13:48:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81e1-97d6-c75c155f0b89"
     ],
@@ -38737,7 +38849,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "3",
+    "episodes": "4",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -38781,7 +38893,7 @@
   },
   {
     "id": "174d30fa-35d0-8180-8d91-d5edfe8747cf",
-    "last_edited": "2025-02-10T07:00:00.000Z",
+    "last_edited": "2025-04-05T13:59:00.000Z",
     "animeIds": [
       "174d30fa-35d0-818b-972f-c1ab50f5298e"
     ],
@@ -38792,7 +38904,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "3",
+    "episodes": "6",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -51373,7 +51485,7 @@
   },
   {
     "id": "174d30fa-35d0-8198-852b-c9547d22f013",
-    "last_edited": "2025-01-23T10:58:00.000Z",
+    "last_edited": "2025-04-05T13:49:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8133-a608-c8f5a68ddcac"
     ],
@@ -51384,7 +51496,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "6 / 13",
+    "episodes": "11",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -58924,7 +59036,7 @@
   },
   {
     "id": "174d30fa-35d0-813e-a8c5-eae40d87e31f",
-    "last_edited": "2025-02-19T08:45:00.000Z",
+    "last_edited": "2025-04-05T19:32:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81a3-b7ef-c0f017f208dc"
     ],
@@ -58934,8 +59046,8 @@
         "id": "174d30fa-35d0-8171-abc6-c2fe8f6d865f"
       }
     ],
-    "status": "В процесі",
-    "episodes": "19",
+    "status": "Завершено",
+    "episodes": "25",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -59278,7 +59390,7 @@
   },
   {
     "id": "174d30fa-35d0-81ab-806c-fc58b38e3e12",
-    "last_edited": "2025-01-14T07:26:00.000Z",
+    "last_edited": "2025-04-05T13:49:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81a4-9e56-dabe89370c2a"
     ],
@@ -59289,7 +59401,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "6 / 12",
+    "episodes": "9",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -63294,7 +63406,7 @@
   },
   {
     "id": "174d30fa-35d0-81b1-9dc7-fb3b4ac97a2d",
-    "last_edited": "2025-01-15T14:06:00.000Z",
+    "last_edited": "2025-04-05T11:57:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81f3-b34b-cb72446c4700"
     ],
@@ -63305,7 +63417,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "7 / 12",
+    "episodes": "9",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -63407,7 +63519,7 @@
   },
   {
     "id": "174d30fa-35d0-8143-a9a9-c1bb1a289b20",
-    "last_edited": "2025-02-03T10:10:00.000Z",
+    "last_edited": "2025-04-05T12:01:00.000Z",
     "animeIds": [
       "174d30fa-35d0-81d0-9741-ea4397c84be9"
     ],
@@ -63418,14 +63530,14 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "7",
+    "episodes": "9",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
   },
   {
     "id": "174d30fa-35d0-8154-a659-d614a2498849",
-    "last_edited": "2025-02-10T06:48:00.000Z",
+    "last_edited": "2025-04-05T12:02:00.000Z",
     "animeIds": [
       "174d30fa-35d0-812a-9ac4-e19386d11fca"
     ],
@@ -63436,7 +63548,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "7",
+    "episodes": "8",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
@@ -65774,7 +65886,7 @@
   },
   {
     "id": "174d30fa-35d0-81a3-80c2-cb620f108db4",
-    "last_edited": "2025-02-03T10:02:00.000Z",
+    "last_edited": "2025-04-05T13:57:00.000Z",
     "animeIds": [
       "174d30fa-35d0-8119-b8c2-e3101dca3a08"
     ],
@@ -65785,7 +65897,7 @@
       }
     ],
     "status": "В процесі",
-    "episodes": "6",
+    "episodes": "7",
     "torrent": "Невідомо",
     "torrentLinks": [],
     "posters": []
