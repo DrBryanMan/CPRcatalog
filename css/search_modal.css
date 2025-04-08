@@ -12,7 +12,7 @@
     backdrop-filter: blur(8px);
     visibility: hidden;
     opacity: 0;
-    transition: visibility .3s 1s, opacity .3s;
+    transition: .3s;
 }
 .modal::backdrop {
     backdrop-filter: blur(4px);
@@ -54,7 +54,7 @@
 #searchResults {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 10px;
     overflow-y: auto;
     max-height: 60vh;

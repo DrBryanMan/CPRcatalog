@@ -1,5 +1,4 @@
-import * as Functions from './functions.js'
-
+// import * as Functions from './functions.js'
 export let [allAnimes, allReleases, allTeams] = [[], [], []]
 
 // Отримуємо всі дані
