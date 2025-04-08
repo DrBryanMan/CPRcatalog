@@ -1,5 +1,20 @@
 [
   {
+    "id": "1a1d30fa-35d0-80e7-baf3-fb6301cb98bb",
+    "last_edited": "2025-02-21T06:53:00.000Z",
+    "cover": null,
+    "name": "Стармайстер",
+    "status": "Невідомо",
+    "type_activity": [],
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tg": null,
+    "tg_video": null
+  },
+  {
     "id": "196d30fa-35d0-8049-8263-d4b39b7649cd",
     "last_edited": "2025-02-10T09:25:00.000Z",
     "cover": null,
@@ -44,7 +59,7 @@
   },
   {
     "id": "193d30fa-35d0-8011-a8ef-ebc56591f8d8",
-    "last_edited": "2025-02-08T20:41:00.000Z",
+    "last_edited": "2025-04-05T13:29:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1739047237/fusion_wy8hzi.jpg",
     "name": "Fusion Dub",
@@ -60,6 +75,9 @@
       },
       {
         "id": "193d30fa-35d0-8096-bad1-dadf5cf78690"
+      },
+      {
+        "id": "1ccd30fa-35d0-80c4-9e90-cd303f891b58"
       }
     ],
     "site": null,
@@ -417,7 +435,7 @@
   },
   {
     "id": "177d30fa-35d0-80a1-bf5b-dd3bc083c107",
-    "last_edited": "2025-01-10T12:16:00.000Z",
+    "last_edited": "2025-04-05T13:53:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1736511383/Magura_hq5jid.jpg",
     "name": "Magura",
@@ -432,7 +450,7 @@
       }
     ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/tags/Magura/",
     "insta": null,
     "tg": "https://t.me/magura_dub",
     "tg_video": "https://t.me/magura_dub_release"
@@ -2105,7 +2123,7 @@
   },
   {
     "id": "174d30fa-35d0-81f7-8d08-c8d846694354",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-04-05T14:14:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098005/Anikoe_jj7f1e.jpg",
     "name": "AniKoe",
@@ -2139,6 +2157,9 @@
       },
       {
         "id": "174d30fa-35d0-8195-86e2-fef2b36964a7"
+      },
+      {
+        "id": "1ccd30fa-35d0-8045-9605-f19bec93bd7b"
       }
     ],
     "site": null,
@@ -3572,6 +3593,12 @@
       },
       {
         "id": "196d30fa-35d0-8001-85f2-ca3c8c0d104c"
+      },
+      {
+        "id": "19fd30fa-35d0-8025-8f39-db1b5de98947"
+      },
+      {
+        "id": "19fd30fa-35d0-80c2-aef6-cc35cb5b2f87"
       }
     ],
     "site": null,
@@ -6374,6 +6401,9 @@
       },
       {
         "id": "198d30fa-35d0-806f-ba67-c0ff7bae9e15"
+      },
+      {
+        "id": "1a1d30fa-35d0-808e-b3ec-c1014d4196f6"
       }
     ],
     "site": null,
@@ -6384,7 +6414,7 @@
   },
   {
     "id": "174d30fa-35d0-819d-968c-f648d0b82baf",
-    "last_edited": "2025-01-23T11:17:00.000Z",
+    "last_edited": "2025-04-05T17:48:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098003/Anifun_comvwh.jpg",
     "name": "AniFunUa",
@@ -6450,6 +6480,12 @@
       },
       {
         "id": "185d30fa-35d0-80e3-aea6-cb6ab36937e9"
+      },
+      {
+        "id": "1ccd30fa-35d0-8099-81e3-dfd657402ab6"
+      },
+      {
+        "id": "1ccd30fa-35d0-80b3-a251-ed5bee993a43"
       }
     ],
     "site": null,
@@ -6667,6 +6703,9 @@
       },
       {
         "id": "17cd30fa-35d0-80a3-a141-c8addfa1daf3"
+      },
+      {
+        "id": "19fd30fa-35d0-8002-ae20-ef040632820d"
       }
     ],
     "site": null,
@@ -6832,11 +6871,11 @@
   },
   {
     "id": "174d30fa-35d0-818b-bb47-f31212d48fd1",
-    "last_edited": "2025-01-23T11:02:00.000Z",
+    "last_edited": "2025-04-05T14:01:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097980/10gu_yyshow.jpg",
     "name": "10GU",
-    "status": "Малоактивна",
+    "status": "Активна",
     "type_activity": [
       "Аніме"
     ],
@@ -9831,7 +9870,7 @@
   },
   {
     "id": "174d30fa-35d0-819c-ad0e-cd836a01722c",
-    "last_edited": "2025-02-05T13:25:00.000Z",
+    "last_edited": "2025-02-25T20:56:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099891/Ufdub_lwpwtc.jpg",
     "name": "UFDUB",
@@ -10599,7 +10638,7 @@
   },
   {
     "id": "174d30fa-35d0-8171-abc6-c2fe8f6d865f",
-    "last_edited": "2025-02-03T09:49:00.000Z",
+    "last_edited": "2025-04-05T19:38:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097993/СКО_tpon6w.jpg",
     "name": "Справжня Козацька Озвучка (СКО)",
@@ -10711,6 +10750,9 @@
       },
       {
         "id": "179d30fa-35d0-8088-9a36-c91d1d93174e"
+      },
+      {
+        "id": "1ccd30fa-35d0-803f-9dc6-cac9b9741228"
       }
     ],
     "site": null,
@@ -12387,6 +12429,9 @@
       },
       {
         "id": "193d30fa-35d0-80e1-9ed3-e2b27df7f4b0"
+      },
+      {
+        "id": "1a1d30fa-35d0-804c-964a-c5325857ba53"
       }
     ],
     "site": null,
@@ -12397,7 +12442,7 @@
   },
   {
     "id": "174d30fa-35d0-813c-9474-da91ffcf4787",
-    "last_edited": "2025-01-09T16:32:00.000Z",
+    "last_edited": "2025-04-05T13:36:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/4ua_r3nere.jpg",
     "name": "4UA",
@@ -12458,6 +12503,9 @@
       },
       {
         "id": "179d30fa-35d0-80f7-a549-d08b33521eb9"
+      },
+      {
+        "id": "1ccd30fa-35d0-8070-bf2d-ddea722ab8d1"
       }
     ],
     "site": "https://4ua.org.ua/",
@@ -13686,11 +13734,11 @@
   },
   {
     "id": "174d30fa-35d0-8127-890f-d3fe3edcfe06",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-02-19T08:44:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730720989/Shiwa_mmunbl.jpg",
     "name": "Shiwa",
-    "status": "Малоактивна",
+    "status": "Активна",
     "type_activity": [
       "Аніме"
     ],
@@ -14127,7 +14175,7 @@
   },
   {
     "id": "174d30fa-35d0-8164-a272-fe1ecbc97feb",
-    "last_edited": "2025-01-23T10:52:00.000Z",
+    "last_edited": "2025-04-05T13:07:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097987/Майстерня_слів_tmxigb.jpg",
     "name": "Майстерня слів",
@@ -14184,6 +14232,9 @@
       },
       {
         "id": "174d30fa-35d0-8193-9980-ebe5c1e488fb"
+      },
+      {
+        "id": "1ccd30fa-35d0-8064-b3fd-e9a4d70b8487"
       }
     ],
     "site": null,
@@ -14541,9 +14592,6 @@
         "id": "174d30fa-35d0-81b9-a26a-ccedf3c91926"
       },
       {
-        "id": "174d30fa-35d0-81cc-8ef4-ecfbcbc019fe"
-      },
-      {
         "id": "174d30fa-35d0-8135-964d-de6ab757810c"
       },
       {
@@ -14584,12 +14632,15 @@
   },
   {
     "id": "174d30fa-35d0-8108-a88c-c7b206da46e4",
-    "last_edited": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-02-19T12:57:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730112230/Volfin_studio_juo7kb.jpg",
     "name": "Volfin Studio🐺",
-    "status": "Невідомо",
-    "type_activity": [],
+    "status": "Малоактивна",
+    "type_activity": [
+      "Аніме",
+      "Мульти"
+    ],
     "members": [],
     "anime_releases": [
       {
@@ -16057,7 +16108,10 @@
         "id": "185d30fa-35d0-8032-9cef-f2dac765cd47"
       },
       {
-        "id": "198d30fa-35d0-8090-b188-f5831ae452e5"
+        "id": "19fd30fa-35d0-80cd-8174-dcdd8677adf7"
+      },
+      {
+        "id": "19fd30fa-35d0-801c-a0ae-daaabc11e6a2"
       }
     ],
     "site": null,
