@@ -9,6 +9,9 @@ node_modules/
 # sass.css
 # sass.css.map
 json/
+!json/AnimeTitlesDB.json
+!json/AnimeReleasesDB.json
+!json/TeamsDB.json
 # sass/
 json/TitlesNotHavePosters.json
 js/notion_posters_import.js
