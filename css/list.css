@@ -56,32 +56,81 @@
     width: 100%;
     /* gap: .3em; */
     max-width: 250px;
-    background: var(--dark-80);
+    background: var(--dark-90);
     border-radius: var(--radius);
     outline: 1px solid var(--light-20);
     padding: 4px;
     transition: .3s;
     cursor: pointer;
-    /* aspect-ratio: 1/2; */
     z-index: 0;
 }
 .card:hover {
-    background: #0007;
+    background: var(--dark-10);
     box-shadow: 0 0 8px var(--accent);
     outline: 1px solid var(--accent);
+    transform: translateY(-5px);
 }
 .card:hover .anime-cover {
     opacity: .4;
 }
 .poster-box {
-    max-height: 300px;
+    position: relative;
+    height: 300px;
     overflow: hidden;
     border-radius: var(--radius);
 }
 .poster-box img {
+    position: relative;
     width: 100%;
     height: auto;
 }
+
+.poster-box .ratings {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    padding: .5em;
+}
+
+.poster-box span {
+    background: var(--accent-50);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    gap: .3em;
+    padding: .2em .3em;
+    border-radius: var(--radius);
+    text-shadow: 0 0 4px black;
+}
+
+.poster-box .age-rating {
+    color: rgb(255,100,0);
+    font-weight: bold;
+}
+
+.poster-box .dub-sub-info {
+    position: absolute;
+    display: flex;
+    gap: 1px;
+    bottom: 0;
+    margin: .5em;
+    font-size: .9rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+.poster-box .dub-sub-info > span {
+    border-radius: unset;
+    padding: .2em .3em;
+}
+.poster-box .dub-info {
+    background: rgba(55,255,154,.7);
+}
+.poster-box .sub-info {
+    background: rgba(234,55,255,0.7);
+}
+
 /** У вигляді списку **/
 .items-list.list-view .card {
     position: relative;
@@ -92,7 +141,6 @@
     height: 158px;
     gap: 1em;
     padding: 1em;
-    /* aspect-ratio: 4/1;   */
 }
 .items-list.list-view .poster-box {
     max-height: 150px;
@@ -119,23 +167,41 @@
 
 /** У вигляді списку **/
 
-
-/* Картки команд */
-.team-logo {
-    border-radius: var(--radius);
-}
-.items-list .team-card .info {
-    text-align: center;
+/* = sceleton = */
+.image-container {
+    position: relative;
     width: 100%;
-}
-.items-list .team-card:not(:has(img + .info)) {
-    aspect-ratio: 1/1;
-    justify-content: center;
-}
-/** У вигляді списку **/
-.items-list.list-view .team-card img + .info {
-    width: calc(100% - 130px - 1em);
-}
-.items-list.list-view .team-card img {
     height: 100%;
+}
+
+.image-container img {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skeleton-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, var(--dark) 25%, var(--light-10) 50%, var(--dark) 75%);
+    background-size: 100% 200%;
+    animation: skeleton-loading-vertical 2s infinite;
+}
+
+body.light .skeleton-loader {
+        background-image: linear-gradient(0deg, var(--dark-10) 25%, var(--light-10) 50%, var(--dark-10) 75%);
+}
+
+@keyframes skeleton-loading-vertical {
+    0% {
+        background-position: 0 200%;
+    }
+    100% {
+        background-position: 0 -200%;
+    }
 }

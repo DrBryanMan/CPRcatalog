@@ -1,90 +1,138 @@
-.filters-section {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-#itemsCounter {
-    margin-right: auto;
-    display: grid;
-    place-self: center;
-    font-size: 1.5em;
-}
-
+/*
+  Стилі для секції фільтрів каталогу
+*/
+/* Загальне */
 .list-controls {
-    display: flex;
-    justify-content: flex-end;
-    /* align-items: center; */
-    gap: 1em;
+  position: relative;
+  margin: 1em 0;
+  padding-bottom: .5em ;
+  border-bottom: 1px solid var(--accent-50);
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
 }
 
+/* Лічильник */
+#itemsCounter {
+  margin-right: auto;
+  display: grid;
+  place-self: center;
+  font-size: 1rem;
+}
+
+/* Вигляд списку */
 .view-controls {
-    display: flex;
-    border: 1px solid var(--light-10);
-    border-radius: var(--radius);
-    overflow: hidden;
+  display: flex;
+  border: 1px solid var(--light-10);
+  border-radius: var(--radius);
+  overflow: hidden;
 }
-
 .view-controls button {
-    background: none;
-    padding: 0 .5em;
-    border-radius: unset;
+  background: none;
+  padding: 0 0.5em;
+  border-radius: unset;
 }
-#listViewBtn {
-    transform: rotate(180deg);
-    /* margin-top: -1px; */
-}
-
 .view-controls button:hover {
-    background-color: var(--light-10);
+  background-color: var(--light-10);
 }
 .view-controls button.active {
-    background-color: var(--light-20);
+  background-color: var(--light-20);
 }
 
-#filterBtn {
-    background-color: var(--light-05);
-    border: 1px solid var(--light-10);
-    cursor: pointer;
+/* Сортування та фільтри */
+/** Кнопки **/
+.list-controls div:has(#sortBtn) {display: inline-flex;}
+#sortBtn, #filterBtn {
+  background-color: var(--light-05);
+  border: 1px solid var(--light-10);
 }
 #filterBtn:after {
-    content: ' Фільтри';
+  content: " Фільтри";
 }
-#filterBtn:hover {
-    background-color: var(--light-10);
+#sortBtn:after {
+  content: " Сортування";
 }
-#filterBtn.active {
-    background-color: var(--light-20);
+#sortBtn:hover, #filterBtn:hover {
+  background-color: var(--light-10);
+}
+
+#sortBtn:focus, #filterBtn:focus,
+.list-controls:has(#sortOptions *:focus) #sortBtn,
+.list-controls:has(#filterOptions *.active) #filterBtn {
+  background-color: var(--light-20);
+}
+
+/** Дроплисти **/
+#sortOptions, #filterOptions {
+  display: grid;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  height: 0;
+  transform: scaley(0);
+  transform-origin: top;
+  background: var(--dark-90);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--light-20);
+  border-radius: var(--radius);
+  transition: opacity .3s, transform .3s;
+  z-index: 10;
 }
 
 #filterOptions {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    visibility: hidden;
-    opacity: 0;
-    gap: 1em;
-    right: 0;
-    background: var(--dark-90);
-    backdrop-filter: blur(4px);
-    border: 1px solid var(--light-20);
-    border-radius: var(--radius);
-    padding: .5em 1em;
-    margin-top: 10px;
-    z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
 }
-#filterOptions.active {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .3s;
+#sortOptions {
+  position: absolute;
+  top: 100%;
 }
-#filterOptions h4 {
-    margin-bottom: .4em;
+
+.list-controls:has(#sortBtn:focus) #sortOptions,
+#sortOptions:hover,
+.list-controls:has(#filterBtn:focus) + #filterOptions,
+#filterOptions:hover {
+  display: grid;
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  transform: scaley(1);
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
 }
+
+#filterOptions > div h4 {
+  width: 100%;
+  margin-bottom: 0.4em;
+}
+#filterOptions > div {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: .5em;
+}
+
+/** Кнопки в дроплистах **/
 #filterOptions .filter-btn {
-    background-color: var(--light-05);
-    border: 1px solid var(--light-10);
-    padding: .5em 1em;
+  background-color: var(--accent-20);
+  border: 1px solid var(--light-10);
+  padding: 0.5em 1em;
+}
+#filterOptions .filter-btn:hover {
+  background-color: var(--accent-50);
 }
 #filterOptions .filter-btn.active {
-    background-color: var(--accent);
+  background-color: var(--accent);
+}
+
+.sort-options button {
+  padding: 0.5em;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.sort-options button:hover {
+  background-color: var(--light-10);
 }

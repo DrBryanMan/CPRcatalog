@@ -5,6 +5,7 @@ node_modules/
 .env
 
 # Локальні файли
+*.py
 # *.sass
 # sass.css
 # sass.css.map

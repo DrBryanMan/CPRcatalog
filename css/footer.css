@@ -7,19 +7,17 @@ footer {
     padding: .5em 2em;
     background: var(--dark-80);
     backdrop-filter: blur(4px);
+    color: var(--light-80);
 }
 #footerLinks {
     display: flex;
     flex-wrap: wrap;
     gap: .5em;
 }
-footer > div:last-child {
-    color: lightgray;
-}
-footer a:hover {
+#footerLinks a:hover {
     background: var(--light-10);
 }
-footer a {
+#footerLinks a {
     display: flex;
     gap: .5em;
     align-items: center;
@@ -29,4 +27,10 @@ footer a {
     fill: var(--light);
     text-decoration: none;
     transition: .3s;
+}
+
+footer div:has(.badge) {
+    display: flex;
+    align-items: center;
+    gap: .5em;
 }

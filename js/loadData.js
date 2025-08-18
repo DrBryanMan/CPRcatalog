@@ -1,67 +1,95 @@
-// import * as Functions from './functions.js'
-export let [allAnimes, allReleases, allTeams] = [[], [], []]
+export let AnimeTitles, AnimeReleases, Teams
 
 // Отримуємо всі дані
-export async function loadData() {
-    // const cachedAnimes = Functions.getFromCache('allAnimes')
-    // const cachedReleases = Functions.getFromCache('allReleases')
-    // const cachedTeams = Functions.getFromCache('allTeams')
+export async function loadDBData() {
+  [AnimeTitles, Teams, AnimeReleases] = await Promise.all([
+    fetch('json/AnimeTitlesDB.json').then(res => res.json()),
+    fetch('json/TeamsDB.json').then(res => res.json()),
+    fetch('json/AnimeReleasesDB.json').then(res => res.json()),
+    // Завантажуємо дані про постери з GitHub
+    // fetch('https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/PostersList.json')
+    //   .then(res => res.json())
+    //   .catch(error => {
+    //     console.warn('Не вдалося завантажити додаткові постери:', error)
+    //     return [] // Повертаємо порожній масив якщо не вдалося завантажити
+    //   }),
+  ])
 
-    // if (cachedAnimes && cachedReleases && cachedTeams) {
-    //     allAnimes = cachedAnimes
-    //     allReleases = cachedReleases
-    //     allTeams = cachedTeams
-    //     console.log('Дані з кешу отримано')
-    // } else {
-        const [animeData, teamData, releaseData] = await Promise.all([
-            fetch('json/AnimeTitlesDB.json').then(res => res.json()),
-            fetch('json/TeamsDB.json').then(res => res.json()),
-            fetch('json/AnimeReleasesDB.json').then(res => res.json()),
-        ])
-        allTeams = teamData.sort((a, b) => b.anime_releases.length - a.anime_releases.length)
-        // allTeams = teamData.sort((a, b) => a.name.localeCompare(b.name))
-        allReleases = releaseData.map(release => ({
-            ...release,
-            teams: release.teams.map(team => {
-                const foundTeam = allTeams.find(t => t.id === team.id)
-                return {
-                    id: team.id,
-                    logo: foundTeam?.logo || '',
-                    name: foundTeam?.name || 'Невідома команда'
-                }
-            })
-        }))
+  // Створюємо Map для швидкого пошуку постерів за hikka_url
+  // const postersMap = new Map()
+  // if (PostersData && Array.isArray(PostersData)) {
+  //   PostersData.forEach(item => {
+  //     if (item.hikka_url && item.posters && item.posters.length > 0) {
+  //       postersMap.set(item.hikka_url, item.posters)
+  //     }
+  //   })
+  // }
 
-        allAnimes = animeData.map(anime => ({
-            ...anime,
-            releases: anime.releases.map(rel => allReleases.find(release => release.id === rel.id))
-            }))
-            .filter(anime => anime.releases.length > 0)
+  // Сортуємо Команди за кількістю релізів
+  Teams = Teams.filter(team => 
+      team.anime_releases.length > 0 && 
+      team.type_activity && 
+      team.type_activity.includes('Аніме')
+  ).sort((a, b) => b.anime_releases.length - a.anime_releases.length)
 
-        // Додаємо унікальні команди до аніме
-        allAnimes = allAnimes.map(anime => {
-            try {
-                const teams = new Set()
-                anime.releases.forEach(release => {
-                    release.teams?.forEach(team => {
-                        teams.add(JSON.stringify(team))
-                    })
-                })
-                return {...anime, teams: Array.from(teams).map(JSON.parse)}
-            } catch (error) {
-                console.error(`Помилка при завантаженні даних ${anime.title}:`, error)
-                throw error
-            }
-        })
+  // Додаємо в релізи інфу команд
+  AnimeReleases = AnimeReleases.map(release => ({
+      ...release,
+      teams: release.teams.map(team => {
+          const foundTeam = Teams.find(t => t.id === team.id)
+          return {
+              id: team.id,
+              logo: foundTeam?.logo || '',
+              name: foundTeam?.name || 'Невідома команда'
+          }
+      })
+  }))
 
-        // Додаткові дані до релізів
-        allReleases = allReleases.map(release => ({
-            ...release,
-            animeData: allAnimes.find(anime => release.animeIds.includes(anime.id))
-        }))
+  // Додаємо тайтлам інфу про релізи та додаткові постери
+  AnimeTitles = AnimeTitles.map(anime => {
+      const animeWithReleases = {
+          ...anime,
+          releases: anime.releases.map(rel => AnimeReleases.find(release => release.id === rel.id))
+      }
 
-        // Functions.saveToCache('allAnimes', allAnimes)
-        // Functions.saveToCache('allReleases', allReleases)
-        // Functions.saveToCache('allTeams', allTeams)
-    // }
+      // Додаємо додаткові постери якщо є hikka_url
+      // if (anime.hikka_url && postersMap.has(anime.hikka_url)) {
+      //     const additionalPosters = postersMap.get(anime.hikka_url)
+      //     animeWithReleases.additionalPosters = additionalPosters
+          
+      //     // Якщо є додаткові постери, використовуємо перший з них як основний постер
+      //     if (additionalPosters.length > 0) {
+      //         animeWithReleases.posterUrl = `https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/${additionalPosters[0].url}`
+      //         animeWithReleases.posterAuthor = additionalPosters[0].author
+      //     }
+      // }
+
+      return animeWithReleases
+  })
+  .filter(anime => anime.releases.length > 0)
+
+  // Додаємо унікальні команди до аніме
+  AnimeTitles = AnimeTitles.map(anime => {
+      try {
+          const teams = new Set()
+          anime.releases.forEach(release => {
+              release?.teams?.forEach(team => {
+                  teams.add(JSON.stringify(team))
+              })
+          })
+          return {...anime, teams: Array.from(teams).map(JSON.parse)}
+      } catch (error) {
+          console.error(`Помилка при завантаженні даних ${anime.title}:`, error)
+          throw error
+      }
+  })
+  // AnimeTitles = AnimeTitles.slice(0,100)
+
+  // Додаткові дані до релізів
+  AnimeReleases = AnimeReleases.map(release => ({
+      ...release,
+      animeData: AnimeTitles.find(anime => release.animeIds.includes(anime.id))
+  }))
+
+  // console.log(`Завантажено ${PostersData?.length || 0} записів з додатковими постерами`)
 }

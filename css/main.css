@@ -6,6 +6,7 @@
   --footer-height: 4em;
   --border: 1px solid var(--light-20);
   --border-color: 1px solid gray;
+  --box-shadow: 0 0 5px #0005;
   --radius: 8px;
   --text: var(--light);
   --link: #C39BD3;
@@ -31,21 +32,29 @@ body {
   font-size: 14px;
   color: var(--text);
 }
-.material-symbols-rounded {
-  vertical-align: middle;
-  font-variation-settings:
-  'wght' 200,
-  'opsz' 2
+body.modal-open {
+  overflow: hidden;
+}
+
+i.bi {
+  font-size: 1rem;
 }
   
 #app {
-  padding: calc(var(--nav-height) + 1em) var(--main-padding-x) 1em;
+  padding: calc(var(--nav-height)) var(--main-padding-x) 1em;
   flex-grow: 1;
+  width: 100%;
+  margin: auto;
+  max-width: 1400px;
 }
 h2, h3, h4 {
   font-weight: 500;
 }
 button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
   cursor: pointer;
   background: #fff3;
   color: var(--text);
@@ -93,32 +102,39 @@ button:hover {
 }
 
 /* == Деталі == */
-.teams-logos img {
-  height: 15px;
-  width: auto;
-  border-radius: 50%;
-  margin-right: .3em;
-}
 
 /* == Інше == */
 .truncate {
-  display: block;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
 }
 
 /* Loader */
-#loadingОverlay {
+#loadingOverlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
+  justify-items: center;
+  align-content: center;
   align-items: center;
+  backdrop-filter: blur(5px);
   z-index: 9999;
+  transition: .5s;
+}
+#loadingOverlay[loading] {
+  display: grid;
+  gap: 1em;
+}
+#loadingOverlay > span {
+  color: white;
+  text-shadow: 0 0 5px black;
 }
 
 .loader {

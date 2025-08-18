@@ -9,13 +9,7 @@
 
 /* == Сторінка релізу == */
 /* Стилі для контейнера карток релізів в аніме */
-.anime-releases-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .5em;
-    justify-content: center;
-    margin-top: .5em;
-}
+
 /* Стилі на сторінці релізу */
 .release-detail .release {
     display: flex;
@@ -33,22 +27,3 @@
     gap: .2em;
 }
 /** Стилі для деталей релізу **/
-/* Посилання толоки */
-.release-torrents {
-    display: flex;
-    gap: 1em;
-    margin-top: .5em;
-}
-.release-torrents a {
-    border: 2px solid green;
-    border-radius: 8px;
-    padding: .2em .5em;
-    color: lightgreen;
-    text-decoration: none;
-    cursor: pointer;
-    transition: .3s;
-}
-.release-torrents a:hover {
-    background: var(--accent-20);
-    box-shadow: 0 0 8px rgba(0,0,0,0.5);
-}

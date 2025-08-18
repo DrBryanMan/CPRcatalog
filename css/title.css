@@ -1,9 +1,30 @@
-.title-detail .anime-poster {
-  width: 200px;
+@import "components/title_modal_details.css";
+/*
+.title-detail .title-poster {
+  width: 300px;
   height: auto;
   border-radius: var(--radius);
 }
-.title-detail .anime-cover {
+.title-detail .poster-gallery {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.title-detail .poster-meta {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #888;
+}
+.title-detail .poster-controls {
+  margin-top: 0.5rem;
+}
+.title-detail .poster-controls button {
+  margin: 0 0.5rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+}*/
+
+.title-detail .title-cover {
   position: absolute;
   left: 0;
   top: 0;
@@ -13,7 +34,7 @@
   mask-image: linear-gradient(#fff, transparent);
   opacity: .4;
 }
-.title-detail .anime-cover:before {
+.title-detail .title-cover:before {
   /* content: ''; */
   position: absolute;
   width: 100%;
@@ -21,42 +42,28 @@
   bottom: 0;
   background: var(--dark-50);
 }
-.title-detail .anime-cover img {
+.title-detail .title-cover img {
   width: 100%;
   /* aspect-ratio: 3 / 2; */
   object-fit: cover;
 }
 
 /* = Інфо секція = */
-.anime-info .data-nav-link {
+.title-detail .title-info .data-nav-link {
   text-decoration: none;
   color: inherit;
   outline: var(--border);
   border-radius: var(--radius);
 }
-.anime-info .data-nav-link:hover span {
+.title-detail .title-info .data-nav-link:hover span {
   background: var(--light-20);
 }
 
-/* Інформація про тайтл */
-.title-detail .anime-info {
-  display: flex;
-  gap: 1em;
-}
-.anime-info span {
-  display: flex;
-  align-items: center;
-  gap: .5em;
-  background: var(--light-10);
-  border-radius: var(--radius);
-  padding: .2em 1em .2em .5em;
-  transition: .3s;
-}
 /*  */
 /*  */
 
 /* = Даб секція = */
-.dub-info {
+.title-detail .dub-info {
   width: 300px;
 }
 .title-detail .dub-info .teams-logos {
@@ -71,11 +78,11 @@
   border-radius: var(--radius);
   transition: .3s;
 }
-.dub-info .data-nav-link {
+.title-detail .dub-info .data-nav-link {
   text-decoration: none;
   color: inherit;
 }
-.dub-info .data-nav-link:hover span {
+.title-detail .dub-info .data-nav-link:hover span {
   background: var(--light-10);
 }
 .title-detail .dub-info .teams-logos img {
