@@ -1,0 +1,242 @@
+#animeDetailModal {
+/*    border: none; */
+    border-radius: 12px;
+    padding: 0;
+    max-width: 1200px;
+    max-height: 90vh;
+/*     width: 1200px; */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.anime-detail-modal::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+#animeDetailModal .modal-header {
+/*     position: absolute; */
+    padding: 0px 20px 0;
+}
+#animeDetailModal .back-button {
+    width: 300px;
+    background: var(--dark-10);
+    padding: .5em 1em;
+    transform: translatey(10px)
+}
+
+#animeDetailModal .top-section {
+    margin: auto;
+}
+
+/* Секція постерів */
+.title-detail .title-poster {
+  width: 300px;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+.poster-gallery {
+    display: grid;
+    justify-items: center;
+    gap: .5em;
+}
+
+.title-detail .poster-meta {
+  color: #888;
+}
+.title-detail .poster-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+.title-detail .poster-btn {
+    width: 2em;
+    aspect-ratio: 1/1;
+  cursor: pointer;
+  border: 1px solid var(--light-10);
+  border-radius: 4px;
+}
+.title-detail .poster-btn:hover {
+  background: var(--light-10);
+}
+.title-detail .poster-btn.active {
+  background: var(--light-20);
+}
+
+/*  */
+
+#animeDetailModal .center-column {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+}
+
+.anime-detail-modal .modal-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+.anime-detail-modal #animeModalContent {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+/* == Інформація про тайтл == */
+.anime-detail-modal .title-detail {
+    margin: 0;
+}
+
+/* Основна інформація в тегах */
+.title-detail .title-info {
+  display: flex;
+  gap: 1em;
+}
+.title-detail .title-info span {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  background: var(--light-10);
+  backdrop-filter: blur(5px);
+  border-radius: var(--radius);
+  padding: .3em 1em !important;
+  transition: .3s;
+}
+/**/
+.title-detail .watch-info {
+  display: flex;
+  gap: .5em;
+}
+/*==*/
+
+.anime-detail-modal .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 18px;
+    color: var(--text-color, #666);
+}
+
+.anime-detail-modal .alt-names-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--accent-color, #007bff);
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.anime-detail-modal .alt-names-btn:hover {
+    background: var(--hover-color, rgba(0, 123, 255, 0.1));
+}
+
+.anime-detail-modal .team-link {
+    text-decoration: none;
+    color: inherit;
+/*    transition: opacity 0.2s;*/
+}
+
+.anime-detail-modal .team-link:hover {
+/*    opacity: 0.8;*/
+}
+
+/* == Делаті релізу == */
+.title-detail .poster-container {
+    display: grid;
+    gap: 1em;
+}
+
+.release-page .title-info .data-nav-link {
+  text-decoration: none;
+  color: inherit;
+  outline: 1px solid var(--light-20);
+  border-radius: var(--radius);
+}
+.release-page .title-info .data-nav-link:hover {
+  background: var(--light-20);
+  outline: 1px solid var(--light-50);
+    cursor: pointer;
+}
+
+/* Посилання толоки */
+.release-torrents {
+    display: flex;
+    gap: 1em;
+/*    margin-top: .5em;*/
+}
+.release-torrents a {
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: .2em .5em;
+    color: lightgreen;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.release-torrents a:hover {
+    background: var(--accent-20);
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+/*  */
+/* Даб інфо */
+.title-detail.release-page .dub-info {
+  width: 300px;
+    display: grid;
+    gap: .5em;
+    justify-self: flex-start;
+    background: #0005;
+  border-radius: var(--radius);
+    padding: 5px .5em;
+    
+}
+.title-detail.release-page .dub-info .teams-logos {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+.title-detail.release-page .dub-info .teams-logos span {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+/*   background: var(--light-10); */
+  border-radius: var(--radius);
+  transition: .3s;
+}
+.title-detail.release-page .dub-info .data-nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+.title-detail.release-page .dub-info .data-nav-link:hover span,
+.title-detail.release-page .dub-info .teams-logos span:hover {
+  background: var(--light-10);
+}
+.title-detail.release-page .dub-info .teams-logos img {
+  height: 30px;
+  width: auto;
+  border-radius: var(--radius);
+  margin-right: .3em;
+}
+/**/
+/*==*/
+
+/*  */
+@media (max-width: 768px) {
+    .anime-detail-modal {
+        width: 95vw;
+        max-width: 95vw;
+        height: 95vh;
+        max-height: 95vh;
+    }
+    
+    .anime-detail-modal #animeModalContent {
+        padding: 15px;
+    }
+}

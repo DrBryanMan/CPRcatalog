@@ -1,0 +1,44 @@
+/* ==
+    Блок з релізами тайтлу в модальному вікні тайтлу.
+== */
+
+#animeDetailModal #releasesList {
+    width: 100%;
+}
+
+#animeDetailModal #releasesList .releases-container {
+    display: grid;
+    gap: 1em;
+    margin-top: .5em;
+}
+
+#animeDetailModal #releasesList .releases-container .release-card {
+    max-width: unset;
+    display: grid;
+    grid-template-columns: repeat(1, 15% auto 8% 5%);
+    align-items: center;
+}
+
+#animeDetailModal .watch-tags {
+    display: flex;
+    gap: .5em;
+}
+#animeDetailModal .watch-tag {
+    display: flex;
+    padding: .3em 1em;
+    border-radius: var(--radius);
+}
+
+#animeDetailModal #releasesList .teams-logos {
+    position: relative;
+    flex-direction: row;
+    gap: .5em;
+}
+#animeDetailModal #releasesList .teams-logos > span {
+    display: flex !important;
+    align-items: center;
+}
+#animeDetailModal #releasesList .teams-logos img {
+    height: 30px;
+    border-radius: 8px;
+}

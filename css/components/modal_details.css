@@ -1,0 +1,140 @@
+#animeDetailModal {
+/*    border: none; */
+    border-radius: 12px;
+    padding: 0;
+    max-width: 1200px;
+    max-height: 90vh;
+/*     width: 1200px; */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.anime-detail-modal::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+#animeDetailModal .top-section {
+    margin: auto;
+}
+#animeDetailModal .center-column {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+}
+
+.anime-detail-modal .modal-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+.anime-detail-modal .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 1000;
+    color: var(--text-color, #333);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.anime-detail-modal .modal-close:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+.anime-detail-modal #animeModalContent {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.anime-detail-modal .title-detail {
+    margin: 0;
+}
+
+.anime-detail-modal .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 18px;
+    color: var(--text-color, #666);
+}
+
+.anime-detail-modal .alt-names-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--accent-color, #007bff);
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.anime-detail-modal .alt-names-btn:hover {
+    background: var(--hover-color, rgba(0, 123, 255, 0.1));
+}
+
+.anime-detail-modal .team-link {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s;
+}
+
+.anime-detail-modal .team-link:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .anime-detail-modal {
+        width: 95vw;
+        max-width: 95vw;
+        height: 95vh;
+        max-height: 95vh;
+    }
+    
+    .anime-detail-modal #animeModalContent {
+        padding: 15px;
+    }
+}
+
+.releases-container {
+    display: grid;
+/*     flex-wrap: wrap; */
+    gap: .5em;
+/*     justify-content: center; */
+    margin-top: .5em;
+}
+
+.release-card {
+    width: 100%;
+/*     display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#animeDetailModal .teams-logos {
+    display: grid;
+    gap: .5em;
+}
+#animeDetailModal .teams-logos > span {
+    display: flex !important;
+    align-items: center;
+}
+#animeDetailModal .teams-logos img {
+    height: 30px;
+    border-radius: 8px;
+}

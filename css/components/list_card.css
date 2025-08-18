@@ -1,0 +1,51 @@
+/*
+    Загальни стилі для карток каталогу.
+*/
+.card .teams-logos {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    bottom: 0;
+    right: 0;
+    margin: .5em;
+    font-size: .9rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+
+.card .teams-logos > span {
+    padding: 2px;
+}
+.anime-card .teams-logos > span {
+    padding: 2px .5em;
+}
+
+.card .teams-logos img {
+  height: 24px;
+  width: auto;
+  border-radius: var(--radius);
+}
+
+/* Картки команд */
+.items-list .team-card .team-logo {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: var(--radius);
+}
+.items-list .team-card .info {
+    text-align: center;
+    width: 100%;
+}
+.items-list:not(.list-view) .team-card:not(:has(.team-logo + .info)) {
+    aspect-ratio: 1/1;
+    justify-content: center;
+}
+/** У вигляді списку **/
+/*.items-list.list-view .team-card img + .info {
+    width: calc(100% - 130px - 1em);
+}
+.items-list.list-view .team-card img {
+    height: 100%;
+}*/
