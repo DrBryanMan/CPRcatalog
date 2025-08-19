@@ -1,14 +1,16 @@
 import { AnimeTitles, Teams, AnimeReleases } from '../loadData.js'
 import * as Functions from '../functions.js'
 import { getAnimeClassificationInfo } from '../animeClassification.js'
+import { renderList } from '../renderList.js'
 
 export function createTitleModal() {
     const state = {
         modal: null,
         isOpen: false,
-        currentView: 'anime', // 'anime' або 'release'
+        currentView: 'anime', // 'anime', 'release' або 'teamReleases'
         currentAnime: null,
         currentRelease: null,
+        currentTeam: null,
         openedFromCatalog: false
     }
 
@@ -45,7 +47,11 @@ export function createTitleModal() {
 
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && state.isOpen) {
-                state.currentView === 'release' ? goBack() : close()
+                if (state.currentView === 'release' || state.currentView === 'teamReleases') {
+                    goBack()
+                } else {
+                    close()
+                }
             }
         })
     }
@@ -54,16 +60,28 @@ export function createTitleModal() {
         const container = document.createElement('div')
         container.classList.add('releases-container')
 
+          // ⬇️ Картка-заголовок (перша)
+          const header = document.createElement('div')
+          header.classList.add('card', 'release-card', 'header-card')
+          header.innerHTML = `
+            <span>Команда</span>
+            <span>Джерела перегляду</span>
+            <span>Серій</span>
+            <span>Статус</span>
+          `
+          // Щоб по ній не було кліків і hover-ефектів
+          header.style.pointerEvents = 'none'
+          header.style.fontWeight = '600'
+          container.appendChild(header)
+
         for (const release of releases) {
             const card = document.createElement('div')
             card.classList.add('release-card', 'card')
             const teams = release.teams.map(t => t.logo 
                 ? `<span><img src='${t.logo}' title='${t.name}'></span>`
                 : `<span class='team-initials'>${t.name}</span>`
-                // : `<span class='team-initials'>${t.name.split(/\s+/).map(w => w[0]).join('').toUpperCase()}</span>`
             ).join('')
 
-            // Теги "де дивитись"
             const watchTags = release.wereWatch?.map(tag => {
                 const tagcolor = () => {
                     switch (tag.color) {
@@ -79,8 +97,6 @@ export function createTitleModal() {
                 return `<span class="watch-tag" style="background-color: ${tagcolor()}">${tag.name}</span>`
             }).join('');
 
-
-            // Логіка для субтитрів та озвучення
             let audioSubHTML = ''
             let hasSub = false
             let hasDub = false
@@ -137,9 +153,18 @@ export function createTitleModal() {
     async function showReleaseDetail(release) {
         state.currentView = 'release'
         state.currentRelease = release
-        state.modal.querySelector('#backButton').style.display = 'block'
+        
+        // Показуємо кнопку назад тільки якщо є з чого повертатися
+        // (є currentAnime або currentTeam, але НЕ якщо відкрито з каталогу)
+        if ((state.currentAnime || state.currentTeam) && !state.openedFromCatalog) {
+            state.modal.querySelector('#backButton').style.display = 'block'
+        } else {
+            state.modal.querySelector('#backButton').style.display = 'none'
+        }
+        
         await renderReleaseDetail(release)
     }
+    
 
     async function renderReleaseDetail(release) {
         const anime = AnimeTitles.find(a => release.animeIds.includes(a.id))
@@ -225,7 +250,14 @@ export function createTitleModal() {
     }
 
     function goBack() {
-        if (state.currentView === 'release' && state.currentAnime) showAnimeDetail(state.currentAnime)
+        if (state.currentView === 'release' && state.currentAnime) {
+            showAnimeDetail(state.currentAnime)
+        } else if (state.currentView === 'release' && state.currentTeam) {
+            // Повертаємося до списку релізів команди
+            renderTeamReleases(state.currentTeam.id)
+        } else if (state.currentView === 'teamReleases' && state.currentTeam) {
+            close()
+        }
     }
 
     async function open(animeId) {
@@ -244,7 +276,6 @@ export function createTitleModal() {
     async function renderContent(anime) {
         const teams = anime.teams.map(t => `<span class='team-link'><img src='${t.logo}'>${t.name}</span>`).join('')
         const cover = anime.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
-        // const poster = anime?.poster ? `<img class='title-poster' src='${anime.poster}'>` : ''
 
         const HikkaBadge = anime.hikka_url
             ? `<a href="${anime.hikka_url}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/hikka-dark.svg'></a>` : ''
@@ -318,8 +349,6 @@ export function createTitleModal() {
             ${current.author ? `<p><strong>Автор:</strong> ${current.author}</p>` : ''}
             ${current.team ? `<p><strong>Команда:</strong> ${current.team}</p>` : ''}
           `
-
-          // Підсвічування активної кнопки
           posterSelector?.querySelectorAll('.poster-btn')?.forEach((btn, idx) => {
             btn.classList.toggle('active', idx === posterIndex)
           })
@@ -336,7 +365,6 @@ export function createTitleModal() {
           updatePosterView()
         }
 
-        // Релізи тайтла
         const releases = anime.releases ? AnimeReleases.filter(r => r.animeIds.includes(anime.id)) : []
         const releasesList = state.modal.querySelector('#releasesList')
         if (releases.length) {
@@ -376,20 +404,77 @@ export function createTitleModal() {
     }
 
     async function renderReleaseDetailFromCatalog(release) {
-        if (!release) return console.error('Реліз не знайдено')
-        state.isOpen = true
-        state.currentView = 'release'
-        state.currentRelease = release
-        state.currentAnime = null
-        state.openedFromCatalog = true
-        state.modal.showModal()
-        document.body.classList.add('modal-open')
-        state.modal.querySelector('#backButton').style.display = 'none'
-        await renderReleaseDetail(release)
+        if (!release) return console.error('Реліз не знайдено');
+
+        if (!state.isOpen) {
+            state.isOpen = true;
+            state.modal.showModal();
+            document.body.classList.add('modal-open');
+            state.openedFromCatalog = true; // тільки якщо модалка була закрита
+        } else {
+            // якщо модалка вже відкрита (з команди), не встановлюємо openedFromCatalog
+            // залишаємо як є
+        }
+
+        state.currentView = 'release';
+        state.currentRelease = release;
+        
+        // показуємо кнопку назад якщо є з чого повертатися
+        if (state.currentAnime || state.currentTeam) {
+            state.modal.querySelector('#backButton').style.display = 'block';
+        } else {
+            state.modal.querySelector('#backButton').style.display = 'none';
+        }
+        
+        await renderReleaseDetail(release);
+    }
+
+    async function renderTeamReleases(teamId) {
+        if (!state.isOpen) {
+            state.isOpen = true
+            state.modal.showModal()
+            document.body.classList.add('modal-open')
+        }
+        
+        state.currentView = 'teamReleases'
+        state.currentTeam = Teams.find(t => t.id === teamId)
+        state.openedFromCatalog = false // команда не є каталогом
+
+        const teamReleases = AnimeReleases.filter(r => r.teams?.some(t => t.id === teamId))
+
+        const headerHTML = `
+            <div class='team-detail'>
+                <div class='top-section'>
+                    <img class='team-logo' src='${state.currentTeam.logo}' title='${state.currentTeam.name || 'Не вказано'}'>
+                    <div class='info-section'>
+                        <h1>${state.currentTeam.name || 'Не вказано'}</h1>
+                        <div class='team-info'>
+                            <p><i class="bi bi-briefcase"></i> Тип робіт: ${state.currentTeam.type || 'Не вказано'}</p>
+                            <p><i class="bi bi-activity"></i> Статус: ${state.currentTeam.status || 'Активна'}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="releases-section">
+                    <h2>Релізи команди:</h2>
+                    <div id="teamReleasesList"></div>
+                </div>
+            </div>
+        `
+
+        state.modal.querySelector('#animeModalContent').innerHTML = headerHTML
+
+        const container = state.modal.querySelector('#teamReleasesList')
+        renderList(teamReleases, 'Релізи', null, null, container)
     }
 
     createModal()
-    return { open, close, goBack, renderReleaseDetail: renderReleaseDetailFromCatalog }
+    return { 
+        open, 
+        close, 
+        goBack, 
+        renderReleaseDetail: renderReleaseDetailFromCatalog,
+        renderTeamReleases
+    }
 }
 
 export const titleModal = createTitleModal()

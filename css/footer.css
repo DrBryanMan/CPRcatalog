@@ -34,3 +34,8 @@ footer div:has(.badge) {
     align-items: center;
     gap: .5em;
 }
+
+footer .badge img[src*="powered-by-hikka-ua"] {
+    height: 2em;
+    width: auto;
+}

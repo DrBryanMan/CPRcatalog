@@ -1,12 +1,12 @@
 import * as Functions from './functions.js'
 import { currentRoute, router } from './router.js'
-import { createTitleCard } from './components/TitleCard.js'
+import { createListCard } from './components/ListCard.js'
 import { createPagination } from './components/Pagination.js'
 import { createCatalogControls } from './components/CatalogControls.js'
 
 // Рендеринг списку аніме
-export function renderList(items, type, initialFilters) {
-    console.log(`Завантажено ${items.length} ${type}`)
+export function renderList(items, type, initialFilters, animeReleases = null, container = app) {
+    // const container = containerElement || app
     Functions.updateNavigation(type)
     const itemsPerPage = 20
     let currentPage = 1
@@ -14,7 +14,7 @@ export function renderList(items, type, initialFilters) {
     let activeFilters = initialFilters || {} // Додаємо змінну для зберігання активних фільтрів
     let currentView
 
-    app.innerHTML = `
+    container.innerHTML = `
         <div class="filters-section">
             <div class="list-controls">
                 <span id="itemsCounter"></span>
@@ -41,23 +41,22 @@ export function renderList(items, type, initialFilters) {
             <div id="pagination" class="pagination"></div>
         </div>
     `
-
-    const listDiv = document.querySelector('.items-list')
-    const searchInput = document.getElementById('localSearchInput')
-    const filterOptions = document.getElementById('filterOptions')
-    const sortOptions = document.getElementById('sortOptions')
-    const paginationDiv = document.getElementById('pagination')
-    const itemsCounter = document.getElementById('itemsCounter')
-    const gridViewBtn = document.getElementById('gridViewBtn')
-    const listViewBtn = document.getElementById('listViewBtn')
+    const listDiv = container.querySelector('.items-list')
+    const searchInput = container.querySelector('#localSearchInput')
+    const filterOptions = container.querySelector('#filterOptions')
+    const sortOptions = container.querySelector('#sortOptions')
+    const paginationDiv = container.querySelector('#pagination')
+    const itemsCounter = container.querySelector('#itemsCounter')
+    const gridViewBtn = container.querySelector('#gridViewBtn')
+    const listViewBtn = container.querySelector('#listViewBtn')
 
     // Ініціалізація компонентів
-    const cardComponent = createTitleCard()
+    const cardComponent = createListCard()
     
     const pagination = createPagination(paginationDiv, (page) => {
         currentPage = page
         renderCurrentPage()
-        const nav = document.querySelector('nav') // або .header / .top-bar тощо
+        const nav = document.querySelector('nav')
         const navHeight = nav?.offsetHeight || 0
         const y = listDiv.getBoundingClientRect().top + window.pageYOffset - navHeight * 2
 
@@ -283,10 +282,8 @@ export function renderList(items, type, initialFilters) {
     
     handleSearchError(initialResult.error)
     
-    // ВИПРАВЛЕННЯ: Ініціалізуємо URL параметри ПІСЛЯ обробки даних
     initializeFromURL()
     renderCurrentPage()
 
-    // Видаляємо обробник scroll, оскільки він більше не потрібен
     return () => {}
 }

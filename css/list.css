@@ -56,7 +56,7 @@
     width: 100%;
     /* gap: .3em; */
     max-width: 250px;
-    background: var(--dark-90);
+    background: var(--dark-50);
     border-radius: var(--radius);
     outline: 1px solid var(--light-20);
     padding: 4px;
@@ -65,7 +65,7 @@
     z-index: 0;
 }
 .card:hover {
-    background: var(--dark-10);
+    background: var(--dark-90);
     box-shadow: 0 0 8px var(--accent);
     outline: 1px solid var(--accent);
     transform: translateY(-5px);

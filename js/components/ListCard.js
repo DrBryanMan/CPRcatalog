@@ -3,9 +3,7 @@ import { currentHub, router } from '../router.js'
 import { titleModal } from '../views/TitleModal.js'
 import { getAnimeClassificationInfo } from '../animeClassification.js'
 
-export function createTitleCard() {
-    const state = { divider: ' • ' }
-
+export function createListCard() {
     function createImageWithSkeleton(src, title, className = '') {
         return `
             <div class="image-container ${className}">
@@ -17,10 +15,10 @@ export function createTitleCard() {
         `
     }
 
-    function getAgeRating(genres) {
-        if (!Array.isArray(genres) || genres.length === 0) return null
-        const adultGenres = ['Еччі', 'Хентай', 'Яой', 'Юрі']
-        return genres.some(genre => adultGenres.includes(genre)) ? '18+' : '16+'
+    function getAgeRating(genre) {
+        if (!genre || genre.trim() === '') return null
+        const adultGenres = ['Біляхентай', 'Хентай', 'Яой', 'Юрі']
+        return adultGenres.includes(genre.trim()) ? '18+' : '16+'
     }
 
     function analyzeReleases(animeId, releases) {
@@ -107,27 +105,13 @@ export function createTitleCard() {
         return `<div class="dub-sub-info">${html}${totalEpisodes ? `<span class="episode-count">${totalEpisodes}</span>` : ''}</div>`
     }
 
-    // function getPosterUrl(item) {
-    //     if (item.hikka_url) {
-    //         const posterInfo = PostersData.find(p => p.hikka_url === item.hikka_url)
-            
-    //         if (posterInfo?.posters?.length > 0) {
-    //             // console.log("постер даних:", posterInfo.posters[0].url)
-    //             return `https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/${posterInfo.posters[0].url}`
-    //         }
-    //     }
-    //     return item.poster // fallback на локальний
-    // }
-
-    // console.log("Перший постер даних:", PostersData[0].hikka_url, PostersData[0].posters[0])
     function createAnimeCard(item, currentView) {
         const card = document.createElement('div')
         card.classList.add('card', 'anime-card')
-        const ageRating = getAgeRating(item.genres)
+        const ageRating = getAgeRating(item.genre)
         const releaseInfo = analyzeReleases(item.id)
         const cover = item.cover ? `<div class='anime-cover'><img src='${item.cover}'"></div>` : ''
 
-                // <small>${item?.year || ''}${item?.year ? state.divider : ''}${item?.format || ''}</small>
         card.innerHTML = currentView === 'grid' ? `
             <div class='poster-box'>
                 ${createRatingBlock(item?.scoreMAL, ageRating)}
@@ -137,7 +121,7 @@ export function createTitleCard() {
             </div>
             <div class='info'>
                 <h3 class='truncate' title='${item?.title || 'Без назви'}'>${item?.title || 'Без назви'}</h3>
-                <small>${item?.year || ''}${item?.year ? state.divider : ''}${getAnimeClassificationInfo(item?.episodes, item?.duration, item?.format).displayText}</small>
+                <small>${item?.year || ''}${item?.year ? ' • ' : ''}${getAnimeClassificationInfo(item?.episodes, item?.duration, item?.format).displayText}</small>
             </div>
         ` : `
             ${cover}
@@ -146,7 +130,7 @@ export function createTitleCard() {
             </div>
             <div class='info'>
                 <h3 class='truncate' title='${item?.title || 'Без назви'}'>${item?.title || 'Без назви'}</h3>
-                <small>${item?.year || ''}${item?.year ? state.divider : ''}${item?.format || ''}</small>
+                <small>${item?.year || ''}${item?.year ? ' • ' : ''}${item?.format || ''}</small>
                 ${createRatingBlock(item?.scoreMAL, ageRating)}
                 ${item?.episodes ? `<small class="episode-count">Серій: ${item?.episodes}</small>` : ''}
                 ${createAudioSubBlock(releaseInfo)}
@@ -165,6 +149,7 @@ export function createTitleCard() {
             : null
         const teams = (item?.teams || [])
             .map(t => `<span><img src='${t?.logo || ''}'></span>`).join('')
+        const cover = animeInfo?.cover ? `<div class='anime-cover'><img src='${animeInfo.cover}'></div>` : ''
 
         let hasSub = false
         let hasDub = false
@@ -203,6 +188,7 @@ export function createTitleCard() {
                 <h3 class='truncate'>${item?.title || 'Без назви'}</h3>
             </div>
         ` : `
+            ${cover}
             <div class='poster-box'>
                 ${createImageWithSkeleton(animeInfo?.poster || '', item?.title || 'Без назви')}
             </div>
@@ -212,7 +198,12 @@ export function createTitleCard() {
                 <p>Епізоди: ${item?.episodes || 'Невідомо'}</p>
             </div>
         `
-        card.onclick = () => titleModal.renderReleaseDetail(item)
+        card.onclick = async (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const { titleModal } = await import('../views/TitleModal.js');
+          titleModal.renderReleaseDetail(item);
+        };
         return card
     }
 
@@ -315,8 +306,13 @@ export function createTitleCard() {
                 ${footerHTML}
             `
 
-        if (currentView === 'list') {
-            // Обробники для карток релізів (тільки в list режимі)
+        if (currentView === 'grid') {
+            // У grid режимі - натискання на всю картку
+            card.onclick = () => titleModal.renderTeamReleases(item.id)
+        } else {
+            // У list режимі - тільки на окремі елементи
+            
+            // Обробники для карток релізів
             card.querySelectorAll('.team-release').forEach(el => {
                 el.addEventListener('click', (e) => {
                     e.stopPropagation()
@@ -331,7 +327,7 @@ export function createTitleCard() {
             if (moreBtn) {
                 moreBtn.addEventListener('click', (e) => {
                     e.stopPropagation()
-                    router.navigate(`/animehub/team/${item.id}`)
+                    titleModal.renderTeamReleases(item.id)
                 })
             }
         }

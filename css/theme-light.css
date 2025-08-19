@@ -21,12 +21,31 @@ body.light {
     --text: var(--dark);
 }
 
- body.light footer .badge img[src*="powered-by-hikka_ua.svg"] {
+body.light footer .badge img[src*="powered-by-hikka-ua-dark.svg"] {
   content: url("https://rosset-nocpes.github.io/ua-badges/src/powered-by-hikka-ua-light.svg");
 } 
 
 body.light footer .badge img[src*="notion-dark.svg"] {
   content: url("https://rosset-nocpes.github.io/ua-badges/src/notion-light.svg");
+}
+
+body.light .watch-info .badge img[src*="hikka-dark.svg"] {
+  content: url("https://rosset-nocpes.github.io/ua-badges/src/hikka-light.svg");
+}
+body.light .watch-info .badge img[src*="anitube-dark.svg"] {
+  content: url("https://rosset-nocpes.github.io/ua-badges/src/anitube-light.svg");
+}
+body.light .watch-info .badge img[src*="uakino-dark.svg"] {
+  content: url("https://rosset-nocpes.github.io/ua-badges/src/uakino-light.svg");
+}
+body.light .watch-info .badge img[src*="uaserial-dark.svg"] {
+  content: url("https://rosset-nocpes.github.io/ua-badges/src/uaserial-light.svg");
+}
+body.light .watch-info .badge img[src*="uaserials-dark.svg"] {
+  content: url("https://rosset-nocpes.github.io/ua-badges/src/uaserials-light.svg");
+}
+body.light .watch-info .badge img[src*="mikai-dark.svg"] {
+  content: url("https://rosset-nocpes.github.io/ua-badges/src/mikai-light.svg");
 }
 
 body.light #filterOptions .filter-btn {
