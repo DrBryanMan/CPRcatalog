@@ -22,7 +22,7 @@ body.light {
 }
 
  body.light footer .badge img[src*="powered-by-hikka_ua.svg"] {
-  content: url("https://rosset-nocpes.github.io/ua-badges/src/powered-by-hikka_ua-light.svg");
+  content: url("https://rosset-nocpes.github.io/ua-badges/src/powered-by-hikka-ua-light.svg");
 } 
 
 body.light footer .badge img[src*="notion-dark.svg"] {
