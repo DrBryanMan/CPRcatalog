@@ -55,10 +55,8 @@ nav {
 }
 .site-logo:after {
     content: '1.0';
-/*    position: absolute;*/
     color: lightgreen;
     font-weight: bold;
-/*    transform: translate(-10px, -10px) rotate(-30deg);*/
 }
 /* breadcrumbs */
 .breadcrumbs {

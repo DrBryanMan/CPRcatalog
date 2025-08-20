@@ -315,7 +315,7 @@ export function createListCard() {
 
         if (currentView === 'grid') {
             // У grid режимі - натискання на всю картку
-            card.onclick = () => titleModal.renderTeamReleases(item.id)
+            card.onclick = () => titleModal.renderTeamDeteils(item.id)
         } else {
             // У list режимі - тільки на окремі елементи
             
@@ -334,7 +334,7 @@ export function createListCard() {
             if (moreBtn) {
                 moreBtn.addEventListener('click', (e) => {
                     e.stopPropagation()
-                    titleModal.renderTeamReleases(item.id)
+                    titleModal.renderTeamDeteils(item.id)
                 })
             }
         }

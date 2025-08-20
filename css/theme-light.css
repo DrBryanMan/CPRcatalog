@@ -21,6 +21,10 @@ body.light {
     --text: var(--dark);
 }
 
+body.light .site-logo:after {
+    color: green;
+}
+
 body.light footer .badge img[src*="powered-by-hikka-ua-dark.svg"] {
   content: url("https://rosset-nocpes.github.io/ua-badges/src/powered-by-hikka-ua-light.svg");
 } 
@@ -46,6 +50,9 @@ body.light .watch-info .badge img[src*="uaserials-dark.svg"] {
 }
 body.light .watch-info .badge img[src*="mikai-dark.svg"] {
   content: url("https://rosset-nocpes.github.io/ua-badges/src/mikai-light.svg");
+}
+body.light .watch-info .badge img[src*="telegram-dark.svg"] {
+  content: url("https://rosset-nocpes.github.io/ua-badges/src/telegram-light.svg");
 }
 
 body.light #filterOptions .filter-btn {

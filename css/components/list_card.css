@@ -42,10 +42,3 @@
     aspect-ratio: 1/1;
     justify-content: center;
 }
-/** У вигляді списку **/
-/*.items-list.list-view .team-card img + .info {
-    width: calc(100% - 130px - 1em);
-}
-.items-list.list-view .team-card img {
-    height: 100%;
-}*/

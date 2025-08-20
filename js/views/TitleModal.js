@@ -68,7 +68,7 @@ export function createTitleModal() {
 
         const teamId = navLink.getAttribute('data-team-id')
         if (teamId) {
-          renderTeamReleases(teamId)
+          renderTeamDeteils(teamId)
           return
         }
 
@@ -207,11 +207,14 @@ export function createTitleModal() {
             <div style="text-align:center;">
               <h1>${anime.title}</h1>
               ${anime.hikkaSynonyms?.length
-                ? `<button id="altNamesModalBtn" class="alt-names-btn">•••</button> <span>${anime.romaji}</span>
+                ? `<button id="altNamesModalBtn" class="alt-names-btn">•••</button> <span>
+                  ${anime.romaji}</span>
                     <dialog id="altNamesModal" class="alternative-names modal">
                       <span id="altNamesModalClose" class="modal-close">&times;</span>
                       <h2>Альтернативні назви</h2>
-                      <div id="altNamesContent">${anime.hikkaSynonyms.map(title => `<span>${title}</span>`).join('')}</div>
+                      <div id="altNamesContent">${anime.hikkaSynonyms.map(title => `<span>
+                        ${title}</span>`).join('')}
+                      </div>
                     </dialog>`
                 : `<span>${anime.romaji}</span>`}
             </div>
@@ -330,7 +333,10 @@ export function createTitleModal() {
       card.dataset.releaseId = release.id
 
       const teams = (release.teams || []).map(t => t.logo
-        ? `<span><img src='${t.logo}' title="${t.name}"></span>`
+        ? `<span>
+          <img src='${t.logo}' 
+          title="${t.name}"
+      ></span>`
         : `<span class='team-initials' title="${t.name}">${(t.name || '').split(/\s+/).map(w => w[0]).join('').toUpperCase()}</span>`
       ).join('')
 
@@ -373,7 +379,8 @@ export function createTitleModal() {
           case 'Завершено': return `<span style="color:var(--finished);"><i class="bi bi-list-check" title="${release.status}"></i></span>`
           case 'Закинуто': return `<span style="color:var(--droped);"><i class="bi bi-trash" title="${release.status}"></i></span>`
           case 'Відкладено': return `<span style="color:var(--paused);"><i class="bi bi-pause-fill" title="${release.status}"></i></span>`
-          default: return `<span><i class="bi bi-question" title="На перевірці"></i></span>`
+          default: return `<span>
+            <i class="bi bi-question" title="На перевірці"></i></span>`
         }
       }
 
@@ -433,7 +440,12 @@ export function createTitleModal() {
         case 'Завершено': return `<span style="color:var(--finished);"><i class="bi bi-list-check"></i> ${release.status}</span>`
         case 'Закинуто': return `<span style="color:var(--droped);"><i class="bi bi-trash"></i> ${release.status}</span>`
         case 'Відкладено': return `<span style="color:var(--paused);"><i class="bi bi-pause-fill"></i> ${release.status}</span>`
-        default: return `<span><i class="bi bi-question"></i> На перевірці</span>`
+        default: return `
+          <span>
+            <i class="bi bi-question"></i> 
+            На перевірці
+          </span>
+        `
       }
     }
 
@@ -462,7 +474,10 @@ export function createTitleModal() {
             </div>
             <div class='title-info'>
               ${status()}
-              <span><i class="bi bi-list-ol"></i> ${release.episodes}</span>
+              <span>
+                <i class="bi bi-list-ol">
+                </i> ${release.episodes}
+              </span>
               ${watchTags ? `<div class='watch-tags'>${watchTags}</div>` : ''}
             </div>
             ${torrents ? `<h2>Торенти</h2><p class='release-torrents'>${torrents}</p>` : ''}
@@ -480,7 +495,6 @@ export function createTitleModal() {
         </div>
       </div>
     `
-    // ⛔️ НЕ додаємо тут окремі onclick — усе ловить делегація у setupEventListeners()
   }
 
   // Виклик із каталогу/із зовнішньої картки (API, що використовується ззовні)
@@ -504,7 +518,7 @@ export function createTitleModal() {
   }
 
   // ===== Команда =====
-  async function renderTeamReleases(teamId) {
+  async function renderTeamDeteils(teamId) {
     if (!state.isOpen) {
       state.isOpen = true
       state.modal.showModal()
@@ -520,18 +534,49 @@ export function createTitleModal() {
     // На сторінці команди «Назад» не показуємо
     toggleBack(false)
 
+    function getStatusStyle(status) {
+        switch(status?.toLowerCase()) {
+            case 'активна':
+                return 'color: #4CAF50;'
+            case 'малоактивна':
+                return 'color: #FF9800;'
+            case 'розформована':
+            case 'неактивна':
+                return 'color: #ff5b5b;'
+            default:
+                return 'color: #9E9E9E;'
+        }
+    }
+
+    const AnitubeBadge = state.currentTeam.anitube
+      ? `<a href="${state.currentTeam.anitube}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/anitube-dark.svg'></a>` : ''
+    const TGBadge = state.currentTeam.tg
+      ? `<a href="${state.currentTeam.tg}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/telegram-dark.svg'></a>` : ''
+    
     const releases = AnimeReleases.filter(r => r.teams?.some(t => t.id === teamId))
 
     const headerHTML = `
-      <div class='team-detail'>
+      <div class='title-detail team-detail'>
         <div class='top-section'>
-          <img class='team-logo' src='${state.currentTeam?.logo || ''}' title='${state.currentTeam?.name || 'Не вказано'}'>
-          <div class='info-section'>
-            <h1>${state.currentTeam?.name || 'Не вказано'}</h1>
-            <div class='team-info'>
-              <p><i class="bi bi-briefcase"></i> Тип робіт: ${state.currentTeam?.type || 'Не вказано'}</p>
-              <p><i class="bi bi-activity"></i> Статус: ${state.currentTeam?.status || 'Активна'}</p>
+          <img class='team-logo' src='${state.currentTeam.logo || ''}' title='${state.currentTeam.name || 'Не вказано'}'>
+          <div class='center-column'>
+            <h1>${state.currentTeam.name || 'Не вказано'}</h1>
+            ${state.currentTeam.altname.length > 0 ? `<h3>${state.currentTeam.altname.join(' / ')}</h3>` : ''}
+            <div class='title-info'>
+              <span title='Тип манди'>
+                <i class="bi bi-collection-play"></i> 
+                ${state.currentTeam.type_team.join(' • ') || 'Не вказано'}
+              </span>
+              <span title='Тип робіт'>
+                <i class="bi bi-briefcase"></i> 
+                ${state.currentTeam.type_activity.join(' • ') || 'Не вказано'}
+              </span>
+              <span style='${getStatusStyle(state.currentTeam.status)}' title='Статус'>
+                <i class="bi bi-activity"></i> 
+                ${state.currentTeam.status || 'Активна'}
+              </span>
             </div>
+            <div class='watch-info'>${AnitubeBadge}${TGBadge}</div>
           </div>
         </div>
         <div class="releases-section">
@@ -562,7 +607,7 @@ export function createTitleModal() {
     if (state.currentTeam) {
       // назад до команди
       toggleBack(false)
-      renderTeamReleases(state.currentTeam.id)
+      renderTeamDeteils(state.currentTeam.id)
       return
     }
     // реліз без контексту (відкрито з каталогу)
@@ -585,7 +630,7 @@ export function createTitleModal() {
     close,
     goBack,
     renderReleaseDetail: renderReleaseDetailFromCatalog,
-    renderTeamReleases
+    renderTeamDeteils
   }
 }
 
