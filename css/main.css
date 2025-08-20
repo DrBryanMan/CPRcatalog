@@ -36,7 +36,7 @@ body.modal-open {
   overflow: hidden;
 }
 
-i.bi {
+i.bi:before {
   font-size: 1rem;
 }
   

@@ -284,8 +284,8 @@ const processAnimeData = async (pages) => {
     // Якщо немає посилання Mikai, спробуємо знайти його
     if (!mikaiUrl && hikkaInfo?.mal_id) {
       const mikaiItem = mikaiMap.get(hikkaInfo.mal_id)
-      if (mikaiItem && mikaiItem.slug) {
-        mikaiUrl = `https://mikai.me/anime/${mikaiItem.slug}`
+      if (mikaiItem) {
+        mikaiUrl = `https://mikai.me/anime/${mikaiItem.id}-${mikaiItem.slug}`
         colorLog(`Знайдено Mikai посилання для MAL ID ${hikkaInfo.mal_id}: ${mikaiUrl}`, 'blue')
       }
     }

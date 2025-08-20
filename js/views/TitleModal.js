@@ -141,14 +141,18 @@ export function createTitleModal() {
 
     const sourceTranslations = {
       manga: 'Манґа',
+      web_manga: 'Веб-манґа',
       novel: 'Ранобе',
-      visual_novel: 'Візуальна новела',
+      light_novel: 'Ранобе',
+      web_novel: 'Веб-новелла',
+      visual_novel: 'Віз. новела',
       game: 'Гра',
-      original: 'Оригінал',
+      card_game: 'Картярська',
+      original: 'Оригінальне',
       other: 'Інше'
     }
 
-    function renderScore(rating, type = 'MAL') {
+    function renderScore(type = 'MAL', rating, count) {
         if (!rating) {
             return `<span class="rating" title="Оцінка ${type}"><i class="bi bi-star"></i> —</span>`
         }
@@ -166,12 +170,14 @@ export function createTitleModal() {
             ratingColor = '#F44336' // червоний для низьких оцінок
         }
         return `
-            <span class="rating" style="color: ${ratingColor};" title='Оцінка ${type}'>
-              <i class="bi ${icon}" style="color: ${type === 'Hikka' ? 'purple' : ratingColor}"></i> ${rating.toFixed(1)}
+            <span class="rating" style="color: ${ratingColor};" title='${count} оцінок'>
+              <i class="bi ${icon}" style="color: ${type === 'Hikka' ? '#ce31e3' : ratingColor}"> ${type}</i>
+              <span>${rating.toFixed(1)}</span>
             </span>
         `
     }
 
+    const cls = getAnimeClassificationInfo(anime.episodes, anime.duration, anime.format);
     const teams = (anime.teams || []).map(t => `<span class='team-link data-nav-link' data-team-id='${t.id}'><img src='${t.logo}'>${t.name}</span>`).join('')
     const cover = anime.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
 
@@ -182,9 +188,9 @@ export function createTitleModal() {
     const UaKinoBadge = anime.uakino
       ? `<a href="${anime.uakino}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/uakino-dark.svg'></a>` : ''
     const UaSerialBadge = anime.uaserial
-      ? `<a href="${anime.uakino}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/uaserial-dark.svg'></a>` : ''
-    const UaSerialsBadge = anime.uaserials
-      ? `<a href="${anime.uaserials}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/uaserials-dark.svg'></a>` : ''
+      ? `<a href="${anime.uaserial}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/uaserial-dark.svg'></a>` : ''
+    // const UaSerialsBadge = anime.uaserials
+    //   ? `<a href="${anime.uaserials}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/uaserials-dark.svg'></a>` : ''
     const MikaiBadge = anime.mikai
       ? `<a href="${anime.mikai}" target="_blank" class='badge'><img src='https://rosset-nocpes.github.io/ua-badges/src/mikai-dark.svg'></a>` : ''
 
@@ -219,16 +225,19 @@ export function createTitleModal() {
                 : `<span>${anime.romaji}</span>`}
             </div>
             <div class='title-info'>
-              <span title='Формат на ТБ'>
-                <i class="bi bi-film"></i> 
-                ${getAnimeClassificationInfo(anime.episodes, anime.duration, anime.format).displayText}
+              <span title='Формат на тб'>
+                <i class="bi bi-film"></i>
+                <span>${anime.format}</span>
+              </span>
+              <span title='Класифікація ЦПР'>
+                <span title='${cls.description}'>${cls.displayText}</span>
               </span>
               <span title='Аніме сезон'>
                 <i class="bi bi-calendar-check"></i>
                 ${seasonTranslations[anime.season?.toLowerCase()] || anime.season || 'Невідомо'} ${anime.year || 'Не вказано'}
               </span>
               <span title='Загальна кількість'>
-                <i class="bi bi-list-ol"></i> ${anime.episodes}
+                <i class="bi bi-list-ol"></i> ${anime.episodes} еп.
               </span>
               <span title='Тривалість епізоду'>
                 <i class="bi bi-clock-history"></i> ${anime.duration} хв.
@@ -237,12 +246,13 @@ export function createTitleModal() {
                 <i class="bi bi-asterisk"></i>
                 ${sourceTranslations[anime.source?.toLowerCase()] || anime.source || 'Невідомо'}
               </span>
-              <span title='MAL ID'>MAL: ${anime.mal_id}</span>
               ${anime.franchise?.length ? `<span title='Франшиза'><i class="bi bi-ui-checks-grid"></i>${anime.franchise}</span>` : ''}
-              ${renderScore(anime.scoreMAL, 'MAL')}
-              ${renderScore(anime.scoreHikka, 'Hikka')}
             </div>
-            <div class='watch-info'>${HikkaBadge}${AnitubeBadge}${UaKinoBadge}${UaSerialBadge}${UaSerialsBadge}${MikaiBadge}</div>
+            <div class='title-info'>
+              ${renderScore('MAL', anime.scoreMAL, anime.scoredbyMAL)}
+              ${renderScore('Hikka', anime.scoreHikka, anime.scoredbyHikka)}
+            </div>
+            <div class='watch-info'>${HikkaBadge}${AnitubeBadge}${UaKinoBadge}${UaSerialBadge}${MikaiBadge}</div>
             <div id='releasesList'>Завантаження інформації про релізи...</div>
           </div>
         </div>

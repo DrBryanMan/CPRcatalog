@@ -33,7 +33,7 @@ export function createListCard() {
         }
         return `
             <span class="rating" style="color: ${ratingColor};" title='Оцінка ${type}'>
-              <i class="bi ${icon}" style="color: ${type === 'Hikka' ? 'purple' : ratingColor}"></i> ${rating.toFixed(1)}
+              <i class="bi ${icon}" style="color: ${type === 'Hikka' ? '#ce31e3' : ratingColor}"></i> ${rating.toFixed(1)}
             </span>
         `
     }

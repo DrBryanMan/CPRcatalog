@@ -1,4 +1,5 @@
 import { AnimeTitles, AnimeReleases } from '../loadData.js'
+import { getAnimeClassificationInfo } from '../animeClassification.js'
 
 export function createCatalogControls(searchInput, filterContainer, sortContainer, onDataChange) {
     const state = {
@@ -59,6 +60,22 @@ export function createCatalogControls(searchInput, filterContainer, sortContaine
                     <button class="filter-btn" data-filter="format" data-value="ОМА">ОМА</button>
                     <button class="filter-btn" data-filter="format" data-value="Спешл">Спешл</button>
                 </div>
+                <div>
+                  <h4>Класифікація:</h4>
+                  <button class="filter-btn" data-filter="class" data-value="M">Movie</button>
+                  <button class="filter-btn" data-filter="class" data-value="R">Repack</button>
+                  <button class="filter-btn" data-filter="class" data-value="MV">Music Video</button>
+                  <button class="filter-btn" data-filter="class" data-value="Sp">Special</button>
+                  <button class="filter-btn" data-filter="class" data-value="A">Anthology</button>
+                  <button class="filter-btn" data-filter="class" data-value="F3">Mini</button>
+                  <button class="filter-btn" data-filter="class" data-value="F2">Short</button>
+                  <button class="filter-btn" data-filter="class" data-value="F1">Chibi</button>
+                  <button class="filter-btn" data-filter="class" data-value="F0">Zero</button>
+                  <button class="filter-btn" data-filter="class" data-value="S">Season</button>
+                  <button class="filter-btn" data-filter="class" data-value="S+">Season+</button>
+                  <button class="filter-btn" data-filter="class" data-value="S++">Season++</button>
+                  <button class="filter-btn" data-filter="class" data-value="F5">Maxi/Mega/Ultra</button>
+                </div>
             `
         }
         if (type === 'Релізи') {
@@ -104,6 +121,33 @@ export function createCatalogControls(searchInput, filterContainer, sortContaine
         }
         state.filterContainer.innerHTML = filterHTML
     }
+
+    function classToFilterKey(cls) {
+      const code = (cls?.code || '').toUpperCase()
+      if (!code) return 'FN'
+      if (code.startsWith('F4')) {
+        if (code === 'F4')   return 'S'
+        if (code === 'F4+')  return 'S+'
+        if (code === 'F4++') return 'S++'
+      }
+      if (code === 'F6')  return 'M'   // Movie
+      if (code === 'F7')  return 'R'   // Repack
+      if (code === 'F10') return 'MV'  // Music Video
+      if (code === 'F9')  return 'Sp'  // Special
+      if (code === 'F3')  return 'F3'  // Mini
+      if (code === 'F2')  return 'F2'  // Short
+      if (code === 'F1')  return 'F1'  // Chibi
+      if (code === 'F0')  return 'F0'  // Zero
+      if (code === 'F1/2A') return 'A' // Anthology
+      if (code === 'F5')  return 'F5'  // Maxi/Mega/Ultra
+      return code
+    }
+    function matchClassFilter(selectedKeys, cls) {
+      if (!selectedKeys || selectedKeys.length === 0) return true
+      const key = classToFilterKey(cls)
+      return selectedKeys.includes(key)
+    }
+
 
     function addFilterEventListeners() {
         const filterButtons = state.filterContainer.querySelectorAll('.filter-btn')
@@ -248,18 +292,25 @@ export function createCatalogControls(searchInput, filterContainer, sortContaine
     function applyFilters(items, type) {
         return items.filter(item => {
             if (type === 'Аніме') {
-                const formatMatch = !state.activeFilters.format || state.activeFilters.format.includes(item.format)
-                const seasonMatch = !state.activeFilters.season || state.activeFilters.season.includes(item.season)
-                
-                let yearMatch = true
-                if (state.activeFilters.year) {
-                    const filterYear = state.activeFilters.year
-                    const itemYear = parseInt(item.year)
-                    yearMatch = itemYear === filterYear
-                }
-                
-                return formatMatch && seasonMatch && yearMatch
+              const formatMatch = !state.activeFilters.format || state.activeFilters.format.includes(item.format)
+              const seasonMatch = !state.activeFilters.season || state.activeFilters.season.includes(item.season)
+
+              let yearMatch = true
+              if (state.activeFilters.year) {
+                const filterYear = state.activeFilters.year
+                const itemYear = parseInt(item.year)
+                yearMatch = itemYear === filterYear
+              }
+
+              let classMatch = true
+              if (state.activeFilters.class) {
+                const cls = getAnimeClassificationInfo(item.episodes, item.duration, item.format, item.existingClassification)
+                classMatch = matchClassFilter(state.activeFilters.class, cls)
+              }
+
+              return formatMatch && seasonMatch && yearMatch && classMatch
             }
+
             
             if (type === 'Релізи') {
                 let formatMatch = true, yearMatch = true, seasonMatch = true
@@ -297,7 +348,18 @@ export function createCatalogControls(searchInput, filterContainer, sortContaine
                     sourcesMatch = hasSelectedSource
                 }
                 
-                return formatMatch && statusMatch && sourcesMatch && seasonMatch && yearMatch
+                let classMatch = true
+                if (state.activeFilters.class) {
+                  // шукаємо пов’язаний тайтл (беремо перший)
+                  const anime = AnimeTitles?.find(anime => item.animeIds?.includes?.(anime.id))
+                  const cls = anime
+                    ? getAnimeClassificationInfo(anime.episodes, anime.duration, anime.format, anime.existingClassification)
+                    : null
+                  classMatch = cls ? matchClassFilter(state.activeFilters.class, cls) : false
+                }
+
+                return formatMatch && statusMatch && sourcesMatch && seasonMatch && yearMatch && classMatch
+
             }
             
             if (type === 'Команди') {

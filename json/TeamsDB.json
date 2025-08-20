@@ -1,5 +1,30 @@
 [
   {
+    "id": "255d30fa-35d0-8089-86ff-c4f8a8d6c566",
+    "last_edited": "2025-08-20T17:10:00.000Z",
+    "cover": null,
+    "name": "Тавровані",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "255d30fa-35d0-809a-8c6b-caa841bccb21"
+      },
+      {
+        "id": "255d30fa-35d0-8005-b254-cdb9258d5a5a"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null
+  },
+  {
     "id": "24fd30fa-35d0-8088-91b0-ccab38dbf2e4",
     "last_edited": "2025-08-14T10:14:00.000Z",
     "cover": null,
@@ -47,16 +72,23 @@
   },
   {
     "id": "24dd30fa-35d0-80fd-95a1-ed5e331ce6c9",
-    "last_edited": "2025-08-12T17:31:00.000Z",
+    "last_edited": "2025-08-20T18:04:00.000Z",
     "cover": null,
     "name": "DeUli UA",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
+      {
+        "id": "255d30fa-35d0-804c-af80-dd02674440be"
+      },
       {
         "id": "24dd30fa-35d0-8011-a728-d5788c1f2317"
       }
@@ -65,7 +97,7 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null
+    "tg": "https://t.me/opdua48"
   },
   {
     "id": "24dd30fa-35d0-80b4-8d9f-f0d726de8ad4",
@@ -195,6 +227,9 @@
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
+      {
+        "id": "255d30fa-35d0-800f-b3c8-d808ad864723"
+      },
       {
         "id": "232d30fa-35d0-80d8-96ac-c7f225ef63c4"
       },
@@ -3158,6 +3193,15 @@
       }
     ],
     "anime_releases": [
+      {
+        "id": "255d30fa-35d0-80d0-b088-e4f9ca86e575"
+      },
+      {
+        "id": "255d30fa-35d0-80e4-9154-ca61f540c4c7"
+      },
+      {
+        "id": "255d30fa-35d0-80c9-b7a3-c8f0384d3281"
+      },
       {
         "id": "233d30fa-35d0-808c-ad4e-d31ddf4327f4"
       },
@@ -11095,6 +11139,9 @@
     ],
     "anime_releases": [
       {
+        "id": "255d30fa-35d0-80af-b2c5-d6089b2e5910"
+      },
+      {
         "id": "24dd30fa-35d0-80cc-8346-eb51dd50e126"
       },
       {
@@ -13264,6 +13311,9 @@
     "status": "Активна",
     "members": [],
     "anime_releases": [
+      {
+        "id": "255d30fa-35d0-80b6-8e85-f105e6f80388"
+      },
       {
         "id": "233d30fa-35d0-8039-8de3-eb13a7073e84"
       },
@@ -16420,6 +16470,9 @@
     "members": [],
     "anime_releases": [
       {
+        "id": "255d30fa-35d0-8026-9e28-f0b82e47a6e4"
+      },
+      {
         "id": "24ed30fa-35d0-8080-8e1d-e82637749e21"
       },
       {
@@ -16812,6 +16865,9 @@
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
+      {
+        "id": "255d30fa-35d0-8096-97ab-e492635a5f74"
+      },
       {
         "id": "233d30fa-35d0-807e-830b-ee24b94da22c"
       },
@@ -20284,6 +20340,9 @@
     "members": [],
     "anime_releases": [
       {
+        "id": "255d30fa-35d0-8003-9fe1-f31c3b7e664b"
+      },
+      {
         "id": "231d30fa-35d0-80cc-a297-e95b48b3b223"
       },
       {
@@ -22007,6 +22066,9 @@
       }
     ],
     "anime_releases": [
+      {
+        "id": "255d30fa-35d0-8007-9264-e224c3854cd0"
+      },
       {
         "id": "24dd30fa-35d0-80fd-820a-f1bbba739494"
       },

@@ -96,9 +96,11 @@
 /* Основна інформація в тегах */
 .title-detail .title-info {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1em;
 }
-.title-detail .title-info span {
+.title-detail .title-info > span {
   display: flex;
   align-items: center;
   gap: .5em;
