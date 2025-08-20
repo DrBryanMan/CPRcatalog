@@ -5,8 +5,9 @@
 .list-controls {
   position: relative;
   margin: 1em 0;
-  padding-bottom: .5em ;
+  padding: .5em 0;
   border-bottom: 1px solid var(--accent-50);
+  border-top: 1px solid var(--accent-50);
   display: flex;
   justify-content: flex-end;
   gap: 1em;

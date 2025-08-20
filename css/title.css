@@ -49,15 +49,6 @@
 }
 
 /* = Інфо секція = */
-.title-detail .title-info .data-nav-link {
-  text-decoration: none;
-  color: inherit;
-  outline: var(--border);
-  border-radius: var(--radius);
-}
-.title-detail .title-info .data-nav-link:hover span {
-  background: var(--light-20);
-}
 
 /*  */
 /*  */

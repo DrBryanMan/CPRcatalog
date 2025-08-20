@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>CPR Каталоґ</title>
+        <title>ЦПР Каталоґ</title>
         <link rel="icon" type="image/x-icon" href="fav.ico">
         <link rel="stylesheet" href="css.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -15,7 +15,7 @@
             <div id='nav' class="breadcrumbs">
                 <a href="/" class="nav-button site-logo" data-navigo>
                     <img src="logo.png" alt="logo">    
-                    <b>CPR</b>
+                    <b>ЦПР</b>
                 </a>
                 <div class="nav-button has-list">
                     <div id="firstCrumb">Головна</div>
@@ -28,15 +28,13 @@
                 </div>
             </div>
             <div class="right-nav">
+                <button id="randomAnimeBtn" class="nav-button"><i class="bi bi-shuffle"></i></button>
                 <button id="themeSwitch" class="nav-button"><i class="bi bi-sun"></i></button>
                 <button id="searchModalButton" class="nav-button" onclick="searchModal.showModal()"><i class="bi bi-search"></i></button>
             </div>
         </nav>
 
-        <div id="app">
-            <div>CPRcatalog — це сайт з інформацією про різноманітний контент українською. Читати чи дивитись тут немає можливості.
-            Детальніше про Каталоґ</div>
-        </div>
+        <div id="app"></div>
 
         <div id="loadingOverlay">
           <div class="loader"></div>

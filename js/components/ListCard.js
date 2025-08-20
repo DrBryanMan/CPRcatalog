@@ -14,7 +14,29 @@ export function createListCard() {
             </div>
         `
     }
-
+    function renderScore(rating, type = 'MAL') {
+        if (!rating) {
+            return `<span class="rating" title="Оцінка ${type}"><i class="bi bi-star"></i> —</span>`
+        }
+        const icon = rating >= 7 ? 'bi-star-fill' : 'bi-star-half'
+        let ratingColor = ''
+        if (rating >= 8.0) {
+            ratingColor = '#4CAF50' // зелений для високих оцінок
+        } else if (rating >= 7.0) {
+            ratingColor = '#8BC34A' // світло-зелений
+        } else if (rating >= 6.0) {
+            ratingColor = '#FFC107' // жовтий
+        } else if (rating >= 5.0) {
+            ratingColor = '#FF9800' // помаранчевий
+        } else {
+            ratingColor = '#F44336' // червоний для низьких оцінок
+        }
+        return `
+            <span class="rating" style="color: ${ratingColor};" title='Оцінка ${type}'>
+              <i class="bi ${icon}" style="color: ${type === 'Hikka' ? 'purple' : ratingColor}"></i> ${rating.toFixed(1)}
+            </span>
+        `
+    }
     function getAgeRating(genre) {
         if (!genre || genre.trim() === '') return null
         const adultGenres = ['Біляхентай', 'Хентай', 'Яой', 'Юрі']
@@ -70,25 +92,10 @@ export function createListCard() {
     }
 
 
-    function createRatingBlock(rating, ageRating) {
+    function createRatingBlock(ratingmal, ratinghikka, ageRating) {
         let html = ''
-        if (rating) {
-            // Визначаємо колір оцінки залежно від значення
-            let ratingColor = ''
-            if (rating >= 8.0) {
-                ratingColor = 'style="color: #4CAF50;"' // зелений для високих оцінок
-            } else if (rating >= 7.0) {
-                ratingColor = 'style="color: #8BC34A;"' // світло-зелений
-            } else if (rating >= 6.0) {
-                ratingColor = 'style="color: #FFC107;"' // жовтий
-            } else if (rating >= 5.0) {
-                ratingColor = 'style="color: #FF9800;"' // помаранчевий
-            } else {
-                ratingColor = 'style="color: #F44336;"' // червоний для низьких оцінок
-            }
-            
-            html += `<span class="rating" ${ratingColor}><i class="bi bi-star-fill"></i> ${rating}</span>`
-        }
+        html += renderScore(ratingmal, 'MAL')
+        html += renderScore(ratinghikka, 'Hikka')
         if (ageRating) html += `<span class="age-rating">${ageRating}</span>`
         return html ? `<div class="ratings">${html}</div>` : ''
     }
@@ -114,7 +121,7 @@ export function createListCard() {
 
         card.innerHTML = currentView === 'grid' ? `
             <div class='poster-box'>
-                ${createRatingBlock(item?.scoreMAL, ageRating)}
+                ${createRatingBlock(item?.scoreMAL, item?.scoreHikka, ageRating)}
                 ${createImageWithSkeleton(item?.poster || '', item?.title || 'Без назви')}
                 ${createAudioSubBlock(releaseInfo, item)}
                 <div class='teams-logos'><span title="Кількість релізів"><i class="bi bi-collection-play"></i> ${item.releases.length}</span></div>
@@ -131,7 +138,7 @@ export function createListCard() {
             <div class='info'>
                 <h3 class='truncate' title='${item?.title || 'Без назви'}'>${item?.title || 'Без назви'}</h3>
                 <small>${item?.year || ''}${item?.year ? ' • ' : ''}${item?.format || ''}</small>
-                ${createRatingBlock(item?.scoreMAL, ageRating)}
+                ${createRatingBlock(item?.scoreMAL, scoreHikka, ageRating)}
                 ${item?.episodes ? `<small class="episode-count">Серій: ${item?.episodes}</small>` : ''}
                 ${createAudioSubBlock(releaseInfo)}
             </div>

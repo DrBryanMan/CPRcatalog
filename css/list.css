@@ -95,14 +95,14 @@
 }
 
 .poster-box span {
-    background: var(--accent-50);
+    background: var(--dark-80);
     backdrop-filter: blur(4px);
     display: flex;
     align-items: center;
     gap: .3em;
     padding: .2em .3em;
     border-radius: var(--radius);
-    text-shadow: 0 0 4px black;
+/*    text-shadow: 0 0 4px black;*/
 }
 
 .poster-box .age-rating {

@@ -26,11 +26,7 @@ export async function loadDBData() {
   // }
 
   // Сортуємо Команди за кількістю релізів
-  Teams = Teams.filter(team => 
-      team.anime_releases.length > 0 && 
-      team.type_activity && 
-      team.type_activity.includes('Аніме')
-  ).sort((a, b) => b.anime_releases.length - a.anime_releases.length)
+  Teams = Teams.sort((a, b) => b.anime_releases.length - a.anime_releases.length)
 
   // Додаємо в релізи інфу команд
   AnimeReleases = AnimeReleases.map(release => ({
@@ -40,7 +36,7 @@ export async function loadDBData() {
           return {
               id: team.id,
               logo: foundTeam?.logo || '',
-              name: foundTeam?.name || 'Невідома команда'
+              name: foundTeam?.name || ''
           }
       })
   }))

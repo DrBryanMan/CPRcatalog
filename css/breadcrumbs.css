@@ -33,6 +33,18 @@ nav {
 }
 
 /* == Left elements == */
+.nav-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background: var(--light-05);
+    border: 1px solid var(--light-10);
+    padding: 0 1em;
+    border-radius: var(--radius);
+    transition: .3s;
+    cursor: pointer;
+}
 /* Лого */
 .site-logo img {
     height: 100%;
@@ -42,11 +54,11 @@ nav {
     padding-left: 0;
 }
 .site-logo:after {
-    content: 'БЕТА';
-    position: absolute;
-    color: salmon;
+    content: '1.0';
+/*    position: absolute;*/
+    color: lightgreen;
     font-weight: bold;
-    transform: translate(-10px, -10px) rotate(-30deg);
+/*    transform: translate(-10px, -10px) rotate(-30deg);*/
 }
 /* breadcrumbs */
 .breadcrumbs {
@@ -61,18 +73,6 @@ nav {
 .breadcrumbs:has(span+.nav-button) span:after {
     content: '/';
     margin: 0 .5em;
-}
-.nav-button {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: .5em;
-    background: var(--light-05);
-    border: 1px solid var(--light-10);
-    padding: 0 1em;
-    border-radius: var(--radius);
-    transition: .3s;
-    cursor: pointer;
 }
 .breadcrumbs .has-list:hover .crumb-list {
     visibility: visible;

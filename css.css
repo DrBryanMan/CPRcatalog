@@ -9,6 +9,7 @@
 @import "css/main.css";
 /* global elements */
 @import "css/breadcrumbs.css";
+@import "css/home.css";
 @import "css/footer.css";
 /* main */
 @import "css/list.css";

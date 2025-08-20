@@ -113,9 +113,7 @@
 
 .releases-container {
     display: grid;
-/*     flex-wrap: wrap; */
     gap: .5em;
-/*     justify-content: center; */
     margin-top: .5em;
 }
 

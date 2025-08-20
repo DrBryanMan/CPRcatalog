@@ -1,0 +1,85 @@
+/* css.css */
+.home-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-page h1 {
+  margin-bottom: 20px;
+}
+
+.home-info {
+  background: var(--dark-80);
+  border-left: 5px solid lightcoral;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 1.05em;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.home-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.home-btn {
+  display: inline-grid;
+/*  align-items: center;*/
+  gap: 8px;
+  width: calc(50% - 10px);
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: var(--accent-10);
+  color: var(--text);
+  border: 1px solid var(--accent-20);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+
+.home-btn span {
+  font-weight: 500;
+}
+
+.home-btn:hover {
+  background: var(--accent-50);
+  border: 1px solid var(--accent);
+  transform: translateY(-2px);
+}
+
+.home-btn i {
+  font-size: 1.2em;
+}
+
+.home-features {
+  margin-top: 40px;
+  text-align: left;
+  background: var(--dark-80);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.home-features h2 {
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.home-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-features li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.05em;
+}
