@@ -22,7 +22,7 @@
 #animeDetailModal #releasesList .releases-container .release-card {
     max-width: unset;
     display: grid;
-    grid-template-columns: repeat(1, 15% auto 10% 10%);
+    grid-template-columns: repeat(1, 15% auto auto 10% 10%);
     align-items: center;
 }
 

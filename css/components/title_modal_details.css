@@ -104,7 +104,7 @@
   display: flex;
   align-items: center;
   gap: .5em;
-  background: var(--light-10);
+  background: var(--dark-50);
   border-radius: var(--radius);
   padding: .3em 1em !important;
   transition: .3s;
@@ -172,7 +172,7 @@
   align-items: center;
   gap: .5em;
   padding: .2em .5em;
-  background: var(--dark-80); 
+  background: var(--dark-50); 
   border-radius: var(--radius);
   cursor: pointer;
   transition: .3s;
@@ -183,9 +183,9 @@
 }
 /*.title-detail.release-page .team-link { cursor: pointer; display:inline-flex; align-items:center; gap:6px; }*/
 
-.title-detail.release-page .data-nav-link:hover span,
+.title-detail.release-page .data-nav-link:hover,
 .title-detail.release-page .team-link:hover {
-  background: var(--dark);
+  background: var(--dark-90);
 }
 .title-detail.release-page .team-link img {
   height: 30px;

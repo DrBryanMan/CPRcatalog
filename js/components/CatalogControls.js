@@ -231,11 +231,20 @@ export function createCatalogControls(searchInput, filterContainer, sortContaine
     function processItems(items, type) {
         let processed = [...items]
         let error = null
+
         processed = applyFilters(processed, type)
+
         const searchRes = searchItems(processed, type)
         processed = searchRes.items
         error = searchRes.error
+
         processed = sortItems(processed, type)
+
+        // 🔥 Перевірка після всіх операцій
+        if (!processed.length && !error) {
+            error = { message: `<i class="bi bi-emoji-frown"></i><span>Оце ти намудрив. Результати відсутні.</span>` }
+        }
+
         return { items: processed, error, activeFilters: state.activeFilters }
     }
 
@@ -285,7 +294,6 @@ export function createCatalogControls(searchInput, filterContainer, sortContaine
             }
         })
         
-        if (!filtered.length) return { items: [], error: { message: `<i class="bi bi-emoji-frown"></i><span>Оце ти намудрив. Результати відсутні.</span>` } }
         return { items: filtered, error: null }
     }
 
