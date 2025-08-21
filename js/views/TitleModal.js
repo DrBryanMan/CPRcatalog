@@ -400,8 +400,8 @@ export function createTitleModal() {
         ${watchTags ? `<div class='watch-tags'>${watchTags}</div>` : ''}
         ${release.dubinfo || release.subinfo
           ? `<div>
-              <span>${release.dubinfo[0]?.name}</span>
-              <span>${release.subinfo[0]?.name}</span>
+              <span>${release.dubinfo[0]?.name ||}</span>
+              <span>${release.subinfo[0]?.name ||}</span>
             </div>`
           : ''
         }
