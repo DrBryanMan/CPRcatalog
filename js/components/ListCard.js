@@ -95,8 +95,8 @@ export function createListCard() {
     function createRatingBlock(ratingmal, ratinghikka, ageRating) {
         let html = ''
         html += renderScore(ratingmal, 'MAL')
-        html += renderScore(ratinghikka, 'Hikka')
         if (ageRating) html += `<span class="age-rating">${ageRating}</span>`
+        html += renderScore(ratinghikka, 'Hikka')
         return html ? `<div class="ratings">${html}</div>` : ''
     }
 
