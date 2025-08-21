@@ -400,10 +400,10 @@ export function createTitleModal() {
         ${watchTags ? `<div class='watch-tags'>${watchTags}</div>` : ''}
         ${release.dubinfo || release.subinfo
           ? `<div>
-              <span>${release.dubinfo[0]?.name || ''}</span>
-              <span>${release.subinfo[0]?.name || ''}</span>
+              <span>${release.dubinfo[0]?.name || '—'}</span>
+              <span>${release.subinfo[0]?.name || '—'}</span>
             </div>`
-          : ''
+          : '—'
         }
         <div class="dub-sub-info">${audioSubHTML}</div>
         <div>${status()}</div>
@@ -496,8 +496,8 @@ export function createTitleModal() {
                 <i class="bi bi-list-ol">
                 </i> ${release.episodes} еп.
               </span>
-              <span>${release.dubinfo[0]?.name || ''}</span>
-              <span>${release.subinfo[0]?.name || ''}</span>
+              <span>${release.dubinfo[0]?.name || '—'}</span>
+              <span>${release.subinfo[0]?.name || '—'}</span>
               ${watchTags ? `<div class='watch-tags'>${watchTags}</div>` : ''}
             </div>
             ${torrents ? `<h2>Торенти</h2><p class='release-torrents'>${torrents}</p>` : ''}

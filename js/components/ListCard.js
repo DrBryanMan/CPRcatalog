@@ -138,7 +138,7 @@ export function createListCard() {
             <div class='info'>
                 <h3 class='truncate' title='${item?.title || 'Без назви'}'>${item?.title || 'Без назви'}</h3>
                 <small>${item?.year || ''}${item?.year ? ' • ' : ''}${item?.format || ''}</small>
-                ${createRatingBlock(item?.scoreMAL, scoreHikka, ageRating)}
+                ${createRatingBlock(item?.scoreMAL, item?.scoreHikka, ageRating)}
                 ${item?.episodes ? `<small class="episode-count">Серій: ${item?.episodes}</small>` : ''}
                 ${createAudioSubBlock(releaseInfo)}
             </div>
