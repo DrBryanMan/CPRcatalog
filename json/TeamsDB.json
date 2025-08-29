@@ -1,5 +1,30 @@
 [
   {
+    "id": "25ed30fa-35d0-80b9-a3aa-f4b5d6eff8d5",
+    "last_edited": "2025-08-29T07:10:00.000Z",
+    "cover": null,
+    "name": "Гільдія даберів",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "184d30fa-35d0-8002-9001-f2d4857153d2"
+      },
+      {
+        "id": "17dd30fa-35d0-80b3-96be-fc3c05fb33d2"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null
+  },
+  {
     "id": "255d30fa-35d0-8089-86ff-c4f8a8d6c566",
     "last_edited": "2025-08-20T17:10:00.000Z",
     "cover": null,
@@ -1146,7 +1171,7 @@
   },
   {
     "id": "203d30fa-35d0-80b7-bc0e-d456beca5c3e",
-    "last_edited": "2025-05-30T10:12:00.000Z",
+    "last_edited": "2025-08-27T13:28:00.000Z",
     "cover": null,
     "name": "SHAKAI STUDIO",
     "altname": [],
@@ -1160,6 +1185,9 @@
     "status": "Активна",
     "members": [],
     "anime_releases": [
+      {
+        "id": "25cd30fa-35d0-8070-bbe6-d2721355121e"
+      },
       {
         "id": "216d30fa-35d0-80d3-8631-d7e0e3749893"
       },
@@ -1193,6 +1221,9 @@
       }
     ],
     "anime_releases": [
+      {
+        "id": "25cd30fa-35d0-807b-abf1-cb04826e112e"
+      },
       {
         "id": "203d30fa-35d0-8007-82fc-f6dcbabf33f1"
       },
@@ -1569,6 +1600,9 @@
     "members": [],
     "anime_releases": [
       {
+        "id": "25cd30fa-35d0-80b5-916a-ffaed5aaa0db"
+      },
+      {
         "id": "232d30fa-35d0-80ad-bce6-d3312a9e7e64"
       },
       {
@@ -1654,6 +1688,9 @@
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
+      {
+        "id": "25cd30fa-35d0-80e1-a3f7-d4e19ffe627d"
+      },
       {
         "id": "21ed30fa-35d0-80e0-a8cf-e40c0744e37e"
       },
@@ -6232,6 +6269,9 @@
     "members": [],
     "anime_releases": [
       {
+        "id": "25cd30fa-35d0-8099-b558-f0e28d8aeab1"
+      },
+      {
         "id": "231d30fa-35d0-80e0-8ff3-eef9feaba765"
       },
       {
@@ -7312,6 +7352,12 @@
       }
     ],
     "anime_releases": [
+      {
+        "id": "25ed30fa-35d0-809a-aff4-e026aa503d88"
+      },
+      {
+        "id": "25ed30fa-35d0-80db-83b5-fdfe83c461e0"
+      },
       {
         "id": "232d30fa-35d0-80f7-b43b-d19375fb5661"
       },
@@ -8512,6 +8558,9 @@
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
+      {
+        "id": "25ed30fa-35d0-8079-b0a1-f0e5d21b366d"
+      },
       {
         "id": "208d30fa-35d0-8069-a1fb-e29f94775c6e"
       },
@@ -9802,10 +9851,10 @@
   },
   {
     "id": "174d30fa-35d0-810e-b642-ce8c2d2e2650",
-    "last_edited": "2025-05-20T12:19:00.000Z",
+    "last_edited": "2025-08-27T13:45:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098031/Inari_whhfbs.jpg",
-    "name": "InariDub",
+    "name": "Inari",
     "altname": [],
     "founded": {
       "start": "2020-04-21",
@@ -9822,6 +9871,12 @@
     "status": "Активна",
     "members": [],
     "anime_releases": [
+      {
+        "id": "25ed30fa-35d0-805e-a014-c82310a59e89"
+      },
+      {
+        "id": "25cd30fa-35d0-8076-a435-c757788c4d76"
+      },
       {
         "id": "238d30fa-35d0-80f4-9cc6-d8a703b61865"
       },
@@ -10296,7 +10351,7 @@
   },
   {
     "id": "174d30fa-35d0-819d-968c-f648d0b82baf",
-    "last_edited": "2025-04-08T15:02:00.000Z",
+    "last_edited": "2025-08-27T14:01:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098003/Anifun_comvwh.jpg",
     "name": "AniFunUa",
@@ -10311,6 +10366,9 @@
     "status": "Активна",
     "members": [],
     "anime_releases": [
+      {
+        "id": "25cd30fa-35d0-8061-9197-d76f09e793b3"
+      },
       {
         "id": "20fd30fa-35d0-8062-8c69-e922558adfe4"
       },
@@ -10739,6 +10797,9 @@
     "members": [],
     "anime_releases": [
       {
+        "id": "25cd30fa-35d0-8004-ad2b-ea425b7942de"
+      },
+      {
         "id": "174d30fa-35d0-81de-9da2-fdfa93624b22"
       },
       {
@@ -10970,6 +11031,9 @@
     "members": [],
     "anime_releases": [
       {
+        "id": "210d30fa-35d0-806e-bda1-cc68f5ab9c0c"
+      },
+      {
         "id": "20ad30fa-35d0-80e4-9e79-fba3c6dd854c"
       },
       {
@@ -11139,6 +11203,18 @@
     ],
     "anime_releases": [
       {
+        "id": "25cd30fa-35d0-808e-a6ad-c14181559c9f"
+      },
+      {
+        "id": "25cd30fa-35d0-80eb-b0c4-c1f0aa7d6f22"
+      },
+      {
+        "id": "25cd30fa-35d0-80bb-968a-f027e938200d"
+      },
+      {
+        "id": "25cd30fa-35d0-8039-962b-ef55a91013bd"
+      },
+      {
         "id": "255d30fa-35d0-80af-b2c5-d6089b2e5910"
       },
       {
@@ -11170,6 +11246,9 @@
       },
       {
         "id": "231d30fa-35d0-8022-8206-ed09f326622c"
+      },
+      {
+        "id": "231d30fa-35d0-8070-8874-c5f8576b20fa"
       },
       {
         "id": "231d30fa-35d0-807b-9fdb-c8c65e397fd3"
@@ -15722,6 +15801,9 @@
     ],
     "anime_releases": [
       {
+        "id": "25ed30fa-35d0-8063-840e-f68456c7abd2"
+      },
+      {
         "id": "237d30fa-35d0-805a-aff9-e6236fa4ef38"
       },
       {
@@ -16969,9 +17051,6 @@
       },
       {
         "id": "17dd30fa-35d0-802e-a02c-f95903462b44"
-      },
-      {
-        "id": "17dd30fa-35d0-80b3-96be-fc3c05fb33d2"
       },
       {
         "id": "17dd30fa-35d0-80b2-8746-dd736462b1e1"
@@ -18680,6 +18759,12 @@
     "members": [],
     "anime_releases": [
       {
+        "id": "25cd30fa-35d0-8014-9a12-dfb043b9e232"
+      },
+      {
+        "id": "25cd30fa-35d0-801e-ad12-dd8e64cc8685"
+      },
+      {
         "id": "24dd30fa-35d0-803c-95a6-dfce859326ee"
       },
       {
@@ -20339,6 +20424,9 @@
     "status": "Активна",
     "members": [],
     "anime_releases": [
+      {
+        "id": "25cd30fa-35d0-80bd-9a3b-dc4c4530c445"
+      },
       {
         "id": "255d30fa-35d0-8003-9fe1-f31c3b7e664b"
       },
@@ -22067,6 +22155,12 @@
     ],
     "anime_releases": [
       {
+        "id": "25cd30fa-35d0-8025-91d4-fc5a3bdae781"
+      },
+      {
+        "id": "255d30fa-35d0-8039-a88d-dbe6f1a404f3"
+      },
+      {
         "id": "255d30fa-35d0-8007-9264-e224c3854cd0"
       },
       {
@@ -22425,9 +22519,6 @@
       },
       {
         "id": "184d30fa-35d0-8059-beaa-c9acd2940ab5"
-      },
-      {
-        "id": "184d30fa-35d0-8002-9001-f2d4857153d2"
       },
       {
         "id": "184d30fa-35d0-804c-b1b7-eea66ceca9f7"

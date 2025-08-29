@@ -59,7 +59,11 @@ export function createPagination(container, onPageChange, itemsPerPage = 20) {
     function addEventListeners() {
         const buttons = state.container.querySelectorAll('.pagination-btn')
         buttons.forEach(button => {
-            button.addEventListener('click', () => {
+            button.addEventListener('click', (e) => {
+                // Зупиняємо пропагацію подій, щоб не спрацьовували інші обробники
+                e.preventDefault()
+                e.stopPropagation()
+                
                 if (button.hasAttribute('disabled')) return
                 const page = parseInt(button.dataset.page)
                 if (page && page !== state.currentPage && page >= 1 && page <= getTotalPages()) {

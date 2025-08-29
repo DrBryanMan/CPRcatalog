@@ -1,3 +1,5 @@
+// js/renderList.js - Виправлена версія з підтримкою режиму модалки
+
 import * as Functions from './functions.js'
 import { currentRoute, router } from './router.js'
 import { createListCard } from './components/ListCard.js'
@@ -5,25 +7,41 @@ import { createPagination } from './components/Pagination.js'
 import { createCatalogControls } from './components/CatalogControls.js'
 
 // Рендеринг списку аніме
-export function renderList(items, type, initialFilters, animeReleases = null, container = app) {
-    // const container = containerElement || app
-    Functions.updateNavigation(type)
-    const itemsPerPage = 20
+export function renderList(items, type, initialFilters, animeReleases = null, container = app, options = {}) {
+    // Нові опції для управління поведінкою
+    const {
+        isModal = false,           // чи це модалка
+        updateNavigation = true,   // чи оновлювати навігацію
+        updateUrl = true,          // чи оновлювати URL
+        showFilters = true,        // чи показувати фільтри
+        showSearch = true,         // чи показувати пошук
+        showViewControls = true,   // чи показувати контроли виду
+        itemsPerPage = 20          // кількість елементів на сторінку
+    } = options
+
+    // Оновлюємо навігацію тільки якщо це не модалка
+    if (updateNavigation) {
+        Functions.updateNavigation(type)
+    }
+
     let currentPage = 1
     let filteredItems = [...items]
-    let activeFilters = initialFilters || {} // Додаємо змінну для зберігання активних фільтрів
+    let activeFilters = initialFilters || {}
     let currentView
 
+    // HTML структура з умовним показом елементів
     container.innerHTML = `
-        <div class="filters-section">
+        <div class="filters-section" style="${showFilters || showSearch || showViewControls ? '' : 'display: none;'}">
             <div class="list-controls">
                 <span id="itemsCounter"></span>
-                <input type="text" id="localSearchInput" placeholder="Пошук...">
-                <div class="view-controls">
-                    <button id="gridViewBtn"><i class="bi bi-grid"></i></button>
-                    <button id="listViewBtn"><i class="bi bi-list-task"></i></button>
-                </div>
-                ${type === 'Команди' ? `
+                ${showSearch ? `<input type="text" id="localSearchInput" placeholder="Пошук...">` : ''}
+                ${showViewControls ? `
+                    <div class="view-controls">
+                        <button id="gridViewBtn"><i class="bi bi-grid"></i></button>
+                        <button id="listViewBtn"><i class="bi bi-list-task"></i></button>
+                    </div>
+                ` : ''}
+                ${type === 'Команди' && showFilters ? `
                     <div>
                         <button id="sortBtn"><i class="bi bi-filter-left"></i></button>
                         <div id="sortOptions" class="sort-options">
@@ -32,15 +50,16 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
                         </div>
                     </div>
                 ` : ''}
-                <button id="filterBtn"><i class="bi bi-sliders2"></i></button>
+                ${showFilters ? `<button id="filterBtn"><i class="bi bi-sliders2"></i></button>` : ''}
             </div>
-            <div id="filterOptions"></div>
+            <div id="filterOptions" style="${showFilters ? '' : 'display: none;'}"></div>
         </div>
         <div class="items-list grid-view"></div>
         <div class="pagination-wrapper">
             <div id="pagination" class="pagination"></div>
         </div>
     `
+
     const listDiv = container.querySelector('.items-list')
     const searchInput = container.querySelector('#localSearchInput')
     const filterOptions = container.querySelector('#filterOptions')
@@ -56,14 +75,17 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
     const pagination = createPagination(paginationDiv, (page) => {
         currentPage = page
         renderCurrentPage()
-        const nav = document.querySelector('nav')
-        const navHeight = nav?.offsetHeight || 0
-        const y = listDiv.getBoundingClientRect().top + window.pageYOffset - navHeight * 2
+        
+        // Прокрутка тільки якщо це не модалка
+        if (!isModal) {
+            const nav = document.querySelector('nav')
+            const navHeight = nav?.offsetHeight || 0
+            const y = listDiv.getBoundingClientRect().top + window.pageYOffset - navHeight * 2
+            window.scrollTo({ top: y, behavior: 'smooth' })
+        }
+    }, itemsPerPage)
 
-        window.scrollTo({ top: y, behavior: 'smooth' })
-    }, itemsPerPage) // Передаємо itemsPerPage в конструктор
-
-    const catalogControls = createCatalogControls(
+    const catalogControls = showFilters || showSearch ? createCatalogControls(
         searchInput, 
         filterOptions, 
         sortOptions, 
@@ -71,22 +93,21 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
             const result = catalogControls.processItems(items, type)
             filteredItems = result.items
             
-            // Оновлюємо activeFilters з результату обробки
             if (result.activeFilters) {
                 activeFilters = result.activeFilters
             }
             
-            // Обробка помилок пошуку
             handleSearchError(result.error)
             
             currentPage = 1
             renderCurrentPage()
             
-            if (shouldUpdateUrl) {
+            // Оновлюємо URL тільки якщо це не модалка і дозволено
+            if (shouldUpdateUrl && updateUrl && !isModal) {
                 updateURL()
             }
         }
-    )
+    ) : null
 
     // Ініціалізація перегляду
     initializeView()
@@ -94,10 +115,14 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
     function initializeView() {
         currentView = Functions.getFromCache('currentView') || 'grid'
         updateViewButtons()
-        listDiv.className = `items-list ${currentView}-view`
+        if (listDiv) {
+            listDiv.className = `items-list ${currentView}-view`
+        }
     }
 
     function updateViewButtons() {
+        if (!gridViewBtn || !listViewBtn) return
+        
         if (currentView === 'grid') {
             gridViewBtn.classList.add('active')
             listViewBtn.classList.remove('active')
@@ -112,40 +137,37 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
             currentView = view
             Functions.saveToCache('currentView', view)
             updateViewButtons()
-            listDiv.className = `items-list ${view}-view`
+            if (listDiv) {
+                listDiv.className = `items-list ${view}-view`
+            }
             renderCurrentPage()
         }
     }
 
     function handleSearchError(error) {
-        // Видаляємо попередні повідомлення про помилки
-        const existingNoResults = document.querySelector('.no-results')
+        const existingNoResults = container.querySelector('.no-results')
         if (existingNoResults) {
             existingNoResults.remove()
         }
 
         if (error) {
-            // Очищуємо список перед показом повідомлення про помилку
             listDiv.innerHTML = ''
             
-            // Створюємо та вставляємо повідомлення про помилку
             const noResults = document.createElement('div')
             noResults.classList.add('no-results')
             noResults.innerHTML = error.message
             
-            // Вставляємо повідомлення після контролів, але перед пагінацією
-            const filtersSection = document.querySelector('.filters-section')
-            const paginationWrapper = document.querySelector('.pagination-wrapper')
+            const filtersSection = container.querySelector('.filters-section')
+            const paginationWrapper = container.querySelector('.pagination-wrapper')
             filtersSection.parentNode.insertBefore(noResults, paginationWrapper)
             
-            // Приховуємо пагінацію при помилці
             paginationWrapper.style.display = 'none'
             
-            // Оновлюємо лічильник
-            itemsCounter.textContent = 'Результатів: 0'
+            if (itemsCounter) {
+                itemsCounter.textContent = 'Результатів: 0'
+            }
         } else {
-            // Показуємо пагінацію, якщо немає помилок
-            const paginationWrapper = document.querySelector('.pagination-wrapper')
+            const paginationWrapper = container.querySelector('.pagination-wrapper')
             if (paginationWrapper) {
                 paginationWrapper.style.display = 'flex'
             }
@@ -153,26 +175,24 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
     }
 
     function updateURL() {
+        // Не оновлюємо URL якщо це модалка
+        if (isModal || !updateUrl) return
+
         const params = new URLSearchParams()
         
-        // Використовуємо локальну змінну activeFilters
         Object.entries(activeFilters).forEach(([key, values]) => {
             if (key === 'year') {
-                // Для року перевіряємо, чи він існує та є числом
                 if (values !== undefined && values !== null && values !== '') {
                     params.append(key, values.toString())
                 }
             } else if (values && Array.isArray(values) && values.length > 0) {
-                // Для інших фільтрів використовуємо стару логіку
                 params.append(key, values.join(','))
             }
         })
         
-        // Додаємо номер сторінки тільки якщо він не 1
         if (currentPage > 1) {
             params.set('page', currentPage)
-        }
-        else {
+        } else {
             params.delete('page')
         }
         
@@ -186,8 +206,7 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
     }
 
     function renderCurrentPage() {
-        // Якщо є помилка, не рендеримо нічого
-        if (document.querySelector('.no-results')) {
+        if (container.querySelector('.no-results')) {
             return
         }
 
@@ -195,46 +214,49 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
         const endIndex = Math.min(startIndex + itemsPerPage, filteredItems.length)
         const itemsToRender = filteredItems.slice(startIndex, endIndex)
 
-        // Очищуємо список
         listDiv.innerHTML = ''
 
-        // Рендеримо елементи поточної сторінки
         itemsToRender.forEach((item) => {
             const card = cardComponent.createCard(item, type, currentView)
             listDiv.appendChild(card)
         })
 
-        // Оновлюємо лічильник
-        itemsCounter.textContent = `Результатів: ${filteredItems.length}`
+        if (itemsCounter) {
+            itemsCounter.textContent = `Результатів: ${filteredItems.length}`
+        }
     
-        // Визначаємо кількість сторінок
         const totalPages = Math.ceil(filteredItems.length / itemsPerPage)
-        const paginationWrapper = document.querySelector('.pagination-wrapper')
+        const paginationWrapper = container.querySelector('.pagination-wrapper')
         
-        // Показуємо/приховуємо пагінацію залежно від кількості сторінок
         if (totalPages <= 1) {
             paginationWrapper.style.display = 'none'
         } else {
             paginationWrapper.style.display = 'flex'
-            // Оновлюємо пагінацію тільки якщо її потрібно показувати
             pagination.setData(filteredItems.length, currentPage)
         }
         
-        // Оновлюємо URL
-        updateURL()
+        // Оновлюємо URL тільки якщо це не модалка
+        if (!isModal) {
+            updateURL()
+        }
     }
 
     function initializeFromURL() {
+        // Ініціалізація з URL тільки якщо це не модалка
+        if (isModal || !updateUrl) {
+            currentPage = 1
+            return
+        }
+
         const hashParts = window.location.hash.split('?')
         if (hashParts.length > 1) {
             const urlParams = new URLSearchParams(hashParts[1])
             
-            // Обробляємо параметри фільтрів з URL
             for (const [key, value] of urlParams.entries()) {
                 if (key === 'year') {
                     const year = parseInt(value, 10)
                     if (!isNaN(year) && year >= 1960 && year <= 2030) {
-                        activeFilters.year = year // зберігаємо як число
+                        activeFilters.year = year
                     }
                 } else if (['season', 'format', 'status', 'sources'].includes(key)) {
                     activeFilters[key] = value.split(',')
@@ -244,13 +266,11 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
             const page = parseInt(urlParams.get('page'))
             const totalPages = Math.ceil(filteredItems.length / itemsPerPage)
             
-            // Перевіряємо чи валідний номер сторінки ПІСЛЯ того як filteredItems готові
             if (page && page > 0) {
                 if (page <= totalPages) {
                     currentPage = page
                 } else {
                     currentPage = 1
-                    // Видаляємо некоректний параметр page з URL
                     urlParams.delete('page')
                     const newQueryString = urlParams.toString()
                     const newUrl = newQueryString ? `#${currentRoute}?${newQueryString}` : `#${currentRoute}`
@@ -265,22 +285,24 @@ export function renderList(items, type, initialFilters, animeReleases = null, co
     }
 
     // Обробники подій для кнопок перегляду
-    gridViewBtn.onclick = () => changeView('grid')
-    listViewBtn.onclick = () => changeView('list')
+    if (gridViewBtn && listViewBtn) {
+        gridViewBtn.onclick = () => changeView('grid')
+        listViewBtn.onclick = () => changeView('list')
+    }
 
     // Ініціалізація
-    catalogControls.initializeFilters(type, activeFilters)
-    
-    // Початкова обробка даних
-    const initialResult = catalogControls.processItems(items, type)
-    filteredItems = initialResult.items
-    
-    // Оновлюємо activeFilters з результату обробки
-    if (initialResult.activeFilters) {
-        activeFilters = initialResult.activeFilters
+    if (catalogControls) {
+        catalogControls.initializeFilters(type, activeFilters)
+        
+        const initialResult = catalogControls.processItems(items, type)
+        filteredItems = initialResult.items
+        
+        if (initialResult.activeFilters) {
+            activeFilters = initialResult.activeFilters
+        }
+        
+        handleSearchError(initialResult.error)
     }
-    
-    handleSearchError(initialResult.error)
     
     initializeFromURL()
     renderCurrentPage()

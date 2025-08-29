@@ -8,7 +8,6 @@
   --border-color: 1px solid gray;
   --box-shadow: 0 0 5px #0005;
   --radius: 8px;
-  --text: var(--light);
   --link: #C39BD3;
   --link-hover: #9B59B6;
 }
@@ -30,7 +29,7 @@ body {
     var(--accent-10));
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  color: var(--text);
+  color: var(--light);
 }
 body.modal-open {
   overflow: hidden;

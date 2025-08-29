@@ -54,7 +54,7 @@
 /*  */
 
 /* = Даб секція = */
-.title-detail .dub-info {
+/*.title-detail .dub-info {
   width: 300px;
 }
 .title-detail .dub-info .teams-logos {
@@ -81,7 +81,7 @@
   width: auto;
   border-radius: var(--radius);
   margin-right: .3em;
-}
+}*/
 /*  */
 
 .title h1 {

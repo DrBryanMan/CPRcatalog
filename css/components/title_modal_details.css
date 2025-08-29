@@ -104,7 +104,8 @@
   display: flex;
   align-items: center;
   gap: .5em;
-  background: var(--dark-50);
+  background: var(--dark);
+  border: 1px solid var(--light-20);
   border-radius: var(--radius);
   padding: .3em 1em !important;
   transition: .3s;
@@ -204,14 +205,14 @@
     border: 1px solid green;
     border-radius: 8px;
     padding: .2em .5em;
-    background-color: #90ee9082;
+/*    background-color: #90ee9082;*/
     color: inherit;
     text-decoration: none;
     cursor: pointer;
     transition: .3s;
 }
 .release-torrents a:hover {
-    background-color: lightgreen;
+    background-color: #90ee9022;
 }
 /*  */
 /* Даб інфо */
