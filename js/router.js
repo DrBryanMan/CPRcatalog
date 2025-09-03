@@ -1,28 +1,12 @@
 import Navigo from "https://cdn.jsdelivr.net/npm/navigo@8/+esm"
 import { AnimeTitles, Teams, AnimeReleases } from './loadData.js' // Змінні з даними
 import { renderHomePage } from './views/HomePage.js'
-import { renderTeamDetail } from './views/TeamDetails.js'
 import { renderList } from './renderList.js'
-import { titleModal } from './views/TitleModal.js'
 import * as Functions from './functions.js'
 
 export const router = new Navigo('/', { hash: true })
 export let currentRoute
 export let currentHub
-
-// Функція для відображення деталей аніме (якщо потрібна окрема сторінка)
-function renderAnimeDetail(anime) {
-    if (!anime) {
-        app.innerHTML = '<h1>Аніме не знайдено</h1>'
-        return
-    }
-    
-    Functions.updateNavigation('Аніме', anime.title)
-    
-    // Тут можна додати власну логіку відображення аніме на окремій сторінці
-    // Або перенаправити на модалку
-    titleModal.open(anime.id)
-}
 
 export function setupRoutes() {
     (window.location.pathname === '/CPRcatalog/' || window.location.pathname === '/' || window.location.pathname === '/index.html') && window.location.hash === '' ? router.navigate('/') : null
@@ -39,7 +23,6 @@ export function setupRoutes() {
             cleanupAndRender(renderFunction, ...args)
         }
     }
-
     router
         .on('*', () => window.scrollTo(0, 0))
         .on('/', handleRoute('/', renderHomePage))
@@ -60,7 +43,6 @@ export function setupRoutes() {
         //     const anime = AnimeTitles.find(a => a.id === match.data.id)
         //     handleRoute('/animehub/anime/:id', renderAnimeDetail, anime)()
         // })
-
         .on('/animehub/releases', (match) => {
             currentHub = "animehub"
             const initialFilters = {}
@@ -79,12 +61,12 @@ export function setupRoutes() {
               team.type_activity && 
               team.type_activity.includes('Аніме')
           ), 'Команди'))
-        .on('/animehub/team/:id', (match) => {
-            currentHub = "animehub"
-            const teamId = match.data.id
-            const team = Teams.find(t => t.id == teamId)
-            handleRoute('/animehub/team/:id', renderTeamDetail, team)()
-        })
+        // .on('/animehub/team/:id', (match) => {
+        //     currentHub = "animehub"
+        //     const teamId = match.data.id
+        //     const team = Teams.find(t => t.id == teamId)
+        //     handleRoute('/animehub/team/:id', renderTeamDetail, team)()
+        // })
         .notFound(() => {
             if (typeof cleanup === 'function') {
                 cleanup()

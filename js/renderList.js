@@ -1,5 +1,3 @@
-// js/renderList.js - Виправлена версія з підтримкою режиму модалки
-
 import * as Functions from './functions.js'
 import { currentRoute, router } from './router.js'
 import { createListCard } from './components/ListCard.js'

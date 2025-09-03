@@ -14,33 +14,66 @@ export function createListCard() {
             </div>
         `
     }
-    function renderScore(rating, type = 'MAL') {
+    function renderScore(type, rating) {
         if (!rating) {
-            return `<span class="rating" title="Оцінка ${type}"><i class="bi bi-star"></i> —</span>`
+          return `<span class="rating" title="Оцінка ${type}"><i class="bi bi-star"></i> —</span>`
         }
         const icon = rating >= 7 ? 'bi-star-fill' : 'bi-star-half'
-        let ratingColor = ''
+        let color = ''
         if (rating >= 8.0) {
-            ratingColor = '#4CAF50' // зелений для високих оцінок
+          color = '#4CAF50' // зелений для високих оцінок
         } else if (rating >= 7.0) {
-            ratingColor = '#8BC34A' // світло-зелений
+          color = '#8BC34A' // світло-зелений
         } else if (rating >= 6.0) {
-            ratingColor = '#FFC107' // жовтий
+          color = '#ffef29' // жовтий
         } else if (rating >= 5.0) {
-            ratingColor = '#FF9800' // помаранчевий
+          color = '#FF9800' // помаранчевий
         } else {
-            ratingColor = '#F44336' // червоний для низьких оцінок
+          color = '#F44336' // червоний для низьких оцінок
         }
         return `
-            <span class="rating" style="color: ${ratingColor};" title='Оцінка ${type}'>
-              <i class="bi ${icon}" style="color: ${type === 'Hikka' ? '#ce31e3' : ratingColor}"></i> ${rating.toFixed(1)}
-            </span>
+          <span class="rating" title='Оцінка ${type}' style="color: ${color}; font-weight: bold;">
+            <i class="bi ${icon}" style="color: ${type === 'Hikka' ? '#e83bff' : "#5c87ff"}"></i> 
+            ${rating.toFixed(1)}
+          </span>
         `
     }
     function getAgeRating(genre) {
         if (!genre || genre.trim() === '') return null
         const adultGenres = ['Біляхентай', 'Хентай', 'Яой', 'Юрі']
         return adultGenres.includes(genre.trim()) ? '18+' : '16+'
+    }
+
+    // Універсальні парсери
+    function parseEpisodes(value, { mode = 'first' } = {}) {
+      if (value === undefined || value === null) return 0
+      const nums = String(value).match(/\d+/g) // усі числа в рядку
+      if (!nums || nums.length === 0) return 0
+      const arr = nums.map(n => parseInt(n, 10))
+
+      switch (mode) {
+        case 'sum': return arr.reduce((a, b) => a + b, 0)   // "12 + 1" -> 13
+        case 'max': return Math.max(...arr)                 // "1-12" -> 12
+        case 'first':
+        default:    return arr[0]                           // "10/12" -> 10
+      }
+    }
+
+    function parseEpisodesAuto(value) {
+      const s = String(value ?? '').trim()
+      if (!s) return 0
+
+      // "+" => сумуємо (OVA/спешли додаються)
+      if (/\+/.test(s)) return parseEpisodes(s, { mode: 'sum' })
+
+      // "10/12" => беремо прогрес (перше число)
+      if (/[\/\\]/.test(s)) return parseEpisodes(s, { mode: 'first' })
+
+      // Діапазони "1-12" або "1–12" => максимум
+      if (/[–-]/.test(s)) return parseEpisodes(s, { mode: 'max' })
+
+      // За замовчуванням — перше число
+      return parseEpisodes(s, { mode: 'first' })
     }
 
     function analyzeReleases(animeId, releases) {
@@ -56,30 +89,30 @@ export function createListCard() {
         animeReleases.forEach(release => {
             let localHasDub = false
             let localHasSub = false
-            let dubEps = 0
-            let subEps = 0
+            let dubEpisodes = 0
+            let subEpisodes = 0
 
-            if ('subinfo' in release) {
+            if ('episodessub' in release) {
                 localHasSub = true
                 localHasDub = true
-                subEps = release.episodessub || 0
-                dubEps = release.episodes || 0
+                dubEpisodes = parseEpisodesAuto(release.episodes) || ''
+                subEpisodes = parseEpisodesAuto(release.episodessub) || ''
             } else if (release.title?.toLowerCase().includes('(суб)')) {
                 localHasSub = true
-                subEps = release.episodes || 0
+                subEpisodes = parseEpisodesAuto(release.episodessub) || ''
             } else {
                 localHasDub = true
-                dubEps = release.episodes || 0
+                dubEpisodes = parseEpisodesAuto(release.episodes) || ''
             }
 
             if (localHasDub) {
                 hasDub = true
-                maxDubEpisodes = Math.max(maxDubEpisodes, dubEps)
+                maxDubEpisodes = Math.max(maxDubEpisodes, dubEpisodes)
             }
 
             if (localHasSub) {
                 hasSub = true
-                maxSubEpisodes = Math.max(maxSubEpisodes, subEps)
+                maxSubEpisodes = Math.max(maxSubEpisodes, subEpisodes)
             }
         })
 
@@ -94,9 +127,9 @@ export function createListCard() {
 
     function createRatingBlock(ratingmal, ratinghikka, ageRating) {
         let html = ''
-        html += renderScore(ratingmal, 'MAL')
+        html += renderScore('MAL', ratingmal)
         if (ageRating) html += `<span class="age-rating">${ageRating}</span>`
-        html += renderScore(ratinghikka, 'Hikka')
+        html += renderScore('Hikka', ratinghikka)
         return html ? `<div class="ratings">${html}</div>` : ''
     }
 
@@ -162,8 +195,9 @@ export function createListCard() {
         let hasDub = false
         let subEpisodes = 0
         let dubEpisodes = 0
+        let audioSubHTML = ''
 
-        if ('Саби' in item) {
+        if ('episodessub' in item) {
             hasSub = true
             hasDub = true
             subEpisodes = item.episodessub || ''
@@ -176,7 +210,6 @@ export function createListCard() {
             dubEpisodes = item.episodes || ''
         }
 
-        let audioSubHTML = ''
         if (hasDub) {
             audioSubHTML += `<span class="dub-info" title="Озвучення"><i class="bi bi-badge-vo"></i> ${dubEpisodes}</span>`
         }
@@ -315,7 +348,7 @@ export function createListCard() {
 
         if (currentView === 'grid') {
             // У grid режимі - натискання на всю картку
-            card.onclick = () => titleModal.renderTeamDeteils(item.id)
+            card.onclick = () => titleModal.showTeamDetails(item.id)
         } else {
             // У list режимі - тільки на окремі елементи
             
@@ -334,7 +367,7 @@ export function createListCard() {
             if (moreBtn) {
                 moreBtn.addEventListener('click', (e) => {
                     e.stopPropagation()
-                    titleModal.renderTeamDeteils(item.id)
+                    titleModal.showTeamDetails(item.id)
                 })
             }
         }

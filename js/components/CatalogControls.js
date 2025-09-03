@@ -13,9 +13,14 @@ export function createCatalogControls(searchInput, filterContainer, sortContaine
     }
 
     function initSearch() {
+        let searchTimeout
+
         state.searchInput.addEventListener('input', () => {
-            state.currentQuery = state.searchInput.value.toLowerCase()
-            handleDataChange()
+            clearTimeout(searchTimeout)
+            searchTimeout = setTimeout(() => {
+                state.currentQuery = state.searchInput.value.toLowerCase()
+                handleDataChange()
+            }, 200)
         })
     }
 

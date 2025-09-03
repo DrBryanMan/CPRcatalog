@@ -125,10 +125,10 @@
     padding: .2em .3em;
 }
 .poster-box .dub-info {
-    background: rgba(55,255,154,.7);
+    background: rgb(69 109 225 / 70%);
 }
 .poster-box .sub-info {
-    background: rgba(234,55,255,0.7);
+    background: rgb(183 47 199 / 70%);
 }
 
 /** У вигляді списку **/
