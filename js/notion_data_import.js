@@ -7,8 +7,7 @@ require("dotenv").config({ path: path.join(__dirname, "../.env") })
 const HIKKA_API_URL = 'https://api.hikka.io/anime'
 const MIKAI_API_URL = 'https://api.mikai.me/v1/integrations/hikka/anime'
 const Notion = new Client({ 
-  auth: process.env.NOTION_TOKEN,
-  timeoutMs: 60000
+  auth: process.env.NOTION_TOKEN
 })
 
 const UPDATE_ALL_HIKKA = false
@@ -92,12 +91,182 @@ async function saveData(fileName, data) {
   }
 }
 
+async function saveTestData(data, description = '') {
+  try {
+    const targetDir = path.join(__dirname, 'data')
+    await fs.mkdir(targetDir, { recursive: true })
+    
+    const testData = {
+      timestamp: new Date().toISOString(),
+      description: description,
+      count: Array.isArray(data) ? data.length : 1,
+      data: data
+    }
+    
+    await fs.writeFile(
+      path.join(targetDir, '../../json/TestData.json'),
+      JSON.stringify(testData, null, 2)
+    )
+    colorLog(`Тестові дані збережено у json/TestData.json: ${testData.count} записів`, 'green')
+    return testData
+  } catch (error) {
+    colorLog(`Помилка при збереженні тестових даних: ${error.message}`, 'red')
+    throw error
+  }
+}
+
 async function getPageById(pageId) {
   try {
     return await Notion.pages.retrieve({ page_id: pageId })
   } catch (error) {
     console.error('Помилка при отриманні даних:', error)
     throw error
+  }
+}
+
+// Нова тестова функція
+async function getTestData(pageIds, dbType = 'auto') {
+  try {
+    colorLog(`Отримання тестових даних для ${pageIds.length} сторінок...`, 'blue')
+    
+    const rawPages = []
+    const norm = s => (s || '').toLowerCase().replace(/-/g, '')
+    
+    for (const idRaw of pageIds.map(norm)) {
+      try {
+        const page = await getPageById(idRaw)
+        rawPages.push(page)
+        colorLog(`Отримано дані для сторінки: ${page.id}`, 'green')
+      } catch (e) {
+        colorLog(`Не вдалося отримати сторінку ${idRaw}: ${e.message}`, 'yellow')
+      }
+    }
+    
+    // Автовизначення типу бази даних за першою сторінкою
+    if (dbType === 'auto' && rawPages.length > 0) {
+      const firstPage = rawPages[0]
+      if (firstPage.parent?.database_id === DATABASES.ANIME_TITLES_DB) {
+        dbType = 'titles'
+      } else if (firstPage.parent?.database_id === DATABASES.ANIME_RELEASES_DB) {
+        dbType = 'releases'
+      } else if (firstPage.parent?.database_id === DATABASES.TEAMS_DB) {
+        dbType = 'teams'
+      } else {
+        dbType = 'unknown'
+      }
+      colorLog(`Автовизначено тип бази даних: ${dbType}`, 'blue')
+    }
+    
+    const description = `Тестові дані з ${rawPages.length} сторінок типу "${dbType}"`
+    await saveTestData(rawPages, description)
+    
+    return rawPages
+  } catch (error) {
+    colorLog(`Помилка при отриманні тестових даних: ${error.message}`, 'red')
+    throw error
+  }
+}
+
+async function getReleasesJson(options = {}) {
+  const {
+    useLocalBase = true,
+    filter = {},
+    onlyModified = true
+  } = options
+
+  if (useLocalBase && Object.keys(filter).length === 0) {
+    return await loadPreviousData("AnimeReleasesDB.json")
+  }
+
+  let baseData = await loadPreviousData("AnimeReleasesDB.json")
+  let newData = []
+
+  if (!useLocalBase && Array.isArray(filter.ids) && filter.ids.length > 0) {
+    // Отримуємо конкретні сторінки за ID
+    const pages = []
+    const norm = s => (s || '').toLowerCase().replace(/-/g, '')
+    
+    for (const idRaw of filter.ids.map(norm)) {
+      try {
+        const page = await getPageById(idRaw)
+        pages.push(page)
+      } catch (e) {
+        colorLog(`Не вдалося отримати сторінку ${idRaw}: ${e.message}`, 'yellow')
+      }
+    }
+    newData = await processReleaseData(pages)
+  } else if (!useLocalBase) {
+    return await importDataOptimized(
+      DATABASES.ANIME_RELEASES_DB,
+      "Аніме релізи",
+      "AnimeReleasesDB.json",
+      processReleaseData,
+      null,
+      onlyModified
+    )
+  }
+
+  // Об'єднуємо дані
+  let allData = useLocalBase ? baseData : mergeData(baseData, newData)
+
+  // Зберігаємо ВСІ дані (не тільки відфільтровані!)
+  if (!useLocalBase && newData.length > 0) {
+    await saveData("AnimeReleasesDB.json", allData)
+    colorLog(`Оновлено ${newData.length} записів релізів`, 'green')
+  } else if (useLocalBase) {
+    await saveData("AnimeReleasesDB.json", allData)
+  }
+}
+
+async function getTeamsJson(options = {}) {
+  const {
+    useLocalBase = true,
+    filter = {},
+    onlyModified = true,
+    releasesData = null
+  } = options
+
+  if (useLocalBase && Object.keys(filter).length === 0) {
+    return await loadPreviousData("TeamsDB.json")
+  }
+
+  let baseData = await loadPreviousData("TeamsDB.json")
+  let newData = []
+
+  if (!useLocalBase && Array.isArray(filter.ids) && filter.ids.length > 0) {
+    // Отримуємо конкретні сторінки за ID
+    const pages = []
+    const norm = s => (s || '').toLowerCase().replace(/-/g, '')
+    
+    for (const idRaw of filter.ids.map(norm)) {
+      try {
+        const page = await getPageById(idRaw)
+        pages.push(page)
+      } catch (e) {
+        colorLog(`Не вдалося отримати сторінку ${idRaw}: ${e.message}`, 'yellow')
+      }
+    }
+    newData = await processTeamData(pages, releasesData)
+  } else if (!useLocalBase) {
+    return await importDataOptimized(
+      DATABASES.TEAMS_DB,
+      "Команди фандабу",
+      "TeamsDB.json",
+      processTeamData,
+      releasesData,
+      onlyModified
+    )
+  }
+
+  // Об'єднуємо дані
+  let allData = useLocalBase ? baseData : mergeData(baseData, newData)
+
+  // Зберігаємо ВСІ дані (не тільки відфільтровані!)
+  if (!useLocalBase && newData.length > 0) {
+    await saveData("TeamsDB.json", allData)
+    colorLog(`Оновлено ${newData.length} записів команд`, 'green')
+  } else if (useLocalBase) {
+    await saveData("TeamsDB.json", allData)
   }
 }
 
@@ -146,15 +315,15 @@ function filterModifiedPages(allPages, existingData) {
     
     if (!existingMap.has(pageId)) {
       // Нова сторінка
-      newPages.unshift(page)
-      modifiedPages.unshift(page)
+      newPages.push(page)
+      modifiedPages.push(page)
     } else {
       const existingLastEdited = existingMap.get(pageId)
       
       // Порівнюємо час зміни (з невеликою похибкою в 1 секунду для запобігання проблем з точністю часу)
       if (pageLastEdited > existingLastEdited || 
           Math.abs(pageLastEdited - existingLastEdited) > 1000) {
-        modifiedPages.unshift(page)
+        modifiedPages.push(page)
       }
     }
   }
@@ -180,7 +349,7 @@ async function fetchHikkaData(urls) {
       const response = await axios.get(`${HIKKA_API_URL}/${slug}`)
       const anime = response.data
 
-      animeData.unshift({
+      animeData.push({
         url,
         poster: anime.image,
         synonyms: anime.synonyms,
@@ -346,7 +515,7 @@ async function processAnimeData(pages) {
     }
     
     const newAnimeData = buildAnimeData(page, hikkaInfo, posterList, mikaiUrl, previousAnime)
-    results.unshift(newAnimeData)
+    results.push(newAnimeData)
   }
   return results
 }
@@ -370,20 +539,21 @@ function buildReleaseData(page, previousRelease) {
 
   return {
     id: page.id,
-    animeIds: page.properties['Тайтл']?.relation.map(r => r.id) || [],
     title: page.properties['Назва релізу'].title[0]?.plain_text,
-    teams: page.properties['Команда']?.relation || [],
-    teamscolab: page.properties['Спільно з']?.relation,
-    dubinfo: page.properties['Озвучка'].multi_select || 'Не вказано',
-    subinfo: page.properties['Саби'].multi_select,
+    animeIds: page.properties['Тайтл']?.relation.map(rel => rel.id),
+    teams: page.properties['Команда']?.relation.map(rel => rel.id),
+    teamscolab: page.properties['Спільно з']?.relation.map(rel => rel.id),
+    dubinfo: page.properties['Озвучка'].multi_select.flatMap(sel => sel.name) || 'Не вказано',
+    subinfo: page.properties['Саби'].multi_select.flatMap(sel => sel.name) || 'Не вказано',
     status: page.properties['Статус'].status?.name || 'Невідомо',
     episodes: currentEpisodes,
     episodessub: page.properties['Кількість суб'].rich_text[0]?.plain_text || null,
-    wereWatch: page.properties['Дивитись'].multi_select || 'Не вказано',
+    wereWatch: page.properties['Дивитись'].multi_select.map(ms => ({ name: ms.name, color: ms.color })) || 'Не вказано',
     torrentLinks: currentTorrentLinks,
     fexlink: page.properties['FEX посилання']?.url,
     sitelink: page.properties['На сайті']?.url,
     problems: page.properties['Проблеми']?.multi_select,
+    created_time: page.last_edited_time,
     last_edited: page.last_edited_time,
     episodesLastUpdate: previousRelease && previousRelease.episodes !== currentEpisodes
       ? new Date().toISOString()
@@ -402,7 +572,7 @@ async function processReleaseData(pages) {
   for (const page of pages) {
     const previousRelease = previousDataMap.get(page.id)
     const newReleaseData = buildReleaseData(page, previousRelease)
-    results.unshift(newReleaseData)
+    results.push(newReleaseData)
   }
   return results
 }
@@ -424,7 +594,7 @@ function buildTeamReleases(teamsData, releasesData) {
             teamData.anime_releases = []
           }
           if (!teamData.anime_releases.some(r => r.id === release.id)) {
-            teamData.anime_releases.unshift(releaseInfo)
+            teamData.anime_releases.push(releaseInfo)
           }
         }
       }
@@ -439,7 +609,7 @@ function buildTeamReleases(teamsData, releasesData) {
             teamData.anime_releases = []
           }
           if (!teamData.anime_releases.some(r => r.id === release.id)) {
-            teamData.anime_releases.unshift(releaseInfo)
+            teamData.anime_releases.push(releaseInfo)
           }
         }
       }
@@ -453,7 +623,6 @@ function buildTeamReleases(teamsData, releasesData) {
 function buildTeamData(page) {
   return {
     id: page.id,
-    last_edited: page.last_edited_time,
     cover: page.cover,
     logo: page.icon?.external?.url || page.icon?.file?.url,
     name: page.properties['Назва команди']?.title[0]?.plain_text || 'Невідомо',
@@ -471,6 +640,8 @@ function buildTeamData(page) {
     tiktok: page.properties.TikTok?.url,
     tg: page.properties.Telegram?.url,
     tg_video: page.properties['ТГ релізи']?.url,
+    created_time: page.last_edited_time,
+    last_edited: page.last_edited_time
   }
 }
 
@@ -479,7 +650,7 @@ async function processTeamData(pages, releasesData = []) {
   
   for (const page of pages) {
     const newTeamData = buildTeamData(page)
-    results.unshift(newTeamData)
+    results.push(newTeamData)
   }
   
   if (releasesData && releasesData.length > 0) {
@@ -611,7 +782,7 @@ async function getAnimeTitlesJson(options = {}) {
     for (const idRaw of filter.ids.map(norm)) {
       try {
         const page = await getPageById(idRaw)
-        pages.unshift(page)
+        pages.push(page)
       } catch (e) {
         colorLog(`Не вдалося отримати сторінку ${idRaw}: ${e.message}`, 'yellow')
       }
@@ -624,11 +795,10 @@ async function getAnimeTitlesJson(options = {}) {
     let pagesToProcess = allPages
     
     if (onlyModified) {
-      // Фільтруємо тільки змінені сторінки
       pagesToProcess = filterModifiedPages(allPages, baseData)
       colorLog(`Знайдено ${pagesToProcess.length} змінених сторінок з ${allPages.length} загальних`, 'blue')
     } else {
-      colorLog(`Обробляємо всі ${allPages.length} сторінок (повний режим)`, 'blue')
+      colorLog(`Оброблюємо всі ${allPages.length} сторінок (повний режим)`, 'blue')
     }
     
     if (pagesToProcess.length > 0) {
@@ -639,26 +809,20 @@ async function getAnimeTitlesJson(options = {}) {
   }
 
   // Об'єднуємо дані (нові перезаписують існуючі за ID)
-  let targets = useLocalBase ? baseData : mergeData(baseData, newData)
-
-  // Застосовуємо фільтри
-  targets = applyFilters(targets, filter)
+  let allData = useLocalBase ? baseData : mergeData(baseData, newData)
 
   // Оновлюємо дані
-  targets = await updateExternalData(targets, update)
+  allData = await updateExternalData(allData, update)
 
-  // Зберігаємо результат тільки якщо були зміни
+  // Зберігаємо ВСІ дані
   if (!useLocalBase && newData.length > 0) {
-    await saveData("AnimeTitlesDB.json", targets)
+    await saveData("AnimeTitlesDB.json", allData)
     colorLog(`Оновлено ${newData.length} записів`, 'green')
   } else if (!useLocalBase && newData.length === 0 && !onlyModified) {
-    // Повний режим без змін - все одно зберігаємо
-    await saveData("AnimeTitlesDB.json", targets)
+    await saveData("AnimeTitlesDB.json", allData)
   } else if (useLocalBase) {
-    await saveData("AnimeTitlesDB.json", targets)
+    await saveData("AnimeTitlesDB.json", allData)
   }
-  
-  return targets
 }
 
 async function importDataOptimized(databaseId, dbTitle, outputFileName, processFunction, additionalData = null, onlyModified = true) {
@@ -673,7 +837,7 @@ async function importDataOptimized(databaseId, dbTitle, outputFileName, processF
       pagesToProcess = filterModifiedPages(allPages, existingData)
       colorLog(`Знайдено ${pagesToProcess.length} змінених сторінок з ${allPages.length} загальних`, 'blue')
     } else {
-      colorLog(`Обробляємо всі ${allPages.length} сторінок (повний режим)`, 'blue')
+      colorLog(`Оброблюємо всі ${allPages.length} сторінок (повний режим)`, 'blue')
     }
     
     let processedData = existingData
@@ -681,7 +845,7 @@ async function importDataOptimized(databaseId, dbTitle, outputFileName, processF
     if (pagesToProcess.length > 0) {
       const newData = await processFunction(pagesToProcess, additionalData)
       processedData = mergeData(existingData, newData)
-      
+
       await saveData(outputFileName, processedData)
       colorLog(`Імпорт даних для ${outputFileName} успішно завершено. Оновлено ${pagesToProcess.length} записів.`, 'green')
     } else {
@@ -695,21 +859,7 @@ async function importDataOptimized(databaseId, dbTitle, outputFileName, processF
   }
 }
 
-async function getReleasesJson(useLocalBase = false, onlyModified = true) {
-  if (useLocalBase) {
-    return await loadPreviousData("AnimeReleasesDB.json")
-  } else {
-    return await importDataOptimized(
-      DATABASES.ANIME_RELEASES_DB,
-      "Аніме релізи",
-      "AnimeReleasesDB.json",
-      processReleaseData,
-      null,
-      onlyModified
-    )
-  }
-}
-
+// Старі функції для зворотної сумісності
 async function importTeams(releasesData, onlyModified = true) {
   return await importDataOptimized(
     DATABASES.TEAMS_DB,
@@ -738,14 +888,17 @@ async function importData(databaseId, dbTitle, outputFileName, processFunction, 
 async function runAllImports(onlyModified = true) {
   try {
     colorLog(`Запуск імпортів в режимі: ${onlyModified ? 'тільки змінені' : 'повний'}`, 'blue')
-    
+
     await getAnimeTitlesJson({
       useLocalBase: false,
       update: { hikka: 'missing', mikai: 'missing' },
       onlyModified
     })
     
-    const releasesData = await getReleasesJson(false, onlyModified)
+    await getReleasesJson({
+      useLocalBase: false,
+      onlyModified
+    })
     await importTeams(releasesData, onlyModified)
     
     colorLog("Всі імпорти успішно завершено!", 'green')
@@ -754,21 +907,17 @@ async function runAllImports(onlyModified = true) {
   }
 }
 
-// Експортуємо функції для використання
-module.exports = {
-  getAnimeTitlesJson,
-  getReleasesJson,
-  importTeams,
-  runAllImports,
-  importData,
-  processAnimeData,
-  processReleaseData,
-  processTeamData
-}
+const isTest = process.argv.includes('--test');
 
-// Виконуємо імпорти якщо файл запущено напряму
-if (require.main === module) {
-  // За замовчуванням використовуємо оптимізований режим (тільки змінені)
-  // Для повного оновлення запускайте: runAllImports(false)
-  runAllImports(true)
-}
+;(async () => {
+  try {
+    if (isTest) {
+      await getTestData(['263d30fa-35d0-80d5-b66f-e42ffcdaa877']);
+    } else {
+      await runAllImports();
+    }
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
+})()

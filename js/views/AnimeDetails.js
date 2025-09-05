@@ -39,7 +39,7 @@ export class AnimeDetails {
         ${cover}
         <div class='top-section'>
           <div class='poster-gallery'>
-            <img id='posterImage' class='title-poster' src='${anime.poster || ''}' alt='Постер'>
+            <img id='posterImage' class='title-poster' src='${anime.poster || anime.hikka_poster || ''}' alt='Постер'>
             <div id='posterMeta' class='poster-meta'></div>
             ${this.generatePosterSelector(anime)}
           </div>
@@ -61,7 +61,7 @@ export class AnimeDetails {
                 ${seasonTranslations[anime.season?.toLowerCase()] || anime.season || 'Невідомо'} ${anime.year || 'Не вказано'}
               </span>
               <span title='Загальна кількість'>
-                <i class="bi bi-list-ol"></i> ${anime.episodes} еп.
+                <i class="bi bi-list-ol"></i> ${anime.episodes || '?'} еп.
               </span>
               <span title='Тривалість епізоду'>
                 <i class="bi bi-clock-history"></i> ${anime.duration} хв.
@@ -252,8 +252,8 @@ export class AnimeDetails {
       ${watchTags ? `<div class='watch-tags'>${watchTags}</div>` : '<div>—</div>'}
       ${release.dubinfo || release.subinfo
         ? `<div>
-            <span>${release.dubinfo[0]?.name || '—'}</span>
-            <span>${release.subinfo[0]?.name || '—'}</span>
+            ${release.dubinfo.map(d => `<span>${d}</span>`) || '—'}
+            ${release.subinfo.map(s => `<span>${s}</span>`) || '—'}
           </div>`
         : '<div>—</div>'
       }

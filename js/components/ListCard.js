@@ -14,6 +14,7 @@ export function createListCard() {
             </div>
         `
     }
+    
     function renderScore(type, rating) {
         if (!rating) {
           return `<span class="rating" title="Оцінка ${type}"><i class="bi bi-star"></i> —</span>`
@@ -38,6 +39,7 @@ export function createListCard() {
           </span>
         `
     }
+    
     function getAgeRating(genre) {
         if (!genre || genre.trim() === '') return null
         const adultGenres = ['Біляхентай', 'Хентай', 'Яой', 'Юрі']
@@ -76,10 +78,55 @@ export function createListCard() {
       return parseEpisodes(s, { mode: 'first' })
     }
 
-    function analyzeReleases(animeId, releases) {
-        if (!Array.isArray(AnimeReleases)) return { hasDub: false, hasSub: false, dubEpisodes: 0, subEpisodes: 0 }
+    // Універсальна функція для аналізу аудіо/субтитрів
+    function analyzeAudioSubs(release) {
+        const result = {
+            hasDub: false,
+            hasSub: false,
+            dubEpisodes: 0,
+            subEpisodes: 0
+        }
 
-        const animeReleases = AnimeReleases.filter(release => release.animeIds?.includes(animeId))
+        // Перевіряємо чи є subinfo та чи він не містить "Відсутні"
+        const hasValidSubInfo = release.subinfo.length > 0 && !release.subinfo.includes('Відсутні')
+        
+        // Перевіряємо чи є dubinfo
+        const hasValidDubInfo = release.dubinfo.length > 0
+        
+        // Перевіряємо чи title містить "(суб)"
+        const titleHasSub = release.title?.toLowerCase().includes('(суб)')
+
+        // Логіка визначення типу релізу
+        if (hasValidSubInfo && hasValidDubInfo) {
+            // Є і озвучка і субтитри
+            result.hasDub = true
+            result.hasSub = true
+            result.dubEpisodes = parseEpisodesAuto(release.episodes)
+            result.subEpisodes = release.episodessub 
+                ? parseEpisodesAuto(release.episodessub)
+                : parseEpisodesAuto(release.episodes)
+        } else if (!hasValidDubInfo || titleHasSub) {
+            // Тільки субтитри
+            result.hasSub = true
+            result.subEpisodes = parseEpisodesAuto(release.episodes)
+        } else {
+            // Тільки озвучка
+            result.hasDub = true
+            result.dubEpisodes = parseEpisodesAuto(release.episodes)
+        }
+
+        return result
+    }
+
+    // Аналіз релізів для аніме
+    function analyzeAnimeReleases(animeId) {
+        if (!Array.isArray(AnimeReleases)) {
+            return { hasDub: false, hasSub: false, dubEpisodes: 0, subEpisodes: 0 }
+        }
+
+        const animeReleases = AnimeReleases.filter(release => 
+            release.animeIds?.includes(animeId)
+        )
 
         let hasDub = false
         let hasSub = false
@@ -87,32 +134,16 @@ export function createListCard() {
         let maxSubEpisodes = 0
 
         animeReleases.forEach(release => {
-            let localHasDub = false
-            let localHasSub = false
-            let dubEpisodes = 0
-            let subEpisodes = 0
-
-            if ('episodessub' in release) {
-                localHasSub = true
-                localHasDub = true
-                dubEpisodes = parseEpisodesAuto(release.episodes) || ''
-                subEpisodes = parseEpisodesAuto(release.episodessub) || ''
-            } else if (release.title?.toLowerCase().includes('(суб)')) {
-                localHasSub = true
-                subEpisodes = parseEpisodesAuto(release.episodessub) || ''
-            } else {
-                localHasDub = true
-                dubEpisodes = parseEpisodesAuto(release.episodes) || ''
-            }
-
-            if (localHasDub) {
+            const analysis = analyzeAudioSubs(release)
+            
+            if (analysis.hasDub) {
                 hasDub = true
-                maxDubEpisodes = Math.max(maxDubEpisodes, dubEpisodes)
+                maxDubEpisodes = Math.max(maxDubEpisodes, analysis.dubEpisodes)
             }
-
-            if (localHasSub) {
+            
+            if (analysis.hasSub) {
                 hasSub = true
-                maxSubEpisodes = Math.max(maxSubEpisodes, subEpisodes)
+                maxSubEpisodes = Math.max(maxSubEpisodes, analysis.subEpisodes)
             }
         })
 
@@ -124,7 +155,6 @@ export function createListCard() {
         }
     }
 
-
     function createRatingBlock(ratingmal, ratinghikka, ageRating) {
         let html = ''
         html += renderScore('MAL', ratingmal)
@@ -133,14 +163,18 @@ export function createListCard() {
         return html ? `<div class="ratings">${html}</div>` : ''
     }
 
-    function createAudioSubBlock(info, item) {
-        if (!info.hasDub && !info.hasSub) return ''
+    function createAudioSubBlock(audioSubInfo, item) {
+        if (!audioSubInfo.hasDub && !audioSubInfo.hasSub) return ''
+        
         let html = ''
-        if (info.hasDub) html += `<span class="dub-info" title="Озвучення"><i class="bi bi-badge-vo"></i> ${info.dubEpisodes}</span>`
-        if (info.hasSub) {
-            if (info.hasDub) html += ' '
-            html += `<span class="sub-info" title="Субтитри"><i class="bi bi-badge-cc"></i> ${info.subEpisodes}</span>`
+        if (audioSubInfo.hasDub) {
+            html += `<span class="dub-info" title="Озвучення"><i class="bi bi-badge-vo"></i> ${audioSubInfo.dubEpisodes}</span>`
         }
+        if (audioSubInfo.hasSub) {
+            if (audioSubInfo.hasDub) html += ' '
+            html += `<span class="sub-info" title="Субтитри"><i class="bi bi-badge-cc"></i> ${audioSubInfo.subEpisodes}</span>`
+        }
+        
         const totalEpisodes = item?.episodes || item?.totalEpisodes || 0
         return `<div class="dub-sub-info">${html}${totalEpisodes ? `<span class="episode-count">${totalEpisodes}</span>` : ''}</div>`
     }
@@ -149,13 +183,13 @@ export function createListCard() {
         const card = document.createElement('div')
         card.classList.add('card', 'anime-card')
         const ageRating = getAgeRating(item.genre)
-        const releaseInfo = analyzeReleases(item.id)
+        const releaseInfo = analyzeAnimeReleases(item.id)
         const cover = item.cover ? `<div class='anime-cover'><img src='${item.cover}'"></div>` : ''
 
         card.innerHTML = currentView === 'grid' ? `
             <div class='poster-box'>
                 ${createRatingBlock(item?.scoreMAL, item?.scoreHikka, ageRating)}
-                ${createImageWithSkeleton(item?.poster || '', item?.title || 'Без назви')}
+                ${createImageWithSkeleton(item?.poster || item?.hikka_poster, item?.title || 'Без назви')}
                 ${createAudioSubBlock(releaseInfo, item)}
                 <div class='teams-logos'><span title="Кількість релізів"><i class="bi bi-collection-play"></i> ${item.releases.length}</span></div>
             </div>
@@ -166,14 +200,14 @@ export function createListCard() {
         ` : `
             ${cover}
             <div class='poster-box'>
-                ${createImageWithSkeleton(item?.poster || '', item?.title || 'Без назви')}
+                ${createImageWithSkeleton(item?.poster || item?.hikka_poster, item?.title || 'Без назви')}
             </div>
             <div class='info'>
                 <h3 class='truncate' title='${item?.title || 'Без назви'}'>${item?.title || 'Без назви'}</h3>
                 <small>${item?.year || ''}${item?.year ? ' • ' : ''}${item?.format || ''}</small>
                 ${createRatingBlock(item?.scoreMAL, item?.scoreHikka, ageRating)}
                 ${item?.episodes ? `<small class="episode-count">Серій: ${item?.episodes}</small>` : ''}
-                ${createAudioSubBlock(releaseInfo)}
+                ${createAudioSubBlock(releaseInfo, item)}
             </div>
         `
 
@@ -191,36 +225,21 @@ export function createListCard() {
             .map(t => `<span><img src='${t?.logo || ''}'></span>`).join('')
         const cover = animeInfo?.cover ? `<div class='anime-cover'><img src='${animeInfo.cover}'></div>` : ''
 
-        let hasSub = false
-        let hasDub = false
-        let subEpisodes = 0
-        let dubEpisodes = 0
+        // Використовуємо універсальну функцію аналізу
+        const audioSubInfo = analyzeAudioSubs(item)
+        
         let audioSubHTML = ''
-
-        if ('episodessub' in item) {
-            hasSub = true
-            hasDub = true
-            subEpisodes = item.episodessub || ''
-            dubEpisodes = item.episodes || ''
-        } else if (item.title?.toLowerCase().includes('(суб)')) {
-            hasSub = true
-            subEpisodes = item.episodes || ''
-        } else {
-            hasDub = true
-            dubEpisodes = item.episodes || ''
+        if (audioSubInfo.hasDub) {
+            audioSubHTML += `<span class="dub-info" title="Озвучення"><i class="bi bi-badge-vo"></i> ${audioSubInfo.dubEpisodes}</span>`
         }
-
-        if (hasDub) {
-            audioSubHTML += `<span class="dub-info" title="Озвучення"><i class="bi bi-badge-vo"></i> ${dubEpisodes}</span>`
-        }
-        if (hasSub) {
-            if (hasDub) audioSubHTML += ' '
-            audioSubHTML += `<span class="sub-info" title="Субтитри"><i class="bi bi-badge-cc"></i> ${subEpisodes}</span>`
+        if (audioSubInfo.hasSub) {
+            if (audioSubInfo.hasDub) audioSubHTML += ' '
+            audioSubHTML += `<span class="sub-info" title="Субтитри"><i class="bi bi-badge-cc"></i> ${audioSubInfo.subEpisodes}</span>`
         }
 
         card.innerHTML = currentView === 'grid' ? `
             <div class='poster-box'>
-                ${createImageWithSkeleton(animeInfo?.poster || '', item?.title || 'Без назви')}
+                ${createImageWithSkeleton(animeInfo?.poster || animeInfo?.hikka_poster, item?.title || 'Без назви')}
                 <div class="dub-sub-info">${audioSubHTML}<span class="episode-count">${animeInfo?.episodes || '??'}</span></div>
                 <div class='teams-logos'>${teams}</div>
             </div>
@@ -230,7 +249,7 @@ export function createListCard() {
         ` : `
             ${cover}
             <div class='poster-box'>
-                ${createImageWithSkeleton(animeInfo?.poster || '', item?.title || 'Без назви')}
+                ${createImageWithSkeleton(animeInfo?.poster || animeInfo?.hikka_poster, item?.title || 'Без назви')}
             </div>
             <div class='info'>
                 <h3 class='truncate'>${item?.title || 'Без назви'}</h3>
@@ -238,6 +257,7 @@ export function createListCard() {
                 <p>Епізоди: ${item?.episodes || 'Невідомо'}</p>
             </div>
         `
+        
         card.onclick = async (e) => {
           e.preventDefault();
           e.stopPropagation();
@@ -274,7 +294,7 @@ export function createListCard() {
 
             return releases.map(rel => {
                 const anime = AnimeTitles.find(a => rel.animeIds?.includes(a.id))
-                const poster = anime?.poster || ''
+                const poster = anime?.poster || anime?.hikka_poster
                 const title = rel.title || anime?.title || 'Без назви'
                 return `
                     <div class="card team-release" data-release-id="${rel.id}" title="${title}">
@@ -290,6 +310,7 @@ export function createListCard() {
                 `
             }).join('')
         }
+        
         function getStatusStyle(status) {
             switch(status?.toLowerCase()) {
                 case 'активна':

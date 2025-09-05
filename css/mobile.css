@@ -1,62 +1,75 @@
-@media only screen and (max-width: 400px) {
-    /* == Пошук == */
-    .modal {
-        width: calc(100% - 2em);
-    }
-    /* == Головне == */
-    #app {
-        --main-padding-x: .5em;
-    }
-    
-/*  */
-    /* random section */
-    .random-anime-section .items-list.list-view .card {
-        max-width: 100%;
-    }
+/* === Мобільна адаптація === */
+@media (max-width: 768px) {
+  /* Основні відступи */
+  #app {
+    --main-padding-x: .5em;
+  }
 
-    .stats-container, footer {
-        flex-direction: column;
-    }
-    footer {
-        gap: .5em;
-    }
-    #footerLinks {
-        justify-content: space-evenly;
-    }
+  .site-logo {font-size: 0}
+  #itemsCounter {display: none}
 
-    /* == Списки == */
-    .items-list {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 1em;
-    }
-    .items-list.list-view {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
-    .items-list.list-view .card {
-        aspect-ratio: 3/1;
-    }
+  /* Списки */
+  .items-list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1em;
+  }
+  .items-list.list-view {
+    grid-template-columns: 1fr;
+  }
+  .items-list.list-view .card {
+    flex-direction: row;
+    aspect-ratio: unset;
+    height: auto;
+    gap: .5em;
+    padding: .5em;
+  }
+  .poster-box {
+    height: 200px;
+  }
 
-    /* Фільтр */
-    #localSearchInput {
-        flex: 1;
-    }
-    #filterBtn:after {
-        content: none;
-    }
+  /* Картки команд */
+  .items-list.list-view:has(.team-card) {
+    grid-template-columns: 1fr;
+    gap: .5em;
+  }
+  .items-list.list-view .team-card {
+    padding: .5em;
+    gap: .5em;
+  }
+  .items-list.list-view .team-releases-row {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    /* == Title page== */
-    #secondCrumb {display: none;}
-    .title-detail .anime-cover {
-        position: relative;
-        margin: calc(var(--nav-height) * -1) -1em 0;
-    }
-    .title-detail .anime-cover img {
-        aspect-ratio: 3 / 1;
-    }
-    .title-detail .top-section {
-        flex-direction: column;
-    }
-    .title-detail .anime-poster {
-        align-self: center;
-    }
+  /* Модальні вікна */
+  .anime-detail-modal {
+    width: 95vw;
+    max-width: 95vw;
+    height: 95vh;
+    max-height: 95vh;
+  }
+  .anime-detail-modal #animeModalContent {
+    padding: .5em;
+  }
+
+  /* Релізи в модальному */
+  #animeDetailModal #releasesList .releases-container .release-card {
+    grid-template-columns: 1fr 2fr;
+    row-gap: .5em;
+  }
+
+  /* Фільтри */
+  #filterBtn:after,
+  #sortBtn:after {
+    content: none;
+  }
+  #filterOptions {
+    grid-template-columns: 1fr;
+  }
+
+  /* Футер */
+  footer {
+    flex-direction: column;
+    gap: .5em;
+    text-align: center;
+  }
 }

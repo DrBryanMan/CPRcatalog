@@ -32,14 +32,15 @@ export async function loadDBData() {
   AnimeReleases = AnimeReleases.map(release => ({
       ...release,
       teams: release.teams.map(team => {
-          const foundTeam = Teams.find(t => t.id === team.id)
+          const foundTeam = Teams.find(t => t.id === team)
           return {
-              id: team.id,
+              id: team,
               logo: foundTeam?.logo || '',
               name: foundTeam?.name || ''
           }
       })
   }))
+  .sort((a, b) => new Date(b.created_time || 0) - new Date(a.created_time || 0))
 
   // Додаємо тайтлам інфу про релізи та додаткові постери
   AnimeTitles = AnimeTitles.map(anime => {
@@ -63,6 +64,7 @@ export async function loadDBData() {
       return animeWithReleases
   })
   .filter(anime => anime.releases.length > 0)
+  .sort((a, b) => new Date(b.created_time || 0) - new Date(a.created_time || 0))
 
   // Додаємо унікальні команди до аніме
   AnimeTitles = AnimeTitles.map(anime => {

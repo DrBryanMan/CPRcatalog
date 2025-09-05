@@ -9,7 +9,6 @@ export class ReleaseDetails {
   async render(release) {
     const anime = AnimeTitles.find(a => release.animeIds?.includes(a.id))
     const cover = anime?.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
-    const poster = anime?.poster ? `<img class='title-poster' src='${anime.poster}'>` : ''
 
     const teams = this.generateTeamsHTML(release.teams || [])
     const torrents = this.generateTorrentsHTML(release.torrentLinks || [])
@@ -22,7 +21,7 @@ export class ReleaseDetails {
         ${cover}
         <div class='top-section'>
           <div class='poster-container'>
-            ${poster}
+            <img class='title-poster' src='${anime.poster || anime.hikka_poster}'>
           </div>
           <div class='center-column'>
             <div><h1>${release.title}</h1></div>
@@ -35,10 +34,10 @@ export class ReleaseDetails {
             <div class='title-info'>
               ${statusHTML}
               <span title='Епізодів'>
-                <i class="bi bi-list-ol"></i> ${release.episodes} еп.
+                <i class="bi bi-list-ol"></i> ${release.episodes || '?'} еп.
               </span>
-              <span>${release.dubinfo[0]?.name || '—'}</span>
-              <span>${release.subinfo[0]?.name || '—'}</span>
+              ${release.dubinfo.map(d => `<span>${d}</span>`) || '—'}
+              ${release.subinfo.map(s => `<span>${s}</span>`) || '—'}
               ${watchTags ? `<div class='watch-tags'>${watchTags}</div>` : ''}
             </div>
             ${torrents ? `<h2>Торенти</h2><p class='release-torrents'>${torrents}</p>` : ''}
