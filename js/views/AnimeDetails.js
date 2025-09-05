@@ -1,4 +1,4 @@
-import { AnimeTitles, AnimeReleases } from '../loadData.js'
+import { AnimeTitles, AnimeReleases, PostersData } from '../loadData.js'
 import { getAnimeClassificationInfo } from '../animeClassification.js'
 import { ModalUtils } from './ModalUtils.js'
 
@@ -31,6 +31,10 @@ export class AnimeDetails {
     const cls = getAnimeClassificationInfo(anime.episodes, anime.duration, anime.format)
     const teams = (anime.teams || []).map(t => `<span class='team-link data-nav-link' data-team-id='${t.id}'><img src='${t.logo}'>${t.name}</span>`).join('')
     const cover = anime.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
+    const posterList = PostersData.find(i => i.hikka_url === anime.hikka_url)?.posters
+    const posterUrl = Array.isArray(posterList) && posterList.length > 0
+        ? `https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/${posterList[0].url}`
+        : anime?.hikka_poster
 
     const badges = this.generateBadges(anime)
 
@@ -39,9 +43,9 @@ export class AnimeDetails {
         ${cover}
         <div class='top-section'>
           <div class='poster-gallery'>
-            <img id='posterImage' class='title-poster' src='${anime.poster || anime.hikka_poster || ''}' alt='Постер'>
+            <img id='posterImage' class='title-poster' src='${posterUrl || ''}' alt='Постер'>
             <div id='posterMeta' class='poster-meta'></div>
-            ${this.generatePosterSelector(anime)}
+            ${this.generatePosterSelector(posterList)}
           </div>
           <div class='center-column'>
             <div style="text-align:center;">
@@ -84,7 +88,7 @@ export class AnimeDetails {
     `
 
     this.modal.querySelector('#animeModalContent').innerHTML = html
-    this.initPosterGallery(anime)
+    this.initPosterGallery(posterList)
     await this.loadReleases(anime)
     this.setupAlternativeNamesModal()
   }
@@ -111,11 +115,11 @@ export class AnimeDetails {
     return badges.join('')
   }
 
-  generatePosterSelector(anime) {
-    if ((anime.posters?.length || 0) <= 1) return ''
+  generatePosterSelector(posterList) {
+    if ((posterList?.length || 0) <= 1) return ''
     
     return `<div class='poster-selector' id='posterSelector'>
-      ${anime.posters.map((_, i) => `<button class='poster-btn' data-index='${i}'>${i + 1}</button>`).join('')}
+      ${posterList.map((_, i) => `<button class='poster-btn' data-index='${i}'>${i + 1}</button>`).join('')}
     </div>`
   }
 
@@ -165,16 +169,16 @@ export class AnimeDetails {
     `
   }
 
-  initPosterGallery(anime) {
+  initPosterGallery(posterList) {
     let posterIndex = 0
-    const posters = anime.posters || []
+    // const posters = anime.posters || []
     const posterImage = this.modal.querySelector('#posterImage')
     const posterMeta = this.modal.querySelector('#posterMeta')
     const posterSelector = this.modal.querySelector('#posterSelector')
 
     const updatePosterView = () => {
-      if (!posters.length) return
-      const current = posters[posterIndex]
+      if (!posterList.length) return
+      const current = posterList[posterIndex]
       posterImage.src = `https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/${current.url}`
       posterMeta.innerHTML = `
         ${current.author ? `<p><strong>Автор:</strong> ${current.author}</p>` : ''}

@@ -1,4 +1,4 @@
-import { AnimeTitles, AnimeReleases } from '../loadData.js'
+import { AnimeTitles, AnimeReleases, PostersData } from '../loadData.js'
 import { currentHub, router } from '../router.js'
 import { titleModal } from '../views/TitleModal.js'
 import { getAnimeClassificationInfo } from '../animeClassification.js'
@@ -185,11 +185,15 @@ export function createListCard() {
         const ageRating = getAgeRating(item.genre)
         const releaseInfo = analyzeAnimeReleases(item.id)
         const cover = item.cover ? `<div class='anime-cover'><img src='${item.cover}'"></div>` : ''
+        const posterList = PostersData.find(i => i.hikka_url === item.hikka_url)?.posters
+        const posterUrl = Array.isArray(posterList) && posterList.length > 0
+            ? `https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/${posterList[0].url}`
+            : item?.hikka_poster
 
         card.innerHTML = currentView === 'grid' ? `
             <div class='poster-box'>
                 ${createRatingBlock(item?.scoreMAL, item?.scoreHikka, ageRating)}
-                ${createImageWithSkeleton(item?.poster || item?.hikka_poster, item?.title || 'Без назви')}
+                ${createImageWithSkeleton(posterUrl, item?.title || 'Без назви')}
                 ${createAudioSubBlock(releaseInfo, item)}
                 <div class='teams-logos'><span title="Кількість релізів"><i class="bi bi-collection-play"></i> ${item.releases.length}</span></div>
             </div>

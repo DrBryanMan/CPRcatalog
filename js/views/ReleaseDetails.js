@@ -9,6 +9,10 @@ export class ReleaseDetails {
   async render(release) {
     const anime = AnimeTitles.find(a => release.animeIds?.includes(a.id))
     const cover = anime?.cover ? `<div class='title-cover'><img src='${anime.cover}'></div>` : ''
+    const posterList = PostersData.find(i => i.hikka_url === anime.hikka_url)?.posters
+    const posterUrl = Array.isArray(posterList) && posterList.length > 0
+        ? `https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/${posterList[0].url}`
+        : anime?.hikka_poster
 
     const teams = this.generateTeamsHTML(release.teams || [])
     const torrents = this.generateTorrentsHTML(release.torrentLinks || [])
@@ -21,7 +25,7 @@ export class ReleaseDetails {
         ${cover}
         <div class='top-section'>
           <div class='poster-container'>
-            <img class='title-poster' src='${anime.poster || anime.hikka_poster}'>
+            <img class='title-poster' src='${posterUrl || anime.hikka_poster}'>
           </div>
           <div class='center-column'>
             <div><h1>${release.title}</h1></div>

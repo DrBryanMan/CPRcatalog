@@ -1,29 +1,29 @@
-export let AnimeTitles, AnimeReleases, Teams
+export let AnimeTitles, AnimeReleases, Teams, PostersData
 
 // Отримуємо всі дані
 export async function loadDBData() {
-  [AnimeTitles, Teams, AnimeReleases] = await Promise.all([
+  [AnimeTitles, Teams, AnimeReleases, PostersData] = await Promise.all([
     fetch('json/AnimeTitlesDB.json').then(res => res.json()),
     fetch('json/TeamsDB.json').then(res => res.json()),
     fetch('json/AnimeReleasesDB.json').then(res => res.json()),
     // Завантажуємо дані про постери з GitHub
-    // fetch('https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/PostersList.json')
-    //   .then(res => res.json())
-    //   .catch(error => {
-    //     console.warn('Не вдалося завантажити додаткові постери:', error)
-    //     return [] // Повертаємо порожній масив якщо не вдалося завантажити
-    //   }),
+    fetch('https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/PostersList.json')
+      .then(res => res.json())
+      .catch(error => {
+        console.warn('Не вдалося завантажити додаткові постери:', error)
+        return [] // Повертаємо порожній масив якщо не вдалося завантажити
+      }),
   ])
 
   // Створюємо Map для швидкого пошуку постерів за hikka_url
-  // const postersMap = new Map()
-  // if (PostersData && Array.isArray(PostersData)) {
-  //   PostersData.forEach(item => {
-  //     if (item.hikka_url && item.posters && item.posters.length > 0) {
-  //       postersMap.set(item.hikka_url, item.posters)
-  //     }
-  //   })
-  // }
+  const postersMap = new Map()
+  if (PostersData && Array.isArray(PostersData)) {
+    PostersData.forEach(item => {
+      if (item.hikka_url && item.posters && item.posters.length > 0) {
+        postersMap.set(item.hikka_url, item.posters)
+      }
+    })
+  }
 
   // Сортуємо Команди за кількістю релізів
   Teams = Teams.sort((a, b) => b.anime_releases.length - a.anime_releases.length)
