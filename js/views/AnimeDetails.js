@@ -43,7 +43,7 @@ export class AnimeDetails {
         ${cover}
         <div class='top-section'>
           <div class='poster-gallery'>
-            <img id='posterImage' class='title-poster' src='${posterUrl || ''}' alt='Постер'>
+            <img id='posterImage' class='title-poster' src="${posterUrl || ''}" alt='Постер'>
             <div id='posterMeta' class='poster-meta'></div>
             ${this.generatePosterSelector(posterList)}
           </div>
@@ -171,7 +171,6 @@ export class AnimeDetails {
 
   initPosterGallery(posterList) {
     let posterIndex = 0
-    // const posters = anime.posters || []
     const posterImage = this.modal.querySelector('#posterImage')
     const posterMeta = this.modal.querySelector('#posterMeta')
     const posterSelector = this.modal.querySelector('#posterSelector')
@@ -196,9 +195,9 @@ export class AnimeDetails {
       }
     })
 
-    if (posters.length > 0) {
-      updatePosterView()
-    }
+    // if (posters.length > 0) {
+    //   updatePosterView()
+    // }
   }
 
   async loadReleases(anime) {
