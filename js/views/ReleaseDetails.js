@@ -1,4 +1,4 @@
-import { AnimeTitles } from '../loadData.js'
+import { AnimeTitles, PostersData } from '../loadData.js'
 import { ModalUtils } from './ModalUtils.js'
 
 export class ReleaseDetails {
