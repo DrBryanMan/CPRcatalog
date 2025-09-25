@@ -121,7 +121,8 @@ export function createListCard() {
     // Аналіз релізів для аніме
     function analyzeAnimeReleases(animeId) {
         if (!Array.isArray(AnimeReleases)) {
-            return { hasDub: false, hasSub: false, dubEpisodes: 0, subEpisodes: 0 }
+            return { hasDub: false, hasSub: false}
+            // return { hasDub: false, hasSub: false, dubEpisodes: 0, subEpisodes: 0 }
         }
 
         const animeReleases = AnimeReleases.filter(release => 
@@ -130,28 +131,28 @@ export function createListCard() {
 
         let hasDub = false
         let hasSub = false
-        let maxDubEpisodes = 0
-        let maxSubEpisodes = 0
+        // let maxDubEpisodes = 0
+        // let maxSubEpisodes = 0
 
         animeReleases.forEach(release => {
             const analysis = analyzeAudioSubs(release)
             
             if (analysis.hasDub) {
                 hasDub = true
-                maxDubEpisodes = Math.max(maxDubEpisodes, analysis.dubEpisodes)
+                // maxDubEpisodes = Math.max(maxDubEpisodes, analysis.dubEpisodes)
             }
             
             if (analysis.hasSub) {
                 hasSub = true
-                maxSubEpisodes = Math.max(maxSubEpisodes, analysis.subEpisodes)
+                // maxSubEpisodes = Math.max(maxSubEpisodes, analysis.subEpisodes)
             }
         })
 
         return {
             hasDub,
             hasSub,
-            dubEpisodes: maxDubEpisodes,
-            subEpisodes: maxSubEpisodes
+            // dubEpisodes: maxDubEpisodes,
+            // subEpisodes: maxSubEpisodes
         }
     }
 
@@ -168,11 +169,11 @@ export function createListCard() {
         
         let html = ''
         if (audioSubInfo.hasDub) {
-            html += `<span class="dub-info" title="Озвучення"><i class="bi bi-badge-vo"></i> ${audioSubInfo.dubEpisodes}</span>`
+            html += `<span class="dub-info" title="Озвучення"><i class="bi bi-badge-vo"></i></span>`
         }
         if (audioSubInfo.hasSub) {
             if (audioSubInfo.hasDub) html += ' '
-            html += `<span class="sub-info" title="Субтитри"><i class="bi bi-badge-cc"></i> ${audioSubInfo.subEpisodes}</span>`
+            html += `<span class="sub-info" title="Субтитри"><i class="bi bi-badge-cc"></i></span>`
         }
         
         const totalEpisodes = item?.episodes || item?.totalEpisodes || 0
@@ -199,7 +200,7 @@ export function createListCard() {
             </div>
             <div class='info'>
                 <h3 class='truncate' title='${item?.title || 'Без назви'}'>${item?.title || 'Без назви'}</h3>
-                <small>${item?.year || ''}${item?.year ? ' • ' : ''}${getAnimeClassificationInfo(item?.episodes, item?.duration, item?.format).displayText}</small>
+                <small>${item?.year || ''}${item?.year ? ' • ' : ''}${item?.format || ''}${item?.format ? ' • ' : ''}${getAnimeClassificationInfo(item?.episodes, item?.duration, item?.format).displayText}</small>
             </div>
         ` : `
             ${cover}
