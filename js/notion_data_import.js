@@ -124,49 +124,6 @@ async function getPageById(pageId) {
   }
 }
 
-// Нова тестова функція
-async function getTestData(pageIds, dbType = 'auto') {
-  try {
-    colorLog(`Отримання тестових даних для ${pageIds.length} сторінок...`, 'blue')
-    
-    const rawPages = []
-    const norm = s => (s || '').toLowerCase().replace(/-/g, '')
-    
-    for (const idRaw of pageIds.map(norm)) {
-      try {
-        const page = await getPageById(idRaw)
-        rawPages.push(page)
-        colorLog(`Отримано дані для сторінки: ${page.id}`, 'green')
-      } catch (e) {
-        colorLog(`Не вдалося отримати сторінку ${idRaw}: ${e.message}`, 'yellow')
-      }
-    }
-    
-    // Автовизначення типу бази даних за першою сторінкою
-    if (dbType === 'auto' && rawPages.length > 0) {
-      const firstPage = rawPages[0]
-      if (firstPage.parent?.database_id === DATABASES.ANIME_TITLES_DB) {
-        dbType = 'titles'
-      } else if (firstPage.parent?.database_id === DATABASES.ANIME_RELEASES_DB) {
-        dbType = 'releases'
-      } else if (firstPage.parent?.database_id === DATABASES.TEAMS_DB) {
-        dbType = 'teams'
-      } else {
-        dbType = 'unknown'
-      }
-      colorLog(`Автовизначено тип бази даних: ${dbType}`, 'blue')
-    }
-    
-    const description = `Тестові дані з ${rawPages.length} сторінок типу "${dbType}"`
-    await saveTestData(rawPages, description)
-    
-    return rawPages
-  } catch (error) {
-    colorLog(`Помилка при отриманні тестових даних: ${error.message}`, 'red')
-    throw error
-  }
-}
-
 async function getReleasesJson(options = {}) {
   const {
     useLocalBase = true,
@@ -351,8 +308,8 @@ async function fetchHikkaData(urls) {
 
       animeData.push({
         url,
-        poster: anime.image,
-        synonyms: anime.synonyms,
+        hikka_poster: anime.image,
+        hikkaSynonyms: anime.synonyms,
         status: anime.status,
         season: anime.season,
         duration: anime.duration,
@@ -393,12 +350,40 @@ function createMapsFromData(postersData, mikaiData) {
 
 function shouldUpdateHikka(page, previousData, updateAll) {
   const hikkaUrl = page.properties.Hikka?.url
+  const title = page.properties['Назва тайтлу']?.title?.[0]?.plain_text || 'Без назви'
   
-  if (updateAll) return true
+  if (updateAll) {
+    colorLog(`✓ Оновлюємо ${title} (режим updateAll)`, 'green')
+    return true
+  }
   
-  return hikkaUrl && !previousData.some(eD =>
-    eD.hikka_url === hikkaUrl && (eD.poster || eD.hikkaSynonyms || eD.scoreMAL || eD.scoredbyMAL)
-  )
+  if (!hikkaUrl) {
+    colorLog(`✗ Пропускаємо ${title} (немає Hikka URL)`, 'yellow')
+    return false
+  }
+  
+  const existingRecord = previousData.find(eD => eD.hikka_url === hikkaUrl)
+  
+  if (!existingRecord) {
+    colorLog(`✓ Оновлюємо ${title} (новий запис)`, 'green')
+    return true
+  }
+  
+  // Перевіряємо чи відсутні важливі дані з Хікки
+  const missingHikkaData = !existingRecord.hikka_poster || 
+                          existingRecord.hikka_poster === null ||
+                          !existingRecord.scoreMAL || 
+                          !existingRecord.hikkaSynonyms ||
+                          !existingRecord.status ||
+                          !existingRecord.mal_id
+  
+  if (missingHikkaData) {
+    colorLog(`✓ Оновлюємо ${title} (відсутні Хікка дані: poster=${!!existingRecord.hikka_poster}, score=${!!existingRecord.scoreMAL}, mal_id=${!!existingRecord.mal_id})`, 'green')
+    return true
+  }
+  
+  colorLog(`✗ Пропускаємо ${title} (вже є всі Хікка дані)`, 'yellow')
+  return false
 }
 
 function buildAnimeData(page, hikkaInfo, posterList, mikaiUrl, previousAnime) {
@@ -410,7 +395,7 @@ function buildAnimeData(page, hikkaInfo, posterList, mikaiUrl, previousAnime) {
     id: page.id,
     hikka_url: page.properties.Hikka?.url,
     cover: page.cover?.external?.url || page.cover?.file?.url,
-    hikka_poster: hikkaInfo?.poster,
+    hikka_poster: hikkaInfo?.hikka_poster,
     poster: posterUrl,
     posters: posterList || [],
     title: page.properties['Назва тайтлу'].title[0]?.plain_text,
@@ -440,7 +425,7 @@ function buildAnimeData(page, hikkaInfo, posterList, mikaiUrl, previousAnime) {
     franchise: page.properties.Франшиза.relation.id || [],
     source: hikkaInfo?.source,
     mal_id: hikkaInfo?.mal_id,
-    created_time: page.last_edited_time,
+    created_time: page.created_time,
     last_edited: page.last_edited_time
   }
 }
@@ -477,10 +462,10 @@ async function processAnimeData(pages) {
 
   const existingData = new Map(
     previousData
-      .filter(item => item.hikka_url && (item.poster || item.hikkaSynonyms || item.scoreMAL || item.scoredbyMAL))
+      .filter(item => item.hikka_url && (item.hikka_poster || item.hikkaSynonyms || item.scoreMAL || item.scoredbyMAL))
       .map(item => [item.hikka_url, {
-        poster: item.poster,
-        synonyms: item.synonyms,
+        hikka_poster: item.hikka_poster,
+        hikkaSynonyms: item.hikkaSynonyms,
         status: item.status,
         season: item.season,
         duration: item.duration,
@@ -553,7 +538,7 @@ function buildReleaseData(page, previousRelease) {
     fexlink: page.properties['FEX посилання']?.url,
     sitelink: page.properties['На сайті']?.url,
     problems: page.properties['Проблеми']?.multi_select,
-    created_time: page.last_edited_time,
+    created_time: page.created_time,
     last_edited: page.last_edited_time,
     episodesLastUpdate: previousRelease && previousRelease.episodes !== currentEpisodes
       ? new Date().toISOString()
@@ -640,7 +625,7 @@ function buildTeamData(page) {
     tiktok: page.properties.TikTok?.url,
     tg: page.properties.Telegram?.url,
     tg_video: page.properties['ТГ релізи']?.url,
-    created_time: page.last_edited_time,
+    created_time: page.created_time,
     last_edited: page.last_edited_time
   }
 }
@@ -692,7 +677,7 @@ function applyFilters(data, filter) {
 }
 
 function updateHikkaFields(item, fresh) {
-  item.poster = item.posters?.length ? item.poster : (fresh.poster ?? item.poster)
+  item.hikka_poster = fresh.hikka_poster ?? item.hikka_poster
   item.hikkaSynonyms = fresh.synonyms ?? item.hikkaSynonyms
   item.status = fresh.status ?? item.status
   item.season = fresh.season ?? item.season
@@ -714,7 +699,7 @@ async function updateExternalData(targets, update) {
     let hikkaTargets = targets.filter(a => a.hikka_url)
     if (update.hikka === 'missing') {
       hikkaTargets = hikkaTargets.filter(a =>
-        !(a.poster || a.hikkaSynonyms || a.scoreMAL || a.scoredbyMAL || a.status || a.season || a.duration)
+        (!a.hikka_poster || !a.hikkaSynonyms || !a.scoreMAL || !a.scoredbyMAL || !a.status || !a.season || !a.duration)
       )
     }
 
@@ -885,21 +870,25 @@ async function importData(databaseId, dbTitle, outputFileName, processFunction, 
   }
 }
 
-async function runAllImports(onlyModified = true) {
+async function runAllImports(onlyModified = false) {
   try {
     colorLog(`Запуск імпортів в режимі: ${onlyModified ? 'тільки змінені' : 'повний'}`, 'blue')
 
+    // await getAnimeTitlesJson()
+    // await getReleasesJson()
     await getAnimeTitlesJson({
       useLocalBase: false,
       update: { hikka: 'missing', mikai: 'missing' },
+      // filter: { ids: ['174d30fa-35d0-81e1-92db-f94375dde776'] },
       onlyModified
     })
     
     await getReleasesJson({
       useLocalBase: false,
+      // filter: { ids: ['174d30fa-35d0-8111-a03d-f52315383524'] },
       onlyModified
     })
-    await importTeams(releasesData, onlyModified)
+    // await importTeams(releasesData, onlyModified)
     
     colorLog("Всі імпорти успішно завершено!", 'green')
   } catch (error) {
@@ -911,11 +900,7 @@ const isTest = process.argv.includes('--test');
 
 ;(async () => {
   try {
-    if (isTest) {
-      await getTestData(['263d30fa-35d0-80d5-b66f-e42ffcdaa877']);
-    } else {
-      await runAllImports();
-    }
+    await runAllImports();
   } catch (err) {
     console.error(err);
     process.exit(1);
