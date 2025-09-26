@@ -878,7 +878,7 @@ async function runAllImports(onlyModified = false) {
     // await getReleasesJson()
     await getAnimeTitlesJson({
       useLocalBase: false,
-      update: { hikka: 'missing', mikai: 'missing' },
+      update: { hikka: 'none', mikai: 'none' },
       // filter: { ids: ['174d30fa-35d0-81e1-92db-f94375dde776'] },
       onlyModified
     })
