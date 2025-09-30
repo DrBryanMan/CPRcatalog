@@ -15,7 +15,8 @@ export class TeamDetails {
     }
 
     const badges = this.generateBadges(team)
-    const releases = AnimeReleases.filter(r => r.teams?.some(t => t.id === teamId))
+    const releaseIds = new Set(team.anime_releases.map(r => r.id));
+    const releases = AnimeReleases.filter(r => releaseIds.has(r.id))
 
     const headerHTML = `
       <div class='title-detail team-detail'>

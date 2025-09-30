@@ -242,10 +242,20 @@ export function createListCard() {
             audioSubHTML += `<span class="sub-info" title="Субтитри"><i class="bi bi-badge-cc"></i> ${audioSubInfo.subEpisodes}</span>`
         }
 
+        function getStatusHTML(status) {
+            switch (status) {
+                case 'В процесі': return `<span style="color:var(--ongoing);"><i class="bi bi-hourglass-split"></i></span>`
+                case 'Завершено': return `<span style="color:var(--finished);"><i class="bi bi-list-check"></i></span>`
+                case 'Закинуто': return `<span style="color:var(--droped);"><i class="bi bi-trash"></i></span>`
+                case 'Відкладено': return `<span style="color:var(--paused);"><i class="bi bi-pause-fill"></i></span>`
+                default: return `<span><i class="bi bi-question"></i>??</span>`
+            }
+        }
+
         card.innerHTML = currentView === 'grid' ? `
             <div class='poster-box'>
                 ${createImageWithSkeleton(animeInfo?.poster || animeInfo?.hikka_poster, item?.title || 'Без назви')}
-                <div class="dub-sub-info">${audioSubHTML}<span class="episode-count">${animeInfo?.episodes || '??'}</span></div>
+                <div class="dub-sub-info">${audioSubHTML}<span class="episode-count">${animeInfo?.episodes || '??'}</span>${getStatusHTML(item.status)}</div>
                 <div class='teams-logos'>${teams}</div>
             </div>
             <div class='info'>
