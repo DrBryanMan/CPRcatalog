@@ -407,7 +407,7 @@ async function runAllImports(onlyModified = true) {
 
     await getAnimeTitlesJson(onlyModified)
     const releasesData = await getReleasesJson(onlyModified)
-    await getTeamsJson(releasesData, onlyModified)
+    // await getTeamsJson(releasesData, onlyModified)
     
     colorLog("Всі імпорти успішно завершено!", 'green')
   } catch (error) {
