@@ -1724,6 +1724,9 @@
       },
       {
         "id": "28dd30fa-35d0-807a-8d2f-cca6adcbc7f9"
+      },
+      {
+        "id": "28ed30fa-35d0-803b-8ebe-fa7b343b1481"
       }
     ],
     "site": null,
@@ -10747,6 +10750,9 @@
       },
       {
         "id": "174d30fa-35d0-8122-a1bb-e0c5f97280f3"
+      },
+      {
+        "id": "28ed30fa-35d0-80ee-b70e-d16d6131c721"
       }
     ],
     "site": null,
@@ -15348,6 +15354,12 @@
       },
       {
         "id": "28dd30fa-35d0-80f4-b18b-d1152ae6cc6b"
+      },
+      {
+        "id": "28ed30fa-35d0-80d7-ba49-e5ca2f434f0d"
+      },
+      {
+        "id": "28ed30fa-35d0-80e2-8422-faac97f1b816"
       }
     ],
     "site": "https://ufdub.com/",
@@ -15790,6 +15802,9 @@
       },
       {
         "id": "28dd30fa-35d0-80c9-9171-f7f48ff59ab6"
+      },
+      {
+        "id": "28ed30fa-35d0-808f-ac3f-cb071c9109db"
       }
     ],
     "site": null,
@@ -18984,6 +18999,12 @@
       },
       {
         "id": "174d30fa-35d0-818f-8139-c70d4ce4682c"
+      },
+      {
+        "id": "28ed30fa-35d0-8015-b7d9-ebc57e1ed50d"
+      },
+      {
+        "id": "28ed30fa-35d0-80e4-a7b8-fe24ba86049e"
       }
     ],
     "site": null,
@@ -19700,6 +19721,12 @@
       },
       {
         "id": "174d30fa-35d0-81c0-8227-e9779ffc8dfb"
+      },
+      {
+        "id": "28ed30fa-35d0-8013-9654-c8702a51afe3"
+      },
+      {
+        "id": "28ed30fa-35d0-8093-a796-e52d6be4b984"
       }
     ],
     "site": null,
@@ -23878,6 +23905,9 @@
       },
       {
         "id": "28dd30fa-35d0-8078-b7da-ddbad5de2f13"
+      },
+      {
+        "id": "28ed30fa-35d0-80b6-9cd8-cda4922c9e1a"
       }
     ],
     "site": null,
@@ -24028,5 +24058,28 @@
     "tg": null,
     "created_time": "2025-10-15T11:40:00.000Z",
     "last_edited": "2025-10-15T11:40:00.000Z"
+  },
+  {
+    "id": "28ed30fa-35d0-803e-bb1b-e74399d75e19",
+    "cover": null,
+    "name": "LOLICORE",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "28ed30fa-35d0-80b3-95d4-dd1c41e65c85"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2025-10-16T11:15:00.000Z",
+    "last_edited": "2025-10-16T11:15:00.000Z"
   }
 ]
