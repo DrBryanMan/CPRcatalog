@@ -187,7 +187,7 @@ async function updateMikaiLinks(animeData, mode = MIKAI_UPDATE_MODES.NONE) {
 function getMissingHikkaFields(anime) {
   const missing = [];
   for (const field of REQUIRED_HIKKA_FIELDS) {
-    if (!anime.hasOwnProperty(field)) {
+    if (!anime.hasOwnProperty(field) || anime[field] === null || anime[field] === undefined) {
       missing.push(field);
     }
   }
