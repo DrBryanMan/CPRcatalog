@@ -164,6 +164,9 @@
       },
       {
         "id": "177d30fa-35d0-80c9-8e77-dda12c0c0be4"
+      },
+      {
+        "id": "294d30fa-35d0-8075-8451-f4b1122f25c0"
       }
     ],
     "site": null,
@@ -1642,6 +1645,15 @@
       },
       {
         "id": "174d30fa-35d0-8181-930f-eabbe48155b9"
+      },
+      {
+        "id": "294d30fa-35d0-801b-995a-fe28bba5a2a3"
+      },
+      {
+        "id": "294d30fa-35d0-8080-b1ae-f9c48eea16c9"
+      },
+      {
+        "id": "294d30fa-35d0-80ea-af5d-c1c2cd7897aa"
       }
     ],
     "site": null,
@@ -2897,6 +2909,9 @@
       },
       {
         "id": "174d30fa-35d0-81cb-932c-f1053da2061a"
+      },
+      {
+        "id": "294d30fa-35d0-8014-aaca-cbd138f625f7"
       }
     ],
     "site": null,
@@ -5083,6 +5098,21 @@
       },
       {
         "id": "28dd30fa-35d0-80f5-a7e2-d4ebd237b39f"
+      },
+      {
+        "id": "28fd30fa-35d0-8051-9fdd-f9dcf0070d7d"
+      },
+      {
+        "id": "28fd30fa-35d0-8058-a4aa-f3787b683fcd"
+      },
+      {
+        "id": "28fd30fa-35d0-8073-9681-e8dfaa817073"
+      },
+      {
+        "id": "28fd30fa-35d0-807a-bb87-ee1b108a36a8"
+      },
+      {
+        "id": "28fd30fa-35d0-80ee-a06e-e287092994e3"
       }
     ],
     "site": null,
@@ -6665,6 +6695,12 @@
       },
       {
         "id": "174d30fa-35d0-81ce-9c41-f867ea5d0c44"
+      },
+      {
+        "id": "28fd30fa-35d0-806e-a094-f4869e11c8e7"
+      },
+      {
+        "id": "28fd30fa-35d0-80c3-a252-cf0865d9545f"
       }
     ],
     "site": "https://dzuski.com/",
@@ -8031,6 +8067,9 @@
       },
       {
         "id": "174d30fa-35d0-81b4-aab8-dd38f2629d8f"
+      },
+      {
+        "id": "28fd30fa-35d0-80a8-a3d0-dc4bbf030db9"
       }
     ],
     "site": null,
@@ -9670,6 +9709,12 @@
       },
       {
         "id": "174d30fa-35d0-81e9-843a-ff54da40ac89"
+      },
+      {
+        "id": "292d30fa-35d0-8006-927e-c4f8b5d88b41"
+      },
+      {
+        "id": "292d30fa-35d0-80ad-859b-e4f31f30b104"
       }
     ],
     "site": null,
@@ -9847,7 +9892,6 @@
   },
   {
     "id": "174d30fa-35d0-8184-8da5-fbd2bd689f80",
-    "last_edited": "2025-01-09T16:32:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098002/48_volts_jfzepk.jpg",
     "name": "48 Volts",
@@ -9856,10 +9900,8 @@
     "type_team": [
       "Фандаб"
     ],
-    "type_activity": [
-      "Аніме"
-    ],
-    "status": "Малоактивна",
+    "type_activity": [],
+    "status": "Неактивна",
     "members": [
       {
         "id": "174d30fa-35d0-8196-b0de-e70eef7a16e9"
@@ -9970,7 +10012,9 @@
     "anitube": "https://anitube.in.ua/tags/48%20Volts/",
     "insta": null,
     "tiktok": null,
-    "tg": "https://t.me/TO_48Volts"
+    "tg": "https://t.me/TO_48Volts",
+    "created_time": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-10-21T12:52:00.000Z"
   },
   {
     "id": "174d30fa-35d0-810e-b642-ce8c2d2e2650",
@@ -10476,6 +10520,12 @@
       },
       {
         "id": "28dd30fa-35d0-8057-86e3-eee8e1e098f4"
+      },
+      {
+        "id": "28fd30fa-35d0-8004-aead-c752fd26c403"
+      },
+      {
+        "id": "28fd30fa-35d0-8057-b760-c6091f633839"
       }
     ],
     "site": null,
@@ -14514,6 +14564,15 @@
       },
       {
         "id": "174d30fa-35d0-8168-9dba-f179bd9345f4"
+      },
+      {
+        "id": "28fd30fa-35d0-8078-9b1d-cc93d893668f"
+      },
+      {
+        "id": "294d30fa-35d0-8061-9adb-eabb1016ce0d"
+      },
+      {
+        "id": "294d30fa-35d0-8087-a700-ccb6c7d3c1c2"
       }
     ],
     "site": null,
@@ -15360,6 +15419,9 @@
       },
       {
         "id": "28ed30fa-35d0-80e2-8422-faac97f1b816"
+      },
+      {
+        "id": "292d30fa-35d0-804c-8389-c8c0a3d29430"
       }
     ],
     "site": "https://ufdub.com/",
@@ -16597,6 +16659,9 @@
       },
       {
         "id": "28dd30fa-35d0-80e1-99d5-d920b3f4f544"
+      },
+      {
+        "id": "174d30fa-35d0-81b1-acc8-d120ec6e154b"
       }
     ],
     "site": "https://amanogawa.space/",
@@ -18528,17 +18593,14 @@
   },
   {
     "id": "174d30fa-35d0-8142-9495-fc62a6e7546a",
-    "last_edited": "2025-01-07T06:58:00.000Z",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/Анімрія_exbrfx.jpg",
     "name": "АніМрія",
     "altname": [],
     "founded": null,
     "type_team": [],
-    "type_activity": [
-      "Аніме"
-    ],
-    "status": "Невідомо",
+    "type_activity": [],
+    "status": "Малоактивна",
     "members": [
       {
         "id": "174d30fa-35d0-81d1-9104-ff6c8ee802dc"
@@ -18664,7 +18726,9 @@
     "anitube": "https://anitube.in.ua/tags/АніМрія/",
     "insta": null,
     "tiktok": null,
-    "tg": "https://t.me/animriya_team"
+    "tg": "https://t.me/animriya_team",
+    "created_time": "2025-01-07T06:58:00.000Z",
+    "last_edited": "2025-10-21T16:03:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8179-85ec-c0e7f3331b50",
@@ -18809,6 +18873,9 @@
       },
       {
         "id": "28dd30fa-35d0-801b-a23c-f5195bba9f01"
+      },
+      {
+        "id": "293d30fa-35d0-8068-9e6f-ea5b114f11c9"
       }
     ],
     "site": null,
@@ -19727,6 +19794,9 @@
       },
       {
         "id": "28ed30fa-35d0-8093-a796-e52d6be4b984"
+      },
+      {
+        "id": "293d30fa-35d0-80cf-a3d8-d427b8fda1a2"
       }
     ],
     "site": null,
@@ -21036,6 +21106,12 @@
       },
       {
         "id": "174d30fa-35d0-812f-a1b1-dd5982d7c61d"
+      },
+      {
+        "id": "293d30fa-35d0-8032-9762-eb55aa132e1a"
+      },
+      {
+        "id": "293d30fa-35d0-8070-ae4f-d815387aafa6"
       }
     ],
     "site": null,
@@ -22152,6 +22228,9 @@
       },
       {
         "id": "279d30fa-35d0-8090-a47c-d90ba4a23510"
+      },
+      {
+        "id": "293d30fa-35d0-8073-9448-e47126451b88"
       }
     ],
     "site": null,
@@ -22324,6 +22403,12 @@
       },
       {
         "id": "176d30fa-35d0-80a2-9610-ce01530ba1eb"
+      },
+      {
+        "id": "28fd30fa-35d0-8027-a8cc-ff00b4c3e4f4"
+      },
+      {
+        "id": "28fd30fa-35d0-803c-b46c-d88336496d8f"
       }
     ],
     "site": null,
