@@ -723,6 +723,100 @@ async function getTeamsJson(releasesData, options = {}) {
   return teamData
 }
 
+async function updateAbandonedReleases(releasesData, teamsData) {
+  colorLog('\nПеревірка статусів релізів неактивних команд...', 'blue')
+  
+  const teamsMap = new Map(teamsData.map(team => [team.id, team]))
+  const inactiveStatuses = ['Невідомо', 'Неактивна', 'Припинено', 'Розформована']
+  let updatedCount = 0
+  const releasesToUpdate = []
+  
+  for (const release of releasesData) {
+    if (release.status !== 'В процесі' || release.status !== 'Відкладено') continue
+    
+    const allTeamIds = [
+      ...(release.teams || []),
+      ...(release.teamscolab || [])
+    ]
+    
+    if (allTeamIds.length === 0) continue
+    
+    const allTeamsInactive = allTeamIds.every(teamId => {
+      const team = teamsMap.get(teamId)
+      if (!team) return false
+      return inactiveStatuses.includes(team.status)
+    })
+    
+    if (allTeamsInactive) {
+      releasesToUpdate.push({
+        id: release.id,
+        title: release.title,
+        oldStatus: release.status
+      })
+      release.status = 'Закинуто'
+      updatedCount++
+    }
+  }
+  
+  if (updatedCount > 0) {
+    colorLog(`\nЗнайдено ${updatedCount} релізів для зміни статусу:`, 'yellow')
+    for (const rel of releasesToUpdate) {
+      colorLog(`  -> ${rel.title}: "${rel.oldStatus}" → "Закинуто"`, 'yellow')
+    }
+    
+    colorLog(`\nОновлено статус ${updatedCount} релізів на "Закинуто"`, 'green')
+  } else {
+    colorLog('Немає релізів для оновлення статусу', 'green')
+  }
+  
+  return releasesData
+}
+
+async function getTeamsJson(releasesData, options = {}) {
+  const { onlyModified = true } = options
+  
+  colorLog('\n3. Імпорт команд...', 'blue')
+  
+  const allTeamPages = await getAllPages(DATABASES.TEAMS_DB, 'Команди')
+  const previousTeamData = await loadPreviousData("TeamsDB.json")
+  
+  let pagesToProcess = onlyModified
+    ? filterModifiedPages(allTeamPages, previousTeamData)
+    : allTeamPages
+  
+  if (!onlyModified) {
+    colorLog(`Обробляємо всі ${allTeamPages.length} сторінок (повний режим)`, 'blue')
+  }
+  
+  let teamData = []
+  if (pagesToProcess.length > 0) {
+    colorLog(`Обробка ${pagesToProcess.length} ${onlyModified ? 'змінених' : ''} команд...`, 'blue')
+
+    if (onlyModified) {
+      for (const page of pagesToProcess) {
+          const title = page.properties['Назва команди']?.title[0]?.plain_text || `ID: ${page.id}`;
+          colorLog(`  -> ${title}`, 'yellow');
+      }
+    }
+
+    const processedTeams = await processTeamData(pagesToProcess)
+    
+    const existingMap = new Map(previousTeamData.map(team => [team.id, team]))
+    for (const team of processedTeams) {
+      existingMap.set(team.id, team)
+    }
+    teamData = Array.from(existingMap.values())
+    
+    teamData = buildTeamReleases(teamData, releasesData)
+    await saveData("TeamsDB.json", teamData)
+  } else {
+    colorLog('Немає змін в командах', 'green')
+    teamData = previousTeamData
+  }
+  
+  return teamData
+}
+
 async function runAllImports(options = {}) {
   const {
     anime = { onlyModified: true, update: { hikka: 'missing', mikai: 'missing' } },
@@ -731,11 +825,14 @@ async function runAllImports(options = {}) {
   } = options
   
   try {
-    colorLog('\n=== ПОЧАТОК ІМПОРТУ ДАНИХ ===\n', 'blue')
+    colorLog('\n=== ПОЧАТОK ІМПОРТУ ДАНИХ ===\n', 'blue')
     
     const animeData = await getAnimeTitlesJson(anime)
     const releasesData = await getReleasesJson(releases)
-    await getTeamsJson(releasesData, teams)
+    const teamsData = await getTeamsJson(releasesData, teams)
+    
+    // Запускаємо перевірку статусів після отримання всіх даних
+    await updateAbandonedReleases(releasesData, teamsData)
     
     colorLog('\n=== ІМПОРТ ЗАВЕРШЕНО УСПІШНО ===\n', 'green')
   } catch (error) {
