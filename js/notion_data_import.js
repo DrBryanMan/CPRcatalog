@@ -550,7 +550,7 @@ function buildTeamData(page) {
     altname: page.properties['Синоніми']?.rich_text?.flatMap(i => i.plain_text.split('\n')) || [],
     founded: page.properties['Дата заснування']?.date,
     type_team: page.properties['Тип команди']?.multi_select?.map(item => item.name) || [],
-    type_activity: page.properties['Тип роботи']?.multi_select?.map(item => item.name) || [],
+    type_activity: page.properties['Тип робіт']?.multi_select?.map(item => item.name) || [],
     status: page.properties.Статус?.select?.name || 'Невідомо',
     members: page.properties['Склад команди']?.relation || [],
     anime_releases: [],

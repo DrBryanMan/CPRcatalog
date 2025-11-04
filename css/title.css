@@ -1,28 +1,4 @@
 @import "components/title_modal_details.css";
-/*
-.title-detail .title-poster {
-  width: 300px;
-  height: auto;
-  border-radius: var(--radius);
-}
-.title-detail .poster-gallery {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-.title-detail .poster-meta {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  color: #888;
-}
-.title-detail .poster-controls {
-  margin-top: 0.5rem;
-}
-.title-detail .poster-controls button {
-  margin: 0 0.5rem;
-  padding: 0.3rem 0.6rem;
-  font-size: 1rem;
-  cursor: pointer;
-}*/
 
 .title-detail .title-cover {
   position: absolute;
@@ -47,11 +23,6 @@
   /* aspect-ratio: 3 / 2; */
   object-fit: cover;
 }
-
-/* = Інфо секція = */
-
-/*  */
-/*  */
 
 /* = Даб секція = */
 /*.title-detail .dub-info {
