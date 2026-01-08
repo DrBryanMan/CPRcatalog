@@ -184,6 +184,9 @@
       },
       {
         "id": "174d30fa-35d0-81f0-8ce1-e47d45c545ba"
+      },
+      {
+        "id": "181d30fa-35d0-80e8-b159-ea72f8783171"
       }
     ],
     "site": null,
@@ -2007,6 +2010,9 @@
       },
       {
         "id": "174d30fa-35d0-81e1-a9c9-c2e5a5458503"
+      },
+      {
+        "id": "2e0d30fa-35d0-8040-9436-db4ae1d3a1d8"
       }
     ],
     "site": null,
@@ -5240,6 +5246,9 @@
       },
       {
         "id": "28dd30fa-35d0-80a0-9cac-cb9aef12dea3"
+      },
+      {
+        "id": "2e0d30fa-35d0-80d9-ad3e-e2eea4f7b11c"
       }
     ],
     "site": null,
@@ -5931,6 +5940,15 @@
       },
       {
         "id": "28dd30fa-35d0-8057-9776-fb3e23589262"
+      },
+      {
+        "id": "2e0d30fa-35d0-80a6-9bbe-e30c9254bf04"
+      },
+      {
+        "id": "2e0d30fa-35d0-80d9-a9fd-c19ecef1cde0"
+      },
+      {
+        "id": "2e0d30fa-35d0-80ff-ac70-c0a7ce7eb9dd"
       }
     ],
     "site": null,
@@ -6521,6 +6539,12 @@
       },
       {
         "id": "293d30fa-35d0-8068-9e6f-ea5b114f11c9"
+      },
+      {
+        "id": "225d30fa-35d0-80ac-b602-fc3ed5c900a5"
+      },
+      {
+        "id": "293d30fa-35d0-8056-b7a6-f965e48b3834"
       }
     ],
     "site": null,
@@ -10567,6 +10591,12 @@
       },
       {
         "id": "28dd30fa-35d0-80e1-99d5-d920b3f4f544"
+      },
+      {
+        "id": "17ad30fa-35d0-8060-b5d3-c98c937312c3"
+      },
+      {
+        "id": "2e2d30fa-35d0-8079-ac3f-c8e697897536"
       }
     ],
     "site": "https://amanogawa.space/",
@@ -12463,6 +12493,27 @@
       },
       {
         "id": "28fd30fa-35d0-80ee-a06e-e287092994e3"
+      },
+      {
+        "id": "25cd30fa-35d0-807b-abf1-cb04826e112e"
+      },
+      {
+        "id": "17ad30fa-35d0-8025-b395-f7e5f206d25f"
+      },
+      {
+        "id": "174d30fa-35d0-81a0-9d8a-ce49ad61affa"
+      },
+      {
+        "id": "2e1d30fa-35d0-80cf-8566-e61f2281b2a4"
+      },
+      {
+        "id": "2e2d30fa-35d0-800e-bcb5-e6b50707ed33"
+      },
+      {
+        "id": "2e2d30fa-35d0-808b-9f3a-c727467d03f1"
+      },
+      {
+        "id": "2e2d30fa-35d0-80fa-a506-cbab0ef32221"
       }
     ],
     "site": null,
@@ -13910,6 +13961,9 @@
       },
       {
         "id": "174d30fa-35d0-81e2-930c-e788efaa2914"
+      },
+      {
+        "id": "1f2d30fa-35d0-809b-a7cd-f62a6f542d9d"
       }
     ],
     "site": "https://melvoice.com/",
@@ -16203,6 +16257,9 @@
       },
       {
         "id": "28dd30fa-35d0-8092-bdc9-f3352d5b8d53"
+      },
+      {
+        "id": "2e0d30fa-35d0-80c2-b0d3-f376e6f62d0c"
       }
     ],
     "site": null,
@@ -17972,11 +18029,13 @@
     "name": "Крафтова аудіостудія",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Активна",
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -18004,7 +18063,7 @@
     "tiktok": null,
     "tg": "https://t.me/KraftovaAS",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-01-07T11:04:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81ef-818c-ef31410d07bc",
@@ -20753,6 +20812,9 @@
       },
       {
         "id": "294d30fa-35d0-8087-a700-ccb6c7d3c1c2"
+      },
+      {
+        "id": "20dd30fa-35d0-80b7-ae9b-ee0e8895029d"
       }
     ],
     "site": null,
