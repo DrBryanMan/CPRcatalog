@@ -5,7 +5,7 @@ const path = require("path")
 require("dotenv").config({ path: path.join(__dirname, "../.env") })
 
 const MIKAI_API_URL = 'https://api.mikai.me/v1/integrations/hikka/anime'
-const HIKKA_FORGE_API_URL = 'https://hikka-forge.lorgon.org/anime'
+const HIKKA_FORGE_API_URL = 'https://hikka-forge.lorgon.dev/anime'
 
 const Notion = new Client({ 
   auth: process.env.NOTION_TOKEN
