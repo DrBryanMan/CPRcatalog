@@ -1,0 +1,141 @@
+/* Аніме Хаб сторінка */
+.anime-hub-page {
+    padding: 20px;
+}
+
+.page-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.page-header h1 {
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    color: var(--text-secondary);
+}
+
+/* Сітка блоків 2x2 */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Окремий блок контенту */
+.content-block {
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.block-header h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.block-header a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.block-header a:hover {
+    transform: translateX(3px);
+}
+
+/* Список елементів у блоці */
+.block-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.no-items {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 20px;
+}
+
+/* Міні-картка */
+.mini-card {
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.mini-card:hover {
+    background: var(--hover-bg);
+}
+
+.mini-poster {
+    width: 60px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.mini-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mini-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mini-info h3 {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.mini-info small {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.mini-teams {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 0.75rem;
+}
+
+.mini-team {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.mini-team img {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+}

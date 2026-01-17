@@ -1,11 +1,12 @@
 import * as Functions from './functions.js'
-import { currentRoute, router } from './router.js'
+import { currentRoute } from './router.js'
 import { createListCard } from './components/ListCard.js'
 import { createPagination } from './components/Pagination.js'
 import { createCatalogControls } from './components/CatalogControls.js'
 
 // Рендеринг списку аніме
 export function renderList(items, type, initialFilters, animeReleases = null, container = app, options = {}) {
+    console.log(items[0])
     // Нові опції для управління поведінкою
     const {
         isModal = false,           // чи це модалка

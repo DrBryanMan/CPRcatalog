@@ -1,6 +1,7 @@
 import Navigo from "https://cdn.jsdelivr.net/npm/navigo@8/+esm"
 import { AnimeTitles, Teams, AnimeReleases } from './loadData.js' // Змінні з даними
 import { renderHomePage } from './views/HomePage.js'
+import { renderAnimePage } from './views/AnimePage.js'
 import { renderList } from './renderList.js'
 import * as Functions from './functions.js'
 
@@ -26,6 +27,7 @@ export function setupRoutes() {
     router
         .on('*', () => window.scrollTo(0, 0))
         .on('/', handleRoute('/', renderHomePage))
+        .on('/animehub/', handleRoute('/animehub/', renderAnimePage))
         .on('/animehub/animes', (match) => {
             const initialFilters = {}
             currentHub = "animehub"
@@ -56,17 +58,23 @@ export function setupRoutes() {
             handleRoute('/animehub/releases', renderList, AnimeReleases, 'Релізи', initialFilters)()
         })
         
-        .on('/animehub/teams', handleRoute('/animehub/teams', renderList, Teams.filter(team => 
-              team.anime_releases.length > 0 && 
-              team.type_activity && 
-              team.type_activity.includes('Аніме')
-          ), 'Команди'))
-        // .on('/animehub/team/:id', (match) => {
-        //     currentHub = "animehub"
-        //     const teamId = match.data.id
-        //     const team = Teams.find(t => t.id == teamId)
-        //     handleRoute('/animehub/team/:id', renderTeamDetail, team)()
-        // })
+        .on('/animehub/teams', (match) => {
+            const initialFilters = {}
+            currentHub = "animehub"
+            if (match && match.params) {
+                for (let key in match.params) {
+                    if (match.params.hasOwnProperty(key)) {
+                        initialFilters[key] = match.params[key].split(',')
+                    }
+                }
+            }
+            const filteredTeams = Teams.filter(team => 
+                team.anime_releases.length > 0 && 
+                team.type_activity && 
+                team.type_activity.includes('Аніме')
+            )
+            handleRoute('/animehub/teams', renderList, filteredTeams, 'Команди', initialFilters)()
+        })
         .notFound(() => {
             if (typeof cleanup === 'function') {
                 cleanup()

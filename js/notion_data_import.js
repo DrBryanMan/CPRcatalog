@@ -4,26 +4,18 @@ const fs = require("fs").promises
 const path = require("path")
 require("dotenv").config({ path: path.join(__dirname, "../.env") })
 
-const MIKAI_API_URL = 'https://api.mikai.me/v1/integrations/hikka/anime'
+const HIKKA_API_URL = 'https://api.hikka.io/anime'
 const HIKKA_FORGE_API_URL = 'https://hikka-forge.lorgon.dev/anime'
+const MIKAI_API_URL = 'https://api.mikai.me/v1/integrations/hikka/anime'
+const POSTERS_URL = 'https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/PostersList.json'
 
-const Notion = new Client({ 
-  auth: process.env.NOTION_TOKEN
-})
+const Notion = new Client({ auth: process.env.NOTION_TOKEN })
 
 const colors = {
-  reset: "\x1b[0m",
-  red: "\x1b[31m",
-  green: "\x1b[32m",
-  yellow: "\x1b[33m",
-  blue: "\x1b[34m"
+  reset: "\x1b[0m", red: "\x1b[31m", green: "\x1b[32m", yellow: "\x1b[33m", blue: "\x1b[34m"
 }
 
-const OUTPUT_MODES = {
-  NEWLINE: 'newline',
-  SAMELINE: 'sameline', 
-  PROGRESS: 'progress'
-}
+const OUTPUT_MODES = { NEWLINE: 'newline', SAMELINE: 'sameline', PROGRESS: 'progress' }
 
 const DATABASES = {
   ANIME_TITLES_DB: "174d30fa35d081fb8baccf7e405d5cf9",
@@ -31,43 +23,18 @@ const DATABASES = {
   TEAMS_DB: "174d30fa35d081c4968cc340c89e4667"
 }
 
-const MIKAI_UPDATE_MODES = {
-  NONE: 'none',
-  MISSING: 'missing',
-  ALL: 'all'
-}
-
-const HIKKA_UPDATE_MODES = {
-  NONE: 'none',
-  MISSING: 'missing',
-  ALL: 'all'
-}
-
-const REQUIRED_HIKKA_FIELDS = [
-  'hikka_poster',
-  'scoreMAL',
-  'scoredbyMAL',
-  'mal_id'
-]
+const UPDATE_MODES = { NONE: 'none', MISSING: 'missing', ALL: 'all' }
+const HIKKA_FAILURE_THRESHOLD = 7
 
 process.stdout.setEncoding('utf8')
-if (process.stdout.isTTY) {
-  process.stdout.setNoDelay(true)
-}
+if (process.stdout.isTTY) process.stdout.setNoDelay(true)
 
 function colorLog(message, color = 'reset', mode = OUTPUT_MODES.NEWLINE) {
   const coloredMessage = `${colors[color]}${message}${colors.reset}`
-  
   switch(mode) {
-    case OUTPUT_MODES.SAMELINE:
-      process.stdout.write(`\r${coloredMessage}`)
-      break
-    case OUTPUT_MODES.PROGRESS:
-      process.stdout.write(`\r${coloredMessage}\n`)
-      break
-    case OUTPUT_MODES.NEWLINE:
-    default:
-      process.stdout.write(`${coloredMessage}\n`)
+    case OUTPUT_MODES.SAMELINE: process.stdout.write(`\r${coloredMessage}`); break
+    case OUTPUT_MODES.PROGRESS: process.stdout.write(`\r${coloredMessage}\n`); break
+    default: process.stdout.write(`${coloredMessage}\n`)
   }
 }
 
@@ -78,7 +45,18 @@ async function loadPreviousData(fileName) {
     colorLog(`Завантажено попередні дані з ${fileName}: ${data.length} записів`, 'blue')
     return data
   } catch (error) {
-    colorLog(`Попередні дані з ${fileName} не знайдено або помилка читання: ${error.message}`, 'yellow')
+    colorLog(`Попередні дані з ${fileName} не знайдено: ${error.message}`, 'yellow')
+    return []
+  }
+}
+
+async function loadExternalData(url, name) {
+  try {
+    const response = await axios.get(url)
+    colorLog(`Завантажено ${name}: ${response.data.length} записів`, 'blue')
+    return response.data
+  } catch (error) {
+    colorLog(`Не вдалося завантажити ${name}: ${error.message}`, 'yellow')
     return []
   }
 }
@@ -87,256 +65,16 @@ async function saveData(fileName, data) {
   try {
     const targetDir = path.join(__dirname, '../../CPRcatalog/json')
     await fs.mkdir(targetDir, { recursive: true })
-    await fs.writeFile(
-      path.join(targetDir, fileName),
-      JSON.stringify(data, null, 2)
-    )
+    await fs.writeFile(path.join(targetDir, fileName), JSON.stringify(data, null, 2))
     colorLog(`Успішно збережено дані у файл ${fileName}: ${data.length} записів`, 'green')
   } catch (error) {
-    colorLog(`Помилка при збереженні даних у файл ${fileName}: ${error.message}`, 'red')
-    throw error
-  }
-}
-
-async function loadMikaiData() {
-  try {
-    colorLog('Завантаження даних Mikai...', 'blue')
-    const response = await axios.get(MIKAI_API_URL)
-    colorLog(`Завантажено Mikai даних: ${response.data.length} записів`, 'green')
-    return response.data
-  } catch (error) {
-    colorLog(`Не вдалося завантажити Mikai дані: ${error.message}`, 'yellow')
-    return []
-  }
-}
-
-function createMikaiMap(mikaiData) {
-  const mikaiMap = new Map()
-  
-  for (const item of mikaiData) {
-    if (item.malId) {
-      mikaiMap.set(item.malId, {
-        id: item.id,
-        slug: item.slug,
-        url: `https://mikai.me/anime/${item.id}-${item.slug}`
-      })
-    }
-  }
-  
-  return mikaiMap
-}
-
-async function updateMikaiLinks(animeData, mode = MIKAI_UPDATE_MODES.NONE) {
-  if (mode === MIKAI_UPDATE_MODES.NONE) {
-    colorLog('Оновлення Mikai пропущено (режим: none)', 'yellow')
-    return animeData
-  }
-  
-  colorLog(`Оновлення Mikai посилань (режим: ${mode})...`, 'blue')
-  
-  const mikaiData = await loadMikaiData()
-  if (mikaiData.length === 0) {
-    colorLog('Немає даних Mikai для оновлення', 'yellow')
-    return animeData
-  }
-  
-  const mikaiMap = createMikaiMap(mikaiData)
-  let updatedCount = 0
-  
-  const animesToUpdate = animeData.filter(anime => {
-      if (!anime.mal_id) return false;
-      return mode === MIKAI_UPDATE_MODES.ALL || (mode === MIKAI_UPDATE_MODES.MISSING && !anime.mikai);
-  });
-
-  if (animesToUpdate.length > 0) {
-    colorLog(`Знайдено ${animesToUpdate.length} аніме для оновлення з Mikai`, 'blue');
-  }
-
-  for (let i = 0; i < animeData.length; i++) {
-    const anime = animeData[i];
-    if (!anime.mal_id) continue;
-
-    const shouldUpdate = mode === MIKAI_UPDATE_MODES.ALL || 
-                        (mode === MIKAI_UPDATE_MODES.MISSING && !anime.mikai);
-
-    if (!shouldUpdate) continue;
-
-    const mikaiInfo = mikaiMap.get(anime.mal_id);
-    if (mikaiInfo) {
-      colorLog(
-        `Обробка Mikai: ${i + 1}/${animeData.length}. ${anime.title || 'Без назви'}`,
-        'green',
-        OUTPUT_MODES.PROGRESS
-      );
-      anime.mikai = mikaiInfo.url;
-      updatedCount++;
-    }
-  }
-  
-  if (updatedCount > 0) {
-      colorLog(`\nОновлено Mikai посилань: ${updatedCount}`, 'green');
-  } else {
-      colorLog('Не знайдено аніме для оновлення з Mikai', 'green');
-  }
-
-  return animeData
-}
-
-// ========== HIKKA FORGE FUNCTIONS ==========
-
-function getMissingHikkaFields(anime) {
-  const missing = [];
-  for (const field of REQUIRED_HIKKA_FIELDS) {
-    if (!anime.hasOwnProperty(field) || anime[field] === null || anime[field] === undefined) {
-      missing.push(field);
-    }
-  }
-  return missing;
-}
-
-function extractSlugFromUrl(hikkaUrl) {
-  if (!hikkaUrl) return null
-  
-  try {
-    const parts = hikkaUrl.split('/')
-    return parts[parts.length - 1]
-  } catch (error) {
-    colorLog(`Помилка при витягуванні slug з URL ${hikkaUrl}: ${error.message}`, 'yellow')
-    return null
-  }
-}
-
-async function fetchHikkaForgeAnime(slug) {
-  try {
-    const response = await axios.get(`${HIKKA_FORGE_API_URL}/${slug}`)
-    return response.data
-  } catch (error) {
-    colorLog(`Помилка при отриманні даних Hikka Forge для ${slug}: ${error.message}`, 'yellow')
-    return null
-  }
-}
-
-function extractHikkaForgeData(forgeResponse) {
-  if (!forgeResponse) return null
-  
-  return {
-    hikka_poster: forgeResponse.imageUrl || null,
-    scoreMAL: forgeResponse.score || null,
-    scoredbyMAL: forgeResponse.scoredBy || null,
-    mal_id: forgeResponse.malId || null
-  }
-}
-
-function needsHikkaUpdate(anime, mode) {
-  if (!anime.hikka_url) {
-    return false
-  }
-  
-  if (mode === HIKKA_UPDATE_MODES.ALL) {
-    return true
-  }
-  
-  if (mode === HIKKA_UPDATE_MODES.MISSING) {
-    return getMissingHikkaFields(anime).length > 0
-  }
-  
-  return false
-}
-
-async function updateAnimeWithHikka(anime, hikkaData) {
-  if (!hikkaData) return anime
-  
-  for (const [key, value] of Object.entries(hikkaData)) {
-    if (value !== null && value !== undefined) {
-      anime[key] = value
-    }
-  }
-  
-  return anime
-}
-
-async function updateHikkaForgeData(animeData, mode = HIKKA_UPDATE_MODES.NONE) {
-  if (mode === HIKKA_UPDATE_MODES.NONE) {
-    colorLog('Оновлення Hikka Forge пропущено (режим: none)', 'yellow')
-    return animeData
-  }
-  
-  colorLog(`Оновлення Hikka Forge даних (режим: ${mode})...`, 'blue')
-  
-  const animesToUpdate = animeData.filter(anime => needsHikkaUpdate(anime, mode))
-  
-  if (animesToUpdate.length === 0) {
-    colorLog('Немає аніме для оновлення з Hikka Forge', 'green')
-    return animeData
-  }
-  
-  colorLog(`Знайдено ${animesToUpdate.length} аніме для оновлення з Hikka Forge`, 'blue')
-  
-  let updatedCount = 0
-  let errorCount = 0
-  
-  for (let i = 0; i < animesToUpdate.length; i++) {
-    const anime = animesToUpdate[i]
-    const slug = extractSlugFromUrl(anime.hikka_url)
-    
-    if (!slug) {
-      errorCount++
-      continue
-    }
-    
-    let logDetails = `(${slug})`
-    if (mode === HIKKA_UPDATE_MODES.MISSING) {
-        const missingFields = getMissingHikkaFields(anime)
-        if (missingFields.length > 0) {
-            logDetails = `(missing: ${missingFields.join(', ')})`
-        }
-    }
-    
-    colorLog(
-      `Обробка Hikka Forge: ${i + 1}/${animesToUpdate.length}. ${anime.title || 'Без назви'} ${logDetails}`,
-      'green',
-      OUTPUT_MODES.PROGRESS
-    )
-    
-    const forgeResponse = await fetchHikkaForgeAnime(slug)
-    
-    if (forgeResponse) {
-      const hikkaData = extractHikkaForgeData(forgeResponse)
-      await updateAnimeWithHikka(anime, hikkaData)
-      updatedCount++
-    } else {
-      errorCount++
-    }
-    
-    await new Promise(resolve => setTimeout(resolve, 100))
-  }
-  
-  colorLog(`\nОновлено Hikka Forge даних: ${updatedCount}`, 'green')
-  
-  if (errorCount > 0) {
-    colorLog(`Помилок при оновленні: ${errorCount}`, 'yellow')
-  }
-  
-  return animeData
-}
-
-// ========== NOTION FUNCTIONS ==========
-
-async function getPageById(pageId) {
-  try {
-    return await Notion.pages.retrieve({ page_id: pageId })
-  } catch (error) {
-    console.error('Помилка при отриманні даних:', error)
+    colorLog(`Помилка при збереженні ${fileName}: ${error.message}`, 'red')
     throw error
   }
 }
 
 async function getAllPages(databaseId, dbTitle) {
-  let pages = []
-  let hasMore = true
-  let nextCursor = null
-  let totalProcessed = 0
-  
+  let pages = [], hasMore = true, nextCursor = null, totalProcessed = 0
   console.log(`Початок імпорту сторінок з бази даних ${dbTitle}`)
 
   while (hasMore) {
@@ -344,85 +82,356 @@ async function getAllPages(databaseId, dbTitle) {
       database_id: databaseId,
       start_cursor: nextCursor || undefined
     })
-
-    const newPages = response.results
-    totalProcessed += newPages.length
+    totalProcessed += response.results.length
     colorLog(`Отримано ${totalProcessed} сторінок...`, 'reset', OUTPUT_MODES.PROGRESS)
-    
     pages = pages.concat(response.results)
     hasMore = response.has_more
     nextCursor = response.next_cursor
   }
-  
   colorLog(`\nЗавершено отримання сторінок. Всього: ${totalProcessed}`, 'reset')
   return pages
 }
 
 function filterModifiedPages(allPages, existingData) {
-  const existingMap = new Map(
-    existingData.map(item => [
-      item.id, 
-      new Date(item.last_edited || item.created_time || 0)
-    ])
-  )
-  
-  const modifiedPages = []
-  const newPages = []
+  const existingMap = new Map(existingData.map(item => [item.id, new Date(item.last_edited || item.created_time || 0)]))
+  const modifiedPages = [], newPages = []
   
   for (const page of allPages) {
-    const pageId = page.id
     const pageLastEdited = new Date(page.last_edited_time)
-    
-    if (!existingMap.has(pageId)) {
+    if (!existingMap.has(page.id)) {
       newPages.push(page)
       modifiedPages.push(page)
     } else {
-      const existingLastEdited = existingMap.get(pageId)
+      const existingLastEdited = existingMap.get(page.id)
+      const existingAnime = existingData.find(item => item.id === page.id)
+      const hasMissingFields = existingAnime && getMissingHikkaFields(existingAnime).length > 0
       
-      if (pageLastEdited > existingLastEdited || 
-          Math.abs(pageLastEdited - existingLastEdited) > 1000) {
+      if (pageLastEdited > existingLastEdited || Math.abs(pageLastEdited - existingLastEdited) > 1000 || hasMissingFields) {
         modifiedPages.push(page)
       }
     }
   }
-  
-  if (newPages.length > 0) {
-    colorLog(`Нових сторінок: ${newPages.length}`, 'green')
-  }
-  
-  if (modifiedPages.length > newPages.length) {
-    colorLog(`Змінених існуючих сторінок: ${modifiedPages.length - newPages.length}`, 'yellow')
-  }
-  
+  if (newPages.length > 0) colorLog(`Нових сторінок: ${newPages.length}`, 'green')
+  if (modifiedPages.length > newPages.length) colorLog(`Змінених існуючих: ${modifiedPages.length - newPages.length}`, 'yellow')
   return modifiedPages
 }
 
-function buildAnimeData(page, previousAnime = null) {
+function extractSlugFromUrl(hikkaUrl) {
+  if (!hikkaUrl) return null
+  try {
+    return hikkaUrl.split('/').pop()
+  } catch (error) {
+    colorLog(`Помилка витягування slug з ${hikkaUrl}: ${error.message}`, 'yellow')
+    return null
+  }
+}
+
+async function fetchHikkaData(slug) {
+  try {
+    const response = await axios.get(`${HIKKA_API_URL}/${slug}`)
+    const anime = response.data
+    return {
+      hikka_poster: anime.image,
+      hikkaSynonyms: anime.synonyms,
+      status: anime.status,
+      season: anime.season,
+      duration: anime.duration,
+      scoreMAL: anime.score,
+      scoredbyMAL: anime.scored_by,
+      scoreHikka: anime.native_score,
+      scoredbyHikka: anime.native_scored_by,
+      source: anime.source,
+      mal_id: anime.mal_id
+    }
+  } catch {
+    return null
+  }
+}
+
+async function fetchHikkaForgeData(slug) {
+  try {
+    const response = await axios.get(`${HIKKA_FORGE_API_URL}/${slug}`)
+    const data = response.data
+    return {
+      hikka_poster: data.imageUrl || null,
+      hikkaSynonyms: null,
+      status: null,
+      season: null,
+      duration: null,
+      scoreMAL: data.score || null,
+      scoredbyMAL: data.scoredBy || null,
+      scoreHikka: data.scoreHikka || null,
+      scoredbyHikka: data.scoredByHikka || null,
+      source: null,
+      mal_id: data.malId || null
+    }
+  } catch {
+    return null
+  }
+}
+
+// Додайте цю змінну на початку файлу
+let hikkaErrors = []
+
+function getMissingHikkaFields(anime) {
+  const required = ['hikka_poster', 'scoreMAL', 'scoredbyMAL', 'scoreHikka', 'scoredbyHikka', 'mal_id']
+  return required.filter(field => {
+    const value = anime[field]
+    // Поле вважається пропущеним тільки якщо воно null, undefined або порожній рядок
+    // 0 - це валідне значення!
+    return value === null || value === undefined || value === ''
+  })
+}
+
+async function fetchHikkaDataWithFallback(urls) {
+  const results = []
+  let hikkaFailureCount = 0, useForgeOnly = false
+  hikkaErrors = [] // Очищаємо список помилок
+  
+  for (let i = 0; i < urls.length; i++) {
+    const slug = extractSlugFromUrl(urls[i])
+    if (!slug) continue
+    
+    let hikkaData = null
+    let source = null
+    
+    if (!useForgeOnly) {
+      try {
+        hikkaData = await fetchHikkaData(slug)
+        if (!hikkaData) {
+          hikkaFailureCount++
+          colorLog(`Hikka помилка (${hikkaFailureCount}/${HIKKA_FAILURE_THRESHOLD}): ${slug}`, 'yellow')
+          if (hikkaFailureCount >= HIKKA_FAILURE_THRESHOLD) {
+            colorLog(`Перемикаємось на Hikka-Forge після ${HIKKA_FAILURE_THRESHOLD} помилок`, 'yellow')
+            useForgeOnly = true
+          }
+        } else {
+          hikkaFailureCount = 0
+          source = 'Hikka'
+        }
+      } catch (error) {
+        hikkaErrors.push({ slug, error: error.message, source: 'Hikka' })
+        colorLog(`❌ Помилка Hikka для ${slug}: ${error.message}`, 'red')
+        hikkaFailureCount++
+        if (hikkaFailureCount >= HIKKA_FAILURE_THRESHOLD) {
+          useForgeOnly = true
+        }
+        continue
+      }
+    }
+    
+    if (!hikkaData) {
+      try {
+        hikkaData = await fetchHikkaForgeData(slug)
+        if (hikkaData) {
+          source = 'Forge'
+          colorLog(`Обробка: ${i + 1}/${urls.length}. ${slug} [Forge]`, 'blue', OUTPUT_MODES.PROGRESS)
+        } else {
+          hikkaErrors.push({ slug, error: 'Дані не знайдені ні в Hikka ні в Forge', source: 'Both' })
+          colorLog(`❌ Помилка для ${slug} з обох джерел`, 'red')
+          continue
+        }
+      } catch (error) {
+        hikkaErrors.push({ slug, error: error.message, source: 'Forge' })
+        colorLog(`❌ Помилка Forge для ${slug}: ${error.message}`, 'red')
+        continue
+      }
+    } else if (!source) {
+      source = 'Hikka'
+    }
+    
+    const fieldsAvailable = Object.keys(hikkaData).filter(key => key !== 'url' && hikkaData[key] != null)
+    colorLog(`Обробка: ${i + 1}/${urls.length}. ${slug} [${source}] (${fieldsAvailable.length} полів)`, 'green', OUTPUT_MODES.PROGRESS)
+    
+    results.push({ url: urls[i], ...hikkaData })
+    await new Promise(resolve => setTimeout(resolve, 100))
+  }
+  
+  return results
+}
+
+async function updateHikkaData(animeData, mode = UPDATE_MODES.NONE) {
+  if (mode === UPDATE_MODES.NONE) {
+    colorLog('Оновлення Hikka пропущено (режим: none)', 'yellow')
+    return animeData
+  }
+  
+  colorLog(`\nОновлення Hikka даних (режим: ${mode})...`, 'blue')
+  const previousData = await loadPreviousData("AnimeTitlesDB.json")
+  
+  // ВИПРАВЛЕННЯ: створюємо Map з поточних даних для швидкого пошуку
+  const currentDataMap = new Map(animeData.map(a => [a.hikka_url, a]))
+  
+  const animesToUpdate = animeData.filter(anime => {
+    if (!anime.hikka_url) return false
+    if (mode === UPDATE_MODES.ALL) return true
+    if (mode === UPDATE_MODES.MISSING) {
+      // Перевіряємо ПОТОЧНИЙ стан аніме, а не попередній
+      const current = currentDataMap.get(anime.hikka_url)
+      const missingFields = getMissingHikkaFields(current)
+      
+      if (missingFields.length > 0) {
+        const title = anime.title || 'Без назви'
+        colorLog(`✓ Оновлюємо ${title} (пропущені поля: ${missingFields.join(', ')})`, 'green')
+        return true
+      }
+      return false
+    }
+    return false
+  })
+  
+  if (animesToUpdate.length === 0) {
+    colorLog('Немає аніме для оновлення з Hikka', 'green')
+    return animeData
+  }
+  
+  colorLog(`Знайдено ${animesToUpdate.length} аніме для оновлення`, 'blue')
+  const urls = animesToUpdate.map(a => a.hikka_url).filter(Boolean)
+  const hikkaResults = await fetchHikkaDataWithFallback(urls)
+  const hikkaMap = new Map(hikkaResults.map(item => [item.url, item]))
+  
+  let updatedCount = 0
+  for (const anime of animeData) {
+    if (!anime.hikka_url) continue
+    const hikkaData = hikkaMap.get(anime.hikka_url)
+    if (hikkaData) {
+      const updatedFields = []
+      Object.entries(hikkaData).forEach(([key, value]) => {
+        // Перезаписуємо тільки якщо поточне значення null, undefined або ''
+        // НЕ перезаписуємо 0, бо це валідне значення!
+        const currentValue = anime[key]
+        const shouldUpdate = currentValue === null || currentValue === undefined || currentValue === ''
+        
+        if (key !== 'url' && value != null && shouldUpdate) {
+          anime[key] = value
+          updatedFields.push(key)
+        }
+      })
+      if (updatedFields.length > 0) {
+        const title = anime.title || 'Без назви'
+        colorLog(`  ✓ ${title} (+${updatedFields.length} полів: ${updatedFields.join(', ')})`, 'green')
+      }
+      updatedCount++
+    }
+  }
+  
+  colorLog(`\nОновлено Hikka даних: ${updatedCount}`, 'green')
+  
+  if (hikkaErrors.length > 0) {
+    colorLog(`\n!!  ПОМИЛКИ HIKKA (${hikkaErrors.length}):`, 'red')
+    hikkaErrors.forEach((err, idx) => {
+      colorLog(`  ${idx + 1}. ${err.slug} [${err.source}]: ${err.error}`, 'red')
+    })
+  }
+  
+  return animeData
+}
+
+async function updateMikaiLinks(animeData, mode = UPDATE_MODES.NONE) {
+  if (mode === UPDATE_MODES.NONE) {
+    colorLog('Оновлення Mikai пропущено (режим: none)', 'yellow')
+    return animeData
+  }
+  
+  colorLog(`Оновлення Mikai посилань (режим: ${mode})...`, 'blue')
+  const mikaiData = await loadExternalData(MIKAI_API_URL, 'Mikai дані')
+  if (mikaiData.length === 0) return animeData
+  
+  const { mikaiMap } = createMapsFromData([], mikaiData)
+  let updatedCount = 0
+  
+  for (const anime of animeData) {
+    if (!anime.mal_id) continue
+    const shouldUpdate = mode === UPDATE_MODES.ALL || (mode === UPDATE_MODES.MISSING && !anime.mikai)
+    if (!shouldUpdate) continue
+    
+    const mikaiInfo = mikaiMap.get(anime.mal_id)
+    if (mikaiInfo) {
+      anime.mikai = mikaiInfo.url
+      updatedCount++
+    }
+  }
+  if (updatedCount > 0) colorLog(`\nОновлено Mikai: ${updatedCount}`, 'green')
+  return animeData
+}
+
+function createMapsFromData(postersData, mikaiData) {
+  const postersMap = new Map()
+  const mikaiMap = new Map()
+  
+  // Створюємо map для постерів за hikka_url
+  if (postersData && Array.isArray(postersData)) {
+    for (const item of postersData) {
+      if (item.hikka_url && item.posters) {
+        postersMap.set(item.hikka_url, item.posters)
+      }
+    }
+  }
+  
+  // Створюємо map для Mikai за mal_id
+  if (mikaiData && Array.isArray(mikaiData)) {
+    for (const item of mikaiData) {
+      if (item.mal_id && item.url) {
+        mikaiMap.set(item.mal_id, { url: item.url })
+      }
+    }
+  }
+  
+  return { postersMap, mikaiMap }
+}
+
+function debugPostersMap(postersMap) {
+  console.log('🔍 Перевірка postersMap:')
+  let count = 0
+  for (const [url, posters] of postersMap) {
+    if (count < 3) { // Показати перші 3 записи
+      console.log(`  URL: ${url}`)
+      console.log(`  Posters:`, JSON.stringify(posters, null, 2))
+    }
+    count++
+  }
+  console.log(`Всього записів: ${count}`)
+}
+
+function buildAnimeData(page, previousAnime, posterList, mikaiUrl) {
+  const posterUrl = posterList?.length > 0
+    ? `https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/${posterList[0].url}`
+    : null
+
   return {
     id: page.id,
     hikka_url: page.properties.Hikka?.url,
+    hikka_poster: previousAnime?.hikka_poster || null,
     cover: page.cover?.external?.url || page.cover?.file?.url,
+    poster: posterUrl,
+    posters: posterList || [],
     title: page.properties['Назва тайтлу']?.title[0]?.plain_text,
     romaji: page.properties.Ромаджі?.rich_text[0]?.plain_text,
     synonyms: page.properties.Синоніми?.rich_text?.flatMap(i => i.plain_text.split('\n')) || [],
+    hikkaSynonyms: previousAnime?.hikkaSynonyms,
     type: page.properties['Тип медіа']?.multi_select[0]?.name,
     format: page.properties['Формат']?.select?.name,
     format_cpr: page.properties['Формат цпр']?.select?.name,
     year: page.properties['Рік виходу']?.rich_text[0]?.plain_text,
     genre: page.properties.Жанри?.select?.name,
+    status: previousAnime?.status,
+    season: previousAnime?.season,
+    duration: previousAnime?.duration,
+    scoreMAL: previousAnime?.scoreMAL,
+    scoredbyMAL: previousAnime?.scoredbyMAL,
+    scoreHikka: previousAnime?.scoreHikka,
+    scoredbyHikka: previousAnime?.scoredbyHikka,
     anitube: page.properties.АніТюб?.url,
     uaserial: page.properties.Uaserial?.url,
     uakino: page.properties.Uakino?.url,
+    mikai: mikaiUrl || previousAnime?.mikai || null,
     tg_channel: page.properties['Tg канал']?.url,
     episodes: page.properties['Кількість серій']?.rich_text[0]?.plain_text,
     releases: page.properties['🗂️ Релізи команд']?.relation || [],
     relations: page.properties["Пов'язані частини"]?.relation || [],
     franchise: page.properties.Франшиза?.relation?.id || [],
-    hikka_poster: previousAnime?.hikka_poster || null,
-    scoreMAL: previousAnime?.scoreMAL || null,
-    scoredbyMAL: previousAnime?.scoredbyMAL || null,
-    mal_id: previousAnime?.mal_id || null,
-    mikai: previousAnime?.mikai || null,
+    source: previousAnime?.source,
+    mal_id: previousAnime?.mal_id,
     created_time: page.created_time,
     last_edited: page.last_edited_time
   }
@@ -431,34 +440,50 @@ function buildAnimeData(page, previousAnime = null) {
 async function processAnimeData(pages) {
   const previousData = await loadPreviousData("AnimeTitlesDB.json")
   const previousDataMap = new Map(previousData.map(anime => [anime.id, anime]))
-  
-  const results = []
-  
-  for (const page of pages) {
-    const previousAnime = previousDataMap.get(page.id)
-    const newAnimeData = buildAnimeData(page, previousAnime)
-    results.push(newAnimeData)
+  const postersData = await loadExternalData(POSTERS_URL, 'Постери з GitHub')
+  const mikaiData = await loadExternalData(MIKAI_API_URL, 'Mikai дані')
+
+   // ДЕБАГ: Перевіряємо структуру даних з GitHub
+  if (postersData.length > 0) {
+    colorLog('🔍 Приклад даних з GitHub:', 'yellow')
+    console.log(JSON.stringify(postersData[0], null, 2))
   }
   
-  return results
-}
+  const { postersMap, mikaiMap } = createMapsFromData(postersData, mikaiData)
+  
+  // ДЕБАГ: Перевіряємо що зберігається в Map
+  debugPostersMap(postersMap)
 
-function hasNewTorrentLinks(currentLinks, previousLinks) {
-  const previousUrls = new Set((previousLinks || []).map(link => link.href))
-  return currentLinks.some(link => !previousUrls.has(link.href))
+  const results = []
+  for (const page of pages) {
+    const previousAnime = previousDataMap.get(page.id)
+    const hikka_url = page.properties.Hikka?.url
+    const posterList = hikka_url ? postersMap.get(hikka_url) : null
+    let mikaiUrl = previousAnime?.mikai || null
+    
+    // ДЕБАГ: Показати що саме отримали для першої сторінки
+    if (results.length === 0 && posterList) {
+      colorLog(`🔍 Приклад posterList для ${hikka_url}:`, 'yellow')
+      console.log(JSON.stringify(posterList, null, 2))
+    }
+    
+    if (!mikaiUrl && previousAnime?.mal_id) {
+      const mikaiInfo = mikaiMap.get(previousAnime.mal_id)
+      if (mikaiInfo) mikaiUrl = mikaiInfo.url
+    }
+    results.push(buildAnimeData(page, previousAnime, posterList, mikaiUrl))
+  }
+  return results
 }
 
 function buildReleaseData(page, previousRelease) {
   const currentEpisodes = page.properties['Кількість']?.rich_text[0]?.plain_text || null
   const currentTorrentLinks = page.properties['Торент посилання']?.rich_text
-    .filter(link => link !== null)
-    .map(link => ({
-      text: link.plain_text.trim(),
-      href: link.href
-    })) || []
-
+    .filter(link => link)
+    .map(link => ({ text: link.plain_text.trim(), href: link.href })) || []
   const previousTorrentLinks = previousRelease?.torrentLinks || []
-  const hasNewLinks = hasNewTorrentLinks(currentTorrentLinks, previousTorrentLinks)
+  const previousUrls = new Set(previousTorrentLinks.map(link => link.href))
+  const hasNewLinks = currentTorrentLinks.some(link => !previousUrls.has(link.href))
 
   return {
     id: page.id,
@@ -481,64 +506,14 @@ function buildReleaseData(page, previousRelease) {
     episodesLastUpdate: previousRelease && previousRelease.episodes !== currentEpisodes
       ? new Date().toISOString()
       : previousRelease?.episodesLastUpdate || null,
-    torrentLinksLastAdded: hasNewLinks
-      ? new Date().toISOString() 
-      : previousRelease?.torrentLinksLastAdded || null
+    torrentLinksLastAdded: hasNewLinks ? new Date().toISOString() : previousRelease?.torrentLinksLastAdded || null
   }
 }
 
 async function processReleaseData(pages) {
   const previousData = await loadPreviousData("AnimeReleasesDB.json")
-  const previousDataMap = new Map(previousData.map(release => [release.id, release]))
-  
-  const results = []
-  for (const page of pages) {
-    const previousRelease = previousDataMap.get(page.id)
-    const newReleaseData = buildReleaseData(page, previousRelease)
-    results.push(newReleaseData)
-  }
-  return results
-}
-
-function buildTeamReleases(teamsData, releasesData) {
-  colorLog("Формування зв'язків релізів для команд...", 'blue')
-  
-  const teamsMap = new Map(teamsData.map(team => [team.id, team]))
-  
-  for (const release of releasesData) {
-    const releaseInfo = { id: release.id }
-    
-    if (release.teams && Array.isArray(release.teams)) {
-      for (const teamId of release.teams) {
-        if (teamsMap.has(teamId)) {
-          const teamData = teamsMap.get(teamId)
-          if (!teamData.anime_releases) {
-            teamData.anime_releases = []
-          }
-          if (!teamData.anime_releases.some(r => r.id === release.id)) {
-            teamData.anime_releases.push(releaseInfo)
-          }
-        }
-      }
-    }
-    
-    if (release.teamscolab && Array.isArray(release.teamscolab)) {
-      for (const teamId of release.teamscolab) {
-        if (teamsMap.has(teamId)) {
-          const teamData = teamsMap.get(teamId)
-          if (!teamData.anime_releases) {
-            teamData.anime_releases = []
-          }
-          if (!teamData.anime_releases.some(r => r.id === release.id)) {
-            teamData.anime_releases.push(releaseInfo)
-          }
-        }
-      }
-    }
-  }
-  
-  colorLog(`Сформовано зв'язки релізів для ${teamsData.length} команд`, 'green')
-  return teamsData
+  const previousDataMap = new Map(previousData.map(r => [r.id, r]))
+  return pages.map(page => buildReleaseData(page, previousDataMap.get(page.id)))
 }
 
 function buildTeamData(page) {
@@ -567,253 +542,131 @@ function buildTeamData(page) {
 }
 
 async function processTeamData(pages) {
-  const results = []
-  for (const page of pages) {
-    const teamData = buildTeamData(page)
-    results.push(teamData)
+  return pages.map(page => buildTeamData(page))
+}
+
+function buildTeamReleases(teamsData, releasesData) {
+  colorLog("Формування зв'язків релізів...", 'blue')
+  const teamsMap = new Map(teamsData.map(team => [team.id, team]))
+  
+  for (const release of releasesData) {
+    const releaseInfo = { id: release.id }
+    const allTeamIds = [...(release.teams || []), ...(release.teamscolab || [])]
+    
+    for (const teamId of allTeamIds) {
+      if (teamsMap.has(teamId)) {
+        const team = teamsMap.get(teamId)
+        if (!team.anime_releases) team.anime_releases = []
+        if (!team.anime_releases.some(r => r.id === release.id)) {
+          team.anime_releases.push(releaseInfo)
+        }
+      }
+    }
   }
-  return results
+  colorLog(`Сформовано зв'язки для ${teamsData.length} команд`, 'green')
+  return teamsData
 }
 
 function mergeData(existingData, newData) {
   const merged = new Map()
-  
   existingData.forEach(item => merged.set(item.id, item))
   newData.forEach(item => merged.set(item.id, item))
-  
   return Array.from(merged.values())
 }
 
-async function getAnimeTitlesJson(options = {}) {
-  const {
-    onlyModified = true,
-    update = { hikka: 'none', mikai: 'none' }
-  } = options
+async function updateAbandonedReleases(releasesData, teamsData) {
+  colorLog('\nПеревірка статусів релізів...', 'blue')
+  const teamsMap = new Map(teamsData.map(team => [team.id, team]))
+  const inactiveStatuses = ['Неактивна', 'Припинено', 'Розформована']
+  let updatedCount = 0
   
+  for (const release of releasesData) {
+    if (release.status !== 'В процесі' && release.status !== 'Відкладено') continue
+    const allTeamIds = [...(release.teams || []), ...(release.teamscolab || [])]
+    if (allTeamIds.length === 0) continue
+    
+    const allInactive = allTeamIds.every(id => {
+      const team = teamsMap.get(id)
+      return team && inactiveStatuses.includes(team.status)
+    })
+    
+    if (allInactive) {
+      colorLog(`  -> ${release.title}: "${release.status}" → "Закинуто"`, 'yellow')
+      release.status = 'Закинуто'
+      updatedCount++
+    }
+  }
+  if (updatedCount > 0) colorLog(`\nОновлено статус ${updatedCount} релізів`, 'green')
+  else colorLog('Немає релізів для оновлення', 'green')
+  return releasesData
+}
+
+async function getAnimeTitlesJson(options = {}) {
+  const { onlyModified = true, update = { hikka: 'none', mikai: 'none' } } = options
   colorLog('\n1. Імпорт аніме тайтлів...', 'blue')
   
-  const allAnimePages = await getAllPages(DATABASES.ANIME_TITLES_DB, 'Аніме тайтли')
-  const previousAnimeData = await loadPreviousData("AnimeTitlesDB.json")
+  const allPages = await getAllPages(DATABASES.ANIME_TITLES_DB, 'Аніме тайтли')
+  const previousData = await loadPreviousData("AnimeTitlesDB.json")
+  let pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData) : allPages
   
-  let pagesToProcess = onlyModified 
-    ? filterModifiedPages(allAnimePages, previousAnimeData)
-    : allAnimePages
+  if (!onlyModified) colorLog(`Обробка всіх ${allPages.length} сторінок`, 'blue')
   
-  if (!onlyModified) {
-    colorLog(`Оброблюємо всі ${allAnimePages.length} сторінок (повний режим)`, 'blue')
-  }
-  
-  let animeData = []
+  let animeData = previousData
   if (pagesToProcess.length > 0) {
-    colorLog(`Обробка ${pagesToProcess.length} ${onlyModified ? 'змінених' : ''} аніме тайтлів...`, 'blue')
-    
-    if (onlyModified) {
-        for (const page of pagesToProcess) {
-            const title = page.properties['Назва тайтлу']?.title[0]?.plain_text || `ID: ${page.id}`;
-            colorLog(`  -> ${title}`, 'yellow');
-        }
-    }
-    
+    colorLog(`Обробка ${pagesToProcess.length} ${onlyModified ? 'змінених' : ''} тайтлів...`, 'blue')
     const processedAnime = await processAnimeData(pagesToProcess)
-    
-    const existingMap = new Map(previousAnimeData.map(anime => [anime.id, anime]))
-    for (const anime of processedAnime) {
-      existingMap.set(anime.id, anime)
-    }
-    animeData = Array.from(existingMap.values())
-    
-    animeData = await updateHikkaForgeData(animeData, HIKKA_UPDATE_MODES[update.hikka.toUpperCase()])
-    animeData = await updateMikaiLinks(animeData, MIKAI_UPDATE_MODES[update.mikai.toUpperCase()])
-    
+    animeData = mergeData(previousData, processedAnime)
+    animeData = await updateHikkaData(animeData, UPDATE_MODES[update.hikka.toUpperCase()])
+    animeData = await updateMikaiLinks(animeData, UPDATE_MODES[update.mikai.toUpperCase()])
     await saveData("AnimeTitlesDB.json", animeData)
   } else {
     colorLog('Немає змін в аніме тайтлах', 'green')
-    animeData = previousAnimeData
   }
-  
   return animeData
 }
 
 async function getReleasesJson(options = {}) {
   const { onlyModified = true } = options
-  
   colorLog('\n2. Імпорт релізів...', 'blue')
   
-  const allReleasePages = await getAllPages(DATABASES.ANIME_RELEASES_DB, 'Аніме релізи')
-  const previousReleaseData = await loadPreviousData("AnimeReleasesDB.json")
+  const allPages = await getAllPages(DATABASES.ANIME_RELEASES_DB, 'Аніме релізи')
+  const previousData = await loadPreviousData("AnimeReleasesDB.json")
+  let pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData) : allPages
   
-  let pagesToProcess = onlyModified
-    ? filterModifiedPages(allReleasePages, previousReleaseData)
-    : allReleasePages
+  if (!onlyModified) colorLog(`Обробка всіх ${allPages.length} сторінок`, 'blue')
   
-  if (!onlyModified) {
-    colorLog(`Оброблюємо всі ${allReleasePages.length} сторінок (повний режим)`, 'blue')
-  }
-  
-  let releaseData = []
+  let releaseData = previousData
   if (pagesToProcess.length > 0) {
     colorLog(`Обробка ${pagesToProcess.length} ${onlyModified ? 'змінених' : ''} релізів...`, 'blue')
-
-    if (onlyModified) {
-      for (const page of pagesToProcess) {
-          const title = page.properties['Назва релізу']?.title[0]?.plain_text || `ID: ${page.id}`;
-          colorLog(`  -> ${title}`, 'yellow');
-      }
-    }
-    
     const processedReleases = await processReleaseData(pagesToProcess)
-    
-    const existingMap = new Map(previousReleaseData.map(release => [release.id, release]))
-    for (const release of processedReleases) {
-      existingMap.set(release.id, release)
-    }
-    releaseData = Array.from(existingMap.values())
-    
+    releaseData = mergeData(previousData, processedReleases)
     await saveData("AnimeReleasesDB.json", releaseData)
   } else {
     colorLog('Немає змін в релізах', 'green')
-    releaseData = previousReleaseData
   }
-  
   return releaseData
 }
 
 async function getTeamsJson(releasesData, options = {}) {
   const { onlyModified = true } = options
-  
   colorLog('\n3. Імпорт команд...', 'blue')
   
-  const allTeamPages = await getAllPages(DATABASES.TEAMS_DB, 'Команди')
-  const previousTeamData = await loadPreviousData("TeamsDB.json")
+  const allPages = await getAllPages(DATABASES.TEAMS_DB, 'Команди')
+  const previousData = await loadPreviousData("TeamsDB.json")
+  let pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData) : allPages
   
-  let pagesToProcess = onlyModified
-    ? filterModifiedPages(allTeamPages, previousTeamData)
-    : allTeamPages
+  if (!onlyModified) colorLog(`Обробка всіх ${allPages.length} сторінок`, 'blue')
   
-  if (!onlyModified) {
-    colorLog(`Оброблюємо всі ${allTeamPages.length} сторінок (повний режим)`, 'blue')
-  }
-  
-  let teamData = []
+  let teamData = previousData
   if (pagesToProcess.length > 0) {
     colorLog(`Обробка ${pagesToProcess.length} ${onlyModified ? 'змінених' : ''} команд...`, 'blue')
-
-    if (onlyModified) {
-      for (const page of pagesToProcess) {
-          const title = page.properties['Назва команди']?.title[0]?.plain_text || `ID: ${page.id}`;
-          colorLog(`  -> ${title}`, 'yellow');
-      }
-    }
-
     const processedTeams = await processTeamData(pagesToProcess)
-    
-    const existingMap = new Map(previousTeamData.map(team => [team.id, team]))
-    for (const team of processedTeams) {
-      existingMap.set(team.id, team)
-    }
-    teamData = Array.from(existingMap.values())
-    
+    teamData = mergeData(previousData, processedTeams)
     teamData = buildTeamReleases(teamData, releasesData)
     await saveData("TeamsDB.json", teamData)
   } else {
     colorLog('Немає змін в командах', 'green')
-    teamData = previousTeamData
   }
-  
-  return teamData
-}
-
-async function updateAbandonedReleases(releasesData, teamsData) {
-  colorLog('\nПеревірка статусів релізів неактивних команд...', 'blue')
-  
-  const teamsMap = new Map(teamsData.map(team => [team.id, team]))
-  const inactiveStatuses = ['Невідомо', 'Неактивна', 'Припинено', 'Розформована']
-  let updatedCount = 0
-  const releasesToUpdate = []
-  
-  for (const release of releasesData) {
-    if (release.status !== 'В процесі' || release.status !== 'Відкладено') continue
-    
-    const allTeamIds = [
-      ...(release.teams || []),
-      ...(release.teamscolab || [])
-    ]
-    
-    if (allTeamIds.length === 0) continue
-    
-    const allTeamsInactive = allTeamIds.every(teamId => {
-      const team = teamsMap.get(teamId)
-      if (!team) return false
-      return inactiveStatuses.includes(team.status)
-    })
-    
-    if (allTeamsInactive) {
-      releasesToUpdate.push({
-        id: release.id,
-        title: release.title,
-        oldStatus: release.status
-      })
-      release.status = 'Закинуто'
-      updatedCount++
-    }
-  }
-  
-  if (updatedCount > 0) {
-    colorLog(`\nЗнайдено ${updatedCount} релізів для зміни статусу:`, 'yellow')
-    for (const rel of releasesToUpdate) {
-      colorLog(`  -> ${rel.title}: "${rel.oldStatus}" → "Закинуто"`, 'yellow')
-    }
-    
-    colorLog(`\nОновлено статус ${updatedCount} релізів на "Закинуто"`, 'green')
-  } else {
-    colorLog('Немає релізів для оновлення статусу', 'green')
-  }
-  
-  return releasesData
-}
-
-async function getTeamsJson(releasesData, options = {}) {
-  const { onlyModified = true } = options
-  
-  colorLog('\n3. Імпорт команд...', 'blue')
-  
-  const allTeamPages = await getAllPages(DATABASES.TEAMS_DB, 'Команди')
-  const previousTeamData = await loadPreviousData("TeamsDB.json")
-  
-  let pagesToProcess = onlyModified
-    ? filterModifiedPages(allTeamPages, previousTeamData)
-    : allTeamPages
-  
-  if (!onlyModified) {
-    colorLog(`Обробляємо всі ${allTeamPages.length} сторінок (повний режим)`, 'blue')
-  }
-  
-  let teamData = []
-  if (pagesToProcess.length > 0) {
-    colorLog(`Обробка ${pagesToProcess.length} ${onlyModified ? 'змінених' : ''} команд...`, 'blue')
-
-    if (onlyModified) {
-      for (const page of pagesToProcess) {
-          const title = page.properties['Назва команди']?.title[0]?.plain_text || `ID: ${page.id}`;
-          colorLog(`  -> ${title}`, 'yellow');
-      }
-    }
-
-    const processedTeams = await processTeamData(pagesToProcess)
-    
-    const existingMap = new Map(previousTeamData.map(team => [team.id, team]))
-    for (const team of processedTeams) {
-      existingMap.set(team.id, team)
-    }
-    teamData = Array.from(existingMap.values())
-    
-    teamData = buildTeamReleases(teamData, releasesData)
-    await saveData("TeamsDB.json", teamData)
-  } else {
-    colorLog('Немає змін в командах', 'green')
-    teamData = previousTeamData
-  }
-  
   return teamData
 }
 
@@ -825,31 +678,43 @@ async function runAllImports(options = {}) {
   } = options
   
   try {
-    colorLog('\n=== ПОЧАТОK ІМПОРТУ ДАНИХ ===\n', 'blue')
-    
+    colorLog('\n=== ПОЧАТОК ІМПОРТУ ДАНИХ ===\n', 'blue')
     const animeData = await getAnimeTitlesJson(anime)
-    const releasesData = await getReleasesJson(releases)
+    let releasesData = await getReleasesJson(releases)
     const teamsData = await getTeamsJson(releasesData, teams)
+    releasesData = await updateAbandonedReleases(releasesData, teamsData)
+    await saveData("AnimeReleasesDB.json", releasesData)
     
-    // Запускаємо перевірку статусів після отримання всіх даних
-    await updateAbandonedReleases(releasesData, teamsData)
+    colorLog(`\n📊 СТАТИСТИКА ІМПОРТУ:`, 'blue')
+    colorLog(`  • Тайтлів: ${animeData.length}`, 'green')
+    colorLog(`  • Релізів: ${releasesData.length}`, 'green')
+    colorLog(`  • Команд: ${teamsData.length}`, 'green')
+    
+    // 🔥 Виводимо помилки в кінці
+    if (hikkaErrors.length > 0) {
+      colorLog(`\n!!  ЗАГАЛОМ ПОМИЛОК HIKKA: ${hikkaErrors.length}`, 'red')
+    }
     
     colorLog('\n=== ІМПОРТ ЗАВЕРШЕНО УСПІШНО ===\n', 'green')
   } catch (error) {
     colorLog(`\n=== КРИТИЧНА ПОМИЛКА ===`, 'red')
-    colorLog(`${error.message}`, 'red')
-    colorLog(`${error.stack}`, 'red')
+    colorLog(`${error.message}\n${error.stack}`, 'red')
     process.exit(1)
   }
 }
 
 ;(async () => {
   try {
-    // ЗА ЗАМОВЧУВАННЯМ: тільки змінені, з оновленням відсутніх полів
     await runAllImports({
-      anime: { onlyModified: true, update: { hikka: 'missing', mikai: 'missing' } },
-      releases: { onlyModified: true },
-      teams: { onlyModified: true }
+      anime: { 
+        onlyModified: false,
+        update: { 
+          hikka: 'missing',
+          mikai: 'missing'
+        } 
+      },
+      releases: { onlyModified: false },
+      teams: { onlyModified: false }
     })
   } catch (err) {
     console.error(err)

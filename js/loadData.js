@@ -40,7 +40,13 @@ export async function loadDBData() {
           }
       })
   }))
-  .sort((a, b) => new Date(b.created_time || 0) - new Date(a.created_time || 0))
+  // .sort((a, b) => new Date(b.created_time || 0) - new Date(a.created_time || 0))
+  .sort((a, b) => {
+    const aTime = a.episodesLastUpdate ? new Date(a.episodesLastUpdate) : new Date(a.created_time || 0);
+    const bTime = b.episodesLastUpdate ? new Date(b.episodesLastUpdate) : new Date(b.created_time || 0);
+    
+    return bTime - aTime;
+  });
 
   // Додаємо тайтлам інфу про релізи та додаткові постери
   AnimeTitles = AnimeTitles.map(anime => {
