@@ -83,7 +83,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Активна",
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -12766,6 +12766,9 @@
       },
       {
         "id": "2ead30fa-35d0-8062-aaf3-ca9432a3cb8a"
+      },
+      {
+        "id": "2ecd30fa-35d0-80e2-9232-fb8d16f12816"
       }
     ],
     "site": null,
