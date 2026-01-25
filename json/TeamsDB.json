@@ -196,6 +196,9 @@
       },
       {
         "id": "2e3d30fa-35d0-806d-b27f-d1c9cf218c66"
+      },
+      {
+        "id": "2f1d30fa-35d0-803e-8225-cefa0f9bfe2b"
       }
     ],
     "site": null,
@@ -1058,6 +1061,12 @@
       },
       {
         "id": "2ead30fa-35d0-80e5-8b5d-dda6b759b144"
+      },
+      {
+        "id": "2edd30fa-35d0-801a-b66f-e5eee4e2f97b"
+      },
+      {
+        "id": "2f1d30fa-35d0-805e-9ae9-d064afb9d6bb"
       }
     ],
     "site": null,
@@ -1156,9 +1165,6 @@
       },
       {
         "id": "179d30fa-35d0-8036-a419-c7f7648ac104"
-      },
-      {
-        "id": "179d30fa-35d0-803a-96bc-ef2322e55f28"
       },
       {
         "id": "179d30fa-35d0-8040-a13e-dcd1e1742381"
@@ -1478,7 +1484,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Розформована",
     "members": [],
     "anime_releases": [
       {
@@ -1614,7 +1620,7 @@
     "tiktok": null,
     "tg": "https://t.me/Shirifugen",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-27T08:56:00.000Z"
+    "last_edited": "2026-01-20T13:22:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8112-bd98-f7d1daade998",
@@ -2663,6 +2669,9 @@
       },
       {
         "id": "2ead30fa-35d0-80ab-b13f-c21acb7b1a24"
+      },
+      {
+        "id": "2edd30fa-35d0-80d4-80e2-d509168befe9"
       }
     ],
     "site": null,
@@ -2854,6 +2863,9 @@
       },
       {
         "id": "2ead30fa-35d0-80c0-9014-f5b364781cf3"
+      },
+      {
+        "id": "2efd30fa-35d0-80df-a4f8-d79c7bb1ecde"
       }
     ],
     "site": null,
@@ -3190,7 +3202,7 @@
   {
     "id": "174d30fa-35d0-8135-a9d5-d411b92cde03",
     "cover": null,
-    "name": "DLGG",
+    "name": "DLGGSUB",
     "altname": [],
     "founded": null,
     "type_team": [],
@@ -3205,16 +3217,22 @@
         "id": "174d30fa-35d0-81bc-bda2-eb8b150c2601"
       },
       {
+        "id": "174d30fa-35d0-81f5-9806-f6644c448b38"
+      },
+      {
         "id": "203d30fa-35d0-8054-92df-fc21c9f86245"
+      },
+      {
+        "id": "2eed30fa-35d0-80b3-85b4-c6a6ac209fb7"
       }
     ],
     "site": null,
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/dlggsub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-01-19T10:45:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8135-b495-dcb210a127df",
@@ -3646,6 +3664,9 @@
       },
       {
         "id": "1ccd30fa-35d0-8070-bf2d-ddea722ab8d1"
+      },
+      {
+        "id": "2f1d30fa-35d0-80ee-a4b4-fea072c9379d"
       }
     ],
     "site": "https://4ua.org.ua/",
@@ -3744,6 +3765,9 @@
       },
       {
         "id": "2ead30fa-35d0-808e-a7d1-edb9e12c43f4"
+      },
+      {
+        "id": "2edd30fa-35d0-801a-b66f-e5eee4e2f97b"
       }
     ],
     "site": null,
@@ -5384,6 +5408,15 @@
       },
       {
         "id": "2e3d30fa-35d0-80d7-b7b7-f7e960812217"
+      },
+      {
+        "id": "2eed30fa-35d0-8016-8f78-cc4a2d15cff8"
+      },
+      {
+        "id": "2eed30fa-35d0-80b9-ac4b-d3464e5fb14a"
+      },
+      {
+        "id": "2eed30fa-35d0-80c9-af64-c561dcd0f458"
       }
     ],
     "site": null,
@@ -6102,6 +6135,9 @@
       },
       {
         "id": "2ead30fa-35d0-80eb-af6c-e9266416c981"
+      },
+      {
+        "id": "2eed30fa-35d0-8075-ace1-ef9b076012b2"
       }
     ],
     "site": null,
@@ -6468,6 +6504,9 @@
       },
       {
         "id": "28ed30fa-35d0-80db-bafd-f3496e17649b"
+      },
+      {
+        "id": "2f1d30fa-35d0-80b1-9080-c99fd3f66445"
       }
     ],
     "site": null,
@@ -6716,6 +6755,9 @@
       },
       {
         "id": "2ead30fa-35d0-8049-ae61-de469d75dd1f"
+      },
+      {
+        "id": "2f1d30fa-35d0-8061-b5e9-c25999c46151"
       }
     ],
     "site": null,
@@ -6849,9 +6891,6 @@
       },
       {
         "id": "174d30fa-35d0-810d-85f5-f14a817e6e1f"
-      },
-      {
-        "id": "174d30fa-35d0-8115-8de8-c596a6f230ff"
       },
       {
         "id": "174d30fa-35d0-8128-a967-fefebef95132"
@@ -7647,6 +7686,15 @@
       },
       {
         "id": "2ead30fa-35d0-8081-b449-d4f431087323"
+      },
+      {
+        "id": "2eed30fa-35d0-800b-aa06-c6379ea257dd"
+      },
+      {
+        "id": "2eed30fa-35d0-8026-80bb-dfc9a31eea40"
+      },
+      {
+        "id": "2eed30fa-35d0-80fa-b1da-d3817c1908be"
       }
     ],
     "site": null,
@@ -8368,13 +8416,13 @@
         "id": "293d30fa-35d0-80cf-a3d8-d427b8fda1a2"
       },
       {
-        "id": "2e7d30fa-35d0-804d-897e-f951247058da"
-      },
-      {
         "id": "2e8d30fa-35d0-800d-96b6-ccc002cc1555"
       },
       {
         "id": "2ead30fa-35d0-809a-bffa-f1dfeede854d"
+      },
+      {
+        "id": "2edd30fa-35d0-8092-bd50-eba83862940d"
       }
     ],
     "site": null,
@@ -8735,6 +8783,9 @@
       },
       {
         "id": "28dd30fa-35d0-80d7-bcd0-e07187c4a2b2"
+      },
+      {
+        "id": "2eed30fa-35d0-80a0-8dc9-c5252fd86671"
       }
     ],
     "site": null,
@@ -9797,6 +9848,9 @@
         "id": "174d30fa-35d0-81fe-9501-d0cb917310cf"
       },
       {
+        "id": "179d30fa-35d0-803a-96bc-ef2322e55f28"
+      },
+      {
         "id": "17cd30fa-35d0-8007-8b1c-e59aa1da9503"
       },
       {
@@ -9873,6 +9927,9 @@
       },
       {
         "id": "2e9d30fa-35d0-808e-987f-d1684d8be304"
+      },
+      {
+        "id": "2eed30fa-35d0-805c-b018-c8068bd43395"
       }
     ],
     "site": null,
@@ -10834,6 +10891,15 @@
       },
       {
         "id": "2ead30fa-35d0-80a1-8275-f82bbd9817f1"
+      },
+      {
+        "id": "2f0d30fa-35d0-8089-81ff-c41d2169c704"
+      },
+      {
+        "id": "2f0d30fa-35d0-8096-8b07-f1c17f9e4fc2"
+      },
+      {
+        "id": "2f1d30fa-35d0-80ab-8af3-defd9777d7b4"
       }
     ],
     "site": "https://amanogawa.space/",
@@ -12360,9 +12426,6 @@
         "id": "174d30fa-35d0-81e9-a391-eb948e55f935"
       },
       {
-        "id": "174d30fa-35d0-81e9-bb20-cd03968a491c"
-      },
-      {
         "id": "174d30fa-35d0-81e9-be10-c87e46b9eecd"
       },
       {
@@ -12769,6 +12832,9 @@
       },
       {
         "id": "2ecd30fa-35d0-80e2-9232-fb8d16f12816"
+      },
+      {
+        "id": "2efd30fa-35d0-80c3-9e56-c38836794742"
       }
     ],
     "site": null,
@@ -13472,6 +13538,12 @@
       },
       {
         "id": "2ead30fa-35d0-8062-b0e5-c2c53a796df8"
+      },
+      {
+        "id": "2f1d30fa-35d0-8093-83c4-d880de1f734b"
+      },
+      {
+        "id": "2f1d30fa-35d0-80e7-96eb-c53dee4cbf99"
       }
     ],
     "site": "https://ufdub.com/",
@@ -13575,6 +13647,9 @@
       },
       {
         "id": "28dd30fa-35d0-804f-bbf8-e930d8bda536"
+      },
+      {
+        "id": "2eed30fa-35d0-80da-b2ed-eea80760c8f4"
       }
     ],
     "site": null,
@@ -16584,6 +16659,9 @@
       },
       {
         "id": "2ead30fa-35d0-80f3-90a0-c08cb2767058"
+      },
+      {
+        "id": "2f0d30fa-35d0-80a3-99e0-d00c5c79baf6"
       }
     ],
     "site": null,
@@ -18199,6 +18277,12 @@
       },
       {
         "id": "2e4d30fa-35d0-80de-9f6f-d31ba8465d7a"
+      },
+      {
+        "id": "2efd30fa-35d0-8022-9e2a-fdcc32e862cd"
+      },
+      {
+        "id": "2efd30fa-35d0-8088-93aa-e14fe7aa2bcf"
       }
     ],
     "site": null,
@@ -19079,9 +19163,6 @@
         "id": "174d30fa-35d0-8184-94ff-f6ef135ff0d6"
       },
       {
-        "id": "174d30fa-35d0-8184-9cbe-cbac301b8041"
-      },
-      {
         "id": "174d30fa-35d0-8185-8502-c9bee02ee410"
       },
       {
@@ -19461,9 +19542,6 @@
       },
       {
         "id": "184d30fa-35d0-802a-b39e-fc54d8f70747"
-      },
-      {
-        "id": "184d30fa-35d0-802b-9171-dcf056f73891"
       },
       {
         "id": "184d30fa-35d0-802b-b57b-f149e28369a8"
@@ -20127,6 +20205,21 @@
       },
       {
         "id": "2ead30fa-35d0-80f6-a350-c4cf2cd13ed0"
+      },
+      {
+        "id": "2eed30fa-35d0-8071-a277-c532b94866b6"
+      },
+      {
+        "id": "2eed30fa-35d0-80a1-bdb5-d9cfbb99d257"
+      },
+      {
+        "id": "2eed30fa-35d0-80a8-ab29-f85c83cfac03"
+      },
+      {
+        "id": "2efd30fa-35d0-808e-b090-cff3325b973e"
+      },
+      {
+        "id": "2f1d30fa-35d0-80b8-80a4-cb2a30ef5f43"
       }
     ],
     "site": null,
@@ -21352,6 +21445,9 @@
       },
       {
         "id": "2ead30fa-35d0-80d1-b9d5-ee558a1c8f5b"
+      },
+      {
+        "id": "2f1d30fa-35d0-8063-840f-c44a16492753"
       }
     ],
     "site": null,
@@ -21458,6 +21554,9 @@
       },
       {
         "id": "2ead30fa-35d0-8009-928d-e33ec6f7c218"
+      },
+      {
+        "id": "2efd30fa-35d0-80ef-9010-c9cc95ab0603"
       }
     ],
     "site": null,
@@ -22166,6 +22265,21 @@
       },
       {
         "id": "233d30fa-35d0-809a-9062-cd972c46252c"
+      },
+      {
+        "id": "2eed30fa-35d0-8050-9cae-fa3811f96c8b"
+      },
+      {
+        "id": "2eed30fa-35d0-8053-8581-e399d4d7f49e"
+      },
+      {
+        "id": "2eed30fa-35d0-806f-b25e-fc06c4f21583"
+      },
+      {
+        "id": "2eed30fa-35d0-809c-8151-c8b09bbf6e29"
+      },
+      {
+        "id": "2eed30fa-35d0-80ff-9b4e-edd19d57d7ec"
       }
     ],
     "site": null,
@@ -22298,6 +22412,9 @@
       },
       {
         "id": "28ed30fa-35d0-80b2-ab65-ca9adf56cec4"
+      },
+      {
+        "id": "2eed30fa-35d0-80ae-a461-f8f971cf9a7f"
       }
     ],
     "site": null,
@@ -22612,6 +22729,12 @@
       },
       {
         "id": "2e7d30fa-35d0-806b-9423-dc33fca84a6b"
+      },
+      {
+        "id": "2eed30fa-35d0-8008-baf2-d0535730efe3"
+      },
+      {
+        "id": "2eed30fa-35d0-806e-a540-dc528fe360c0"
       }
     ],
     "site": null,
@@ -23116,6 +23239,9 @@
         "id": "201d30fa-35d0-80f0-8fb2-f2d78a493e12"
       },
       {
+        "id": "2e3d30fa-35d0-8085-8eb9-c7bb7fbb17dd"
+      },
+      {
         "id": "2ead30fa-35d0-8093-a4ca-ed36fa9c1175"
       }
     ],
@@ -23313,6 +23439,9 @@
       },
       {
         "id": "294d30fa-35d0-80ea-af5d-c1c2cd7897aa"
+      },
+      {
+        "id": "2eed30fa-35d0-8016-b3ff-e9927db36b44"
       }
     ],
     "site": null,
@@ -25015,6 +25144,9 @@
     "anime_releases": [
       {
         "id": "28dd30fa-35d0-80c9-9171-f7f48ff59ab6"
+      },
+      {
+        "id": "2eed30fa-35d0-80dd-aeaa-f544ed22e66c"
       }
     ],
     "site": null,
@@ -25162,5 +25294,60 @@
     "tg": null,
     "created_time": "2026-01-15T11:13:00.000Z",
     "last_edited": "2026-01-15T11:13:00.000Z"
+  },
+  {
+    "id": "2edd30fa-35d0-8055-885b-c70f443d538b",
+    "cover": null,
+    "name": "Subs4UA4Fun",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "174d30fa-35d0-816d-806b-cd93c1dff463"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-01-19T12:06:00.000Z",
+    "last_edited": "2026-01-19T12:06:00.000Z"
+  },
+  {
+    "id": "2edd30fa-35d0-8086-8a3d-f4d9e68f11da",
+    "cover": null,
+    "name": "Avaritia Team",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "2e7d30fa-35d0-804d-897e-f951247058da"
+      },
+      {
+        "id": "2eed30fa-35d0-804b-8075-ca7b45a8bff6"
+      },
+      {
+        "id": "2eed30fa-35d0-804e-974c-ebca832766f6"
+      },
+      {
+        "id": "2eed30fa-35d0-80cd-b9de-d95599618410"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": "https://t.me/AvaritiaTeam",
+    "created_time": "2026-01-19T14:31:00.000Z",
+    "last_edited": "2026-01-19T14:31:00.000Z"
   }
 ]
