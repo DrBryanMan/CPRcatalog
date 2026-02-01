@@ -5735,6 +5735,12 @@
       },
       {
         "id": "28ed30fa-35d0-801a-bbe2-d05be67a2779"
+      },
+      {
+        "id": "2fad30fa-35d0-80ba-877d-e734dd205299"
+      },
+      {
+        "id": "2fad30fa-35d0-80fe-b4d0-f224e0df14af"
       }
     ],
     "site": null,
@@ -8277,6 +8283,9 @@
         "id": "214d30fa-35d0-8016-96ea-f4c0be7d6873"
       },
       {
+        "id": "216d30fa-35d0-8017-bcb0-ec2d483f2f35"
+      },
+      {
         "id": "216d30fa-35d0-8040-8fdf-d1c902b99aa4"
       },
       {
@@ -8482,6 +8491,9 @@
       },
       {
         "id": "2f5d30fa-35d0-80fd-a5ad-e894db5f585b"
+      },
+      {
+        "id": "2f8d30fa-35d0-80d9-a7fa-f3a979eff58f"
       }
     ],
     "site": null,
@@ -9941,6 +9953,9 @@
       },
       {
         "id": "197d30fa-35d0-803b-a67d-f61577da05c2"
+      },
+      {
+        "id": "1d5d30fa-35d0-80b8-a837-d48a8af433fd"
       },
       {
         "id": "1ecd30fa-35d0-8030-ae6e-f794f2b0661b"
@@ -13609,6 +13624,12 @@
       },
       {
         "id": "2f1d30fa-35d0-80e7-96eb-c53dee4cbf99"
+      },
+      {
+        "id": "2fad30fa-35d0-806e-b430-ccacfbb6e22d"
+      },
+      {
+        "id": "2fad30fa-35d0-8077-a7f6-e43f15634da1"
       }
     ],
     "site": "https://ufdub.com/",
@@ -25577,5 +25598,34 @@
     "tg": null,
     "created_time": "2026-01-29T07:05:00.000Z",
     "last_edited": "2026-01-29T07:08:00.000Z"
+  },
+  {
+    "id": "2f8d30fa-35d0-80c1-b536-dafdc845b861",
+    "cover": null,
+    "name": "Shichifukujin translations",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "174d30fa-35d0-81e9-bb20-cd03968a491c"
+      },
+      {
+        "id": "17ad30fa-35d0-802a-8d00-c3bcc86946b1"
+      },
+      {
+        "id": "190d30fa-35d0-8049-842d-c535c2caa36d"
+      }
+    ],
+    "site": "https://www.sfj-translations.org.ua/index.php?id=0",
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-01-30T07:37:00.000Z",
+    "last_edited": "2026-01-30T07:37:00.000Z"
   }
 ]
