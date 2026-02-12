@@ -1425,6 +1425,9 @@
       },
       {
         "id": "2fed30fa-35d0-80f8-b9b8-f9fa99212821"
+      },
+      {
+        "id": "304d30fa-35d0-805c-a3a9-d77157f18cf3"
       }
     ],
     "site": null,
@@ -1547,9 +1550,6 @@
         "id": "174d30fa-35d0-81fe-9162-ddfe87539c32"
       },
       {
-        "id": "179d30fa-35d0-80fa-afd5-cb89be116c72"
-      },
-      {
         "id": "185d30fa-35d0-8010-98f3-f25fc443f1ef"
       },
       {
@@ -1601,9 +1601,6 @@
         "id": "188d30fa-35d0-8025-be3a-e0c792b92a91"
       },
       {
-        "id": "188d30fa-35d0-802e-ba8f-e7ad708c9465"
-      },
-      {
         "id": "188d30fa-35d0-803a-b5fc-c4d81fa22770"
       },
       {
@@ -1611,9 +1608,6 @@
       },
       {
         "id": "188d30fa-35d0-806c-aefa-d1c32018bf37"
-      },
-      {
-        "id": "188d30fa-35d0-8080-ba62-dd6d689cb6b1"
       },
       {
         "id": "188d30fa-35d0-808d-afdf-cb2b5f497b5d"
@@ -5488,6 +5482,24 @@
       },
       {
         "id": "2fed30fa-35d0-8054-8249-d548b9654beb"
+      },
+      {
+        "id": "305d30fa-35d0-801a-aa44-e9b7f9ff0092"
+      },
+      {
+        "id": "305d30fa-35d0-8046-bba8-edf269b35b97"
+      },
+      {
+        "id": "305d30fa-35d0-8067-af90-f151fb6f73b4"
+      },
+      {
+        "id": "305d30fa-35d0-8069-9cfe-f1a100baba2e"
+      },
+      {
+        "id": "305d30fa-35d0-807a-8407-e87f46b17e9b"
+      },
+      {
+        "id": "305d30fa-35d0-80da-b393-c2a2b482cc75"
       }
     ],
     "site": null,
@@ -6218,6 +6230,15 @@
       },
       {
         "id": "2eed30fa-35d0-8075-ace1-ef9b076012b2"
+      },
+      {
+        "id": "305d30fa-35d0-803e-8b3f-ccc71d02d2da"
+      },
+      {
+        "id": "305d30fa-35d0-8091-a472-cdb5821f2554"
+      },
+      {
+        "id": "305d30fa-35d0-80d1-8d76-db2acbd56a68"
       }
     ],
     "site": null,
@@ -6778,6 +6799,9 @@
       },
       {
         "id": "181d30fa-35d0-80c6-9bb9-cb90e5e17433"
+      },
+      {
+        "id": "188d30fa-35d0-802e-ba8f-e7ad708c9465"
       },
       {
         "id": "18fd30fa-35d0-803b-a588-d4c851cfc67d"
@@ -7984,9 +8008,6 @@
       },
       {
         "id": "1fcd30fa-35d0-80eb-a2e7-f2464f81dc85"
-      },
-      {
-        "id": "1fdd30fa-35d0-8040-a8b4-ebdf88507202"
       },
       {
         "id": "1fdd30fa-35d0-8050-9bb1-eed47fe9625a"
@@ -12948,6 +12969,9 @@
       },
       {
         "id": "2efd30fa-35d0-80c3-9e56-c38836794742"
+      },
+      {
+        "id": "304d30fa-35d0-805c-8d5a-f9425bb119c4"
       }
     ],
     "site": null,
@@ -20430,6 +20454,9 @@
       },
       {
         "id": "2fed30fa-35d0-8073-a054-e4b86b978caf"
+      },
+      {
+        "id": "304d30fa-35d0-8087-a6ff-d49ce83917c9"
       }
     ],
     "site": null,
@@ -21941,11 +21968,7 @@
     "type_activity": [],
     "status": "Невідомо",
     "members": [],
-    "anime_releases": [
-      {
-        "id": "179d30fa-35d0-80fa-afd5-cb89be116c72"
-      }
-    ],
+    "anime_releases": [],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -22825,7 +22848,7 @@
   {
     "id": "1ebd30fa-35d0-80b0-ad7f-df44bc370908",
     "cover": null,
-    "name": "Джек Ріден",
+    "name": "ДжекРіден",
     "altname": [],
     "founded": null,
     "type_team": [
@@ -22960,6 +22983,9 @@
       },
       {
         "id": "2eed30fa-35d0-806e-a540-dc528fe360c0"
+      },
+      {
+        "id": "304d30fa-35d0-8083-9712-f808ce402e47"
       }
     ],
     "site": null,
@@ -22968,7 +22994,7 @@
     "tiktok": null,
     "tg": "https://t.me/PerekladyRidena",
     "created_time": "2025-05-06T16:44:00.000Z",
-    "last_edited": "2025-05-27T12:04:00.000Z"
+    "last_edited": "2026-02-11T14:11:00.000Z"
   },
   {
     "id": "1ecd30fa-35d0-8005-9a3f-dfb4b4548e0b",
@@ -23481,7 +23507,7 @@
   {
     "id": "1ffd30fa-35d0-8020-9898-c8fc986169de",
     "cover": null,
-    "name": "Artymko",
+    "name": "ArtymKo",
     "altname": [],
     "founded": null,
     "type_team": [],
@@ -23489,6 +23515,9 @@
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
+      {
+        "id": "1fdd30fa-35d0-8040-a8b4-ebdf88507202"
+      },
       {
         "id": "1ffd30fa-35d0-802f-ad65-c6e322bcc661"
       },
@@ -23514,7 +23543,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-05-26T08:49:00.000Z",
-    "last_edited": "2025-05-26T08:49:00.000Z"
+    "last_edited": "2026-02-11T14:16:00.000Z"
   },
   {
     "id": "1ffd30fa-35d0-8038-b096-f201a331c86b",
@@ -23667,6 +23696,9 @@
       },
       {
         "id": "2eed30fa-35d0-8016-b3ff-e9927db36b44"
+      },
+      {
+        "id": "304d30fa-35d0-80df-8465-ff6cc9b82fac"
       }
     ],
     "site": null,
@@ -25406,6 +25438,9 @@
     "members": [],
     "anime_releases": [
       {
+        "id": "188d30fa-35d0-8080-ba62-dd6d689cb6b1"
+      },
+      {
         "id": "28dd30fa-35d0-80c9-9171-f7f48ff59ab6"
       },
       {
@@ -25744,5 +25779,73 @@
     "tg": "https://t.me/AtomicSubs",
     "created_time": "2026-02-05T09:25:00.000Z",
     "last_edited": "2026-02-05T09:25:00.000Z"
+  },
+  {
+    "id": "304d30fa-35d0-8084-a836-fce8a793e568",
+    "cover": null,
+    "name": "Sonido Bandidos",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "304d30fa-35d0-80fd-8939-ea37852bd257"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-02-11T14:14:00.000Z",
+    "last_edited": "2026-02-11T14:14:00.000Z"
+  },
+  {
+    "id": "304d30fa-35d0-8093-a655-ec28439f34f9",
+    "cover": null,
+    "name": "Honyaku Chimu",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "304d30fa-35d0-801a-9201-f07c3b1f82b6"
+      },
+      {
+        "id": "304d30fa-35d0-8037-a676-fc2290dc2b66"
+      },
+      {
+        "id": "304d30fa-35d0-8055-bba5-c365dad8e6e7"
+      },
+      {
+        "id": "304d30fa-35d0-809c-833f-ef99ee747c03"
+      },
+      {
+        "id": "304d30fa-35d0-80bc-a6cc-c05c9f61c2c3"
+      },
+      {
+        "id": "304d30fa-35d0-80bd-a931-c905f35a0e5b"
+      },
+      {
+        "id": "304d30fa-35d0-80d9-a26b-ebf34a9584b0"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": "https://t.me/honyaku_chimu",
+    "created_time": "2026-02-11T15:01:00.000Z",
+    "last_edited": "2026-02-11T15:13:00.000Z"
   }
 ]
