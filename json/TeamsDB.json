@@ -1091,9 +1091,6 @@
         "id": "2e3d30fa-35d0-807f-a62a-e412f822ee72"
       },
       {
-        "id": "2e3d30fa-35d0-80ad-b64b-ffbe8d744e7d"
-      },
-      {
         "id": "2e3d30fa-35d0-80e0-adce-fbb414e7af51"
       },
       {
@@ -1116,6 +1113,9 @@
       },
       {
         "id": "2f1d30fa-35d0-805e-9ae9-d064afb9d6bb"
+      },
+      {
+        "id": "319d30fa-35d0-80a5-aed7-c2f38edc63f0"
       }
     ],
     "site": null,
@@ -1433,6 +1433,9 @@
       },
       {
         "id": "304d30fa-35d0-805c-a3a9-d77157f18cf3"
+      },
+      {
+        "id": "317d30fa-35d0-8017-8a82-c20f3be61643"
       }
     ],
     "site": null,
@@ -3476,6 +3479,9 @@
         "id": "174d30fa-35d0-81db-b560-c2bc513a839a"
       },
       {
+        "id": "174d30fa-35d0-81dc-90f2-f26385c0c2cd"
+      },
+      {
         "id": "174d30fa-35d0-81e6-8988-d24e5bfeb4c4"
       },
       {
@@ -3579,6 +3585,9 @@
       },
       {
         "id": "2f7d30fa-35d0-80e9-8eae-d96345939c76"
+      },
+      {
+        "id": "319d30fa-35d0-802d-9ccc-ece552aab2c6"
       }
     ],
     "site": null,
@@ -3696,7 +3705,7 @@
   {
     "id": "174d30fa-35d0-813c-9474-da91ffcf4787",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/bd5cb2c4-dd89-45a7-bef3-b4e86ae7b543/4UA.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VVVSFB63%2F20260226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260226T223146Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGUaCXVzLXdlc3QtMiJHMEUCIQCgohorgcbgwmrCu%2F2X1ctL%2B0IilhdVhMnlRK%2F3iuxd2AIgAngrl5NbIN4rvafo9xRupm9CA1btSFJbUmnl7vVWow0q%2FwMILhAAGgw2Mzc0MjMxODM4MDUiDJEj4AMtoPUYnAAtqSrcA%2B0bbJ98%2F56U0AhrRLw0RDClx1sRhg7BGafCGSUeSF7lhw5miUNcrR4ThrSxZET8NuAr1Z5SzU6ge0dbp4ebR%2BiZ6E%2Bpw4qb4Ociw8DaHPWNfmFDPNDIVdxJ0j9EybZ%2BXY5QTmekwJTppioiRyGO3MskyopUj0yfNCA6Q%2BYaW8f1mlugZhoXeqPy2lgndK7zsH9Ae%2FvEO6GViOGCHqX1Ys3zap%2FSnIF%2FUA9OcMF8LuCfZbGFlLfzxK0Hyx5I4DfQ4B6%2BR9NFW4UDO9sRJd1BI6ayZZt4x%2FZLEFAc%2B4ov8lRcgJR5v4B1OmLZefstfFRF%2Fn%2FD27Jlob4%2FrihNB0ZA0ENKMzVTJOSvqFjiZqScS3kT6TlAq1cvlzY%2ByZ7GLbJIiBT5U4fy7NH0H%2FZLuxQVW4pnSMA5uNiJ5MksrXawhqgGVXLzDzwkOTvotsEfL4ekIb5%2B67culYxvJqrlOHoO5IrGheWwu2iPx7wh%2FWH8U8Vkp8O33RicHBM6rs1Y3lQ6NASFjltCS8UX6zGRUXzLi9XmVOJ2hAshlDbMwBjuduMHLtf4wjOyu%2BOob4srpttU9s3VyO7vYeE6%2FqwYO6LHjxX%2BuWuWuOgK9O%2BV8ufctixmsWm%2FbvB4szq%2BIlXiMNTpgs0GOqUB9ZS8%2FcT1TCHZ5O5HUK99DZ%2BWxj%2F9PiuTtR7pSE5kl06%2FSF8YQhcaUyIDkYoZ4GGT1gVP%2B92ywYm0hWVWwjxKYrGzyyTRvL90LJVHZbxCLHwT25IArZCKFQBj9p3LT%2FO647ps5KUyYLpChjr%2FviQZvxdx5bLsGzxHJtYCm8tIT44%2FRpQgXK47vwiXJ4Pxhv1VyTZUvDwONHZy4lXRN8lWNkBVUc5j&X-Amz-Signature=87949ec7f0a59326721800dca7f002d48b15ff1d6f70a5964c10af4d57ef0af4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/bd5cb2c4-dd89-45a7-bef3-b4e86ae7b543/4UA.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666AKQKRQZ%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T222415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLXdlc3QtMiJHMEUCIQDyk7xmMRzwYESuTswbLpnEow0rRGdv00ceb3KG%2BeM8BgIgfDceKUvuLtIk%2BuFJux301k6jBDKhWcjOzo%2FkaeR0t0gqiAQI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2BwNP4KCCe5nXgeSyrcA%2FHJcKqSTjWbe8RQUptcFQ7CyhyKgOI68yYI5AfXRNb3K2pwVStheISqzXKdKc1CfSY%2BVcp77g0JcSW7WVQHKWJDNCFSbuwNXSKUkyyq2bMBYDa9hZHvDgACrDBkIamPsFMNPGzsAUzxp%2FZkl2%2FM%2FY2z2TTHYC4Ur7iZpfYazr33l%2FirmH4NhtLFNIZuOLdK2n0%2BD2QskCjZOat77FzszfJqrq0Knjcj4f9tYZeEnAVmh%2BP%2BAZuxhIKw62zKvYR%2B41nIWNttFuurN0S1BfjbI6C4aNlM%2BogKS%2BXikMwlE0bYPElW0%2F2qRz1iyDPvZU9xBe%2FPLDMh2bV6QWP%2B0waWh496v8cf7VEHfteYMBBANcUYsMLo%2BGHFi6oql7eYy0sN5K2hXsiR9OLC4dVQ2XT2bFrjnRbt%2FAM4GvvyCmigOtA2SqD%2BkWcDFin64%2F%2BlX1S%2Fm7eqnY2rqPNfua66ZzKvuFf4ZkPKMtryejurlZSA1Qj%2Fh0O6p%2Bb7YqvD%2BiSRgcA9fu1AU%2F6J0YW7sCK44AbnU%2BN2PruwXNgrK%2F7riucexfIo1CjXYAKxiTC07NEOS4C237GFfD0TxLa9aeTjCutpexpXPIa2RyeS%2FxS8v5SNootspu3zsDNrdSSWt6zZMKr%2Fp80GOqUB8mY66s3kUwcAB1ug9DAVylJs4gpi%2FzGblSZibH8%2Fu366VyAX9cHpZfnJEWjqBFF%2BesdQHa25ptrHk52YWutyDg1dqAKpdoUkMXJWUR%2BChDxDvgL2nzKmPj%2BVwxM0E46eeU7L8nBR6fc16lO8ob21AmK8%2BHhV2PH0bsK7X8Dy%2BiCzRBuM2mp9GLyEiNeX4URLx1kBb3ATe1Zdeci8AHsmYfRr3YmU&X-Amz-Signature=335316023c938bb45895cfc7f01a55a4977431096db1d42113984e2896feec96&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "4UA",
     "altname": [],
     "founded": null,
@@ -3775,6 +3784,9 @@
       },
       {
         "id": "2fed30fa-35d0-80e0-8354-d732f30eb0f7"
+      },
+      {
+        "id": "317d30fa-35d0-80ba-8e1a-fce6340016e0"
       }
     ],
     "site": "https://4ua.org.ua/",
@@ -8751,6 +8763,9 @@
       },
       {
         "id": "203d30fa-35d0-8056-959b-e2c1263bbc70"
+      },
+      {
+        "id": "2eed30fa-35d0-8060-94ae-f85dbcf288b0"
       }
     ],
     "anime_releases": [
@@ -10187,7 +10202,7 @@
   {
     "id": "174d30fa-35d0-818b-bb47-f31212d48fd1",
     "cover": null,
-    "logo": "https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/Лого%20команд/10gu.jpg\r\n",
+    "logo": "https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/Лого%20команд/10gu.jpg",
     "name": "10GU",
     "altname": [],
     "founded": null,
@@ -10322,7 +10337,7 @@
     "tiktok": null,
     "tg": "https://t.me/tengudub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2026-02-19T13:13:00.000Z"
+    "last_edited": "2026-03-02T06:34:00.000Z"
   },
   {
     "id": "174d30fa-35d0-818f-80a8-c5c5bd55a5e6",
@@ -13817,6 +13832,9 @@
       },
       {
         "id": "2fad30fa-35d0-8077-a7f6-e43f15634da1"
+      },
+      {
+        "id": "317d30fa-35d0-8090-94ee-fc43da91f118"
       }
     ],
     "site": "https://ufdub.com/",
@@ -19191,9 +19209,6 @@
         "id": "174d30fa-35d0-8109-b24d-d802d3da2b13"
       },
       {
-        "id": "174d30fa-35d0-810b-99e7-e3b07409efe3"
-      },
-      {
         "id": "174d30fa-35d0-810d-85f5-f14a817e6e1f"
       },
       {
@@ -19822,9 +19837,6 @@
       },
       {
         "id": "174d30fa-35d0-81db-a378-d33643a9b8e9"
-      },
-      {
-        "id": "174d30fa-35d0-81dc-90f2-f26385c0c2cd"
       },
       {
         "id": "174d30fa-35d0-81dc-9974-f47b5d451a5d"
@@ -20541,6 +20553,9 @@
         "id": "2e8d30fa-35d0-80c2-8ed7-dec9e66429d3"
       },
       {
+        "id": "2e8d30fa-35d0-80cc-a4bf-f900de656dc3"
+      },
+      {
         "id": "2e8d30fa-35d0-80df-ab67-da05a80b23db"
       },
       {
@@ -20805,7 +20820,11 @@
       "Аніме"
     ],
     "status": "Активна",
-    "members": [],
+    "members": [
+      {
+        "id": "2eed30fa-35d0-8060-94ae-f85dbcf288b0"
+      }
+    ],
     "anime_releases": [
       {
         "id": "174d30fa-35d0-8106-910a-eac94fe3d877"
@@ -21866,6 +21885,12 @@
       },
       {
         "id": "2f6d30fa-35d0-80c4-bce1-cb7564e9d774"
+      },
+      {
+        "id": "319d30fa-35d0-801c-be8a-fe20298bb2b0"
+      },
+      {
+        "id": "319d30fa-35d0-801e-bafb-f1bca2c033b1"
       }
     ],
     "site": null,
@@ -23053,6 +23078,9 @@
       },
       {
         "id": "1ecd30fa-35d0-80fc-9d15-faf39f293211"
+      },
+      {
+        "id": "317d30fa-35d0-805d-811c-fcca5557e37e"
       }
     ],
     "site": null,
@@ -23204,6 +23232,9 @@
       },
       {
         "id": "304d30fa-35d0-8083-9712-f808ce402e47"
+      },
+      {
+        "id": "317d30fa-35d0-801c-96d9-f7b0945bd860"
       }
     ],
     "site": null,
@@ -23754,7 +23785,7 @@
   {
     "id": "1ffd30fa-35d0-8020-9898-c8fc986169de",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/a2ffd4d5-4011-45f6-82ed-71d67c12170a/ArtymKo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXCSHKLP%2F20260226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260226T223153Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGUaCXVzLXdlc3QtMiJHMEUCIECZFGZYAiuaeTfTfxOowfyzr8jClPGJGXloFDYoCGKMAiEAwiUEL09q8EwytId1L6pvw8ICeC04s6HFH%2Bt%2FxMJHorEq%2FwMILhAAGgw2Mzc0MjMxODM4MDUiDICLLZwdrDYFsHKgBCrcAzhVDYmdo23d59ndEdFQRwSV%2FzhwJSctyJQmyq5IgmCBMmAhSqcuA9ZUdXA6cNmGMJ5IYbLwvC1WoeVAjXFHJdiMi83mEplPKGsKBvTIPA3T8SU8AHDdNAx89Ihm4BcEKCUy0rmAkYszQ5fKtfyfu4iohMH9l1d6yrXvik%2FauHi1aOXHUDwaqSzVE5X1Z%2FvPQQm0%2BrQU%2B5dQOvx9%2BcgSQZ4MWZxYaRdSRdc1p2Gmu88PcsWce8IoyzkDfbRcyqkTEw6rmLfRqLP%2FhNfNje8XyGIr6gqXjdXF%2BSPkPLk5d6XN49pYYLYS0R4JvGiTSYQRIoH5gBYXXqvSt95isouJ8UZeN5y7h7oGxNcRwrV7hlQ7JOaK10jSDaf78B9FmaGliTsVrMTt%2BXksOQRHdr8UnYKZmWgAZu8Lc94%2BTpUGEN7kSRCdHKCjYErgf9mz0n2%2B5xO4NNHXLjWpVSKYVVzrFOVESD8v%2F3R%2BR%2FT0FbHuBeMjNE9EpLnEDSNt93EkXrh1EwXF8%2BlJIz%2BLDPhxRQM0mjbdRqIGU3QFBC0ABrSqmjhCLNjuO%2FTkzrmIIsMc%2BbsAOHnCP%2FKVT2wm202LKSaTdWl9yhO5sMSKzAvq46KUvONZsQfOdufO6L4Eam%2B6ML7pgs0GOqUBXhBHLF9ptQfQRVi6FdZlF8whU1mGyuO65eP%2BEMhWVUAp7ICxvR28ANrIQI%2B7tZW1qIbYsyCxSFfVZtFKz8vZs3jDOg3JknRmdk%2B0rsvYTUnOCwHhV6Bh46Bwi3WFe%2BQM4eYRivhY5r%2FCR7SUj1j8OArBL0aVvAnanjHaJzyz5IFieyyz7BETqG3YSigrZNpEkqEIper2fCJwep5Vz%2BbR%2BUNesVHt&X-Amz-Signature=6796fef100ed530f5488ec06f68bfe394f8f70ae254a1ae3538b132327e160f0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/a2ffd4d5-4011-45f6-82ed-71d67c12170a/ArtymKo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QDTZ6CNV%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T222421Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLXdlc3QtMiJHMEUCIQDkCVjDNa7Gmiu9YYfCb2EuTdVhV6UM9nUbS0cNtIkxAwIgGr1fI%2BIVzsYb3X4yS9o2iD76Gyox15TRvmnK5SHCnRYqiAQI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDE8vmZYE%2FqdQzBsXgSrcA32c%2B7%2FaPGTZlGBISyeY%2BXWdmvqKcXE3%2BTneSEjlTn7Q5QoRJOLVBqgWlrZ3HYgIlrrHoR1hcdxQRnN5FsdG0R56UCjctA7WK3SnSCq5hs%2Fng%2BXy%2B7IMQBJswM8eDikUw0ZggZawvHt5RScPEzCDGbUQzw9SeeW8LBKisPxU7%2FMvby6IyFaw2xcP5fzkYvGgPVOOjHGLzCAaA%2BaFIIxZHYHhOjO9VFUar%2FhDhB3oj8bAkVrASRtq5fg49QfSXkCm85HrrvIRs07H4VhRboRuL1qkXpQnjCyjt1yomC9itmdkqEGcIXEQmazdMjeva51nRFlIasiNwAcALq%2BTDjQMIvlt4g5RenFg3d6xBdqeac3k%2FWR3JjTobXhG3MDi3z%2FKNu7qhTFqdskHc33lweO19TSDCH06EPo80ewb%2FsMoWRVKXTFLbMz%2BN1ZGh8sEep3SvgCiriZ1bhXNLfSzYLS4j3twPo6vfZbXnd9JWqVXenjnAWOeECE4JqrFy6hJ2CHpP5MhgLcT2oiiyGV%2BZOJp6vAE3R%2BR%2FCzwofk7AKABvrrZaTGhzxASniebgk%2BhLhrFz%2Fr6ZoIne6El5fIKYxcMdoJLBdQ47WCgphqyX6FZ1OKU7olBjXHFszfLi%2FhOMIeBqM0GOqUB2U16kAnF3OdabDqxCwRZ6NtkDquOg1J%2Fi5TA75at%2FhWQthhlWy4Niw3FYDXw1SRF0ET1Zx627Jq2L1bmUF54jCt%2Bo0Zjq%2BvKw3sA4ARDWmgpiQkJHrgKe2EY21JuCt3yKlVn5PFhWVs57r%2F%2BeaLAepMwCEru2pOiKP%2FMX5C2zI9DTMpM%2Fno9TUdSuoEFUftwNY0%2BiYS8k9sOEWNxLdReyOZ%2FBxkd&X-Amz-Signature=9e067f80ee43455c30cedab911acd8b3fcdd26cffc363ba8971986a625d0700b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "ArtymKo",
     "altname": [],
     "founded": null,
@@ -23800,7 +23831,7 @@
   {
     "id": "1ffd30fa-35d0-8038-b096-f201a331c86b",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/9d99117d-4fcd-42b6-a3eb-9a5ac2701199/Altron320.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXCSHKLP%2F20260226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260226T223153Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGUaCXVzLXdlc3QtMiJHMEUCIECZFGZYAiuaeTfTfxOowfyzr8jClPGJGXloFDYoCGKMAiEAwiUEL09q8EwytId1L6pvw8ICeC04s6HFH%2Bt%2FxMJHorEq%2FwMILhAAGgw2Mzc0MjMxODM4MDUiDICLLZwdrDYFsHKgBCrcAzhVDYmdo23d59ndEdFQRwSV%2FzhwJSctyJQmyq5IgmCBMmAhSqcuA9ZUdXA6cNmGMJ5IYbLwvC1WoeVAjXFHJdiMi83mEplPKGsKBvTIPA3T8SU8AHDdNAx89Ihm4BcEKCUy0rmAkYszQ5fKtfyfu4iohMH9l1d6yrXvik%2FauHi1aOXHUDwaqSzVE5X1Z%2FvPQQm0%2BrQU%2B5dQOvx9%2BcgSQZ4MWZxYaRdSRdc1p2Gmu88PcsWce8IoyzkDfbRcyqkTEw6rmLfRqLP%2FhNfNje8XyGIr6gqXjdXF%2BSPkPLk5d6XN49pYYLYS0R4JvGiTSYQRIoH5gBYXXqvSt95isouJ8UZeN5y7h7oGxNcRwrV7hlQ7JOaK10jSDaf78B9FmaGliTsVrMTt%2BXksOQRHdr8UnYKZmWgAZu8Lc94%2BTpUGEN7kSRCdHKCjYErgf9mz0n2%2B5xO4NNHXLjWpVSKYVVzrFOVESD8v%2F3R%2BR%2FT0FbHuBeMjNE9EpLnEDSNt93EkXrh1EwXF8%2BlJIz%2BLDPhxRQM0mjbdRqIGU3QFBC0ABrSqmjhCLNjuO%2FTkzrmIIsMc%2BbsAOHnCP%2FKVT2wm202LKSaTdWl9yhO5sMSKzAvq46KUvONZsQfOdufO6L4Eam%2B6ML7pgs0GOqUBXhBHLF9ptQfQRVi6FdZlF8whU1mGyuO65eP%2BEMhWVUAp7ICxvR28ANrIQI%2B7tZW1qIbYsyCxSFfVZtFKz8vZs3jDOg3JknRmdk%2B0rsvYTUnOCwHhV6Bh46Bwi3WFe%2BQM4eYRivhY5r%2FCR7SUj1j8OArBL0aVvAnanjHaJzyz5IFieyyz7BETqG3YSigrZNpEkqEIper2fCJwep5Vz%2BbR%2BUNesVHt&X-Amz-Signature=00ce448a4d57ac8f2b2407b71f00c91ab5f59ac0c7e038ae3224d54b192bec5f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/9d99117d-4fcd-42b6-a3eb-9a5ac2701199/Altron320.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QDTZ6CNV%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T222421Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLXdlc3QtMiJHMEUCIQDkCVjDNa7Gmiu9YYfCb2EuTdVhV6UM9nUbS0cNtIkxAwIgGr1fI%2BIVzsYb3X4yS9o2iD76Gyox15TRvmnK5SHCnRYqiAQI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDE8vmZYE%2FqdQzBsXgSrcA32c%2B7%2FaPGTZlGBISyeY%2BXWdmvqKcXE3%2BTneSEjlTn7Q5QoRJOLVBqgWlrZ3HYgIlrrHoR1hcdxQRnN5FsdG0R56UCjctA7WK3SnSCq5hs%2Fng%2BXy%2B7IMQBJswM8eDikUw0ZggZawvHt5RScPEzCDGbUQzw9SeeW8LBKisPxU7%2FMvby6IyFaw2xcP5fzkYvGgPVOOjHGLzCAaA%2BaFIIxZHYHhOjO9VFUar%2FhDhB3oj8bAkVrASRtq5fg49QfSXkCm85HrrvIRs07H4VhRboRuL1qkXpQnjCyjt1yomC9itmdkqEGcIXEQmazdMjeva51nRFlIasiNwAcALq%2BTDjQMIvlt4g5RenFg3d6xBdqeac3k%2FWR3JjTobXhG3MDi3z%2FKNu7qhTFqdskHc33lweO19TSDCH06EPo80ewb%2FsMoWRVKXTFLbMz%2BN1ZGh8sEep3SvgCiriZ1bhXNLfSzYLS4j3twPo6vfZbXnd9JWqVXenjnAWOeECE4JqrFy6hJ2CHpP5MhgLcT2oiiyGV%2BZOJp6vAE3R%2BR%2FCzwofk7AKABvrrZaTGhzxASniebgk%2BhLhrFz%2Fr6ZoIne6El5fIKYxcMdoJLBdQ47WCgphqyX6FZ1OKU7olBjXHFszfLi%2FhOMIeBqM0GOqUB2U16kAnF3OdabDqxCwRZ6NtkDquOg1J%2Fi5TA75at%2FhWQthhlWy4Niw3FYDXw1SRF0ET1Zx627Jq2L1bmUF54jCt%2Bo0Zjq%2BvKw3sA4ARDWmgpiQkJHrgKe2EY21JuCt3yKlVn5PFhWVs57r%2F%2BeaLAepMwCEru2pOiKP%2FMX5C2zI9DTMpM%2Fno9TUdSuoEFUftwNY0%2BiYS8k9sOEWNxLdReyOZ%2FBxkd&X-Amz-Signature=526d3adc1bb851d63e6025a3390ccd8c630cd37768f8a4151a849d7ebe811195&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "Altron320",
     "altname": [],
     "founded": null,
@@ -24662,6 +24693,9 @@
       },
       {
         "id": "209d30fa-35d0-80c2-a229-e28476cd9226"
+      },
+      {
+        "id": "2e3d30fa-35d0-80ad-b64b-ffbe8d744e7d"
       }
     ],
     "site": null,
@@ -25287,7 +25321,7 @@
   {
     "id": "226d30fa-35d0-805f-af63-f1ec04e3179f",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/b3c41c01-2322-48e7-99fc-5b2bd6c1de77/Ace_Wing.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXCSHKLP%2F20260226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260226T223153Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGUaCXVzLXdlc3QtMiJHMEUCIECZFGZYAiuaeTfTfxOowfyzr8jClPGJGXloFDYoCGKMAiEAwiUEL09q8EwytId1L6pvw8ICeC04s6HFH%2Bt%2FxMJHorEq%2FwMILhAAGgw2Mzc0MjMxODM4MDUiDICLLZwdrDYFsHKgBCrcAzhVDYmdo23d59ndEdFQRwSV%2FzhwJSctyJQmyq5IgmCBMmAhSqcuA9ZUdXA6cNmGMJ5IYbLwvC1WoeVAjXFHJdiMi83mEplPKGsKBvTIPA3T8SU8AHDdNAx89Ihm4BcEKCUy0rmAkYszQ5fKtfyfu4iohMH9l1d6yrXvik%2FauHi1aOXHUDwaqSzVE5X1Z%2FvPQQm0%2BrQU%2B5dQOvx9%2BcgSQZ4MWZxYaRdSRdc1p2Gmu88PcsWce8IoyzkDfbRcyqkTEw6rmLfRqLP%2FhNfNje8XyGIr6gqXjdXF%2BSPkPLk5d6XN49pYYLYS0R4JvGiTSYQRIoH5gBYXXqvSt95isouJ8UZeN5y7h7oGxNcRwrV7hlQ7JOaK10jSDaf78B9FmaGliTsVrMTt%2BXksOQRHdr8UnYKZmWgAZu8Lc94%2BTpUGEN7kSRCdHKCjYErgf9mz0n2%2B5xO4NNHXLjWpVSKYVVzrFOVESD8v%2F3R%2BR%2FT0FbHuBeMjNE9EpLnEDSNt93EkXrh1EwXF8%2BlJIz%2BLDPhxRQM0mjbdRqIGU3QFBC0ABrSqmjhCLNjuO%2FTkzrmIIsMc%2BbsAOHnCP%2FKVT2wm202LKSaTdWl9yhO5sMSKzAvq46KUvONZsQfOdufO6L4Eam%2B6ML7pgs0GOqUBXhBHLF9ptQfQRVi6FdZlF8whU1mGyuO65eP%2BEMhWVUAp7ICxvR28ANrIQI%2B7tZW1qIbYsyCxSFfVZtFKz8vZs3jDOg3JknRmdk%2B0rsvYTUnOCwHhV6Bh46Bwi3WFe%2BQM4eYRivhY5r%2FCR7SUj1j8OArBL0aVvAnanjHaJzyz5IFieyyz7BETqG3YSigrZNpEkqEIper2fCJwep5Vz%2BbR%2BUNesVHt&X-Amz-Signature=3b17cf324edbf3412e443e1abe2886225450e9ed1fbafbdb4dffc63d57b19163&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/b3c41c01-2322-48e7-99fc-5b2bd6c1de77/Ace_Wing.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QDTZ6CNV%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T222422Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLXdlc3QtMiJHMEUCIQDkCVjDNa7Gmiu9YYfCb2EuTdVhV6UM9nUbS0cNtIkxAwIgGr1fI%2BIVzsYb3X4yS9o2iD76Gyox15TRvmnK5SHCnRYqiAQI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDE8vmZYE%2FqdQzBsXgSrcA32c%2B7%2FaPGTZlGBISyeY%2BXWdmvqKcXE3%2BTneSEjlTn7Q5QoRJOLVBqgWlrZ3HYgIlrrHoR1hcdxQRnN5FsdG0R56UCjctA7WK3SnSCq5hs%2Fng%2BXy%2B7IMQBJswM8eDikUw0ZggZawvHt5RScPEzCDGbUQzw9SeeW8LBKisPxU7%2FMvby6IyFaw2xcP5fzkYvGgPVOOjHGLzCAaA%2BaFIIxZHYHhOjO9VFUar%2FhDhB3oj8bAkVrASRtq5fg49QfSXkCm85HrrvIRs07H4VhRboRuL1qkXpQnjCyjt1yomC9itmdkqEGcIXEQmazdMjeva51nRFlIasiNwAcALq%2BTDjQMIvlt4g5RenFg3d6xBdqeac3k%2FWR3JjTobXhG3MDi3z%2FKNu7qhTFqdskHc33lweO19TSDCH06EPo80ewb%2FsMoWRVKXTFLbMz%2BN1ZGh8sEep3SvgCiriZ1bhXNLfSzYLS4j3twPo6vfZbXnd9JWqVXenjnAWOeECE4JqrFy6hJ2CHpP5MhgLcT2oiiyGV%2BZOJp6vAE3R%2BR%2FCzwofk7AKABvrrZaTGhzxASniebgk%2BhLhrFz%2Fr6ZoIne6El5fIKYxcMdoJLBdQ47WCgphqyX6FZ1OKU7olBjXHFszfLi%2FhOMIeBqM0GOqUB2U16kAnF3OdabDqxCwRZ6NtkDquOg1J%2Fi5TA75at%2FhWQthhlWy4Niw3FYDXw1SRF0ET1Zx627Jq2L1bmUF54jCt%2Bo0Zjq%2BvKw3sA4ARDWmgpiQkJHrgKe2EY21JuCt3yKlVn5PFhWVs57r%2F%2BeaLAepMwCEru2pOiKP%2FMX5C2zI9DTMpM%2Fno9TUdSuoEFUftwNY0%2BiYS8k9sOEWNxLdReyOZ%2FBxkd&X-Amz-Signature=89462c1c08dcb7477f5bff34f74cc4c11de64bce4f3f44d101dfcf4ab89e91d2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "Ace Wing",
     "altname": [],
     "founded": null,
@@ -25559,7 +25593,7 @@
   {
     "id": "232d30fa-35d0-80c7-8df5-db1df4e3578c",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/ba6ba579-3f07-4b61-9a11-abbb7ff29815/And5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXCSHKLP%2F20260226%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260226T223153Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGUaCXVzLXdlc3QtMiJHMEUCIECZFGZYAiuaeTfTfxOowfyzr8jClPGJGXloFDYoCGKMAiEAwiUEL09q8EwytId1L6pvw8ICeC04s6HFH%2Bt%2FxMJHorEq%2FwMILhAAGgw2Mzc0MjMxODM4MDUiDICLLZwdrDYFsHKgBCrcAzhVDYmdo23d59ndEdFQRwSV%2FzhwJSctyJQmyq5IgmCBMmAhSqcuA9ZUdXA6cNmGMJ5IYbLwvC1WoeVAjXFHJdiMi83mEplPKGsKBvTIPA3T8SU8AHDdNAx89Ihm4BcEKCUy0rmAkYszQ5fKtfyfu4iohMH9l1d6yrXvik%2FauHi1aOXHUDwaqSzVE5X1Z%2FvPQQm0%2BrQU%2B5dQOvx9%2BcgSQZ4MWZxYaRdSRdc1p2Gmu88PcsWce8IoyzkDfbRcyqkTEw6rmLfRqLP%2FhNfNje8XyGIr6gqXjdXF%2BSPkPLk5d6XN49pYYLYS0R4JvGiTSYQRIoH5gBYXXqvSt95isouJ8UZeN5y7h7oGxNcRwrV7hlQ7JOaK10jSDaf78B9FmaGliTsVrMTt%2BXksOQRHdr8UnYKZmWgAZu8Lc94%2BTpUGEN7kSRCdHKCjYErgf9mz0n2%2B5xO4NNHXLjWpVSKYVVzrFOVESD8v%2F3R%2BR%2FT0FbHuBeMjNE9EpLnEDSNt93EkXrh1EwXF8%2BlJIz%2BLDPhxRQM0mjbdRqIGU3QFBC0ABrSqmjhCLNjuO%2FTkzrmIIsMc%2BbsAOHnCP%2FKVT2wm202LKSaTdWl9yhO5sMSKzAvq46KUvONZsQfOdufO6L4Eam%2B6ML7pgs0GOqUBXhBHLF9ptQfQRVi6FdZlF8whU1mGyuO65eP%2BEMhWVUAp7ICxvR28ANrIQI%2B7tZW1qIbYsyCxSFfVZtFKz8vZs3jDOg3JknRmdk%2B0rsvYTUnOCwHhV6Bh46Bwi3WFe%2BQM4eYRivhY5r%2FCR7SUj1j8OArBL0aVvAnanjHaJzyz5IFieyyz7BETqG3YSigrZNpEkqEIper2fCJwep5Vz%2BbR%2BUNesVHt&X-Amz-Signature=4bb1c017e370219de224f8c65ba202d428ac69730180b99bb2870896e8e3b0b7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/ba6ba579-3f07-4b61-9a11-abbb7ff29815/And5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QDTZ6CNV%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T222422Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLXdlc3QtMiJHMEUCIQDkCVjDNa7Gmiu9YYfCb2EuTdVhV6UM9nUbS0cNtIkxAwIgGr1fI%2BIVzsYb3X4yS9o2iD76Gyox15TRvmnK5SHCnRYqiAQI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDE8vmZYE%2FqdQzBsXgSrcA32c%2B7%2FaPGTZlGBISyeY%2BXWdmvqKcXE3%2BTneSEjlTn7Q5QoRJOLVBqgWlrZ3HYgIlrrHoR1hcdxQRnN5FsdG0R56UCjctA7WK3SnSCq5hs%2Fng%2BXy%2B7IMQBJswM8eDikUw0ZggZawvHt5RScPEzCDGbUQzw9SeeW8LBKisPxU7%2FMvby6IyFaw2xcP5fzkYvGgPVOOjHGLzCAaA%2BaFIIxZHYHhOjO9VFUar%2FhDhB3oj8bAkVrASRtq5fg49QfSXkCm85HrrvIRs07H4VhRboRuL1qkXpQnjCyjt1yomC9itmdkqEGcIXEQmazdMjeva51nRFlIasiNwAcALq%2BTDjQMIvlt4g5RenFg3d6xBdqeac3k%2FWR3JjTobXhG3MDi3z%2FKNu7qhTFqdskHc33lweO19TSDCH06EPo80ewb%2FsMoWRVKXTFLbMz%2BN1ZGh8sEep3SvgCiriZ1bhXNLfSzYLS4j3twPo6vfZbXnd9JWqVXenjnAWOeECE4JqrFy6hJ2CHpP5MhgLcT2oiiyGV%2BZOJp6vAE3R%2BR%2FCzwofk7AKABvrrZaTGhzxASniebgk%2BhLhrFz%2Fr6ZoIne6El5fIKYxcMdoJLBdQ47WCgphqyX6FZ1OKU7olBjXHFszfLi%2FhOMIeBqM0GOqUB2U16kAnF3OdabDqxCwRZ6NtkDquOg1J%2Fi5TA75at%2FhWQthhlWy4Niw3FYDXw1SRF0ET1Zx627Jq2L1bmUF54jCt%2Bo0Zjq%2BvKw3sA4ARDWmgpiQkJHrgKe2EY21JuCt3yKlVn5PFhWVs57r%2F%2BeaLAepMwCEru2pOiKP%2FMX5C2zI9DTMpM%2Fno9TUdSuoEFUftwNY0%2BiYS8k9sOEWNxLdReyOZ%2FBxkd&X-Amz-Signature=f3a35e9525eb93062fccb66f927e16bb96c9a281f89492e0c93325cf1d585efb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "And5 Studio",
     "altname": [],
     "founded": null,
@@ -25673,6 +25707,9 @@
     "anime_releases": [
       {
         "id": "24fd30fa-35d0-80de-a631-d641bbff1b9a"
+      },
+      {
+        "id": "317d30fa-35d0-807f-b623-e1f8ca5e7d30"
       }
     ],
     "site": null,
@@ -26306,5 +26343,24 @@
     "tg": "https://t.me/honyaku_chimu",
     "created_time": "2026-02-11T15:01:00.000Z",
     "last_edited": "2026-02-11T15:13:00.000Z"
+  },
+  {
+    "id": "317d30fa-35d0-8069-9651-e54662dc84cc",
+    "cover": null,
+    "name": "Adastra Cinema",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-03-02T09:05:00.000Z",
+    "last_edited": "2026-03-02T09:05:00.000Z"
   }
 ]
