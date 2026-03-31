@@ -1,8 +1,50 @@
-const { Client } = require("@notionhq/client")
-const axios = require('axios')
-const fs = require("fs").promises
-const path = require("path")
-require("dotenv").config({ path: path.join(__dirname, "../.env") })
+/**
+ * ╔══════════════════════════════════════════════════════════════════════════════╗
+ * ║                        notion_data_import.js                               ║
+ * ║              Імпорт та синхронізація даних з Notion → JSON                 ║
+ * ╚══════════════════════════════════════════════════════════════════════════════╝
+ *
+ * ЗАГАЛЬНИЙ ВОРКФЛОВ:
+ * ──────────────────
+ *  1. АНІМЕ ТАЙТЛИ  (AnimeTitlesDB.json)
+ *     • Отримуємо всі сторінки з Notion DB "Аніме тайтли"
+ *     • Порівнюємо з попереднім JSON — знаходимо нові й змінені записи
+ *     • Для кожного тайтлу підтягуємо постери (GitHub UAPosters) та Mikai-посилання
+ *     • За потреби збагачуємо даними Hikka API:
+ *         Hikka  →  (fallback)  →  Hikka-Forge
+ *       Якщо основний Hikka повертає помилку ≥ 7 разів поспіль —
+ *       автоматично переключаємось на Hikka-Forge для решти запитів.
+ *     • Мержимо оброблені записи з попередніми та зберігаємо файл
+ *
+ *  2. РЕЛІЗИ  (AnimeReleasesDB.json)
+ *     • Отримуємо всі сторінки з Notion DB "Аніме релізи"
+ *     • Визначаємо нові/змінені релізи (аналогічно до тайтлів)
+ *     • Зберігаємо торент-посилання та дату їх появи
+ *     • Після обробки команд: якщо всі команди релізу мають
+ *       неактивний статус — реліз автоматично позначається "Закинуто"
+ *
+ *  3. КОМАНДИ  (TeamsDB.json)
+ *     • Отримуємо всі сторінки з Notion DB "Команди"
+ *     • Будуємо зворотні зв'язки: кожна команда отримує масив
+ *       своїх релізів (anime_releases) на основі оброблених релізів
+ *
+ *  4. ФІНАЛ
+ *     • Оновлений AnimeReleasesDB.json зберігається повторно
+ *       (зі статусами "Закинуто" після аналізу команд)
+ *     • Виводиться підсумкова статистика та список помилок Hikka
+ *
+ * ЗАЛЕЖНОСТІ:
+ *   @notionhq/client — Notion API
+ *   axios            — HTTP-запити до зовнішніх API
+ *   dotenv           — змінні середовища (.env → NOTION_TOKEN)
+ *   fs/path          — читання/запис JSON-файлів
+ */
+
+import { Client } from "@notionhq/client"
+import { get } from 'axios'
+import { promises as fs } from "fs"
+import { join } from "path"
+require("dotenv").config({ path: join(__dirname, "../.env") })
 
 const HIKKA_API_URL = 'https://api.hikka.io/anime'
 const HIKKA_FORGE_API_URL = 'https://hikka-forge.lorgon.dev/anime'
@@ -40,7 +82,7 @@ function colorLog(message, color = 'reset', mode = OUTPUT_MODES.NEWLINE) {
 
 async function loadPreviousData(fileName) {
   try {
-    const filePath = path.join(__dirname, "../../CPRcatalog/json", fileName)
+    const filePath = join(__dirname, "../../CPRcatalog/json", fileName)
     const data = JSON.parse(await fs.readFile(filePath, "utf8"))
     colorLog(`Завантажено попередні дані з ${fileName}: ${data.length} записів`, 'blue')
     return data
@@ -52,7 +94,7 @@ async function loadPreviousData(fileName) {
 
 async function loadExternalData(url, name) {
   try {
-    const response = await axios.get(url)
+    const response = await get(url)
     colorLog(`Завантажено ${name}: ${response.data.length} записів`, 'blue')
     return response.data
   } catch (error) {
@@ -63,9 +105,9 @@ async function loadExternalData(url, name) {
 
 async function saveData(fileName, data) {
   try {
-    const targetDir = path.join(__dirname, '../../CPRcatalog/json')
+    const targetDir = join(__dirname, '../../CPRcatalog/json')
     await fs.mkdir(targetDir, { recursive: true })
-    await fs.writeFile(path.join(targetDir, fileName), JSON.stringify(data, null, 2))
+    await fs.writeFile(join(targetDir, fileName), JSON.stringify(data, null, 2))
     colorLog(`Успішно збережено дані у файл ${fileName}: ${data.length} записів`, 'green')
   } catch (error) {
     colorLog(`Помилка при збереженні ${fileName}: ${error.message}`, 'red')
@@ -92,7 +134,7 @@ async function getAllPages(databaseId, dbTitle) {
   return pages
 }
 
-function filterModifiedPages(allPages, existingData) {
+function filterModifiedPages(allPages, existingData, checkMissingFields = false) {
   const existingMap = new Map(existingData.map(item => [item.id, new Date(item.last_edited || item.created_time || 0)]))
   const modifiedPages = [], newPages = []
   
@@ -104,14 +146,24 @@ function filterModifiedPages(allPages, existingData) {
     } else {
       const existingLastEdited = existingMap.get(page.id)
       const existingAnime = existingData.find(item => item.id === page.id)
-      const hasMissingFields = existingAnime && getMissingHikkaFields(existingAnime).length > 0
+      
+      const hasMissingFields = checkMissingFields && existingAnime && getMissingHikkaFields(existingAnime).length > 0
       
       if (pageLastEdited > existingLastEdited || Math.abs(pageLastEdited - existingLastEdited) > 1000 || hasMissingFields) {
         modifiedPages.push(page)
       }
     }
   }
-  if (newPages.length > 0) colorLog(`Нових сторінок: ${newPages.length}`, 'green')
+  if (newPages.length > 0) {
+    colorLog(`Нових сторінок: ${newPages.length}`, 'green')
+    newPages.forEach((page, idx) => {
+      const title = page.properties['Назва релізу']?.title[0]?.plain_text || 
+                   page.properties['Назва тайтлу']?.title[0]?.plain_text ||
+                   page.properties['Назва команди']?.title[0]?.plain_text ||
+                   'Без назви'
+      colorLog(`  ${idx + 1}. ${title}`, 'green')
+    })
+  }
   if (modifiedPages.length > newPages.length) colorLog(`Змінених існуючих: ${modifiedPages.length - newPages.length}`, 'yellow')
   return modifiedPages
 }
@@ -128,7 +180,7 @@ function extractSlugFromUrl(hikkaUrl) {
 
 async function fetchHikkaData(slug) {
   try {
-    const response = await axios.get(`${HIKKA_API_URL}/${slug}`)
+    const response = await get(`${HIKKA_API_URL}/${slug}`)
     const anime = response.data
     return {
       hikka_poster: anime.image,
@@ -150,7 +202,7 @@ async function fetchHikkaData(slug) {
 
 async function fetchHikkaForgeData(slug) {
   try {
-    const response = await axios.get(`${HIKKA_FORGE_API_URL}/${slug}`)
+    const response = await get(`${HIKKA_FORGE_API_URL}/${slug}`)
     const data = response.data
     return {
       hikka_poster: data.imageUrl || null,
@@ -170,7 +222,6 @@ async function fetchHikkaForgeData(slug) {
   }
 }
 
-// Додайте цю змінну на початку файлу
 let hikkaErrors = []
 
 function getMissingHikkaFields(anime) {
@@ -380,19 +431,6 @@ function createMapsFromData(postersData, mikaiData) {
   return { postersMap, mikaiMap }
 }
 
-function debugPostersMap(postersMap) {
-  console.log('🔍 Перевірка postersMap:')
-  let count = 0
-  for (const [url, posters] of postersMap) {
-    if (count < 3) { // Показати перші 3 записи
-      console.log(`  URL: ${url}`)
-      console.log(`  Posters:`, JSON.stringify(posters, null, 2))
-    }
-    count++
-  }
-  console.log(`Всього записів: ${count}`)
-}
-
 function buildAnimeData(page, previousAnime, posterList, mikaiUrl) {
   const posterUrl = posterList?.length > 0
     ? `https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/${posterList[0].url}`
@@ -442,30 +480,15 @@ async function processAnimeData(pages) {
   const previousDataMap = new Map(previousData.map(anime => [anime.id, anime]))
   const postersData = await loadExternalData(POSTERS_URL, 'Постери з GitHub')
   const mikaiData = await loadExternalData(MIKAI_API_URL, 'Mikai дані')
-
-   // ДЕБАГ: Перевіряємо структуру даних з GitHub
-  if (postersData.length > 0) {
-    colorLog('🔍 Приклад даних з GitHub:', 'yellow')
-    console.log(JSON.stringify(postersData[0], null, 2))
-  }
   
   const { postersMap, mikaiMap } = createMapsFromData(postersData, mikaiData)
   
-  // ДЕБАГ: Перевіряємо що зберігається в Map
-  debugPostersMap(postersMap)
-
   const results = []
   for (const page of pages) {
     const previousAnime = previousDataMap.get(page.id)
     const hikka_url = page.properties.Hikka?.url
     const posterList = hikka_url ? postersMap.get(hikka_url) : null
     let mikaiUrl = previousAnime?.mikai || null
-    
-    // ДЕБАГ: Показати що саме отримали для першої сторінки
-    if (results.length === 0 && posterList) {
-      colorLog(`🔍 Приклад posterList для ${hikka_url}:`, 'yellow')
-      console.log(JSON.stringify(posterList, null, 2))
-    }
     
     if (!mikaiUrl && previousAnime?.mal_id) {
       const mikaiInfo = mikaiMap.get(previousAnime.mal_id)
@@ -607,7 +630,7 @@ async function getAnimeTitlesJson(options = {}) {
   
   const allPages = await getAllPages(DATABASES.ANIME_TITLES_DB, 'Аніме тайтли')
   const previousData = await loadPreviousData("AnimeTitlesDB.json")
-  let pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData) : allPages
+  let pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData, true) : allPages
   
   if (!onlyModified) colorLog(`Обробка всіх ${allPages.length} сторінок`, 'blue')
   
@@ -707,17 +730,80 @@ async function runAllImports(options = {}) {
   try {
     await runAllImports({
       anime: { 
-        onlyModified: false,
+        onlyModified: true,
         update: { 
           hikka: 'missing',
           mikai: 'missing'
         } 
       },
-      releases: { onlyModified: false },
-      teams: { onlyModified: false }
+      releases: { onlyModified: true },
+      teams: { onlyModified: true }
     })
   } catch (err) {
     console.error(err)
     process.exit(1)
   }
 })()
+
+/**
+ * ╔══════════════════════════════════════════════════════════════════════════════╗
+ * ║                          ДОВІДКА ПО РЕЖИМАХ                                  ║
+ * ╚══════════════════════════════════════════════════════════════════════════════╝
+ *
+ * runAllImports() приймає об'єкт з трьома секціями: anime, releases, teams.
+ * Кожна секція має свої параметри.
+ *
+ * ┌─────────────────────────────────────────────────────────────────────────────┐
+ * │  onlyModified  (bool, для всіх трьох секцій)                                │
+ * ├─────────────────────────────────────────────────────────────────────────────┤
+ * │  true  — обробляються лише нові та змінені з моменту                        │
+ * │          останнього запуску сторінки (порівняння по last_edited_time).      │
+ * │          Швидкий режим для щоденної синхронізації.                          │
+ * │                                                                             │
+ * │  false — обробляються ВСІ сторінки незалежно від змін.                      │
+ * │          Повний ребілд — потрібен при першому запуску або                   │
+ * │          якщо структура даних суттєво змінилась.                            │
+ * └─────────────────────────────────────────────────────────────────────────────┘
+ *
+ * ┌─────────────────────────────────────────────────────────────────────────────┐
+ * │  update.hikka / update.mikai  (string, тільки для секції anime)             │
+ * ├─────────────────────────────────────────────────────────────────────────────┤
+ * │  'none'    — зовнішній API не викликається взагалі. Дані залишаються        │
+ * │              такими, як є в JSON. Найшвидший режим, без мережевих запитів.  │
+ * │                                                                             │
+ * │  'missing' — API викликається лише для записів, у яких одне або більше      │
+ * │              потрібних полів відсутні (null / undefined / '').              │
+ * │              Hikka-поля: hikka_poster, scoreMAL, scoredbyMAL,               │
+ * │                          scoreHikka, scoredbyHikka, mal_id                  │
+ * │              Mikai-поле: mikai                                              │
+ * │              Оптимальний баланс між актуальністю і кількістю запитів.       │
+ * │                                                                             │
+ * │  'all'     — API викликається для кожного аніме, що має hikka_url/mal_id.   │
+ * │              Повне оновлення всіх полів. Увага: 0 — валідне значення        │
+ * │              і НЕ перезаписується; перезаписуються лише null/undefined/''.  │
+ * │              Використовувати рідко — генерує багато запитів до API.         │
+ * └─────────────────────────────────────────────────────────────────────────────┘
+ *
+ * ПРИКЛАДИ ЗАПУСКУ:
+ *
+ *  // Звичайна щоденна синхронізація
+ *  runAllImports({
+ *    anime:    { onlyModified: true,  update: { hikka: 'missing', mikai: 'missing' } },
+ *    releases: { onlyModified: true  },
+ *    teams:    { onlyModified: true  }
+ *  })
+ *
+ *  // Повний ребілд без звернень до зовнішніх API
+ *  runAllImports({
+ *    anime:    { onlyModified: false, update: { hikka: 'none', mikai: 'none' } },
+ *    releases: { onlyModified: false },
+ *    teams:    { onlyModified: false }
+ *  })
+ *
+ *  // Примусове оновлення всіх Hikka-даних для змінених тайтлів
+ *  runAllImports({
+ *    anime:    { onlyModified: true,  update: { hikka: 'all', mikai: 'missing' } },
+ *    releases: { onlyModified: true  },
+ *    teams:    { onlyModified: true  }
+ *  })
+ */
