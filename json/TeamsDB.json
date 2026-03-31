@@ -2,72 +2,50 @@
   {
     "id": "174d30fa-35d0-8100-9130-d0a74f65cb81",
     "cover": null,
-    "name": "Studio Sengoku",
+    "name": "Сенґоку",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [
-      "Аніме"
+    "type_team": [
+      "Фандаб",
+      "Сканлейт"
     ],
-    "status": "Невідомо",
-    "members": [],
+    "type_activity": [
+      "Аніме",
+      "Манґа"
+    ],
+    "status": "Припинено",
+    "members": [
+      {
+        "id": "1fed30fa-35d0-8025-b6ee-c66bb7228862"
+      },
+      {
+        "id": "2f6d30fa-35d0-809c-8197-e72fa9daa667"
+      },
+      {
+        "id": "2f6d30fa-35d0-808d-b137-c0e541307f42"
+      }
+    ],
     "anime_releases": [
-      {
-        "id": "174d30fa-35d0-8129-8f6e-c9ab74907d16"
-      },
-      {
-        "id": "174d30fa-35d0-8155-818a-e0a2ab4a63ae"
-      },
-      {
-        "id": "174d30fa-35d0-817f-bd7a-d72352a3f58f"
-      },
-      {
-        "id": "174d30fa-35d0-8182-9edf-ed7b06a25540"
-      },
-      {
-        "id": "174d30fa-35d0-819d-9536-cc8da2608436"
-      },
-      {
-        "id": "174d30fa-35d0-81a3-8857-f3800c50cb75"
-      },
-      {
-        "id": "174d30fa-35d0-81bc-a173-fe8c5f09768e"
-      },
-      {
-        "id": "174d30fa-35d0-81c7-ad50-db2175eecf32"
-      },
-      {
-        "id": "190d30fa-35d0-80fd-aac0-eb3ca7ee8ad8"
-      },
       {
         "id": "1ffd30fa-35d0-800d-a085-f53ff030c18e"
       },
       {
-        "id": "201d30fa-35d0-8071-9390-f73833b64b4f"
-      },
-      {
-        "id": "208d30fa-35d0-8018-8d2f-c056757b73a9"
-      },
-      {
-        "id": "208d30fa-35d0-804f-a5e0-d67150a723db"
-      },
-      {
-        "id": "208d30fa-35d0-8060-8fc0-e7a9f9e16ce7"
-      },
-      {
-        "id": "232d30fa-35d0-8019-9a35-f2104d1735f7"
-      },
-      {
         "id": "232d30fa-35d0-8072-8499-d1946ac263a5"
+      },
+      {
+        "id": "2f6d30fa-35d0-80a9-a9ff-cea8551b1c8c"
+      },
+      {
+        "id": "2f6d30fa-35d0-80c6-bf66-f34a7a49a616"
       }
     ],
     "site": null,
-    "anitube": "https://anitube.in.ua/tags/Studio%20Sengoku/",
+    "anitube": "https://anitube.in.ua/tags/Сенґоку",
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/sengokuteam",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:28:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8102-afb4-dec1112489b3",
@@ -83,7 +61,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Активна",
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -156,6 +134,9 @@
         "id": "174d30fa-35d0-81fb-beea-da4d506487a5"
       },
       {
+        "id": "17ad30fa-35d0-8031-8bdc-cd27257d8b25"
+      },
+      {
         "id": "181d30fa-35d0-80e8-b159-ea72f8783171"
       },
       {
@@ -196,6 +177,12 @@
       },
       {
         "id": "2e3d30fa-35d0-806d-b27f-d1c9cf218c66"
+      },
+      {
+        "id": "2f1d30fa-35d0-803e-8225-cefa0f9bfe2b"
+      },
+      {
+        "id": "30bd30fa-35d0-8016-9d3d-db6df7b41ea2"
       }
     ],
     "site": null,
@@ -238,33 +225,98 @@
     "id": "174d30fa-35d0-8107-9130-f601b8482b1d",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730102302/ТВІЙ_v8sa1i.jpg",
-    "name": "ТВій production (Studio Sengoku)",
-    "altname": [],
+    "name": "ТВій production",
+    "altname": [
+      "Studio Sengoku"
+    ],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
     "type_activity": [
       "Різне"
     ],
-    "status": "Невідомо",
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
+        "id": "174d30fa-35d0-8129-8f6e-c9ab74907d16"
+      },
+      {
+        "id": "174d30fa-35d0-8155-818a-e0a2ab4a63ae"
+      },
+      {
+        "id": "174d30fa-35d0-817f-bd7a-d72352a3f58f"
+      },
+      {
+        "id": "174d30fa-35d0-8182-9edf-ed7b06a25540"
+      },
+      {
+        "id": "174d30fa-35d0-819d-9536-cc8da2608436"
+      },
+      {
+        "id": "174d30fa-35d0-81a3-8857-f3800c50cb75"
+      },
+      {
         "id": "174d30fa-35d0-81b3-98be-fc4065fb85c8"
+      },
+      {
+        "id": "174d30fa-35d0-81bc-a173-fe8c5f09768e"
+      },
+      {
+        "id": "174d30fa-35d0-81c7-ad50-db2175eecf32"
+      },
+      {
+        "id": "190d30fa-35d0-80fd-aac0-eb3ca7ee8ad8"
+      },
+      {
+        "id": "201d30fa-35d0-8071-9390-f73833b64b4f"
+      },
+      {
+        "id": "208d30fa-35d0-8018-8d2f-c056757b73a9"
       },
       {
         "id": "208d30fa-35d0-8045-a938-ee3be59cf6fc"
       },
       {
+        "id": "208d30fa-35d0-804f-a5e0-d67150a723db"
+      },
+      {
+        "id": "208d30fa-35d0-8060-8fc0-e7a9f9e16ce7"
+      },
+      {
         "id": "20dd30fa-35d0-80d0-8dc2-f8cb396f98ea"
+      },
+      {
+        "id": "232d30fa-35d0-8019-9a35-f2104d1735f7"
+      },
+      {
+        "id": "2f6d30fa-35d0-8089-a169-faaf180a8e37"
+      },
+      {
+        "id": "2f6d30fa-35d0-80a5-9995-eba830176720"
+      },
+      {
+        "id": "2f6d30fa-35d0-80ab-a139-cc9d73fe7d3a"
+      },
+      {
+        "id": "2f6d30fa-35d0-80d4-867e-f59c872e4537"
+      },
+      {
+        "id": "2f6d30fa-35d0-80ec-a04a-f529a8dccb8a"
+      },
+      {
+        "id": "2f6d30fa-35d0-80fa-b80c-f7168758dca6"
       }
     ],
     "site": null,
-    "anitube": "https://anitube.in.ua/tags/TVI%D0%99.production/",
+    "anitube": "https://anitube.in.ua/tags/Studio%20Sengoku",
     "insta": null,
     "tiktok": null,
     "tg": "https://t.me/TVIY_prod",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:30:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8108-a88c-c7b206da46e4",
@@ -459,7 +511,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Припинено",
     "members": [],
     "anime_releases": [
       {
@@ -481,7 +533,7 @@
     "tiktok": null,
     "tg": "https://t.me/CAD_anime",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:27:00.000Z"
   },
   {
     "id": "174d30fa-35d0-810e-a3ef-c91b39468c52",
@@ -512,9 +564,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/chimuteaminfo",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-02-08T20:30:00.000Z"
+    "last_edited": "2026-02-19T10:22:00.000Z"
   },
   {
     "id": "174d30fa-35d0-810e-b642-ce8c2d2e2650",
@@ -1039,9 +1091,6 @@
         "id": "2e3d30fa-35d0-807f-a62a-e412f822ee72"
       },
       {
-        "id": "2e3d30fa-35d0-80ad-b64b-ffbe8d744e7d"
-      },
-      {
         "id": "2e3d30fa-35d0-80e0-adce-fbb414e7af51"
       },
       {
@@ -1058,6 +1107,15 @@
       },
       {
         "id": "2ead30fa-35d0-80e5-8b5d-dda6b759b144"
+      },
+      {
+        "id": "2edd30fa-35d0-801a-b66f-e5eee4e2f97b"
+      },
+      {
+        "id": "2f1d30fa-35d0-805e-9ae9-d064afb9d6bb"
+      },
+      {
+        "id": "319d30fa-35d0-80a5-aed7-c2f38edc63f0"
       }
     ],
     "site": null,
@@ -1125,9 +1183,6 @@
         "id": "177d30fa-35d0-8061-b45a-ee92dc02bda8"
       },
       {
-        "id": "177d30fa-35d0-8068-9ed3-e4ce3050ac1c"
-      },
-      {
         "id": "177d30fa-35d0-8074-99bc-e409bc6d8d73"
       },
       {
@@ -1158,9 +1213,6 @@
         "id": "179d30fa-35d0-8036-a419-c7f7648ac104"
       },
       {
-        "id": "179d30fa-35d0-803a-96bc-ef2322e55f28"
-      },
-      {
         "id": "179d30fa-35d0-8040-a13e-dcd1e1742381"
       },
       {
@@ -1182,9 +1234,6 @@
         "id": "17ad30fa-35d0-8001-80c1-c8dd502749ce"
       },
       {
-        "id": "17ad30fa-35d0-8009-bc4b-f7f0fce2be25"
-      },
-      {
         "id": "17ad30fa-35d0-8019-afa6-cb0eef0f039f"
       },
       {
@@ -1192,9 +1241,6 @@
       },
       {
         "id": "17ad30fa-35d0-8024-b999-d2df6e871f14"
-      },
-      {
-        "id": "17ad30fa-35d0-802a-8d00-c3bcc86946b1"
       },
       {
         "id": "17ad30fa-35d0-8031-afc5-de5a235e6a06"
@@ -1381,6 +1427,15 @@
       },
       {
         "id": "2ead30fa-35d0-80bf-835c-fad7430f85e5"
+      },
+      {
+        "id": "2fed30fa-35d0-80f8-b9b8-f9fa99212821"
+      },
+      {
+        "id": "304d30fa-35d0-805c-a3a9-d77157f18cf3"
+      },
+      {
+        "id": "317d30fa-35d0-8017-8a82-c20f3be61643"
       }
     ],
     "site": null,
@@ -1397,8 +1452,12 @@
     "name": "KoiDub",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Розформована",
     "members": [],
     "anime_releases": [],
@@ -1406,9 +1465,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/koidub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-09T16:34:00.000Z"
+    "last_edited": "2026-02-19T10:56:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8110-853d-cb9601dbb0fa",
@@ -1474,11 +1533,14 @@
       "end": null,
       "time_zone": null
     },
-    "type_team": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Розформована",
     "members": [],
     "anime_releases": [
       {
@@ -1501,9 +1563,6 @@
       },
       {
         "id": "174d30fa-35d0-81fe-9162-ddfe87539c32"
-      },
-      {
-        "id": "179d30fa-35d0-80fa-afd5-cb89be116c72"
       },
       {
         "id": "185d30fa-35d0-8010-98f3-f25fc443f1ef"
@@ -1557,9 +1616,6 @@
         "id": "188d30fa-35d0-8025-be3a-e0c792b92a91"
       },
       {
-        "id": "188d30fa-35d0-802e-ba8f-e7ad708c9465"
-      },
-      {
         "id": "188d30fa-35d0-803a-b5fc-c4d81fa22770"
       },
       {
@@ -1567,9 +1623,6 @@
       },
       {
         "id": "188d30fa-35d0-806c-aefa-d1c32018bf37"
-      },
-      {
-        "id": "188d30fa-35d0-8080-ba62-dd6d689cb6b1"
       },
       {
         "id": "188d30fa-35d0-808d-afdf-cb2b5f497b5d"
@@ -1614,7 +1667,7 @@
     "tiktok": null,
     "tg": "https://t.me/Shirifugen",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-27T08:56:00.000Z"
+    "last_edited": "2026-02-19T11:27:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8112-bd98-f7d1daade998",
@@ -1672,7 +1725,9 @@
     "name": "КізукіDUB",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
@@ -1704,7 +1759,7 @@
     "tiktok": "https://tiktok.com/@kisukidub?_t=8aPyhAXjDZm&_r=1",
     "tg": "https://t.me/kisukitvdab",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:08:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8118-93ca-fb39ae9aa721",
@@ -1858,11 +1913,13 @@
     "name": "LuniDUB",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Неактивна",
     "members": [],
     "anime_releases": [
       {
@@ -1884,7 +1941,7 @@
     "tiktok": null,
     "tg": "https://t.me/lunidub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:10:00.000Z"
   },
   {
     "id": "174d30fa-35d0-811c-9834-f1cf37146db8",
@@ -2064,6 +2121,9 @@
       },
       {
         "id": "2e0d30fa-35d0-8040-9436-db4ae1d3a1d8"
+      },
+      {
+        "id": "30bd30fa-35d0-8091-a1ad-e27ec51015a2"
       }
     ],
     "site": null,
@@ -2489,6 +2549,9 @@
       },
       {
         "id": "2e7d30fa-35d0-808a-8b51-f2cf8cc6da65"
+      },
+      {
+        "id": "30bd30fa-35d0-8013-a150-c8990830094e"
       }
     ],
     "site": "https://dzuski.com/",
@@ -2538,9 +2601,13 @@
     "name": "ReVoice",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Неактивна",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Припинено",
     "members": [],
     "anime_releases": [
       {
@@ -2554,9 +2621,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/revoicestudio",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-09T16:35:00.000Z"
+    "last_edited": "2026-02-19T11:20:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8123-a2e0-cc6e954704c5",
@@ -2565,13 +2632,15 @@
     "name": "Dublicat",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Фільми",
       "Серіали",
       "Мульти"
     ],
-    "status": "Невідомо",
+    "status": "Неактивна",
     "members": [],
     "anime_releases": [],
     "site": null,
@@ -2580,7 +2649,7 @@
     "tiktok": null,
     "tg": "https://t.me/dubLcat",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:31:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8127-890f-d3fe3edcfe06",
@@ -2663,6 +2732,9 @@
       },
       {
         "id": "2ead30fa-35d0-80ab-b13f-c21acb7b1a24"
+      },
+      {
+        "id": "2edd30fa-35d0-80d4-80e2-d509168befe9"
       }
     ],
     "site": null,
@@ -2721,19 +2793,22 @@
         "id": "206d30fa-35d0-80eb-a54b-ef9b07e69301"
       },
       {
+        "id": "20ed30fa-35d0-800d-96a9-dff4e881035d"
+      },
+      {
         "id": "216d30fa-35d0-800f-a027-e8a0760a0dda"
       },
       {
         "id": "216d30fa-35d0-8046-916f-ec90d259141e"
       }
     ],
-    "site": null,
+    "site": "https://uanime.org.ua/",
     "anitube": null,
     "insta": null,
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:48:00.000Z"
   },
   {
     "id": "174d30fa-35d0-812b-937b-fc5fe89c0b01",
@@ -2741,9 +2816,13 @@
     "name": "DniproFilm",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -2780,7 +2859,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:32:00.000Z"
   },
   {
     "id": "174d30fa-35d0-812c-8edd-e4fcec7d398a",
@@ -2854,6 +2933,21 @@
       },
       {
         "id": "2ead30fa-35d0-80c0-9014-f5b364781cf3"
+      },
+      {
+        "id": "2efd30fa-35d0-80df-a4f8-d79c7bb1ecde"
+      },
+      {
+        "id": "2f7d30fa-35d0-80cf-86d9-c5afba23d171"
+      },
+      {
+        "id": "2f7d30fa-35d0-80d4-9b1a-c84d363fe39b"
+      },
+      {
+        "id": "30bd30fa-35d0-804d-b197-ec58714ab550"
+      },
+      {
+        "id": "30bd30fa-35d0-808b-a15f-f51d4058d691"
       }
     ],
     "site": null,
@@ -2902,7 +2996,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Розформована",
     "members": [],
     "anime_releases": [
       {
@@ -3014,7 +3108,7 @@
     "tiktok": null,
     "tg": "https://t.me/fairydub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:36:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8132-a2f0-df7b815102ee",
@@ -3065,11 +3159,13 @@
     "name": "Saturn Union",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Розформована",
     "members": [],
     "anime_releases": [
       {
@@ -3151,7 +3247,7 @@
     "tiktok": null,
     "tg": "https://t.me/+xuWWBtpCdcQzZjUy",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:23:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8134-bf75-d021ae532c80",
@@ -3190,11 +3286,15 @@
   {
     "id": "174d30fa-35d0-8135-a9d5-d411b92cde03",
     "cover": null,
-    "name": "DLGG",
+    "name": "DLGGSUB",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -3205,16 +3305,28 @@
         "id": "174d30fa-35d0-81bc-bda2-eb8b150c2601"
       },
       {
+        "id": "174d30fa-35d0-81f5-9806-f6644c448b38"
+      },
+      {
         "id": "203d30fa-35d0-8054-92df-fc21c9f86245"
+      },
+      {
+        "id": "2eed30fa-35d0-80b3-85b4-c6a6ac209fb7"
+      },
+      {
+        "id": "2f6d30fa-35d0-80ad-856d-cb79be74f5fa"
+      },
+      {
+        "id": "2f6d30fa-35d0-80ec-8c07-d2be6b0069da"
       }
     ],
     "site": null,
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/dlggsub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:30:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8135-b495-dcb210a127df",
@@ -3367,6 +3479,9 @@
         "id": "174d30fa-35d0-81db-b560-c2bc513a839a"
       },
       {
+        "id": "174d30fa-35d0-81dc-90f2-f26385c0c2cd"
+      },
+      {
         "id": "174d30fa-35d0-81e6-8988-d24e5bfeb4c4"
       },
       {
@@ -3427,6 +3542,9 @@
         "id": "177d30fa-35d0-80f7-8c0e-dc2686cc0db4"
       },
       {
+        "id": "17ad30fa-35d0-8095-9720-c5fadc128c06"
+      },
+      {
         "id": "17cd30fa-35d0-8076-b1e7-ed031c022656"
       },
       {
@@ -3464,6 +3582,12 @@
       },
       {
         "id": "2ead30fa-35d0-80de-99cc-f9fd77d65b03"
+      },
+      {
+        "id": "2f7d30fa-35d0-80e9-8eae-d96345939c76"
+      },
+      {
+        "id": "319d30fa-35d0-802d-9ccc-ece552aab2c6"
       }
     ],
     "site": null,
@@ -3551,7 +3675,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Малоактивна",
+    "status": "Неактивна",
     "members": [],
     "anime_releases": [
       {
@@ -3576,16 +3700,18 @@
     "tiktok": null,
     "tg": "t.me/LightnessSDuB",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-05-07T10:41:00.000Z"
+    "last_edited": "2026-02-19T11:00:00.000Z"
   },
   {
     "id": "174d30fa-35d0-813c-9474-da91ffcf4787",
     "cover": null,
-    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097981/4ua_r3nere.jpg",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/bd5cb2c4-dd89-45a7-bef3-b4e86ae7b543/4UA.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZBVPEQWE%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCIQDdNsB%2Fe8UedASz9XrUwcela8ffQfdvj%2FRL3%2FkCa0Ta2gIgaXMKBQnjCECTgUG%2B8A92rKFRdUliYFmLjW5T1N6SPSkq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDARAwXnv1ZZvUZgeJSrcA%2FNZmanWLfH73Rg%2FTBkYzEBM1u7ihJ6gDX4KLmh68Melekg3T3xaliJvLozQBwVJCB6AqqfL6L4SBo%2FwFJArYsGuo895x7aIKZg7b8shp%2BU86bCbyeCCK7H6jmw0eE8lNWo3IhY1SwHsVgfraLCXTuuArsmVXMM3cqwKhFC7J2%2Fgv0AMAODPnE9BIkEdcf7htv64xGoEp792%2FBn2IZYJJO0Oe1UTaeyle7BNY0X%2B6p%2F8TcuIbAFP6qoqjIUFyKNQ%2BH6JLudxDO4NDcSb61wOHIZ%2FAz4HZLjsPqzC6FpMP378%2F6YJG1g1a%2BAIltuGDDBAv%2BNtPeoYZfZ9Oio9%2BxXvlgUECGrzNi%2F2UnXpUeZqvUuBTeX7sve4FVxG9SsBF7nKUYUB8%2BJw63k92XcVCcelEZw22eJSYkeMLYQI%2Fe3hKJ8r%2F9124QqkvLaCOXeFdtFiyFiV1UaSJ5V8w0ovfrwcyEWM0%2FHO2Z3Egwc7z5a9ajzMovIScHA72MEDtmBRmkYkJTAWgMqVCyz7l%2Fg0s7KEB7GsYxMGcufd%2BMo9Ppircgrf1gptQ8tiV9uMvxEfELwDYYAN4XuDtg0EyCWU7U8%2FP6zVT3cHUl5hdgq4E6TCBG07Xu07eakrNWFXGo2PMO2tps4GOqUBBt1DPyfzB15dojHqsUHKGxLhaP5Y8nnngGVqQ9nS7hlHSAy1cvhOd2gglxxWBLZLTFXiojQtK0FomB00CeabeHVuJH79EgIbcN9hyY8RJj%2BGPIToqOuBXw092NZw6s1XcIVJcp9FFqBd9fAacEKuYEL5lkMpUWdwQWQNgHyweGodZHiLSasrEwPa0rXGnU%2FZwSwg1Rix%2B%2B79HHTsNsl6A7DLwe5k&X-Amz-Signature=dc91c19bd2a2cc04551e3c9c69c1a69b864e3b7245e064175445d5bce02dab1f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "4UA",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
@@ -3646,15 +3772,30 @@
       },
       {
         "id": "1ccd30fa-35d0-8070-bf2d-ddea722ab8d1"
+      },
+      {
+        "id": "2f1d30fa-35d0-80ee-a4b4-fea072c9379d"
+      },
+      {
+        "id": "2fed30fa-35d0-8062-af68-dd71f0cf6d5c"
+      },
+      {
+        "id": "2fed30fa-35d0-8098-9e4e-d19523309b96"
+      },
+      {
+        "id": "2fed30fa-35d0-80e0-8354-d732f30eb0f7"
+      },
+      {
+        "id": "317d30fa-35d0-80ba-8e1a-fce6340016e0"
       }
     ],
     "site": "https://4ua.org.ua/",
-    "anitube": "-",
+    "anitube": "https://anitube.in.ua/tags/4UA/",
     "insta": null,
     "tiktok": null,
     "tg": "https://t.me/foryouanime_4ua",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-04-05T13:36:00.000Z"
+    "last_edited": "2026-02-19T09:52:00.000Z"
   },
   {
     "id": "174d30fa-35d0-813c-ac4b-fb627e00ff64",
@@ -3744,6 +3885,9 @@
       },
       {
         "id": "2ead30fa-35d0-808e-a7d1-edb9e12c43f4"
+      },
+      {
+        "id": "2edd30fa-35d0-801a-b66f-e5eee4e2f97b"
       }
     ],
     "site": null,
@@ -3761,9 +3905,13 @@
     "name": "ONIMA",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Розформована",
     "members": [],
     "anime_releases": [
       {
@@ -3782,7 +3930,7 @@
     "tiktok": null,
     "tg": "https://t.me/onima_ua",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:16:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8141-bc31-eb23f9097863",
@@ -3970,7 +4118,7 @@
     "tiktok": null,
     "tg": "https://t.me/animriya_team",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-10-21T16:03:00.000Z"
+    "last_edited": "2026-02-19T09:56:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8145-b10f-cf0124891920",
@@ -4257,9 +4405,13 @@
     "name": "SubAutumn",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -4368,7 +4520,7 @@
     "tiktok": null,
     "tg": "https://t.me/subautumn",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:40:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8148-923a-c10a3037de48",
@@ -4726,8 +4878,12 @@
     "name": "З ранку до ночі",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Неактивна",
     "members": [],
     "anime_releases": [
@@ -4741,7 +4897,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-10-14T15:43:00.000Z"
+    "last_edited": "2026-02-19T12:08:00.000Z"
   },
   {
     "id": "174d30fa-35d0-815b-a47b-fe41372c9a9b",
@@ -4811,7 +4967,7 @@
       "Фільми",
       "Серіали"
     ],
-    "status": "Невідомо",
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -4863,7 +5019,7 @@
     "tiktok": null,
     "tg": "https://t.me/uaspeedfilmsdub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-08T14:43:00.000Z"
+    "last_edited": "2026-02-19T11:49:00.000Z"
   },
   {
     "id": "174d30fa-35d0-815f-85af-dd1544849ddd",
@@ -5384,6 +5540,36 @@
       },
       {
         "id": "2e3d30fa-35d0-80d7-b7b7-f7e960812217"
+      },
+      {
+        "id": "2eed30fa-35d0-8016-8f78-cc4a2d15cff8"
+      },
+      {
+        "id": "2eed30fa-35d0-80b9-ac4b-d3464e5fb14a"
+      },
+      {
+        "id": "2eed30fa-35d0-80c9-af64-c561dcd0f458"
+      },
+      {
+        "id": "2fed30fa-35d0-8054-8249-d548b9654beb"
+      },
+      {
+        "id": "305d30fa-35d0-801a-aa44-e9b7f9ff0092"
+      },
+      {
+        "id": "305d30fa-35d0-8046-bba8-edf269b35b97"
+      },
+      {
+        "id": "305d30fa-35d0-8067-af90-f151fb6f73b4"
+      },
+      {
+        "id": "305d30fa-35d0-8069-9cfe-f1a100baba2e"
+      },
+      {
+        "id": "305d30fa-35d0-807a-8407-e87f46b17e9b"
+      },
+      {
+        "id": "305d30fa-35d0-80da-b393-c2a2b482cc75"
       }
     ],
     "site": null,
@@ -5473,11 +5659,13 @@
     "name": "Майстерня слів",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -5547,7 +5735,7 @@
     "tiktok": null,
     "tg": "https://t.me/maisterniasliv",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-04-05T13:07:00.000Z"
+    "last_edited": "2026-02-19T12:11:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8164-b819-c4215dcaa588",
@@ -5646,6 +5834,12 @@
       },
       {
         "id": "28ed30fa-35d0-801a-bbe2-d05be67a2779"
+      },
+      {
+        "id": "2fad30fa-35d0-80ba-877d-e734dd205299"
+      },
+      {
+        "id": "2fad30fa-35d0-80fe-b4d0-f224e0df14af"
       }
     ],
     "site": null,
@@ -5663,11 +5857,13 @@
     "name": "Project U&A Lines",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Дорами"
     ],
-    "status": "Невідомо",
+    "status": "Активна",
     "members": [],
     "anime_releases": [],
     "site": null,
@@ -5676,7 +5872,7 @@
     "tiktok": null,
     "tg": "https://t.me/ualines",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:18:00.000Z"
   },
   {
     "id": "174d30fa-35d0-816c-ad69-f6829ebc258e",
@@ -5709,6 +5905,9 @@
       },
       {
         "id": "174d30fa-35d0-810f-a77c-ec869a9b67a6"
+      },
+      {
+        "id": "174d30fa-35d0-8116-aeb1-ce5611138f86"
       },
       {
         "id": "174d30fa-35d0-8118-8ffd-dd4175b9dad8"
@@ -6102,6 +6301,18 @@
       },
       {
         "id": "2ead30fa-35d0-80eb-af6c-e9266416c981"
+      },
+      {
+        "id": "2eed30fa-35d0-8075-ace1-ef9b076012b2"
+      },
+      {
+        "id": "305d30fa-35d0-803e-8b3f-ccc71d02d2da"
+      },
+      {
+        "id": "305d30fa-35d0-8091-a472-cdb5821f2554"
+      },
+      {
+        "id": "305d30fa-35d0-80d1-8d76-db2acbd56a68"
       }
     ],
     "site": null,
@@ -6399,7 +6610,8 @@
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730099892/Tutazasho_nu6glp.jpg",
     "name": "TuTaZaSho",
     "altname": [
-      "Tu Ta3aSho Studio dub"
+      "Tu Ta3aSho Studio dub",
+      "ТюТаЗаШо"
     ],
     "founded": {
       "start": "2023-03-01",
@@ -6468,6 +6680,15 @@
       },
       {
         "id": "28ed30fa-35d0-80db-bafd-f3496e17649b"
+      },
+      {
+        "id": "2f1d30fa-35d0-80b1-9080-c99fd3f66445"
+      },
+      {
+        "id": "30bd30fa-35d0-800d-a4cb-d991c9f0411f"
+      },
+      {
+        "id": "30bd30fa-35d0-8054-8d5e-d379ebad9b0d"
       }
     ],
     "site": null,
@@ -6476,7 +6697,7 @@
     "tiktok": null,
     "tg": "https://t.me/Tu_Ta3aSho_Studio_dub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-10-16T06:33:00.000Z"
+    "last_edited": "2026-02-18T21:46:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8175-8593-e8f95469bdaf",
@@ -6485,11 +6706,13 @@
     "name": "UAtyan",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Розформована",
     "members": [],
     "anime_releases": [],
     "site": "http://uatyan.com",
@@ -6498,7 +6721,7 @@
     "tiktok": null,
     "tg": "https://t.me/uatyan",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:49:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8177-9139-ee057036a5e0",
@@ -6507,11 +6730,13 @@
     "name": "Файник вулик",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Припинено",
     "members": [],
     "anime_releases": [
       {
@@ -6524,7 +6749,7 @@
     "tiktok": null,
     "tg": "https://t.me/fainyivulyk",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:32:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8177-93c2-c1071b89773d",
@@ -6533,9 +6758,13 @@
     "name": "Kawaii Sound",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Неактивна",
     "members": [],
     "anime_releases": [
       {
@@ -6551,7 +6780,7 @@
     "tiktok": null,
     "tg": "https://t.me/blindsvoice",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:54:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8179-85ec-c0e7f3331b50",
@@ -6661,6 +6890,9 @@
         "id": "181d30fa-35d0-80c6-9bb9-cb90e5e17433"
       },
       {
+        "id": "188d30fa-35d0-802e-ba8f-e7ad708c9465"
+      },
+      {
         "id": "18fd30fa-35d0-803b-a588-d4c851cfc67d"
       },
       {
@@ -6716,6 +6948,12 @@
       },
       {
         "id": "2ead30fa-35d0-8049-ae61-de469d75dd1f"
+      },
+      {
+        "id": "2f1d30fa-35d0-8061-b5e9-c25999c46151"
+      },
+      {
+        "id": "2fed30fa-35d0-80a6-9750-f5c392539cb9"
       }
     ],
     "site": null,
@@ -6733,11 +6971,13 @@
     "name": "FukuroNachi",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Неактивна",
     "members": [
       {
         "id": "174d30fa-35d0-8181-ba62-d82e7d9cd0d8"
@@ -6781,7 +7021,7 @@
     "tiktok": null,
     "tg": "https://t.me/subfukuronachi",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:45:00.000Z"
   },
   {
     "id": "174d30fa-35d0-817b-82cd-d96084be2b17",
@@ -6791,7 +7031,9 @@
     "altname": [],
     "founded": null,
     "type_team": [],
-    "type_activity": [],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Неактивна",
     "members": [],
     "anime_releases": [],
@@ -6801,7 +7043,7 @@
     "tiktok": null,
     "tg": "https://t.me/FamilLyVoiceUA",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-09T16:33:00.000Z"
+    "last_edited": "2026-02-19T10:36:00.000Z"
   },
   {
     "id": "174d30fa-35d0-817b-ae20-c8afc653c83c",
@@ -6810,8 +7052,12 @@
     "name": "Baibako",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [
       {
@@ -6829,7 +7075,7 @@
     "tiktok": null,
     "tg": "https://t.me/baibako_tv",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:16:00.000Z"
   },
   {
     "id": "174d30fa-35d0-817b-b8e9-ec122880900c",
@@ -6851,9 +7097,6 @@
         "id": "174d30fa-35d0-810d-85f5-f14a817e6e1f"
       },
       {
-        "id": "174d30fa-35d0-8115-8de8-c596a6f230ff"
-      },
-      {
         "id": "174d30fa-35d0-8128-a967-fefebef95132"
       },
       {
@@ -6873,6 +7116,9 @@
       },
       {
         "id": "174d30fa-35d0-8168-b8fa-f79a44905745"
+      },
+      {
+        "id": "174d30fa-35d0-8177-95da-dc11b13e9d93"
       },
       {
         "id": "174d30fa-35d0-8179-84e9-df61092c9b9d"
@@ -7124,11 +7370,15 @@
       "Jakob&akainu19"
     ],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб",
+      "Сканлейт"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -7390,7 +7640,7 @@
     "tiktok": null,
     "tg": "https://t.me/Togarashidub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-07-08T09:55:00.000Z"
+    "last_edited": "2026-02-19T11:46:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8180-920e-e5cad2a32eed",
@@ -7494,8 +7744,7 @@
       "Фансаб"
     ],
     "type_activity": [
-      "Переклад",
-      "Субтитри"
+      "Аніме"
     ],
     "status": "Активна",
     "members": [
@@ -7647,6 +7896,21 @@
       },
       {
         "id": "2ead30fa-35d0-8081-b449-d4f431087323"
+      },
+      {
+        "id": "2eed30fa-35d0-800b-aa06-c6379ea257dd"
+      },
+      {
+        "id": "2eed30fa-35d0-8026-80bb-dfc9a31eea40"
+      },
+      {
+        "id": "2eed30fa-35d0-80fa-b1da-d3817c1908be"
+      },
+      {
+        "id": "2fed30fa-35d0-8054-8759-dd6ffe6c773c"
+      },
+      {
+        "id": "2fed30fa-35d0-8062-85cb-ca4e8beea409"
       }
     ],
     "site": null,
@@ -7655,7 +7919,7 @@
     "tiktok": null,
     "tg": "https://t.me/Legat_translate",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-05-13T20:18:00.000Z"
+    "last_edited": "2026-02-19T12:10:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8180-bb22-c6d520c45650",
@@ -7692,7 +7956,9 @@
     "name": "Раш Тейлз",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Різне"
     ],
@@ -7709,7 +7975,7 @@
     "tiktok": null,
     "tg": "https://t.me/rushtales",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:26:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8182-8347-c77b099f5af3",
@@ -7846,9 +8112,6 @@
         "id": "1fcd30fa-35d0-80eb-a2e7-f2464f81dc85"
       },
       {
-        "id": "1fdd30fa-35d0-8040-a8b4-ebdf88507202"
-      },
-      {
         "id": "1fdd30fa-35d0-8050-9bb1-eed47fe9625a"
       },
       {
@@ -7883,9 +8146,6 @@
       },
       {
         "id": "1ffd30fa-35d0-8014-962a-dc9f813d61f4"
-      },
-      {
-        "id": "1ffd30fa-35d0-8017-883c-c4df91c5a487"
       },
       {
         "id": "1ffd30fa-35d0-8019-ba85-fe49ab65b96c"
@@ -8113,9 +8373,6 @@
         "id": "20dd30fa-35d0-8017-9f5d-c8b5c9c69f28"
       },
       {
-        "id": "20ed30fa-35d0-800d-96a9-dff4e881035d"
-      },
-      {
         "id": "20ed30fa-35d0-8014-b4ed-c876c2896c37"
       },
       {
@@ -8174,6 +8431,12 @@
       },
       {
         "id": "214d30fa-35d0-8016-96ea-f4c0be7d6873"
+      },
+      {
+        "id": "216d30fa-35d0-8017-bcb0-ec2d483f2f35"
+      },
+      {
+        "id": "216d30fa-35d0-8018-be64-ecdd0a0797d0"
       },
       {
         "id": "216d30fa-35d0-8040-8fdf-d1c902b99aa4"
@@ -8368,13 +8631,25 @@
         "id": "293d30fa-35d0-80cf-a3d8-d427b8fda1a2"
       },
       {
-        "id": "2e7d30fa-35d0-804d-897e-f951247058da"
-      },
-      {
         "id": "2e8d30fa-35d0-800d-96b6-ccc002cc1555"
       },
       {
         "id": "2ead30fa-35d0-809a-bffa-f1dfeede854d"
+      },
+      {
+        "id": "2edd30fa-35d0-8092-bd50-eba83862940d"
+      },
+      {
+        "id": "2f5d30fa-35d0-8016-a585-e10bd885c2eb"
+      },
+      {
+        "id": "2f5d30fa-35d0-80fd-a5ad-e894db5f585b"
+      },
+      {
+        "id": "2f8d30fa-35d0-80d9-a7fa-f3a979eff58f"
+      },
+      {
+        "id": "30bd30fa-35d0-80af-b84e-f07cf739ef1c"
       }
     ],
     "site": null,
@@ -8415,9 +8690,13 @@
     "name": "Vberezhna",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Припинено",
     "members": [],
     "anime_releases": [
       {
@@ -8430,7 +8709,7 @@
     "tiktok": null,
     "tg": "https://t.me/VberezhnaDub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:56:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8182-a8a0-de655f2153ad",
@@ -8478,6 +8757,15 @@
     "members": [
       {
         "id": "174d30fa-35d0-81b3-ba9c-dcfe2d52b9e5"
+      },
+      {
+        "id": "203d30fa-35d0-803f-8250-c400a75a333a"
+      },
+      {
+        "id": "203d30fa-35d0-8056-959b-e2c1263bbc70"
+      },
+      {
+        "id": "2eed30fa-35d0-8060-94ae-f85dbcf288b0"
       }
     ],
     "anime_releases": [
@@ -8735,6 +9023,15 @@
       },
       {
         "id": "28dd30fa-35d0-80d7-bcd0-e07187c4a2b2"
+      },
+      {
+        "id": "2eed30fa-35d0-80a0-8dc9-c5252fd86671"
+      },
+      {
+        "id": "30bd30fa-35d0-8074-9d57-d02a5c7786fd"
+      },
+      {
+        "id": "30bd30fa-35d0-80a5-862f-ec70591555d8"
       }
     ],
     "site": null,
@@ -8743,7 +9040,7 @@
     "tiktok": null,
     "tg": "https://t.me/didko_studio",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-02-04T09:57:00.000Z"
+    "last_edited": "2026-02-05T07:21:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8183-a926-e2aae3e48567",
@@ -9016,6 +9313,9 @@
       },
       {
         "id": "2e9d30fa-35d0-8091-889d-f2669beec8f4"
+      },
+      {
+        "id": "30cd30fa-35d0-806b-8901-ff0709f4c1aa"
       }
     ],
     "site": null,
@@ -9024,7 +9324,7 @@
     "tiktok": null,
     "tg": "https://t.me/EspadaDub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-10-14T15:42:00.000Z"
+    "last_edited": "2026-02-19T11:05:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8188-8210-e4f160727780",
@@ -9061,7 +9361,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Малоактивна",
+    "status": "Неактивна",
     "members": [],
     "anime_releases": [
       {
@@ -9083,7 +9383,7 @@
     "tiktok": null,
     "tg": "https://t.me/CrystalVoicesUA",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:26:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8189-8fa6-c0e5164ba31b",
@@ -9092,8 +9392,13 @@
     "name": "AniUA",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Малоактивна",
     "members": [],
     "anime_releases": [
@@ -9660,9 +9965,9 @@
     "anitube": "https://anitube.in.ua/tags/AniUa/",
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/aniua",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-09T16:32:00.000Z"
+    "last_edited": "2026-02-19T10:12:00.000Z"
   },
   {
     "id": "174d30fa-35d0-818a-b5b2-ccde3d270608",
@@ -9671,11 +9976,13 @@
     "name": "UAMAX",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Малоактивна",
     "members": [
       {
         "id": "174d30fa-35d0-816c-9b22-fbf0508fb198"
@@ -9797,6 +10104,9 @@
         "id": "174d30fa-35d0-81fe-9501-d0cb917310cf"
       },
       {
+        "id": "179d30fa-35d0-803a-96bc-ef2322e55f28"
+      },
+      {
         "id": "17cd30fa-35d0-8007-8b1c-e59aa1da9503"
       },
       {
@@ -9828,6 +10138,9 @@
       },
       {
         "id": "197d30fa-35d0-803b-a67d-f61577da05c2"
+      },
+      {
+        "id": "1d5d30fa-35d0-80b8-a837-d48a8af433fd"
       },
       {
         "id": "1ecd30fa-35d0-8030-ae6e-f794f2b0661b"
@@ -9873,6 +10186,9 @@
       },
       {
         "id": "2e9d30fa-35d0-808e-987f-d1684d8be304"
+      },
+      {
+        "id": "2eed30fa-35d0-805c-b018-c8068bd43395"
       }
     ],
     "site": null,
@@ -9881,12 +10197,12 @@
     "tiktok": null,
     "tg": "https://t.me/uamax_dub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:48:00.000Z"
   },
   {
     "id": "174d30fa-35d0-818b-bb47-f31212d48fd1",
     "cover": null,
-    "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730097980/10gu_yyshow.jpg",
+    "logo": "https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/Лого%20команд/10gu.jpg",
     "name": "10GU",
     "altname": [],
     "founded": null,
@@ -10021,7 +10337,7 @@
     "tiktok": null,
     "tg": "https://t.me/tengudub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-04-05T14:01:00.000Z"
+    "last_edited": "2026-03-02T06:34:00.000Z"
   },
   {
     "id": "174d30fa-35d0-818f-80a8-c5c5bd55a5e6",
@@ -10030,11 +10346,13 @@
     "name": "В одне рило",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Різне"
     ],
-    "status": "Невідомо",
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -10053,7 +10371,7 @@
     "tiktok": null,
     "tg": "https://t.me/v_odne_rilo",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:01:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8190-b681-d33a75beb95d",
@@ -10061,9 +10379,13 @@
     "name": "MariAm Project",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Розформована",
     "members": [
       {
         "id": "174d30fa-35d0-81a6-ab06-ed1d30d06257"
@@ -10092,7 +10414,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:11:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8194-a70b-cbef94fc4808",
@@ -10100,8 +10422,12 @@
     "name": "Tretyakoff production",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Офдаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -10115,7 +10441,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:46:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8195-9f9d-cd0d1bcffda8",
@@ -10124,7 +10450,9 @@
     "name": "Лісовий вітер",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
@@ -10162,7 +10490,7 @@
     "tiktok": null,
     "tg": "https://t.me/lisovyi_viter",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:11:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8196-8f35-cd09776f5431",
@@ -10171,7 +10499,9 @@
     "name": "Дивна Десія",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
@@ -10188,7 +10518,7 @@
     "tiktok": null,
     "tg": "https://t.me/dyvnadesiaua",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:07:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8197-ae3d-ca6f4898c245",
@@ -10294,6 +10624,9 @@
       },
       {
         "id": "174d30fa-35d0-8112-95dc-d77c276c57ab"
+      },
+      {
+        "id": "174d30fa-35d0-8114-a3b6-fed0283e5756"
       },
       {
         "id": "174d30fa-35d0-8116-bd3c-e72ee20afc3e"
@@ -10834,6 +11167,15 @@
       },
       {
         "id": "2ead30fa-35d0-80a1-8275-f82bbd9817f1"
+      },
+      {
+        "id": "2f0d30fa-35d0-8089-81ff-c41d2169c704"
+      },
+      {
+        "id": "2f0d30fa-35d0-8096-8b07-f1c17f9e4fc2"
+      },
+      {
+        "id": "2f1d30fa-35d0-80ab-8af3-defd9777d7b4"
       }
     ],
     "site": "https://amanogawa.space/",
@@ -10879,13 +11221,13 @@
         "id": "217d30fa-35d0-80b3-912a-f4544a02bd82"
       }
     ],
-    "site": null,
+    "site": "https://web.archive.org/web/20220410083759/http://starflame.at.ua/?page2",
     "anitube": null,
     "insta": null,
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-05-15T15:27:00.000Z"
+    "last_edited": "2026-02-19T11:36:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8198-a517-e3f0c1752cb5",
@@ -12360,9 +12702,6 @@
         "id": "174d30fa-35d0-81e9-a391-eb948e55f935"
       },
       {
-        "id": "174d30fa-35d0-81e9-bb20-cd03968a491c"
-      },
-      {
         "id": "174d30fa-35d0-81e9-be10-c87e46b9eecd"
       },
       {
@@ -12514,6 +12853,9 @@
       },
       {
         "id": "176d30fa-35d0-802b-ace3-e2b183dd344b"
+      },
+      {
+        "id": "17ad30fa-35d0-8009-bc4b-f7f0fce2be25"
       },
       {
         "id": "17ad30fa-35d0-8025-b395-f7e5f206d25f"
@@ -12766,6 +13108,15 @@
       },
       {
         "id": "2ead30fa-35d0-8062-aaf3-ca9432a3cb8a"
+      },
+      {
+        "id": "2ecd30fa-35d0-80e2-9232-fb8d16f12816"
+      },
+      {
+        "id": "2efd30fa-35d0-80c3-9e56-c38836794742"
+      },
+      {
+        "id": "304d30fa-35d0-805c-8d5a-f9425bb119c4"
       }
     ],
     "site": null,
@@ -13469,6 +13820,21 @@
       },
       {
         "id": "2ead30fa-35d0-8062-b0e5-c2c53a796df8"
+      },
+      {
+        "id": "2f1d30fa-35d0-8093-83c4-d880de1f734b"
+      },
+      {
+        "id": "2f1d30fa-35d0-80e7-96eb-c53dee4cbf99"
+      },
+      {
+        "id": "2fad30fa-35d0-806e-b430-ccacfbb6e22d"
+      },
+      {
+        "id": "2fad30fa-35d0-8077-a7f6-e43f15634da1"
+      },
+      {
+        "id": "317d30fa-35d0-8090-94ee-fc43da91f118"
       }
     ],
     "site": "https://ufdub.com/",
@@ -13477,7 +13843,7 @@
     "tiktok": null,
     "tg": "https://t.me/UFDUB",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-02-25T20:56:00.000Z"
+    "last_edited": "2026-02-19T11:49:00.000Z"
   },
   {
     "id": "174d30fa-35d0-819d-968c-f648d0b82baf",
@@ -13572,6 +13938,9 @@
       },
       {
         "id": "28dd30fa-35d0-804f-bbf8-e930d8bda536"
+      },
+      {
+        "id": "2eed30fa-35d0-80da-b2ed-eea80760c8f4"
       }
     ],
     "site": null,
@@ -13595,7 +13964,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -13650,7 +14019,7 @@
     "tiktok": null,
     "tg": "https://t.me/hoffer_subs",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-02-08T20:43:00.000Z"
+    "last_edited": "2026-02-19T10:49:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81a6-8030-c6c46b56b986",
@@ -13757,11 +14126,13 @@
     "name": "Повість сучасних літ",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Неактивна",
     "members": [],
     "anime_releases": [
       {
@@ -13780,7 +14151,7 @@
     "tiktok": null,
     "tg": "https://t.me/povistlit",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:13:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81ab-97ea-ed3a1a95305c",
@@ -13866,8 +14237,14 @@
     "name": "Urmanga",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб",
+      "Сканлейт"
+    ],
+    "type_activity": [
+      "Аніме",
+      "Манґа"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [],
@@ -13877,7 +14254,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:56:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81af-876e-dd6226304cb6",
@@ -13948,9 +14325,14 @@
     "name": "Чорний верес",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме",
+      "Дорами"
+    ],
+    "status": "Активна",
     "members": [
       {
         "id": "174d30fa-35d0-811e-9715-e1d61754f8a9"
@@ -13961,9 +14343,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/chornyyveres",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:33:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81b3-9466-f25c99cac263",
@@ -14003,8 +14385,12 @@
     "name": "TeaSound (Anisin)",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [],
@@ -14012,9 +14398,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/ua_animevoice",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:45:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81b4-8a5d-ee18d4759b3d",
@@ -14023,7 +14409,10 @@
     "name": "MelVoiceStudio (MVS)",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
@@ -14251,7 +14640,7 @@
     "tiktok": null,
     "tg": "https://t.me/melvoice",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:12:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81b4-ae01-d4d4b8c5584c",
@@ -14260,7 +14649,9 @@
     "name": "HATOSHI",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме",
       "Фільми",
@@ -14339,7 +14730,7 @@
     "tiktok": null,
     "tg": "https://t.me/hatoshi_ua",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-14T07:28:00.000Z"
+    "last_edited": "2026-02-19T10:48:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81b5-bf3c-eda278aaccc0",
@@ -14590,6 +14981,9 @@
       },
       {
         "id": "2ead30fa-35d0-8008-ac1e-eb2fa125f543"
+      },
+      {
+        "id": "1fed30fa-35d0-80ea-b1f4-eda9fa11f16c"
       }
     ],
     "anime_releases": [
@@ -15347,6 +15741,9 @@
         "id": "174d30fa-35d0-8184-8516-d14018140385"
       },
       {
+        "id": "174d30fa-35d0-8184-9cbe-cbac301b8041"
+      },
+      {
         "id": "174d30fa-35d0-8184-a7b3-d742e98f0e27"
       },
       {
@@ -16076,6 +16473,12 @@
         "id": "17ad30fa-35d0-802e-8bfe-e7dfaffd2ccc"
       },
       {
+        "id": "184d30fa-35d0-802b-9171-dcf056f73891"
+      },
+      {
+        "id": "190d30fa-35d0-8000-8303-cb3631b2b8ea"
+      },
+      {
         "id": "190d30fa-35d0-8008-b090-faabd429c159"
       },
       {
@@ -16101,9 +16504,6 @@
       },
       {
         "id": "190d30fa-35d0-8048-b034-c76be0c25808"
-      },
-      {
-        "id": "190d30fa-35d0-8049-842d-c535c2caa36d"
       },
       {
         "id": "190d30fa-35d0-8049-bd15-eb96da7f900a"
@@ -16581,6 +16981,12 @@
       },
       {
         "id": "2ead30fa-35d0-80f3-90a0-c08cb2767058"
+      },
+      {
+        "id": "2f0d30fa-35d0-80a3-99e0-d00c5c79baf6"
+      },
+      {
+        "id": "2f7d30fa-35d0-8053-8922-c6932835f766"
       }
     ],
     "site": null,
@@ -16988,9 +17394,6 @@
         "id": "174d30fa-35d0-81a9-a065-d782f736d210"
       },
       {
-        "id": "174d30fa-35d0-81c4-be48-d0e92a1d5a7c"
-      },
-      {
         "id": "174d30fa-35d0-81ec-9a63-e108005de909"
       },
       {
@@ -17015,27 +17418,79 @@
     "name": "Bamboo UA",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
-    "members": [],
+    "status": "Активна",
+    "members": [
+      {
+        "id": "2f7d30fa-35d0-80a2-8c4a-c875cd6fff71"
+      }
+    ],
     "anime_releases": [
       {
         "id": "174d30fa-35d0-8101-b4dc-fc954523ae32"
       },
       {
+        "id": "174d30fa-35d0-8116-bce6-cb875294dfdb"
+      },
+      {
+        "id": "174d30fa-35d0-8130-95d8-e2f65bc4a34c"
+      },
+      {
+        "id": "174d30fa-35d0-8141-a724-c305cc6ada22"
+      },
+      {
+        "id": "174d30fa-35d0-8188-ba13-eb24ab2c4ee3"
+      },
+      {
+        "id": "174d30fa-35d0-818c-a05a-cccf4d0c94ec"
+      },
+      {
+        "id": "174d30fa-35d0-81c4-be48-d0e92a1d5a7c"
+      },
+      {
         "id": "174d30fa-35d0-81e9-843a-ff54da40ac89"
       },
       {
+        "id": "177d30fa-35d0-8021-bdf6-ddecfe8336cb"
+      },
+      {
+        "id": "177d30fa-35d0-8061-b45a-ee92dc02bda8"
+      },
+      {
+        "id": "177d30fa-35d0-807b-9d57-d0a8a67c2bba"
+      },
+      {
         "id": "177d30fa-35d0-80c8-81e1-ecfe16aeb174"
+      },
+      {
+        "id": "17ad30fa-35d0-8019-afa6-cb0eef0f039f"
+      },
+      {
+        "id": "17ad30fa-35d0-8024-b999-d2df6e871f14"
       },
       {
         "id": "17ad30fa-35d0-804d-acce-daec53d64f1d"
       },
       {
         "id": "17ad30fa-35d0-8072-b74c-c5ab88caa8c9"
+      },
+      {
+        "id": "17ad30fa-35d0-8084-9319-cd7f47b62a20"
+      },
+      {
+        "id": "17ad30fa-35d0-808c-b1dc-c12e9a77c0e5"
+      },
+      {
+        "id": "17ad30fa-35d0-8095-9720-c5fadc128c06"
+      },
+      {
+        "id": "1ffd30fa-35d0-8017-883c-c4df91c5a487"
       },
       {
         "id": "1ffd30fa-35d0-8042-9deb-e77cc17dbeeb"
@@ -17054,6 +17509,30 @@
       },
       {
         "id": "292d30fa-35d0-80ad-859b-e4f31f30b104"
+      },
+      {
+        "id": "2f7d30fa-35d0-804c-9fb0-c59073f5e6e3"
+      },
+      {
+        "id": "2f7d30fa-35d0-804c-ab6a-dace4342eedd"
+      },
+      {
+        "id": "2f7d30fa-35d0-8067-95e4-e730b2557a38"
+      },
+      {
+        "id": "2f7d30fa-35d0-809f-b199-f06916f4603c"
+      },
+      {
+        "id": "2f7d30fa-35d0-80c4-88a7-c32b288a6a06"
+      },
+      {
+        "id": "2f7d30fa-35d0-80d6-aec9-c0dc5f02b457"
+      },
+      {
+        "id": "2f7d30fa-35d0-80d6-afb6-e19a7bf5ee26"
+      },
+      {
+        "id": "2f7d30fa-35d0-80d7-9d13-f9e40966cc60"
       }
     ],
     "site": null,
@@ -17062,7 +17541,7 @@
     "tiktok": null,
     "tg": "https://t.me/bambooua2022",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-13T14:12:00.000Z"
+    "last_edited": "2026-02-19T10:16:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81c6-964b-f0700990e3c7",
@@ -17138,7 +17617,9 @@
     "name": "Otaku no Sekai",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
@@ -17155,7 +17636,7 @@
     "tiktok": null,
     "tg": "https://t.me/ukrotakunosekai",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:16:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81cc-8e8d-d001af8eea9f",
@@ -17542,6 +18023,9 @@
       },
       {
         "id": "2e9d30fa-35d0-80ae-8495-ee0cd1ce23d7"
+      },
+      {
+        "id": "2fed30fa-35d0-80d9-9665-e630c740fad8"
       }
     ],
     "site": null,
@@ -17633,11 +18117,13 @@
     "name": "QUAM Project",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Розформована",
     "members": [],
     "anime_releases": [
       {
@@ -17791,7 +18277,7 @@
     "tiktok": null,
     "tg": "https://t.me/quam_project",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:18:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81d4-acb7-e05f2ee19d4e",
@@ -17800,7 +18286,9 @@
     "name": "Spiral Team",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
@@ -17827,9 +18315,9 @@
     "anitube": "https://anitube.in.ua/tags/Spiral%20Team/",
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/spiral_team_translations",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:39:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81d5-bc7a-d117b6137ce3",
@@ -17837,8 +18325,12 @@
     "name": "Вояка Schweik",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Припинено",
     "members": [],
     "anime_releases": [
@@ -17855,7 +18347,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-10-14T15:43:00.000Z"
+    "last_edited": "2026-02-19T12:04:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81d7-b763-c0a332dfffe8",
@@ -17863,9 +18355,13 @@
     "name": "MEGOGO",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Офдаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -17878,7 +18374,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:12:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81da-89fb-f4366f782f8c",
@@ -17887,11 +18383,14 @@
     "name": "ES",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -17946,7 +18445,7 @@
     "tiktok": null,
     "tg": "https://t.me/eserasedspace",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:32:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81df-87c2-cb32fac66ecb",
@@ -18196,6 +18695,12 @@
       },
       {
         "id": "2e4d30fa-35d0-80de-9f6f-d31ba8465d7a"
+      },
+      {
+        "id": "2efd30fa-35d0-8022-9e2a-fdcc32e862cd"
+      },
+      {
+        "id": "2efd30fa-35d0-8088-93aa-e14fe7aa2bcf"
       }
     ],
     "site": null,
@@ -18324,7 +18829,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Невідомо",
+    "status": "Припинено",
     "members": [],
     "anime_releases": [
       {
@@ -18340,7 +18845,7 @@
     "tiktok": null,
     "tg": "https://t.me/redpandaStudio",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T13:15:00.000Z"
+    "last_edited": "2026-02-19T11:18:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81ed-885f-f5e325de568f",
@@ -18439,7 +18944,7 @@
       "Аніме",
       "Манхва"
     ],
-    "status": "Невідомо",
+    "status": "Припинено",
     "members": [
       {
         "id": "174d30fa-35d0-81d2-baa8-f77f01a06ad4"
@@ -18555,7 +19060,7 @@
     "tiktok": null,
     "tg": "https://t.me/Kitsunestudio1",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T10:55:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81ef-b074-c5a3e4af5839",
@@ -18598,11 +19103,13 @@
     "name": "Цікава Ідея",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фандаб"
+    ],
     "type_activity": [
       "Різне"
     ],
-    "status": "Невідомо",
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -18613,9 +19120,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/cikavaideya",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T12:32:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81f0-8ee5-f6857bdf94c6",
@@ -18624,8 +19131,12 @@
     "name": "LOLDubbUA",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [],
@@ -18635,7 +19146,7 @@
     "tiktok": null,
     "tg": "https://t.me/LOLDubbUA",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-07T06:58:00.000Z"
+    "last_edited": "2026-02-19T11:10:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81f5-8d13-c0d1d4bd19d5",
@@ -18696,9 +19207,6 @@
       },
       {
         "id": "174d30fa-35d0-8109-b24d-d802d3da2b13"
-      },
-      {
-        "id": "174d30fa-35d0-810b-99e7-e3b07409efe3"
       },
       {
         "id": "174d30fa-35d0-810d-85f5-f14a817e6e1f"
@@ -19076,9 +19584,6 @@
         "id": "174d30fa-35d0-8184-94ff-f6ef135ff0d6"
       },
       {
-        "id": "174d30fa-35d0-8184-9cbe-cbac301b8041"
-      },
-      {
         "id": "174d30fa-35d0-8185-8502-c9bee02ee410"
       },
       {
@@ -19334,9 +19839,6 @@
         "id": "174d30fa-35d0-81db-a378-d33643a9b8e9"
       },
       {
-        "id": "174d30fa-35d0-81dc-90f2-f26385c0c2cd"
-      },
-      {
         "id": "174d30fa-35d0-81dc-9974-f47b5d451a5d"
       },
       {
@@ -19458,9 +19960,6 @@
       },
       {
         "id": "184d30fa-35d0-802a-b39e-fc54d8f70747"
-      },
-      {
-        "id": "184d30fa-35d0-802b-9171-dcf056f73891"
       },
       {
         "id": "184d30fa-35d0-802b-b57b-f149e28369a8"
@@ -20054,6 +20553,9 @@
         "id": "2e8d30fa-35d0-80c2-8ed7-dec9e66429d3"
       },
       {
+        "id": "2e8d30fa-35d0-80cc-a4bf-f900de656dc3"
+      },
+      {
         "id": "2e8d30fa-35d0-80df-ab67-da05a80b23db"
       },
       {
@@ -20124,6 +20626,30 @@
       },
       {
         "id": "2ead30fa-35d0-80f6-a350-c4cf2cd13ed0"
+      },
+      {
+        "id": "2eed30fa-35d0-8071-a277-c532b94866b6"
+      },
+      {
+        "id": "2eed30fa-35d0-80a1-bdb5-d9cfbb99d257"
+      },
+      {
+        "id": "2eed30fa-35d0-80a8-ab29-f85c83cfac03"
+      },
+      {
+        "id": "2efd30fa-35d0-808e-b090-cff3325b973e"
+      },
+      {
+        "id": "2f1d30fa-35d0-80b8-80a4-cb2a30ef5f43"
+      },
+      {
+        "id": "2f7d30fa-35d0-8062-aec9-fac6b740e442"
+      },
+      {
+        "id": "2fed30fa-35d0-8073-a054-e4b86b978caf"
+      },
+      {
+        "id": "304d30fa-35d0-8087-a6ff-d49ce83917c9"
       }
     ],
     "site": null,
@@ -20180,6 +20706,9 @@
       },
       {
         "id": "22ed30fa-35d0-8086-9616-eda772b932f6"
+      },
+      {
+        "id": "2fbd30fa-35d0-801a-a6fc-e041004091ad"
       }
     ],
     "site": null,
@@ -20291,7 +20820,11 @@
       "Аніме"
     ],
     "status": "Активна",
-    "members": [],
+    "members": [
+      {
+        "id": "2eed30fa-35d0-8060-94ae-f85dbcf288b0"
+      }
+    ],
     "anime_releases": [
       {
         "id": "174d30fa-35d0-8106-910a-eac94fe3d877"
@@ -20364,6 +20897,9 @@
       },
       {
         "id": "2e9d30fa-35d0-80f1-bf73-e59f4f869e5a"
+      },
+      {
+        "id": "30bd30fa-35d0-8041-8289-e6261e6ac9c0"
       }
     ],
     "site": "https://bidosi.com/",
@@ -20476,9 +21012,6 @@
       },
       {
         "id": "174d30fa-35d0-8114-8912-c1451abcc5de"
-      },
-      {
-        "id": "174d30fa-35d0-8114-a3b6-fed0283e5756"
       },
       {
         "id": "174d30fa-35d0-8114-a4a2-d62b19cb204c"
@@ -21237,9 +21770,6 @@
         "id": "1d5d30fa-35d0-80a9-8c55-daf7270930a9"
       },
       {
-        "id": "1d5d30fa-35d0-80b8-a837-d48a8af433fd"
-      },
-      {
         "id": "1d5d30fa-35d0-80bd-a5d5-f15da5e396bc"
       },
       {
@@ -21349,6 +21879,18 @@
       },
       {
         "id": "2ead30fa-35d0-80d1-b9d5-ee558a1c8f5b"
+      },
+      {
+        "id": "2f1d30fa-35d0-8063-840f-c44a16492753"
+      },
+      {
+        "id": "2f6d30fa-35d0-80c4-bce1-cb7564e9d774"
+      },
+      {
+        "id": "319d30fa-35d0-801c-be8a-fe20298bb2b0"
+      },
+      {
+        "id": "319d30fa-35d0-801e-bafb-f1bca2c033b1"
       }
     ],
     "site": null,
@@ -21455,6 +21997,9 @@
       },
       {
         "id": "2ead30fa-35d0-8009-928d-e33ec6f7c218"
+      },
+      {
+        "id": "2efd30fa-35d0-80ef-9010-c9cc95ab0603"
       }
     ],
     "site": null,
@@ -21539,9 +22084,13 @@
     "name": "Sandigo Studio",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Припинено",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
+    "status": "Невідомо",
     "members": [],
     "anime_releases": [
       {
@@ -21552,9 +22101,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/Sandigo_StudioUA",
     "created_time": "2025-01-08T13:47:00.000Z",
-    "last_edited": "2025-10-14T15:43:00.000Z"
+    "last_edited": "2026-02-19T11:21:00.000Z"
   },
   {
     "id": "177d30fa-35d0-80a1-bf5b-dd3bc083c107",
@@ -21590,9 +22139,13 @@
     "name": "Хатинка Бджілки",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -21615,9 +22168,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/beee_one",
     "created_time": "2025-01-12T08:14:00.000Z",
-    "last_edited": "2025-01-12T08:14:00.000Z"
+    "last_edited": "2026-02-19T12:32:00.000Z"
   },
   {
     "id": "179d30fa-35d0-8097-80bb-c3c23160ebf8",
@@ -21629,18 +22182,14 @@
     "type_activity": [],
     "status": "Невідомо",
     "members": [],
-    "anime_releases": [
-      {
-        "id": "179d30fa-35d0-80fa-afd5-cb89be116c72"
-      }
-    ],
+    "anime_releases": [],
     "site": null,
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/haidamike_studio",
     "created_time": "2025-01-12T07:49:00.000Z",
-    "last_edited": "2025-01-12T07:49:00.000Z"
+    "last_edited": "2026-02-19T12:05:00.000Z"
   },
   {
     "id": "17ad30fa-35d0-8052-997e-fabe8e6f91f3",
@@ -21648,9 +22197,13 @@
     "name": "Сашкові озвучення",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -21666,7 +22219,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-13T13:24:00.000Z",
-    "last_edited": "2025-01-13T13:24:00.000Z"
+    "last_edited": "2026-02-19T12:27:00.000Z"
   },
   {
     "id": "17cd30fa-35d0-80ca-ba48-ed721580833a",
@@ -21714,9 +22267,13 @@
     "name": "Taran Random Stuff",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Активна",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Невідомо",
     "members": [],
     "anime_releases": [
       {
@@ -21735,7 +22292,7 @@
     "tiktok": null,
     "tg": "https://t.me/taranstaff",
     "created_time": "2025-01-30T08:16:00.000Z",
-    "last_edited": "2025-05-13T18:12:00.000Z"
+    "last_edited": "2026-02-19T11:41:00.000Z"
   },
   {
     "id": "18bd30fa-35d0-80b7-9430-f027e6fa18ed",
@@ -21876,8 +22433,13 @@
     "name": "Білі Джин",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -21897,7 +22459,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-01-30T08:28:00.000Z",
-    "last_edited": "2025-01-30T08:28:00.000Z"
+    "last_edited": "2026-02-19T12:00:00.000Z"
   },
   {
     "id": "18cd30fa-35d0-800f-bca5-fe79700aee75",
@@ -22125,8 +22687,13 @@
     "name": "Crystal Shade",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Активна",
     "members": [
       {
@@ -22163,15 +22730,48 @@
       },
       {
         "id": "233d30fa-35d0-809a-9062-cd972c46252c"
+      },
+      {
+        "id": "2eed30fa-35d0-8050-9cae-fa3811f96c8b"
+      },
+      {
+        "id": "2eed30fa-35d0-8053-8581-e399d4d7f49e"
+      },
+      {
+        "id": "2eed30fa-35d0-806f-b25e-fc06c4f21583"
+      },
+      {
+        "id": "2eed30fa-35d0-809c-8151-c8b09bbf6e29"
+      },
+      {
+        "id": "2eed30fa-35d0-80ff-9b4e-edd19d57d7ec"
+      },
+      {
+        "id": "2fed30fa-35d0-800c-a513-eefc204e0f0d"
+      },
+      {
+        "id": "2fed30fa-35d0-805b-b70f-e1cbe9077a1e"
+      },
+      {
+        "id": "2fed30fa-35d0-805b-bddd-e975d640071b"
+      },
+      {
+        "id": "2fed30fa-35d0-80c4-af1b-ef49ee3902dc"
+      },
+      {
+        "id": "2fed30fa-35d0-80db-bf51-ec8eef02e41b"
+      },
+      {
+        "id": "30bd30fa-35d0-80a1-81aa-eab87fcaf8d7"
       }
     ],
     "site": null,
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/zeroseven2024",
     "created_time": "2025-02-03T09:29:00.000Z",
-    "last_edited": "2025-10-14T15:43:00.000Z"
+    "last_edited": "2026-02-19T10:24:00.000Z"
   },
   {
     "id": "192d30fa-35d0-80cb-abc4-f7b27ac735f8",
@@ -22235,7 +22835,7 @@
     "id": "192d30fa-35d0-80ea-99f7-f53a56f39f36",
     "cover": null,
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1739048192/perereklad_emw6mu.jpg",
-    "name": "Перереклади ",
+    "name": "Перереклади",
     "altname": [],
     "founded": null,
     "type_team": [
@@ -22253,7 +22853,7 @@
     "tiktok": null,
     "tg": "https://t.me/perereklad",
     "created_time": "2025-02-06T08:11:00.000Z",
-    "last_edited": "2025-02-08T20:56:00.000Z"
+    "last_edited": "2026-02-19T12:12:00.000Z"
   },
   {
     "id": "193d30fa-35d0-8011-a8ef-ebc56591f8d8",
@@ -22295,6 +22895,9 @@
       },
       {
         "id": "28ed30fa-35d0-80b2-ab65-ca9adf56cec4"
+      },
+      {
+        "id": "2eed30fa-35d0-80ae-a461-f8f971cf9a7f"
       }
     ],
     "site": null,
@@ -22360,8 +22963,12 @@
     "name": "Стармайстер",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Офдаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [],
@@ -22371,7 +22978,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-02-21T06:53:00.000Z",
-    "last_edited": "2025-02-21T06:53:00.000Z"
+    "last_edited": "2026-02-19T12:28:00.000Z"
   },
   {
     "id": "1e5d30fa-35d0-806c-ae17-d1c0149683bf",
@@ -22379,8 +22986,12 @@
     "name": "Tenshi Studio",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -22404,9 +23015,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/tenshistudio",
     "created_time": "2025-04-30T12:07:00.000Z",
-    "last_edited": "2025-04-30T12:14:00.000Z"
+    "last_edited": "2026-02-19T11:46:00.000Z"
   },
   {
     "id": "1ebd30fa-35d0-8033-8ff7-f81e9acc1b91",
@@ -22467,20 +23078,23 @@
       },
       {
         "id": "1ecd30fa-35d0-80fc-9d15-faf39f293211"
+      },
+      {
+        "id": "317d30fa-35d0-805d-811c-fcca5557e37e"
       }
     ],
     "site": null,
     "anitube": "https://anitube.in.ua/xfsearch/translation/Olanaki/",
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/Bartender_Olanaki",
     "created_time": "2025-05-06T18:32:00.000Z",
-    "last_edited": "2025-05-07T11:25:00.000Z"
+    "last_edited": "2026-02-19T12:13:00.000Z"
   },
   {
     "id": "1ebd30fa-35d0-80b0-ad7f-df44bc370908",
     "cover": null,
-    "name": "Джек Ріден",
+    "name": "ДжекРіден",
     "altname": [],
     "founded": null,
     "type_team": [
@@ -22609,6 +23223,18 @@
       },
       {
         "id": "2e7d30fa-35d0-806b-9423-dc33fca84a6b"
+      },
+      {
+        "id": "2eed30fa-35d0-8008-baf2-d0535730efe3"
+      },
+      {
+        "id": "2eed30fa-35d0-806e-a540-dc528fe360c0"
+      },
+      {
+        "id": "304d30fa-35d0-8083-9712-f808ce402e47"
+      },
+      {
+        "id": "317d30fa-35d0-801c-96d9-f7b0945bd860"
       }
     ],
     "site": null,
@@ -22617,7 +23243,7 @@
     "tiktok": null,
     "tg": "https://t.me/PerekladyRidena",
     "created_time": "2025-05-06T16:44:00.000Z",
-    "last_edited": "2025-05-27T12:04:00.000Z"
+    "last_edited": "2026-02-11T14:11:00.000Z"
   },
   {
     "id": "1ecd30fa-35d0-8005-9a3f-dfb4b4548e0b",
@@ -22625,9 +23251,13 @@
     "name": "Ламповий бункер Сталкера",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -22641,9 +23271,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/STALKER_lamp_bunker",
     "created_time": "2025-05-07T10:26:00.000Z",
-    "last_edited": "2025-05-07T10:26:00.000Z"
+    "last_edited": "2026-02-19T12:10:00.000Z"
   },
   {
     "id": "1ecd30fa-35d0-808a-8471-e7fb3c987f91",
@@ -22651,9 +23281,14 @@
     "name": "Імператор кроликів",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб",
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -22678,7 +23313,7 @@
     "tiktok": null,
     "tg": "https://t.me/relised_imperii",
     "created_time": "2025-05-07T12:50:00.000Z",
-    "last_edited": "2025-05-07T13:05:00.000Z"
+    "last_edited": "2026-02-19T12:08:00.000Z"
   },
   {
     "id": "1f2d30fa-35d0-807a-8803-fefa48789066",
@@ -22688,8 +23323,12 @@
       "GenericTerra"
     ],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Активна",
     "members": [
       {
@@ -22723,9 +23362,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/plus_ultra_dub",
     "created_time": "2025-05-13T21:25:00.000Z",
-    "last_edited": "2025-10-16T06:44:00.000Z"
+    "last_edited": "2026-02-19T11:17:00.000Z"
   },
   {
     "id": "1f2d30fa-35d0-80de-8a77-da12510acee7",
@@ -22733,8 +23372,12 @@
     "name": "Sekai studio",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -22754,7 +23397,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-05-13T20:44:00.000Z",
-    "last_edited": "2025-05-13T20:44:00.000Z"
+    "last_edited": "2026-02-19T11:24:00.000Z"
   },
   {
     "id": "1f3d30fa-35d0-8049-b10c-cc0eb4f3771a",
@@ -22766,8 +23409,12 @@
       "end": null,
       "time_zone": null
     },
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -22800,9 +23447,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/oduntakuy",
     "created_time": "2025-05-14T09:44:00.000Z",
-    "last_edited": "2025-05-14T10:51:00.000Z"
+    "last_edited": "2026-02-19T11:47:00.000Z"
   },
   {
     "id": "1f3d30fa-35d0-8070-a25c-d17f2f3b2a94",
@@ -22810,8 +23457,12 @@
     "name": "ТакТребаПродакшн",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Офдаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -22825,7 +23476,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-05-14T11:44:00.000Z",
-    "last_edited": "2025-05-14T11:44:00.000Z"
+    "last_edited": "2026-02-19T12:29:00.000Z"
   },
   {
     "id": "1f4d30fa-35d0-8095-8bdf-fb8ee4e80078",
@@ -23040,9 +23691,13 @@
     "name": "Yon",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [
       {
         "id": "1f2d30fa-35d0-80b8-baf5-e9cb0083d94b"
@@ -23113,6 +23768,9 @@
         "id": "201d30fa-35d0-80f0-8fb2-f2d78a493e12"
       },
       {
+        "id": "2e3d30fa-35d0-8085-8eb9-c7bb7fbb17dd"
+      },
+      {
         "id": "2ead30fa-35d0-8093-a4ca-ed36fa9c1175"
       }
     ],
@@ -23122,19 +23780,27 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-05-24T08:06:00.000Z",
-    "last_edited": "2025-05-24T08:06:00.000Z"
+    "last_edited": "2026-02-19T11:59:00.000Z"
   },
   {
     "id": "1ffd30fa-35d0-8020-9898-c8fc986169de",
     "cover": null,
-    "name": "Artymko",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/a2ffd4d5-4011-45f6-82ed-71d67c12170a/ArtymKo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46645SXVJNH%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224603Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCICNY6KyV6t%2FCb8j2v4p%2Fqbxw1xZzFP2Kz%2BjwfM4CtbnIAiEAje4uxiVmC%2BUE5qb%2B8Fxv%2B1xVZ9G8umhcCa7oKM0Sh%2BQq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDN%2B%2FxoDTOHt2as7tGircA1IHdGLTs%2B%2B1VScuz8g9N9WH5guZcIgsMZcHLAfsbh%2FSszXDP2O1I%2FYuYPFOUKs6fATZGfbz9TQ2S4qHHSRs7AFahQkIo0i64WKUI5FB3WnUozlYnGlAIfpcOcVvGxWrB3%2BsZTxfuISS6v19tPEQGY5p9G6MMI%2FL410dDfStirOfAHAqnHxFHd265bl1rqDfA1EIz0WkqtxoZXg5JYAyR8lNsYbMxJsTUVfzyvkpraNIfaNb6SxcW%2BaDFPNQAFAny9x%2BGcg%2BHHUCsU3NCkTreAJm963ZxH8yxg8Cbb%2BBOB%2BWPxllQWqGEQMn2Dr6HcZYSuNqb6vfO2TZB1GFqnewGX2WIDlxW5zFLSpvLbRvK%2B%2BCu7xpfs%2FFpE43frdn%2Fi7DKhsbASkCp8fxtLz35NIfhTuIeWvyh6jrIVoXr7b8mSSXRb%2F5xwfC2sk4Pf4ArADjWZ2k1DicorONB7lWiLpO%2FXc2WkPHRUcHsCcEEnqOnWO%2Fsz%2BcofegWFicrOE85uXfn73w8xRMBXfusDcC84OWUaqMwumcP8C6%2By7iDz3Uvr0PBKLn4Ks5F0LuyoLsIMjjDezwB73LvD6o0iwwswQ14RWP%2FybgsZN4GrjUcOa3wR6%2F44PALA0mB3ujC3%2BdMOOsps4GOqUBiFGsMoAqyhRlYOQdWxgto%2BJTIuMym1Erz4XT%2FEmAQDztKXU4iSP89H3fmTkI0M4mkbeKDJ3cn14LfmwexF40Mxo8cgh64LgV1fJd4P5tZpPs7QdMftyiEQeNPfnaogl1YOM%2FIzyrVEPSk2YgPwMKXMJ77%2F6%2By0HwrL43uV5KnBKB17OT7rvXCI629Z9wUHL2DMxcaRBkcXXWSYyMwjNyOmymCnbv&X-Amz-Signature=2e0c741d54eabe498768c35018638be6cd440fd677ab0cf379512015b49ca7e8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "name": "ArtymKo",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
+      {
+        "id": "1fdd30fa-35d0-8040-a8b4-ebdf88507202"
+      },
       {
         "id": "1ffd30fa-35d0-802f-ad65-c6e322bcc661"
       },
@@ -23160,16 +23826,22 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-05-26T08:49:00.000Z",
-    "last_edited": "2025-05-26T08:49:00.000Z"
+    "last_edited": "2026-02-19T10:13:00.000Z"
   },
   {
     "id": "1ffd30fa-35d0-8038-b096-f201a331c86b",
     "cover": null,
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/9d99117d-4fcd-42b6-a3eb-9a5ac2701199/Altron320.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46645SXVJNH%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224603Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCICNY6KyV6t%2FCb8j2v4p%2Fqbxw1xZzFP2Kz%2BjwfM4CtbnIAiEAje4uxiVmC%2BUE5qb%2B8Fxv%2B1xVZ9G8umhcCa7oKM0Sh%2BQq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDN%2B%2FxoDTOHt2as7tGircA1IHdGLTs%2B%2B1VScuz8g9N9WH5guZcIgsMZcHLAfsbh%2FSszXDP2O1I%2FYuYPFOUKs6fATZGfbz9TQ2S4qHHSRs7AFahQkIo0i64WKUI5FB3WnUozlYnGlAIfpcOcVvGxWrB3%2BsZTxfuISS6v19tPEQGY5p9G6MMI%2FL410dDfStirOfAHAqnHxFHd265bl1rqDfA1EIz0WkqtxoZXg5JYAyR8lNsYbMxJsTUVfzyvkpraNIfaNb6SxcW%2BaDFPNQAFAny9x%2BGcg%2BHHUCsU3NCkTreAJm963ZxH8yxg8Cbb%2BBOB%2BWPxllQWqGEQMn2Dr6HcZYSuNqb6vfO2TZB1GFqnewGX2WIDlxW5zFLSpvLbRvK%2B%2BCu7xpfs%2FFpE43frdn%2Fi7DKhsbASkCp8fxtLz35NIfhTuIeWvyh6jrIVoXr7b8mSSXRb%2F5xwfC2sk4Pf4ArADjWZ2k1DicorONB7lWiLpO%2FXc2WkPHRUcHsCcEEnqOnWO%2Fsz%2BcofegWFicrOE85uXfn73w8xRMBXfusDcC84OWUaqMwumcP8C6%2By7iDz3Uvr0PBKLn4Ks5F0LuyoLsIMjjDezwB73LvD6o0iwwswQ14RWP%2FybgsZN4GrjUcOa3wR6%2F44PALA0mB3ujC3%2BdMOOsps4GOqUBiFGsMoAqyhRlYOQdWxgto%2BJTIuMym1Erz4XT%2FEmAQDztKXU4iSP89H3fmTkI0M4mkbeKDJ3cn14LfmwexF40Mxo8cgh64LgV1fJd4P5tZpPs7QdMftyiEQeNPfnaogl1YOM%2FIzyrVEPSk2YgPwMKXMJ77%2F6%2By0HwrL43uV5KnBKB17OT7rvXCI629Z9wUHL2DMxcaRBkcXXWSYyMwjNyOmymCnbv&X-Amz-Signature=3ff98547b6f1db105d441977d99894991fa14a4e0e589f26fbc8b5347fd69250&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "Altron320",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме",
+      "Фільми"
+    ],
     "status": "Активна",
     "members": [],
     "anime_releases": [
@@ -23229,9 +23901,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/altron320",
     "created_time": "2025-05-26T08:31:00.000Z",
-    "last_edited": "2025-10-14T15:44:00.000Z"
+    "last_edited": "2026-02-19T10:04:00.000Z"
   },
   {
     "id": "200d30fa-35d0-8000-b483-f9c381ca6bbc",
@@ -23239,8 +23911,12 @@
     "name": "SaintSub",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -23254,7 +23930,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-05-27T19:41:00.000Z",
-    "last_edited": "2025-05-27T19:41:00.000Z"
+    "last_edited": "2026-02-19T11:20:00.000Z"
   },
   {
     "id": "200d30fa-35d0-8010-84c0-e86c80fd8e8f",
@@ -23264,9 +23940,13 @@
       "Опівнічні посиденьки"
     ],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -23310,15 +23990,21 @@
       },
       {
         "id": "294d30fa-35d0-80ea-af5d-c1c2cd7897aa"
+      },
+      {
+        "id": "2eed30fa-35d0-8016-b3ff-e9927db36b44"
+      },
+      {
+        "id": "304d30fa-35d0-80df-8465-ff6cc9b82fac"
       }
     ],
     "site": null,
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/hope_in_nadia",
     "created_time": "2025-05-27T06:48:00.000Z",
-    "last_edited": "2025-07-16T07:36:00.000Z"
+    "last_edited": "2026-02-19T12:29:00.000Z"
   },
   {
     "id": "200d30fa-35d0-8023-9e92-dd564a6a686d",
@@ -23375,9 +24061,13 @@
     "name": "Bodya500icq",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -23411,7 +24101,7 @@
     "tiktok": null,
     "tg": "https://t.me/ozvu4kabodya500icq",
     "created_time": "2025-05-27T14:12:00.000Z",
-    "last_edited": "2025-06-16T12:46:00.000Z"
+    "last_edited": "2026-02-19T10:17:00.000Z"
   },
   {
     "id": "200d30fa-35d0-8083-b2bb-c161971a8259",
@@ -23421,8 +24111,12 @@
       "Пустка Benji"
     ],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Активна",
     "members": [],
     "anime_releases": [
@@ -23466,7 +24160,7 @@
     "tiktok": null,
     "tg": "https://t.me/BenjiSUB",
     "created_time": "2025-05-27T12:23:00.000Z",
-    "last_edited": "2026-01-09T22:15:00.000Z"
+    "last_edited": "2026-02-19T10:16:00.000Z"
   },
   {
     "id": "200d30fa-35d0-8084-9fcb-c43fda002848",
@@ -23476,9 +24170,13 @@
       "bills_spirit"
     ],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -23617,7 +24315,7 @@
     "tiktok": null,
     "tg": "https://t.me/ukrsub",
     "created_time": "2025-05-27T14:14:00.000Z",
-    "last_edited": "2026-01-09T21:20:00.000Z"
+    "last_edited": "2026-02-19T11:51:00.000Z"
   },
   {
     "id": "202d30fa-35d0-8014-a8ad-e51fd3ebe5e3",
@@ -23705,10 +24403,18 @@
     "name": "Sinko",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Активна",
-    "members": [],
+    "members": [
+      {
+        "id": "1ebd30fa-35d0-8045-a420-fb939c1bc86e"
+      }
+    ],
     "anime_releases": [
       {
         "id": "18cd30fa-35d0-8053-918b-d2e879783e2b"
@@ -23751,9 +24457,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/sinko_anime",
     "created_time": "2025-05-30T11:51:00.000Z",
-    "last_edited": "2025-10-14T15:44:00.000Z"
+    "last_edited": "2026-02-19T11:33:00.000Z"
   },
   {
     "id": "203d30fa-35d0-80b7-bc0e-d456beca5c3e",
@@ -23767,7 +24473,7 @@
     "type_activity": [
       "Аніме"
     ],
-    "status": "Активна",
+    "status": "Невідомо",
     "members": [],
     "anime_releases": [
       {
@@ -23789,7 +24495,7 @@
     "tiktok": null,
     "tg": "https://t.me/shakaistudio",
     "created_time": "2025-05-30T10:12:00.000Z",
-    "last_edited": "2025-08-27T13:28:00.000Z"
+    "last_edited": "2026-02-19T11:25:00.000Z"
   },
   {
     "id": "206d30fa-35d0-8090-84f5-c8ed188ac0f8",
@@ -23846,8 +24552,12 @@
     "name": "CPRsubs",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Малоактивна",
     "members": [],
     "anime_releases": [
@@ -23865,9 +24575,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/CPRsubs",
     "created_time": "2025-06-02T13:56:00.000Z",
-    "last_edited": "2025-10-14T15:44:00.000Z"
+    "last_edited": "2026-02-19T10:22:00.000Z"
   },
   {
     "id": "206d30fa-35d0-80e2-83ba-ebc6680419fe",
@@ -23936,9 +24646,13 @@
     "name": "дайсанґен",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -23955,9 +24669,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/dai_san_gen",
     "created_time": "2025-06-04T11:54:00.000Z",
-    "last_edited": "2025-06-04T11:54:00.000Z"
+    "last_edited": "2026-02-19T12:07:00.000Z"
   },
   {
     "id": "208d30fa-35d0-80fd-9b23-eb65af4d44dc",
@@ -23965,9 +24679,13 @@
     "name": "UAFlix",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -23975,6 +24693,9 @@
       },
       {
         "id": "209d30fa-35d0-80c2-a229-e28476cd9226"
+      },
+      {
+        "id": "2e3d30fa-35d0-80ad-b64b-ffbe8d744e7d"
       }
     ],
     "site": null,
@@ -23983,7 +24704,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-04T19:10:00.000Z",
-    "last_edited": "2025-06-04T19:10:00.000Z"
+    "last_edited": "2026-02-19T11:47:00.000Z"
   },
   {
     "id": "209d30fa-35d0-8039-8423-c7ea13bc35ac",
@@ -23991,9 +24712,13 @@
     "name": "UkrTrashDub",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Припинено",
     "members": [],
     "anime_releases": [
       {
@@ -24006,7 +24731,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-05T16:32:00.000Z",
-    "last_edited": "2025-06-05T16:32:00.000Z"
+    "last_edited": "2026-02-19T11:53:00.000Z"
   },
   {
     "id": "209d30fa-35d0-80ed-a117-ce95c29d0f91",
@@ -24014,9 +24739,13 @@
     "name": "UkrVoiceTeam",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Припинено",
     "members": [],
     "anime_releases": [
       {
@@ -24029,7 +24758,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-05T05:41:00.000Z",
-    "last_edited": "2025-06-05T05:41:00.000Z"
+    "last_edited": "2026-02-19T11:55:00.000Z"
   },
   {
     "id": "20ad30fa-35d0-8066-8fc4-c00e82ca097f",
@@ -24037,9 +24766,13 @@
     "name": "Le Doyen",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Офдаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [],
     "site": null,
@@ -24048,7 +24781,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-06T07:11:00.000Z",
-    "last_edited": "2025-06-06T07:11:00.000Z"
+    "last_edited": "2026-02-19T10:57:00.000Z"
   },
   {
     "id": "20dd30fa-35d0-80df-86e5-d9b476401047",
@@ -24094,9 +24827,13 @@
     "name": "WoofDub",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -24115,7 +24852,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-11T11:57:00.000Z",
-    "last_edited": "2025-06-11T11:57:00.000Z"
+    "last_edited": "2026-02-19T11:57:00.000Z"
   },
   {
     "id": "20fd30fa-35d0-8059-90c2-e52fde3f691e",
@@ -24123,8 +24860,12 @@
     "name": "Просто так",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -24141,7 +24882,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-11T12:07:00.000Z",
-    "last_edited": "2025-06-11T12:07:00.000Z"
+    "last_edited": "2026-02-19T12:25:00.000Z"
   },
   {
     "id": "20fd30fa-35d0-8091-af3d-e684121620c7",
@@ -24150,7 +24891,9 @@
     "altname": [],
     "founded": null,
     "type_team": [],
-    "type_activity": [],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [
       {
@@ -24171,7 +24914,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-11T11:32:00.000Z",
-    "last_edited": "2025-06-11T11:32:00.000Z"
+    "last_edited": "2026-02-19T11:20:00.000Z"
   },
   {
     "id": "20fd30fa-35d0-80e5-bf79-ff514ca5d62d",
@@ -24179,8 +24922,12 @@
     "name": "Танака",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -24197,7 +24944,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-11T11:42:00.000Z",
-    "last_edited": "2025-06-11T11:42:00.000Z"
+    "last_edited": "2026-02-19T12:30:00.000Z"
   },
   {
     "id": "20fd30fa-35d0-80ed-9a50-ea7e015809f7",
@@ -24218,19 +24965,27 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/multigeek",
     "created_time": "2025-06-11T11:57:00.000Z",
-    "last_edited": "2025-06-11T11:57:00.000Z"
+    "last_edited": "2026-02-19T11:13:00.000Z"
   },
   {
     "id": "20fd30fa-35d0-80f6-8fe6-c80cffb3e71a",
     "cover": null,
     "name": "StarGalaxyOnly",
-    "altname": [],
+    "altname": [
+      "Антишизоїдний канал"
+    ],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб",
+      "Сканлейт"
+    ],
+    "type_activity": [
+      "Аніме",
+      "Манґа"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -24241,9 +24996,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/anti_shiza_lambert",
     "created_time": "2025-06-11T11:50:00.000Z",
-    "last_edited": "2025-06-11T11:50:00.000Z"
+    "last_edited": "2026-02-19T11:37:00.000Z"
   },
   {
     "id": "210d30fa-35d0-802e-9773-d6b4cf386efb",
@@ -24309,6 +25064,9 @@
       },
       {
         "id": "21ed30fa-35d0-80a2-ba27-c6c10ba275dc"
+      },
+      {
+        "id": "2f5d30fa-35d0-8050-a3eb-cdac680cc995"
       }
     ],
     "site": null,
@@ -24325,9 +25083,16 @@
     "name": "Florentia",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб",
+      "Сканлейт"
+    ],
+    "type_activity": [
+      "Аніме",
+      "Манґа",
+      "Новели"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -24343,7 +25108,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-12T13:09:00.000Z",
-    "last_edited": "2025-06-12T13:09:00.000Z"
+    "last_edited": "2026-02-19T10:44:00.000Z"
   },
   {
     "id": "211d30fa-35d0-80eb-93c2-edfc741ff29d",
@@ -24351,8 +25116,12 @@
     "name": "Malnormalulo",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -24366,7 +25135,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-06-13T12:15:00.000Z",
-    "last_edited": "2025-06-13T12:15:00.000Z"
+    "last_edited": "2026-02-19T11:11:00.000Z"
   },
   {
     "id": "214d30fa-35d0-8079-9121-f2434cc9a1f5",
@@ -24374,9 +25143,15 @@
     "name": "Базовані переклади",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб",
+      "Сканлейт"
+    ],
+    "type_activity": [
+      "Аніме",
+      "Манґа"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -24392,7 +25167,7 @@
     "tiktok": null,
     "tg": "https://t.me/basedpereklady",
     "created_time": "2025-06-16T10:09:00.000Z",
-    "last_edited": "2025-06-16T10:09:00.000Z"
+    "last_edited": "2026-02-19T12:00:00.000Z"
   },
   {
     "id": "218d30fa-35d0-806c-97da-fd74a8f035cb",
@@ -24400,9 +25175,13 @@
     "name": "Deimos",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Неактивна",
     "members": [],
     "anime_releases": [
       {
@@ -24425,9 +25204,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/d_manga",
     "created_time": "2025-06-20T05:00:00.000Z",
-    "last_edited": "2025-06-20T05:00:00.000Z"
+    "last_edited": "2026-02-19T10:29:00.000Z"
   },
   {
     "id": "21dd30fa-35d0-80aa-9967-d490664c4a32",
@@ -24458,11 +25237,13 @@
     "name": "УПідвалі",
     "altname": [],
     "founded": null,
-    "type_team": [],
+    "type_team": [
+      "Фансаб"
+    ],
     "type_activity": [
       "Аніме"
     ],
-    "status": "Активна",
+    "status": "Невідомо",
     "members": [],
     "anime_releases": [
       {
@@ -24475,7 +25256,7 @@
     "tiktok": null,
     "tg": "https://t.me/upidvali",
     "created_time": "2025-06-26T08:28:00.000Z",
-    "last_edited": "2025-06-26T08:32:00.000Z"
+    "last_edited": "2026-02-19T12:31:00.000Z"
   },
   {
     "id": "224d30fa-35d0-8096-bd7b-e9f423d31ad7",
@@ -24483,9 +25264,13 @@
     "name": "Starry",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -24502,9 +25287,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/starrytr",
     "created_time": "2025-07-02T12:03:00.000Z",
-    "last_edited": "2025-07-02T12:03:00.000Z"
+    "last_edited": "2026-02-19T11:38:00.000Z"
   },
   {
     "id": "225d30fa-35d0-80e5-af9e-c0fdb62e720e",
@@ -24512,8 +25297,12 @@
     "name": "ВідлюдникTeam",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -24527,11 +25316,12 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-07-03T13:39:00.000Z",
-    "last_edited": "2025-07-03T13:39:00.000Z"
+    "last_edited": "2026-02-19T12:04:00.000Z"
   },
   {
     "id": "226d30fa-35d0-805f-af63-f1ec04e3179f",
     "cover": null,
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/b3c41c01-2322-48e7-99fc-5b2bd6c1de77/Ace_Wing.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46645SXVJNH%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCICNY6KyV6t%2FCb8j2v4p%2Fqbxw1xZzFP2Kz%2BjwfM4CtbnIAiEAje4uxiVmC%2BUE5qb%2B8Fxv%2B1xVZ9G8umhcCa7oKM0Sh%2BQq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDN%2B%2FxoDTOHt2as7tGircA1IHdGLTs%2B%2B1VScuz8g9N9WH5guZcIgsMZcHLAfsbh%2FSszXDP2O1I%2FYuYPFOUKs6fATZGfbz9TQ2S4qHHSRs7AFahQkIo0i64WKUI5FB3WnUozlYnGlAIfpcOcVvGxWrB3%2BsZTxfuISS6v19tPEQGY5p9G6MMI%2FL410dDfStirOfAHAqnHxFHd265bl1rqDfA1EIz0WkqtxoZXg5JYAyR8lNsYbMxJsTUVfzyvkpraNIfaNb6SxcW%2BaDFPNQAFAny9x%2BGcg%2BHHUCsU3NCkTreAJm963ZxH8yxg8Cbb%2BBOB%2BWPxllQWqGEQMn2Dr6HcZYSuNqb6vfO2TZB1GFqnewGX2WIDlxW5zFLSpvLbRvK%2B%2BCu7xpfs%2FFpE43frdn%2Fi7DKhsbASkCp8fxtLz35NIfhTuIeWvyh6jrIVoXr7b8mSSXRb%2F5xwfC2sk4Pf4ArADjWZ2k1DicorONB7lWiLpO%2FXc2WkPHRUcHsCcEEnqOnWO%2Fsz%2BcofegWFicrOE85uXfn73w8xRMBXfusDcC84OWUaqMwumcP8C6%2By7iDz3Uvr0PBKLn4Ks5F0LuyoLsIMjjDezwB73LvD6o0iwwswQ14RWP%2FybgsZN4GrjUcOa3wR6%2F44PALA0mB3ujC3%2BdMOOsps4GOqUBiFGsMoAqyhRlYOQdWxgto%2BJTIuMym1Erz4XT%2FEmAQDztKXU4iSP89H3fmTkI0M4mkbeKDJ3cn14LfmwexF40Mxo8cgh64LgV1fJd4P5tZpPs7QdMftyiEQeNPfnaogl1YOM%2FIzyrVEPSk2YgPwMKXMJ77%2F6%2By0HwrL43uV5KnBKB17OT7rvXCI629Z9wUHL2DMxcaRBkcXXWSYyMwjNyOmymCnbv&X-Amz-Signature=aec20576a713dc042a65c757ace8abff88ba5c4175ace87cf426cdc7aca955a1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "Ace Wing",
     "altname": [],
     "founded": null,
@@ -24580,7 +25370,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-07-04T09:48:00.000Z",
-    "last_edited": "2025-07-04T09:48:00.000Z"
+    "last_edited": "2026-02-19T10:02:00.000Z"
   },
   {
     "id": "22ad30fa-35d0-80ec-a9f4-fe549f99f79a",
@@ -24588,22 +25378,32 @@
     "name": "BorshDub",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
         "id": "22ad30fa-35d0-80c0-bfa4-ea4f1c2934b7"
+      },
+      {
+        "id": "2fed30fa-35d0-80c4-b053-c675058ac6b4"
+      },
+      {
+        "id": "2fed30fa-35d0-80d9-8140-d5cf9d71a449"
       }
     ],
     "site": null,
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/BorschtDub",
     "created_time": "2025-07-08T13:47:00.000Z",
-    "last_edited": "2025-10-14T15:44:00.000Z"
+    "last_edited": "2026-02-05T09:01:00.000Z"
   },
   {
     "id": "22cd30fa-35d0-80d4-88a7-f177bd318b23",
@@ -24611,8 +25411,12 @@
     "name": "ЗвукоЗаври",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Малоактивна",
     "members": [],
     "anime_releases": [
@@ -24633,12 +25437,12 @@
       }
     ],
     "site": null,
-    "anitube": null,
+    "anitube": "https://anitube.in.ua/tags/ЗвукоЗаври",
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/zvuko_zavry",
     "created_time": "2025-07-10T19:54:00.000Z",
-    "last_edited": "2025-10-14T15:44:00.000Z"
+    "last_edited": "2026-02-18T21:42:00.000Z"
   },
   {
     "id": "22cd30fa-35d0-80da-a21b-c0759d78e818",
@@ -24647,7 +25451,9 @@
     "altname": [],
     "founded": null,
     "type_team": [],
-    "type_activity": [],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Малоактивна",
     "members": [],
     "anime_releases": [
@@ -24698,9 +25504,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/boo_studio",
     "created_time": "2025-07-10T19:05:00.000Z",
-    "last_edited": "2025-10-14T15:44:00.000Z"
+    "last_edited": "2026-02-19T10:19:00.000Z"
   },
   {
     "id": "22ed30fa-35d0-80d3-a960-d128124b0bbf",
@@ -24708,9 +25514,13 @@
     "name": "Шалена Озвучка (ШО)",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Активна",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -24733,9 +25543,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/sholeno",
     "created_time": "2025-07-12T09:23:00.000Z",
-    "last_edited": "2025-10-14T15:44:00.000Z"
+    "last_edited": "2026-02-19T12:34:00.000Z"
   },
   {
     "id": "232d30fa-35d0-803a-909e-e939a63ef175",
@@ -24743,8 +25553,12 @@
     "name": "РАШІНБАН",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [
       {
@@ -24772,19 +25586,24 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/WelcomeToRashinban",
     "created_time": "2025-07-16T09:51:00.000Z",
-    "last_edited": "2025-07-16T09:51:00.000Z"
+    "last_edited": "2026-02-19T12:27:00.000Z"
   },
   {
     "id": "232d30fa-35d0-80c7-8df5-db1df4e3578c",
     "cover": null,
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/ba6ba579-3f07-4b61-9a11-abbb7ff29815/And5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46645SXVJNH%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCICNY6KyV6t%2FCb8j2v4p%2Fqbxw1xZzFP2Kz%2BjwfM4CtbnIAiEAje4uxiVmC%2BUE5qb%2B8Fxv%2B1xVZ9G8umhcCa7oKM0Sh%2BQq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDN%2B%2FxoDTOHt2as7tGircA1IHdGLTs%2B%2B1VScuz8g9N9WH5guZcIgsMZcHLAfsbh%2FSszXDP2O1I%2FYuYPFOUKs6fATZGfbz9TQ2S4qHHSRs7AFahQkIo0i64WKUI5FB3WnUozlYnGlAIfpcOcVvGxWrB3%2BsZTxfuISS6v19tPEQGY5p9G6MMI%2FL410dDfStirOfAHAqnHxFHd265bl1rqDfA1EIz0WkqtxoZXg5JYAyR8lNsYbMxJsTUVfzyvkpraNIfaNb6SxcW%2BaDFPNQAFAny9x%2BGcg%2BHHUCsU3NCkTreAJm963ZxH8yxg8Cbb%2BBOB%2BWPxllQWqGEQMn2Dr6HcZYSuNqb6vfO2TZB1GFqnewGX2WIDlxW5zFLSpvLbRvK%2B%2BCu7xpfs%2FFpE43frdn%2Fi7DKhsbASkCp8fxtLz35NIfhTuIeWvyh6jrIVoXr7b8mSSXRb%2F5xwfC2sk4Pf4ArADjWZ2k1DicorONB7lWiLpO%2FXc2WkPHRUcHsCcEEnqOnWO%2Fsz%2BcofegWFicrOE85uXfn73w8xRMBXfusDcC84OWUaqMwumcP8C6%2By7iDz3Uvr0PBKLn4Ks5F0LuyoLsIMjjDezwB73LvD6o0iwwswQ14RWP%2FybgsZN4GrjUcOa3wR6%2F44PALA0mB3ujC3%2BdMOOsps4GOqUBiFGsMoAqyhRlYOQdWxgto%2BJTIuMym1Erz4XT%2FEmAQDztKXU4iSP89H3fmTkI0M4mkbeKDJ3cn14LfmwexF40Mxo8cgh64LgV1fJd4P5tZpPs7QdMftyiEQeNPfnaogl1YOM%2FIzyrVEPSk2YgPwMKXMJ77%2F6%2By0HwrL43uV5KnBKB17OT7rvXCI629Z9wUHL2DMxcaRBkcXXWSYyMwjNyOmymCnbv&X-Amz-Signature=39fd059e15e8bea5cbfb21778386c9a19e8ae2fe1804bf33d480dfd23f364426&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "And5 Studio",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -24804,9 +25623,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/And5_Studio",
     "created_time": "2025-07-16T10:20:00.000Z",
-    "last_edited": "2025-07-16T10:20:00.000Z"
+    "last_edited": "2026-02-19T10:04:00.000Z"
   },
   {
     "id": "24dd30fa-35d0-80b4-8d9f-f0d726de8ad4",
@@ -24814,8 +25633,12 @@
     "name": "NEKOЗВУК",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -24827,9 +25650,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/nekozvuk_voice",
     "created_time": "2025-08-12T17:12:00.000Z",
-    "last_edited": "2025-08-12T17:12:00.000Z"
+    "last_edited": "2026-02-19T11:15:00.000Z"
   },
   {
     "id": "24dd30fa-35d0-80fd-95a1-ed5e331ce6c9",
@@ -24873,13 +25696,20 @@
     "name": "UaGiOh",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
       {
         "id": "24fd30fa-35d0-80de-a631-d641bbff1b9a"
+      },
+      {
+        "id": "317d30fa-35d0-807f-b623-e1f8ca5e7d30"
       }
     ],
     "site": null,
@@ -24888,7 +25718,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-08-14T10:09:00.000Z",
-    "last_edited": "2025-08-14T10:09:00.000Z"
+    "last_edited": "2026-02-19T11:48:00.000Z"
   },
   {
     "id": "24fd30fa-35d0-8088-91b0-ccab38dbf2e4",
@@ -24898,9 +25728,13 @@
       "NewWaveRecordUA"
     ],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Активна",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -24914,9 +25748,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/NWRUA",
     "created_time": "2025-08-14T10:14:00.000Z",
-    "last_edited": "2025-10-14T15:44:00.000Z"
+    "last_edited": "2026-02-19T11:16:00.000Z"
   },
   {
     "id": "255d30fa-35d0-8089-86ff-c4f8a8d6c566",
@@ -24924,9 +25758,13 @@
     "name": "Тавровані",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -24940,9 +25778,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/tavrovani_anon",
     "created_time": "2025-08-20T17:10:00.000Z",
-    "last_edited": "2025-08-20T17:10:00.000Z"
+    "last_edited": "2026-02-19T12:29:00.000Z"
   },
   {
     "id": "25ed30fa-35d0-80b9-a3aa-f4b5d6eff8d5",
@@ -24950,9 +25788,14 @@
     "name": "Гільдія даберів",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -24969,9 +25812,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/gildia_daberiv",
     "created_time": "2025-08-29T07:08:00.000Z",
-    "last_edited": "2025-08-29T07:10:00.000Z"
+    "last_edited": "2026-02-19T12:06:00.000Z"
   },
   {
     "id": "288d30fa-35d0-8057-a803-eb860d1aa948",
@@ -24979,25 +25822,54 @@
     "name": "Superior Performance Sound (SPS)",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
-    "members": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
+    "members": [
+      {
+        "id": "28cd30fa-35d0-8076-b928-e8b90bb07734"
+      },
+      {
+        "id": "2f6d30fa-35d0-80c6-bd33-eb8b002c6c38"
+      },
+      {
+        "id": "2f6d30fa-35d0-80dc-bc08-e2336053e70e"
+      },
+      {
+        "id": "28cd30fa-35d0-8018-aa35-dbcca6dcd07a"
+      },
+      {
+        "id": "25dd30fa-35d0-8009-8686-c271b67927ce"
+      }
+    ],
     "anime_releases": [
       {
         "id": "28cd30fa-35d0-8060-bab2-f364ccae1e55"
       },
       {
         "id": "2e9d30fa-35d0-8038-b0c1-d7fc194e81c3"
+      },
+      {
+        "id": "2f6d30fa-35d0-8070-b44b-dbc5507656a6"
+      },
+      {
+        "id": "2f6d30fa-35d0-808f-b7f4-deec3a3ae38e"
+      },
+      {
+        "id": "2f6d30fa-35d0-80f1-9078-d5ee4b8f7c1b"
       }
     ],
     "site": null,
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/ozvuchka_sps",
     "created_time": "2025-10-10T09:38:00.000Z",
-    "last_edited": "2026-01-15T13:21:00.000Z"
+    "last_edited": "2026-02-19T11:41:00.000Z"
   },
   {
     "id": "28dd30fa-35d0-8022-9198-eab728217979",
@@ -25005,22 +25877,33 @@
     "name": "Цукіхана",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб",
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
+        "id": "188d30fa-35d0-8080-ba62-dd6d689cb6b1"
+      },
+      {
         "id": "28dd30fa-35d0-80c9-9171-f7f48ff59ab6"
+      },
+      {
+        "id": "2eed30fa-35d0-80dd-aeaa-f544ed22e66c"
       }
     ],
     "site": null,
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/Tsukihana_ua",
     "created_time": "2025-10-15T11:40:00.000Z",
-    "last_edited": "2025-10-15T11:40:00.000Z"
+    "last_edited": "2026-02-19T12:33:00.000Z"
   },
   {
     "id": "28ed30fa-35d0-803e-bb1b-e74399d75e19",
@@ -25028,8 +25911,12 @@
     "name": "LOLICORE",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -25043,7 +25930,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-10-16T11:15:00.000Z",
-    "last_edited": "2025-10-16T11:15:00.000Z"
+    "last_edited": "2026-02-19T11:10:00.000Z"
   },
   {
     "id": "2e3d30fa-35d0-803d-a09e-d4abb26ef976",
@@ -25051,9 +25938,13 @@
     "name": "Кокадойлеві махінації",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [
       {
         "id": "1ecd30fa-35d0-80e4-8c3b-d99dde83fa89"
@@ -25064,9 +25955,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/Rooster_In_Mahination",
     "created_time": "2026-01-09T18:53:00.000Z",
-    "last_edited": "2026-01-09T18:53:00.000Z"
+    "last_edited": "2026-02-19T12:09:00.000Z"
   },
   {
     "id": "2e3d30fa-35d0-8072-8b64-ec12bd3d4837",
@@ -25074,9 +25965,13 @@
     "name": "GreenKi",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -25089,7 +25984,7 @@
     "tiktok": null,
     "tg": "https://t.me/GreenKiGreenKi",
     "created_time": "2026-01-09T18:30:00.000Z",
-    "last_edited": "2026-01-09T18:31:00.000Z"
+    "last_edited": "2026-02-19T10:46:00.000Z"
   },
   {
     "id": "2e3d30fa-35d0-8090-b4b9-c95b63fbd2ca",
@@ -25120,8 +26015,12 @@
     "name": "Nataka dub",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
     "status": "Невідомо",
     "members": [],
     "anime_releases": [
@@ -25133,9 +26032,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/NatakaDUBPlayer",
     "created_time": "2026-01-09T12:56:00.000Z",
-    "last_edited": "2026-01-09T12:56:00.000Z"
+    "last_edited": "2026-02-19T11:14:00.000Z"
   },
   {
     "id": "2e9d30fa-35d0-80f5-b23a-c7f82ab92bc7",
@@ -25143,9 +26042,13 @@
     "name": "HaguFicti",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
     "members": [],
     "anime_releases": [
       {
@@ -25156,8 +26059,308 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/hagusub",
     "created_time": "2026-01-15T11:13:00.000Z",
-    "last_edited": "2026-01-15T11:13:00.000Z"
+    "last_edited": "2026-02-19T10:47:00.000Z"
+  },
+  {
+    "id": "2edd30fa-35d0-8055-885b-c70f443d538b",
+    "cover": null,
+    "name": "Subs4UA4Fun",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "174d30fa-35d0-816d-806b-cd93c1dff463"
+      },
+      {
+        "id": "2f7d30fa-35d0-802b-9563-f9d1cdfc1c49"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-01-19T12:06:00.000Z",
+    "last_edited": "2026-02-19T11:39:00.000Z"
+  },
+  {
+    "id": "2edd30fa-35d0-8086-8a3d-f4d9e68f11da",
+    "cover": null,
+    "name": "Avaritia Team",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фанлейт",
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме",
+      "Новели"
+    ],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "2e7d30fa-35d0-804d-897e-f951247058da"
+      },
+      {
+        "id": "2eed30fa-35d0-804b-8075-ca7b45a8bff6"
+      },
+      {
+        "id": "2eed30fa-35d0-804e-974c-ebca832766f6"
+      },
+      {
+        "id": "2eed30fa-35d0-80cd-b9de-d95599618410"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": "https://t.me/AvaritiaTeam",
+    "created_time": "2026-01-19T14:31:00.000Z",
+    "last_edited": "2026-02-19T10:15:00.000Z"
+  },
+  {
+    "id": "2f6d30fa-35d0-803a-b5c7-e5f0f237537c",
+    "cover": null,
+    "name": "Matsura",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Різне"
+    ],
+    "status": "Малоактивна",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "2f6d30fa-35d0-8015-9868-fd7c217c7b49"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-01-28T15:14:00.000Z",
+    "last_edited": "2026-02-19T11:12:00.000Z"
+  },
+  {
+    "id": "2f7d30fa-35d0-8044-9c86-db00e0fef4e7",
+    "cover": null,
+    "name": "юАвтор",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [
+      {
+        "id": "1ffd30fa-35d0-80d4-a125-e91f4ed333c7"
+      }
+    ],
+    "anime_releases": [
+      {
+        "id": "1ffd30fa-35d0-8017-883c-c4df91c5a487"
+      }
+    ],
+    "site": "https://author.org.ua/",
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-01-29T07:05:00.000Z",
+    "last_edited": "2026-01-29T07:08:00.000Z"
+  },
+  {
+    "id": "2f8d30fa-35d0-80c1-b536-dafdc845b861",
+    "cover": null,
+    "name": "Shichifukujin translations",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Припинено",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "174d30fa-35d0-81e9-bb20-cd03968a491c"
+      },
+      {
+        "id": "17ad30fa-35d0-802a-8d00-c3bcc86946b1"
+      },
+      {
+        "id": "190d30fa-35d0-8049-842d-c535c2caa36d"
+      }
+    ],
+    "site": "https://www.sfj-translations.org.ua/index.php?id=0",
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-01-30T07:37:00.000Z",
+    "last_edited": "2026-02-19T11:26:00.000Z"
+  },
+  {
+    "id": "2fed30fa-35d0-8011-8d16-e627f2a0dbea",
+    "cover": null,
+    "name": "bokairoku",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "2fed30fa-35d0-8083-b3aa-e65b935884a9"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": "https://t.me/bokairoku",
+    "created_time": "2026-02-05T10:09:00.000Z",
+    "last_edited": "2026-02-05T10:10:00.000Z"
+  },
+  {
+    "id": "2fed30fa-35d0-809e-8a6d-d104b81450ae",
+    "cover": null,
+    "name": "AtomicSubs",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "2fed30fa-35d0-80c5-b17c-e4085f13b3fa"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": "https://t.me/AtomicSubs",
+    "created_time": "2026-02-05T09:25:00.000Z",
+    "last_edited": "2026-02-19T10:11:00.000Z"
+  },
+  {
+    "id": "304d30fa-35d0-8084-a836-fce8a793e568",
+    "cover": null,
+    "name": "Sonido Bandidos",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Малоактивна",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "304d30fa-35d0-80fd-8939-ea37852bd257"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": "https://t.me/Sonido_Bandidos",
+    "created_time": "2026-02-11T14:14:00.000Z",
+    "last_edited": "2026-02-19T11:39:00.000Z"
+  },
+  {
+    "id": "304d30fa-35d0-8093-a655-ec28439f34f9",
+    "cover": null,
+    "name": "Honyaku Chimu",
+    "altname": [],
+    "founded": null,
+    "type_team": [
+      "Фансаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "304d30fa-35d0-801a-9201-f07c3b1f82b6"
+      },
+      {
+        "id": "304d30fa-35d0-8037-a676-fc2290dc2b66"
+      },
+      {
+        "id": "304d30fa-35d0-8055-bba5-c365dad8e6e7"
+      },
+      {
+        "id": "304d30fa-35d0-809c-833f-ef99ee747c03"
+      },
+      {
+        "id": "304d30fa-35d0-80bc-a6cc-c05c9f61c2c3"
+      },
+      {
+        "id": "304d30fa-35d0-80bd-a931-c905f35a0e5b"
+      },
+      {
+        "id": "304d30fa-35d0-80d9-a26b-ebf34a9584b0"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": "https://t.me/honyaku_chimu",
+    "created_time": "2026-02-11T15:01:00.000Z",
+    "last_edited": "2026-02-11T15:13:00.000Z"
+  },
+  {
+    "id": "317d30fa-35d0-8069-9651-e54662dc84cc",
+    "cover": null,
+    "name": "Adastra Cinema",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-03-02T09:05:00.000Z",
+    "last_edited": "2026-03-02T09:05:00.000Z"
   }
 ]
