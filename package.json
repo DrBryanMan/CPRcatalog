@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "@notionhq/client": "^2.3.0",
     "axios": "^1.7.7",

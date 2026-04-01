@@ -41,10 +41,14 @@
  */
 
 import { Client } from "@notionhq/client"
-import { get } from 'axios'
+import axios from 'axios'
 import { promises as fs } from "fs"
-import { join } from "path"
-require("dotenv").config({ path: join(__dirname, "../.env") })
+import { join, dirname } from "path"
+import { fileURLToPath } from "url"
+import dotenv from 'dotenv'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+dotenv.config({ path: join(__dirname, "../.env") })
 
 const HIKKA_API_URL = 'https://api.hikka.io/anime'
 const HIKKA_FORGE_API_URL = 'https://hikka-forge.lorgon.dev/anime'
@@ -94,7 +98,7 @@ async function loadPreviousData(fileName) {
 
 async function loadExternalData(url, name) {
   try {
-    const response = await get(url)
+    const response = await axios.get(url)
     colorLog(`Завантажено ${name}: ${response.data.length} записів`, 'blue')
     return response.data
   } catch (error) {
@@ -180,7 +184,7 @@ function extractSlugFromUrl(hikkaUrl) {
 
 async function fetchHikkaData(slug) {
   try {
-    const response = await get(`${HIKKA_API_URL}/${slug}`)
+    const response = await axios.get(`${HIKKA_API_URL}/${slug}`)
     const anime = response.data
     return {
       hikka_poster: anime.image,
@@ -202,7 +206,7 @@ async function fetchHikkaData(slug) {
 
 async function fetchHikkaForgeData(slug) {
   try {
-    const response = await get(`${HIKKA_FORGE_API_URL}/${slug}`)
+    const response = await axios.get(`${HIKKA_FORGE_API_URL}/${slug}`)
     const data = response.data
     return {
       hikka_poster: data.imageUrl || null,
@@ -730,14 +734,14 @@ async function runAllImports(options = {}) {
   try {
     await runAllImports({
       anime: { 
-        onlyModified: true,
+        onlyModified: false,
         update: { 
           hikka: 'missing',
           mikai: 'missing'
         } 
       },
-      releases: { onlyModified: true },
-      teams: { onlyModified: true }
+      releases: { onlyModified: false },
+      teams: { onlyModified: false }
     })
   } catch (err) {
     console.error(err)
