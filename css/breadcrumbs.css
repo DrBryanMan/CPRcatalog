@@ -54,7 +54,7 @@ nav {
     padding-left: 0;
 }
 .site-logo:after {
-    content: '1.0';
+    content: '1.1';
     color: lightgreen;
     font-weight: bold;
 }
