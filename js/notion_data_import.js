@@ -14,6 +14,7 @@
  *         Hikka  →  (fallback)  →  Hikka-Forge
  *       Якщо основний Hikka повертає помилку ≥ 7 разів поспіль —
  *       автоматично переключаємось на Hikka-Forge для решти запитів.
+ *     • За потреби збагачуємо обкладинками з AniList (bannerImage)
  *     • Мержимо оброблені записи з попередніми та зберігаємо файл
  *
  *  2. РЕЛІЗИ  (AnimeReleasesDB.json)
@@ -50,10 +51,20 @@ import dotenv from 'dotenv'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 dotenv.config({ path: join(__dirname, "../.env") })
 
-const HIKKA_API_URL = 'https://api.hikka.io/anime'
+const HIKKA_API_URL       = 'https://api.hikka.io/anime'
 const HIKKA_FORGE_API_URL = 'https://hikka-forge.lorgon.dev/anime'
-const MIKAI_API_URL = 'https://api.mikai.me/v1/integrations/hikka/anime'
-const POSTERS_URL = 'https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/PostersList.json'
+const MIKAI_API_URL       = 'https://api.mikai.me/v1/integrations/hikka/anime'
+const POSTERS_URL         = 'https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/PostersList.json'
+const ANILIST_URL         = 'https://graphql.anilist.co'
+const ANILIST_DELAY_MS    = 700   // ≈ 66 запитів/хв — безпечний ліміт
+
+const ANILIST_QUERY = `
+query ($malId: Int) {
+  Media(idMal: $malId, type: ANIME) {
+    bannerImage
+  }
+}
+`
 
 const Notion = new Client({ auth: process.env.NOTION_TOKEN })
 
@@ -64,12 +75,12 @@ const colors = {
 const OUTPUT_MODES = { NEWLINE: 'newline', SAMELINE: 'sameline', PROGRESS: 'progress' }
 
 const DATABASES = {
-  ANIME_TITLES_DB: "174d30fa35d081fb8baccf7e405d5cf9",
+  ANIME_TITLES_DB:   "174d30fa35d081fb8baccf7e405d5cf9",
   ANIME_RELEASES_DB: "174d30fa35d081278dcdf4335e149330",
-  TEAMS_DB: "174d30fa35d081c4968cc340c89e4667"
+  TEAMS_DB:          "174d30fa35d081c4968cc340c89e4667"
 }
 
-const UPDATE_MODES = { NONE: 'none', MISSING: 'missing', ALL: 'all' }
+const UPDATE_MODES = { NONE: 'none', NEW: 'new', MISSING: 'missing', ALL: 'all' }
 const HIKKA_FAILURE_THRESHOLD = 7
 
 process.stdout.setEncoding('utf8')
@@ -119,6 +130,13 @@ async function saveData(fileName, data) {
   }
 }
 
+function hasAnyExternalUpdates(update = {}) {
+  return ['hikka', 'mikai', 'cover'].some(key => {
+    const value = update[key]
+    return value && value !== UPDATE_MODES.NONE
+  })
+}
+
 async function getAllPages(databaseId, dbTitle) {
   let pages = [], hasMore = true, nextCursor = null, totalProcessed = 0
   console.log(`Початок імпорту сторінок з бази даних ${dbTitle}`)
@@ -138,8 +156,45 @@ async function getAllPages(databaseId, dbTitle) {
   return pages
 }
 
+async function getRawNotionPageById(pageId, expectedDatabaseId = null) {
+  try {
+    const normalize = id => id?.replaceAll('-', '')
+    const page = await Notion.pages.retrieve({ page_id: normalize(pageId) })
+    console.log(JSON.stringify(page, null, 2))
+    const actualDatabaseId = page.parent?.database_id || null
+
+    if (expectedDatabaseId && normalize(actualDatabaseId) !== normalize(expectedDatabaseId)) {
+      throw new Error(`Сторінка ${pageId} належить до іншої бази даних: ${actualDatabaseId || 'unknown'}`)
+    }
+
+    return page
+  } catch (error) {
+    colorLog(`Не вдалося отримати сторінку ${pageId}: ${error.message}`, 'red')
+    throw error
+  }
+}
+
+async function getRawAnimePageById(pageId) {
+  return getRawNotionPageById(pageId, DATABASES.ANIME_TITLES_DB)
+}
+
+async function getRawReleasePageById(pageId) {
+  return getRawNotionPageById(pageId, DATABASES.ANIME_RELEASES_DB)
+}
+
+async function getRawTeamPageById(pageId) {
+  return getRawNotionPageById(pageId, DATABASES.TEAMS_DB)
+}
+
+function getNotionPageTitle(page) {
+  return page.properties['Назва релізу']?.title[0]?.plain_text ||
+         page.properties['Назва тайтлу']?.title[0]?.plain_text ||
+         page.properties['Назва команди']?.title[0]?.plain_text ||
+         'Без назви'
+}
+
 function filterModifiedPages(allPages, existingData, checkMissingFields = false) {
-  const existingMap = new Map(existingData.map(item => [item.id, new Date(item.last_edited || item.created_time || 0)]))
+  const existingMap = new Map(existingData.map(item => [item.id, item]))
   const modifiedPages = [], newPages = []
   
   for (const page of allPages) {
@@ -148,8 +203,8 @@ function filterModifiedPages(allPages, existingData, checkMissingFields = false)
       newPages.push(page)
       modifiedPages.push(page)
     } else {
-      const existingLastEdited = existingMap.get(page.id)
-      const existingAnime = existingData.find(item => item.id === page.id)
+      const existingAnime = existingMap.get(page.id)
+      const existingLastEdited = new Date(existingAnime.last_edited || existingAnime.created_time || 0)
       
       const hasMissingFields = checkMissingFields && existingAnime && getMissingHikkaFields(existingAnime).length > 0
       
@@ -161,11 +216,7 @@ function filterModifiedPages(allPages, existingData, checkMissingFields = false)
   if (newPages.length > 0) {
     colorLog(`Нових сторінок: ${newPages.length}`, 'green')
     newPages.forEach((page, idx) => {
-      const title = page.properties['Назва релізу']?.title[0]?.plain_text || 
-                   page.properties['Назва тайтлу']?.title[0]?.plain_text ||
-                   page.properties['Назва команди']?.title[0]?.plain_text ||
-                   'Без назви'
-      colorLog(`  ${idx + 1}. ${title}`, 'green')
+      colorLog(`  ${idx + 1}. ${getNotionPageTitle(page)}`, 'green')
     })
   }
   if (modifiedPages.length > newPages.length) colorLog(`Змінених існуючих: ${modifiedPages.length - newPages.length}`, 'yellow')
@@ -232,8 +283,6 @@ function getMissingHikkaFields(anime) {
   const required = ['hikka_poster', 'scoreMAL', 'scoredbyMAL', 'scoreHikka', 'scoredbyHikka', 'mal_id']
   return required.filter(field => {
     const value = anime[field]
-    // Поле вважається пропущеним тільки якщо воно null, undefined або порожній рядок
-    // 0 - це валідне значення!
     return value === null || value === undefined || value === ''
   })
 }
@@ -241,7 +290,7 @@ function getMissingHikkaFields(anime) {
 async function fetchHikkaDataWithFallback(urls) {
   const results = []
   let hikkaFailureCount = 0, useForgeOnly = false
-  hikkaErrors = [] // Очищаємо список помилок
+  hikkaErrors = []
   
   for (let i = 0; i < urls.length; i++) {
     const slug = extractSlugFromUrl(urls[i])
@@ -268,9 +317,7 @@ async function fetchHikkaDataWithFallback(urls) {
         hikkaErrors.push({ slug, error: error.message, source: 'Hikka' })
         colorLog(`❌ Помилка Hikka для ${slug}: ${error.message}`, 'red')
         hikkaFailureCount++
-        if (hikkaFailureCount >= HIKKA_FAILURE_THRESHOLD) {
-          useForgeOnly = true
-        }
+        if (hikkaFailureCount >= HIKKA_FAILURE_THRESHOLD) useForgeOnly = true
         continue
       }
     }
@@ -312,22 +359,16 @@ async function updateHikkaData(animeData, mode = UPDATE_MODES.NONE) {
   }
   
   colorLog(`\nОновлення Hikka даних (режим: ${mode})...`, 'blue')
-  const previousData = await loadPreviousData("AnimeTitlesDB.json")
-  
-  // ВИПРАВЛЕННЯ: створюємо Map з поточних даних для швидкого пошуку
   const currentDataMap = new Map(animeData.map(a => [a.hikka_url, a]))
   
   const animesToUpdate = animeData.filter(anime => {
     if (!anime.hikka_url) return false
     if (mode === UPDATE_MODES.ALL) return true
     if (mode === UPDATE_MODES.MISSING) {
-      // Перевіряємо ПОТОЧНИЙ стан аніме, а не попередній
       const current = currentDataMap.get(anime.hikka_url)
       const missingFields = getMissingHikkaFields(current)
-      
       if (missingFields.length > 0) {
-        const title = anime.title || 'Без назви'
-        colorLog(`✓ Оновлюємо ${title} (пропущені поля: ${missingFields.join(', ')})`, 'green')
+        colorLog(`✓ Оновлюємо ${anime.title || 'Без назви'} (пропущені поля: ${missingFields.join(', ')})`, 'green')
         return true
       }
       return false
@@ -351,20 +392,16 @@ async function updateHikkaData(animeData, mode = UPDATE_MODES.NONE) {
     const hikkaData = hikkaMap.get(anime.hikka_url)
     if (hikkaData) {
       const updatedFields = []
-      Object.entries(hikkaData).forEach(([key, value]) => {
-        // Перезаписуємо тільки якщо поточне значення null, undefined або ''
-        // НЕ перезаписуємо 0, бо це валідне значення!
+      for (const [key, value] of Object.entries(hikkaData)) {
+        if (key === 'url' || value == null) continue
         const currentValue = anime[key]
-        const shouldUpdate = currentValue === null || currentValue === undefined || currentValue === ''
-        
-        if (key !== 'url' && value != null && shouldUpdate) {
+        if (currentValue === null || currentValue === undefined || currentValue === '') {
           anime[key] = value
           updatedFields.push(key)
         }
-      })
+      }
       if (updatedFields.length > 0) {
-        const title = anime.title || 'Без назви'
-        colorLog(`  ✓ ${title} (+${updatedFields.length} полів: ${updatedFields.join(', ')})`, 'green')
+        colorLog(`  ✓ ${anime.title || 'Без назви'} (+${updatedFields.length} полів: ${updatedFields.join(', ')})`, 'green')
       }
       updatedCount++
     }
@@ -381,6 +418,82 @@ async function updateHikkaData(animeData, mode = UPDATE_MODES.NONE) {
   
   return animeData
 }
+
+// ── AniList: обкладинки ───────────────────────────────────────────────────────
+
+async function fetchAniListBanner(malId, retryAfter = 0) {
+  if (retryAfter > 0) {
+    colorLog(`\n⏳  Rate limit AniList — чекаємо ${retryAfter}с...`, 'yellow')
+    await new Promise(resolve => setTimeout(resolve, retryAfter * 1000))
+  }
+
+  try {
+    const response = await axios.post(
+      ANILIST_URL,
+      { query: ANILIST_QUERY, variables: { malId } },
+      { headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' } }
+    )
+    const media = response.data?.data?.Media
+    return media?.bannerImage ?? null
+  } catch (error) {
+    if (error.response?.status === 429) {
+      const retry = parseInt(error.response.headers['retry-after'] || '60', 10)
+      return fetchAniListBanner(malId, retry)
+    }
+    colorLog(`  ⚠️  AniList помилка для mal_id=${malId}: ${error.message}`, 'yellow')
+    return null
+  }
+}
+
+async function updateAniListCovers(animeData, mode = UPDATE_MODES.NONE, options = {}) {
+  const { newAnimeIds = new Set() } = options
+
+  if (mode === UPDATE_MODES.NONE) {
+    colorLog('Оновлення обкладинок AniList пропущено (режим: none)', 'yellow')
+    return animeData
+  }
+
+  const todo = animeData.filter(anime => {
+    if (!anime.mal_id) return false
+    if (mode === UPDATE_MODES.ALL) return true
+    if (mode === UPDATE_MODES.NEW) return newAnimeIds.has(anime.id) && !anime.cover
+    return !anime.cover  // MISSING: тільки ті, у кого cover порожній/null
+  })
+
+  if (todo.length === 0) {
+    const message = mode === UPDATE_MODES.NEW
+      ? '✅  AniList: немає нових тайтлів для додавання обкладинок.'
+      : '✅  AniList: всі обкладинки вже є.'
+    colorLog(message, 'green')
+    return animeData
+  }
+
+  colorLog(`\nОновлення обкладинок AniList (режим: ${mode})...`, 'blue')
+  colorLog(`   Потрібно обробити: ${todo.length} записів`, 'blue')
+
+  let found = 0
+
+  for (let i = 0; i < todo.length; i++) {
+    const anime = todo[i]
+    const label = anime.title || `mal_id=${anime.mal_id}`
+    colorLog(`[${String(i + 1).padStart(5)}/${todo.length}] ${label}`, 'reset', OUTPUT_MODES.SAMELINE)
+
+    const banner = await fetchAniListBanner(anime.mal_id)
+    anime.cover = banner ?? null
+
+    if (banner) {
+      found++
+      colorLog(`[${String(i + 1).padStart(5)}/${todo.length}] ✔ ${label}`, 'green', OUTPUT_MODES.PROGRESS)
+    }
+
+    await new Promise(resolve => setTimeout(resolve, ANILIST_DELAY_MS))
+  }
+
+  colorLog(`\n   ✔  AniList завершено. Знайдено обкладинок: ${found} / ${todo.length}`, 'green')
+  return animeData
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 async function updateMikaiLinks(animeData, mode = UPDATE_MODES.NONE) {
   if (mode === UPDATE_MODES.NONE) {
@@ -412,23 +525,17 @@ async function updateMikaiLinks(animeData, mode = UPDATE_MODES.NONE) {
 
 function createMapsFromData(postersData, mikaiData) {
   const postersMap = new Map()
-  const mikaiMap = new Map()
+  const mikaiMap   = new Map()
   
-  // Створюємо map для постерів за hikka_url
-  if (postersData && Array.isArray(postersData)) {
+  if (Array.isArray(postersData)) {
     for (const item of postersData) {
-      if (item.hikka_url && item.posters) {
-        postersMap.set(item.hikka_url, item.posters)
-      }
+      if (item.hikka_url && item.posters) postersMap.set(item.hikka_url, item.posters)
     }
   }
   
-  // Створюємо map для Mikai за mal_id
-  if (mikaiData && Array.isArray(mikaiData)) {
+  if (Array.isArray(mikaiData)) {
     for (const item of mikaiData) {
-      if (item.mal_id && item.url) {
-        mikaiMap.set(item.mal_id, { url: item.url })
-      }
+      if (item.mal_id && item.url) mikaiMap.set(item.mal_id, { url: item.url })
     }
   }
   
@@ -441,58 +548,59 @@ function buildAnimeData(page, previousAnime, posterList, mikaiUrl) {
     : null
 
   return {
-    id: page.id,
-    hikka_url: page.properties.Hikka?.url,
-    hikka_poster: previousAnime?.hikka_poster || null,
-    cover: page.cover?.external?.url || page.cover?.file?.url,
-    poster: posterUrl,
-    posters: posterList || [],
-    title: page.properties['Назва тайтлу']?.title[0]?.plain_text,
-    romaji: page.properties.Ромаджі?.rich_text[0]?.plain_text,
-    synonyms: page.properties.Синоніми?.rich_text?.flatMap(i => i.plain_text.split('\n')) || [],
-    hikkaSynonyms: previousAnime?.hikkaSynonyms,
-    type: page.properties['Тип медіа']?.multi_select[0]?.name,
-    format: page.properties['Формат']?.select?.name,
-    format_cpr: page.properties['Формат цпр']?.select?.name,
-    year: page.properties['Рік виходу']?.rich_text[0]?.plain_text,
-    genre: page.properties.Жанри?.select?.name,
-    status: previousAnime?.status,
-    season: previousAnime?.season,
-    duration: previousAnime?.duration,
-    scoreMAL: previousAnime?.scoreMAL,
-    scoredbyMAL: previousAnime?.scoredbyMAL,
-    scoreHikka: previousAnime?.scoreHikka,
-    scoredbyHikka: previousAnime?.scoredbyHikka,
-    anitube: page.properties.АніТюб?.url,
-    uaserial: page.properties.Uaserial?.url,
-    uakino: page.properties.Uakino?.url,
-    mikai: mikaiUrl || previousAnime?.mikai || null,
-    tg_channel: page.properties['Tg канал']?.url,
-    episodes: page.properties['Кількість серій']?.rich_text[0]?.plain_text,
-    releases: page.properties['🗂️ Релізи команд']?.relation || [],
-    relations: page.properties["Пов'язані частини"]?.relation || [],
-    franchise: page.properties.Франшиза?.relation?.id || [],
-    source: previousAnime?.source,
-    mal_id: previousAnime?.mal_id,
-    created_time: page.created_time,
-    last_edited: page.last_edited_time
+    id:             page.id,
+    hikka_url:      page.properties.Hikka?.url,
+    hikka_poster:   previousAnime?.hikka_poster   ?? null,
+    // cover береться з AniList (bannerImage) — не з Notion page.cover
+    cover:          previousAnime?.cover          ?? null,
+    poster:         posterUrl,
+    posters:        posterList || [],
+    title:          page.properties['Назва тайтлу']?.title[0]?.plain_text,
+    romaji:         page.properties.Ромаджі?.rich_text[0]?.plain_text,
+    synonyms:       page.properties.Синоніми?.rich_text?.flatMap(i => i.plain_text.split('\n')) || [],
+    hikkaSynonyms:  previousAnime?.hikkaSynonyms,
+    type:           page.properties['Тип медіа']?.multi_select[0]?.name,
+    format:         page.properties['Формат']?.select?.name,
+    format_cpr:     page.properties['Формат цпр']?.select?.name,
+    year:           page.properties['Рік виходу']?.rich_text[0]?.plain_text,
+    genre:          page.properties.Жанри?.select?.name,
+    status:         previousAnime?.status,
+    season:         previousAnime?.season,
+    duration:       previousAnime?.duration,
+    scoreMAL:       previousAnime?.scoreMAL,
+    scoredbyMAL:    previousAnime?.scoredbyMAL,
+    scoreHikka:     previousAnime?.scoreHikka,
+    scoredbyHikka:  previousAnime?.scoredbyHikka,
+    anitube:        page.properties.АніТюб?.url,
+    uaserial:       page.properties.Uaserial?.url,
+    uakino:         page.properties.Uakino?.url,
+    mikai:          mikaiUrl || previousAnime?.mikai || null,
+    tg_channel:     page.properties['Tg канал']?.url,
+    episodes:       page.properties['Кількість серій']?.rich_text[0]?.plain_text,
+    releases:       page.properties['🗂️ Релізи команд']?.relation || [],
+    relations:      page.properties["Пов'язані частини"]?.relation || [],
+    franchise:      page.properties.Франшиза?.relation?.id || [],
+    source:         previousAnime?.source,
+    mal_id:         previousAnime?.mal_id,
+    created_time:   page.created_time,
+    last_edited:    page.last_edited_time
   }
 }
 
 async function processAnimeData(pages) {
-  const previousData = await loadPreviousData("AnimeTitlesDB.json")
+  const previousData    = await loadPreviousData("AnimeTitlesDB.json")
   const previousDataMap = new Map(previousData.map(anime => [anime.id, anime]))
-  const postersData = await loadExternalData(POSTERS_URL, 'Постери з GitHub')
-  const mikaiData = await loadExternalData(MIKAI_API_URL, 'Mikai дані')
+  const postersData     = await loadExternalData(POSTERS_URL, 'Постери з GitHub')
+  const mikaiData       = await loadExternalData(MIKAI_API_URL, 'Mikai дані')
   
   const { postersMap, mikaiMap } = createMapsFromData(postersData, mikaiData)
   
   const results = []
   for (const page of pages) {
     const previousAnime = previousDataMap.get(page.id)
-    const hikka_url = page.properties.Hikka?.url
-    const posterList = hikka_url ? postersMap.get(hikka_url) : null
-    let mikaiUrl = previousAnime?.mikai || null
+    const hikka_url     = page.properties.Hikka?.url
+    const posterList    = hikka_url ? postersMap.get(hikka_url) : null
+    let mikaiUrl        = previousAnime?.mikai ?? null
     
     if (!mikaiUrl && previousAnime?.mal_id) {
       const mikaiInfo = mikaiMap.get(previousAnime.mal_id)
@@ -504,33 +612,35 @@ async function processAnimeData(pages) {
 }
 
 function buildReleaseData(page, previousRelease) {
-  const currentEpisodes = page.properties['Кількість']?.rich_text[0]?.plain_text || null
+  const currentEpisodes     = page.properties['Кількість']?.rich_text[0]?.plain_text || null
   const currentTorrentLinks = page.properties['Торент посилання']?.rich_text
     .filter(link => link)
     .map(link => ({ text: link.plain_text.trim(), href: link.href })) || []
   const previousTorrentLinks = previousRelease?.torrentLinks || []
-  const previousUrls = new Set(previousTorrentLinks.map(link => link.href))
-  const hasNewLinks = currentTorrentLinks.some(link => !previousUrls.has(link.href))
+  const previousUrls  = new Set(previousTorrentLinks.map(link => link.href))
+  const hasNewLinks   = currentTorrentLinks.some(link => !previousUrls.has(link.href))
 
   return {
-    id: page.id,
-    title: page.properties['Назва релізу']?.title[0]?.plain_text,
-    animeIds: page.properties['Тайтл']?.relation?.map(rel => rel.id) || [],
-    teams: page.properties['Команда']?.relation?.map(rel => rel.id) || [],
-    teamscolab: page.properties['Спільно з']?.relation?.map(rel => rel.id) || [],
-    dubinfo: page.properties['Озвучка']?.multi_select?.flatMap(sel => sel.name) || 'Не вказано',
-    subinfo: page.properties['Саби']?.multi_select?.flatMap(sel => sel.name) || 'Не вказано',
-    status: page.properties['Статус']?.status?.name || 'Невідомо',
-    episodes: currentEpisodes,
-    episodessub: page.properties['Кількість суб']?.rich_text[0]?.plain_text || null,
-    wereWatch: page.properties['Дивитись']?.multi_select?.map(ms => ({ name: ms.name, color: ms.color })) || 'Не вказано',
+    id:           page.id,
+    title:        page.properties['Назва релізу']?.title[0]?.plain_text,
+    animeIds:     page.properties['Тайтл']?.relation?.map(rel => rel.id) || [],
+    teams:        page.properties['Команда']?.relation?.map(rel => rel.id) || [],
+    teamscolab:   page.properties['Спільно з']?.relation?.map(rel => rel.id) || [],
+    dubinfo:      page.properties['Озвучка']?.multi_select?.flatMap(sel => sel.name) || 'Не вказано',
+    subinfo:      page.properties['Саби']?.multi_select?.flatMap(sel => sel.name) || 'Не вказано',
+    status:       page.properties['Статус']?.status?.name || 'Невідомо',
+    episodes:     currentEpisodes,
+    episodessub:  page.properties['Кількість суб']?.rich_text[0]?.plain_text || null,
+    wereWatch:    page.properties['Дивитись']?.multi_select?.map(ms => ({ name: ms.name, color: ms.color })) || 'Не вказано',
     torrentLinks: currentTorrentLinks,
-    fexlink: page.properties['FEX посилання']?.url,
-    sitelink: page.properties['На сайті']?.url,
-    problems: page.properties['Проблеми']?.multi_select || [],
+    fexlink:      page.properties['FEX посилання']?.url,
+    sitelink:     page.properties['На сайті']?.url,
+    start_date:   page.properties['Період']?.date?.start || null,
+    end_date:     page.properties['Період']?.date?.end   || null,
+    problems:     page.properties['Проблеми']?.multi_select || [],
     created_time: page.created_time,
-    last_edited: page.last_edited_time,
-    episodesLastUpdate: previousRelease && previousRelease.episodes !== currentEpisodes
+    last_edited:  page.last_edited_time,
+    episodesLastUpdate:    previousRelease && previousRelease.episodes !== currentEpisodes
       ? new Date().toISOString()
       : previousRelease?.episodesLastUpdate || null,
     torrentLinksLastAdded: hasNewLinks ? new Date().toISOString() : previousRelease?.torrentLinksLastAdded || null
@@ -538,33 +648,33 @@ function buildReleaseData(page, previousRelease) {
 }
 
 async function processReleaseData(pages) {
-  const previousData = await loadPreviousData("AnimeReleasesDB.json")
+  const previousData    = await loadPreviousData("AnimeReleasesDB.json")
   const previousDataMap = new Map(previousData.map(r => [r.id, r]))
   return pages.map(page => buildReleaseData(page, previousDataMap.get(page.id)))
 }
 
 function buildTeamData(page) {
   return {
-    id: page.id,
-    cover: page.cover,
-    logo: page.icon?.external?.url || page.icon?.file?.url,
-    name: page.properties['Назва команди']?.title[0]?.plain_text || 'Невідомо',
-    altname: page.properties['Синоніми']?.rich_text?.flatMap(i => i.plain_text.split('\n')) || [],
-    founded: page.properties['Дата заснування']?.date,
-    type_team: page.properties['Тип команди']?.multi_select?.map(item => item.name) || [],
+    id:            page.id,
+    cover:         page.cover,
+    logo:          page.icon?.external?.url || page.icon?.file?.url,
+    name:          page.properties['Назва команди']?.title[0]?.plain_text || 'Невідомо',
+    altname:       page.properties['Синоніми']?.rich_text?.flatMap(i => i.plain_text.split('\n')) || [],
+    founded:       page.properties['Дата заснування']?.date,
+    type_team:     page.properties['Тип команди']?.multi_select?.map(item => item.name) || [],
     type_activity: page.properties['Тип робіт']?.multi_select?.map(item => item.name) || [],
-    status: page.properties.Статус?.select?.name || 'Невідомо',
-    members: page.properties['Склад команди']?.relation || [],
+    status:        page.properties.Статус?.select?.name || 'Невідомо',
+    members:       page.properties['Склад команди']?.relation || [],
     anime_releases: [],
-    site: page.properties.Сайт?.url,
-    anitube: page.properties.AniTube?.url,
-    youtube: page.properties.YouTube?.url,
-    insta: page.properties.Instagram?.url,
-    tiktok: page.properties.TikTok?.url,
-    tg: page.properties.Telegram?.url,
-    tg_video: page.properties['ТГ релізи']?.url,
-    created_time: page.created_time,
-    last_edited: page.last_edited_time
+    site:          page.properties.Сайт?.url,
+    anitube:       page.properties.AniTube?.url,
+    youtube:       page.properties.YouTube?.url,
+    insta:         page.properties.Instagram?.url,
+    tiktok:        page.properties.TikTok?.url,
+    tg:            page.properties.Telegram?.url,
+    tg_video:      page.properties['ТГ релізи']?.url,
+    created_time:  page.created_time,
+    last_edited:   page.last_edited_time
   }
 }
 
@@ -577,8 +687,8 @@ function buildTeamReleases(teamsData, releasesData) {
   const teamsMap = new Map(teamsData.map(team => [team.id, team]))
   
   for (const release of releasesData) {
-    const releaseInfo = { id: release.id }
-    const allTeamIds = [...(release.teams || []), ...(release.teamscolab || [])]
+    const releaseInfo  = { id: release.id }
+    const allTeamIds   = [...(release.teams || []), ...(release.teamscolab || [])]
     
     for (const teamId of allTeamIds) {
       if (teamsMap.has(teamId)) {
@@ -603,7 +713,7 @@ function mergeData(existingData, newData) {
 
 async function updateAbandonedReleases(releasesData, teamsData) {
   colorLog('\nПеревірка статусів релізів...', 'blue')
-  const teamsMap = new Map(teamsData.map(team => [team.id, team]))
+  const teamsMap       = new Map(teamsData.map(team => [team.id, team]))
   const inactiveStatuses = ['Неактивна', 'Припинено', 'Розформована']
   let updatedCount = 0
   
@@ -629,12 +739,31 @@ async function updateAbandonedReleases(releasesData, teamsData) {
 }
 
 async function getAnimeTitlesJson(options = {}) {
-  const { onlyModified = true, update = { hikka: 'none', mikai: 'none' } } = options
+  const {
+    useLocalBase = false,
+    onlyModified = true,
+    update = { hikka: 'none', mikai: 'none', cover: 'none' }
+  } = options
+
   colorLog('\n1. Імпорт аніме тайтлів...', 'blue')
+  const previousData  = await loadPreviousData("AnimeTitlesDB.json")
+
+  if (useLocalBase) {
+    colorLog(`Використовуємо локальну базу аніме: ${previousData.length} записів`, 'yellow')
+    let animeData = previousData
+    if (hasAnyExternalUpdates(update)) {
+      animeData = await updateHikkaData(animeData, UPDATE_MODES[update.hikka.toUpperCase()])
+      animeData = await updateAniListCovers(animeData, UPDATE_MODES[update.cover.toUpperCase()], { newAnimeIds: new Set() })
+      animeData = await updateMikaiLinks(animeData, UPDATE_MODES[update.mikai.toUpperCase()])
+      await saveData("AnimeTitlesDB.json", animeData)
+    }
+    return animeData
+  }
   
-  const allPages = await getAllPages(DATABASES.ANIME_TITLES_DB, 'Аніме тайтли')
-  const previousData = await loadPreviousData("AnimeTitlesDB.json")
-  let pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData, true) : allPages
+  const allPages      = await getAllPages(DATABASES.ANIME_TITLES_DB, 'Аніме тайтли')
+  const pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData, true) : allPages
+  const previousAnimeIds = new Set(previousData.map(anime => anime.id))
+  const newAnimeIds = new Set(pagesToProcess.filter(page => !previousAnimeIds.has(page.id)).map(page => page.id))
   
   if (!onlyModified) colorLog(`Обробка всіх ${allPages.length} сторінок`, 'blue')
   
@@ -644,6 +773,7 @@ async function getAnimeTitlesJson(options = {}) {
     const processedAnime = await processAnimeData(pagesToProcess)
     animeData = mergeData(previousData, processedAnime)
     animeData = await updateHikkaData(animeData, UPDATE_MODES[update.hikka.toUpperCase()])
+    animeData = await updateAniListCovers(animeData, UPDATE_MODES[update.cover.toUpperCase()], { newAnimeIds })
     animeData = await updateMikaiLinks(animeData, UPDATE_MODES[update.mikai.toUpperCase()])
     await saveData("AnimeTitlesDB.json", animeData)
   } else {
@@ -653,12 +783,17 @@ async function getAnimeTitlesJson(options = {}) {
 }
 
 async function getReleasesJson(options = {}) {
-  const { onlyModified = true } = options
+  const { useLocalBase = false, onlyModified = true } = options
   colorLog('\n2. Імпорт релізів...', 'blue')
+  const previousData  = await loadPreviousData("AnimeReleasesDB.json")
+
+  if (useLocalBase) {
+    colorLog(`Використовуємо локальну базу релізів: ${previousData.length} записів`, 'yellow')
+    return previousData
+  }
   
-  const allPages = await getAllPages(DATABASES.ANIME_RELEASES_DB, 'Аніме релізи')
-  const previousData = await loadPreviousData("AnimeReleasesDB.json")
-  let pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData) : allPages
+  const allPages      = await getAllPages(DATABASES.ANIME_RELEASES_DB, 'Аніме релізи')
+  const pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData) : allPages
   
   if (!onlyModified) colorLog(`Обробка всіх ${allPages.length} сторінок`, 'blue')
   
@@ -675,12 +810,19 @@ async function getReleasesJson(options = {}) {
 }
 
 async function getTeamsJson(releasesData, options = {}) {
-  const { onlyModified = true } = options
+  const { useLocalBase = false, onlyModified = true } = options
   colorLog('\n3. Імпорт команд...', 'blue')
+  const previousData  = await loadPreviousData("TeamsDB.json")
+
+  if (useLocalBase) {
+    colorLog(`Використовуємо локальну базу команд: ${previousData.length} записів`, 'yellow')
+    const teamData = buildTeamReleases(previousData, releasesData)
+    await saveData("TeamsDB.json", teamData)
+    return teamData
+  }
   
-  const allPages = await getAllPages(DATABASES.TEAMS_DB, 'Команди')
-  const previousData = await loadPreviousData("TeamsDB.json")
-  let pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData) : allPages
+  const allPages      = await getAllPages(DATABASES.TEAMS_DB, 'Команди')
+  const pagesToProcess = onlyModified ? filterModifiedPages(allPages, previousData) : allPages
   
   if (!onlyModified) colorLog(`Обробка всіх ${allPages.length} сторінок`, 'blue')
   
@@ -699,25 +841,24 @@ async function getTeamsJson(releasesData, options = {}) {
 
 async function runAllImports(options = {}) {
   const {
-    anime = { onlyModified: true, update: { hikka: 'missing', mikai: 'missing' } },
+    anime    = { onlyModified: true, update: { hikka: 'missing', mikai: 'missing', cover: 'new' } },
     releases = { onlyModified: true },
-    teams = { onlyModified: true }
+    teams    = { onlyModified: true }
   } = options
   
   try {
     colorLog('\n=== ПОЧАТОК ІМПОРТУ ДАНИХ ===\n', 'blue')
-    const animeData = await getAnimeTitlesJson(anime)
-    let releasesData = await getReleasesJson(releases)
-    const teamsData = await getTeamsJson(releasesData, teams)
-    releasesData = await updateAbandonedReleases(releasesData, teamsData)
+    const animeData    = await getAnimeTitlesJson(anime)
+    let releasesData   = await getReleasesJson(releases)
+    const teamsData    = await getTeamsJson(releasesData, teams)
+    releasesData       = await updateAbandonedReleases(releasesData, teamsData)
     await saveData("AnimeReleasesDB.json", releasesData)
     
     colorLog(`\n📊 СТАТИСТИКА ІМПОРТУ:`, 'blue')
-    colorLog(`  • Тайтлів: ${animeData.length}`, 'green')
-    colorLog(`  • Релізів: ${releasesData.length}`, 'green')
-    colorLog(`  • Команд: ${teamsData.length}`, 'green')
+    colorLog(`  • Тайтлів: ${animeData.length}`,    'green')
+    colorLog(`  • Релізів: ${releasesData.length}`,  'green')
+    colorLog(`  • Команд: ${teamsData.length}`,      'green')
     
-    // 🔥 Виводимо помилки в кінці
     if (hikkaErrors.length > 0) {
       colorLog(`\n!!  ЗАГАЛОМ ПОМИЛОК HIKKA: ${hikkaErrors.length}`, 'red')
     }
@@ -733,16 +874,23 @@ async function runAllImports(options = {}) {
 ;(async () => {
   try {
     await runAllImports({
-      anime: { 
-        onlyModified: false,
-        update: { 
-          hikka: 'missing',
-          mikai: 'missing'
-        } 
-      },
-      releases: { onlyModified: false },
-      teams: { onlyModified: false }
+      anime:    { onlyModified: true, useLocalBase: true, update: { hikka: 'missing', mikai: 'missing', cover: 'new'}},
+      releases: { onlyModified: true, useLocalBase: false },
+      teams:    { onlyModified: true, useLocalBase: true }
     })
+    // await runAllImports({
+    //   anime: {
+    //     onlyModified: false,
+    //     update: {
+    //       hikka: 'all',
+    //       mikai: 'all',
+    //       cover: 'none'   // тільки ті, у кого cover ще null
+    //     }
+    //   },
+    //   releases: { onlyModified: false },
+    //   teams:    { onlyModified: false }
+    // })
+    // await getRawReleasePageById('174d30fa35d081cd8a91c0462c51c9a6')
   } catch (err) {
     console.error(err)
     process.exit(1)
@@ -770,16 +918,32 @@ async function runAllImports(options = {}) {
  * └─────────────────────────────────────────────────────────────────────────────┘
  *
  * ┌─────────────────────────────────────────────────────────────────────────────┐
- * │  update.hikka / update.mikai  (string, тільки для секції anime)             │
+ * │  useLocalBase  (bool, для всіх трьох секцій)                                │
+ * ├─────────────────────────────────────────────────────────────────────────────┤
+ * │  true  — секція не читається з Notion, а береться з локального JSON.        │
+ * │          Зручно, коли в базі точно не було нових сторінок і не треба        │
+ * │          витрачати час на повний обхід Notion.                              │
+ * │          Для teams зв'язки з релізами все одно перебудовуються локально.    │
+ * │                                                                             │
+ * │  false — секція читається з Notion у звичайному режимі.                     │
+ * └─────────────────────────────────────────────────────────────────────────────┘
+ *
+ * ┌─────────────────────────────────────────────────────────────────────────────┐
+ * │  update.hikka / update.mikai / update.cover  (string, тільки для anime)     │
  * ├─────────────────────────────────────────────────────────────────────────────┤
  * │  'none'    — зовнішній API не викликається взагалі. Дані залишаються        │
  * │              такими, як є в JSON. Найшвидший режим, без мережевих запитів.  │
+ * │                                                                             │
+ * │  'new'     — лише для update.cover: обкладинки шукаються тільки для         │
+ * │              нових тайтлів поточного імпорту. Старі записи з cover=null     │
+ * │              ігноруються, доки не буде окремого запуску з режимом missing.  │
  * │                                                                             │
  * │  'missing' — API викликається лише для записів, у яких одне або більше      │
  * │              потрібних полів відсутні (null / undefined / '').              │
  * │              Hikka-поля: hikka_poster, scoreMAL, scoredbyMAL,               │
  * │                          scoreHikka, scoredbyHikka, mal_id                  │
  * │              Mikai-поле: mikai                                              │
+ * │              Cover-поле: cover                                              │
  * │              Оптимальний баланс між актуальністю і кількістю запитів.       │
  * │                                                                             │
  * │  'all'     — API викликається для кожного аніме, що має hikka_url/mal_id.   │
@@ -792,9 +956,16 @@ async function runAllImports(options = {}) {
  *
  *  // Звичайна щоденна синхронізація
  *  runAllImports({
- *    anime:    { onlyModified: true,  update: { hikka: 'missing', mikai: 'missing' } },
+ *    anime:    { onlyModified: true,  update: { hikka: 'missing', mikai: 'missing', cover: 'new' } },
  *    releases: { onlyModified: true  },
  *    teams:    { onlyModified: true  }
+ *  })
+ *
+ *  // Якщо нових аніме не було: беремо anime локально, а оновлюємо тільки релізи
+ *  runAllImports({
+ *    anime:    { useLocalBase: true,  update: { hikka: 'none', mikai: 'none', cover: 'none' } },
+ *    releases: { useLocalBase: false, onlyModified: true },
+ *    teams:    { useLocalBase: true }
  *  })
  *
  *  // Повний ребілд без звернень до зовнішніх API
@@ -806,7 +977,7 @@ async function runAllImports(options = {}) {
  *
  *  // Примусове оновлення всіх Hikka-даних для змінених тайтлів
  *  runAllImports({
- *    anime:    { onlyModified: true,  update: { hikka: 'all', mikai: 'missing' } },
+ *    anime:    { onlyModified: true,  update: { hikka: 'all', mikai: 'missing', cover: 'new' } },
  *    releases: { onlyModified: true  },
  *    teams:    { onlyModified: true  }
  *  })
