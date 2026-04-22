@@ -2,6 +2,13 @@ import { AnimeTitles, AnimeReleases } from '../loadData.js'
 import { AnimeDetails } from './AnimeDetails.js'
 import { ReleaseDetails } from './ReleaseDetails.js'
 import { TeamDetails } from './TeamDetails.js'
+import {
+  buildAnimeRoute,
+  buildReleaseRoute,
+  buildTeamRoute,
+  isEntityDetailHash,
+  toHashRoute
+} from '../utils/entityRoutes.js'
 
 export function createTitleModal() {
   const state = {
@@ -11,11 +18,52 @@ export function createTitleModal() {
     currentAnime: null,
     currentRelease: null,
     currentTeam: null,
-    openedFromCatalog: false
+    openedFromCatalog: false,
+    returnRoute: '#/'
   }
 
   // Ініціалізуємо деталі модулі
   let animeDetails, releaseDetails, teamDetails
+
+  function navigateToRoute(route) {
+    if (!isEntityDetailHash(window.location.hash)) {
+      state.returnRoute = window.location.hash || '#/'
+    }
+    const targetHash = toHashRoute(route)
+    if (window.location.hash !== targetHash) {
+      window.location.hash = targetHash
+    }
+  }
+
+  function ensureModalOpen() {
+    if (state.isOpen) return
+    state.isOpen = true
+    state.modal.showModal()
+    document.body.classList.add('modal-open')
+  }
+
+  function resetState() {
+    state.isOpen = false
+    state.currentView = 'anime'
+    state.currentAnime = null
+    state.currentRelease = null
+    state.currentTeam = null
+    state.openedFromCatalog = false
+    state.returnRoute = '#/'
+  }
+
+  function resetModalContent() {
+    toggleBack(false)
+    state.modal.querySelector('#animeModalContent').innerHTML = '<div class="loading-spinner">Завантаження...</div>'
+  }
+
+  function closeImmediately() {
+    if (!state.isOpen) return
+    resetState()
+    state.modal.close()
+    document.body.classList.remove('modal-open')
+    resetModalContent()
+  }
 
   function createModal() {
     state.modal = document.createElement('dialog')
@@ -92,8 +140,7 @@ export function createTitleModal() {
 
         const animeId = navLink.getAttribute('data-anime-id')
         if (animeId) {
-          const anime = AnimeTitles.find(a => a.id === animeId)
-          if (anime) showAnimeDetail(anime)
+          open(animeId)
         }
         return
       }
@@ -110,38 +157,42 @@ export function createTitleModal() {
   }
 
   // ===== Публічні переходи =====
-  async function open(animeId) {
-    if (state.isOpen) return
-    state.isOpen = true
+  async function open(animeId, options = {}) {
+    const { syncUrl = true, returnRoute = null } = options
+    if (syncUrl) {
+      navigateToRoute(buildAnimeRoute(animeId))
+      return
+    }
+
     const anime = AnimeTitles.find(a => a.id === animeId)
     if (!anime) return console.error('Аніме не знайдено:', animeId)
 
+    ensureModalOpen()
     state.currentAnime = anime
     state.currentRelease = null
     state.currentTeam = null
     state.currentView = 'anime'
     state.openedFromCatalog = false
+    if (returnRoute) state.returnRoute = returnRoute
 
-    state.modal.showModal()
-    document.body.classList.add('modal-open')
     // На тайтлі «Назад» не показуємо
     toggleBack(false)
     await animeDetails.render(anime)
   }
 
-  function close() {
+  function close(options = {}) {
+    const { skipRouteSync = false } = options
     if (!state.isOpen) return
-    state.isOpen = false
-    state.currentView = 'anime'
-    state.currentAnime = null
-    state.currentRelease = null
-    state.currentTeam = null
-    state.openedFromCatalog = false
-
-    state.modal.close()
-    document.body.classList.remove('modal-open')
-    toggleBack(false)
-    state.modal.querySelector('#animeModalContent').innerHTML = '<div class="loading-spinner">Завантаження...</div>'
+    if (!skipRouteSync && isEntityDetailHash()) {
+      const targetRoute = state.returnRoute || '#/'
+      if (window.location.hash !== targetRoute) {
+        window.location.hash = targetRoute
+        return
+      }
+      closeImmediately()
+      return
+    }
+    closeImmediately()
   }
 
   function toggleBack(show) {
@@ -149,9 +200,17 @@ export function createTitleModal() {
   }
 
   // ===== Реліз =====
-  async function showReleaseDetail(release) {
+  async function showReleaseDetail(release, options = {}) {
+    const { syncUrl = true, returnRoute = null } = options
+    if (syncUrl) {
+      navigateToRoute(buildReleaseRoute(release.id))
+      return
+    }
+
+    ensureModalOpen()
     state.currentView = 'release'
     state.currentRelease = release
+    if (returnRoute) state.returnRoute = returnRoute
     // «Назад» показуємо тільки на релізі й тільки якщо є звідки повертатись
     const canGoBack = (state.currentAnime || state.currentTeam) && !state.openedFromCatalog
     toggleBack(!!canGoBack)
@@ -159,17 +218,19 @@ export function createTitleModal() {
   }
 
   // Виклик із каталогу/із зовнішньої картки (API, що використовується зовні)
-  async function renderReleaseDetailFromCatalog(release) {
+  async function renderReleaseDetailFromCatalog(release, options = {}) {
+    const { syncUrl = true, openedFromCatalog = true, returnRoute = null } = options
     if (!release) return console.error('Реліз не знайдено')
-
-    if (!state.isOpen) {
-      state.isOpen = true
-      state.modal.showModal()
-      document.body.classList.add('modal-open')
-      state.openedFromCatalog = true
+    if (syncUrl) {
+      navigateToRoute(buildReleaseRoute(release.id))
+      return
     }
+
+    ensureModalOpen()
+    state.openedFromCatalog = openedFromCatalog
     state.currentView = 'release'
     state.currentRelease = release
+    if (returnRoute) state.returnRoute = returnRoute
 
     // Якщо відкрито з каталогу — «Назад» не показуємо
     const canGoBack = (state.currentAnime || state.currentTeam) && !state.openedFromCatalog
@@ -179,18 +240,21 @@ export function createTitleModal() {
   }
 
   // ===== Команда =====
-  async function showTeamDetails(teamId) {
-    if (!state.isOpen) {
-      state.isOpen = true
-      state.modal.showModal()
-      document.body.classList.add('modal-open')
+  async function showTeamDetails(teamId, options = {}) {
+    const { syncUrl = true, returnRoute = null } = options
+    if (syncUrl) {
+      navigateToRoute(buildTeamRoute(teamId))
+      return
     }
+
+    ensureModalOpen()
 
     state.currentView = 'teamReleases'
     state.currentTeam = { id: teamId } // Зберігаємо мінімальну інформацію
     state.currentAnime = null
     state.currentRelease = null
     state.openedFromCatalog = false
+    if (returnRoute) state.returnRoute = returnRoute
 
     // На сторінці команди «Назад» не показуємо
     toggleBack(false)
@@ -206,13 +270,11 @@ export function createTitleModal() {
     }
     if (state.currentAnime) {
       // назад до тайтлу
-      toggleBack(false)
-      showAnimeDetail(state.currentAnime)
+      open(state.currentAnime.id)
       return
     }
     if (state.currentTeam) {
       // назад до команди
-      toggleBack(false)
       showTeamDetails(state.currentTeam.id)
       return
     }
@@ -222,12 +284,8 @@ export function createTitleModal() {
 
   // Публічний перехід до тайтлу (використовується делегацією)
   async function showAnimeDetail(anime) {
-    state.currentView = 'anime'
-    state.currentAnime = anime
-    state.currentTeam = null
-    state.currentRelease = null
-    toggleBack(false)
-    await animeDetails.render(anime)
+    if (!anime?.id) return
+    await open(anime.id)
   }
 
   createModal()

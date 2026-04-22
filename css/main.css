@@ -64,9 +64,9 @@ button {
   border-radius: var(--radius);
   transition: .3s;
 }
-button:hover {
+/* button:hover {
   background: #fff5;
-}
+} */
 
 .page-block {
   padding: 10px;

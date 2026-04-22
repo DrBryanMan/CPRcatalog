@@ -1,0 +1,776 @@
+.release-updates-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.release-stats-panel {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.release-stats-panel__header,
+.release-updates-timeline__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.release-stats-panel__eyebrow,
+.release-stats-control__eyebrow,
+.release-updates-timeline__eyebrow,
+.release-updates-day__eyebrow {
+    color: var(--accent-light);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .75rem;
+}
+
+.release-stats-panel__controls {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.release-stats-control {
+    border: 1px solid var(--accent-20);
+    border-radius: 16px;
+    padding: 16px;
+    background: var(--dark-20);
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.release-stats-control--active {
+    background: var(--dark-50);
+    border-color: var(--accent-50);
+    box-shadow: 0 0 0 1px var(--accent-20);
+}
+
+.release-stats-control__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.release-stats-control__meta-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.release-stats-control__description,
+.release-updates-timeline__description,
+.release-stats-panel__active-label {
+    color: var(--light-80);
+    line-height: 1.5;
+}
+
+.release-stats-control__meta {
+    color: var(--light-80);
+    font-size: .95rem;
+    line-height: 1.3;
+    white-space: nowrap;
+}
+
+.release-updates-timeline__description,
+.release-stats-panel__active-label,
+.release-updates-day__count {
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.release-stats-control__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+
+.release-stats-control__actions--split {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.release-stats-control__actions--buttons {
+    gap: 10px;
+}
+
+.release-stats-pill {
+    padding: 10px 14px;
+    border: 1px solid var(--accent-20);
+    border-radius: 999px;
+    background: var(--dark-10);
+    color: var(--light-80);
+    &:hover {
+        border-color: var(--accent-40);
+        background: var(--accent-20);
+        color: var(--light);
+    }
+}
+
+.release-stats-pill.is-active {
+    border-color: var(--accent-40);
+    background: var(--accent-50);
+    color: var(--light);
+}
+
+.release-stats-pill.is-disabled,
+.release-stats-pill:disabled {
+    opacity: .45;
+    cursor: not-allowed;
+}
+
+.release-stats-select {
+    --release-select-surface: linear-gradient(180deg, var(--light-05), transparent 65%), var(--dark-10);
+    --release-select-surface-hover: linear-gradient(180deg, var(--light-10), transparent 65%), var(--dark-20);
+    --release-select-surface-open: linear-gradient(180deg, var(--accent-10), transparent 55%), var(--dark-20);
+    --release-select-picker-surface: linear-gradient(180deg, var(--accent-10), transparent 40%), hsl(var(--dark--hsl));
+    --release-select-shadow: inset 0 1px 0 var(--light-05), 0 12px 28px var(--dark-20);
+    --release-select-picker-shadow: 0 22px 44px var(--dark-50);
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 180px;
+    color: var(--light-80);
+}
+
+.release-stats-select--icon {
+    min-width: auto;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--accent-20);
+    border-radius: 10px;
+    background: var(--release-select-surface);
+    box-shadow: var(--release-select-shadow);
+    flex: 0 0 auto;
+}
+
+.release-stats-select > span {
+    font-size: .92rem;
+    line-height: 1.2;
+}
+
+.release-stats-select--icon::after {
+    content: "\f133";
+    inset: 50% auto auto 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    color: var(--accent-light-80);
+}
+
+.release-stats-select::after {
+    content: "\f078";
+    position: absolute;
+    right: 16px;
+    bottom: 13px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 70%;
+    line-height: 1;
+    color: var(--accent-light-80);
+    pointer-events: none;
+    transition: color .3s, transform .3s, opacity .3s;
+    opacity: .95;
+}
+
+.release-stats-select:hover::after,
+.release-stats-select:has(select:focus-visible)::after {
+    color: var(--accent-light);
+}
+
+.release-stats-select--icon:hover,
+.release-stats-select--icon:has(select:focus-visible) {
+    border-color: var(--accent-40);
+}
+
+.release-stats-select select {
+    min-width: 180px;
+    padding: 10px 42px 10px 14px;
+    border-radius: 12px;
+    border: 1px solid var(--accent-20);
+    background: var(--release-select-surface);
+    color: var(--light);
+    font: inherit;
+    line-height: 1.3;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color-scheme: dark;
+    box-shadow: var(--release-select-shadow);
+    transition: border-color .2s ease, background .2s ease, box-shadow .2s ease, transform .2s ease;
+    cursor: pointer;
+}
+
+.release-stats-select--icon select {
+    position: absolute;
+    inset: 0;
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    opacity: 0;
+}
+
+.release-stats-select__button {
+    background: transparent;
+    color: inherit;
+    border: 0;
+    box-shadow: none;
+}
+
+.release-stats-select__selectedcontent {
+    display: contents;
+}
+
+.release-stats-select--icon .release-stats-select__button,
+.release-stats-select--icon .release-stats-select__selectedcontent {
+    display: none;
+}
+
+.release-stats-select select:hover {
+    border-color: var(--accent-40);
+    background: var(--release-select-surface-hover);
+}
+
+.release-stats-select select:focus,
+.release-stats-select select:focus-visible {
+    outline: none;
+    border-color: var(--accent-60);
+    background: var(--release-select-surface-hover);
+    box-shadow: inset 0 1px 0 var(--light-10), 0 0 0 3px var(--accent-20);
+}
+
+.release-stats-select select:disabled {
+    cursor: not-allowed;
+    opacity: .6;
+}
+
+.release-stats-select select option {
+    color: var(--light);
+    /* background: hsl(var(--dark--hsl)); */
+}
+
+.release-stats-select select option:disabled {
+    color: var(--light-50);
+}
+
+.release-stats-select select::-ms-expand {
+    display: none;
+}
+
+body.light .release-stats-select {
+    --release-select-shadow: inset 0 1px 0 var(--light-20), 0 10px 24px var(--dark-10);
+}
+
+body.light .release-stats-select select {
+    color-scheme: light;
+}
+
+@supports (appearance: base-select) {
+    .release-stats-select::after {
+        display: none;
+    }
+
+    .release-stats-select select,
+    .release-stats-select select::picker(select) {
+        appearance: base-select;
+    }
+
+    .release-stats-select select {
+        padding: 0;
+        border-radius: 14px;
+        border-color: var(--accent-30);
+        background: var(--release-select-surface);
+        box-shadow: var(--release-select-shadow);
+        gap: 0;
+    }
+
+    .release-stats-select--icon {
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .release-stats-select--icon select {
+        position: static;
+        opacity: 1;
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .release-stats-select select:hover {
+        border-color: var(--accent-50);
+    }
+
+    .release-stats-select select:focus,
+    .release-stats-select select:focus-visible,
+    .release-stats-select select:open {
+        border-color: var(--accent-60);
+        background: var(--release-select-surface-open);
+        box-shadow: inset 0 1px 0 var(--light-10), 0 0 0 3px var(--accent-20), 0 20px 40px var(--dark-20);
+    }
+
+    .release-stats-select select::picker-icon {
+        content: "\f078";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        font-size: 70%;
+        color: var(--accent-light-80);
+        transition: transform .3s, color .3s;
+        display: flex;
+        align-items: center;
+        padding: 0 1em;
+    }
+
+    .release-stats-select select:open::picker-icon {
+        color: var(--accent-light);
+        transform: rotate(180deg);
+    }
+
+    .release-stats-select__button {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 12px 14px;
+        border-radius: inherit;
+        font: inherit;
+        line-height: 1.3;
+    }
+
+    .release-stats-select--icon .release-stats-select__button {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .release-stats-select__selectedcontent,
+    selectedcontent {
+        display: block;
+        flex: 1;
+        min-width: 0;
+        color: inherit;
+    }
+
+    .release-stats-select--icon .release-stats-select__selectedcontent {
+        display: none;
+    }
+
+    .release-stats-select--icon .release-stats-select__button i {
+        font-size: 1rem;
+        color: var(--accent-light-80);
+    }
+
+    .release-stats-select--icon select:hover .release-stats-select__button i,
+    .release-stats-select--icon select:focus-visible .release-stats-select__button i,
+    .release-stats-select--icon select:open .release-stats-select__button i {
+        color: var(--accent-light);
+    }
+
+    .release-stats-select--icon select::picker-icon {
+        display: none;
+    }
+
+    .release-stats-select select::picker(select) {
+        margin-block-start: 10px;
+        padding: 8px;
+        border: 1px solid var(--accent-30);
+        border-radius: 18px;
+        background: var(--release-select-picker-surface);
+        box-shadow: var(--release-select-picker-shadow);
+        opacity: 0;
+        transform: translateY(-6px) scale(.98);
+        transition: opacity .18s ease, transform .18s ease, overlay .18s ease allow-discrete, display .18s ease allow-discrete;
+    }
+
+    .release-stats-select select:open::picker(select) {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    .release-stats-select option {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 14px;
+        margin: 0;
+        border: 1px solid transparent;
+        border-radius: 12px;
+        background: transparent;
+        color: var(--light-90);
+        transition: background .18s ease, border-color .18s ease, color .18s ease;
+    }
+
+    .release-stats-select option:hover,
+    .release-stats-select option:focus {
+        background: var(--accent-20);
+        border-color: var(--accent-30);
+        color: var(--light);
+    }
+
+    .release-stats-select option:checked {
+        background: linear-gradient(90deg, var(--accent-20), transparent), var(--accent-dark-20);
+        border-color: var(--accent-40);
+        color: var(--light);
+        font-weight: 600;
+    }
+
+    .release-stats-select option::checkmark {
+        order: 1;
+        margin-left: auto;
+        content: "●";
+        color: var(--accent-light);
+        font-size: .7rem;
+    }
+
+    .release-stats-select option:disabled,
+    .release-stats-select option:disabled:hover,
+    .release-stats-select option:disabled:focus {
+        background: transparent;
+        border-color: transparent;
+        color: var(--light-50);
+    }
+
+    .release-stats-select option:disabled::checkmark {
+        content: "";
+    }
+
+    body.light .release-stats-select {
+        --release-select-picker-surface: linear-gradient(180deg, var(--accent-10), transparent 45%), hsl(var(--dark--hsl));
+        --release-select-picker-shadow: 0 18px 36px var(--dark-20);
+    }
+}
+
+.release-stats-toggle {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.release-stats-panel__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.release-stats-grid {
+    display: grid;
+    gap: 14px;
+}
+
+.release-stats-grid--four {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.release-stats-grid--two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.release-season-stat-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid var(--accent-50);
+    border-radius: 14px;
+    padding: 16px;
+    background: var(--dark-50);
+}
+
+.release-season-stat-card__icon {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    background: var(--accent-20);
+    color: var(--accent-light);
+    font-size: 1.3rem;
+}
+
+.release-season-stat-card p {
+    color: var(--light-80);
+    margin-bottom: 6px;
+}
+
+.release-season-stat-card strong {
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.release-updates-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.release-updates-empty {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.release-updates-empty i {
+    font-size: 2rem;
+    color: var(--accent-light);
+}
+
+.release-updates-empty p {
+    margin-top: 6px;
+    color: var(--light-80);
+}
+
+.release-updates-day {
+    /* border: 1px solid var(--accent-20); */
+    /* border-radius: 16px; */
+    /* padding: 16px; */
+    /* background: var(--light-10); */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.release-updates-day__header {
+    color: var(--accent-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--accent-20);
+}
+
+.release-updates-day__count {
+    color: var(--light-80);
+}
+
+.release-updates-day__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.release-update-anime-card {
+    border: 1px solid var(--accent-50);
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--dark-50);
+    backdrop-filter: blur(6px);
+}
+
+.release-update-anime-card__main {
+    display: grid;
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.release-update-anime-card__poster {
+    width: 110px;
+    height: 156px;
+    padding: 0;
+    background: var(--dark-10);
+    border: 0;
+    overflow: hidden;
+}
+
+.release-update-anime-card__poster img,
+.release-update-anime-card__poster-fallback {
+    width: 100%;
+    height: 100%;
+}
+
+.release-update-anime-card__poster img {
+    display: block;
+    object-fit: cover;
+}
+
+.release-update-anime-card__poster-fallback {
+    display: grid;
+    place-items: center;
+    color: var(--light-50);
+    font-size: 1.5rem;
+}
+
+.release-update-anime-card__body {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.release-update-anime-card__title {
+    padding: 0;
+    background: none;
+    border: 0;
+    color: var(--light);
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.release-update-anime-card__title:hover {
+    background: none;
+    color: var(--accent-light);
+}
+
+.release-update-anime-card__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.release-update-anime-card__meta span,
+.release-update-row__meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: var(--dark-50);
+    color: var(--light-90);
+}
+
+.release-update-anime-card__rows {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.release-update-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px minmax(0, 1fr);
+    gap: 14px;
+    align-items: start;
+    padding: 14px;
+    border: 1px solid var(--accent-50);
+    border-radius: 10px;
+    background: var(--dark-50);
+    text-align: left;
+}
+
+.release-update-row:hover {
+    border-color: var(--accent-80);
+    background: var(--dark-80);
+}
+
+.release-update-row__badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    color: var(--light);
+    font-weight: 600;
+}
+
+.release-update-row--start .release-update-row__badge {
+    color: var(--ongoing);
+}
+
+.release-update-row--end .release-update-row__badge {
+    color: var(--finished);
+}
+
+.release-update-row--instant .release-update-row__badge {
+    color: var(--accent-light);
+}
+
+.release-update-row__body {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.release-update-row__info,
+.release-update-row__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.release-update-row__team {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: var(--dark-50);
+    color: var(--light-90);
+}
+
+.release-update-row__team img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.release-update-row__team--muted {
+    color: var(--light-50);
+}
+
+@media (max-width: 980px) {
+    .release-stats-panel__controls,
+    .release-stats-grid--four {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 720px) {
+    .release-stats-panel__controls,
+    .release-stats-grid--two,
+    .release-stats-grid--four,
+    .release-update-anime-card__main,
+    .release-update-row {
+        grid-template-columns: 1fr;
+    }
+
+    .release-update-anime-card__poster {
+        width: 120px;
+        height: 170px;
+    }
+}
+
+@media (max-width: 640px) {
+    .release-stats-panel__header,
+    .release-stats-control__header,
+    .release-updates-day__header,
+    .release-updates-timeline__header,
+    .release-stats-control__actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .release-stats-control__meta-wrap {
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .release-updates-timeline__description,
+    .release-stats-panel__active-label,
+    .release-updates-day__count {
+        text-align: left;
+    }
+
+    .release-stats-select:not(.release-stats-select--icon) select {
+        min-width: 100%;
+    }
+}
