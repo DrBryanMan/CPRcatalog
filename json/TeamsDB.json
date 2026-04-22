@@ -183,6 +183,12 @@
       },
       {
         "id": "30bd30fa-35d0-8016-9d3d-db6df7b41ea2"
+      },
+      {
+        "id": "342d30fa-35d0-8039-8b64-e5bda85ff300"
+      },
+      {
+        "id": "342d30fa-35d0-80d1-8140-e9859bf5ece9"
       }
     ],
     "site": null,
@@ -1116,6 +1122,27 @@
       },
       {
         "id": "319d30fa-35d0-80a5-aed7-c2f38edc63f0"
+      },
+      {
+        "id": "33ed30fa-35d0-803f-929b-dff1a86d6641"
+      },
+      {
+        "id": "33ed30fa-35d0-80af-b997-f42ecf37ef3b"
+      },
+      {
+        "id": "33ed30fa-35d0-80b9-9a53-cd05fbf11947"
+      },
+      {
+        "id": "33ed30fa-35d0-80ef-8008-ca3dcddb018e"
+      },
+      {
+        "id": "34ad30fa-35d0-8004-bdf3-c23ed5897a08"
+      },
+      {
+        "id": "34ad30fa-35d0-8089-9a62-e56e17d6f278"
+      },
+      {
+        "id": "34ad30fa-35d0-80d3-a8ad-fe8724e4b55d"
       }
     ],
     "site": null,
@@ -1436,6 +1463,12 @@
       },
       {
         "id": "317d30fa-35d0-8017-8a82-c20f3be61643"
+      },
+      {
+        "id": "34ad30fa-35d0-8095-a7d3-c7427488170a"
+      },
+      {
+        "id": "34ad30fa-35d0-80ce-ba71-f6386f65301f"
       }
     ],
     "site": null,
@@ -1512,6 +1545,9 @@
       },
       {
         "id": "192d30fa-35d0-80c9-b993-cf4dd2645ef3"
+      },
+      {
+        "id": "342d30fa-35d0-8059-b0e9-d680bc5d5a6f"
       }
     ],
     "site": null,
@@ -2552,6 +2588,12 @@
       },
       {
         "id": "30bd30fa-35d0-8013-a150-c8990830094e"
+      },
+      {
+        "id": "349d30fa-35d0-8061-b7a4-c13f0c2415e9"
+      },
+      {
+        "id": "349d30fa-35d0-80e1-aa98-fe1a1db19fff"
       }
     ],
     "site": "https://dzuski.com/",
@@ -2878,7 +2920,11 @@
       "Фільми"
     ],
     "status": "Активна",
-    "members": [],
+    "members": [
+      {
+        "id": "34ad30fa-35d0-8018-9d07-f7e17dde8e21"
+      }
+    ],
     "anime_releases": [
       {
         "id": "174d30fa-35d0-80b7-af34-ce13b763aa6a"
@@ -2948,6 +2994,15 @@
       },
       {
         "id": "30bd30fa-35d0-808b-a15f-f51d4058d691"
+      },
+      {
+        "id": "33ed30fa-35d0-8010-aaea-f86f8caf4c04"
+      },
+      {
+        "id": "33ed30fa-35d0-80cf-8315-fd42cca3eb01"
+      },
+      {
+        "id": "342d30fa-35d0-801f-a689-f0dd18bf67be"
       }
     ],
     "site": null,
@@ -3588,6 +3643,18 @@
       },
       {
         "id": "319d30fa-35d0-802d-9ccc-ece552aab2c6"
+      },
+      {
+        "id": "33ed30fa-35d0-8004-b071-eb0906c59f2f"
+      },
+      {
+        "id": "33ed30fa-35d0-8069-9dd5-e8429f13e7bf"
+      },
+      {
+        "id": "33ed30fa-35d0-80c8-96eb-ccd5cf4303d7"
+      },
+      {
+        "id": "33ed30fa-35d0-80d2-877a-f70fb56b5842"
       }
     ],
     "site": null,
@@ -3705,7 +3772,7 @@
   {
     "id": "174d30fa-35d0-813c-9474-da91ffcf4787",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/bd5cb2c4-dd89-45a7-bef3-b4e86ae7b543/4UA.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZBVPEQWE%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCIQDdNsB%2Fe8UedASz9XrUwcela8ffQfdvj%2FRL3%2FkCa0Ta2gIgaXMKBQnjCECTgUG%2B8A92rKFRdUliYFmLjW5T1N6SPSkq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDARAwXnv1ZZvUZgeJSrcA%2FNZmanWLfH73Rg%2FTBkYzEBM1u7ihJ6gDX4KLmh68Melekg3T3xaliJvLozQBwVJCB6AqqfL6L4SBo%2FwFJArYsGuo895x7aIKZg7b8shp%2BU86bCbyeCCK7H6jmw0eE8lNWo3IhY1SwHsVgfraLCXTuuArsmVXMM3cqwKhFC7J2%2Fgv0AMAODPnE9BIkEdcf7htv64xGoEp792%2FBn2IZYJJO0Oe1UTaeyle7BNY0X%2B6p%2F8TcuIbAFP6qoqjIUFyKNQ%2BH6JLudxDO4NDcSb61wOHIZ%2FAz4HZLjsPqzC6FpMP378%2F6YJG1g1a%2BAIltuGDDBAv%2BNtPeoYZfZ9Oio9%2BxXvlgUECGrzNi%2F2UnXpUeZqvUuBTeX7sve4FVxG9SsBF7nKUYUB8%2BJw63k92XcVCcelEZw22eJSYkeMLYQI%2Fe3hKJ8r%2F9124QqkvLaCOXeFdtFiyFiV1UaSJ5V8w0ovfrwcyEWM0%2FHO2Z3Egwc7z5a9ajzMovIScHA72MEDtmBRmkYkJTAWgMqVCyz7l%2Fg0s7KEB7GsYxMGcufd%2BMo9Ppircgrf1gptQ8tiV9uMvxEfELwDYYAN4XuDtg0EyCWU7U8%2FP6zVT3cHUl5hdgq4E6TCBG07Xu07eakrNWFXGo2PMO2tps4GOqUBBt1DPyfzB15dojHqsUHKGxLhaP5Y8nnngGVqQ9nS7hlHSAy1cvhOd2gglxxWBLZLTFXiojQtK0FomB00CeabeHVuJH79EgIbcN9hyY8RJj%2BGPIToqOuBXw092NZw6s1XcIVJcp9FFqBd9fAacEKuYEL5lkMpUWdwQWQNgHyweGodZHiLSasrEwPa0rXGnU%2FZwSwg1Rix%2B%2B79HHTsNsl6A7DLwe5k&X-Amz-Signature=dc91c19bd2a2cc04551e3c9c69c1a69b864e3b7245e064175445d5bce02dab1f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/bd5cb2c4-dd89-45a7-bef3-b4e86ae7b543/4UA.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XNCWQV74%2F20260422%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260422T115152Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICJPeQHQmW9rcRYQcNw8AJ%2Bx6V3kVF3hV9Mpc%2FP42ZVKAiEAh%2FNUkjKrlEZUq4%2Fp3R%2BnF4Q9c50pVvtIz5ZrGwvG7tYq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDO%2BMoZIaPWCMl6lQ6SrcAySaMyS41SVXtCfFpZHnuBvLap5GC91Z6JeUMmCKa00Y2zOPVJknuo%2FYhrbPAIhQvZ7vhO%2BxI4fovBBvuUNIEeW7zBT4aCxtUrxcAk6P8oFIIHDocdHGFwyAqdWuL%2BxaL7dCtffre4o%2Fp1hdV9XDm24ILpZJKxbwd1IcBLsQnserZm65nLToAHfGe0Ub4orX4F7U3i2j8qmfUOUAmNyI1FR5XqYtd5q57FIA5uqWzeTk7qUIkmwOOMxMI0dpZaxymH9xbDjtOjE%2B1ERbk1sehcAUDvJx9e6NGdstzCh6Cz3q%2By8Tc3YkDi9wfYJmEvwWXutwnP5%2FEXBYJoXSapOfxEEEnsNyOQZZJwrjhChU2H%2BXiEnOw0tC4eJGg%2FKLEACBxUvJ2i1zgDF3%2BoRVR42oETEnZ5PZ%2BeNJZ2P8u068DILOVYeVv7PreHbkyLM5x9kZ%2F%2FfSTNEjyo08DJHSXXc1RzNUbk9W%2FcnghoBNFpXAWoPbCpbHpWuHGUfvb4Bd3bfz7Zsg3mqw2LnqBhM39ujU5ZueJ1%2BZw7%2B9oFfyYfAxfw%2BRlq0EoYGA%2Fwla9UqdMk6ZZW5cWH5CiJ4f%2BrD3y%2Fcje4Kq40qZS7TdUOD7XyCYfCMyusnQP8ecOHafm%2Bi0MIfros8GOqUBuI32mV%2BPWQ24RiYzxEK4bU3rbBbnG2qYB8AhLEy%2BLzhjaCrmR0BTImwnSF70taorQmE7ux83VSY62FIT6puTnVQA3Kgm6Zo8nvWEjJDDgXC%2BBVoBDLLS%2FzvTFTy73WIze6j95JCVgcKH1gEbuzUUUhv0uRjPG6MBUopk5FGYqAXjAyhRMk4Ra3nwrROkXZoe6KxglcIopn6F1llSs9zyDCYWEfDS&X-Amz-Signature=dc8c27363980f41e8294f07d56e0ccdacc4fe7a0dff14a36c229b2a53004a0f2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "4UA",
     "altname": [],
     "founded": null,
@@ -3787,6 +3854,15 @@
       },
       {
         "id": "317d30fa-35d0-80ba-8e1a-fce6340016e0"
+      },
+      {
+        "id": "342d30fa-35d0-808a-9a0d-f9b512921526"
+      },
+      {
+        "id": "342d30fa-35d0-80da-ac14-e86e16f84c4e"
+      },
+      {
+        "id": "34ad30fa-35d0-8052-8fc2-e3407ee0ebd3"
       }
     ],
     "site": "https://4ua.org.ua/",
@@ -3888,6 +3964,9 @@
       },
       {
         "id": "2edd30fa-35d0-801a-b66f-e5eee4e2f97b"
+      },
+      {
+        "id": "342d30fa-35d0-80ac-8ff9-ccca35d88aa6"
       }
     ],
     "site": null,
@@ -4862,6 +4941,9 @@
       },
       {
         "id": "2e9d30fa-35d0-80aa-8b57-f5719bb96a45"
+      },
+      {
+        "id": "342d30fa-35d0-8059-b0e9-d680bc5d5a6f"
       }
     ],
     "site": null,
@@ -5011,6 +5093,9 @@
       },
       {
         "id": "2e9d30fa-35d0-80bb-ba93-cd4597f4f6a4"
+      },
+      {
+        "id": "34ad30fa-35d0-804f-b1ab-e3e604590f4c"
       }
     ],
     "site": null,
@@ -5570,6 +5655,39 @@
       },
       {
         "id": "305d30fa-35d0-80da-b393-c2a2b482cc75"
+      },
+      {
+        "id": "33bd30fa-35d0-801a-849d-d6844d7bdeb7"
+      },
+      {
+        "id": "33bd30fa-35d0-8032-8edf-ecf90974fb4e"
+      },
+      {
+        "id": "33bd30fa-35d0-804d-9639-c62987b13194"
+      },
+      {
+        "id": "33bd30fa-35d0-8061-a08c-e8b3e61c18ac"
+      },
+      {
+        "id": "33bd30fa-35d0-80bb-9c68-d5a74be085c6"
+      },
+      {
+        "id": "33bd30fa-35d0-80e5-a15a-d62a3531ce61"
+      },
+      {
+        "id": "33bd30fa-35d0-80f3-97fa-fd8ef9405507"
+      },
+      {
+        "id": "349d30fa-35d0-8073-925b-ffb005deeea1"
+      },
+      {
+        "id": "349d30fa-35d0-80b4-ade5-e706f5bbd7cf"
+      },
+      {
+        "id": "349d30fa-35d0-80fc-b02e-ec03224f7b0c"
+      },
+      {
+        "id": "34ad30fa-35d0-8004-bdf3-c23ed5897a08"
       }
     ],
     "site": null,
@@ -5840,6 +5958,12 @@
       },
       {
         "id": "2fad30fa-35d0-80fe-b4d0-f224e0df14af"
+      },
+      {
+        "id": "342d30fa-35d0-80b0-9e72-e14f2ecea42b"
+      },
+      {
+        "id": "342d30fa-35d0-80e7-8cf1-dc48f126f723"
       }
     ],
     "site": null,
@@ -6313,6 +6437,27 @@
       },
       {
         "id": "305d30fa-35d0-80d1-8d76-db2acbd56a68"
+      },
+      {
+        "id": "33bd30fa-35d0-8028-a7f1-f91c19a1f2b5"
+      },
+      {
+        "id": "33bd30fa-35d0-803f-bcce-e81dec92d91e"
+      },
+      {
+        "id": "33bd30fa-35d0-809a-b0cb-dc45985eb508"
+      },
+      {
+        "id": "33bd30fa-35d0-80cf-b2ca-fe9f81576eec"
+      },
+      {
+        "id": "349d30fa-35d0-8072-abc3-ca0f97f95af0"
+      },
+      {
+        "id": "349d30fa-35d0-80cd-8a4a-c6feecf81eaa"
+      },
+      {
+        "id": "349d30fa-35d0-80e5-884d-dd20ac003633"
       }
     ],
     "site": null,
@@ -6532,6 +6677,9 @@
       },
       {
         "id": "2e3d30fa-35d0-80dc-948c-f9a14f1dd450"
+      },
+      {
+        "id": "33ed30fa-35d0-8033-9beb-dbe9254f76d0"
       }
     ],
     "site": null,
@@ -6954,6 +7102,9 @@
       },
       {
         "id": "2fed30fa-35d0-80a6-9750-f5c392539cb9"
+      },
+      {
+        "id": "34ad30fa-35d0-80bd-a5ea-d57b4bdad0c1"
       }
     ],
     "site": null,
@@ -9032,6 +9183,18 @@
       },
       {
         "id": "30bd30fa-35d0-80a5-862f-ec70591555d8"
+      },
+      {
+        "id": "342d30fa-35d0-8051-9bf2-e33ac77efe59"
+      },
+      {
+        "id": "342d30fa-35d0-809d-a097-d210475882a3"
+      },
+      {
+        "id": "342d30fa-35d0-80c5-8f4b-d5da6754b914"
+      },
+      {
+        "id": "349d30fa-35d0-8022-bc7e-cad9f53498f9"
       }
     ],
     "site": null,
@@ -9728,6 +9891,9 @@
       },
       {
         "id": "174d30fa-35d0-819a-ad1a-e833ec7ba236"
+      },
+      {
+        "id": "174d30fa-35d0-819c-bb0c-c308564f8193"
       },
       {
         "id": "174d30fa-35d0-81a1-9cc8-d4df2c21f099"
@@ -11176,6 +11342,30 @@
       },
       {
         "id": "2f1d30fa-35d0-80ab-8af3-defd9777d7b4"
+      },
+      {
+        "id": "33ed30fa-35d0-8020-9c63-d75320a4e9ee"
+      },
+      {
+        "id": "33ed30fa-35d0-8020-be93-f1fa6d8a66fe"
+      },
+      {
+        "id": "33ed30fa-35d0-803d-8f58-c720217b4a6b"
+      },
+      {
+        "id": "33ed30fa-35d0-806a-ad98-edb9e5dd4b18"
+      },
+      {
+        "id": "33ed30fa-35d0-806e-85c5-e6a9fe7a2d0a"
+      },
+      {
+        "id": "33ed30fa-35d0-80a0-853e-fd6ac6091ac5"
+      },
+      {
+        "id": "33ed30fa-35d0-80e3-8ed9-c9cb34787edd"
+      },
+      {
+        "id": "349d30fa-35d0-8028-adfe-dbd46004f978"
       }
     ],
     "site": "https://amanogawa.space/",
@@ -13117,6 +13307,45 @@
       },
       {
         "id": "304d30fa-35d0-805c-8d5a-f9425bb119c4"
+      },
+      {
+        "id": "33cd30fa-35d0-806b-80e3-cf816042023c"
+      },
+      {
+        "id": "33ed30fa-35d0-8027-ac44-f9c84f853efd"
+      },
+      {
+        "id": "33ed30fa-35d0-8041-b666-c6dc3e67b183"
+      },
+      {
+        "id": "33ed30fa-35d0-8055-a0e2-f463f8e0d2d7"
+      },
+      {
+        "id": "33ed30fa-35d0-805e-b24f-cfff59da9996"
+      },
+      {
+        "id": "33ed30fa-35d0-8074-b539-f05cad826a5e"
+      },
+      {
+        "id": "33ed30fa-35d0-80b2-a2d4-e3a468828b51"
+      },
+      {
+        "id": "33ed30fa-35d0-80c7-b49a-da511cdf2335"
+      },
+      {
+        "id": "33ed30fa-35d0-80dc-b592-ca44f0c7fde4"
+      },
+      {
+        "id": "33ed30fa-35d0-80e3-bcfd-c51b18b4de29"
+      },
+      {
+        "id": "33ed30fa-35d0-80ef-96d2-c823ecf02508"
+      },
+      {
+        "id": "33ed30fa-35d0-80f0-b053-fd01bc8437af"
+      },
+      {
+        "id": "342d30fa-35d0-8020-b673-d50ad8328945"
       }
     ],
     "site": null,
@@ -13835,6 +14064,18 @@
       },
       {
         "id": "317d30fa-35d0-8090-94ee-fc43da91f118"
+      },
+      {
+        "id": "33ed30fa-35d0-808e-af88-fc742590a09a"
+      },
+      {
+        "id": "33ed30fa-35d0-80c6-aac3-cd2822321a62"
+      },
+      {
+        "id": "33ed30fa-35d0-80cb-b72e-c4b49410ea1a"
+      },
+      {
+        "id": "342d30fa-35d0-800e-94c8-d8177eeb6a88"
       }
     ],
     "site": "https://ufdub.com/",
@@ -13941,6 +14182,9 @@
       },
       {
         "id": "2eed30fa-35d0-80da-b2ed-eea80760c8f4"
+      },
+      {
+        "id": "34ad30fa-35d0-800e-8529-f137b8199683"
       }
     ],
     "site": null,
@@ -14984,6 +15228,9 @@
       },
       {
         "id": "1fed30fa-35d0-80ea-b1f4-eda9fa11f16c"
+      },
+      {
+        "id": "2f7d30fa-35d0-809b-8296-f15c94976638"
       }
     ],
     "anime_releases": [
@@ -15052,6 +15299,9 @@
       },
       {
         "id": "174d30fa-35d0-810b-8882-c20400ac66fc"
+      },
+      {
+        "id": "174d30fa-35d0-810b-99e7-e3b07409efe3"
       },
       {
         "id": "174d30fa-35d0-810b-bf7e-c2950c0d3c46"
@@ -16987,6 +17237,102 @@
       },
       {
         "id": "2f7d30fa-35d0-8053-8922-c6932835f766"
+      },
+      {
+        "id": "33bd30fa-35d0-802d-8d20-dce7d3f02cb6"
+      },
+      {
+        "id": "33bd30fa-35d0-8017-aa6f-f999157c4c01"
+      },
+      {
+        "id": "33bd30fa-35d0-8042-ac20-d3d40aa3d8e7"
+      },
+      {
+        "id": "33bd30fa-35d0-8084-b05d-e97ffb69eb5e"
+      },
+      {
+        "id": "33bd30fa-35d0-8098-bc18-d559513aa300"
+      },
+      {
+        "id": "33bd30fa-35d0-80a4-8a56-cf0b5593b208"
+      },
+      {
+        "id": "33bd30fa-35d0-80ac-8e23-c54a02df17e9"
+      },
+      {
+        "id": "33bd30fa-35d0-80c5-ac85-c9a94efe54d3"
+      },
+      {
+        "id": "33bd30fa-35d0-80c8-8a4d-c823d49291c4"
+      },
+      {
+        "id": "33bd30fa-35d0-80da-b8df-da11dc6f8685"
+      },
+      {
+        "id": "33bd30fa-35d0-80e1-81f9-d05a3dfb92dc"
+      },
+      {
+        "id": "33bd30fa-35d0-80e3-b18f-ec42c7a64156"
+      },
+      {
+        "id": "33cd30fa-35d0-8082-b180-e3117299d1f6"
+      },
+      {
+        "id": "33cd30fa-35d0-8094-9a08-c854612fb96d"
+      },
+      {
+        "id": "33cd30fa-35d0-80a1-b675-f79af095e6c4"
+      },
+      {
+        "id": "33cd30fa-35d0-80ad-bba2-c13ec55aaadc"
+      },
+      {
+        "id": "33cd30fa-35d0-80d1-bcfc-cd7e1ad91154"
+      },
+      {
+        "id": "33cd30fa-35d0-80dd-861c-fa3a82375427"
+      },
+      {
+        "id": "33cd30fa-35d0-80f9-8f23-e41fdc8c33c2"
+      },
+      {
+        "id": "33cd30fa-35d0-80fa-9634-dc0773c84c12"
+      },
+      {
+        "id": "342d30fa-35d0-8002-bea9-d7338773e2d4"
+      },
+      {
+        "id": "342d30fa-35d0-8061-b439-e7f229f8424e"
+      },
+      {
+        "id": "342d30fa-35d0-8085-a0aa-c1aca488eac2"
+      },
+      {
+        "id": "342d30fa-35d0-8085-a7f0-e409c23ca193"
+      },
+      {
+        "id": "342d30fa-35d0-809f-b5f0-edc803bcc63e"
+      },
+      {
+        "id": "342d30fa-35d0-80ea-b3d3-f71194ab12ab"
+      },
+      {
+        "id": "343d30fa-35d0-8025-bf56-ebd084116447"
+      },
+      {
+        "id": "343d30fa-35d0-8094-9d8d-e2a8cbdd206e"
+      },
+      {
+        "id": "343d30fa-35d0-80f4-836c-e848bcbdd767"
+      },
+      {
+        "id": "34ad30fa-35d0-800c-9967-f0cac6e5685e"
+      },
+      {
+        "id": "34ad30fa-35d0-8095-826c-dede8b7fa4f8"
+      },
+      {
+        "id": "34ad30fa-35d0-8095-a4d1-e1d534a159d6"
       }
     ],
     "site": null,
@@ -18026,6 +18372,24 @@
       },
       {
         "id": "2fed30fa-35d0-80d9-9665-e630c740fad8"
+      },
+      {
+        "id": "349d30fa-35d0-801d-b3a0-d87744249e70"
+      },
+      {
+        "id": "349d30fa-35d0-8029-b0c8-e1ddc43cf0cd"
+      },
+      {
+        "id": "349d30fa-35d0-807a-bdcf-c1657a3d30fe"
+      },
+      {
+        "id": "349d30fa-35d0-80bc-b645-e76d400baba5"
+      },
+      {
+        "id": "349d30fa-35d0-80e2-adaa-c78780ae85a9"
+      },
+      {
+        "id": "34ad30fa-35d0-8098-84c3-c0b90670a4fe"
       }
     ],
     "site": null,
@@ -18701,6 +19065,18 @@
       },
       {
         "id": "2efd30fa-35d0-8088-93aa-e14fe7aa2bcf"
+      },
+      {
+        "id": "342d30fa-35d0-803c-add4-c5a51d5b2736"
+      },
+      {
+        "id": "342d30fa-35d0-8092-8a94-fb5a39fb99e8"
+      },
+      {
+        "id": "342d30fa-35d0-80be-b401-f63a80be0d7c"
+      },
+      {
+        "id": "349d30fa-35d0-804f-af6e-e661955846d7"
       }
     ],
     "site": null,
@@ -19175,6 +19551,9 @@
       },
       {
         "id": "1ecd30fa-35d0-8071-a975-cba423d51f73"
+      },
+      {
+        "id": "1f9d30fa-35d0-80be-aa86-c51a518048c9"
       }
     ],
     "anime_releases": [
@@ -19654,9 +20033,6 @@
       },
       {
         "id": "174d30fa-35d0-819c-b86d-eeca73d03de3"
-      },
-      {
-        "id": "174d30fa-35d0-819c-bb0c-c308564f8193"
       },
       {
         "id": "174d30fa-35d0-819d-8af5-c15aaa6f59e3"
@@ -20650,6 +21026,177 @@
       },
       {
         "id": "304d30fa-35d0-8087-a6ff-d49ce83917c9"
+      },
+      {
+        "id": "33bd30fa-35d0-8081-b59e-d78f34e7ee0e"
+      },
+      {
+        "id": "33cd30fa-35d0-8001-adb5-f2c4dd5246da"
+      },
+      {
+        "id": "33cd30fa-35d0-8005-b628-c00f8d47d269"
+      },
+      {
+        "id": "33cd30fa-35d0-8006-a46a-d4398cf71c92"
+      },
+      {
+        "id": "33cd30fa-35d0-8007-9208-c5b2fe79ef5b"
+      },
+      {
+        "id": "33cd30fa-35d0-800d-b2a6-e92c264594eb"
+      },
+      {
+        "id": "33cd30fa-35d0-8018-a3d4-f4dd4bbe479a"
+      },
+      {
+        "id": "33cd30fa-35d0-8019-8904-cc86cfd960aa"
+      },
+      {
+        "id": "33cd30fa-35d0-8021-ba96-e5fdbe5501e2"
+      },
+      {
+        "id": "33cd30fa-35d0-8030-b92a-f5efba637192"
+      },
+      {
+        "id": "33cd30fa-35d0-8031-b3ae-fd0f5c5af822"
+      },
+      {
+        "id": "33cd30fa-35d0-8037-8f76-d33a908da8ec"
+      },
+      {
+        "id": "33cd30fa-35d0-8050-a0f7-f9033064a728"
+      },
+      {
+        "id": "33cd30fa-35d0-805a-874f-ec3500421613"
+      },
+      {
+        "id": "33cd30fa-35d0-8061-a286-dd537d8e34c3"
+      },
+      {
+        "id": "33cd30fa-35d0-8067-87b5-e79269e5980b"
+      },
+      {
+        "id": "33cd30fa-35d0-806e-875f-f3160c24bfe9"
+      },
+      {
+        "id": "33cd30fa-35d0-8079-959c-d43e03a663b0"
+      },
+      {
+        "id": "33cd30fa-35d0-807f-84b5-c77bbb9d179c"
+      },
+      {
+        "id": "33cd30fa-35d0-8095-baad-cd6e32d1187e"
+      },
+      {
+        "id": "33cd30fa-35d0-8097-ab3b-dbc1558d612c"
+      },
+      {
+        "id": "33cd30fa-35d0-8098-8f9f-df541473c61f"
+      },
+      {
+        "id": "33cd30fa-35d0-809b-bda9-f94af29af3cb"
+      },
+      {
+        "id": "33cd30fa-35d0-80a3-a575-ea5922316c9c"
+      },
+      {
+        "id": "33cd30fa-35d0-80a4-aa69-d0434c827527"
+      },
+      {
+        "id": "33cd30fa-35d0-80a5-a355-e932c2521536"
+      },
+      {
+        "id": "33cd30fa-35d0-80b1-9800-f0c42ab01422"
+      },
+      {
+        "id": "33cd30fa-35d0-80b5-8c83-efede56ff55c"
+      },
+      {
+        "id": "33cd30fa-35d0-80c1-a5bc-cde345f9145f"
+      },
+      {
+        "id": "33cd30fa-35d0-80ca-8ff6-e17a3e7fc562"
+      },
+      {
+        "id": "33cd30fa-35d0-80ca-9f98-cc63d3a7d80a"
+      },
+      {
+        "id": "33cd30fa-35d0-80cb-a468-df1d236d20cb"
+      },
+      {
+        "id": "33cd30fa-35d0-80d1-89c4-cb4331e6f6f0"
+      },
+      {
+        "id": "33cd30fa-35d0-80de-83fc-d805e7169375"
+      },
+      {
+        "id": "33cd30fa-35d0-80df-acac-d423ebd2f0c3"
+      },
+      {
+        "id": "33cd30fa-35d0-80e1-ba86-f3c197c6014d"
+      },
+      {
+        "id": "33cd30fa-35d0-80ed-b29a-d276930f495f"
+      },
+      {
+        "id": "33cd30fa-35d0-80f5-a11a-e2d97cf61163"
+      },
+      {
+        "id": "33cd30fa-35d0-80fc-9844-d0c50cb0d29c"
+      },
+      {
+        "id": "343d30fa-35d0-8002-8429-c2596c3395e8"
+      },
+      {
+        "id": "343d30fa-35d0-8005-9988-c418e794521e"
+      },
+      {
+        "id": "343d30fa-35d0-8017-9188-c5bc010a64b7"
+      },
+      {
+        "id": "343d30fa-35d0-8023-8caa-efdf6c2db422"
+      },
+      {
+        "id": "343d30fa-35d0-8039-bcce-d6bf8734f353"
+      },
+      {
+        "id": "343d30fa-35d0-809d-bc72-cc97479732d7"
+      },
+      {
+        "id": "343d30fa-35d0-80b4-9f1c-edb3b08f1d48"
+      },
+      {
+        "id": "343d30fa-35d0-80bf-a58c-d8d44aac8de3"
+      },
+      {
+        "id": "343d30fa-35d0-80d5-ab0c-de453b43d9f5"
+      },
+      {
+        "id": "343d30fa-35d0-80ed-9ac8-d61fa4b1dcf7"
+      },
+      {
+        "id": "343d30fa-35d0-80f2-89f9-e455a2f1acdc"
+      },
+      {
+        "id": "343d30fa-35d0-80f4-96b4-e609923c2e6a"
+      },
+      {
+        "id": "34ad30fa-35d0-8039-81b0-e40d8cdf574d"
+      },
+      {
+        "id": "34ad30fa-35d0-804a-b847-ce0c43d28cb1"
+      },
+      {
+        "id": "34ad30fa-35d0-8065-84c1-cb74fcc46bee"
+      },
+      {
+        "id": "34ad30fa-35d0-8080-9345-c4424cb3a710"
+      },
+      {
+        "id": "34ad30fa-35d0-80dd-86ef-d8d24d0e0adc"
+      },
+      {
+        "id": "34ad30fa-35d0-8037-9bfc-df97f2ccf9d1"
       }
     ],
     "site": null,
@@ -20709,6 +21256,12 @@
       },
       {
         "id": "2fbd30fa-35d0-801a-a6fc-e041004091ad"
+      },
+      {
+        "id": "342d30fa-35d0-80ea-8964-f2376c38e01b"
+      },
+      {
+        "id": "34ad30fa-35d0-80d6-81b7-c2c24f9abc34"
       }
     ],
     "site": null,
@@ -20900,6 +21453,9 @@
       },
       {
         "id": "30bd30fa-35d0-8041-8289-e6261e6ac9c0"
+      },
+      {
+        "id": "342d30fa-35d0-80b0-8b8a-d18c93a4c7f5"
       }
     ],
     "site": "https://bidosi.com/",
@@ -21891,6 +22447,33 @@
       },
       {
         "id": "319d30fa-35d0-801e-bafb-f1bca2c033b1"
+      },
+      {
+        "id": "33bd30fa-35d0-8091-8d9c-df5f491dc790"
+      },
+      {
+        "id": "33ed30fa-35d0-803c-aa83-e5ad0f2b4e57"
+      },
+      {
+        "id": "33ed30fa-35d0-80a4-9039-f40fbdd4d688"
+      },
+      {
+        "id": "33ed30fa-35d0-80f6-9982-e47f83ea7b89"
+      },
+      {
+        "id": "342d30fa-35d0-802d-a8b5-d748369004b3"
+      },
+      {
+        "id": "342d30fa-35d0-8074-ac2b-fa23525f00ba"
+      },
+      {
+        "id": "342d30fa-35d0-80b3-9de1-caca2588d0b7"
+      },
+      {
+        "id": "34ad30fa-35d0-8002-afaf-f39036826e4a"
+      },
+      {
+        "id": "34ad30fa-35d0-80f2-bc1e-ee5ee2136638"
       }
     ],
     "site": null,
@@ -21907,7 +22490,11 @@
     "logo": "https://res.cloudinary.com/dur0xqcyp/image/upload/v1730098031/InariOkami_unfosv.jpg",
     "name": "InariOkami",
     "altname": [],
-    "founded": null,
+    "founded": {
+      "start": "2024-04-10",
+      "end": null,
+      "time_zone": null
+    },
     "type_team": [
       "Фандаб"
     ],
@@ -22000,6 +22587,18 @@
       },
       {
         "id": "2efd30fa-35d0-80ef-9010-c9cc95ab0603"
+      },
+      {
+        "id": "33ed30fa-35d0-80df-949a-d17afb9d2067"
+      },
+      {
+        "id": "342d30fa-35d0-806d-aa9b-c6b02ab48051"
+      },
+      {
+        "id": "34ad30fa-35d0-8082-be43-e0fc2848ccee"
+      },
+      {
+        "id": "34ad30fa-35d0-80ab-9406-f36022e6aa3d"
       }
     ],
     "site": null,
@@ -22008,7 +22607,7 @@
     "tiktok": null,
     "tg": "https://t.me/inariokami58",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2025-01-22T13:27:00.000Z"
+    "last_edited": "2026-04-10T12:05:00.000Z"
   },
   {
     "id": "174d30fa-35d0-81ff-8f4f-dc1771e540c1",
@@ -22898,6 +23497,9 @@
       },
       {
         "id": "2eed30fa-35d0-80ae-a461-f8f971cf9a7f"
+      },
+      {
+        "id": "342d30fa-35d0-8004-b629-cb3c6bf774fe"
       }
     ],
     "site": null,
@@ -23785,7 +24387,7 @@
   {
     "id": "1ffd30fa-35d0-8020-9898-c8fc986169de",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/a2ffd4d5-4011-45f6-82ed-71d67c12170a/ArtymKo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46645SXVJNH%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224603Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCICNY6KyV6t%2FCb8j2v4p%2Fqbxw1xZzFP2Kz%2BjwfM4CtbnIAiEAje4uxiVmC%2BUE5qb%2B8Fxv%2B1xVZ9G8umhcCa7oKM0Sh%2BQq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDN%2B%2FxoDTOHt2as7tGircA1IHdGLTs%2B%2B1VScuz8g9N9WH5guZcIgsMZcHLAfsbh%2FSszXDP2O1I%2FYuYPFOUKs6fATZGfbz9TQ2S4qHHSRs7AFahQkIo0i64WKUI5FB3WnUozlYnGlAIfpcOcVvGxWrB3%2BsZTxfuISS6v19tPEQGY5p9G6MMI%2FL410dDfStirOfAHAqnHxFHd265bl1rqDfA1EIz0WkqtxoZXg5JYAyR8lNsYbMxJsTUVfzyvkpraNIfaNb6SxcW%2BaDFPNQAFAny9x%2BGcg%2BHHUCsU3NCkTreAJm963ZxH8yxg8Cbb%2BBOB%2BWPxllQWqGEQMn2Dr6HcZYSuNqb6vfO2TZB1GFqnewGX2WIDlxW5zFLSpvLbRvK%2B%2BCu7xpfs%2FFpE43frdn%2Fi7DKhsbASkCp8fxtLz35NIfhTuIeWvyh6jrIVoXr7b8mSSXRb%2F5xwfC2sk4Pf4ArADjWZ2k1DicorONB7lWiLpO%2FXc2WkPHRUcHsCcEEnqOnWO%2Fsz%2BcofegWFicrOE85uXfn73w8xRMBXfusDcC84OWUaqMwumcP8C6%2By7iDz3Uvr0PBKLn4Ks5F0LuyoLsIMjjDezwB73LvD6o0iwwswQ14RWP%2FybgsZN4GrjUcOa3wR6%2F44PALA0mB3ujC3%2BdMOOsps4GOqUBiFGsMoAqyhRlYOQdWxgto%2BJTIuMym1Erz4XT%2FEmAQDztKXU4iSP89H3fmTkI0M4mkbeKDJ3cn14LfmwexF40Mxo8cgh64LgV1fJd4P5tZpPs7QdMftyiEQeNPfnaogl1YOM%2FIzyrVEPSk2YgPwMKXMJ77%2F6%2By0HwrL43uV5KnBKB17OT7rvXCI629Z9wUHL2DMxcaRBkcXXWSYyMwjNyOmymCnbv&X-Amz-Signature=2e0c741d54eabe498768c35018638be6cd440fd677ab0cf379512015b49ca7e8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/a2ffd4d5-4011-45f6-82ed-71d67c12170a/ArtymKo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YBDRTAIZ%2F20260422%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260422T115155Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDVdSz7cYv3E1eGiOQctFGZ5yu%2FW9TCvS4RA%2BCWW%2Bd%2FaAiEA1SZtvEmCF1Kuk8KnHkg%2FrTaVw408cviFkbyEDntt2Tkq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDBgSNOJsGkgBRA4KjSrcA5vVJfR6520922eOa%2BMsmZjaWPB34yYvb5K5al75LlWannSvY9OphftV8hG1oGPwo1fK%2F3iytDaCF2vV6P1OytOcPf0ykLjjcKvw7o99rz162MFLPClFF8FSeHwUnj1uVVgce6j3eUTMCn7Go1PWpEfhBiiBJq5Wiy0yz4aBnNsqTeQqNG5pZjU5%2FU1YygP2%2FBQ%2BcWxI72LT8LumqVycQMCclhgIR5w3lBiS9iwu%2BVwhtAIhtraZn27CDIpL%2FqM0R5QseLJdz025vDxrCy1%2F%2B0Uz6u7dyQQQqWY%2BwoUGJfoJnXZ6KpTawBwluPSoxlT7wi8w5lx2HoxdxGRP39cwdmrwqRBhJYkCLlDGtrsJjA64tQDTonCOUbd8CEJi4yPTpky9sz%2FPxq1zKYIFLqiYemIg1S%2F6stgBJocrX0KrfPHxrSadA%2F9eM4Mt7yudGTbMBMvNW%2B4T7o1jpmRjzLFlU6%2Bubr%2BXpPmnHDM0f2ylaOCh4PvxvvAQl2XYPWj5QJS5mifn343QMyqA4Al9nMu2Nc6VEjbBwYsT2H8rppxmSL%2FwfDSxC5qM5FODrXce7AWk39sTBwDG1f40%2BvmrNu4dN9QwbQMAJaXz1lAh22b5cucq%2FGUKFnP8uFX0GNncMProos8GOqUB4wjJmdONWN3GE88nAMK5emqkvUVvSOE%2BVtqZvxAN7kj2J7PoOCE464hhziAIc3Fzv73CQoaDv4PUNDlvPV1EzVHxHp7U6%2FOC0MjEqxof3lNQK4gtUK%2FbpMP4R1h465UKAf9fI5wZEdVhsYci98LcppX0%2FBDpSiSOE8ITPrallCKS1fkJmS8ZdUAxFC%2BaNe6TCqTTINBHi%2Fh8b9jBnvAFGzNM1G8X&X-Amz-Signature=97066e2675de19f3222f6aa88cd4403c4735182e7fd6e4f03493841cf875af5a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "ArtymKo",
     "altname": [],
     "founded": null,
@@ -23831,7 +24433,7 @@
   {
     "id": "1ffd30fa-35d0-8038-b096-f201a331c86b",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/9d99117d-4fcd-42b6-a3eb-9a5ac2701199/Altron320.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46645SXVJNH%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224603Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCICNY6KyV6t%2FCb8j2v4p%2Fqbxw1xZzFP2Kz%2BjwfM4CtbnIAiEAje4uxiVmC%2BUE5qb%2B8Fxv%2B1xVZ9G8umhcCa7oKM0Sh%2BQq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDN%2B%2FxoDTOHt2as7tGircA1IHdGLTs%2B%2B1VScuz8g9N9WH5guZcIgsMZcHLAfsbh%2FSszXDP2O1I%2FYuYPFOUKs6fATZGfbz9TQ2S4qHHSRs7AFahQkIo0i64WKUI5FB3WnUozlYnGlAIfpcOcVvGxWrB3%2BsZTxfuISS6v19tPEQGY5p9G6MMI%2FL410dDfStirOfAHAqnHxFHd265bl1rqDfA1EIz0WkqtxoZXg5JYAyR8lNsYbMxJsTUVfzyvkpraNIfaNb6SxcW%2BaDFPNQAFAny9x%2BGcg%2BHHUCsU3NCkTreAJm963ZxH8yxg8Cbb%2BBOB%2BWPxllQWqGEQMn2Dr6HcZYSuNqb6vfO2TZB1GFqnewGX2WIDlxW5zFLSpvLbRvK%2B%2BCu7xpfs%2FFpE43frdn%2Fi7DKhsbASkCp8fxtLz35NIfhTuIeWvyh6jrIVoXr7b8mSSXRb%2F5xwfC2sk4Pf4ArADjWZ2k1DicorONB7lWiLpO%2FXc2WkPHRUcHsCcEEnqOnWO%2Fsz%2BcofegWFicrOE85uXfn73w8xRMBXfusDcC84OWUaqMwumcP8C6%2By7iDz3Uvr0PBKLn4Ks5F0LuyoLsIMjjDezwB73LvD6o0iwwswQ14RWP%2FybgsZN4GrjUcOa3wR6%2F44PALA0mB3ujC3%2BdMOOsps4GOqUBiFGsMoAqyhRlYOQdWxgto%2BJTIuMym1Erz4XT%2FEmAQDztKXU4iSP89H3fmTkI0M4mkbeKDJ3cn14LfmwexF40Mxo8cgh64LgV1fJd4P5tZpPs7QdMftyiEQeNPfnaogl1YOM%2FIzyrVEPSk2YgPwMKXMJ77%2F6%2By0HwrL43uV5KnBKB17OT7rvXCI629Z9wUHL2DMxcaRBkcXXWSYyMwjNyOmymCnbv&X-Amz-Signature=3ff98547b6f1db105d441977d99894991fa14a4e0e589f26fbc8b5347fd69250&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/9d99117d-4fcd-42b6-a3eb-9a5ac2701199/Altron320.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YBDRTAIZ%2F20260422%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260422T115155Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDVdSz7cYv3E1eGiOQctFGZ5yu%2FW9TCvS4RA%2BCWW%2Bd%2FaAiEA1SZtvEmCF1Kuk8KnHkg%2FrTaVw408cviFkbyEDntt2Tkq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDBgSNOJsGkgBRA4KjSrcA5vVJfR6520922eOa%2BMsmZjaWPB34yYvb5K5al75LlWannSvY9OphftV8hG1oGPwo1fK%2F3iytDaCF2vV6P1OytOcPf0ykLjjcKvw7o99rz162MFLPClFF8FSeHwUnj1uVVgce6j3eUTMCn7Go1PWpEfhBiiBJq5Wiy0yz4aBnNsqTeQqNG5pZjU5%2FU1YygP2%2FBQ%2BcWxI72LT8LumqVycQMCclhgIR5w3lBiS9iwu%2BVwhtAIhtraZn27CDIpL%2FqM0R5QseLJdz025vDxrCy1%2F%2B0Uz6u7dyQQQqWY%2BwoUGJfoJnXZ6KpTawBwluPSoxlT7wi8w5lx2HoxdxGRP39cwdmrwqRBhJYkCLlDGtrsJjA64tQDTonCOUbd8CEJi4yPTpky9sz%2FPxq1zKYIFLqiYemIg1S%2F6stgBJocrX0KrfPHxrSadA%2F9eM4Mt7yudGTbMBMvNW%2B4T7o1jpmRjzLFlU6%2Bubr%2BXpPmnHDM0f2ylaOCh4PvxvvAQl2XYPWj5QJS5mifn343QMyqA4Al9nMu2Nc6VEjbBwYsT2H8rppxmSL%2FwfDSxC5qM5FODrXce7AWk39sTBwDG1f40%2BvmrNu4dN9QwbQMAJaXz1lAh22b5cucq%2FGUKFnP8uFX0GNncMProos8GOqUB4wjJmdONWN3GE88nAMK5emqkvUVvSOE%2BVtqZvxAN7kj2J7PoOCE464hhziAIc3Fzv73CQoaDv4PUNDlvPV1EzVHxHp7U6%2FOC0MjEqxof3lNQK4gtUK%2FbpMP4R1h465UKAf9fI5wZEdVhsYci98LcppX0%2FBDpSiSOE8ITPrallCKS1fkJmS8ZdUAxFC%2BaNe6TCqTTINBHi%2Fh8b9jBnvAFGzNM1G8X&X-Amz-Signature=d9c622d1687ccf3921d7a6f178165074df2a97425b15e2ea1db982f79e5df7d7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "Altron320",
     "altname": [],
     "founded": null,
@@ -23895,6 +24497,9 @@
       },
       {
         "id": "2ead30fa-35d0-808e-a7d1-edb9e12c43f4"
+      },
+      {
+        "id": "342d30fa-35d0-80ac-8ff9-ccca35d88aa6"
       }
     ],
     "site": null,
@@ -24165,7 +24770,7 @@
   {
     "id": "200d30fa-35d0-8084-9fcb-c43fda002848",
     "cover": null,
-    "name": "UkrSub",
+    "name": "UkrSub (bills spirit)",
     "altname": [
       "bills_spirit"
     ],
@@ -24307,6 +24912,18 @@
       },
       {
         "id": "2e3d30fa-35d0-80be-9350-d9e09cfe29f5"
+      },
+      {
+        "id": "342d30fa-35d0-802a-98d5-e8a8b9e8734d"
+      },
+      {
+        "id": "342d30fa-35d0-8091-a41f-ee92592cbaa7"
+      },
+      {
+        "id": "342d30fa-35d0-80c7-b112-d0716e22feca"
+      },
+      {
+        "id": "342d30fa-35d0-80fa-ad5b-d14480303614"
       }
     ],
     "site": null,
@@ -24315,7 +24932,7 @@
     "tiktok": null,
     "tg": "https://t.me/ukrsub",
     "created_time": "2025-05-27T14:14:00.000Z",
-    "last_edited": "2026-02-19T11:51:00.000Z"
+    "last_edited": "2026-04-14T20:15:00.000Z"
   },
   {
     "id": "202d30fa-35d0-8014-a8ad-e51fd3ebe5e3",
@@ -24387,6 +25004,15 @@
       },
       {
         "id": "2e7d30fa-35d0-8061-b875-f741e04ed55c"
+      },
+      {
+        "id": "34ad30fa-35d0-800b-87ae-fc23ba9a5a79"
+      },
+      {
+        "id": "34ad30fa-35d0-809a-8464-c3bfb490330f"
+      },
+      {
+        "id": "34ad30fa-35d0-80ac-b045-c5cacd0b2a11"
       }
     ],
     "site": null,
@@ -24696,6 +25322,9 @@
       },
       {
         "id": "2e3d30fa-35d0-80ad-b64b-ffbe8d744e7d"
+      },
+      {
+        "id": "34ad30fa-35d0-8066-b8b8-d046cc1a32e9"
       }
     ],
     "site": null,
@@ -25321,7 +25950,7 @@
   {
     "id": "226d30fa-35d0-805f-af63-f1ec04e3179f",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/b3c41c01-2322-48e7-99fc-5b2bd6c1de77/Ace_Wing.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46645SXVJNH%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCICNY6KyV6t%2FCb8j2v4p%2Fqbxw1xZzFP2Kz%2BjwfM4CtbnIAiEAje4uxiVmC%2BUE5qb%2B8Fxv%2B1xVZ9G8umhcCa7oKM0Sh%2BQq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDN%2B%2FxoDTOHt2as7tGircA1IHdGLTs%2B%2B1VScuz8g9N9WH5guZcIgsMZcHLAfsbh%2FSszXDP2O1I%2FYuYPFOUKs6fATZGfbz9TQ2S4qHHSRs7AFahQkIo0i64WKUI5FB3WnUozlYnGlAIfpcOcVvGxWrB3%2BsZTxfuISS6v19tPEQGY5p9G6MMI%2FL410dDfStirOfAHAqnHxFHd265bl1rqDfA1EIz0WkqtxoZXg5JYAyR8lNsYbMxJsTUVfzyvkpraNIfaNb6SxcW%2BaDFPNQAFAny9x%2BGcg%2BHHUCsU3NCkTreAJm963ZxH8yxg8Cbb%2BBOB%2BWPxllQWqGEQMn2Dr6HcZYSuNqb6vfO2TZB1GFqnewGX2WIDlxW5zFLSpvLbRvK%2B%2BCu7xpfs%2FFpE43frdn%2Fi7DKhsbASkCp8fxtLz35NIfhTuIeWvyh6jrIVoXr7b8mSSXRb%2F5xwfC2sk4Pf4ArADjWZ2k1DicorONB7lWiLpO%2FXc2WkPHRUcHsCcEEnqOnWO%2Fsz%2BcofegWFicrOE85uXfn73w8xRMBXfusDcC84OWUaqMwumcP8C6%2By7iDz3Uvr0PBKLn4Ks5F0LuyoLsIMjjDezwB73LvD6o0iwwswQ14RWP%2FybgsZN4GrjUcOa3wR6%2F44PALA0mB3ujC3%2BdMOOsps4GOqUBiFGsMoAqyhRlYOQdWxgto%2BJTIuMym1Erz4XT%2FEmAQDztKXU4iSP89H3fmTkI0M4mkbeKDJ3cn14LfmwexF40Mxo8cgh64LgV1fJd4P5tZpPs7QdMftyiEQeNPfnaogl1YOM%2FIzyrVEPSk2YgPwMKXMJ77%2F6%2By0HwrL43uV5KnBKB17OT7rvXCI629Z9wUHL2DMxcaRBkcXXWSYyMwjNyOmymCnbv&X-Amz-Signature=aec20576a713dc042a65c757ace8abff88ba5c4175ace87cf426cdc7aca955a1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/b3c41c01-2322-48e7-99fc-5b2bd6c1de77/Ace_Wing.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YBDRTAIZ%2F20260422%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260422T115155Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDVdSz7cYv3E1eGiOQctFGZ5yu%2FW9TCvS4RA%2BCWW%2Bd%2FaAiEA1SZtvEmCF1Kuk8KnHkg%2FrTaVw408cviFkbyEDntt2Tkq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDBgSNOJsGkgBRA4KjSrcA5vVJfR6520922eOa%2BMsmZjaWPB34yYvb5K5al75LlWannSvY9OphftV8hG1oGPwo1fK%2F3iytDaCF2vV6P1OytOcPf0ykLjjcKvw7o99rz162MFLPClFF8FSeHwUnj1uVVgce6j3eUTMCn7Go1PWpEfhBiiBJq5Wiy0yz4aBnNsqTeQqNG5pZjU5%2FU1YygP2%2FBQ%2BcWxI72LT8LumqVycQMCclhgIR5w3lBiS9iwu%2BVwhtAIhtraZn27CDIpL%2FqM0R5QseLJdz025vDxrCy1%2F%2B0Uz6u7dyQQQqWY%2BwoUGJfoJnXZ6KpTawBwluPSoxlT7wi8w5lx2HoxdxGRP39cwdmrwqRBhJYkCLlDGtrsJjA64tQDTonCOUbd8CEJi4yPTpky9sz%2FPxq1zKYIFLqiYemIg1S%2F6stgBJocrX0KrfPHxrSadA%2F9eM4Mt7yudGTbMBMvNW%2B4T7o1jpmRjzLFlU6%2Bubr%2BXpPmnHDM0f2ylaOCh4PvxvvAQl2XYPWj5QJS5mifn343QMyqA4Al9nMu2Nc6VEjbBwYsT2H8rppxmSL%2FwfDSxC5qM5FODrXce7AWk39sTBwDG1f40%2BvmrNu4dN9QwbQMAJaXz1lAh22b5cucq%2FGUKFnP8uFX0GNncMProos8GOqUB4wjJmdONWN3GE88nAMK5emqkvUVvSOE%2BVtqZvxAN7kj2J7PoOCE464hhziAIc3Fzv73CQoaDv4PUNDlvPV1EzVHxHp7U6%2FOC0MjEqxof3lNQK4gtUK%2FbpMP4R1h465UKAf9fI5wZEdVhsYci98LcppX0%2FBDpSiSOE8ITPrallCKS1fkJmS8ZdUAxFC%2BaNe6TCqTTINBHi%2Fh8b9jBnvAFGzNM1G8X&X-Amz-Signature=8d5e138831a17e6f91d8db40ac786d6f6c109032da8e721530c112820c080d9a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "Ace Wing",
     "altname": [],
     "founded": null,
@@ -25593,7 +26222,7 @@
   {
     "id": "232d30fa-35d0-80c7-8df5-db1df4e3578c",
     "cover": null,
-    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/ba6ba579-3f07-4b61-9a11-abbb7ff29815/And5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46645SXVJNH%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T224604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLXdlc3QtMiJHMEUCICNY6KyV6t%2FCb8j2v4p%2Fqbxw1xZzFP2Kz%2BjwfM4CtbnIAiEAje4uxiVmC%2BUE5qb%2B8Fxv%2B1xVZ9G8umhcCa7oKM0Sh%2BQq%2FwMIFhAAGgw2Mzc0MjMxODM4MDUiDN%2B%2FxoDTOHt2as7tGircA1IHdGLTs%2B%2B1VScuz8g9N9WH5guZcIgsMZcHLAfsbh%2FSszXDP2O1I%2FYuYPFOUKs6fATZGfbz9TQ2S4qHHSRs7AFahQkIo0i64WKUI5FB3WnUozlYnGlAIfpcOcVvGxWrB3%2BsZTxfuISS6v19tPEQGY5p9G6MMI%2FL410dDfStirOfAHAqnHxFHd265bl1rqDfA1EIz0WkqtxoZXg5JYAyR8lNsYbMxJsTUVfzyvkpraNIfaNb6SxcW%2BaDFPNQAFAny9x%2BGcg%2BHHUCsU3NCkTreAJm963ZxH8yxg8Cbb%2BBOB%2BWPxllQWqGEQMn2Dr6HcZYSuNqb6vfO2TZB1GFqnewGX2WIDlxW5zFLSpvLbRvK%2B%2BCu7xpfs%2FFpE43frdn%2Fi7DKhsbASkCp8fxtLz35NIfhTuIeWvyh6jrIVoXr7b8mSSXRb%2F5xwfC2sk4Pf4ArADjWZ2k1DicorONB7lWiLpO%2FXc2WkPHRUcHsCcEEnqOnWO%2Fsz%2BcofegWFicrOE85uXfn73w8xRMBXfusDcC84OWUaqMwumcP8C6%2By7iDz3Uvr0PBKLn4Ks5F0LuyoLsIMjjDezwB73LvD6o0iwwswQ14RWP%2FybgsZN4GrjUcOa3wR6%2F44PALA0mB3ujC3%2BdMOOsps4GOqUBiFGsMoAqyhRlYOQdWxgto%2BJTIuMym1Erz4XT%2FEmAQDztKXU4iSP89H3fmTkI0M4mkbeKDJ3cn14LfmwexF40Mxo8cgh64LgV1fJd4P5tZpPs7QdMftyiEQeNPfnaogl1YOM%2FIzyrVEPSk2YgPwMKXMJ77%2F6%2By0HwrL43uV5KnBKB17OT7rvXCI629Z9wUHL2DMxcaRBkcXXWSYyMwjNyOmymCnbv&X-Amz-Signature=39fd059e15e8bea5cbfb21778386c9a19e8ae2fe1804bf33d480dfd23f364426&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "logo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/7635f005-9232-4b58-a26e-f7879d5a41e4/ba6ba579-3f07-4b61-9a11-abbb7ff29815/And5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YBDRTAIZ%2F20260422%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260422T115155Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDVdSz7cYv3E1eGiOQctFGZ5yu%2FW9TCvS4RA%2BCWW%2Bd%2FaAiEA1SZtvEmCF1Kuk8KnHkg%2FrTaVw408cviFkbyEDntt2Tkq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDBgSNOJsGkgBRA4KjSrcA5vVJfR6520922eOa%2BMsmZjaWPB34yYvb5K5al75LlWannSvY9OphftV8hG1oGPwo1fK%2F3iytDaCF2vV6P1OytOcPf0ykLjjcKvw7o99rz162MFLPClFF8FSeHwUnj1uVVgce6j3eUTMCn7Go1PWpEfhBiiBJq5Wiy0yz4aBnNsqTeQqNG5pZjU5%2FU1YygP2%2FBQ%2BcWxI72LT8LumqVycQMCclhgIR5w3lBiS9iwu%2BVwhtAIhtraZn27CDIpL%2FqM0R5QseLJdz025vDxrCy1%2F%2B0Uz6u7dyQQQqWY%2BwoUGJfoJnXZ6KpTawBwluPSoxlT7wi8w5lx2HoxdxGRP39cwdmrwqRBhJYkCLlDGtrsJjA64tQDTonCOUbd8CEJi4yPTpky9sz%2FPxq1zKYIFLqiYemIg1S%2F6stgBJocrX0KrfPHxrSadA%2F9eM4Mt7yudGTbMBMvNW%2B4T7o1jpmRjzLFlU6%2Bubr%2BXpPmnHDM0f2ylaOCh4PvxvvAQl2XYPWj5QJS5mifn343QMyqA4Al9nMu2Nc6VEjbBwYsT2H8rppxmSL%2FwfDSxC5qM5FODrXce7AWk39sTBwDG1f40%2BvmrNu4dN9QwbQMAJaXz1lAh22b5cucq%2FGUKFnP8uFX0GNncMProos8GOqUB4wjJmdONWN3GE88nAMK5emqkvUVvSOE%2BVtqZvxAN7kj2J7PoOCE464hhziAIc3Fzv73CQoaDv4PUNDlvPV1EzVHxHp7U6%2FOC0MjEqxof3lNQK4gtUK%2FbpMP4R1h465UKAf9fI5wZEdVhsYci98LcppX0%2FBDpSiSOE8ITPrallCKS1fkJmS8ZdUAxFC%2BaNe6TCqTTINBHi%2Fh8b9jBnvAFGzNM1G8X&X-Amz-Signature=806ca78d995c921cd44fe9cceddb417defc6e0cc7d5d23f57c0a934e6976cb6a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "name": "And5 Studio",
     "altname": [],
     "founded": null,
@@ -25876,7 +26505,11 @@
     "cover": null,
     "name": "Цукіхана",
     "altname": [],
-    "founded": null,
+    "founded": {
+      "start": "2025-03-10",
+      "end": null,
+      "time_zone": null
+    },
     "type_team": [
       "Фандаб",
       "Фансаб"
@@ -25895,6 +26528,21 @@
       },
       {
         "id": "2eed30fa-35d0-80dd-aeaa-f544ed22e66c"
+      },
+      {
+        "id": "34ad30fa-35d0-8011-8ea7-fd626c72cf9d"
+      },
+      {
+        "id": "34ad30fa-35d0-8011-9ee2-cd73715539fc"
+      },
+      {
+        "id": "34ad30fa-35d0-8027-85a1-e88cf8e07670"
+      },
+      {
+        "id": "34ad30fa-35d0-8042-9bf6-dd53d2f65056"
+      },
+      {
+        "id": "34ad30fa-35d0-80bc-851a-d7229fd24426"
       }
     ],
     "site": null,
@@ -25903,7 +26551,7 @@
     "tiktok": null,
     "tg": "https://t.me/Tsukihana_ua",
     "created_time": "2025-10-15T11:40:00.000Z",
-    "last_edited": "2026-02-19T12:33:00.000Z"
+    "last_edited": "2026-04-22T11:54:00.000Z"
   },
   {
     "id": "28ed30fa-35d0-803e-bb1b-e74399d75e19",
@@ -25950,7 +26598,17 @@
         "id": "1ecd30fa-35d0-80e4-8c3b-d99dde83fa89"
       }
     ],
-    "anime_releases": [],
+    "anime_releases": [
+      {
+        "id": "22ad30fa-35d0-801c-8676-ce2cf2c479a2"
+      },
+      {
+        "id": "33bd30fa-35d0-8061-a08c-e8b3e61c18ac"
+      },
+      {
+        "id": "33bd30fa-35d0-80bb-9c68-d5a74be085c6"
+      }
+    ],
     "site": null,
     "anitube": null,
     "insta": null,
@@ -25976,6 +26634,9 @@
     "anime_releases": [
       {
         "id": "2e3d30fa-35d0-803c-a819-f28b7f709f3f"
+      },
+      {
+        "id": "349d30fa-35d0-80a5-87f1-eb1a98d74355"
       }
     ],
     "site": null,
@@ -25999,6 +26660,12 @@
     "anime_releases": [
       {
         "id": "190d30fa-35d0-804a-9bc8-e7b9cc56249e"
+      },
+      {
+        "id": "34ad30fa-35d0-8092-bdb4-dd4aa61a5411"
+      },
+      {
+        "id": "34ad30fa-35d0-80b0-8eb9-d1514a0c4675"
       }
     ],
     "site": null,
@@ -26362,5 +27029,51 @@
     "tg": null,
     "created_time": "2026-03-02T09:05:00.000Z",
     "last_edited": "2026-03-02T09:05:00.000Z"
+  },
+  {
+    "id": "342d30fa-35d0-80d4-a5f7-e2a21af35c7b",
+    "cover": null,
+    "name": "SHOGUN ✙",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "342d30fa-35d0-80c5-8f4b-d5da6754b914"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-04-14T22:37:00.000Z",
+    "last_edited": "2026-04-14T22:37:00.000Z"
+  },
+  {
+    "id": "34ad30fa-35d0-80a5-b217-df542e70e2bd",
+    "cover": null,
+    "name": "Milki DUB",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "34ad30fa-35d0-801a-ae7f-c7be40e711a8"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-04-22T11:27:00.000Z",
+    "last_edited": "2026-04-22T11:27:00.000Z"
   }
 ]
