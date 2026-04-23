@@ -8801,6 +8801,30 @@
       },
       {
         "id": "30bd30fa-35d0-80af-b84e-f07cf739ef1c"
+      },
+      {
+        "id": "34bd30fa-35d0-8018-a550-d0fd211fcad0"
+      },
+      {
+        "id": "34bd30fa-35d0-803d-a68a-df4543a7fb0d"
+      },
+      {
+        "id": "34bd30fa-35d0-8049-9c27-cfa0b7aa4de4"
+      },
+      {
+        "id": "34bd30fa-35d0-804d-809f-edd8526a258a"
+      },
+      {
+        "id": "34bd30fa-35d0-808b-9125-f841e0f96572"
+      },
+      {
+        "id": "34bd30fa-35d0-809f-b52a-ffade8f0cd36"
+      },
+      {
+        "id": "34bd30fa-35d0-80f1-bd5d-ed72c2e2d4bf"
+      },
+      {
+        "id": "34bd30fa-35d0-80fe-a260-dbf3374b9668"
       }
     ],
     "site": null,
@@ -10125,6 +10149,12 @@
       },
       {
         "id": "21dd30fa-35d0-80de-b309-d023e07f4f8b"
+      },
+      {
+        "id": "200d30fa-35d0-8049-b8f5-c010492fcef5"
+      },
+      {
+        "id": "200d30fa-35d0-80e6-962b-d56cf00f3b19"
       }
     ],
     "site": null,
@@ -13346,6 +13376,9 @@
       },
       {
         "id": "342d30fa-35d0-8020-b673-d50ad8328945"
+      },
+      {
+        "id": "34ad30fa-35d0-808a-b304-dab1d41d7d0c"
       }
     ],
     "site": null,
@@ -17333,6 +17366,9 @@
       },
       {
         "id": "34ad30fa-35d0-8095-a4d1-e1d534a159d6"
+      },
+      {
+        "id": "34ad30fa-35d0-80a3-bc38-e8b9cdd9c11e"
       }
     ],
     "site": null,
@@ -21197,6 +21233,12 @@
       },
       {
         "id": "34ad30fa-35d0-8037-9bfc-df97f2ccf9d1"
+      },
+      {
+        "id": "34ad30fa-35d0-808c-ab4b-f539e876b2a3"
+      },
+      {
+        "id": "34bd30fa-35d0-8067-8fb1-d80081857da3"
       }
     ],
     "site": null,
@@ -23958,6 +24000,9 @@
       },
       {
         "id": "2e9d30fa-35d0-80d2-bf3b-d7501f6c9119"
+      },
+      {
+        "id": "34ad30fa-35d0-80d6-9e79-da5f3b517be7"
       }
     ],
     "site": null,
@@ -26246,6 +26291,9 @@
       },
       {
         "id": "2e9d30fa-35d0-80f5-9ce1-f006cecc3c36"
+      },
+      {
+        "id": "34ad30fa-35d0-8055-9115-cad9c6199a8f"
       }
     ],
     "site": null,
@@ -27075,5 +27123,28 @@
     "tg": null,
     "created_time": "2026-04-22T11:27:00.000Z",
     "last_edited": "2026-04-22T11:27:00.000Z"
+  },
+  {
+    "id": "34bd30fa-35d0-8096-be96-c03cf4e25bff",
+    "cover": null,
+    "name": "Blueberry Studio",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "34bd30fa-35d0-80ca-9c9e-e8cb6415a2fd"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-04-23T09:50:00.000Z",
+    "last_edited": "2026-04-23T09:50:00.000Z"
   }
 ]
