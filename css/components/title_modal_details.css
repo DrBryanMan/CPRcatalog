@@ -7,6 +7,21 @@
     overflow: hidden;
 }
 
+#animeDetailModal.is-fallback-open {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    max-width: none;
+    height: 100vh;
+    max-height: none;
+    border: 0;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
 .anime-detail-modal::backdrop {
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(4px);
@@ -75,6 +90,14 @@
     max-height: 90vh;
     overflow: hidden;
     overflow-y: auto;
+}
+
+.anime-detail-modal.is-fallback-open .modal-content {
+    width: min(1200px, 95vw);
+    max-height: 90vh;
+    border-radius: 12px;
+    background: var(--dark);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .anime-detail-modal .modal-header {

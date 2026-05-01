@@ -46,8 +46,21 @@ export function createTitleModal() {
   function ensureModalOpen() {
     if (state.isOpen) return
     state.isOpen = true
-    state.modal.showModal()
+    if (typeof state.modal.showModal === 'function') {
+      try {
+        state.modal.showModal()
+      } catch (error) {
+        openModalFallback()
+      }
+    } else {
+      openModalFallback()
+    }
     document.body.classList.add('modal-open')
+  }
+
+  function openModalFallback() {
+    state.modal.setAttribute('open', '')
+    state.modal.classList.add('is-fallback-open')
   }
 
   function resetState() {
@@ -68,7 +81,14 @@ export function createTitleModal() {
   function closeImmediately() {
     if (!state.isOpen) return
     resetState()
-    state.modal.close()
+    if (state.modal.classList.contains('is-fallback-open')) {
+      state.modal.removeAttribute('open')
+      state.modal.classList.remove('is-fallback-open')
+    } else if (typeof state.modal.close === 'function') {
+      state.modal.close()
+    } else {
+      state.modal.removeAttribute('open')
+    }
     document.body.classList.remove('modal-open')
     resetModalContent()
   }
@@ -109,6 +129,11 @@ export function createTitleModal() {
       const modalContent = state.modal.querySelector('.modal-content')
       if (!modalContent.contains(e.target)) close()
     }
+
+    state.modal.addEventListener('cancel', (e) => {
+      e.preventDefault()
+      close()
+    })
 
     // ESC: лише з релізу повертаємось, інакше — закриваємо
     document.addEventListener('keydown', (e) => {
