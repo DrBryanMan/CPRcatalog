@@ -5688,6 +5688,9 @@
       },
       {
         "id": "34ad30fa-35d0-8004-bdf3-c23ed5897a08"
+      },
+      {
+        "id": "352d30fa-35d0-8008-9bdd-ecb2628becb1"
       }
     ],
     "site": null,
@@ -5732,6 +5735,9 @@
       },
       {
         "id": "1ecd30fa-35d0-80f2-8e2a-cc8ddcbcef8d"
+      },
+      {
+        "id": "350d30fa-35d0-80e2-8f8e-dc1a9b060e88"
       }
     ],
     "site": null,
@@ -7520,7 +7526,11 @@
     "altname": [
       "Jakob&akainu19"
     ],
-    "founded": null,
+    "founded": {
+      "start": "2022-04-27",
+      "end": null,
+      "time_zone": null
+    },
     "type_team": [
       "Фандаб",
       "Фансаб",
@@ -7530,7 +7540,11 @@
       "Аніме"
     ],
     "status": "Активна",
-    "members": [],
+    "members": [
+      {
+        "id": "200d30fa-35d0-80de-b8a8-f5dc0f9df4ca"
+      }
+    ],
     "anime_releases": [
       {
         "id": "174d30fa-35d0-8112-af47-cc21693ea056"
@@ -7791,7 +7805,7 @@
     "tiktok": null,
     "tg": "https://t.me/Togarashidub",
     "created_time": "2025-01-07T06:58:00.000Z",
-    "last_edited": "2026-02-19T11:46:00.000Z"
+    "last_edited": "2026-04-27T12:36:00.000Z"
   },
   {
     "id": "174d30fa-35d0-8180-920e-e5cad2a32eed",
@@ -8825,6 +8839,9 @@
       },
       {
         "id": "34bd30fa-35d0-80fe-a260-dbf3374b9668"
+      },
+      {
+        "id": "353d30fa-35d0-809d-b4da-e4c673dfbf5e"
       }
     ],
     "site": null,
@@ -9219,6 +9236,9 @@
       },
       {
         "id": "349d30fa-35d0-8022-bc7e-cad9f53498f9"
+      },
+      {
+        "id": "34fd30fa-35d0-805f-9bcb-d79503513b47"
       }
     ],
     "site": null,
@@ -13379,6 +13399,9 @@
       },
       {
         "id": "34ad30fa-35d0-808a-b304-dab1d41d7d0c"
+      },
+      {
+        "id": "350d30fa-35d0-80b2-bb60-fa6d0dcbf178"
       }
     ],
     "site": null,
@@ -17369,6 +17392,9 @@
       },
       {
         "id": "34ad30fa-35d0-80a3-bc38-e8b9cdd9c11e"
+      },
+      {
+        "id": "352d30fa-35d0-806c-a594-d700586cffc4"
       }
     ],
     "site": null,
@@ -17618,6 +17644,9 @@
       },
       {
         "id": "2ead30fa-35d0-8007-9487-e356870a3c3a"
+      },
+      {
+        "id": "350d30fa-35d0-8092-843a-e392af22ecde"
       }
     ],
     "site": null,
@@ -21239,6 +21268,15 @@
       },
       {
         "id": "34bd30fa-35d0-8067-8fb1-d80081857da3"
+      },
+      {
+        "id": "352d30fa-35d0-8097-a342-eb756716df45"
+      },
+      {
+        "id": "352d30fa-35d0-80b1-8915-de48e0ed1f6f"
+      },
+      {
+        "id": "352d30fa-35d0-80d3-a222-d6ddbb0b529b"
       }
     ],
     "site": null,
@@ -22641,6 +22679,9 @@
       },
       {
         "id": "34ad30fa-35d0-80ab-9406-f36022e6aa3d"
+      },
+      {
+        "id": "352d30fa-35d0-80af-aa3f-c454d99990d8"
       }
     ],
     "site": null,
@@ -24016,7 +24057,7 @@
   {
     "id": "1f2d30fa-35d0-80de-8a77-da12510acee7",
     "cover": null,
-    "name": "Sekai studio",
+    "name": "SekaiStudio",
     "altname": [],
     "founded": null,
     "type_team": [
@@ -24044,7 +24085,7 @@
     "tiktok": null,
     "tg": null,
     "created_time": "2025-05-13T20:44:00.000Z",
-    "last_edited": "2026-02-19T11:24:00.000Z"
+    "last_edited": "2026-05-01T07:09:00.000Z"
   },
   {
     "id": "1f3d30fa-35d0-8049-b10c-cc0eb4f3771a",
@@ -26400,7 +26441,7 @@
   {
     "id": "24fd30fa-35d0-8088-91b0-ccab38dbf2e4",
     "cover": null,
-    "name": "NWR Studio",
+    "name": "Так, Озвучимо! (NWR)",
     "altname": [
       "NewWaveRecordUA"
     ],
@@ -26419,6 +26460,36 @@
       },
       {
         "id": "2e6d30fa-35d0-80a4-81fc-f4cf19a79a41"
+      },
+      {
+        "id": "353d30fa-35d0-8021-a6a3-da1984e95573"
+      },
+      {
+        "id": "353d30fa-35d0-8048-9c62-d3e4e5da1b60"
+      },
+      {
+        "id": "353d30fa-35d0-805c-868c-ea03b2a68413"
+      },
+      {
+        "id": "353d30fa-35d0-8077-8d79-fa573d5f7824"
+      },
+      {
+        "id": "353d30fa-35d0-8088-b7ef-f939680349ac"
+      },
+      {
+        "id": "353d30fa-35d0-808a-ba1f-f894216ee200"
+      },
+      {
+        "id": "353d30fa-35d0-80a6-a568-d383597c0266"
+      },
+      {
+        "id": "353d30fa-35d0-80a7-bd95-ef3e4f424083"
+      },
+      {
+        "id": "353d30fa-35d0-80d1-935d-e44e33b3c023"
+      },
+      {
+        "id": "353d30fa-35d0-80e2-969e-f979c020fc0f"
       }
     ],
     "site": null,
@@ -26427,7 +26498,7 @@
     "tiktok": null,
     "tg": "https://t.me/NWRUA",
     "created_time": "2025-08-14T10:14:00.000Z",
-    "last_edited": "2026-02-19T11:16:00.000Z"
+    "last_edited": "2026-05-01T06:30:00.000Z"
   },
   {
     "id": "255d30fa-35d0-8089-86ff-c4f8a8d6c566",
@@ -26521,6 +26592,9 @@
       },
       {
         "id": "25dd30fa-35d0-8009-8686-c271b67927ce"
+      },
+      {
+        "id": "200d30fa-35d0-80de-b8a8-f5dc0f9df4ca"
       }
     ],
     "anime_releases": [
@@ -26546,7 +26620,7 @@
     "tiktok": null,
     "tg": "https://t.me/ozvuchka_sps",
     "created_time": "2025-10-10T09:38:00.000Z",
-    "last_edited": "2026-02-19T11:41:00.000Z"
+    "last_edited": "2026-04-28T05:39:00.000Z"
   },
   {
     "id": "28dd30fa-35d0-8022-9198-eab728217979",
@@ -26863,6 +26937,9 @@
     "anime_releases": [
       {
         "id": "2f6d30fa-35d0-8015-9868-fd7c217c7b49"
+      },
+      {
+        "id": "353d30fa-35d0-80d7-96d3-ee18fa2a3f77"
       }
     ],
     "site": null,
@@ -27146,5 +27223,31 @@
     "tg": null,
     "created_time": "2026-04-23T09:50:00.000Z",
     "last_edited": "2026-04-23T09:50:00.000Z"
+  },
+  {
+    "id": "353d30fa-35d0-80e2-a14a-ca752bb388da",
+    "cover": null,
+    "name": "MoonAnime",
+    "altname": [],
+    "founded": null,
+    "type_team": [],
+    "type_activity": [],
+    "status": "Невідомо",
+    "members": [],
+    "anime_releases": [
+      {
+        "id": "353d30fa-35d0-8071-b216-e577db570fa5"
+      },
+      {
+        "id": "353d30fa-35d0-80ef-861d-de00d7d612ea"
+      }
+    ],
+    "site": null,
+    "anitube": null,
+    "insta": null,
+    "tiktok": null,
+    "tg": null,
+    "created_time": "2026-05-01T07:26:00.000Z",
+    "last_edited": "2026-05-01T07:26:00.000Z"
   }
 ]

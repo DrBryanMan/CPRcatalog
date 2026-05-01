@@ -874,9 +874,9 @@ async function runAllImports(options = {}) {
 ;(async () => {
   try {
     await runAllImports({
-      anime:    { onlyModified: true, useLocalBase: true, update: { hikka: 'missing', mikai: 'missing', cover: 'new'}},
+      anime:    { onlyModified: true, useLocalBase: false, update: { hikka: 'missing', mikai: 'missing', cover: 'new'}},
       releases: { onlyModified: true, useLocalBase: false },
-      teams:    { onlyModified: true, useLocalBase: true }
+      teams:    { onlyModified: true, useLocalBase: false }
     })
     // await runAllImports({
     //   anime: {
