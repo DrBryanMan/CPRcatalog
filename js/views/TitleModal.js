@@ -31,8 +31,16 @@ export function createTitleModal() {
     }
     const targetHash = toHashRoute(route)
     if (window.location.hash !== targetHash) {
-      window.location.hash = targetHash
+      history.pushState(null, '', targetHash)
     }
+  }
+
+  function restoreReturnRouteSilently(route) {
+    const targetRoute = route || '#/'
+
+    if (window.location.hash === targetRoute) return
+
+    history.replaceState(null, '', targetRoute)
   }
 
   function ensureModalOpen() {
@@ -161,7 +169,6 @@ export function createTitleModal() {
     const { syncUrl = true, returnRoute = null } = options
     if (syncUrl) {
       navigateToRoute(buildAnimeRoute(animeId))
-      return
     }
 
     const anime = AnimeTitles.find(a => a.id === animeId)
@@ -185,10 +192,7 @@ export function createTitleModal() {
     if (!state.isOpen) return
     if (!skipRouteSync && isEntityDetailHash()) {
       const targetRoute = state.returnRoute || '#/'
-      if (window.location.hash !== targetRoute) {
-        window.location.hash = targetRoute
-        return
-      }
+      restoreReturnRouteSilently(targetRoute)
       closeImmediately()
       return
     }
@@ -204,7 +208,6 @@ export function createTitleModal() {
     const { syncUrl = true, returnRoute = null } = options
     if (syncUrl) {
       navigateToRoute(buildReleaseRoute(release.id))
-      return
     }
 
     ensureModalOpen()
@@ -223,7 +226,6 @@ export function createTitleModal() {
     if (!release) return console.error('Реліз не знайдено')
     if (syncUrl) {
       navigateToRoute(buildReleaseRoute(release.id))
-      return
     }
 
     ensureModalOpen()
@@ -244,7 +246,6 @@ export function createTitleModal() {
     const { syncUrl = true, returnRoute = null } = options
     if (syncUrl) {
       navigateToRoute(buildTeamRoute(teamId))
-      return
     }
 
     ensureModalOpen()
