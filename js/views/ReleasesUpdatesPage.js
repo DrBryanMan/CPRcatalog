@@ -1,6 +1,8 @@
-import { AnimeReleases } from '../loadData.js'
+import { AnimeReleases, PostersData } from '../loadData.js'
 import * as Functions from '../functions.js'
 import { titleModal } from './TitleModal.js'
+import { createReleasesGeneralStatsBlock } from './ReleasesUpdatesGeneralStats.js'
+import { applyPosterFallback, getAnimePosterUrl, getOriginalPosterUrl } from '../utils/posters.js'
 
 const SEASON_DEFINITIONS = [
     { key: 'winter', label: 'Зима' },
@@ -98,6 +100,8 @@ function createInitialState(today, seasonOptions) {
         monthStatus: 'start',
         yearValue: today.getFullYear(),
         yearStatus: 'start',
+        generalStatsOpen: false,
+        generalStatsMode: 'season',
     }
 }
 
@@ -159,6 +163,13 @@ function renderStatsPanel(container, state, events, seasonOptions, today, rerend
             ${activeStats.cards.map(card => createStatCard(card.label, card.value, card.icon)).join('')}
         </div>
     `
+
+    container.appendChild(createReleasesGeneralStatsBlock({
+        events,
+        today,
+        state,
+        onStateChange: rerender,
+    }))
 }
 
 function createSeasonControl({ state, seasonOptions, currentYear, onSelect }) {
@@ -438,7 +449,7 @@ function createAnimeEventCard(animeGroup) {
     const card = document.createElement('article')
     card.classList.add('release-update-anime-card')
 
-    const poster = animeGroup.anime?.poster || animeGroup.anime?.hikka_poster || ''
+    const poster = getAnimePosterUrl(animeGroup.anime, PostersData)
 
     card.innerHTML = `
         <div class="release-update-anime-card__main">
@@ -465,6 +476,7 @@ function createAnimeEventCard(animeGroup) {
     const posterButton = card.querySelector('.release-update-anime-card__poster')
     const titleButton = card.querySelector('.release-update-anime-card__title')
     const rowsContainer = card.querySelector('.release-update-anime-card__rows')
+    applyPosterFallback(posterButton.querySelector('img'), getOriginalPosterUrl(animeGroup.anime))
 
     const openAnime = () => {
         if (animeGroup.anime?.id) {
@@ -762,14 +774,6 @@ function createSeasonOption(season, year, isPreviousYearExtra = false, isFuture 
 
 function getSeasonOptionById(seasonOptions, seasonId) {
     return seasonOptions.find(option => option.id === seasonId)
-}
-
-function getDefaultSeasonKey(seasonOptions, today) {
-    const currentYear = today.getFullYear()
-    const currentSeasonKey = getSeasonKeyByMonth(today.getMonth() + 1)
-    const currentSeason = seasonOptions.find(option => option.year === currentYear && option.key === currentSeasonKey)
-
-    return currentSeason?.id || seasonOptions.find(option => !option.isFuture)?.id || seasonOptions[0]?.id || ''
 }
 
 function collectAnimeIds(event) {

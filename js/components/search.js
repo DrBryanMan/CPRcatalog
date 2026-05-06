@@ -1,4 +1,6 @@
-import { AnimeTitles, AnimeReleases, Teams } from '../loadData.js' // Змінні з даними
+import { AnimeTitles, AnimeReleases, Teams, PostersData } from '../loadData.js' // Змінні з даними
+import { router } from '../router.js'
+import { applyPosterFallback, getAnimePosterUrl, getOriginalPosterUrl } from '../utils/posters.js'
 import { titleModal } from '../views/TitleModal.js'
 
 export function initSearch() {
@@ -51,37 +53,41 @@ export function initSearch() {
             
             switch(type) {
                 case 'anime':
+                    const animePoster = getAnimePosterUrl(result, PostersData)
                     div.innerHTML = `
-                        <img src="${result.poster}">
+                        <img src="${animePoster}" alt="${result.title || ''}">
                         <div>
                             <div><label class="truncate" title="${result.title}">${result.title}</label></div>
                             <p>${result.year}</p>
                         </div>
                     `
+                    applyPosterFallback(div.querySelector('img'), getOriginalPosterUrl(result))
                     div.onclick = () => (titleModal.open(result?.id), searchModal.close())
                     // div.onclick = () => (Components.renderAnimeDetail(result), searchModal.close())
                     break
                 case 'releases':
                     const anime = AnimeTitles.find(anime => result.animeIds.includes(anime.id))
+                    const releasePoster = getAnimePosterUrl(anime, PostersData)
                     div.innerHTML = `
-                        <img src="${anime?.poster}">
+                        <img src="${releasePoster}" alt="${result.title || ''}">
                         <div>
                             <div><label class="truncate" title="${result.title}">${result.title}</label></div>
                             <p>Епізоди: ${result.episodes}</p>
                         </div>
                     `
+                    applyPosterFallback(div.querySelector('img'), getOriginalPosterUrl(anime))
                     div.onclick = () => (titleModal.renderReleaseDetail(result), searchModal.close())
                     // div.onclick = () => (Components.renderReleaseDetail(result), searchModal.close())
                     break
                 case 'teams':
                     div.innerHTML = `
-                        <img src="${result.logo}"">
+                        <img src="${result.logo}" alt="${result.name || ''}">
                         <div>
                             <strong>${result.name}</strong>
                             <p>Релізів: ${result.anime_releases.length}</p>
                         </div>
                     `
-                    div.onclick = () => router.navigate(`/animehub/team/${result.id}`)
+                    div.onclick = () => (router.navigate(`/animehub/team/${result.id}`), searchModal.close())
                     // div.onclick = () => (Components.renderTeamDetail(result), searchModal.close())
                     break
             }
