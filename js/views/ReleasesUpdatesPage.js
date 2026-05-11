@@ -1,7 +1,7 @@
 import { AnimeReleases, PostersData } from '../loadData.js'
 import * as Functions from '../functions.js'
 import { titleModal } from './TitleModal.js'
-import { createReleasesGeneralStatsBlock } from './ReleasesUpdatesGeneralStats.js'
+// import { createReleasesGeneralStatsBlock } from './ReleasesUpdatesGeneralStats.js'
 import { applyPosterFallback, getAnimePosterUrl, getOriginalPosterUrl } from '../utils/posters.js'
 
 const SEASON_DEFINITIONS = [
