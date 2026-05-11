@@ -164,12 +164,12 @@ function renderStatsPanel(container, state, events, seasonOptions, today, rerend
         </div>
     `
 
-    container.appendChild(createReleasesGeneralStatsBlock({
-        events,
-        today,
-        state,
-        onStateChange: rerender,
-    }))
+    // container.appendChild(createReleasesGeneralStatsBlock({
+    //     events,
+    //     today,
+    //     state,
+    //     onStateChange: rerender,
+    // }))
 }
 
 function createSeasonControl({ state, seasonOptions, currentYear, onSelect }) {
