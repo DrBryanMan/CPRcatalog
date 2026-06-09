@@ -2777,6 +2777,9 @@
       },
       {
         "id": "2edd30fa-35d0-80d4-80e2-d509168befe9"
+      },
+      {
+        "id": "356d30fa-35d0-801e-b3d3-c3ea7fdd1e6b"
       }
     ],
     "site": null,
@@ -3968,6 +3971,9 @@
       },
       {
         "id": "342d30fa-35d0-80ac-8ff9-ccca35d88aa6"
+      },
+      {
+        "id": "357d30fa-35d0-80c1-8d51-d2985b603536"
       }
     ],
     "site": null,
@@ -5692,6 +5698,9 @@
       },
       {
         "id": "352d30fa-35d0-8008-9bdd-ecb2628becb1"
+      },
+      {
+        "id": "356d30fa-35d0-809b-b970-d04f6f9cc826"
       }
     ],
     "site": null,
@@ -8843,6 +8852,9 @@
       },
       {
         "id": "353d30fa-35d0-809d-b4da-e4c673dfbf5e"
+      },
+      {
+        "id": "217d30fa-35d0-80ed-a686-d0d1d2ec92b0"
       }
     ],
     "site": null,
@@ -9240,6 +9252,9 @@
       },
       {
         "id": "34fd30fa-35d0-805f-9bcb-d79503513b47"
+      },
+      {
+        "id": "356d30fa-35d0-8079-bbb7-c59b6015b26d"
       }
     ],
     "site": null,
@@ -13404,6 +13419,9 @@
       },
       {
         "id": "350d30fa-35d0-80b2-bb60-fa6d0dcbf178"
+      },
+      {
+        "id": "356d30fa-35d0-8085-ae61-ef227a787015"
       }
     ],
     "site": null,
@@ -17398,6 +17416,9 @@
       },
       {
         "id": "352d30fa-35d0-806c-a594-d700586cffc4"
+      },
+      {
+        "id": "357d30fa-35d0-80f5-8b95-f2e815a84930"
       }
     ],
     "site": null,
@@ -21280,6 +21301,9 @@
       },
       {
         "id": "352d30fa-35d0-80d3-a222-d6ddbb0b529b"
+      },
+      {
+        "id": "357d30fa-35d0-8058-a1de-c6935d9a78b0"
       }
     ],
     "site": null,
@@ -22685,6 +22709,9 @@
       },
       {
         "id": "352d30fa-35d0-80af-aa3f-c454d99990d8"
+      },
+      {
+        "id": "356d30fa-35d0-8015-9c8e-d5d54096efc5"
       }
     ],
     "site": null,
@@ -24602,6 +24629,9 @@
       },
       {
         "id": "342d30fa-35d0-80ac-8ff9-ccca35d88aa6"
+      },
+      {
+        "id": "357d30fa-35d0-80c1-8d51-d2985b603536"
       }
     ],
     "site": null,
@@ -27232,13 +27262,16 @@
   {
     "id": "34ad30fa-35d0-80a5-b217-df542e70e2bd",
     "cover": null,
-    "logo": "https://raw.githubusercontent.com/DrBryanMan/UAPosters/refs/heads/main/Лого%20команд/MilkiDub.jpg",
     "name": "Milki DUB",
     "altname": [],
     "founded": null,
-    "type_team": [],
-    "type_activity": [],
-    "status": "Невідомо",
+    "type_team": [
+      "Фандаб"
+    ],
+    "type_activity": [
+      "Аніме"
+    ],
+    "status": "Активна",
     "members": [],
     "anime_releases": [
       {
@@ -27249,9 +27282,9 @@
     "anitube": null,
     "insta": null,
     "tiktok": null,
-    "tg": null,
+    "tg": "https://t.me/Milki_dub_23_03_2026",
     "created_time": "2026-04-22T11:27:00.000Z",
-    "last_edited": "2026-04-22T11:27:00.000Z"
+    "last_edited": "2026-06-09T06:51:00.000Z"
   },
   {
     "id": "34bd30fa-35d0-8096-be96-c03cf4e25bff",
